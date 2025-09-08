@@ -1675,7 +1675,10 @@ static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8 taskId)
         NewGameBirchSpeech_StartFadeInTarget1OutTarget2(taskId, 2);
         NewGameBirchSpeech_StartFadePlatformOut(taskId, 1);
         NewGameBirchSpeech_ClearWindow(0);
-        StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer);
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer_Male);
+        else 
+            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer_Female);
         AddTextPrinterForMessage(TRUE);
         gTasks[taskId].func = Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter;
     }
@@ -1723,7 +1726,10 @@ static void Task_NewGameBirchSpeech_AreYouReady(u8 taskId)
         gTasks[taskId].tPlayerSpriteId = spriteId;
         NewGameBirchSpeech_StartFadeInTarget1OutTarget2(taskId, 2);
         NewGameBirchSpeech_StartFadePlatformOut(taskId, 1);
-        StringExpandPlaceholders(gStringVar4, gText_Birch_AreYouReady);
+        if (gSaveBlock2Ptr->playerGender == MALE)
+            StringExpandPlaceholders(gStringVar4, gText_Birch_AreYouReady_Male);
+        else
+            StringExpandPlaceholders(gStringVar4, gText_Birch_AreYouReady_Female);
         AddTextPrinterForMessage(TRUE);
         gTasks[taskId].func = Task_NewGameBirchSpeech_ShrinkPlayer;
     }

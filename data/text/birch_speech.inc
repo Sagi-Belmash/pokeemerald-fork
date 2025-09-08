@@ -25,7 +25,7 @@ gText_Birch_MainSpeech::
 	.string "סודות סביב פוקימון.\p"
 	.string "כדי לפענח את תעלומות הפוקימון,\n"
 	.string "אני עושה מחקרים.\l"
-	.string "זה מה שאני עושה.\p"
+	.string "זאת פרנסתי.\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
@@ -42,20 +42,38 @@ gText_Birch_WhatsYourName::
 gText_Birch_SoItsPlayer::
 	.string "אז הנך {PLAYER}{KUN}?$"
 
-gText_Birch_YourePlayer::
+gText_Birch_YourePlayer_Male::
 	.string "אה, אוקיי!\p"
-	.string "הנך {PLAYER}{KUN} שמגיעים\n"
+	.string "אתה {PLAYER}{KUN} שמגיע\n"
 	.string "לעיר מולדי ליטלרוט.\l"
 	.string "הבנתי!\p"
 	.string "$"
 
-gText_Birch_AreYouReady::
-	.string "אוקיי, מוכנים?\p"
-	.string "ההרפתקאה שלכם עומדת\n"
+gText_Birch_YourePlayer_Female::
+	.string "אה, אוקיי!\p"
+	.string "את {PLAYER}{KUN} שמגיעה\n"
+	.string "לעיר מולדי ליטלרוט.\l"
+	.string "הבנתי!\p"
+	.string "$"
+
+gText_Birch_AreYouReady_Male::
+	.string "אוקיי, מוכן?\p"
+	.string "ההרפתקאה שלך עומדת\n"
 	.string "להתחיל.\p"
-	.string "אזרו אומץ, וזנקו אל תוך\n"
+	.string "אזור אומץ, וזנק אל תוך\n"
 	.string "עולם הפוקימון איפה שחלומות,\l"
 	.string "הרפתקאות, וחברויות מחכות!\p"
-	.string "ובכן, אני אצפה לראותכם מאוחר יותר.\n"
-	.string "בואו לראות אותי במעבדת הפוקימון שלי.\p"
+	.string "ובכן, אני מצפה לראותך מאוחר יותר.\n"
+	.string "בוא לראות אותי במעבדת הפוקימון שלי.\p"
+	.string "$"
+
+gText_Birch_AreYouReady_Female::
+	.string "אוקיי, מוכנה?\p"
+	.string "ההרפתקאה שלך עומדת\n"
+	.string "להתחיל.\p"
+	.string "אזרי אומץ, וזנקי אל תוך\n"
+	.string "עולם הפוקימון איפה שחלומות,\l"
+	.string "הרפתקאות, וחברויות מחכות!\p"
+	.string "ובכן, אני מצפה לראותך מאוחר יותר.\n"
+	.string "בואי לראות אותי במעבדת הפוקימון שלי.\p"
 	.string "$"

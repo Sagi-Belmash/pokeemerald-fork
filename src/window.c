@@ -430,16 +430,12 @@ static void UNUSED BlitBitmapRectToWindowWithColorKey(u8 windowId, const u8 *pix
 void FillWindowPixelRect(u8 windowId, u8 fillValue, u16 x, u16 y, u16 width, u16 height)
 {
     struct Bitmap pixelRect;
-    u16 windowWidthPx = 8 * gWindows[windowId].window.width;
-
-    // Mirror the x coordinate for right-aligned drawing
-    u16 rightAlignedX = windowWidthPx - x - width;
 
     pixelRect.pixels = gWindows[windowId].tileData;
-    pixelRect.width = windowWidthPx;
+    pixelRect.width = 8 * gWindows[windowId].window.width;
     pixelRect.height = 8 * gWindows[windowId].window.height;
 
-    FillBitmapRect4Bit(&pixelRect, rightAlignedX, y, width, height, fillValue);
+    FillBitmapRect4Bit(&pixelRect, x, y, width, height, fillValue);
 }
 
 void CopyToWindowPixelBuffer(u8 windowId, const void *src, u16 size, u16 tileOffset)

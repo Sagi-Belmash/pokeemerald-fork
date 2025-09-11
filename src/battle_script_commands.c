@@ -6076,6 +6076,7 @@ static void DrawLevelUpBannerText(void)
     struct TextPrinterTemplate printerTemplate;
     u8 *txtPtr;
     u32 var;
+    u16 windowWidthPx = GetWindowAttribute(B_WIN_LEVEL_UP_BANNER, WINDOW_WIDTH) * 8;
 
     monLevel = GetMonData(&gPlayerParty[gBattleStruct->expGetterMonId], MON_DATA_LEVEL);
     monGender = GetMonGender(&gPlayerParty[gBattleStruct->expGetterMonId]);
@@ -6084,9 +6085,9 @@ static void DrawLevelUpBannerText(void)
     printerTemplate.currentChar = gStringVar4;
     printerTemplate.windowId = B_WIN_LEVEL_UP_BANNER;
     printerTemplate.fontId = FONT_SMALL;
-    printerTemplate.x = 32;
+    printerTemplate.x = windowWidthPx - 32;
     printerTemplate.y = 0;
-    printerTemplate.currentX = 32;
+    printerTemplate.currentX = windowWidthPx - 32;
     printerTemplate.currentY = 0;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;

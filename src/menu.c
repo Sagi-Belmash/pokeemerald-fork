@@ -902,8 +902,9 @@ void HofPCTopBar_RemoveWindow(void)
 static u8 InitMenu(u8 windowId, u8 fontId, u8 left, u8 top, u8 cursorHeight, u8 numChoices, u8 initialCursorPos, bool8 muteAPress)
 {
     s32 pos;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
-    sMenu.left = left;
+    sMenu.left = windowWidthPx - left;
     sMenu.top = top;
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = numChoices - 1;
@@ -941,7 +942,7 @@ void RedrawMenuCursor(u8 oldPos, u8 newPos)
 
     width = GetMenuCursorDimensionByFont(sMenu.fontId, 0);
     height = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
-    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), sMenu.left - 6, sMenu.optionHeight * oldPos + sMenu.top, width, height);
+    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
     AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0);
 }
 
@@ -1558,7 +1559,7 @@ u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, boo
 {
     s32 pos;
 
-    sMenu.left = 30 /*0*/;
+    sMenu.left = 0;
     sMenu.top = 1;
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = itemCount - 1;
@@ -1588,7 +1589,7 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     u32 i;
 
     for (i = 0; i < itemCount; i++)
-        AddTextPrinterParameterized(windowId, 1, menuActions[i].text, 20/*8*/, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(windowId, 1, menuActions[i].text, 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
@@ -1606,8 +1607,8 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
     printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
     printer.letterSpacing = 0;
     printer.lineSpacing = 0;
-    printer.x = 28; //8;
-    printer.currentX = 28;  //8;
+    printer.x = 8;
+    printer.currentX = 8;
 
     for (i = 0; i < itemCount; i++)
     {
@@ -1630,7 +1631,7 @@ void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 pa
     printer.currentChar = gText_YesNo;
     printer.windowId = sYesNoWindowId;
     printer.fontId = FONT_NORMAL;
-    printer.x = 20; //8
+    printer.x = 8;
     printer.y = 1;
     printer.currentX = printer.x;
     printer.currentY = printer.y;
@@ -1914,19 +1915,22 @@ void BgDmaFill(u32 bg, u8 value, int offset, int size)
     RequestDma3Fill(value << 24 | value << 16 | value << 8 | value, VRAM + addr, size * temp, 1);
 }
 
-void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 left, u8 top, const u8 *color, s8 speed, const u8 *str)
+void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 rightPadding, u8 top,
+                                  const u8 *color, s8 speed, const u8 *str)
 {
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = left;
-    printer.y = top;
+    printer.x = windowWidthPx - rightPadding - 8;
     printer.currentX = printer.x;
-    printer.currentY = printer.y;
+
+    printer.y = top;
+    printer.currentY = top;
     printer.letterSpacing = GetFontAttribute(fontId, FONTATTR_LETTER_SPACING);
-    printer.lineSpacing = GetFontAttribute(fontId, FONTATTR_LINE_SPACING);
+    printer.lineSpacing  = GetFontAttribute(fontId, FONTATTR_LINE_SPACING);
     printer.unk = 0;
     printer.fgColor = color[1];
     printer.bgColor = color[0];
@@ -1935,42 +1939,50 @@ void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 left, u8 top, const
     AddTextPrinter(&printer, speed, NULL);
 }
 
-void AddTextPrinterParameterized4(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineSpacing, const u8 *color, s8 speed, const u8 *str)
+void AddTextPrinterParameterized4(u8 windowId, u8 fontId, u8 rightPadding, u8 top,
+                                  u8 letterSpacing, u8 lineSpacing,
+                                  const u8 *color, s8 speed, const u8 *str)
 {
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = left;
-    printer.y = top;
+    printer.x = windowWidthPx - rightPadding - 8;
     printer.currentX = printer.x;
-    printer.currentY = printer.y;
-    printer.letterSpacing = letterSpacing;
-    printer.lineSpacing = lineSpacing;
-    printer.unk = 0;
-    printer.fgColor = color[1];
-    printer.bgColor = color[0];
-    printer.shadowColor = color[2];
 
-    AddTextPrinter(&printer, speed, NULL);
-}
-
-void AddTextPrinterParameterized5(u8 windowId, u8 fontId, const u8 *str, u8 left, u8 top, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16), u8 letterSpacing, u8 lineSpacing)
-{
-    struct TextPrinterTemplate printer;
-
-    printer.currentChar = str;
-    printer.windowId = windowId;
-    printer.fontId = fontId;
-    printer.x = left;
     printer.y = top;
-    printer.currentX = left;
     printer.currentY = top;
     printer.letterSpacing = letterSpacing;
     printer.lineSpacing = lineSpacing;
     printer.unk = 0;
+    printer.fgColor = color[1];
+    printer.bgColor = color[0];
+    printer.shadowColor = color[2];
 
+    AddTextPrinter(&printer, speed, NULL);
+}
+
+void AddTextPrinterParameterized5(u8 windowId, u8 fontId, const u8 *str,
+                                  u8 rightPadding, u8 top, u8 speed,
+                                  void (*callback)(struct TextPrinterTemplate *, u16),
+                                  u8 letterSpacing, u8 lineSpacing)
+{
+    struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+
+    printer.currentChar = str;
+    printer.windowId = windowId;
+    printer.fontId = fontId;
+    printer.x = windowWidthPx - rightPadding - 8;
+    printer.currentX = printer.x;
+
+    printer.y = top;
+    printer.currentY = top;
+    printer.letterSpacing = letterSpacing;
+    printer.lineSpacing = lineSpacing;
+    printer.unk = 0;
     printer.fgColor = GetFontAttribute(fontId, FONTATTR_COLOR_FOREGROUND);
     printer.bgColor = GetFontAttribute(fontId, FONTATTR_COLOR_BACKGROUND);
     printer.shadowColor = GetFontAttribute(fontId, FONTATTR_COLOR_SHADOW);

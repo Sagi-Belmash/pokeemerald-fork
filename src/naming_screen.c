@@ -195,7 +195,7 @@ static const u8 *const sTransferredToPCMessages[] =
     gText_PkmnTransferredLanettesPCBoxFull
 };
 
-static const u8 sText_AlphabetUpperLower[] = _("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!");
+static const u8 sText_AlphabetUpperLower[] = _("ABCDEFGHIJKLMNOPQRSTUVWXYZאבגדהוזחטיכלמנסעפצקרשתךםןףץ!");
 
 static const struct BgTemplate sBgTemplates[] =
 {
@@ -279,10 +279,10 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
-        __("abcdef ."),
-        __("ghijkl ,"),
-        __("mnopqrs "),
-        __("tuvwxyz "),
+        __("אבגדהו ."),
+        __("זחטיכל ,"),
+        __("מנסעפצק "),
+        __("רשתךםןףץ"),
     },
     [KEYBOARD_LETTERS_UPPER] = {
         __("ABCDEF ."),
@@ -473,9 +473,9 @@ static void NamingScreen_Init(void)
     sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
-    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 + 6;
+    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 + 60; // +6
     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
-        sNamingScreen->inputCharBaseXPos += 11;
+        sNamingScreen->inputCharBaseXPos -= 11;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
@@ -1350,14 +1350,14 @@ static void CreateTextEntrySprites(void)
     s16 xPos;
     u8 i;
 
-    xPos = sNamingScreen->inputCharBaseXPos - 5;
+    xPos = sNamingScreen->inputCharBaseXPos - 5 + 28; // - 5;
     spriteId = CreateSprite(&sSpriteTemplate_InputArrow, xPos, 56, 0);
     gSprites[spriteId].oam.priority = 3;
     gSprites[spriteId].invisible = TRUE;
     xPos = sNamingScreen->inputCharBaseXPos;
-    for (i = 0; i < sNamingScreen->template->maxChars; i++, xPos += 8)
+    for (i = 0; i < sNamingScreen->template->maxChars; i++, xPos -= 8)
     {
-        spriteId = CreateSprite(&sSpriteTemplate_Underscore, xPos + 3, 60, 0);
+        spriteId = CreateSprite(&sSpriteTemplate_Underscore, xPos - 3, 60, 0);
         gSprites[spriteId].oam.priority = 3;
         gSprites[spriteId].data[0] = i;
         gSprites[spriteId].invisible = TRUE;
@@ -1703,6 +1703,7 @@ static void HandleDpadMovement(struct Task *task)
 
 static void DrawNormalTextEntryBox(void)
 {
+    u8 rightAlignX;
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, sNamingScreen->template->title, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
@@ -1901,6 +1902,7 @@ static void DrawTextEntry(void)
     u8 temp[2];
     u16 extraWidth;
     u8 maxChars = sNamingScreen->template->maxChars;
+    u8 startXPos;
     u16 x = sNamingScreen->inputCharBaseXPos - 0x40;
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY], PIXEL_FILL(1));
@@ -1910,8 +1912,9 @@ static void DrawTextEntry(void)
         temp[0] = sNamingScreen->textBuffer[i];
         temp[1] = gText_ExpandedPlaceholder_Empty[0];
         extraWidth = (IsWideLetter(temp[0]) == TRUE) ? 2 : 0;
+        startXPos = (sNamingScreen->templateNum == NAMING_SCREEN_PLAYER || sNamingScreen->templateNum == NAMING_SCREEN_BOX || sNamingScreen->templateNum == NAMING_SCREEN_WALDA) ? 192 : 168;
 
-        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 + x + extraWidth, 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 - x - extraWidth, 1, TEXT_SKIP_DRAW, NULL);
     }
 
     TryDrawGenderIcon();

@@ -251,13 +251,14 @@ void DeactivateAllTextPrinters(void)
 u16 AddTextPrinterParameterized(u8 windowId, u8 fontId, const u8 *str, u8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16))
 {
     struct TextPrinterTemplate printerTemplate;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = str;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = fontId;
-    printerTemplate.x = x;
+    printerTemplate.x = windowWidthPx - x - 8;
     printerTemplate.y = y;
-    printerTemplate.currentX = x;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = y;
     printerTemplate.letterSpacing = gFonts[fontId].letterSpacing;
     printerTemplate.lineSpacing = gFonts[fontId].lineSpacing;

@@ -3787,13 +3787,14 @@ static void JoinGroup_EnableScriptContexts(void)
 static void PrintUnionRoomText(u8 windowId, u8 fontId, const u8 *str, u8 x, u8 y, u8 colorIdx)
 {
     struct TextPrinterTemplate printerTemplate;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = str;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = fontId;
-    printerTemplate.x = x;
+    printerTemplate.x = windowWidthPx - x - 8;
     printerTemplate.y = y;
-    printerTemplate.currentX = x;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = y;
     printerTemplate.unk = 0;
 

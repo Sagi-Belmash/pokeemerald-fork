@@ -1272,7 +1272,7 @@ const u8 gText_WhatWillPkmnDo[] = _("מה {B_ACTIVE_NAME_WITH_PREFIX}\nיעשה?
 const u8 gText_WhatWillPkmnDo2[] = _("מה {B_PLAYER_NAME}\nיעשה?");
 const u8 gText_WhatWillWallyDo[] = _("What will\nWALLY do?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
-const u8 gText_BattleMenu[] = _("הילחם{CLEAR_TO 56}תיק\nפוקימון{CLEAR_TO 56}ברח");
+const u8 gText_BattleMenu[] = _("תיק          קרב\nברח         פוקימון");
 const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");
 const u8 gText_MoveInterfacePP[] = _("PP ");
 const u8 gText_MoveInterfaceType[] = _("TYPE/");
@@ -2977,7 +2977,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     printerTemplate.currentChar = text;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = textInfo[windowId].fontId;
-    printerTemplate.x = windowWidthPx - textInfo[windowId].x - 6;
+    printerTemplate.x = windowWidthPx - textInfo[windowId].x - 8;
     printerTemplate.y = textInfo[windowId].y;
     printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = printerTemplate.y;
@@ -2987,13 +2987,6 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     printerTemplate.fgColor = textInfo[windowId].fgColor;
     printerTemplate.bgColor = textInfo[windowId].bgColor;
     printerTemplate.shadowColor = textInfo[windowId].shadowColor;
-
-    if (printerTemplate.x == 0xFF)
-    {
-        u32 width = GetBattleWindowTemplatePixelWidth(gBattleScripting.windowsType, windowId);
-        s32 alignX = GetStringCenterAlignXOffsetWithLetterSpacing(printerTemplate.fontId, printerTemplate.currentChar, width, printerTemplate.letterSpacing);
-        printerTemplate.x = printerTemplate.currentX = alignX;
-    }
 
     if (windowId == ARENA_WIN_JUDGMENT_TEXT)
         gTextFlags.useAlternateDownArrow = FALSE;
@@ -3030,6 +3023,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
         CopyWindowToVram(windowId, COPYWIN_FULL);
     }
 }
+
 
 void SetPpNumbersPaletteInMoveSelection(void)
 {

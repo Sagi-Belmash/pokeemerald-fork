@@ -1089,13 +1089,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_CLEAR_TO:
                 {
                     widthHelper = *textPrinter->printerTemplate.currentChar;
-                    widthHelper += textPrinter->printerTemplate.x;
                     textPrinter->printerTemplate.currentChar++;
-                    width = widthHelper - textPrinter->printerTemplate.currentX;
+                    // Calculate the target X position from the right side of the window
+                    // by subtracting the desired offset from the window's starting X.
+                    widthHelper = textPrinter->printerTemplate.x - widthHelper;
+                    // The width to clear is the space between the current position and the target position.
+                    width = textPrinter->printerTemplate.currentX - widthHelper;
                     if (width > 0)
                     {
                         ClearTextSpan(textPrinter, width);
-                        textPrinter->printerTemplate.currentX += width;
+                        textPrinter->printerTemplate.currentX = widthHelper;
                         return RENDER_PRINT;
                     }
                 }

@@ -436,9 +436,9 @@ static void NamingScreen_Init(void)
     sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
-    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 + 60; // +6
+    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 60; // +6
     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
-        sNamingScreen->inputCharBaseXPos -= 11;
+        sNamingScreen->inputCharBaseXPos -= 55;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
@@ -1304,11 +1304,11 @@ static void CreateTextEntrySprites(void)
     s16 xPos;
     u8 i;
 
-    xPos = sNamingScreen->inputCharBaseXPos - 5 + 28; // - 5;
+    xPos = sNamingScreen->inputCharBaseXPos + 140;
     spriteId = CreateSprite(&sSpriteTemplate_InputArrow, xPos, 56, 0);
     gSprites[spriteId].oam.priority = 3;
     gSprites[spriteId].invisible = TRUE;
-    xPos = sNamingScreen->inputCharBaseXPos;
+    xPos = sNamingScreen->inputCharBaseXPos + 128;
     for (i = 0; i < sNamingScreen->template->maxChars; i++, xPos -= 8)
     {
         spriteId = CreateSprite(&sSpriteTemplate_Underscore, xPos - 3, 60, 0);
@@ -1897,7 +1897,7 @@ static void PrintKeyboardKeys(u8 window, u8 page)
     FillWindowPixelBuffer(window, sFillValues[page]);
 
     for (i = 0; i < KBROW_COUNT; i++)
-        AddTextPrinterParameterized3(window, FONT_NORMAL, -100/* 0 */, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i]);
+        AddTextPrinterParameterized3(window, FONT_NORMAL, 0, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i]);
 
     PutWindowTilemap(window);
 }

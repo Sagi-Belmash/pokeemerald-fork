@@ -902,9 +902,8 @@ void HofPCTopBar_RemoveWindow(void)
 static u8 InitMenu(u8 windowId, u8 fontId, u8 left, u8 top, u8 cursorHeight, u8 numChoices, u8 initialCursorPos, bool8 muteAPress)
 {
     s32 pos;
-    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
-    sMenu.left = windowWidthPx - left;
+    sMenu.left = left;
     sMenu.top = top;
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = numChoices - 1;
@@ -939,10 +938,11 @@ static u8 UNUSED InitMenuDefaultCursorHeight(u8 windowId, u8 fontId, u8 left, u8
 void RedrawMenuCursor(u8 oldPos, u8 newPos)
 {
     u8 width, height;
+    u16 windowWidthPx = GetWindowAttribute(sMenu.windowId, WINDOW_WIDTH) * 8;
 
     width = GetMenuCursorDimensionByFont(sMenu.fontId, 0);
     height = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
-    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
+    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), windowWidthPx - sMenu.left - 16, sMenu.optionHeight * oldPos + sMenu.top, width, height);
     AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0);
 }
 
@@ -1316,11 +1316,14 @@ static void MoveMenuGridCursor(u8 oldCursorPos, u8 newCursorPos)
     u8 cursorWidth = GetMenuCursorDimensionByFont(sMenu.fontId, 0);
     u8 cursorHeight = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
 
-    u8 xPos = (oldCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
+    u16 windowWidthPx = GetWindowAttribute(sMenu.windowId, WINDOW_WIDTH) * 8;
+ 
+    u8 xPos = windowWidthPx - (oldCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     u8 yPos = (oldCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
+    
     FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), xPos, yPos, cursorWidth, cursorHeight);
 
-    xPos = (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
+    xPos = windowWidthPx - (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     yPos = (newCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
     AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0);
 }
@@ -1598,6 +1601,7 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
 {
     u8 i;
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.windowId = windowId;
     printer.fontId = FONT_NORMAL;
@@ -1607,8 +1611,8 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
     printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
     printer.letterSpacing = 0;
     printer.lineSpacing = 0;
-    printer.x = 8;
-    printer.currentX = 8;
+    printer.x = windowWidthPx - 8; // 8
+    printer.currentX = windowWidthPx - 8; // 8
 
     for (i = 0; i < itemCount; i++)
     {
@@ -1631,7 +1635,7 @@ void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 pa
     printer.currentChar = gText_YesNo;
     printer.windowId = sYesNoWindowId;
     printer.fontId = FONT_NORMAL;
-    printer.x = 8;
+    printer.x = 16;
     printer.y = 1;
     printer.currentX = printer.x;
     printer.currentY = printer.y;
@@ -1643,6 +1647,7 @@ void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 pa
     printer.lineSpacing = 0;
 
     AddTextPrinter(&printer, TEXT_SKIP_DRAW, NULL);
+
     InitMenuInUpperLeftCornerNormal(sYesNoWindowId, 2, initialCursorPos);
 }
 

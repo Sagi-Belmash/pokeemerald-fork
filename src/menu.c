@@ -1597,7 +1597,24 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
+                                           const struct MenuAction *menuActions,
+                                           const u8 *actionIds)
+{
+    u8 i;
+    for (i = 0; i < itemCount; i++)
+    {
+        AddTextPrinterParameterized(windowId, FONT_NORMAL,
+                                    menuActions[actionIds[i]].text,
+                                    8,  // fixed right margin
+                                    (i * 16) + 1,
+                                    TEXT_SKIP_DRAW, NULL);
+    }
+
+    CopyWindowToVram(windowId, COPYWIN_GFX);
+}
+
+/* void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
@@ -1623,7 +1640,7 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
     }
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
-}
+} */
 
 void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 paletteNum, u8 initialCursorPos)
 {
@@ -1929,8 +1946,8 @@ void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 rightPadding, u8 to
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = windowWidthPx - rightPadding - 8;
-    printer.currentX = printer.x;
+    printer.x = windowWidthPx - rightPadding;
+    printer.currentX = printer.x - 8;
 
     printer.y = top;
     printer.currentY = top;

@@ -1961,17 +1961,17 @@ void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 rightPadding, u8 to
     AddTextPrinter(&printer, speed, NULL);
 }
 
-void AddTextPrinterParameterized4(u8 windowId, u8 fontId, u8 rightPadding, u8 top,
+void AddTextPrinterParameterized4(u8 windowId, u8 fontId, s8 rightPadding, u8 top,
                                   u8 letterSpacing, u8 lineSpacing,
                                   const u8 *color, s8 speed, const u8 *str)
 {
     struct TextPrinterTemplate printer;
-    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = windowWidthPx - rightPadding - 8;
+    printer.x = (s8)(windowWidthPx - rightPadding - 8);
     printer.currentX = printer.x;
 
     printer.y = top;

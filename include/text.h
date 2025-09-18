@@ -66,7 +66,7 @@ struct TextPrinterTemplate
     const u8 *currentChar;
     u8 windowId;
     u8 fontId;
-    u8 x;
+    s8 x;
     u8 y;
     u8 currentX;        // 0x8
     u8 currentY;

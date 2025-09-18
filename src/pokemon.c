@@ -4602,7 +4602,43 @@ bool8 IsPokemonStorageFull(void)
     return TRUE;
 }
 
+const u8 (*GetSpeciesNamesArray(void))[POKEMON_NAME_LENGTH + 1]
+{
+    if (gSaveBlock2Ptr == NULL)
+        return gSpeciesNamesTranslit; // safe default before save exists
+
+    if (gSaveBlock2Ptr->optionsSpeciesNames == 1)
+        return gSpeciesNamesTranslit;
+    else
+        return gSpeciesNamesLiteral;
+}
+
 void GetSpeciesName(u8 *name, u16 species)
+{
+    s32 i;
+    const u8 (*namesArr)[POKEMON_NAME_LENGTH + 1];
+    const u8 *src;
+
+    namesArr = GetSpeciesNamesArray();
+
+    if (species == SPECIES_NONE || species > NUM_SPECIES)
+        src = namesArr[SPECIES_NONE];
+    else
+        src = namesArr[species];
+
+    /* copy with termination */
+    for (i = 0; i <= POKEMON_NAME_LENGTH; ++i)
+    {
+        name[i] = src[i];
+        if (src[i] == EOS)
+            break;
+    }
+
+    /* make sure buffer is terminated (defensive) */
+    name[POKEMON_NAME_LENGTH] = EOS;
+}
+
+/* void GetSpeciesName(u8 *name, u16 species)
 {
     s32 i;
 
@@ -4618,7 +4654,7 @@ void GetSpeciesName(u8 *name, u16 species)
     }
 
     name[i] = EOS;
-}
+} */
 
 u8 CalculatePPWithBonus(u16 move, u8 ppBonuses, u8 moveIndex)
 {

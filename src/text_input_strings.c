@@ -15,8 +15,8 @@ const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{CLEAR 6}.            F  E  D 
 const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{CLEAR 6},            L  K  J         I  H  G");
 const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{CLEAR 6}         S  R  Q  P         O  N  M");
 const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{CLEAR 6}         Z  Y  X  W         V  U  T");
-const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 6}         4 3 2 1 0");
-const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 6}         9 8 7 6 5");
+const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 6}           4       3       2       1       0");
+const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 6}           9       8       7       6       5");
 const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{CLEAR 6}   -     /      ♀     ♂      ?     !");
 const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{CLEAR 6}            '      ‘      ”      “     …");
 

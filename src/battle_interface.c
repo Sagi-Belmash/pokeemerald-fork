@@ -1113,11 +1113,12 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     //text[0] = CHAR_EXTRA_SYMBOL;
     text[0] = CHAR_LV_2;
     text[1] = CHAR_SPACER;
+    text[2] = CHAR_SPACER;
 
-    objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
+    objVram = ConvertIntToDecimalStringN(text + 3, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     xPos = 5 * (3 - (objVram - (text + 2)));
 
-    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, /* xPos */ 36, 3, 2, &windowId);
+    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, /* xPos */ 32, 3, 2, &windowId);
     spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
     if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)

@@ -1442,13 +1442,13 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 {
                     if (glyphWidth < minGlyphWidth)
                         glyphWidth = minGlyphWidth;
-                    lineWidth += glyphWidth;
+                    lineWidth -= glyphWidth;
                 }
                 else
                 {
-                    lineWidth += glyphWidth;
+                    lineWidth -= glyphWidth;
                     if (isJapanese && str[1] != EOS)
-                        lineWidth += localLetterSpacing;
+                        lineWidth -= localLetterSpacing;
                 }
             }
             bufferPointer = 0;

@@ -376,6 +376,12 @@ MAXIE          = FD 0B
 KYOGRE         = FD 0C
 GROUDON        = FD 0D
 
+ADD_YUD       = FD 0E
+ADD_HEY       = FD 0F
+ADD_TAF       = FD 10
+SWAP_YUD_2_TAF = FD 11
+SWAP_VAV_2_YUD = FD 12
+
 @ battle string placeholders
 
 B_BUFF1 = FD 00

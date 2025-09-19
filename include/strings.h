@@ -17,6 +17,12 @@ extern const u8 gText_ExpandedPlaceholder_Groudon[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];
 
+extern const u8 gText_ExpandedPlaceholder_Yud[];
+extern const u8 gText_ExpandedPlaceholder_Hey[];
+extern const u8 gText_ExpandedPlaceholder_Taf[];
+extern const u8 gText_ExpandedPlaceholder_Vav[];
+extern const u8 sEmptyString[];
+
 extern const u8 gText_FromSpace[];
 
 extern const u8 gText_Lv50[];

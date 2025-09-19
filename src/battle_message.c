@@ -315,7 +315,7 @@ static const u8 sText_AndEllipsis[] = _("And…\p");
 static const u8 sText_HMMovesCantBeForgotten[] = _("HM moves can't be\nforgotten now.\p");
 static const u8 sText_NotVeryEffective[] = _("It's not very effective…");
 static const u8 sText_SuperEffective[] = _("It's super effective!");
-static const u8 sText_GotAwaySafely[] = _("{PLAY_SE SE_FLEE}מילוט בשלום!\p");
+static const u8 sText_GotAwaySafely[] = _("{PLAY_SE SE_FLEE}התמלטות בשלום!\p");
 static const u8 sText_PkmnFledUsingIts[] = _("{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled\nusing its {B_LAST_ITEM}!\p");
 static const u8 sText_PkmnFledUsing[] = _("{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled\nusing {B_ATK_ABILITY}!\p");
 static const u8 sText_WildPkmnFled[] = _("{PLAY_SE SE_FLEE}Wild {B_BUFF1} fled!");
@@ -329,7 +329,7 @@ static const u8 sText_WildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} f
 static const u8 sText_TwoWildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and\n{B_LINK_OPPONENT2_NAME} fled!");
 static const u8 sText_NoRunningFromTrainers[] = _("No! There's no running\nfrom a TRAINER battle!\p");
 static const u8 sText_CantEscape[] = _("לא ניתן לברוח!\p");
-static const u8 sText_DontLeaveBirch[] = _("פרופ. בירץ': אל תשאיר אותי ככה!\p"); // Female Support Needed
+static const u8 sText_DontLeaveBirch[] = _("פרופ. בירץ': לא להשאיר אותי ככה!\p");
 static const u8 sText_ButNothingHappened[] = _("But nothing happened!");
 static const u8 sText_ButItFailed[] = _("But it failed!");
 static const u8 sText_ItHurtConfusion[] = _("It hurt itself in its\nconfusion!");
@@ -1509,7 +1509,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_MOVE_NAME_1] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1519,7 +1519,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_MOVE_NAME_2] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1529,7 +1529,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_MOVE_NAME_3] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1539,7 +1539,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_MOVE_NAME_4] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1549,7 +1549,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_PP] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1579,7 +1579,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_MOVE_TYPE] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1589,7 +1589,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     [B_WIN_SWITCH_PROMPT] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1749,7 +1749,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_MOVE_NAME_1] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1759,7 +1759,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_MOVE_NAME_2] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1769,7 +1769,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_MOVE_NAME_3] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1779,7 +1779,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_MOVE_NAME_4] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1789,7 +1789,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_PP] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1819,7 +1819,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_MOVE_TYPE] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,
@@ -1829,7 +1829,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     [B_WIN_SWITCH_PROMPT] = {
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = FONT_NARROW,
+        .fontId = FONT_NORMAL/*FONT_NARROW*/,
         .x = 0,
         .y = 1,
         .speed = 0,

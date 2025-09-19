@@ -453,6 +453,46 @@ static const u8 *ExpandPlaceholder_KunChan(void)
         return gText_ExpandedPlaceholder_Chan;
 }
 
+static const u8 *ExpandPlaceholder_AddYud(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Empty;
+    else
+        return gText_ExpandedPlaceholder_Yud;
+}
+
+static const u8 *ExpandPlaceholder_AddHey(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Empty;
+    else
+        return gText_ExpandedPlaceholder_Hey;
+}
+
+static const u8 *ExpandPlaceholder_AddTaf(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Empty;
+    else
+        return gText_ExpandedPlaceholder_Taf;
+}
+
+static const u8 *ExpandPlaceholder_SwapYud2Taf(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Yud;
+    else
+        return gText_ExpandedPlaceholder_Taf;
+}
+
+static const u8 *ExpandPlaceholder_SwapVav2Yud(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Vav;
+    else
+        return gText_ExpandedPlaceholder_Yud;
+}
+
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
@@ -502,20 +542,25 @@ const u8 *GetExpandedPlaceholder(u32 id)
 
     static const ExpandPlaceholderFunc funcs[] =
     {
-        [PLACEHOLDER_ID_UNKNOWN]      = ExpandPlaceholder_UnknownStringVar,
-        [PLACEHOLDER_ID_PLAYER]       = ExpandPlaceholder_PlayerName,
-        [PLACEHOLDER_ID_STRING_VAR_1] = ExpandPlaceholder_StringVar1,
-        [PLACEHOLDER_ID_STRING_VAR_2] = ExpandPlaceholder_StringVar2,
-        [PLACEHOLDER_ID_STRING_VAR_3] = ExpandPlaceholder_StringVar3,
-        [PLACEHOLDER_ID_KUN]          = ExpandPlaceholder_KunChan,
-        [PLACEHOLDER_ID_RIVAL]        = ExpandPlaceholder_RivalName,
-        [PLACEHOLDER_ID_VERSION]      = ExpandPlaceholder_Version,
-        [PLACEHOLDER_ID_AQUA]         = ExpandPlaceholder_Aqua,
-        [PLACEHOLDER_ID_MAGMA]        = ExpandPlaceholder_Magma,
-        [PLACEHOLDER_ID_ARCHIE]       = ExpandPlaceholder_Archie,
-        [PLACEHOLDER_ID_MAXIE]        = ExpandPlaceholder_Maxie,
-        [PLACEHOLDER_ID_KYOGRE]       = ExpandPlaceholder_Kyogre,
-        [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
+    [PLACEHOLDER_ID_UNKNOWN]        = ExpandPlaceholder_UnknownStringVar,
+    [PLACEHOLDER_ID_PLAYER]         = ExpandPlaceholder_PlayerName,
+    [PLACEHOLDER_ID_STRING_VAR_1]   = ExpandPlaceholder_StringVar1,
+    [PLACEHOLDER_ID_STRING_VAR_2]   = ExpandPlaceholder_StringVar2,
+    [PLACEHOLDER_ID_STRING_VAR_3]   = ExpandPlaceholder_StringVar3,
+    [PLACEHOLDER_ID_KUN]            = ExpandPlaceholder_KunChan,
+    [PLACEHOLDER_ID_RIVAL]          = ExpandPlaceholder_RivalName,
+    [PLACEHOLDER_ID_VERSION]        = ExpandPlaceholder_Version,
+    [PLACEHOLDER_ID_AQUA]           = ExpandPlaceholder_Aqua,
+    [PLACEHOLDER_ID_MAGMA]          = ExpandPlaceholder_Magma,
+    [PLACEHOLDER_ID_ARCHIE]         = ExpandPlaceholder_Archie,
+    [PLACEHOLDER_ID_MAXIE]          = ExpandPlaceholder_Maxie,
+    [PLACEHOLDER_ID_KYOGRE]         = ExpandPlaceholder_Kyogre,
+    [PLACEHOLDER_ID_GROUDON]        = ExpandPlaceholder_Groudon,
+    [PLACEHOLDER_ID_ADD_YUD]        = ExpandPlaceholder_AddYud,
+    [PLACEHOLDER_ID_ADD_HEY]        = ExpandPlaceholder_AddHey,
+    [PLACEHOLDER_ID_ADD_TAF]        = ExpandPlaceholder_AddTaf,
+    [PLACEHOLDER_ID_SWAP_YUD_2_TAF] = ExpandPlaceholder_SwapYud2Taf,
+    [PLACEHOLDER_ID_SWAP_VAV_2_YUD] = ExpandPlaceholder_SwapVav2Yud,
     };
 
     if (id >= ARRAY_COUNT(funcs))

@@ -263,6 +263,12 @@
 #define PLACEHOLDER_ID_KYOGRE        0xC
 #define PLACEHOLDER_ID_GROUDON       0xD
 
+#define PLACEHOLDER_ID_ADD_YUD       0xE
+#define PLACEHOLDER_ID_ADD_HEY       0xF
+#define PLACEHOLDER_ID_ADD_TAF       0x10
+#define PLACEHOLDER_ID_SWAP_YUD_2_TAF       0x11
+#define PLACEHOLDER_ID_SWAP_VAV_2_YUD       0x12
+
 // battle placeholders are located in battle_message.h
 
 // Hiragana from 0x1-0x50, Katakana from 0x51-0xA0.

@@ -453,7 +453,7 @@ static const u8 *ExpandPlaceholder_KunChan(void)
         return gText_ExpandedPlaceholder_Chan;
 }
 
-static const u8 *ExpandPlaceholder_AddYud(void)
+const u8 *ExpandPlaceholder_AddYud(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Empty;
@@ -461,7 +461,7 @@ static const u8 *ExpandPlaceholder_AddYud(void)
         return gText_ExpandedPlaceholder_Yud;
 }
 
-static const u8 *ExpandPlaceholder_AddHey(void)
+const u8 *ExpandPlaceholder_AddHey(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Empty;
@@ -469,7 +469,7 @@ static const u8 *ExpandPlaceholder_AddHey(void)
         return gText_ExpandedPlaceholder_Hey;
 }
 
-static const u8 *ExpandPlaceholder_AddTaf(void)
+const u8 *ExpandPlaceholder_AddTaf(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Empty;
@@ -477,7 +477,7 @@ static const u8 *ExpandPlaceholder_AddTaf(void)
         return gText_ExpandedPlaceholder_Taf;
 }
 
-static const u8 *ExpandPlaceholder_SwapYud2Taf(void)
+const u8 *ExpandPlaceholder_SwapYud2Taf(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Yud;
@@ -485,7 +485,7 @@ static const u8 *ExpandPlaceholder_SwapYud2Taf(void)
         return gText_ExpandedPlaceholder_Taf;
 }
 
-static const u8 *ExpandPlaceholder_SwapVav2Yud(void)
+const u8 *ExpandPlaceholder_SwapVav2Yud(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Vav;

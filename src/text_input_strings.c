@@ -7,16 +7,16 @@ const u8 gText_EasyChatKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{C
 const u8 gText_EasyChatKeyboard_TUVWXYZ[] = _("{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ");
 
 // Naming Screen keyboard
-const u8 gText_NamingScreenKeyboard_abcdef[] = _("{CLEAR 6}.             ו  ה  ד         ג  ב  א");
-const u8 gText_NamingScreenKeyboard_ghijkl[] = _("{CLEAR 6},            ל  כ   י         ט  ח  ז");
-const u8 gText_NamingScreenKeyboard_mnopqrs[] = _("{CLEAR 6}         ק  צ  פ  ע         ס  נ  מ");
+const u8 gText_NamingScreenKeyboard_abcdef[] = _("{CLEAR 6}.              ו  ה  ד        ג  ב  א");
+const u8 gText_NamingScreenKeyboard_ghijkl[] = _("{CLEAR 6},             ל  כ   י        ט  ח  ז");
+const u8 gText_NamingScreenKeyboard_mnopqrs[] = _("{CLEAR 6}          ק  צ  פ  ע        ס  נ  מ");
 const u8 gText_NamingScreenKeyboard_tuvwxyz[] = _("{CLEAR 6}ץ        ף  ן  ם  ך         ת  ש  ר");
-const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{CLEAR 6}.            F  E  D         C  B  A");
-const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{CLEAR 6},            L  K  J         I  H  G");
-const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{CLEAR 6}         S  R  Q  P         O  N  M");
-const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{CLEAR 6}         Z  Y  X  W         V  U  T");
-const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 6}           4       3       2       1       0");
-const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 6}           9       8       7       6       5");
+const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{CLEAR 6}.             F  E  D        C  B  A");
+const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{CLEAR 6},             L  K  J        I  H  G");
+const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{CLEAR 6}          S  R  Q  P        O  N  M");
+const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{CLEAR 6}          Z  Y  X  W        V  U  T");
+const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 40}4{CLEAR 40}3{CLEAR 40}2{CLEAR 40}1{CLEAR 40}0");
+const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 40}9{CLEAR 40}8{CLEAR 40}7{CLEAR 40}6{CLEAR 40}5");
 const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{CLEAR 6}   -     /      ♀     ♂      ?     !");
 const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{CLEAR 6}            '      ‘      ”      “     …");
 

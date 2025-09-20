@@ -43,4 +43,11 @@ s32 StringCompareWithoutExtCtrlCodes(const u8 *str1, const u8 *str2);
 void ConvertInternationalString(u8 *s, u8 language);
 void StripExtCtrlCodes(u8 *str);
 
+// Hebrew Char ExpandPlaceholders
+const u8 *ExpandPlaceholder_AddYud(void);
+const u8 *ExpandPlaceholder_AddHey(void);
+const u8 *ExpandPlaceholder_AddTaf(void);
+const u8 *ExpandPlaceholder_SwapYud2Taf(void);
+const u8 *ExpandPlaceholder_SwapVav2Yud(void);
+
 #endif // GUARD_STRING_UTIL_H

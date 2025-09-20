@@ -329,7 +329,7 @@ static const u8 sText_WildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} f
 static const u8 sText_TwoWildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and\n{B_LINK_OPPONENT2_NAME} fled!");
 static const u8 sText_NoRunningFromTrainers[] = _("No! There's no running\nfrom a TRAINER battle!\p");
 static const u8 sText_CantEscape[] = _("לא ניתן לברוח!\p");
-static const u8 sText_DontLeaveBirch[] = _("פרופ. בירץ': לא להשאיר אותי ככה!\p");
+static const u8 sText_DontLeaveBirch[] = _("פרופ. בירץ': אל תשאיר{B_ADD_YUD} אותי ככה!\p");
 static const u8 sText_ButNothingHappened[] = _("But nothing happened!");
 static const u8 sText_ButItFailed[] = _("But it failed!");
 static const u8 sText_ItHurtConfusion[] = _("It hurt itself in its\nconfusion!");
@@ -2364,6 +2364,21 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 {
                     toCpy = gBattleTextBuff3;
                 }
+                break;
+             case B_TXT_ADD_YUD:
+                toCpy = ExpandPlaceholder_AddYud();
+                break;
+            case B_TXT_ADD_HEY:
+                toCpy = ExpandPlaceholder_AddHey();
+                break;
+            case B_TXT_ADD_TAF:
+                toCpy = ExpandPlaceholder_AddTaf();
+                break;
+            case B_TXT_SWAP_YUD_2_TAF:
+                toCpy = ExpandPlaceholder_SwapYud2Taf();
+                break;
+            case B_TXT_SWAP_VAV_2_YUD:
+                toCpy = ExpandPlaceholder_SwapVav2Yud();
                 break;
             case B_TXT_COPY_VAR_1:
                 toCpy = gStringVar1;

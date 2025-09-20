@@ -438,6 +438,12 @@ B_PARTNER_CLASS = FD 32
 B_PARTNER_NAME = FD 33
 B_BUFF3 = FD 34
 
+B_ADD_YUD = FD 35
+B_ADD_HEY = FD 36
+B_ADD_TAF = FD 37
+B_SWAP_YUD_2_TAF = FD 38
+B_SWAP_VAV_2_YUD = FD 39
+
 @ indicates the end of a town/city name (before " TOWN" or " CITY")
 NAME_END = FC 00
 

@@ -62,6 +62,13 @@
 #define B_TXT_PARTNER_NAME 0x33
 #define B_TXT_BUFF3 0x34
 
+// Hebrew Battle String Placeholders
+#define B_TXT_ADD_YUD 0x35
+#define B_TXT_ADD_HEY 0x36
+#define B_TXT_ADD_TAF 0x37
+#define B_TXT_SWAP_YUD_2_TAF 0x38
+#define B_TXT_SWAP_VAV_2_YUD 0x39
+
 // for B_TXT_BUFF1, B_TXT_BUFF2 and B_TXT_BUFF3
 
 #define B_BUFF_STRING                   0

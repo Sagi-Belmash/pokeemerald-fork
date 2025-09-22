@@ -381,6 +381,8 @@ ADD_HEY       = FD 0F
 ADD_TAF       = FD 10
 SWAP_YUD_2_TAF = FD 11
 SWAP_VAV_2_YUD = FD 12
+SWAP_HEY_2_YUD = FD 13
+EMIT_HEY = FD 14
 
 @ battle string placeholders
 

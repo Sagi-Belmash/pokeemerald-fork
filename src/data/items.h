@@ -15,7 +15,7 @@ const struct Item gItems[] =
 
     [ITEM_MASTER_BALL] =
     {
-        .name = _("MASTER BALL"),
+        .name = _("כדור על"),
         .itemId = ITEM_MASTER_BALL,
         .price = 0,
         .description = sMasterBallDesc,
@@ -28,7 +28,7 @@ const struct Item gItems[] =
 
     [ITEM_ULTRA_BALL] =
     {
-        .name = _("ULTRA BALL"),
+        .name = _("כדור יתר"),
         .itemId = ITEM_ULTRA_BALL,
         .price = 1200,
         .description = sUltraBallDesc,
@@ -41,7 +41,7 @@ const struct Item gItems[] =
 
     [ITEM_GREAT_BALL] =
     {
-        .name = _("GREAT BALL"),
+        .name = _("כדור רב"),
         .itemId = ITEM_GREAT_BALL,
         .price = 600,
         .description = sGreatBallDesc,
@@ -54,7 +54,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_BALL] =
     {
-        .name = _("POKé BALL"),
+        .name = _("פוכדור"),
         .itemId = ITEM_POKE_BALL,
         .price = 200,
         .description = sPokeBallDesc,
@@ -67,7 +67,7 @@ const struct Item gItems[] =
 
     [ITEM_SAFARI_BALL] =
     {
-        .name = _("SAFARI BALL"),
+        .name = _("כדור ספארי"),
         .itemId = ITEM_SAFARI_BALL,
         .price = 0,
         .description = sSafariBallDesc,
@@ -80,7 +80,7 @@ const struct Item gItems[] =
 
     [ITEM_NET_BALL] =
     {
-        .name = _("NET BALL"),
+        .name = _("כדור רשת"),
         .itemId = ITEM_NET_BALL,
         .price = 1000,
         .description = sNetBallDesc,
@@ -93,7 +93,7 @@ const struct Item gItems[] =
 
     [ITEM_DIVE_BALL] =
     {
-        .name = _("DIVE BALL"),
+        .name = _("כדור צלילה"),
         .itemId = ITEM_DIVE_BALL,
         .price = 1000,
         .description = sDiveBallDesc,
@@ -106,7 +106,7 @@ const struct Item gItems[] =
 
     [ITEM_NEST_BALL] =
     {
-        .name = _("NEST BALL"),
+        .name = _("כדור קן"),
         .itemId = ITEM_NEST_BALL,
         .price = 1000,
         .description = sNestBallDesc,
@@ -119,7 +119,7 @@ const struct Item gItems[] =
 
     [ITEM_REPEAT_BALL] =
     {
-        .name = _("REPEAT BALL"),
+        .name = _("כדור חוזר"),
         .itemId = ITEM_REPEAT_BALL,
         .price = 1000,
         .description = sRepeatBallDesc,
@@ -132,7 +132,7 @@ const struct Item gItems[] =
 
     [ITEM_TIMER_BALL] =
     {
-        .name = _("TIMER BALL"),
+        .name = _("כדור עצר"),
         .itemId = ITEM_TIMER_BALL,
         .price = 1000,
         .description = sTimerBallDesc,
@@ -145,7 +145,7 @@ const struct Item gItems[] =
 
     [ITEM_LUXURY_BALL] =
     {
-        .name = _("LUXURY BALL"),
+        .name = _("כדור פאר"),
         .itemId = ITEM_LUXURY_BALL,
         .price = 1000,
         .description = sLuxuryBallDesc,
@@ -158,7 +158,7 @@ const struct Item gItems[] =
 
     [ITEM_PREMIER_BALL] =
     {
-        .name = _("PREMIER BALL"),
+        .name = _("כדור פרמיר"),
         .itemId = ITEM_PREMIER_BALL,
         .price = 200,
         .description = sPremierBallDesc,
@@ -173,7 +173,7 @@ const struct Item gItems[] =
 
     [ITEM_POTION] =
     {
-        .name = _("POTION"),
+        .name = _("שיקוי"),
         .itemId = ITEM_POTION,
         .price = 300,
         .holdEffectParam = 20,
@@ -187,7 +187,7 @@ const struct Item gItems[] =
 
     [ITEM_ANTIDOTE] =
     {
-        .name = _("ANTIDOTE"),
+        .name = _("נוגדן"),
         .itemId = ITEM_ANTIDOTE,
         .price = 100,
         .description = sAntidoteDesc,
@@ -200,7 +200,7 @@ const struct Item gItems[] =
 
     [ITEM_BURN_HEAL] =
     {
-        .name = _("BURN HEAL"),
+        .name = _("רפא כויה"),
         .itemId = ITEM_BURN_HEAL,
         .price = 250,
         .description = sBurnHealDesc,
@@ -213,7 +213,7 @@ const struct Item gItems[] =
 
     [ITEM_ICE_HEAL] =
     {
-        .name = _("ICE HEAL"),
+        .name = _("רפא קרח"),
         .itemId = ITEM_ICE_HEAL,
         .price = 250,
         .description = sIceHealDesc,
@@ -226,7 +226,7 @@ const struct Item gItems[] =
 
     [ITEM_AWAKENING] =
     {
-        .name = _("AWAKENING"),
+        .name = _("שיקוי מעורר"),
         .itemId = ITEM_AWAKENING,
         .price = 250,
         .description = sAwakeningDesc,
@@ -239,7 +239,7 @@ const struct Item gItems[] =
 
     [ITEM_PARALYZE_HEAL] =
     {
-        .name = _("PARLYZ HEAL"),
+        .name = _("רפא שיתוק"),
         .itemId = ITEM_PARALYZE_HEAL,
         .price = 200,
         .description = sParalyzeHealDesc,
@@ -252,7 +252,7 @@ const struct Item gItems[] =
 
     [ITEM_FULL_RESTORE] =
     {
-        .name = _("FULL RESTORE"),
+        .name = _("ריפוי מלא"),
         .itemId = ITEM_FULL_RESTORE,
         .price = 3000,
         .holdEffectParam = 255,
@@ -266,7 +266,7 @@ const struct Item gItems[] =
 
     [ITEM_MAX_POTION] =
     {
-        .name = _("MAX POTION"),
+        .name = _("שיקוי על"),
         .itemId = ITEM_MAX_POTION,
         .price = 2500,
         .holdEffectParam = 255,
@@ -280,7 +280,7 @@ const struct Item gItems[] =
 
     [ITEM_HYPER_POTION] =
     {
-        .name = _("HYPER POTION"),
+        .name = _("שיקוי יתר"),
         .itemId = ITEM_HYPER_POTION,
         .price = 1200,
         .holdEffectParam = 200,
@@ -294,7 +294,7 @@ const struct Item gItems[] =
 
     [ITEM_SUPER_POTION] =
     {
-        .name = _("SUPER POTION"),
+        .name = _("שיקוי רב"),
         .itemId = ITEM_SUPER_POTION,
         .price = 700,
         .holdEffectParam = 50,
@@ -308,7 +308,7 @@ const struct Item gItems[] =
 
     [ITEM_FULL_HEAL] =
     {
-        .name = _("FULL HEAL"),
+        .name = _("רפא מלא"),
         .itemId = ITEM_FULL_HEAL,
         .price = 600,
         .description = sFullHealDesc,
@@ -321,7 +321,7 @@ const struct Item gItems[] =
 
     [ITEM_REVIVE] =
     {
-        .name = _("REVIVE"),
+        .name = _("החייאה"),
         .itemId = ITEM_REVIVE,
         .price = 1500,
         .description = sReviveDesc,
@@ -334,7 +334,7 @@ const struct Item gItems[] =
 
     [ITEM_MAX_REVIVE] =
     {
-        .name = _("MAX REVIVE"),
+        .name = _("החייאת על"),
         .itemId = ITEM_MAX_REVIVE,
         .price = 4000,
         .description = sMaxReviveDesc,
@@ -347,7 +347,7 @@ const struct Item gItems[] =
 
     [ITEM_FRESH_WATER] =
     {
-        .name = _("FRESH WATER"),
+        .name = _("מים טריים"),
         .itemId = ITEM_FRESH_WATER,
         .price = 200,
         .holdEffectParam = 50,
@@ -361,7 +361,7 @@ const struct Item gItems[] =
 
     [ITEM_SODA_POP] =
     {
-        .name = _("SODA POP"),
+        .name = _("סודה פופ"),
         .itemId = ITEM_SODA_POP,
         .price = 300,
         .holdEffectParam = 60,
@@ -375,7 +375,7 @@ const struct Item gItems[] =
 
     [ITEM_LEMONADE] =
     {
-        .name = _("LEMONADE"),
+        .name = _("לימונדה"),
         .itemId = ITEM_LEMONADE,
         .price = 350,
         .holdEffectParam = 80,
@@ -389,7 +389,7 @@ const struct Item gItems[] =
 
     [ITEM_MOOMOO_MILK] =
     {
-        .name = _("MOOMOO MILK"),
+        .name = _("חלב מומו"),
         .itemId = ITEM_MOOMOO_MILK,
         .price = 500,
         .holdEffectParam = 100,
@@ -403,7 +403,7 @@ const struct Item gItems[] =
 
     [ITEM_ENERGY_POWDER] =
     {
-        .name = _("ENERGYPOWDER"),
+        .name = _("אבקת אנרגיה"),
         .itemId = ITEM_ENERGY_POWDER,
         .price = 500,
         .description = sEnergyPowderDesc,
@@ -416,7 +416,7 @@ const struct Item gItems[] =
 
     [ITEM_ENERGY_ROOT] =
     {
-        .name = _("ENERGY ROOT"),
+        .name = _("שורש אנרגיה"),
         .itemId = ITEM_ENERGY_ROOT,
         .price = 800,
         .description = sEnergyRootDesc,
@@ -429,7 +429,7 @@ const struct Item gItems[] =
 
     [ITEM_HEAL_POWDER] =
     {
-        .name = _("HEAL POWDER"),
+        .name = _("אבקת ריפוי"),
         .itemId = ITEM_HEAL_POWDER,
         .price = 450,
         .description = sHealPowderDesc,
@@ -442,7 +442,7 @@ const struct Item gItems[] =
 
     [ITEM_REVIVAL_HERB] =
     {
-        .name = _("REVIVAL HERB"),
+        .name = _("צמח תחייה"),
         .itemId = ITEM_REVIVAL_HERB,
         .price = 2800,
         .description = sRevivalHerbDesc,
@@ -455,7 +455,7 @@ const struct Item gItems[] =
 
     [ITEM_ETHER] =
     {
-        .name = _("ETHER"),
+        .name = _("את'ר"),
         .itemId = ITEM_ETHER,
         .price = 1200,
         .holdEffectParam = 10,
@@ -469,7 +469,7 @@ const struct Item gItems[] =
 
     [ITEM_MAX_ETHER] =
     {
-        .name = _("MAX ETHER"),
+        .name = _("אתר על"),
         .itemId = ITEM_MAX_ETHER,
         .price = 2000,
         .holdEffectParam = 255,
@@ -483,7 +483,7 @@ const struct Item gItems[] =
 
     [ITEM_ELIXIR] =
     {
-        .name = _("ELIXIR"),
+        .name = _("סם חיים"),
         .itemId = ITEM_ELIXIR,
         .price = 3000,
         .holdEffectParam = 10,
@@ -497,7 +497,7 @@ const struct Item gItems[] =
 
     [ITEM_MAX_ELIXIR] =
     {
-        .name = _("MAX ELIXIR"),
+        .name = _("סם חיים על"),
         .itemId = ITEM_MAX_ELIXIR,
         .price = 4500,
         .holdEffectParam = 255,
@@ -511,7 +511,7 @@ const struct Item gItems[] =
 
     [ITEM_LAVA_COOKIE] =
     {
-        .name = _("LAVA COOKIE"),
+        .name = _("עוגיית לבה"),
         .itemId = ITEM_LAVA_COOKIE,
         .price = 200,
         .description = sLavaCookieDesc,
@@ -524,7 +524,7 @@ const struct Item gItems[] =
 
     [ITEM_BLUE_FLUTE] =
     {
-        .name = _("BLUE FLUTE"),
+        .name = _("חליל כחול"),
         .itemId = ITEM_BLUE_FLUTE,
         .price = 100,
         .description = sBlueFluteDesc,
@@ -537,7 +537,7 @@ const struct Item gItems[] =
 
     [ITEM_YELLOW_FLUTE] =
     {
-        .name = _("YELLOW FLUTE"),
+        .name = _("חליל צהוב"),
         .itemId = ITEM_YELLOW_FLUTE,
         .price = 200,
         .description = sYellowFluteDesc,
@@ -550,7 +550,7 @@ const struct Item gItems[] =
 
     [ITEM_RED_FLUTE] =
     {
-        .name = _("RED FLUTE"),
+        .name = _("חליל אדום"),
         .itemId = ITEM_RED_FLUTE,
         .price = 300,
         .description = sRedFluteDesc,
@@ -563,7 +563,7 @@ const struct Item gItems[] =
 
     [ITEM_BLACK_FLUTE] =
     {
-        .name = _("BLACK FLUTE"),
+        .name = _("חליל שחור"),
         .itemId = ITEM_BLACK_FLUTE,
         .price = 400,
         .holdEffectParam = 50,
@@ -575,7 +575,7 @@ const struct Item gItems[] =
 
     [ITEM_WHITE_FLUTE] =
     {
-        .name = _("WHITE FLUTE"),
+        .name = _("חליל לבן"),
         .itemId = ITEM_WHITE_FLUTE,
         .price = 500,
         .holdEffectParam = 150,
@@ -587,7 +587,7 @@ const struct Item gItems[] =
 
     [ITEM_BERRY_JUICE] =
     {
-        .name = _("BERRY JUICE"),
+        .name = _("מיץ ברי"),
         .itemId = ITEM_BERRY_JUICE,
         .price = 100,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
@@ -602,7 +602,7 @@ const struct Item gItems[] =
 
     [ITEM_SACRED_ASH] =
     {
-        .name = _("SACRED ASH"),
+        .name = _("אפר קדוש"),
         .itemId = ITEM_SACRED_ASH,
         .price = 200,
         .description = sSacredAshDesc,

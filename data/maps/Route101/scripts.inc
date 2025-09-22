@@ -271,7 +271,7 @@ Route101_Text_DontLeaveMe:
 	.string "Don't leave me like this!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
+	.string "פרופ. בירץ': Whew…\p"
 	.string "I was in the tall grass studying wild\n"
 	.string "POKéMON when I was jumped.\p"
 	.string "You saved me.\n"

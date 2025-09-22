@@ -42,16 +42,9 @@ gText_Birch_WhatsYourName::
 gText_Birch_SoItsPlayer::
 	.string "אז הנך {PLAYER}{KUN}?$"
 
-gText_Birch_YourePlayer_Male::
+gText_Birch_YourePlayer::
 	.string "אה, אוקיי!\p"
-	.string "אתה {PLAYER}{KUN} שמגיע\n"
-	.string "לעיר מולדי ליטלרוט.\l"
-	.string "הבנתי!\p"
-	.string "$"
-
-gText_Birch_YourePlayer_Female::
-	.string "אה, אוקיי!\p"
-	.string "את {PLAYER}{KUN} שמגיעה\n"
+	.string "את{EMIT_HEY} {PLAYER}{KUN} שמגיע{ADD_HEY}\n"
 	.string "לעיר מולדי ליטלרוט.\l"
 	.string "הבנתי!\p"
 	.string "$"

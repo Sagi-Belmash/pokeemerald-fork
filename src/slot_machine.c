@@ -4696,7 +4696,7 @@ static void SpriteCB_DigitalDisplay_Reel(struct Sprite *sprite)
     }
 }
 
-// The word "Time" in Reel Time
+// The word "זמן" in Reel Time
 static void SpriteCB_DigitalDisplay_Time(struct Sprite *sprite)
 {
     switch (sprite->sState)

@@ -263,7 +263,7 @@ static void HandleInputChooseAction(void)
         }
         PlayerBufferExecCompleted();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(DPAD_RIGHT))
     {
         if (gActionSelectionCursor[gActiveBattler] & 1) // if is B_ACTION_USE_ITEM or B_ACTION_RUN
         {
@@ -273,7 +273,7 @@ static void HandleInputChooseAction(void)
             ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(DPAD_LEFT))
     {
         if (!(gActionSelectionCursor[gActiveBattler] & 1)) // if is B_ACTION_USE_MOVE or B_ACTION_SWITCH
         {
@@ -378,7 +378,7 @@ static void HandleInputChooseTarget(void)
         DoBounceEffect(gActiveBattler, BOUNCE_MON, 7, 1);
         EndBounceEffect(gMultiUsePlayerCursor, BOUNCE_HEALTHBOX);
     }
-    else if (JOY_NEW(DPAD_LEFT | DPAD_UP))
+    else if (JOY_NEW(DPAD_RIGHT | DPAD_UP))
     {
         PlaySE(SE_SELECT);
         gSprites[gBattlerSpriteIds[gMultiUsePlayerCursor]].callback = SpriteCB_HideAsMoveTarget;
@@ -424,7 +424,7 @@ static void HandleInputChooseTarget(void)
         } while (i == 0);
         gSprites[gBattlerSpriteIds[gMultiUsePlayerCursor]].callback = SpriteCB_ShowAsMoveTarget;
     }
-    else if (JOY_NEW(DPAD_RIGHT | DPAD_DOWN))
+    else if (JOY_NEW(DPAD_LEFT | DPAD_DOWN))
     {
         PlaySE(SE_SELECT);
         gSprites[gBattlerSpriteIds[gMultiUsePlayerCursor]].callback = SpriteCB_HideAsMoveTarget;
@@ -546,7 +546,7 @@ static void HandleInputChooseMove(void)
         BtlController_EmitTwoReturnValues(B_COMM_TO_ENGINE, 10, 0xFFFF);
         PlayerBufferExecCompleted();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(DPAD_RIGHT))
     {
         if (gMoveSelectionCursor[gActiveBattler] & 1)
         {
@@ -558,7 +558,7 @@ static void HandleInputChooseMove(void)
             MoveSelectionDisplayMoveType();
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(DPAD_LEFT))
     {
         if (!(gMoveSelectionCursor[gActiveBattler] & 1)
          && (gMoveSelectionCursor[gActiveBattler] ^ 1) < gNumberOfMovesToChoose)
@@ -630,14 +630,14 @@ static u32 UNUSED HandleMoveInputUnused(void)
         gBattle_BG0_Y = DISPLAY_HEIGHT * 2;
         var = 0xFF;
     }
-    if (JOY_NEW(DPAD_LEFT) && gMoveSelectionCursor[gActiveBattler] & 1)
+    if (JOY_NEW(DPAD_RIGHT) && gMoveSelectionCursor[gActiveBattler] & 1)
     {
         MoveSelectionDestroyCursorAt(gMoveSelectionCursor[gActiveBattler]);
         gMoveSelectionCursor[gActiveBattler] ^= 1;
         PlaySE(SE_SELECT);
         MoveSelectionCreateCursorAt(gMoveSelectionCursor[gActiveBattler], 0);
     }
-    if (JOY_NEW(DPAD_RIGHT) && !(gMoveSelectionCursor[gActiveBattler] & 1)
+    if (JOY_NEW(DPAD_LEFT) && !(gMoveSelectionCursor[gActiveBattler] & 1)
         && (gMoveSelectionCursor[gActiveBattler] ^ 1) < gNumberOfMovesToChoose)
     {
         MoveSelectionDestroyCursorAt(gMoveSelectionCursor[gActiveBattler]);
@@ -774,7 +774,7 @@ static void HandleMoveSwitching(void)
         MoveSelectionDisplayPpNumber();
         MoveSelectionDisplayMoveType();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(DPAD_RIGHT))
     {
         if (gMultiUsePlayerCursor & 1)
         {
@@ -792,7 +792,7 @@ static void HandleMoveSwitching(void)
                 MoveSelectionCreateCursorAt(gMultiUsePlayerCursor, 27);
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(DPAD_LEFT))
     {
         if (!(gMultiUsePlayerCursor & 1) && (gMultiUsePlayerCursor ^ 1) < gNumberOfMovesToChoose)
         {
@@ -1513,7 +1513,7 @@ static void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 baseTileNum)
     src[0] = baseTileNum + 1;
     src[1] = baseTileNum + 2;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * ((cursorPosition & 1) ^ 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1523,7 +1523,7 @@ static void MoveSelectionDestroyCursorAt(u8 cursorPosition)
     src[0] = 0x1016;
     src[1] = 0x1016;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * ((cursorPosition & 1) ^ 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1533,7 +1533,7 @@ void ActionSelectionCreateCursorAt(u8 cursorPosition, u8 baseTileNum)
     src[0] = 1;
     src[1] = 2;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * ((cursorPosition & 1) ^ 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1543,7 +1543,7 @@ void ActionSelectionDestroyCursorAt(u8 cursorPosition)
     src[0] = 0x1016;
     src[1] = 0x1016;
 
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * ((cursorPosition & 1) ^ 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
     CopyBgTilemapBufferToVram(0);
 }
 

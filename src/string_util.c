@@ -493,6 +493,22 @@ const u8 *ExpandPlaceholder_SwapVav2Yud(void)
         return gText_ExpandedPlaceholder_Yud;
 }
 
+const u8 *ExpandPlaceholder_SwapHey2Yud(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Hey;
+    else
+        return gText_ExpandedPlaceholder_Yud;
+}
+
+const u8 *ExpandPlaceholder_EmitHey(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Hey;
+    else
+        return gText_ExpandedPlaceholder_Empty;
+}
+
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
@@ -561,6 +577,8 @@ const u8 *GetExpandedPlaceholder(u32 id)
     [PLACEHOLDER_ID_ADD_TAF]        = ExpandPlaceholder_AddTaf,
     [PLACEHOLDER_ID_SWAP_YUD_2_TAF] = ExpandPlaceholder_SwapYud2Taf,
     [PLACEHOLDER_ID_SWAP_VAV_2_YUD] = ExpandPlaceholder_SwapVav2Yud,
+    [PLACEHOLDER_ID_SWAP_HEY_2_YUD] = ExpandPlaceholder_SwapHey2Yud,
+    [PLACEHOLDER_ID_EMIT_HEY]        = ExpandPlaceholder_EmitHey,
     };
 
     if (id >= ARRAY_COUNT(funcs))

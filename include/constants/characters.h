@@ -266,8 +266,10 @@
 #define PLACEHOLDER_ID_ADD_YUD       0xE
 #define PLACEHOLDER_ID_ADD_HEY       0xF
 #define PLACEHOLDER_ID_ADD_TAF       0x10
-#define PLACEHOLDER_ID_SWAP_YUD_2_TAF       0x11
-#define PLACEHOLDER_ID_SWAP_VAV_2_YUD       0x12
+#define PLACEHOLDER_ID_SWAP_YUD_2_TAF 0x11
+#define PLACEHOLDER_ID_SWAP_VAV_2_YUD 0x12
+#define PLACEHOLDER_ID_SWAP_HEY_2_YUD 0x13
+#define PLACEHOLDER_ID_EMIT_HEY       0x14
 
 // battle placeholders are located in battle_message.h
 

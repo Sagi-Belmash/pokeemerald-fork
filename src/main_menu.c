@@ -1647,10 +1647,7 @@ static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8 taskId)
         NewGameBirchSpeech_StartFadeInTarget1OutTarget2(taskId, 2);
         NewGameBirchSpeech_StartFadePlatformOut(taskId, 1);
         NewGameBirchSpeech_ClearWindow(0);
-        if (gSaveBlock2Ptr->playerGender == MALE)
-            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer_Male);
-        else
-            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer_Female);
+        StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer);
         AddTextPrinterForMessage(TRUE);
         gTasks[taskId].func = Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter;
     }

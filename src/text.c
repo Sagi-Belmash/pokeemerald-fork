@@ -1162,7 +1162,6 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_CHAR_SWAP:
             {
                 u8 letter = *textPrinter->printerTemplate.currentChar++;
-                currChar = SwapLetterHebrewFinalChars(letter);
                 if (gSaveBlock2Ptr->playerGender == FEMALE)
                     currChar = SwapLetterHebrewFinalChars(letter);
                 else

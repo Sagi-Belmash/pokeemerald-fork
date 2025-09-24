@@ -66,8 +66,10 @@
 #define B_TXT_ADD_YUD 0x35
 #define B_TXT_ADD_HEY 0x36
 #define B_TXT_ADD_TAF 0x37
-#define B_TXT_SWAP_YUD_2_TAF 0x38
-#define B_TXT_SWAP_VAV_2_YUD 0x39
+#define B_TXT_EMIT_YUD 0x38
+#define B_TXT_EMIT_HEY 0x39
+#define B_TXT_EMIT_TAF 0x3A
+#define B_TXT_EMIT_VAV 0x3B
 
 // for B_TXT_BUFF1, B_TXT_BUFF2 and B_TXT_BUFF3
 

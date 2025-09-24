@@ -905,34 +905,34 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "אמא: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+	.string "אמא: {PLAYER}, אנחנו כאן, מותק!\p"
+	.string "זה מעייף לנסוע עם הדברים שלנו\n"
+	.string "במשאית ההובלה.\p"
+	.string "ובכן, זו עיירת ליטרלוט.\p"
+	.string "מה דעתך על זה?\n"
+	.string "זה הבית החדש שלנו!\p"
+	.string "יש לו תחושה משונה, אבל נראה שזה\n"
+	.string "מקום קל לגור בו, לא?\p"
+	.string "ותקבל{ADD_YUD} חדר משלך, {PLAYER}!\n"
+	.string "בוא{ADD_YUD} ניכנס פנימה.$"
 
 LittlerootTown_Text_WaitPlayer:
-	.string "אמא: Wait, {PLAYER}!$"
+	.string "אמא: חכ{EMIT_HEY}{ADD_YUD}, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "אמא: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+	.string "אמא: {PLAYER}! {PLAYER}! האם\n"
+	.string "הצגת את עצמך לפרופ. בירץ'?\p"
+	.string "הו! איזה פוקימון מתוק!\n"
+	.string "קיבלת את זה מפרופ. בירץ'. איזה נחמד!\p"
+	.string "את{EMIT_HEY} הילד{ADD_HEY} של אביך, כמובן.\n"
+	.string "את{ADD_TAF} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} טוב ביחד עם פוקימון!\p"
+	.string "הנה, מותק! אם את{EMIT_HEY} יוצא{ADD_TAF} להרפתקה,\n"
+	.string "תנעל{ADD_YUD} את נעלי הריצה האלו.\p"
+	.string "הן יתנו מרץ לצעד!$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
+	.string "{PLAYER} החלי{CHAR_SWAP 0xEE}{ADD_HEY} נעליים לנעלי ריצה.\n"
+	.string "$"
 
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "אמא: {PLAYER}, those shoes came with\n"
@@ -991,14 +991,14 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "Good luck!$"
 
 LittlerootTown_Text_TownSign:
-	.string "LITTLEROOT TOWN\n"
+	.string "עיירת ליטלרוט\n"
 	.string "“A town that can't be shaded any hue.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. BIRCH'S POKéMON LAB$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "{PLAYER}'s HOUSE$"
+	.string "הבית של {PLAYER}$"
 
 LittlerootTown_Text_ProfBirchsHouse:
 	.string "PROF. BIRCH'S HOUSE$"

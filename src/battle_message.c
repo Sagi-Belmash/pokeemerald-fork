@@ -2365,7 +2365,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gBattleTextBuff3;
                 }
                 break;
-             case B_TXT_ADD_YUD:
+            case B_TXT_ADD_YUD:
                 toCpy = ExpandPlaceholder_AddYud();
                 break;
             case B_TXT_ADD_HEY:
@@ -2374,11 +2374,17 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
             case B_TXT_ADD_TAF:
                 toCpy = ExpandPlaceholder_AddTaf();
                 break;
-            case B_TXT_SWAP_YUD_2_TAF:
-                toCpy = ExpandPlaceholder_SwapYud2Taf();
+            case B_TXT_EMIT_YUD:
+                toCpy = ExpandPlaceholder_EmitYud();
                 break;
-            case B_TXT_SWAP_VAV_2_YUD:
-                toCpy = ExpandPlaceholder_SwapVav2Yud();
+            case B_TXT_EMIT_HEY:
+                toCpy = ExpandPlaceholder_EmitHey();
+                break;
+            case B_TXT_EMIT_TAF:
+                toCpy = ExpandPlaceholder_EmitTaf();
+                break;
+            case B_TXT_EMIT_VAV:
+                toCpy = ExpandPlaceholder_EmitVav();
                 break;
             case B_TXT_COPY_VAR_1:
                 toCpy = gStringVar1;

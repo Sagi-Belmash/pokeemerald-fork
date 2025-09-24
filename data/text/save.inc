@@ -1,6 +1,6 @@
 	.align 2
 gText_ConfirmSave::
-	.string "האם תרצ{SWAP_HEY_2_YUD} לשמור את המשחק?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לשמור את המשחק?$"
 
 gText_AlreadySavedFile::
 	.string "There is already a saved file.\n"

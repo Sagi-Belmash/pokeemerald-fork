@@ -230,6 +230,7 @@
 #define EXT_CTRL_CODE_ENG                    0x16
 #define EXT_CTRL_CODE_PAUSE_MUSIC            0x17
 #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
+#define EXT_CTRL_CODE_CHAR_SWAP              0x19 //Swaps End with Middle Hebrew chars
 
 #define TEXT_COLOR_TRANSPARENT  0x0
 #define TEXT_COLOR_WHITE        0x1
@@ -266,10 +267,10 @@
 #define PLACEHOLDER_ID_ADD_YUD       0xE
 #define PLACEHOLDER_ID_ADD_HEY       0xF
 #define PLACEHOLDER_ID_ADD_TAF       0x10
-#define PLACEHOLDER_ID_SWAP_YUD_2_TAF 0x11
-#define PLACEHOLDER_ID_SWAP_VAV_2_YUD 0x12
-#define PLACEHOLDER_ID_SWAP_HEY_2_YUD 0x13
-#define PLACEHOLDER_ID_EMIT_HEY       0x14
+#define PLACEHOLDER_ID_EMIT_YUD      0x11
+#define PLACEHOLDER_ID_EMIT_HEY      0x12
+#define PLACEHOLDER_ID_EMIT_TAF      0x13
+#define PLACEHOLDER_ID_EMIT_VAV      0x14
 
 // battle placeholders are located in battle_message.h
 

@@ -943,6 +943,30 @@ void DrawDownArrow(u8 windowId, u16 x, u16 y, u8 bgColor, bool8 drawArrow, u8 *c
     }
 }
 
+static u8 SwapLetterHebrewFinalChars(u8 letter)
+{
+    switch (letter)
+    {
+    case 0xDF: return 0xEB; // כ -> ך
+    case 0xEB: return 0xDF; // ך -> כ
+
+    case 0xE1: return 0xEC; // מ -> ם
+    case 0xEC: return 0xE1; // ם -> מ
+
+    case 0xE2: return 0xED; // נ -> ן
+    case 0xED: return 0xE2; // ן -> נ
+
+    case 0xE5: return 0xEE; // פ -> ף
+    case 0xEE: return 0xE5; // ף -> פ
+
+    case 0xE6: return 0xF1; // צ -> ץ
+    case 0xF1: return 0xE6; // ץ -> צ
+
+    default:
+        return letter; // letters not in table stay the same
+    }
+}
+
 static u16 RenderText(struct TextPrinter *textPrinter)
 {
     struct TextPrinterSubStruct *subStruct;
@@ -1135,6 +1159,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_ENG:
                 textPrinter->japanese = FALSE;
                 return RENDER_REPEAT;
+            case EXT_CTRL_CODE_CHAR_SWAP:
+            {
+                u8 letter = *textPrinter->printerTemplate.currentChar++;
+                currChar = SwapLetterHebrewFinalChars(letter);
+                if (gSaveBlock2Ptr->playerGender == FEMALE)
+                    currChar = SwapLetterHebrewFinalChars(letter);
+                else
+                    currChar = letter;
+                break;
+            }
             }
             break;
 

@@ -36,7 +36,7 @@ enum
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
     MENUITEM_SPECIESNAMES,
-    MENUITEM_CANCEL,
+//    MENUITEM_CANCEL,
     MENUITEM_COUNT,
 };
 
@@ -92,7 +92,7 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_BUTTONMODE]  = gText_ButtonMode,
     [MENUITEM_FRAMETYPE]   = gText_Frame,
     [MENUITEM_SPECIESNAMES] = gText_SpeciesNames,
-    [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
+//    [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
 };
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =
@@ -273,11 +273,11 @@ static void Task_OptionMenuFadeIn(u8 taskId)
 
 static void Task_OptionMenuProcessInput(u8 taskId)
 {
-    if (JOY_NEW(A_BUTTON))
+     if (JOY_NEW(A_BUTTON))
     {
-        if (gTasks[taskId].tMenuSelection == MENUITEM_CANCEL)
-            gTasks[taskId].func = Task_OptionMenuSave;
-    }
+/*         if (gTasks[taskId].tMenuSelection == MENUITEM_CANCEL)
+            gTasks[taskId].func = Task_OptionMenuSave; */
+    } 
     else if (JOY_NEW(B_BUTTON))
     {
         gTasks[taskId].func = Task_OptionMenuSave;
@@ -287,13 +287,13 @@ static void Task_OptionMenuProcessInput(u8 taskId)
         if (gTasks[taskId].tMenuSelection > 0)
             gTasks[taskId].tMenuSelection--;
         else
-            gTasks[taskId].tMenuSelection = MENUITEM_CANCEL;
+            gTasks[taskId].tMenuSelection = /* MENUITEM_CANCEL */MENUITEM_SPECIESNAMES;
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        if (gTasks[taskId].tMenuSelection < MENUITEM_CANCEL)
-            gTasks[taskId].tMenuSelection++;
+         if (gTasks[taskId].tMenuSelection < /* MENUITEM_CANCEL */MENUITEM_SPECIESNAMES)
+            gTasks[taskId].tMenuSelection++; 
         else
             gTasks[taskId].tMenuSelection = 0;
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);

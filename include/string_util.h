@@ -47,7 +47,9 @@ void StripExtCtrlCodes(u8 *str);
 const u8 *ExpandPlaceholder_AddYud(void);
 const u8 *ExpandPlaceholder_AddHey(void);
 const u8 *ExpandPlaceholder_AddTaf(void);
-const u8 *ExpandPlaceholder_SwapYud2Taf(void);
-const u8 *ExpandPlaceholder_SwapVav2Yud(void);
+const u8 *ExpandPlaceholder_EmitYud(void);
+const u8 *ExpandPlaceholder_EmitHey(void);
+const u8 *ExpandPlaceholder_EmitTaf(void);
+const u8 *ExpandPlaceholder_EmitVav(void);
 
 #endif // GUARD_STRING_UTIL_H

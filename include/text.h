@@ -92,7 +92,6 @@ struct TextPrinter
     u8 scrollDistance;
     u8 minLetterSpacing;  // 0x20
     u8 japanese;
-    bool8 ltr;
 };
 
 struct FontInfo

@@ -992,16 +992,16 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "עיירת ליטלרוט\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "“עיירה שאי אפשר לצבוע אותה בשום גוון.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "מעבדת הפוקימון של פרופ. בירץ'$"
 
 LittlerootTown_Text_PlayersHouse:
 	.string "הבית של {PLAYER}$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "הבית של פרופ. בירץ'$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "פרופ. בירץ': Well, well, {PLAYER}{KUN}!\n"

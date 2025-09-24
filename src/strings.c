@@ -1501,7 +1501,7 @@ const u8 gText_ButtonTypeNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}רגיל
 const u8 gText_ButtonTypeLR[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}RL");
 const u8 gText_ButtonTypeLEqualsA[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}A=L");
 const u8 gText_SpeciesLiteral[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}מילולי");
-const u8 gText_SpeciesTranslit[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}העתק");
+const u8 gText_SpeciesTranslit[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}תעתיק");
 const u8 gText_NumPlayerLink[] = _("{STR_VAR_1}P LINK");
 const u8 gText_BronzeCard[] = _("BRONZE");
 const u8 gText_CopperCard[] = _("COPPER");

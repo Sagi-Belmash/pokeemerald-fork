@@ -477,34 +477,34 @@ const u8 *ExpandPlaceholder_AddTaf(void)
         return gText_ExpandedPlaceholder_Taf;
 }
 
-const u8 *ExpandPlaceholder_SwapYud2Taf(void)
+const u8 *ExpandPlaceholder_EmitYud(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Yud;
     else
-        return gText_ExpandedPlaceholder_Taf;
-}
-
-const u8 *ExpandPlaceholder_SwapVav2Yud(void)
-{
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        return gText_ExpandedPlaceholder_Vav;
-    else
-        return gText_ExpandedPlaceholder_Yud;
-}
-
-const u8 *ExpandPlaceholder_SwapHey2Yud(void)
-{
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        return gText_ExpandedPlaceholder_Hey;
-    else
-        return gText_ExpandedPlaceholder_Yud;
+        return gText_ExpandedPlaceholder_Empty;
 }
 
 const u8 *ExpandPlaceholder_EmitHey(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
         return gText_ExpandedPlaceholder_Hey;
+    else
+        return gText_ExpandedPlaceholder_Empty;
+}
+
+const u8 *ExpandPlaceholder_EmitTaf(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Taf;
+    else
+        return gText_ExpandedPlaceholder_Empty;
+}
+
+const u8 *ExpandPlaceholder_EmitVav(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_Vav;
     else
         return gText_ExpandedPlaceholder_Empty;
 }
@@ -575,10 +575,10 @@ const u8 *GetExpandedPlaceholder(u32 id)
     [PLACEHOLDER_ID_ADD_YUD]        = ExpandPlaceholder_AddYud,
     [PLACEHOLDER_ID_ADD_HEY]        = ExpandPlaceholder_AddHey,
     [PLACEHOLDER_ID_ADD_TAF]        = ExpandPlaceholder_AddTaf,
-    [PLACEHOLDER_ID_SWAP_YUD_2_TAF] = ExpandPlaceholder_SwapYud2Taf,
-    [PLACEHOLDER_ID_SWAP_VAV_2_YUD] = ExpandPlaceholder_SwapVav2Yud,
-    [PLACEHOLDER_ID_SWAP_HEY_2_YUD] = ExpandPlaceholder_SwapHey2Yud,
-    [PLACEHOLDER_ID_EMIT_HEY]        = ExpandPlaceholder_EmitHey,
+    [PLACEHOLDER_ID_EMIT_YUD]       = ExpandPlaceholder_EmitYud,
+    [PLACEHOLDER_ID_EMIT_HEY]       = ExpandPlaceholder_EmitHey,
+    [PLACEHOLDER_ID_EMIT_TAF]       = ExpandPlaceholder_EmitTaf,
+    [PLACEHOLDER_ID_EMIT_VAV]       = ExpandPlaceholder_EmitVav,
     };
 
     if (id >= ARRAY_COUNT(funcs))

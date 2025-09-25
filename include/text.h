@@ -76,6 +76,7 @@ struct TextPrinterTemplate
     u8 fgColor:4;
     u8 bgColor:4;
     u8 shadowColor:4;
+    bool8 rtlMode;
 };
 
 struct TextPrinter

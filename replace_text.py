@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
 """
-replace_withrtl_false_to_true.py
+replace_battleputtext_add_true.py
 
-Replace calls like:
-  AddTextPrinterParameterizedWithRTL(..., FALSE)
-  AddTextPrinterParameterized3WithRTL(..., FALSE)
-  AddTextPrinterParameterized4WithRTL(..., FALSE)
-  AddTextPrinterParameterized5WithRTL(..., FALSE)
-
-with the same calls but ending in TRUE:
-  ..., TRUE)
+Changes calls like:
+  BattlePutTextOnWindow(text, windowId);
+into:
+  BattlePutTextOnWindow(text, windowId, TRUE);
 
 - Handles nested parentheses in argument lists
-- Skips string/char literals and // and /* */ comments while scanning for matching ')'
+- Skips string/char literals and // and /* */ comments
 - Dry-run by default (prints diffs). Use --apply to actually overwrite files (no backups).
-- Scans .c/.h/.cpp/.cc/.hpp by default; supply --ext to change.
 """
 
 from pathlib import Path
@@ -23,28 +18,18 @@ import difflib
 import re
 import sys
 
-TARGET_FNAMES = [
-    "AddTextPrinterParameterizedWithRTL",
-    "AddTextPrinterParameterized3WithRTL",
-    "AddTextPrinterParameterized4WithRTL",
-    "AddTextPrinterParameterized5WithRTL",
-]
+TARGET_FNAMES = ["BattlePutTextOnWindow"]
 
 DEFAULT_EXTS = {".c", ".h", ".cpp", ".cc", ".hpp"}
 
 def find_matching_paren(s, start_idx):
-    """
-    Given s[start_idx-1] == '(' (start_idx is index after '('),
-    find index of matching ')' and return it. Skips strings and comments.
-    Returns -1 on failure.
-    """
+    """ Find the matching closing parenthesis, skipping strings and comments. """
     i = start_idx
     depth = 1
     L = len(s)
     while i < L:
         ch = s[i]
-        # Skip string/char literal
-        if ch == '"' or ch == "'":
+        if ch in ('"', "'"):
             quote = ch
             i += 1
             while i < L:
@@ -56,13 +41,11 @@ def find_matching_paren(s, start_idx):
                 else:
                     i += 1
             continue
-        # Skip line comment
         if s[i:i+2] == "//":
             i += 2
             while i < L and s[i] != "\n":
                 i += 1
             continue
-        # Skip block comment
         if s[i:i+2] == "/*":
             i += 2
             while i < L and s[i:i+2] != "*/":
@@ -79,64 +62,46 @@ def find_matching_paren(s, start_idx):
     return -1
 
 def process_text(text):
-    """
-    Return (new_text, replacements_list). replacements_list contains tuples:
-    (fn_name, pos, match_end, original_call, new_call)
-    """
     idx = 0
-    L = len(text)
     out_parts = []
     last_pos = 0
     replacements = []
 
     while True:
-        # find next occurrence of any target function name
-        nearest_pos = -1
-        nearest_name = None
-        for name in TARGET_FNAMES:
-            p = text.find(name + "(", idx)
-            if p != -1 and (nearest_pos == -1 or p < nearest_pos):
-                nearest_pos = p
-                nearest_name = name
-        if nearest_pos == -1:
+        pos = text.find("BattlePutTextOnWindow(", idx)
+        if pos == -1:
             break
 
-        pos = nearest_pos
-        name = nearest_name
-        start_args = pos + len(name) + 1  # index after '('
-
+        start_args = pos + len("BattlePutTextOnWindow(")
         match_end = find_matching_paren(text, start_args)
         if match_end == -1:
-            # unmatched, skip this occurrence
-            idx = pos + len(name) + 1
+            idx = start_args
             continue
 
-        args = text[start_args:match_end]  # between '(' and ')'
+        args = text[start_args:match_end]
 
-        # Check if arguments end with ", FALSE" (allow whitespace)
-        if re.search(r',\s*FALSE\s*$', args):
-            # Build new args replacing the trailing FALSE with TRUE
-            new_args = re.sub(r',\s*FALSE\s*$', ', TRUE', args)
-            original_call = text[pos:match_end+1]
-            new_call = name + "(" + new_args + ")"
-
-            # Append unchanged region and new_call
-            out_parts.append(text[last_pos:pos])
-            out_parts.append(new_call)
-            replacements.append((name, pos, match_end, original_call, new_call))
-
-            last_pos = match_end + 1
-            idx = last_pos
-        else:
-            # no trailing FALSE; skip this occurrence but continue search after it
+        # If it already ends with TRUE, skip
+        if re.search(r',\s*TRUE\s*$', args):
             idx = match_end + 1
+            continue
+
+        # Otherwise, add , TRUE
+        new_args = args.rstrip() + ", TRUE"
+        original_call = text[pos:match_end+1]
+        new_call = "BattlePutTextOnWindow(" + new_args + ")"
+
+        out_parts.append(text[last_pos:pos])
+        out_parts.append(new_call)
+        replacements.append((pos, original_call, new_call))
+
+        last_pos = match_end + 1
+        idx = last_pos
 
     if not replacements:
         return text, []
 
     out_parts.append(text[last_pos:])
-    new_text = "".join(out_parts)
-    return new_text, replacements
+    return "".join(out_parts), replacements
 
 def process_file(path: Path, apply: bool):
     text = path.read_text(encoding="utf-8")
@@ -193,5 +158,4 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    import argparse
     sys.exit(main())

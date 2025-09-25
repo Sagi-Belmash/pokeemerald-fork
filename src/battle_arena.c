@@ -410,15 +410,15 @@ u8 BattleArena_ShowJudgmentWindow(u8 *state)
             gBattleTextBuff2[0] = CHAR_0;
             gBattleTextBuff2[1] = EOS;
             BattleStringExpandPlaceholdersToDisplayedString(gText_PlayerMon1Name);
-            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_PLAYER_NAME);
-            BattlePutTextOnWindow(gText_Vs, ARENA_WIN_VS);
+            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_PLAYER_NAME, TRUE);
+            BattlePutTextOnWindow(gText_Vs, ARENA_WIN_VS, TRUE);
             BattleStringExpandPlaceholdersToDisplayedString(gText_OpponentMon1Name);
-            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_OPPONENT_NAME);
-            BattlePutTextOnWindow(gText_Mind, ARENA_WIN_MIND);
-            BattlePutTextOnWindow(gText_Skill, ARENA_WIN_SKILL);
-            BattlePutTextOnWindow(gText_Body, ARENA_WIN_BODY);
+            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_OPPONENT_NAME, TRUE);
+            BattlePutTextOnWindow(gText_Mind, ARENA_WIN_MIND, TRUE);
+            BattlePutTextOnWindow(gText_Skill, ARENA_WIN_SKILL, TRUE);
+            BattlePutTextOnWindow(gText_Body, ARENA_WIN_BODY, TRUE);
             BattleStringExpandPlaceholdersToDisplayedString(gText_Judgment);
-            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE);
+            BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE, TRUE);
             (*state)++;
         }
         break;
@@ -442,7 +442,7 @@ u8 BattleArena_ShowJudgmentWindow(u8 *state)
         ShowJudgmentSprite(80, 40, ARENA_CATEGORY_MIND, B_POSITION_PLAYER_LEFT);
         ShowJudgmentSprite(160, 40, ARENA_CATEGORY_MIND, B_POSITION_OPPONENT_LEFT);
         BattleStringExpandPlaceholdersToDisplayedString(gText_Judgment);
-        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE);
+        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE, TRUE);
         (*state)++;
         result = ARENA_RESULT_STEP_DONE;
         break;
@@ -451,7 +451,7 @@ u8 BattleArena_ShowJudgmentWindow(u8 *state)
         ShowJudgmentSprite(80, 56, ARENA_CATEGORY_SKILL, B_POSITION_PLAYER_LEFT);
         ShowJudgmentSprite(160, 56, ARENA_CATEGORY_SKILL, B_POSITION_OPPONENT_LEFT);
         BattleStringExpandPlaceholdersToDisplayedString(gText_Judgment);
-        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE);
+        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE, TRUE);
         (*state)++;
         result = ARENA_RESULT_STEP_DONE;
         break;
@@ -460,7 +460,7 @@ u8 BattleArena_ShowJudgmentWindow(u8 *state)
         ShowJudgmentSprite(80, 72, ARENA_CATEGORY_BODY, B_POSITION_PLAYER_LEFT);
         ShowJudgmentSprite(160, 72, ARENA_CATEGORY_BODY, B_POSITION_OPPONENT_LEFT);
         BattleStringExpandPlaceholdersToDisplayedString(gText_Judgment);
-        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE);
+        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TITLE, TRUE);
         (*state)++;
         result = ARENA_RESULT_STEP_DONE;
         break;

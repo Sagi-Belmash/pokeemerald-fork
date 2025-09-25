@@ -1034,7 +1034,7 @@ static void PrintIdOnCard(void)
     }
 
     AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, 8, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardIDNo, TRUE);
-    AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, /* xPos */ 124, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer, FALSE);
+    AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, /* xPos */ 140, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer, FALSE);
 }
 
 static void PrintMoneyOnCard(void)
@@ -1139,7 +1139,7 @@ static void PrintTimeOnCard(void)
     }
     totalWidth = width + 30;
     x -= totalWidth;
-    x += 30;
+    x += 20;
 
     FillWindowPixelRect(1, PIXEL_FILL(0), x, y, totalWidth, 15);
     ConvertIntToDecimalStringN(gStringVar4, hours, STR_CONV_MODE_RIGHT_ALIGN, 3);

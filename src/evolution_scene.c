@@ -661,7 +661,7 @@ static void Task_EvolutionScene(u8 taskId)
         if (!gPaletteFade.active)
         {
             StringExpandPlaceholders(gStringVar4, gText_PkmnIsEvolving);
-            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG);
+            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG, TRUE);
             gTasks[taskId].tState++;
         }
         break;
@@ -758,7 +758,7 @@ static void Task_EvolutionScene(u8 taskId)
         if (IsCryFinished())
         {
             StringExpandPlaceholders(gStringVar4, gText_CongratsPkmnEvolved);
-            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG);
+            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG, TRUE);
             PlayBGM(MUS_EVOLVED);
             gTasks[taskId].tState++;
             SetMonData(mon, MON_DATA_SPECIES, (void *)(&gTasks[taskId].tPostEvoSpecies));
@@ -843,7 +843,7 @@ static void Task_EvolutionScene(u8 taskId)
             else
                 StringExpandPlaceholders(gStringVar4, gText_PkmnStoppedEvolving);
 
-            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG);
+            BattlePutTextOnWindow(gStringVar4, B_WIN_MSG, TRUE);
             gTasks[taskId].tEvoWasStopped = TRUE;
             gTasks[taskId].tState = EVOSTATE_TRY_LEARN_MOVE;
         }
@@ -854,7 +854,7 @@ static void Task_EvolutionScene(u8 taskId)
             BufferMoveToLearnIntoBattleTextBuff2();
             PlayFanfare(MUS_LEVEL_UP);
             BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_PKMNLEARNEDMOVE - BATTLESTRINGS_TABLE_START]);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gTasks[taskId].tLearnsFirstMove = 0x40; // re-used as a counter
             gTasks[taskId].tState++;
         }
@@ -872,7 +872,7 @@ static void Task_EvolutionScene(u8 taskId)
                 // "{mon} is trying to learn {move}"
                 BufferMoveToLearnIntoBattleTextBuff2();
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE1 - BATTLESTRINGS_TABLE_START]);
-                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                 gTasks[taskId].tLearnMoveState++;
             }
             break;
@@ -881,7 +881,7 @@ static void Task_EvolutionScene(u8 taskId)
             {
                 // "But, {mon} can't learn more than four moves"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE2 - BATTLESTRINGS_TABLE_START]);
-                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                 gTasks[taskId].tLearnMoveState++;
             }
             break;
@@ -890,7 +890,7 @@ static void Task_EvolutionScene(u8 taskId)
             {
                 // "Delete a move to make room for {move}?"
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_TRYTOLEARNMOVE3 - BATTLESTRINGS_TABLE_START]);
-                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                 gTasks[taskId].tLearnMoveYesState = MVSTATE_SHOW_MOVE_SELECT;
                 gTasks[taskId].tLearnMoveNoState = MVSTATE_ASK_CANCEL;
                 gTasks[taskId].tLearnMoveState++;
@@ -899,7 +899,7 @@ static void Task_EvolutionScene(u8 taskId)
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
                 HandleBattleWindow(YESNOBOX_X_Y, 0);
-                BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+                BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
                 gTasks[taskId].tLearnMoveState++;
                 sEvoCursorPos = 0;
                 BattleCreateYesNoCursorAt(0);
@@ -978,7 +978,7 @@ static void Task_EvolutionScene(u8 taskId)
                     {
                         // Can't forget HMs
                         BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_TABLE_START]);
-                        BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                        BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                         gTasks[taskId].tLearnMoveState = MVSTATE_RETRY_AFTER_HM;
                     }
                     else
@@ -995,14 +995,14 @@ static void Task_EvolutionScene(u8 taskId)
             break;
         case MVSTATE_FORGET_MSG_1:
             BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_123POOF - BATTLESTRINGS_TABLE_START]);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gTasks[taskId].tLearnMoveState++;
             break;
         case MVSTATE_FORGET_MSG_2:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_PKMNFORGOTMOVE - BATTLESTRINGS_TABLE_START]);
-                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                 gTasks[taskId].tLearnMoveState++;
             }
             break;
@@ -1010,20 +1010,20 @@ static void Task_EvolutionScene(u8 taskId)
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
                 BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_ANDELLIPSIS - BATTLESTRINGS_TABLE_START]);
-                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
                 gTasks[taskId].tState = EVOSTATE_LEARNED_MOVE;
             }
             break;
         case MVSTATE_ASK_CANCEL:
             BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_STOPLEARNINGMOVE - BATTLESTRINGS_TABLE_START]);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gTasks[taskId].tLearnMoveYesState = MVSTATE_CANCEL;
             gTasks[taskId].tLearnMoveNoState = MVSTATE_INTRO_MSG_1;
             gTasks[taskId].tLearnMoveState = MVSTATE_PRINT_YES_NO;
             break;
         case MVSTATE_CANCEL:
             BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_DIDNOTLEARNMOVE - BATTLESTRINGS_TABLE_START]);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gTasks[taskId].tState = EVOSTATE_TRY_LEARN_MOVE;
             break;
         case MVSTATE_RETRY_AFTER_HM:

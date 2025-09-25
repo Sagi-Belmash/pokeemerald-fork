@@ -248,16 +248,7 @@ void DeactivateAllTextPrinters(void)
         sTextPrinters[printer].active = FALSE;
 }
 
-u16 AddTextPrinterParameterizedWithRTL(
-    u8 windowId,
-    u8 fontId,
-    const u8 *str,
-    s8 x,
-    u8 y,
-    u8 speed,
-    void (*callback)(struct TextPrinterTemplate *, u16),
-    bool8 rtlMode
-)
+u16 AddTextPrinterParameterizedWithRTL(u8 windowId,u8 fontId,const u8 *str,s8 x,u8 y,u8 speed,void (*callback)(struct TextPrinterTemplate *, u16),bool8 rtlMode)
 {
     struct TextPrinterTemplate printerTemplate;
     s32 baseX;
@@ -276,7 +267,7 @@ u16 AddTextPrinterParameterizedWithRTL(
 
     // RTL: interpret x as right padding
     if (rtlMode)
-        baseX = (s32)windowWidthPx - x - 8;
+        baseX = (s32)windowWidthPx - x;
     else
         baseX = (s32)x;
 
@@ -1141,6 +1132,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_ENG:
                 textPrinter->japanese = FALSE;
                 return RENDER_REPEAT;
+            case EXT_CTRL_CODE_CHAR_SWAP:
+            {
+                u8 letter = *textPrinter->printerTemplate.currentChar++;
+
+                if (gSaveBlock2Ptr->playerGender == FEMALE)
+                    currChar = SwapLetterHebrewFinalChars(letter);
+                else
+                    currChar = letter;
+                break;
+            }
             }
             break;
 

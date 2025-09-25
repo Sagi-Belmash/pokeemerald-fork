@@ -436,9 +436,9 @@ static void NamingScreen_Init(void)
     sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
-    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 60; // +6
+    sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 72; // was +6
     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
-        sNamingScreen->inputCharBaseXPos -= 55;
+        sNamingScreen->inputCharBaseXPos -= 77;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
@@ -1847,8 +1847,7 @@ static void DrawTextEntry(void)
     u8 temp[2];
     u16 extraWidth;
     u8 maxChars = sNamingScreen->template->maxChars;
-    u8 startXPos;
-    u16 x = sNamingScreen->inputCharBaseXPos - 0x40;
+    u16 x = sNamingScreen->inputCharBaseXPos - 0x40 - 8;
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY], PIXEL_FILL(1));
 
@@ -1857,7 +1856,6 @@ static void DrawTextEntry(void)
         temp[0] = sNamingScreen->textBuffer[i];
         temp[1] = gText_ExpandedPlaceholder_Empty[0];
         extraWidth = (IsWideLetter(temp[0]) == TRUE) ? 2 : 0;
-        startXPos = (sNamingScreen->templateNum == NAMING_SCREEN_PLAYER || sNamingScreen->templateNum == NAMING_SCREEN_BOX || sNamingScreen->templateNum == NAMING_SCREEN_WALDA) ? 192 : 168;
 
         AddTextPrinterParameterizedWithRTL(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 - x - extraWidth, 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
@@ -1897,7 +1895,7 @@ static void PrintKeyboardKeys(u8 window, u8 page)
     FillWindowPixelBuffer(window, sFillValues[page]);
 
     for (i = 0; i < KBROW_COUNT; i++)
-        AddTextPrinterParameterized3WithRTL(window, FONT_NORMAL, 0, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i], TRUE);
+        AddTextPrinterParameterized3WithRTL(window, FONT_NORMAL, 0, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i], FALSE);
 
     PutWindowTilemap(window);
 }

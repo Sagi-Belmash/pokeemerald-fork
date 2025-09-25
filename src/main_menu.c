@@ -2118,7 +2118,7 @@ static void MainMenu_FormatSavegamePlayer(void)
     AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, gSaveBlock2Ptr->playerName, 100), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gSaveBlock2Ptr->playerName, TRUE);
 }
 
-/* static void MainMenu_FormatSavegameTime(void)
+ static void MainMenu_FormatSavegameTime(void)
 {
     u8 str[0x20];
     u8 *ptr;
@@ -2128,55 +2128,7 @@ static void MainMenu_FormatSavegamePlayer(void)
     ptr = ConvertIntToDecimalStringN(str, gSaveBlock2Ptr->playTimeHours, STR_CONV_MODE_LEFT_ALIGN, 3);
     *ptr = 0xF0;
     ConvertIntToDecimalStringN(ptr + 1, gSaveBlock2Ptr->playTimeMinutes, STR_CONV_MODE_LEADING_ZEROS, 2);
-    AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, str, 180/* 0xD0 ), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, str);
-} */
-
-static void MainMenu_FormatSavegameTime(void)
-{
-    u16 hours;
-    u16 minutes;
-    s32 width;
-    u32 x, y, totalWidth;
-
-    // Get hours and minutes
-    hours = gSaveBlock2Ptr->playTimeHours;
-    minutes = gSaveBlock2Ptr->playTimeMinutes;
-
-    // Clamp values
-    if (hours > 999)
-        hours = 999;
-    if (minutes > 59)
-        minutes = 59;
-
-    // Print the "Play Time" label
-    StringExpandPlaceholders(gStringVar4, gText_ContinueMenuTime);
-    AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, 0x6C, 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4, TRUE);
-
-    // Width of colon
-    width = GetStringWidth(FONT_NORMAL, gText_Colon2, 0);
-
-    // Set base coordinates
-    x = 180; // right edge
-    y = 17;
-
-    totalWidth = width + 30; // approximate width for spacing
-    x -= totalWidth;
-
-    // Clear area before printing
-    /* FillWindowPixelRect(2, PIXEL_FILL(0), x, y, totalWidth * 2, 15); */
-
-    // Print hours
-    ConvertIntToDecimalStringN(gStringVar4, hours, STR_CONV_MODE_RIGHT_ALIGN, 3);
-    AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, x + 10, y, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4, TRUE);
-
-    // Print colon
-    x += 18;
-    AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, x, y, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gText_Colon2, TRUE);
-
-    // Print minutes
-    x -= 2 * width;
-    ConvertIntToDecimalStringN(gStringVar4, minutes, STR_CONV_MODE_LEADING_ZEROS, 2);
-    AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, x, y, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4, TRUE);
+    AddTextPrinterParameterized3WithRTL(2, FONT_NORMAL, 40/* GetStringRightAlignXOffset(FONT_NORMAL, str, 0xD0 ) */, 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, str, FALSE);
 }
 
 static void MainMenu_FormatSavegamePokedex(void)

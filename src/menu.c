@@ -183,6 +183,7 @@ u16 AddTextPrinterParameterized2(u8 windowId, u8 fontId, const u8 *str, u8 speed
     printer.fgColor = fgColor;
     printer.bgColor = bgColor;
     printer.shadowColor = shadowColor;
+    printer.rtlMode = TRUE;
 
     gTextFlags.useAlternateDownArrow = 0;
     return AddTextPrinter(&printer, speed, callback);
@@ -942,7 +943,7 @@ void RedrawMenuCursor(u8 oldPos, u8 newPos)
 
     width = GetMenuCursorDimensionByFont(sMenu.fontId, 0);
     height = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
-    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), windowWidthPx - sMenu.left - 16, sMenu.optionHeight * oldPos + sMenu.top, width, height);
+    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), windowWidthPx - sMenu.left - 8, sMenu.optionHeight * oldPos + sMenu.top, width, height);
     AddTextPrinterParameterizedWithRTL(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0, TRUE);
 }
 
@@ -1652,7 +1653,7 @@ void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 pa
     printer.currentChar = gText_YesNo;
     printer.windowId = sYesNoWindowId;
     printer.fontId = FONT_NORMAL;
-    printer.x = 16;
+    printer.x = 8;
     printer.y = 1;
     printer.currentX = printer.x;
     printer.currentY = printer.y;
@@ -1971,14 +1972,13 @@ void AddTextPrinterParameterized4WithRTL(u8 windowId, u8 fontId, s8 rightPadding
 {
     struct TextPrinterTemplate printer;
     s32 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
-    s32 baseX = windowWidthPx - rightPadding - 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
 
-    printer.x = baseX;
-    printer.currentX = baseX;
+    printer.x = rtlMode ? (windowWidthPx - rightPadding): rightPadding;
+    printer.currentX = printer.x;
 
     printer.y = top;
     printer.currentY = top;
@@ -2001,14 +2001,13 @@ void AddTextPrinterParameterized5WithRTL(u8 windowId, u8 fontId, const u8 *str,
 {
     struct TextPrinterTemplate printer;
     s32 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
-    s32 baseX = windowWidthPx - rightPadding - 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
 
-    printer.x = baseX;
-    printer.currentX = baseX;
+    printer.x = rtlMode ? (windowWidthPx - rightPadding): rightPadding;
+    printer.currentX = printer.x;
 
     printer.y = top;
     printer.currentY = top;

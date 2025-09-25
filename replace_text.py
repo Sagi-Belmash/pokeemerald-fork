@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-replace_battleputtext_add_true.py
+replace_printtext_add_false.py
 
 Changes calls like:
-  BattlePutTextOnWindow(text, windowId);
+  PrintTextOnWindow(text, windowId);
 into:
-  BattlePutTextOnWindow(text, windowId, TRUE);
+  PrintTextOnWindow(text, windowId, FALSE);
 
 - Handles nested parentheses in argument lists
 - Skips string/char literals and // and /* */ comments
@@ -18,9 +18,10 @@ import difflib
 import re
 import sys
 
-TARGET_FNAMES = ["BattlePutTextOnWindow"]
+TARGET_FNAMES = ["PrintTextOnWindow"]
 
 DEFAULT_EXTS = {".c", ".h", ".cpp", ".cc", ".hpp"}
+
 
 def find_matching_paren(s, start_idx):
     """ Find the matching closing parenthesis, skipping strings and comments. """
@@ -61,18 +62,29 @@ def find_matching_paren(s, start_idx):
         i += 1
     return -1
 
+
 def process_text(text):
     idx = 0
     out_parts = []
     last_pos = 0
     replacements = []
 
+    # Build a combined search string for speed
     while True:
-        pos = text.find("BattlePutTextOnWindow(", idx)
-        if pos == -1:
+        # find the next occurrence of any target function
+        next_pos = -1
+        next_fn = None
+        for fn in TARGET_FNAMES:
+            p = text.find(fn + "(", idx)
+            if p != -1 and (next_pos == -1 or p < next_pos):
+                next_pos = p
+                next_fn = fn
+        if next_pos == -1:
             break
 
-        start_args = pos + len("BattlePutTextOnWindow(")
+        pos = next_pos
+        fn = next_fn
+        start_args = pos + len(fn) + 1
         match_end = find_matching_paren(text, start_args)
         if match_end == -1:
             idx = start_args
@@ -80,15 +92,15 @@ def process_text(text):
 
         args = text[start_args:match_end]
 
-        # If it already ends with TRUE, skip
-        if re.search(r',\s*TRUE\s*$', args):
+        # If it already ends with FALSE, skip
+        if re.search(r',\s*FALSE\s*$', args):
             idx = match_end + 1
             continue
 
-        # Otherwise, add , TRUE
-        new_args = args.rstrip() + ", TRUE"
+        # Otherwise, add , FALSE
+        new_args = args.rstrip() + ", FALSE"
         original_call = text[pos:match_end+1]
-        new_call = "BattlePutTextOnWindow(" + new_args + ")"
+        new_call = fn + "(" + new_args + ")"
 
         out_parts.append(text[last_pos:pos])
         out_parts.append(new_call)
@@ -103,6 +115,7 @@ def process_text(text):
     out_parts.append(text[last_pos:])
     return "".join(out_parts), replacements
 
+
 def process_file(path: Path, apply: bool):
     text = path.read_text(encoding="utf-8")
     new_text, repls = process_text(text)
@@ -115,6 +128,7 @@ def process_file(path: Path, apply: bool):
     diff = list(difflib.unified_diff(orig_lines, new_lines, fromfile=str(path) + ".orig", tofile=str(path), lineterm=""))
     return True, diff
 
+
 def walk_and_process(root: Path, exts, apply: bool):
     modified = []
     diffs = {}
@@ -125,6 +139,7 @@ def walk_and_process(root: Path, exts, apply: bool):
                 modified.append(p)
                 diffs[p] = diff
     return modified, diffs
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -156,6 +171,7 @@ def main():
     else:
         print("\nApplied changes in-place (no backups).")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

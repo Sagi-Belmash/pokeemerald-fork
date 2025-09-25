@@ -992,7 +992,7 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "עיירת ליטלרוט\n"
-	.string "“עיירה שאי אפשר לצבוע אותה בשום גוון.”$"
+	.string "“עיירה שלא ניתן לצבוע בשום גוון.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "מעבדת הפוקימון של פרופ. בירץ'$"

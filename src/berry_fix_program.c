@@ -306,19 +306,19 @@ static void BerryFix_GpuSet(void)
 
     width = GetStringWidth(FONT_SMALL, sText_Emerald, 0);
     left = (120 - width) / 2;
-    AddTextPrinterParameterized3(WIN_GAME_NAMES, FONT_SMALL, left, 3, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_Emerald);
+    AddTextPrinterParameterized3WithRTL(WIN_GAME_NAMES, FONT_SMALL, left, 3, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_Emerald, TRUE);
 
     width = GetStringWidth(FONT_SMALL, sText_RubySapphire, 0);
     left = (120 - width) / 2 + 120;
-    AddTextPrinterParameterized3(WIN_GAME_NAMES, FONT_SMALL, left, 3, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_RubySapphire);
+    AddTextPrinterParameterized3WithRTL(WIN_GAME_NAMES, FONT_SMALL, left, 3, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_RubySapphire, TRUE);
 
     width = GetStringWidth(FONT_SMALL, sText_RubySapphire, 0);
     left = (112 - width) / 2;
-    AddTextPrinterParameterized3(WIN_TURN_OFF_TITLE, FONT_SMALL, left, 0, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_RubySapphire);
+    AddTextPrinterParameterized3WithRTL(WIN_TURN_OFF_TITLE, FONT_SMALL, left, 0, sGameTitleTextColors, TEXT_SKIP_DRAW, sText_RubySapphire, TRUE);
 
     width = GetStringWidth(FONT_NORMAL, sText_BerryProgramUpdate, 0);
     left = (208 - width) / 2;
-    AddTextPrinterParameterized3(WIN_TITLE, FONT_NORMAL, left, 2, sBerryProgramTextColors, TEXT_SKIP_DRAW, sText_BerryProgramUpdate);
+    AddTextPrinterParameterized3WithRTL(WIN_TITLE, FONT_NORMAL, left, 2, sBerryProgramTextColors, TEXT_SKIP_DRAW, sText_BerryProgramUpdate, TRUE);
 
     CopyWindowToVram(WIN_GAME_NAMES, COPYWIN_GFX);
     CopyWindowToVram(WIN_TURN_OFF_TITLE, COPYWIN_GFX);
@@ -347,7 +347,7 @@ static void BerryFix_SetScene(int scene)
 {
     FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
     FillWindowPixelBuffer(WIN_MSG_BODY, PIXEL_FILL(10));
-    AddTextPrinterParameterized3(WIN_MSG_BODY, FONT_NORMAL, 0, 0, sBerryProgramTextColors, TEXT_SKIP_DRAW, sBerryProgramTexts[scene]);
+    AddTextPrinterParameterized3WithRTL(WIN_MSG_BODY, FONT_NORMAL, 0, 0, sBerryProgramTextColors, TEXT_SKIP_DRAW, sBerryProgramTexts[scene], TRUE);
     PutWindowTilemap(WIN_MSG_BODY);
     CopyWindowToVram(WIN_MSG_BODY, COPYWIN_GFX);
     switch (scene)

@@ -822,13 +822,13 @@ void HofPCTopBar_Print(const u8 *string, u8 left, bool8 copyToVram)
         PutWindowTilemap(sHofPCTopBarWindowId);
         FillWindowPixelBuffer(sHofPCTopBarWindowId, PIXEL_FILL(15));
         width = GetStringWidth(FONT_SMALL, string, 0);
-        AddTextPrinterParameterized3(sHofPCTopBarWindowId,
+        AddTextPrinterParameterized3WithRTL(sHofPCTopBarWindowId,
                   FONT_SMALL,
                   236 - (GetWindowAttribute(sHofPCTopBarWindowId, WINDOW_TILEMAP_LEFT) * 8) - left - width,
                   1,
                   sTextColors,
                   0,
-                  string);
+                  string, TRUE);
         if (copyToVram)
             CopyWindowToVram(sHofPCTopBarWindowId, COPYWIN_FULL);
     }
@@ -858,15 +858,15 @@ void HofPCTopBar_PrintPair(const u8 *string, const u8 *string2, bool8 noBg, u8 l
         if (string2 != NULL)
         {
             width = GetStringWidth(FONT_SMALL, string2, 0);
-            AddTextPrinterParameterized3(sHofPCTopBarWindowId,
+            AddTextPrinterParameterized3WithRTL(sHofPCTopBarWindowId,
                       FONT_SMALL,
                       236 - (GetWindowAttribute(sHofPCTopBarWindowId, WINDOW_TILEMAP_LEFT) * 8) - left - width,
                       1,
                       color,
                       0,
-                      string2);
+                      string2, TRUE);
         }
-        AddTextPrinterParameterized4(sHofPCTopBarWindowId, FONT_NORMAL, 4, 1, 0, 0, color, 0, string);
+        AddTextPrinterParameterized4WithRTL(sHofPCTopBarWindowId, FONT_NORMAL, 4, 1, 0, 0, color, 0, string, TRUE);
         if (copyToVram)
             CopyWindowToVram(sHofPCTopBarWindowId, COPYWIN_FULL);
     }
@@ -943,7 +943,7 @@ void RedrawMenuCursor(u8 oldPos, u8 newPos)
     width = GetMenuCursorDimensionByFont(sMenu.fontId, 0);
     height = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
     FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), windowWidthPx - sMenu.left - 16, sMenu.optionHeight * oldPos + sMenu.top, width, height);
-    AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0);
+    AddTextPrinterParameterizedWithRTL(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0, TRUE);
 }
 
 u8 Menu_MoveCursor(s8 cursorDelta)
@@ -1103,7 +1103,7 @@ void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineH
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
-        AddTextPrinterParameterized(windowId, fontId, menuActions[i].text, left, (lineHeight * i) + top, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterizedWithRTL(windowId, fontId, menuActions[i].text, left, (lineHeight * i) + top, TEXT_SKIP_DRAW, NULL, TRUE);
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
@@ -1111,7 +1111,7 @@ static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 le
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
-        AddTextPrinterParameterized5(windowId, fontId, menuActions[i].text, left, (lineHeight * i) + top, TEXT_SKIP_DRAW, NULL, letterSpacing, lineSpacing);
+        AddTextPrinterParameterized5WithRTL(windowId, fontId, menuActions[i].text, left, (lineHeight * i) + top, TEXT_SKIP_DRAW, NULL, letterSpacing, lineSpacing, TRUE);
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
@@ -1230,7 +1230,7 @@ static void PrintMenuActionGridText(u8 windowId, u8 fontId, u8 left, u8 top, u8 
     for (i = 0; i < rows; i++)
     {
         for (j = 0; j < columns; j++)
-            AddTextPrinterParameterized(windowId, fontId, menuActions[(i * columns) + j].text, (width * j) + left, (height * i) + top, TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterizedWithRTL(windowId, fontId, menuActions[(i * columns) + j].text, (width * j) + left, (height * i) + top, TEXT_SKIP_DRAW, NULL, TRUE);
     }
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
@@ -1325,7 +1325,7 @@ static void MoveMenuGridCursor(u8 oldCursorPos, u8 newCursorPos)
 
     xPos = windowWidthPx - (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     yPos = (newCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
-    AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0);
+    AddTextPrinterParameterizedWithRTL(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0, TRUE);
 }
 
 u8 ChangeMenuGridCursorPosition(s8 deltaX, s8 deltaY)
@@ -1592,7 +1592,7 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     u32 i;
 
     for (i = 0; i < itemCount; i++)
-        AddTextPrinterParameterized(windowId, 1, menuActions[i].text, 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterizedWithRTL(windowId, 1, menuActions[i].text, 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL, TRUE);
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
@@ -1604,11 +1604,11 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
     u8 i;
     for (i = 0; i < itemCount; i++)
     {
-        AddTextPrinterParameterized(windowId, FONT_NORMAL,
+        AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL,
                                     menuActions[actionIds[i]].text,
                                     8,  // fixed right margin
                                     (i * 16) + 1,
-                                    TEXT_SKIP_DRAW, NULL);
+                                    TEXT_SKIP_DRAW, NULL, TRUE);
     }
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
@@ -1675,7 +1675,7 @@ void PrintMenuGridTable(u8 windowId, u8 optionWidth, u8 columns, u8 rows, const 
     for (i = 0; i < rows; i++)
     {
         for (j = 0; j < columns; j++)
-            AddTextPrinterParameterized(windowId, 1, menuActions[(i * columns) + j].text, (optionWidth * j) + 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterizedWithRTL(windowId, 1, menuActions[(i * columns) + j].text, (optionWidth * j) + 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
@@ -1937,17 +1937,19 @@ void BgDmaFill(u32 bg, u8 value, int offset, int size)
     RequestDma3Fill(value << 24 | value << 16 | value << 8 | value, VRAM + addr, size * temp, 1);
 }
 
-void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 rightPadding, u8 top,
-                                  const u8 *color, s8 speed, const u8 *str)
+// AddTextPrinterParameterized3WithRTL
+void AddTextPrinterParameterized3WithRTL(u8 windowId, u8 fontId, s8 rightPadding, u8 top,
+                                        const u8 *color, s8 speed, const u8 *str, bool8 rtlMode)
 {
     struct TextPrinterTemplate printer;
-    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s32 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = windowWidthPx - rightPadding;
-    printer.currentX = printer.x - 8;
+
+    printer.x = rtlMode ? (windowWidthPx - rightPadding): rightPadding;
+    printer.currentX = printer.x;
 
     printer.y = top;
     printer.currentY = top;
@@ -1957,22 +1959,26 @@ void AddTextPrinterParameterized3(u8 windowId, u8 fontId, u8 rightPadding, u8 to
     printer.fgColor = color[1];
     printer.bgColor = color[0];
     printer.shadowColor = color[2];
+    printer.rtlMode = rtlMode;
 
     AddTextPrinter(&printer, speed, NULL);
 }
 
-void AddTextPrinterParameterized4(u8 windowId, u8 fontId, s8 rightPadding, u8 top,
-                                  u8 letterSpacing, u8 lineSpacing,
-                                  const u8 *color, s8 speed, const u8 *str)
+// AddTextPrinterParameterized4WithRTL
+void AddTextPrinterParameterized4WithRTL(u8 windowId, u8 fontId, s8 rightPadding, u8 top,
+                                        u8 letterSpacing, u8 lineSpacing,
+                                        const u8 *color, s8 speed, const u8 *str, bool8 rtlMode)
 {
     struct TextPrinterTemplate printer;
-    s16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s32 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s32 baseX = windowWidthPx - rightPadding - 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = (s8)(windowWidthPx - rightPadding - 8);
-    printer.currentX = printer.x;
+
+    printer.x = baseX;
+    printer.currentX = baseX;
 
     printer.y = top;
     printer.currentY = top;
@@ -1982,23 +1988,27 @@ void AddTextPrinterParameterized4(u8 windowId, u8 fontId, s8 rightPadding, u8 to
     printer.fgColor = color[1];
     printer.bgColor = color[0];
     printer.shadowColor = color[2];
+    printer.rtlMode = rtlMode;
 
     AddTextPrinter(&printer, speed, NULL);
 }
 
-void AddTextPrinterParameterized5(u8 windowId, u8 fontId, const u8 *str,
-                                  u8 rightPadding, u8 top, u8 speed,
-                                  void (*callback)(struct TextPrinterTemplate *, u16),
-                                  u8 letterSpacing, u8 lineSpacing)
+// AddTextPrinterParameterized5WithRTL
+void AddTextPrinterParameterized5WithRTL(u8 windowId, u8 fontId, const u8 *str,
+                                        s8 rightPadding, u8 top, u8 speed,
+                                        void (*callback)(struct TextPrinterTemplate *, u16),
+                                        u8 letterSpacing, u8 lineSpacing, bool8 rtlMode)
 {
     struct TextPrinterTemplate printer;
-    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s32 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    s32 baseX = windowWidthPx - rightPadding - 8;
 
     printer.currentChar = str;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.x = windowWidthPx - rightPadding - 8;
-    printer.currentX = printer.x;
+
+    printer.x = baseX;
+    printer.currentX = baseX;
 
     printer.y = top;
     printer.currentY = top;
@@ -2008,6 +2018,7 @@ void AddTextPrinterParameterized5(u8 windowId, u8 fontId, const u8 *str,
     printer.fgColor = GetFontAttribute(fontId, FONTATTR_COLOR_FOREGROUND);
     printer.bgColor = GetFontAttribute(fontId, FONTATTR_COLOR_BACKGROUND);
     printer.shadowColor = GetFontAttribute(fontId, FONTATTR_COLOR_SHADOW);
+    printer.rtlMode = rtlMode;
 
     AddTextPrinter(&printer, speed, callback);
 }
@@ -2020,7 +2031,7 @@ void PrintPlayerNameOnWindow(u8 windowId, const u8 *src, u16 x, u16 y)
 
     StringExpandPlaceholders(gStringVar4, src);
 
-    AddTextPrinterParameterized(windowId, 1, gStringVar4, x, y, TEXT_SKIP_DRAW, 0);
+    AddTextPrinterParameterizedWithRTL(windowId, 1, gStringVar4, x, y, TEXT_SKIP_DRAW, 0, TRUE);
 }
 
 static void UNUSED UnusedBlitBitmapRect(const struct Bitmap *src, struct Bitmap *dst, u16 srcX, u16 srcY, u16 dstX, u16 dstY, u16 width, u16 height)

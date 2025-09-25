@@ -3954,7 +3954,7 @@ static void PrintTitle(void)
 
 static void PrintEasyChatText(u8 windowId, u8 fontId, const u8 *str, u8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16))
 {
-    AddTextPrinterParameterized(windowId, fontId, str, x, y, speed, callback);
+    AddTextPrinterParameterizedWithRTL(windowId, fontId, str, x, y, speed, callback, TRUE);
 }
 
 static void PrintEasyChatTextWithColors(u8 windowId, u8 fontId, const u8 *str, u8 left, u8 top, u8 speed, u8 bg, u8 fg, u8 shadow)
@@ -3963,7 +3963,7 @@ static void PrintEasyChatTextWithColors(u8 windowId, u8 fontId, const u8 *str, u
     color[0] = bg;
     color[1] = fg;
     color[2] = shadow;
-    AddTextPrinterParameterized3(windowId, fontId, left, top, color, speed, str);
+    AddTextPrinterParameterized3WithRTL(windowId, fontId, left, top, color, speed, str, TRUE);
 }
 
 static void PrintInitialInstructions(void)

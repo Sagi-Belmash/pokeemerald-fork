@@ -137,7 +137,7 @@ extern u8 gDisableTextPrinters;
 extern struct TextGlyph gCurGlyph;
 
 void DeactivateAllTextPrinters(void);
-u16 AddTextPrinterParameterized(u8 windowId, u8 fontId, const u8 *str, u8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16));
+u16 AddTextPrinterParameterizedWithRTL(u8 windowId, u8 fontId, const u8 *str, s8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16), bool8 rtlMode);
 bool16 AddTextPrinter(struct TextPrinterTemplate *printerTemplate, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16));
 void RunTextPrinters(void);
 bool16 IsTextPrinterActive(u8 id);

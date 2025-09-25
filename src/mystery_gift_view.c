@@ -424,38 +424,38 @@ static void DrawCardWindow(u8 whichWindow)
     {
         // Print card title/subtitle
         s32 x;
-        AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, 0, 1, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->titleText);
+        AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, 0, 1, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->titleText, TRUE);
         x = 160 - GetStringWidth(FONT_SHORT_COPY_1, sWonderCardData->subtitleText, GetFontAttribute(FONT_SHORT_COPY_1, FONTATTR_LETTER_SPACING));
         if (x < 0)
             x = 0;
-        AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, x, 17, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->subtitleText);
+        AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, x, 17, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->subtitleText, TRUE);
 
         // Print id number
         if (sWonderCardData->card.idNumber != 0)
-            AddTextPrinterParameterized3(windowId, FONT_NORMAL, 166, 17, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->idNumberText);
+            AddTextPrinterParameterized3WithRTL(windowId, FONT_NORMAL, 166, 17, sCard_TextColorTable[sWonderCardData->gfx->titleTextPal], 0, sWonderCardData->idNumberText, TRUE);
         break;
     }
     case CARD_WIN_BODY:
         // Print body text
         for (; i < WONDER_CARD_BODY_TEXT_LINES; i++)
-            AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, 0, 16 * i + 2, sCard_TextColorTable[sWonderCardData->gfx->bodyTextPal], 0, sWonderCardData->bodyText[i]);
+            AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, 0, 16 * i + 2, sCard_TextColorTable[sWonderCardData->gfx->bodyTextPal], 0, sWonderCardData->bodyText[i], TRUE);
         break;
     case CARD_WIN_FOOTER:
         // Print footer line 1
-        AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, 0,
+        AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, 0,
                                      sCard_FooterTextOffsets[sWonderCardData->card.type],
                                      sCard_TextColorTable[sWonderCardData->gfx->footerTextPal],
-                                     0, sWonderCardData->footerLine1Text);
+                                     0, sWonderCardData->footerLine1Text, TRUE);
 
         // Print footer line 2
         if (sWonderCardData->card.type != CARD_TYPE_LINK_STAT)
         {
             // Print gift text
             // Odd that CARD_TYPE_STAMP is not ignored, it has empty text for this
-            AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, 0,
+            AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, 0,
                                          16 + sCard_FooterTextOffsets[sWonderCardData->card.type],
                                          sCard_TextColorTable[sWonderCardData->gfx->footerTextPal],
-                                         0, sWonderCardData->giftText);
+                                         0, sWonderCardData->giftText, TRUE);
         }
         else
         {
@@ -465,14 +465,14 @@ static void DrawCardWindow(u8 whichWindow)
             for (; i < sWonderCardData->statFooterWidth; i++)
             {
                 // Print stat text
-                AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, x, y, sCard_TextColorTable[sWonderCardData->gfx->footerTextPal], 0, sWonderCardData->statTextData[i].statText);
+                AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, x, y, sCard_TextColorTable[sWonderCardData->gfx->footerTextPal], 0, sWonderCardData->statTextData[i].statText, TRUE);
                 if (sWonderCardData->statTextData[i].statNumberText[0] != EOS)
                 {
                     // Print stat number
                     x += GetStringWidth(FONT_SHORT_COPY_1, sWonderCardData->statTextData[i].statText, spacing);
-                    AddTextPrinterParameterized3(windowId, FONT_SHORT_COPY_1, x, y,
+                    AddTextPrinterParameterized3WithRTL(windowId, FONT_SHORT_COPY_1, x, y,
                                                  sCard_TextColorTable[sWonderCardData->gfx->footerTextPal],
-                                                 0, sWonderCardData->statTextData[i].statNumberText);
+                                                 0, sWonderCardData->statTextData[i].statNumberText, TRUE);
                     x += GetStringWidth(FONT_SHORT_COPY_1, sWonderCardData->statTextData[i].statNumberText, spacing) + sWonderCardData->statTextData[i].width;
                 }
             }
@@ -895,14 +895,14 @@ static void DrawNewsWindows(void)
     x = (224 - GetStringWidth(FONT_SHORT_COPY_1, sWonderNewsData->titleText, GetFontAttribute(FONT_SHORT_COPY_1, FONTATTR_LETTER_SPACING))) / 2;
     if (x < 0)
         x = 0;
-    AddTextPrinterParameterized3(sWonderNewsData->windowIds[NEWS_WIN_TITLE], FONT_SHORT_COPY_1, x, 6, sNews_TextColorTable[sWonderNewsData->gfx->titleTextPal], 0, sWonderNewsData->titleText);
+    AddTextPrinterParameterized3WithRTL(sWonderNewsData->windowIds[NEWS_WIN_TITLE], FONT_SHORT_COPY_1, x, 6, sNews_TextColorTable[sWonderNewsData->gfx->titleTextPal], 0, sWonderNewsData->titleText, TRUE);
 
     // Print body text
     for (; i < WONDER_NEWS_BODY_TEXT_LINES; i++)
-        AddTextPrinterParameterized3(sWonderNewsData->windowIds[NEWS_WIN_BODY], FONT_SHORT_COPY_1, 0,
+        AddTextPrinterParameterized3WithRTL(sWonderNewsData->windowIds[NEWS_WIN_BODY], FONT_SHORT_COPY_1, 0,
                                      16 * i + 2,
                                      sNews_TextColorTable[sWonderNewsData->gfx->bodyTextPal],
-                                     0, sWonderNewsData->bodyText[i]);
+                                     0, sWonderNewsData->bodyText[i], TRUE);
 
     CopyWindowToVram(sWonderNewsData->windowIds[NEWS_WIN_TITLE], COPYWIN_FULL);
     CopyWindowToVram(sWonderNewsData->windowIds[NEWS_WIN_BODY], COPYWIN_FULL);

@@ -78,7 +78,7 @@ static void AddTextPrinterForUnionRoomBattle(u8 windowId, const u8 *str, u8 x, u
     s32 letterSpacing = 0;
     s32 lineSpacing = 1;
     FillWindowPixelBuffer(windowId, (sTextColors[0] << 4) | sTextColors[0]);
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, letterSpacing, lineSpacing, sTextColors, speed, str);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NORMAL, x, y, letterSpacing, lineSpacing, sTextColors, speed, str, TRUE);
 }
 
 static bool32 PrintUnionRoomBattleMessage(s16 *state, const u8 *str, s32 speed)

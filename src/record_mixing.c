@@ -286,7 +286,7 @@ static void ReceiveExchangePacket(u32 multiplayerId)
 static void PrintTextOnRecordMixing(const u8 *src)
 {
     DrawDialogueFrame(0, FALSE);
-    AddTextPrinterParameterized(0, FONT_NORMAL, src, 0, 1, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, src, 0, 1, 0, NULL, TRUE);
     CopyWindowToVram(0, COPYWIN_FULL);
 }
 

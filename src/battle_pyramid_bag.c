@@ -1171,7 +1171,7 @@ static void ShowNumToToss(void)
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     DrawTossNumberWindow(WIN_TOSS_NUM);
     x = GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0x28);
-    AddTextPrinterParameterized(WIN_TOSS_NUM, FONT_NORMAL, gStringVar4, x, 2, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(WIN_TOSS_NUM, FONT_NORMAL, gStringVar4, x, 2, 0, NULL, TRUE);
 }
 
 static void UpdateNumToToss(s16 num)
@@ -1180,7 +1180,7 @@ static void UpdateNumToToss(s16 num)
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_LEADING_ZEROS, 2);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     x = GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0x28);
-    AddTextPrinterParameterized(WIN_TOSS_NUM, FONT_NORMAL, gStringVar4, x, 2, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(WIN_TOSS_NUM, FONT_NORMAL, gStringVar4, x, 2, 0, NULL, TRUE);
 }
 
 static void Task_ChooseHowManyToToss(u8 taskId)
@@ -1454,12 +1454,12 @@ static void InitPyramidBagWindows(void)
 
 static void PyramidBagPrint(u8 windowId, const u8 *src, u8 x, u8 y, u8 letterSpacing, u8 lineSpacing, u8 speed, u8 colorTableId)
 {
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, letterSpacing, lineSpacing, sTextColors[colorTableId], speed, src);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NORMAL, x, y, letterSpacing, lineSpacing, sTextColors[colorTableId], speed, src, TRUE);
 }
 
 static void PyramidBagPrint_Quantity(u8 windowId, const u8 *src, u8 x, u8 y, u8 letterSpacing, u8 lineSpacing, u8 speed, u8 colorTableId)
 {
-    AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y, letterSpacing, lineSpacing, sTextColors[colorTableId], speed, src);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NARROW, x, y, letterSpacing, lineSpacing, sTextColors[colorTableId], speed, src, TRUE);
 }
 
 static void DrawTossNumberWindow(u8 windowId)

@@ -462,7 +462,7 @@ static void DisableTextPrinters(struct TextPrinterTemplate *printer, u16 renderC
 static void DrawSongTextWindow(const u8 *str)
 {
     DrawDialogueFrame(0, FALSE);
-    AddTextPrinterParameterized(0, FONT_NORMAL, str, 0, 1, 1, DisableTextPrinters);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, str, 0, 1, 1, DisableTextPrinters, TRUE);
     gDisableTextPrinters = TRUE;
     CopyWindowToVram(0, COPYWIN_FULL);
 }
@@ -1394,9 +1394,9 @@ static void PrintStoryList(void)
         u16 gameStatID = sStorytellerPtr->gameStatIDs[i];
         if (gameStatID == 0)
             break;
-        AddTextPrinterParameterized(sStorytellerWindowId, FONT_NORMAL, GetStoryTitleByStat(gameStatID), 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterizedWithRTL(sStorytellerWindowId, FONT_NORMAL, GetStoryTitleByStat(gameStatID), 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
-    AddTextPrinterParameterized(sStorytellerWindowId, FONT_NORMAL, gText_Exit, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterizedWithRTL(sStorytellerWindowId, FONT_NORMAL, gText_Exit, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     InitMenuInUpperLeftCornerNormal(sStorytellerWindowId, GetFreeStorySlot() + 1, 0);
     CopyWindowToVram(sStorytellerWindowId, COPYWIN_FULL);
 }

@@ -771,7 +771,7 @@ static void HideHeartSpritesAndShowTeachMoveText(bool8 onlyHideSprites)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
         FillWindowPixelBuffer(RELEARNERWIN_MSG, 0x11);
-        AddTextPrinterParameterized(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
+        AddTextPrinterParameterizedWithRTL(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL, TRUE);
     }
 }
 
@@ -839,7 +839,7 @@ static void ShowTeachMoveText(bool8 shouldDoNothingInstead)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
         FillWindowPixelBuffer(RELEARNERWIN_MSG, 0x11);
-        AddTextPrinterParameterized(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
+        AddTextPrinterParameterizedWithRTL(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL, TRUE);
     }
 }
 

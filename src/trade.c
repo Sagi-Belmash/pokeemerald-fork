@@ -1927,9 +1927,9 @@ static void DrawSelectedMonScreen(u8 whichParty)
 
         // Print selected pokemon's name and moves
         nameStringWidth = GetMonNicknameWidth(nickname, selectedMonParty, partyIdx);
-        AddTextPrinterParameterized3((whichParty * 2) + 14, FONT_SMALL, (80 - nameStringWidth) / 2, 4, sTradeTextColors, 0, nickname);
+        AddTextPrinterParameterized3WithRTL((whichParty * 2) + 14, FONT_SMALL, (80 - nameStringWidth) / 2, 4, sTradeTextColors, 0, nickname, TRUE);
         BufferMovesString(movesString, selectedMonParty, partyIdx);
-        AddTextPrinterParameterized4((whichParty * 2) + 15, FONT_NORMAL, 0, 0, 0, 0, sTradeTextColors, 0, movesString);
+        AddTextPrinterParameterized4WithRTL((whichParty * 2) + 15, FONT_NORMAL, 0, 0, 0, 0, sTradeTextColors, 0, movesString, TRUE);
         PutWindowTilemap((whichParty * 2) + 14);
         CopyWindowToVram((whichParty * 2) + 14, COPYWIN_FULL);
         PutWindowTilemap((whichParty * 2) + 15);
@@ -1998,7 +1998,7 @@ static void PrintPartyMonNickname(u8 whichParty, u8 windowId, u8 *nickname)
     u8 xPos;
     windowId += (whichParty * PARTY_SIZE) + 2;
     xPos = GetStringCenterAlignXOffset(FONT_SMALL, nickname, 64);
-    AddTextPrinterParameterized3(windowId, FONT_SMALL, xPos, 4, sTradeTextColors, 0, nickname);
+    AddTextPrinterParameterized3WithRTL(windowId, FONT_SMALL, xPos, 4, sTradeTextColors, 0, nickname, TRUE);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, COPYWIN_FULL);
 }
@@ -2220,7 +2220,7 @@ static void DoQueuedActions(void)
 static void PrintTradeMessage(u8 messageId)
 {
     FillWindowPixelBuffer(0, PIXEL_FILL(1));
-    AddTextPrinterParameterized(0, FONT_NORMAL, sMessages[messageId], 0, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, sMessages[messageId], 0, 1, TEXT_SKIP_DRAW, NULL, TRUE);
     DrawTextBorderOuter(0, 20, 12);
     PutWindowTilemap(0);
     CopyWindowToVram(0, COPYWIN_FULL);
@@ -4881,7 +4881,7 @@ void DrawTextOnTradeWindow(u8 windowId, const u8 *str, u8 speed)
     sTradeAnim->textColors[0] = TEXT_DYNAMIC_COLOR_6;
     sTradeAnim->textColors[1] = TEXT_COLOR_WHITE;
     sTradeAnim->textColors[2] = TEXT_COLOR_GREEN;
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, 2, 0, 0, sTradeAnim->textColors, speed, str);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NORMAL, 0, 2, 0, 0, sTradeAnim->textColors, speed, str, TRUE);
     CopyWindowToVram(windowId, COPYWIN_FULL);
 }
 

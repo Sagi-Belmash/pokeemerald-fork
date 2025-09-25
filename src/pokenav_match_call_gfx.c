@@ -1007,14 +1007,14 @@ static void PrintNumberOfBattles(u16 windowId)
 static void PrintMatchCallInfoLabel(u16 windowId, const u8 *str, int top)
 {
     int y = top * 16 + 1;
-    AddTextPrinterParameterized(windowId, FONT_NARROW, str, 2, y, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NARROW, str, 2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
 
 static void PrintMatchCallInfoNumber(u16 windowId, const u8 *str, int top)
 {
     int x = GetStringRightAlignXOffset(FONT_NARROW, str, 86);
     int y = top * 16 + 1;
-    AddTextPrinterParameterized(windowId, FONT_NARROW, str, x, y, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NARROW, str, x, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
 
 static void PrintMatchCallLocation(struct Pokenav_MatchCallGfx *gfx, int delta)
@@ -1030,7 +1030,7 @@ static void PrintMatchCallLocation(struct Pokenav_MatchCallGfx *gfx, int delta)
 
     x = GetStringCenterAlignXOffset(FONT_NARROW, mapName, 88);
     FillWindowPixelBuffer(gfx->locWindowId, PIXEL_FILL(1));
-    AddTextPrinterParameterized(gfx->locWindowId, FONT_NARROW, mapName, x, 1, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(gfx->locWindowId, FONT_NARROW, mapName, x, 1, 0, NULL, TRUE);
 }
 
 static void PrintMatchCallSelectionOptions(struct Pokenav_MatchCallGfx *gfx)
@@ -1044,7 +1044,7 @@ static void PrintMatchCallSelectionOptions(struct Pokenav_MatchCallGfx *gfx)
         if (optionText == MATCH_CALL_OPTION_COUNT)
             break;
 
-        AddTextPrinterParameterized(gfx->infoBoxWindowId, FONT_NARROW, sMatchCallOptionTexts[optionText], 16, i * 16 + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterizedWithRTL(gfx->infoBoxWindowId, FONT_NARROW, sMatchCallOptionTexts[optionText], 16, i * 16 + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
 
     CopyWindowToVram(gfx->infoBoxWindowId, COPYWIN_GFX);
@@ -1116,7 +1116,7 @@ static bool32 IsDma3ManagerBusyWithBgCopy2(struct Pokenav_MatchCallGfx *gfx)
 
 static void PrintCallingDots(struct Pokenav_MatchCallGfx *gfx)
 {
-    AddTextPrinterParameterized(gfx->msgBoxWindowId, FONT_NORMAL, sText_CallingDots, 32, 1, 1, NULL);
+    AddTextPrinterParameterizedWithRTL(gfx->msgBoxWindowId, FONT_NORMAL, sText_CallingDots, 32, 1, 1, NULL, TRUE);
 }
 
 static bool32 WaitForCallingDotsText(struct Pokenav_MatchCallGfx *gfx)
@@ -1127,7 +1127,7 @@ static bool32 WaitForCallingDotsText(struct Pokenav_MatchCallGfx *gfx)
 
 static void PrintTrainerIsCloseBy(struct Pokenav_MatchCallGfx *gfx)
 {
-    AddTextPrinterParameterized(gfx->msgBoxWindowId, FONT_NORMAL, gText_TrainerCloseBy, 0, 1, 1, NULL);
+    AddTextPrinterParameterizedWithRTL(gfx->msgBoxWindowId, FONT_NORMAL, gText_TrainerCloseBy, 0, 1, 1, NULL, TRUE);
 }
 
 static bool32 WaitForTrainerIsCloseByText(struct Pokenav_MatchCallGfx *gfx)
@@ -1141,7 +1141,7 @@ static void PrintMatchCallMessage(struct Pokenav_MatchCallGfx *gfx)
     int index = PokenavList_GetSelectedIndex();
     const u8 *str = GetMatchCallMessageText(index, &gfx->newRematchRequest);
     u8 speed = GetPlayerTextSpeedDelay();
-    AddTextPrinterParameterized(gfx->msgBoxWindowId, FONT_NORMAL, str, 32, 1, speed, NULL);
+    AddTextPrinterParameterizedWithRTL(gfx->msgBoxWindowId, FONT_NORMAL, str, 32, 1, speed, NULL, TRUE);
 }
 
 static bool32 WaitForMatchCallMessageText(struct Pokenav_MatchCallGfx *gfx)

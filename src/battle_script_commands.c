@@ -5400,7 +5400,7 @@ static void Cmd_yesnoboxlearnmove(void)
     {
     case 0:
         HandleBattleWindow(YESNOBOX_X_Y, 0);
-        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
         gBattleScripting.learnMoveState++;
         gBattleCommunication[CURSOR_POSITION] = 0;
         BattleCreateYesNoCursorAt(0);
@@ -5514,7 +5514,7 @@ static void Cmd_yesnoboxstoplearningmove(void)
     {
     case 0:
         HandleBattleWindow(YESNOBOX_X_Y, 0);
-        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
         gBattleScripting.learnMoveState++;
         gBattleCommunication[CURSOR_POSITION] = 0;
         BattleCreateYesNoCursorAt(0);
@@ -5810,7 +5810,7 @@ static void Cmd_yesnobox(void)
     {
     case 0:
         HandleBattleWindow(YESNOBOX_X_Y, 0);
-        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
         gBattleCommunication[0]++;
         gBattleCommunication[CURSOR_POSITION] = 0;
         BattleCreateYesNoCursorAt(0);
@@ -6443,7 +6443,7 @@ static void Cmd_various(void)
         break;
     case VARIOUS_ARENA_JUDGMENT_STRING:
         BattleStringExpandPlaceholdersToDisplayedString(gRefereeStringsTable[gBattlescriptCurrInstr[1]]);
-        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TEXT);
+        BattlePutTextOnWindow(gDisplayedStringBattle, ARENA_WIN_JUDGMENT_TEXT, TRUE);
         break;
     case VARIOUS_ARENA_WAIT_STRING:
         if (IsTextPrinterActive(ARENA_WIN_JUDGMENT_TEXT))
@@ -10224,7 +10224,7 @@ static void Cmd_trygivecaughtmonnick(void)
     {
     case 0:
         HandleBattleWindow(YESNOBOX_X_Y, 0);
-        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+        BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
         gBattleCommunication[MULTIUSE_STATE]++;
         gBattleCommunication[CURSOR_POSITION] = 0;
         BattleCreateYesNoCursorAt(0);

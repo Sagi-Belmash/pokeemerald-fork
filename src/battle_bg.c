@@ -175,14 +175,14 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 35,
-        .width = 14,
+        .width = 13,
         .height = 4,
         .paletteNum = 0,
         .baseBlock = 0x01c0,
     },
     [B_WIN_ACTION_MENU] = {
         .bg = 0,
-        .tilemapLeft = 17,
+        .tilemapLeft = 16,
         .tilemapTop = 35,
         .width = 12,
         .height = 4,
@@ -191,7 +191,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
     },
     [B_WIN_MOVE_NAME_1] = {
         .bg = 0,
-        .tilemapLeft = 11, //2
+        .tilemapLeft = 10, //2
         .tilemapTop = 55,
         .width = 8,
         .height = 2,
@@ -200,7 +200,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
     },
     [B_WIN_MOVE_NAME_2] = {
         .bg = 0,
-        .tilemapLeft = 2, //11
+        .tilemapLeft = 1, //11
         .tilemapTop = 55,
         .width = 8,
         .height = 2,
@@ -209,7 +209,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
     },
     [B_WIN_MOVE_NAME_3] = {
         .bg = 0,
-        .tilemapLeft = 11, //2
+        .tilemapLeft = 10, //2
         .tilemapTop = 57,
         .width = 8,
         .height = 2,
@@ -218,7 +218,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
     },
     [B_WIN_MOVE_NAME_4] = {
         .bg = 0,
-        .tilemapLeft = 2, //2
+        .tilemapLeft = 1, //2
         .tilemapTop = 57,
         .width = 8,
         .height = 2,
@@ -396,14 +396,14 @@ static const struct WindowTemplate sBattleArenaWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 35,
-        .width = 14,
+        .width = 13,
         .height = 4,
         .paletteNum = 0,
         .baseBlock = 0x01c0,
     },
     [B_WIN_ACTION_MENU] = {
         .bg = 0,
-        .tilemapLeft = 17,
+        .tilemapLeft = 16,
         .tilemapTop = 35,
         .width = 12,
         .height = 4,
@@ -936,7 +936,7 @@ static void DrawLinkBattleVsScreenOutcomeText(void)
 {
     if (gBattleOutcome == B_OUTCOME_DREW)
     {
-        BattlePutTextOnWindow(gText_Draw, B_WIN_VS_OUTCOME_DRAW);
+        BattlePutTextOnWindow(gText_Draw, B_WIN_VS_OUTCOME_DRAW, TRUE);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
     {
@@ -945,20 +945,20 @@ static void DrawLinkBattleVsScreenOutcomeText(void)
             switch (gLinkPlayers[gBattleScripting.multiplayerId].id)
             {
             case 0:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
                 break;
             case 1:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
                 break;
             case 2:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
                 break;
             case 3:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
                 break;
             }
         }
@@ -967,20 +967,20 @@ static void DrawLinkBattleVsScreenOutcomeText(void)
             switch (gLinkPlayers[gBattleScripting.multiplayerId].id)
             {
             case 0:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
                 break;
             case 1:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
                 break;
             case 2:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
                 break;
             case 3:
-                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+                BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+                BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
                 break;
             }
         }
@@ -989,26 +989,26 @@ static void DrawLinkBattleVsScreenOutcomeText(void)
     {
         if (gLinkPlayers[gBattleScripting.multiplayerId].id != 0)
         {
-            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
         }
         else
         {
-            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
         }
     }
     else
     {
         if (gLinkPlayers[gBattleScripting.multiplayerId].id != 0)
         {
-            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT);
-            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT);
+            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_LEFT, TRUE);
+            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_RIGHT, TRUE);
         }
         else
         {
-            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT);
-            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT);
+            BattlePutTextOnWindow(gText_Win, B_WIN_VS_OUTCOME_RIGHT, TRUE);
+            BattlePutTextOnWindow(gText_Loss, B_WIN_VS_OUTCOME_LEFT, TRUE);
         }
     }
 }
@@ -1032,19 +1032,19 @@ void InitLinkBattleVsScreen(u8 taskId)
                 switch (linkPlayer->id)
                 {
                 case 0:
-                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_1);
+                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_1, TRUE);
                     DrawLinkBattleParticipantPokeballs(taskId, linkPlayer->id, 1, 2, 4);
                     break;
                 case 1:
-                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_2);
+                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_2, TRUE);
                     DrawLinkBattleParticipantPokeballs(taskId, linkPlayer->id, 2, 2, 4);
                     break;
                 case 2:
-                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_3);
+                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_3, TRUE);
                     DrawLinkBattleParticipantPokeballs(taskId, linkPlayer->id, 1, 2, 8);
                     break;
                 case 3:
-                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_4);
+                    BattlePutTextOnWindow(name, B_WIN_VS_MULTI_PLAYER_4, TRUE);
                     DrawLinkBattleParticipantPokeballs(taskId, linkPlayer->id, 2, 2, 8);
                     break;
                 }
@@ -1060,10 +1060,10 @@ void InitLinkBattleVsScreen(u8 taskId)
                 opponentId = playerId, playerId = opponentId_copy;
 
             name = gLinkPlayers[playerId].name;
-            BattlePutTextOnWindow(name, B_WIN_VS_PLAYER);
+            BattlePutTextOnWindow(name, B_WIN_VS_PLAYER, TRUE);
 
             name = gLinkPlayers[opponentId].name;
-            BattlePutTextOnWindow(name, B_WIN_VS_OPPONENT);
+            BattlePutTextOnWindow(name, B_WIN_VS_OPPONENT, TRUE);
 
             DrawLinkBattleParticipantPokeballs(taskId, playerId, 1, 2, 7);
             DrawLinkBattleParticipantPokeballs(taskId, opponentId, 2, 2, 7);

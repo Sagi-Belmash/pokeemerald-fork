@@ -1274,7 +1274,7 @@ const u8 gText_WhatWillWallyDo[] = _("What will\nWALLY do?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
 const u8 gText_BattleMenu[] = _("קרב             תיק\nפוקימון         ברח");
 const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");
-const u8 gText_MoveInterfacePP[] = _("נכ ");
+const u8 gText_MoveInterfacePP[] = _("כנ ");
 const u8 gText_MoveInterfaceType[] = _("סוג/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTYPE/");
 const u8 gText_MoveInterfaceDynamicColors[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}");
@@ -1299,8 +1299,8 @@ static const u8 *const sStatNamesTable2[] =
     sText_SpDef, sText_Defense, sText_Speed
 };
 
-const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}SAFARI BALLS");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}Left: $" "{HIGHLIGHT DARK_GRAY}");
+const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}כדורי ספארי");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}נשארו: $" "{HIGHLIGHT DARK_GRAY}");
 const u8 gText_Sleep[] = _("sleep");
 const u8 gText_Poison[] = _("poison");
 const u8 gText_Burn[] = _("burn");
@@ -1570,7 +1570,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     [B_WIN_PP_REMAINING] = {
         .fillValue = PIXEL_FILL(0xE),
         .fontId = FONT_NORMAL,
-        .x = 10,
+        .x = 2,
         .y = 1,
         .speed = 0,
         .fgColor = 12,
@@ -1810,7 +1810,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     [B_WIN_PP_REMAINING] = {
         .fillValue = PIXEL_FILL(0xE),
         .fontId = FONT_NORMAL,
-        .x = 10,
+        .x = 2,
         .y = 1,
         .speed = 0,
         .fgColor = 12,
@@ -2976,7 +2976,7 @@ static void ChooseTypeOfMoveUsedString(u8 *dst)
     }
 }
 
-void BattlePutTextOnWindow(const u8 *text, u8 windowId)
+void BattlePutTextOnWindow(const u8 *text, u8 windowId, bool8 rtlMode)
 {
     const struct BattleWindowText *textInfo = sBattleTextOnWindowsInfo[gBattleScripting.windowsType];
     bool32 copyToVram;
@@ -2998,7 +2998,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     printerTemplate.currentChar = text;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = textInfo[windowId].fontId;
-    printerTemplate.x = windowWidthPx - textInfo[windowId].x - 8;
+    printerTemplate.x = rtlMode ? (windowWidthPx - textInfo[windowId].x) : textInfo[windowId].x;
     printerTemplate.y = textInfo[windowId].y;
     printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = printerTemplate.y;
@@ -3009,7 +3009,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     printerTemplate.bgColor = textInfo[windowId].bgColor;
     printerTemplate.shadowColor = textInfo[windowId].shadowColor;
 
-    printerTemplate.rtlMode = TRUE;
+    printerTemplate.rtlMode = rtlMode;
 
     if (windowId == ARENA_WIN_JUDGMENT_TEXT)
         gTextFlags.useAlternateDownArrow = FALSE;

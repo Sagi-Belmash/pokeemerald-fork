@@ -2353,7 +2353,7 @@ static void EndLinkBattleInSteps(void)
         if (IsLinkTaskFinished() == TRUE)
         {
             SetLinkStandbyCallback();
-            BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG);
+            BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG, TRUE);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -2496,7 +2496,7 @@ static void AskRecordBattle(void)
         if (!gPaletteFade.active)
         {
             // "Would you like to record your battle on your FRONTIER PASS?"
-            BattlePutTextOnWindow(gText_RecordBattleToPass, B_WIN_MSG);
+            BattlePutTextOnWindow(gText_RecordBattleToPass, B_WIN_MSG, TRUE);
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;
@@ -2504,7 +2504,7 @@ static void AskRecordBattle(void)
         if (!IsTextPrinterActive(B_WIN_MSG))
         {
             HandleBattleWindow(YESNOBOX_X_Y, 0);
-            BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+            BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO, TRUE);
             gBattleCommunication[CURSOR_POSITION] = 1;
             BattleCreateYesNoCursorAt(1);
             gBattleCommunication[MULTIUSE_STATE]++;
@@ -2563,7 +2563,7 @@ static void AskRecordBattle(void)
             {
                 // Other battlers may be recording, wait for them
                 SetLinkStandbyCallback();
-                BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG);
+                BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG, TRUE);
             }
             gBattleCommunication[MULTIUSE_STATE]++; // STATE_END_RECORD_NO
         }
@@ -2594,14 +2594,14 @@ static void AskRecordBattle(void)
         {
             PlaySE(SE_SAVE);
             BattleStringExpandPlaceholdersToDisplayedString(gText_BattleRecordedOnPass);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gBattleCommunication[1] = 128; // Delay
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         else
         {
             BattleStringExpandPlaceholdersToDisplayedString(BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved);
-            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG, TRUE);
             gBattleCommunication[1] = 128; // Delay
             gBattleCommunication[MULTIUSE_STATE]++;
         }
@@ -2612,7 +2612,7 @@ static void AskRecordBattle(void)
             if (gMain.anyLinkBattlerHasFrontierPass)
             {
                 SetLinkStandbyCallback();
-                BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG);
+                BattlePutTextOnWindow(gText_LinkStandby3, B_WIN_MSG, TRUE);
             }
             gBattleCommunication[MULTIUSE_STATE]++;
         }
@@ -3901,7 +3901,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     TurnValuesCleanUp(FALSE);
     SpecialStatusesClear();
     *(&gBattleStruct->absentBattlerFlags) = gAbsentBattlerFlags;
-    BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG);
+    BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG, TRUE);
     gBattleMainFunc = HandleTurnActionSelectionState;
     ResetSentPokesToOpponentValue();
 
@@ -4008,7 +4008,7 @@ void BattleTurnPassed(void)
         *(gBattleStruct->monToSwitchIntoId + i) = PARTY_SIZE;
 
     *(&gBattleStruct->absentBattlerFlags) = gAbsentBattlerFlags;
-    BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG);
+    BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG, TRUE);
     gBattleMainFunc = HandleTurnActionSelectionState;
     gRandomTurnNumber = Random();
 

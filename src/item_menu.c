@@ -2417,11 +2417,11 @@ static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
     windowId = AddWindow(&window);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
     offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
-    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, /* offset */60, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     if (pocketName2)
     {
         offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
-        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, /* 0x40 - offset */60 + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     }
     CpuCopy32((u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), gBagMenu->pocketNameBuffer, sizeof(gBagMenu->pocketNameBuffer));
     RemoveWindow(windowId);
@@ -2461,10 +2461,10 @@ static void LoadBagMenuTextWindows(void)
     ScheduleBgCopyTilemapToVram(1);
 }
 
-static void BagMenu_Print(u8 windowId, u8 fontId, const u8 *str, u8 left, u8 top, u8 letterSpacing, u8 lineSpacing, u8 speed, u8 colorIndex)
+ static void BagMenu_Print(u8 windowId, u8 fontId, const u8 *str, u8 left, u8 top, u8 letterSpacing, u8 lineSpacing, u8 speed, u8 colorIndex)
 {
     AddTextPrinterParameterized4(windowId, fontId, left, top, letterSpacing, lineSpacing, sFontColorTable[colorIndex], speed, str);
-}
+} 
 
 static u8 UNUSED BagMenu_GetWindowId(u8 windowType)
 {

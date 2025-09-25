@@ -231,6 +231,9 @@
 #define EXT_CTRL_CODE_PAUSE_MUSIC            0x17
 #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
 #define EXT_CTRL_CODE_CHAR_SWAP              0x19 //Swaps End with Middle Hebrew chars
+#define EXT_CTRL_CODE_RTL                    0x1A
+#define EXT_CTRL_CODE_LTR                    0x1B
+
 
 #define TEXT_COLOR_TRANSPARENT  0x0
 #define TEXT_COLOR_WHITE        0x1

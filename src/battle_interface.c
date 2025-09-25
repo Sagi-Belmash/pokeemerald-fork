@@ -1102,25 +1102,23 @@ void InitBattlerHealthboxCoords(u8 battler)
     UpdateSpritePos(gHealthboxSpriteIds[battler], x, y);
 }
 
-/* static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
+static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 {
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
     u8 text[16];
     u32 xPos;
     u8 *objVram;
-    u8 *end;
 
     //text[0] = CHAR_EXTRA_SYMBOL;
     //text[1] = CHAR_LV_2;
 
-    end = objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-    *end++ = CHAR_LV_2;
-    *end = EOS;
+    objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
+    *objVram++ = CHAR_LV_2;
+    *objVram = EOS;
+    xPos = 5 * (3 - (objVram - (text + 2)));
 
-    //xPos = 5 * (3 - (objVram - (text + 2)));
-
-    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, /* xPos 0, 3, 2, &windowId, FALSE);
+    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, xPos, 3, 2, &windowId, FALSE);
     spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
     if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)
@@ -1137,43 +1135,6 @@ void InitBattlerHealthboxCoords(u8 battler)
         objVram += spriteTileNum + 0x400;
     }
     TextIntoHealthboxObject(objVram, windowTileData, 3);
-    RemoveWindowOnHealthbox(windowId);
-} */
-
-// Modified UpdateLvlInHealthbox function - now places level where nickname used to be
-
-static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
-{
-    u32 windowId, spriteTileNum;
-    u8 *windowTileData;
-    u8 text[16];
-    u8 *objVram;
-    u8 *end;
-
-    end = objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-    *end++ = CHAR_LV_2;
-    *end = EOS;
-
-    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 0, 3, 2, &windowId, FALSE);
-    spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
-
-    if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)
-    {
-        // CHANGED: Now using nickname's original position for level
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x40) + spriteTileNum, windowTileData, 3);
-        objVram = (void *)(OBJ_VRAM0);
-        if (!IsDoubleBattle())
-            objVram += spriteTileNum + 0x800;
-        else
-            objVram += spriteTileNum + 0x400;
-        //TextIntoHealthboxObject(objVram, windowTileData + 0xC0, 1);
-    }
-    else
-    {
-        // CHANGED: Now using nickname's original position for opponent side
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x20) + spriteTileNum, windowTileData, 3);
-    }
-
     RemoveWindowOnHealthbox(windowId);
 }
 
@@ -1950,7 +1911,7 @@ static void SpriteCB_StatusSummaryBalls_OnSwitchout(struct Sprite *sprite)
     sprite->y2 = gSprites[barSpriteId].y2;
 }
 
-/* static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
+static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
     void *ptr;
@@ -2006,66 +1967,8 @@ static void SpriteCB_StatusSummaryBalls_OnSwitchout(struct Sprite *sprite)
     }
 
     RemoveWindowOnHealthbox(windowId);
-} */
-
-static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
-{
-    u8 nickname[POKEMON_NAME_LENGTH + 1];
-    void *ptr;
-    u32 windowId, spriteTileNum;
-    u8 *windowTileData;
-    u16 species;
-    u8 gender;
-    void *objVram = (void *)(OBJ_VRAM0);
-
-    StringCopy(gDisplayedStringBattle, gText_HealthboxNickname);
-    GetMonData(mon, MON_DATA_NICKNAME, nickname);
-    StringGet_Nickname(nickname);
-    ptr = StringAppend(gDisplayedStringBattle, nickname);
-
-    gender = GetMonGender(mon);
-    species = GetMonData(mon, MON_DATA_SPECIES);
-
-    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && StringCompare(nickname, gSpeciesNames[species]) == 0)
-        gender = 100;
-
-    // Create a shorter text for the level position since it has less space
-    switch (gender)
-    {
-    default:
-        // No gender symbol for level position
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(nickname, 40, 3, 2, &windowId, TRUE);
-        break;
-    case MON_MALE:
-        // Add male symbol at the end
-        StringCopy(ptr, gText_HealthboxGender_Male);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 40, 3, 2, &windowId, TRUE);
-        break;
-    case MON_FEMALE:
-        // Add female symbol at the end  
-        StringCopy(ptr, gText_HealthboxGender_Female);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 40, 3, 2, &windowId, TRUE);
-        break;
-    }
-
-    spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
-
-    if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)
-    {
-        // CHANGED: Now using level's original position - limited to 3 tiles width
-        if (!IsDoubleBattle())
-            objVram += spriteTileNum + 0x820;
-        else
-            objVram += spriteTileNum + 0x420;
-    }
-    else
-    {
-        // CHANGED: Now using level's original position for opponent side  
-        objVram += spriteTileNum + 0x400;
-    }
-    TextIntoHealthboxObject(objVram, windowTileData, 3); // Only 3 tiles like original level
-    RemoveWindowOnHealthbox(windowId);
 }
+
 
 static void TryAddPokeballIconToHealthbox(u8 healthboxSpriteId, bool8 noStatus)
 {

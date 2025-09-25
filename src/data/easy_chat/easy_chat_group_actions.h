@@ -1,6 +1,6 @@
 const u8 gEasyChatWord_Meets[] = _("MEETS");
 const u8 gEasyChatWord_Concede[] = _("CONCEDE");
-const u8 gEasyChatWord_Give[] = _("GIVE");
+const u8 gEasyChatWord_Give[] = _("לתת");
 const u8 gEasyChatWord_Gives[] = _("GIVES");
 const u8 gEasyChatWord_Played[] = _("PLAYED");
 const u8 gEasyChatWord_Plays[] = _("PLAYS");
@@ -69,7 +69,7 @@ const u8 gEasyChatWord_Looks[] = _("LOOKS");
 const u8 gEasyChatWord_Sees[] = _("SEES");
 const u8 gEasyChatWord_Seek[] = _("SEEK");
 const u8 gEasyChatWord_Own[] = _("OWN");
-const u8 gEasyChatWord_Take[] = _("TAKE");
+const u8 gEasyChatWord_Take[] = _("לקחת");
 const u8 gEasyChatWord_Allow[] = _("ALLOW");
 const u8 gEasyChatWord_Forget[] = _("FORGET");
 const u8 gEasyChatWord_Forgets[] = _("FORGETS");

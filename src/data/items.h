@@ -615,7 +615,7 @@ const struct Item gItems[] =
 
     [ITEM_SHOAL_SALT] =
     {
-        .name = _("SHOAL SALT"),
+        .name = _("מלח שרטון"),
         .itemId = ITEM_SHOAL_SALT,
         .price = 20,
         .description = sShoalSaltDesc,
@@ -626,7 +626,7 @@ const struct Item gItems[] =
 
     [ITEM_SHOAL_SHELL] =
     {
-        .name = _("SHOAL SHELL"),
+        .name = _("צדפת שרטון"),
         .itemId = ITEM_SHOAL_SHELL,
         .price = 20,
         .description = sShoalShellDesc,
@@ -637,7 +637,7 @@ const struct Item gItems[] =
 
     [ITEM_RED_SHARD] =
     {
-        .name = _("RED SHARD"),
+        .name = _("חרס אדום"),
         .itemId = ITEM_RED_SHARD,
         .price = 200,
         .description = sRedShardDesc,
@@ -648,7 +648,7 @@ const struct Item gItems[] =
 
     [ITEM_BLUE_SHARD] =
     {
-        .name = _("BLUE SHARD"),
+        .name = _("חרס כחול"),
         .itemId = ITEM_BLUE_SHARD,
         .price = 200,
         .description = sBlueShardDesc,
@@ -659,7 +659,7 @@ const struct Item gItems[] =
 
     [ITEM_YELLOW_SHARD] =
     {
-        .name = _("YELLOW SHARD"),
+        .name = _("חרס צהוב"),
         .itemId = ITEM_YELLOW_SHARD,
         .price = 200,
         .description = sYellowShardDesc,
@@ -670,7 +670,7 @@ const struct Item gItems[] =
 
     [ITEM_GREEN_SHARD] =
     {
-        .name = _("GREEN SHARD"),
+        .name = _("חרס ירוק"),
         .itemId = ITEM_GREEN_SHARD,
         .price = 200,
         .description = sGreenShardDesc,
@@ -804,7 +804,7 @@ const struct Item gItems[] =
 
     [ITEM_HP_UP] =
     {
-        .name = _("HP UP"),
+        .name = _("עוד נ”ח"),
         .itemId = ITEM_HP_UP,
         .price = 9800,
         .description = sHPUpDesc,
@@ -815,7 +815,7 @@ const struct Item gItems[] =
 
     [ITEM_PROTEIN] =
     {
-        .name = _("PROTEIN"),
+        .name = _("חלבון"),
         .itemId = ITEM_PROTEIN,
         .price = 9800,
         .description = sProteinDesc,
@@ -826,7 +826,7 @@ const struct Item gItems[] =
 
     [ITEM_IRON] =
     {
-        .name = _("IRON"),
+        .name = _("ברזל"),
         .itemId = ITEM_IRON,
         .price = 9800,
         .description = sIronDesc,
@@ -837,7 +837,7 @@ const struct Item gItems[] =
 
     [ITEM_CARBOS] =
     {
-        .name = _("CARBOS"),
+        .name = _("פחמימה"),
         .itemId = ITEM_CARBOS,
         .price = 9800,
         .description = sCarbosDesc,
@@ -848,7 +848,7 @@ const struct Item gItems[] =
 
     [ITEM_CALCIUM] =
     {
-        .name = _("CALCIUM"),
+        .name = _("סידן"),
         .itemId = ITEM_CALCIUM,
         .price = 9800,
         .description = sCalciumDesc,
@@ -859,7 +859,7 @@ const struct Item gItems[] =
 
     [ITEM_RARE_CANDY] =
     {
-        .name = _("RARE CANDY"),
+        .name = _("ממתק נדיר"),
         .itemId = ITEM_RARE_CANDY,
         .price = 4800,
         .description = sRareCandyDesc,
@@ -870,7 +870,7 @@ const struct Item gItems[] =
 
     [ITEM_PP_UP] =
     {
-        .name = _("PP UP"),
+        .name = _("עוד נ”כ"),
         .itemId = ITEM_PP_UP,
         .price = 9800,
         .description = sPPUpDesc,
@@ -881,7 +881,7 @@ const struct Item gItems[] =
 
     [ITEM_ZINC] =
     {
-        .name = _("ZINC"),
+        .name = _("אבץ"),
         .itemId = ITEM_ZINC,
         .price = 9800,
         .description = sZincDesc,
@@ -892,7 +892,7 @@ const struct Item gItems[] =
 
     [ITEM_PP_MAX] =
     {
-        .name = _("PP MAX"),
+        .name = _("מקס נ”כ"),
         .itemId = ITEM_PP_MAX,
         .price = 9800,
         .description = sPPMaxDesc,
@@ -916,7 +916,7 @@ const struct Item gItems[] =
 
     [ITEM_GUARD_SPEC] =
     {
-        .name = _("GUARD SPEC."),
+        .name = _("משמר מיוחד"),
         .itemId = ITEM_GUARD_SPEC,
         .price = 700,
         .description = sGuardSpecDesc,
@@ -929,7 +929,7 @@ const struct Item gItems[] =
 
     [ITEM_DIRE_HIT] =
     {
-        .name = _("DIRE HIT"),
+        .name = _("פגיעה קשה"),
         .itemId = ITEM_DIRE_HIT,
         .price = 650,
         .description = sDireHitDesc,
@@ -942,7 +942,7 @@ const struct Item gItems[] =
 
     [ITEM_X_ATTACK] =
     {
-        .name = _("X ATTACK"),
+        .name = _("X התקפה"),
         .itemId = ITEM_X_ATTACK,
         .price = 500,
         .description = sXAttackDesc,
@@ -955,7 +955,7 @@ const struct Item gItems[] =
 
     [ITEM_X_DEFEND] =
     {
-        .name = _("X DEFEND"),
+        .name = _("X הגנה"),
         .itemId = ITEM_X_DEFEND,
         .price = 550,
         .description = sXDefendDesc,
@@ -968,7 +968,7 @@ const struct Item gItems[] =
 
     [ITEM_X_SPEED] =
     {
-        .name = _("X SPEED"),
+        .name = _("X מהירות"),
         .itemId = ITEM_X_SPEED,
         .price = 350,
         .description = sXSpeedDesc,
@@ -981,7 +981,7 @@ const struct Item gItems[] =
 
     [ITEM_X_ACCURACY] =
     {
-        .name = _("X ACCURACY"),
+        .name = _("X דיוק"),
         .itemId = ITEM_X_ACCURACY,
         .price = 950,
         .description = sXAccuracyDesc,
@@ -994,7 +994,7 @@ const struct Item gItems[] =
 
     [ITEM_X_SPECIAL] =
     {
-        .name = _("X SPECIAL"),
+        .name = _("X מיוחד"),
         .itemId = ITEM_X_SPECIAL,
         .price = 350,
         .description = sXSpecialDesc,
@@ -1007,7 +1007,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_DOLL] =
     {
-        .name = _("POKé DOLL"),
+        .name = _("בובת פוקימון"),
         .itemId = ITEM_POKE_DOLL,
         .price = 1000,
         .description = sPokeDollDesc,
@@ -1020,7 +1020,7 @@ const struct Item gItems[] =
 
     [ITEM_FLUFFY_TAIL] =
     {
-        .name = _("FLUFFY TAIL"),
+        .name = _("זנב רך"),
         .itemId = ITEM_FLUFFY_TAIL,
         .price = 1000,
         .description = sFluffyTailDesc,
@@ -1046,7 +1046,7 @@ const struct Item gItems[] =
 
     [ITEM_SUPER_REPEL] =
     {
-        .name = _("SUPER REPEL"),
+        .name = _("דוחה על"),
         .itemId = ITEM_SUPER_REPEL,
         .price = 500,
         .holdEffectParam = 200,
@@ -1058,7 +1058,7 @@ const struct Item gItems[] =
 
     [ITEM_MAX_REPEL] =
     {
-        .name = _("MAX REPEL"),
+        .name = _("דוחה יתר"),
         .itemId = ITEM_MAX_REPEL,
         .price = 700,
         .holdEffectParam = 250,
@@ -1070,7 +1070,7 @@ const struct Item gItems[] =
 
     [ITEM_ESCAPE_ROPE] =
     {
-        .name = _("ESCAPE ROPE"),
+        .name = _("חבל מילוט"),
         .itemId = ITEM_ESCAPE_ROPE,
         .price = 550,
         .description = sEscapeRopeDesc,
@@ -1081,7 +1081,7 @@ const struct Item gItems[] =
 
     [ITEM_REPEL] =
     {
-        .name = _("REPEL"),
+        .name = _("דוחה"),
         .itemId = ITEM_REPEL,
         .price = 350,
         .holdEffectParam = 100,
@@ -1161,7 +1161,7 @@ const struct Item gItems[] =
 
     [ITEM_SUN_STONE] =
     {
-        .name = _("SUN STONE"),
+        .name = _("אבן שמש"),
         .itemId = ITEM_SUN_STONE,
         .price = 2100,
         .description = sSunStoneDesc,
@@ -1172,7 +1172,7 @@ const struct Item gItems[] =
 
     [ITEM_MOON_STONE] =
     {
-        .name = _("MOON STONE"),
+        .name = _("אבן ירח"),
         .itemId = ITEM_MOON_STONE,
         .price = 0,
         .description = sMoonStoneDesc,
@@ -1183,7 +1183,7 @@ const struct Item gItems[] =
 
     [ITEM_FIRE_STONE] =
     {
-        .name = _("FIRE STONE"),
+        .name = _("אבן אש"),
         .itemId = ITEM_FIRE_STONE,
         .price = 2100,
         .description = sFireStoneDesc,
@@ -1194,7 +1194,7 @@ const struct Item gItems[] =
 
     [ITEM_THUNDER_STONE] =
     {
-        .name = _("THUNDERSTONE"),
+        .name = _("אבן רעם"),
         .itemId = ITEM_THUNDER_STONE,
         .price = 2100,
         .description = sThunderStoneDesc,
@@ -1205,7 +1205,7 @@ const struct Item gItems[] =
 
     [ITEM_WATER_STONE] =
     {
-        .name = _("WATER STONE"),
+        .name = _("אבן מים"),
         .itemId = ITEM_WATER_STONE,
         .price = 2100,
         .description = sWaterStoneDesc,
@@ -1216,7 +1216,7 @@ const struct Item gItems[] =
 
     [ITEM_LEAF_STONE] =
     {
-        .name = _("LEAF STONE"),
+        .name = _("אבן עשב"),
         .itemId = ITEM_LEAF_STONE,
         .price = 2100,
         .description = sLeafStoneDesc,
@@ -1273,7 +1273,7 @@ const struct Item gItems[] =
 
     [ITEM_TINY_MUSHROOM] =
     {
-        .name = _("TINYMUSHROOM"),
+        .name = _("פטריה זעירה"),
         .itemId = ITEM_TINY_MUSHROOM,
         .price = 500,
         .description = sTinyMushroomDesc,
@@ -1284,7 +1284,7 @@ const struct Item gItems[] =
 
     [ITEM_BIG_MUSHROOM] =
     {
-        .name = _("BIG MUSHROOM"),
+        .name = _("פטריה גדולה"),
         .itemId = ITEM_BIG_MUSHROOM,
         .price = 5000,
         .description = sBigMushroomDesc,
@@ -1306,7 +1306,7 @@ const struct Item gItems[] =
 
     [ITEM_PEARL] =
     {
-        .name = _("PEARL"),
+        .name = _("פנינה"),
         .itemId = ITEM_PEARL,
         .price = 1400,
         .description = sPearlDesc,
@@ -1317,7 +1317,7 @@ const struct Item gItems[] =
 
     [ITEM_BIG_PEARL] =
     {
-        .name = _("BIG PEARL"),
+        .name = _("פנינה גדולה"),
         .itemId = ITEM_BIG_PEARL,
         .price = 7500,
         .description = sBigPearlDesc,
@@ -1328,7 +1328,7 @@ const struct Item gItems[] =
 
     [ITEM_STARDUST] =
     {
-        .name = _("STARDUST"),
+        .name = _("אבק כוכבים"),
         .itemId = ITEM_STARDUST,
         .price = 2000,
         .description = sStardustDesc,
@@ -1339,7 +1339,7 @@ const struct Item gItems[] =
 
     [ITEM_STAR_PIECE] =
     {
-        .name = _("STAR PIECE"),
+        .name = _("חלק כוכב"),
         .itemId = ITEM_STAR_PIECE,
         .price = 9800,
         .description = sStarPieceDesc,
@@ -1350,7 +1350,7 @@ const struct Item gItems[] =
 
     [ITEM_NUGGET] =
     {
-        .name = _("NUGGET"),
+        .name = _("גוש זהב"),
         .itemId = ITEM_NUGGET,
         .price = 10000,
         .description = sNuggetDesc,
@@ -1361,7 +1361,7 @@ const struct Item gItems[] =
 
     [ITEM_HEART_SCALE] =
     {
-        .name = _("HEART SCALE"),
+        .name = _("קשקש לב"),
         .itemId = ITEM_HEART_SCALE,
         .price = 100,
         .description = sHeartScaleDesc,
@@ -1472,7 +1472,7 @@ const struct Item gItems[] =
 // Mail
     [ITEM_ORANGE_MAIL] =
     {
-        .name = _("ORANGE MAIL"),
+        .name = _("דואר כתום"),
         .itemId = ITEM_ORANGE_MAIL,
         .price = 50,
         .description = sOrangeMailDesc,
@@ -1484,7 +1484,7 @@ const struct Item gItems[] =
 
     [ITEM_HARBOR_MAIL] =
     {
-        .name = _("HARBOR MAIL"),
+        .name = _("דואר נמל"),
         .itemId = ITEM_HARBOR_MAIL,
         .price = 50,
         .description = sHarborMailDesc,
@@ -1496,7 +1496,7 @@ const struct Item gItems[] =
 
     [ITEM_GLITTER_MAIL] =
     {
-        .name = _("GLITTER MAIL"),
+        .name = _("דואר נוצץ"),
         .itemId = ITEM_GLITTER_MAIL,
         .price = 50,
         .description = sGlitterMailDesc,
@@ -1508,7 +1508,7 @@ const struct Item gItems[] =
 
     [ITEM_MECH_MAIL] =
     {
-        .name = _("MECH MAIL"),
+        .name = _("דואר מכני"),
         .itemId = ITEM_MECH_MAIL,
         .price = 50,
         .description = sMechMailDesc,
@@ -1520,7 +1520,7 @@ const struct Item gItems[] =
 
     [ITEM_WOOD_MAIL] =
     {
-        .name = _("WOOD MAIL"),
+        .name = _("דואר עץ"),
         .itemId = ITEM_WOOD_MAIL,
         .price = 50,
         .description = sWoodMailDesc,
@@ -1532,7 +1532,7 @@ const struct Item gItems[] =
 
     [ITEM_WAVE_MAIL] =
     {
-        .name = _("WAVE MAIL"),
+        .name = _("דואר גל"),
         .itemId = ITEM_WAVE_MAIL,
         .price = 50,
         .description = sWaveMailDesc,
@@ -1544,7 +1544,7 @@ const struct Item gItems[] =
 
     [ITEM_BEAD_MAIL] =
     {
-        .name = _("BEAD MAIL"),
+        .name = _("דואר חרוז"),
         .itemId = ITEM_BEAD_MAIL,
         .price = 50,
         .description = sBeadMailDesc,
@@ -1556,7 +1556,7 @@ const struct Item gItems[] =
 
     [ITEM_SHADOW_MAIL] =
     {
-        .name = _("SHADOW MAIL"),
+        .name = _("דואר אפל"),
         .itemId = ITEM_SHADOW_MAIL,
         .price = 50,
         .description = sShadowMailDesc,
@@ -1568,7 +1568,7 @@ const struct Item gItems[] =
 
     [ITEM_TROPIC_MAIL] =
     {
-        .name = _("TROPIC MAIL"),
+        .name = _("דואר טרופי"),
         .itemId = ITEM_TROPIC_MAIL,
         .price = 50,
         .description = sTropicMailDesc,
@@ -1580,7 +1580,7 @@ const struct Item gItems[] =
 
     [ITEM_DREAM_MAIL] =
     {
-        .name = _("DREAM MAIL"),
+        .name = _("דואר חלומי"),
         .itemId = ITEM_DREAM_MAIL,
         .price = 50,
         .description = sDreamMailDesc,
@@ -1592,7 +1592,7 @@ const struct Item gItems[] =
 
     [ITEM_FAB_MAIL] =
     {
-        .name = _("FAB MAIL"),
+        .name = _("דואר נהדר"),
         .itemId = ITEM_FAB_MAIL,
         .price = 50,
         .description = sFabMailDesc,
@@ -1604,7 +1604,7 @@ const struct Item gItems[] =
 
     [ITEM_RETRO_MAIL] =
     {
-        .name = _("RETRO MAIL"),
+        .name = _("דואר רטרו"),
         .itemId = ITEM_RETRO_MAIL,
         .price = 0,
         .description = sRetroMailDesc,
@@ -1618,7 +1618,7 @@ const struct Item gItems[] =
 
     [ITEM_CHERI_BERRY] =
     {
-        .name = _("CHERI BERRY"),
+        .name = _("פרי דובדבן"),
         .itemId = ITEM_CHERI_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_CURE_PAR,
@@ -1632,7 +1632,7 @@ const struct Item gItems[] =
 
     [ITEM_CHESTO_BERRY] =
     {
-        .name = _("CHESTO BERRY"),
+        .name = _("פרי ערמון"),
         .itemId = ITEM_CHESTO_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_CURE_SLP,
@@ -1646,7 +1646,7 @@ const struct Item gItems[] =
 
     [ITEM_PECHA_BERRY] =
     {
-        .name = _("PECHA BERRY"),
+        .name = _("פרי אפרסק"),
         .itemId = ITEM_PECHA_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_CURE_PSN,

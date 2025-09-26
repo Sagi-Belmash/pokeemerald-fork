@@ -286,7 +286,7 @@ const u8 *const gPyramidBagMenu_ReturnToStrings[] =
 const u8 gText_ReturnToVar1[] = _("חזרה\n{STR_VAR_1}.");
 const u8 gText_ItemsPocket[] = _("םיטירפ");
 const u8 gText_PokeBallsPocket[] = _("םירודכופ");
-const u8 gText_TMHMPocket[] = _("נ”מ & ט”מ");
+const u8 gText_TMHMPocket[] = _("נ”מ & מ”מ"); // מכשירי מהלכים ו מכשירים נסתרים
 const u8 gText_BerriesPocket[] = _("רעי תוריפ");
 const u8 gText_KeyItemsPocket[] = _("חתפמ יטירפ");
 

@@ -1125,6 +1125,7 @@ void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpac
 {
     u8 i;
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.windowId = windowId;
     printer.fontId = fontId;
@@ -1134,8 +1135,8 @@ void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpac
     printer.unk = GetFontAttribute(fontId, FONTATTR_UNKNOWN);
     printer.letterSpacing = letterSpacing;
     printer.lineSpacing = GetFontAttribute(fontId, FONTATTR_LINE_SPACING);
-    printer.x = left;
-    printer.currentX = left;
+    printer.x = windowWidthPx - left;
+    printer.currentX = printer.x;
 
     for (i = 0; i < itemCount; i++)
     {
@@ -1246,6 +1247,7 @@ void PrintMenuActionGrid(u8 windowId, u8 fontId, u8 left, u8 top, u8 optionWidth
     u8 i;
     u8 j;
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.windowId = windowId;
     printer.fontId = fontId;
@@ -1263,7 +1265,7 @@ void PrintMenuActionGrid(u8 windowId, u8 fontId, u8 left, u8 top, u8 optionWidth
             printer.currentChar = menuActions[actionIds[(horizontalCount * i) + j]].text;
             printer.x = (optionWidth * j) + left;
             printer.y = (GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT) * i) + top;
-            printer.currentX = printer.x;
+            printer.currentX = windowWidthPx - printer.x;
             printer.currentY = printer.y;
             AddTextPrinter(&printer, TEXT_SKIP_DRAW, NULL);
         }
@@ -1598,6 +1600,8 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
+/* 
+// Solution that works as replacement
 void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
                                            const struct MenuAction *menuActions,
                                            const u8 *actionIds)
@@ -1613,9 +1617,9 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
     }
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
-}
+} */
 
-/* void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
@@ -1629,8 +1633,8 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
     printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
     printer.letterSpacing = 0;
     printer.lineSpacing = 0;
-    printer.x = windowWidthPx - 8; // 8
-    printer.currentX = windowWidthPx - 8; // 8
+    printer.x = windowWidthPx - 8; // was 8
+    printer.currentX = windowWidthPx - 8; // was 8
 
     for (i = 0; i < itemCount; i++)
     {
@@ -1641,7 +1645,7 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
     }
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
-} */
+}
 
 void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 paletteNum, u8 initialCursorPos)
 {

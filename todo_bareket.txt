@@ -1,0 +1,38 @@
+TODO:
+// Programming C
+- Battle: 
+	F Swap Lv. with Nickname [Sagi]
+- Item Menu: 
+	Fix positioning of:
+	- Arrow [Shahar]
+	- Select item box with its elements
+	V Move Number left
+- Pokemon Summary Screen: Fix Positioning
+- Pokedex: Fix positioning
+- PC: Fix positioning
+- PokeNav: Fix positioning
+- Shop & Other item lists: Fix positioning
+
+- Fix Placeholders name location to be correct based on LTR/RTL
+
+// Localization/Translation
+~ Littleroot Town
+- Littleroot Town Indoor
+- Route 101
+- Oldale Town
+- Oldale Town Indoor
+- Route 102
+- Route 103
+- Petalburg City
+
+V Pokemon Names
+V Pokemon Moves
+~ Item Names
+- Pokemon Description
+- Item Description
+
+Legend: 
+- TODO
+~ WIP
+V COMPLETE
+F FAIL

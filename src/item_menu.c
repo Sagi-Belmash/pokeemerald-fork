@@ -1017,11 +1017,12 @@ static void BagMenu_PrintCursor(u8 listTaskId, u8 colorIndex)
 
 static void BagMenu_PrintCursorAtPos(u8 y, u8 colorIndex)
 {
+    u16 windowWidthPx = GetWindowAttribute(WIN_ITEM_LIST, WINDOW_WIDTH) * 8;
+
     if (colorIndex == COLORID_NONE)
-        FillWindowPixelRect(WIN_ITEM_LIST, PIXEL_FILL(0), GetWindowAttribute(WIN_ITEM_LIST, WINDOW_WIDTH) - 16/* 0 */, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
+        FillWindowPixelRect(WIN_ITEM_LIST, PIXEL_FILL(0), windowWidthPx - 8/* 0 */, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
     else
         BagMenu_Print(WIN_ITEM_LIST, FONT_NORMAL, gText_SelectorArrow2, 0, y, 0, 0, 0, colorIndex, TRUE);
-
 }
 
 static void CreatePocketScrollArrowPair(void)
@@ -1875,7 +1876,7 @@ static void ConfirmToss(u8 taskId)
     ConvertIntToDecimalStringN(gStringVar2, tItemCount, STR_CONV_MODE_LEFT_ALIGN, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_ThrewAwayVar2Var1s);
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL, FALSE);
+    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL, TRUE);
     gTasks[taskId].func = Task_RemoveItemFromBag;
 }
 
@@ -2202,7 +2203,7 @@ static void Task_ItemContext_Deposit(u8 taskId)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_DepositHowManyVar1);
         FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL, FALSE);
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL, TRUE);
         AddItemQuantityWindow(ITEMWIN_QUANTITY);
         gTasks[taskId].func = Task_ChooseHowManyToDeposit;
     }

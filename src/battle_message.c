@@ -1266,11 +1266,11 @@ const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
 
 const u8 gText_PkmnIsEvolving[] = _("What?\n{STR_VAR_1} is evolving!");
 const u8 gText_CongratsPkmnEvolved[] = _("Congratulations! Your {STR_VAR_1}\nevolved into {STR_VAR_2}!{WAIT_SE}\p");
-const u8 gText_PkmnStoppedEvolving[] = _("Huh? {STR_VAR_1}\nstopped evolving!\p");
+const u8 gText_PkmnStoppedEvolving[] = _("הא? {STR_VAR_1}\n הפסיק להתפתח!\p"); // TODO Add Hey for mon gender
 const u8 gText_EllipsisQuestionMark[] = _("……?\p");
-const u8 gText_WhatWillPkmnDo[] = _("מה {B_ACTIVE_NAME_WITH_PREFIX}\nיעשה?");
-const u8 gText_WhatWillPkmnDo2[] = _("מה {B_PLAYER_NAME}\nיעשה?");
-const u8 gText_WhatWillWallyDo[] = _("What will\nWALLY do?");
+const u8 gText_WhatWillPkmnDo[] = _("מה {B_ACTIVE_NAME_WITH_PREFIX}\nיעשה?"); // TODO I wonder if I need placeholder mon gender between taf and yud
+const u8 gText_WhatWillPkmnDo2[] = _("מה {B_PLAYER_NAME}\n{B_EMIT_YUD}{B_ADD_TAF}עשה?");
+const u8 gText_WhatWillWallyDo[] = _("מה וולי\nיעשה?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Link standby…");
 const u8 gText_BattleMenu[] = _("קרב             תיק\nפוקימון         ברח");
 const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");

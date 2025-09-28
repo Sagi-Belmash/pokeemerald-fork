@@ -988,6 +988,624 @@ static u16 RenderText(struct TextPrinter *textPrinter)
     u16 currChar;
     s32 width;
     s32 widthHelper;
+    const u8 *bufferPointer; /* used by placeholder expansion */
+    u16 curr;                /* used inside placeholder expansion */
+    s32 clearW;
+
+    switch (textPrinter->state)
+    {
+    case RENDER_STATE_HANDLE_CHAR:
+        if (JOY_HELD(A_BUTTON | B_BUTTON) && subStruct->hasPrintBeenSpedUp)
+            textPrinter->delayCounter = 0;
+
+        if (textPrinter->delayCounter && textPrinter->textSpeed)
+        {
+            textPrinter->delayCounter--;
+            if (gTextFlags.canABSpeedUpPrint && (JOY_NEW(A_BUTTON | B_BUTTON)))
+            {
+                subStruct->hasPrintBeenSpedUp = TRUE;
+                textPrinter->delayCounter = 0;
+            }
+            return RENDER_UPDATE;
+        }
+
+        if (!(gBattleTypeFlags & BATTLE_TYPE_RECORDED) && gTextFlags.autoScroll)
+            textPrinter->delayCounter = 3;
+        else
+            textPrinter->delayCounter = textPrinter->textSpeed;
+
+        currChar = *textPrinter->printerTemplate.currentChar;
+        textPrinter->printerTemplate.currentChar++;
+
+        switch (currChar)
+        {
+        case CHAR_NEWLINE:
+            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+            textPrinter->printerTemplate.currentY += (gFonts[textPrinter->printerTemplate.fontId].maxLetterHeight + textPrinter->printerTemplate.lineSpacing);
+            return RENDER_REPEAT;
+
+        case PLACEHOLDER_BEGIN:
+        {
+            /* Full placeholder expansion / rendering (keeps all control codes) */
+            u8 id = *textPrinter->printerTemplate.currentChar++; /* placeholder id */
+            switch (id)
+            {
+            case PLACEHOLDER_ID_STRING_VAR_1: bufferPointer = gStringVar1; break;
+            case PLACEHOLDER_ID_STRING_VAR_2: bufferPointer = gStringVar2; break;
+            case PLACEHOLDER_ID_STRING_VAR_3: bufferPointer = gStringVar3; break;
+            default: bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(id); break;
+            }
+
+            while (*bufferPointer != EOS)
+            {
+                curr = *bufferPointer++;
+
+                /* Handle newline inside placeholder */
+                if (curr == CHAR_NEWLINE)
+                {
+                    textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+                    textPrinter->printerTemplate.currentY += (gFonts[textPrinter->printerTemplate.fontId].maxLetterHeight + textPrinter->printerTemplate.lineSpacing);
+                    continue;
+                }
+
+                /* Handle nested placeholder begin inside placeholder */
+                if (curr == PLACEHOLDER_BEGIN)
+                {
+                    u8 nestedId = *bufferPointer++;
+                    const u8 *nestedPtr;
+                    nestedPtr = (nestedId == PLACEHOLDER_ID_STRING_VAR_1) ? gStringVar1
+                              : (nestedId == PLACEHOLDER_ID_STRING_VAR_2) ? gStringVar2
+                              : (nestedId == PLACEHOLDER_ID_STRING_VAR_3) ? gStringVar3
+                              : DynamicPlaceholderTextUtil_GetPlaceholderPtr(nestedId);
+
+                    while (*nestedPtr != EOS)
+                    {
+                        curr = *nestedPtr++;
+
+                        if (curr == CHAR_EXTRA_SYMBOL)
+                        {
+                            curr = *nestedPtr++ | 0x100;
+                        }
+                        else if (curr == CHAR_KEYPAD_ICON)
+                        {
+                            u8 iconId = *nestedPtr++;
+                            gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, iconId,
+                                                             textPrinter->printerTemplate.currentX,
+                                                             textPrinter->printerTemplate.currentY);
+                            textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
+                                                                   ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
+                                                                   : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                            continue;
+                        }
+
+                        /* Decompress and draw glyph for nested char */
+                        switch (subStruct->fontId)
+                        {
+                        case FONT_SMALL:        DecompressGlyph_Small(curr, textPrinter->japanese); break;
+                        case FONT_NORMAL:       DecompressGlyph_Normal(curr, textPrinter->japanese); break;
+                        case FONT_SHORT:
+                        case FONT_SHORT_COPY_1:
+                        case FONT_SHORT_COPY_2:
+                        case FONT_SHORT_COPY_3: DecompressGlyph_Short(curr, textPrinter->japanese); break;
+                        case FONT_NARROW:       DecompressGlyph_Narrow(curr, textPrinter->japanese); break;
+                        case FONT_SMALL_NARROW: DecompressGlyph_SmallNarrow(curr, textPrinter->japanese); break;
+                        case FONT_BRAILLE:      break;
+                        }
+
+                        CopyGlyphToWindow(textPrinter);
+
+                        if (textPrinter->minLetterSpacing)
+                        {
+                            if (textPrinter->printerTemplate.rtlMode)
+                            {
+                                textPrinter->printerTemplate.currentX -= gCurGlyph.width;
+                                width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                                if (width > 0)
+                                {
+                                    ClearTextSpan(textPrinter, width);
+                                    textPrinter->printerTemplate.currentX -= width;
+                                }
+                            }
+                            else
+                            {
+                                textPrinter->printerTemplate.currentX += gCurGlyph.width;
+                                width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                                if (width > 0)
+                                {
+                                    ClearTextSpan(textPrinter, width);
+                                    textPrinter->printerTemplate.currentX += width;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            if (textPrinter->printerTemplate.rtlMode)
+                                textPrinter->printerTemplate.currentX -= (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                            else if (textPrinter->japanese)
+                                textPrinter->printerTemplate.currentX += (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                            else
+                                textPrinter->printerTemplate.currentX += gCurGlyph.width;
+                        }
+                    } /* end nestedPtr loop */
+
+                    continue;
+                } /* end nested placeholder */
+
+                /* Handle extension control codes inside placeholder */
+                if (curr == EXT_CTRL_CODE_BEGIN)
+                {
+                    u8 code = *bufferPointer++;
+                    switch (code)
+                    {
+                    case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
+                        textPrinter->printerTemplate.fgColor = *bufferPointer++;
+                        textPrinter->printerTemplate.bgColor = *bufferPointer++;
+                        textPrinter->printerTemplate.shadowColor = *bufferPointer++;
+                        GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                        break;
+                    case EXT_CTRL_CODE_PLAY_BGM:
+                    {
+                        u16 bgm = *bufferPointer++;
+                        bgm |= (*bufferPointer++ << 8);
+                        PlayBGM(bgm);
+                        break;
+                    }
+                    case EXT_CTRL_CODE_PLAY_SE:
+                    {
+                        u16 se = *bufferPointer++;
+                        se |= (*bufferPointer++ << 8);
+                        PlaySE(se);
+                        break;
+                    }
+                    case EXT_CTRL_CODE_COLOR:
+                        textPrinter->printerTemplate.fgColor = *bufferPointer++;
+                        GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                        break;
+                    case EXT_CTRL_CODE_HIGHLIGHT:
+                        textPrinter->printerTemplate.bgColor = *bufferPointer++;
+                        GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                        break;
+                    case EXT_CTRL_CODE_SHADOW:
+                        textPrinter->printerTemplate.shadowColor = *bufferPointer++;
+                        GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                        break;
+                    case EXT_CTRL_CODE_PALETTE:
+                        bufferPointer++; /* skip param */
+                        break;
+                    case EXT_CTRL_CODE_FONT:
+                        subStruct->fontId = *bufferPointer++;
+                        break;
+                    case EXT_CTRL_CODE_RESET_FONT:
+                        /* nothing extra to do here */
+                        break;
+                    case EXT_CTRL_CODE_PAUSE:
+                        /* Pause mid-placeholder: set delay and state, return update so main loop resumes correctly */
+                        textPrinter->delayCounter = *bufferPointer++;
+                        textPrinter->state = RENDER_STATE_PAUSE;
+                        return RENDER_UPDATE;
+                    case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
+                        textPrinter->state = RENDER_STATE_WAIT;
+                        if (gTextFlags.autoScroll)
+                            subStruct->autoScrollDelay = 0;
+                        return RENDER_UPDATE;
+                    case EXT_CTRL_CODE_WAIT_SE:
+                        textPrinter->state = RENDER_STATE_WAIT_SE;
+                        return RENDER_UPDATE;
+                    case EXT_CTRL_CODE_ESCAPE:
+                        curr = *bufferPointer++ | 0x100;
+                        break; /* fall through to render curr below */
+                    case EXT_CTRL_CODE_SHIFT_RIGHT:
+                        if (textPrinter->printerTemplate.rtlMode)
+                            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *bufferPointer++;
+                        else
+                            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *bufferPointer++;
+                        break;
+                    case EXT_CTRL_CODE_SHIFT_DOWN:
+                        textPrinter->printerTemplate.currentY = textPrinter->printerTemplate.y + *bufferPointer++;
+                        break;
+                    case EXT_CTRL_CODE_FILL_WINDOW:
+                        FillWindowPixelBuffer(textPrinter->printerTemplate.windowId, PIXEL_FILL(textPrinter->printerTemplate.bgColor));
+                        textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+                        textPrinter->printerTemplate.currentY = textPrinter->printerTemplate.y;
+                        break;
+                    case EXT_CTRL_CODE_CLEAR:
+                        clearW = *bufferPointer++;
+                        if (clearW > 0)
+                        {
+                            ClearTextSpan(textPrinter, clearW);
+                            textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -clearW : clearW;
+                        }
+                        break;
+                    case EXT_CTRL_CODE_SKIP:
+                        if (textPrinter->printerTemplate.rtlMode)
+                            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *bufferPointer++;
+                        else
+                            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *bufferPointer++;
+                        break;
+                    case EXT_CTRL_CODE_CLEAR_TO:
+                    {
+                        s32 widthHelper2 = *bufferPointer++ + textPrinter->printerTemplate.x;
+                        if (textPrinter->printerTemplate.rtlMode)
+                            width = textPrinter->printerTemplate.currentX - widthHelper2;
+                        else
+                            width = widthHelper2 - textPrinter->printerTemplate.currentX;
+                        if (width > 0)
+                        {
+                            ClearTextSpan(textPrinter, width);
+                            textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
+                        }
+                        break;
+                    }
+                    case EXT_CTRL_CODE_MIN_LETTER_SPACING:
+                        textPrinter->minLetterSpacing = *bufferPointer++;
+                        break;
+                    case EXT_CTRL_CODE_JPN:
+                        textPrinter->japanese = TRUE;
+                        break;
+                    case EXT_CTRL_CODE_ENG:
+                        textPrinter->japanese = FALSE;
+                        break;
+                    case EXT_CTRL_CODE_CHAR_SWAP:
+                    {
+                        u8 letter = *bufferPointer++;
+                        if (gSaveBlock2Ptr->playerGender == FEMALE)
+                            curr = SwapLetterHebrewFinalChars(letter);
+                        else
+                            curr = letter;
+                        break;
+                    }
+                    default:
+                        /* unknown ext code: safe skip */
+                        break;
+                    } /* switch(code) */
+
+                    /* If EXT_CTRL_CODE_ESCAPE or CHAR_SWAP set 'curr' to a drawable glyph, fall through to draw it */
+                    if (curr == 0)
+                        continue;
+                } /* if EXT_CTRL_CODE_BEGIN */
+
+                /* Extra symbol or keypad icon handling */
+                if (curr == CHAR_EXTRA_SYMBOL)
+                {
+                    curr = *bufferPointer++ | 0x100;
+                }
+                else if (curr == CHAR_KEYPAD_ICON)
+                {
+                    u8 iconId = *bufferPointer++;
+                    gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, iconId,
+                                                     textPrinter->printerTemplate.currentX,
+                                                     textPrinter->printerTemplate.currentY);
+                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
+                                                           ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
+                                                           : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                    continue;
+                }
+
+                /* Decompress font glyph using current subStruct->fontId and textPrinter->japanese */
+                switch (subStruct->fontId)
+                {
+                case FONT_SMALL:        DecompressGlyph_Small(curr, textPrinter->japanese); break;
+                case FONT_NORMAL:       DecompressGlyph_Normal(curr, textPrinter->japanese); break;
+                case FONT_SHORT:
+                case FONT_SHORT_COPY_1:
+                case FONT_SHORT_COPY_2:
+                case FONT_SHORT_COPY_3: DecompressGlyph_Short(curr, textPrinter->japanese); break;
+                case FONT_NARROW:       DecompressGlyph_Narrow(curr, textPrinter->japanese); break;
+                case FONT_SMALL_NARROW: DecompressGlyph_SmallNarrow(curr, textPrinter->japanese); break;
+                case FONT_BRAILLE:      break;
+                }
+
+                CopyGlyphToWindow(textPrinter);
+
+                if (textPrinter->minLetterSpacing)
+                {
+                    if (textPrinter->printerTemplate.rtlMode)
+                    {
+                        textPrinter->printerTemplate.currentX -= gCurGlyph.width;
+                        width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                        if (width > 0)
+                        {
+                            ClearTextSpan(textPrinter, width);
+                            textPrinter->printerTemplate.currentX -= width;
+                        }
+                    }
+                    else
+                    {
+                        textPrinter->printerTemplate.currentX += gCurGlyph.width;
+                        width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                        if (width > 0)
+                        {
+                            ClearTextSpan(textPrinter, width);
+                            textPrinter->printerTemplate.currentX += width;
+                        }
+                    }
+                }
+                else
+                {
+                    if (textPrinter->printerTemplate.rtlMode)
+                        textPrinter->printerTemplate.currentX -= (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                    else if (textPrinter->japanese)
+                        textPrinter->printerTemplate.currentX += (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                    else
+                        textPrinter->printerTemplate.currentX += gCurGlyph.width;
+                }
+            } /* end while bufferPointer */
+
+            return RENDER_PRINT;
+        } /* end PLACEHOLDER_BEGIN */
+
+        case EXT_CTRL_CODE_BEGIN:
+            currChar = *textPrinter->printerTemplate.currentChar;
+            textPrinter->printerTemplate.currentChar++;
+            switch (currChar)
+            {
+            case EXT_CTRL_CODE_COLOR:
+                textPrinter->printerTemplate.fgColor = *textPrinter->printerTemplate.currentChar++;
+                GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_HIGHLIGHT:
+                textPrinter->printerTemplate.bgColor = *textPrinter->printerTemplate.currentChar++;
+                GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_SHADOW:
+                textPrinter->printerTemplate.shadowColor = *textPrinter->printerTemplate.currentChar++;
+                GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
+                textPrinter->printerTemplate.fgColor   = *textPrinter->printerTemplate.currentChar++;
+                textPrinter->printerTemplate.bgColor   = *textPrinter->printerTemplate.currentChar++;
+                textPrinter->printerTemplate.shadowColor = *textPrinter->printerTemplate.currentChar++;
+                GenerateFontHalfRowLookupTable(textPrinter->printerTemplate.fgColor, textPrinter->printerTemplate.bgColor, textPrinter->printerTemplate.shadowColor);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_PALETTE:
+                textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_FONT:
+                subStruct->fontId = *textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_RESET_FONT:
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_PAUSE:
+                textPrinter->delayCounter = *textPrinter->printerTemplate.currentChar++;
+                textPrinter->state = RENDER_STATE_PAUSE;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
+                textPrinter->state = RENDER_STATE_WAIT;
+                if (gTextFlags.autoScroll)
+                    subStruct->autoScrollDelay = 0;
+                return RENDER_UPDATE;
+            case EXT_CTRL_CODE_WAIT_SE:
+                textPrinter->state = RENDER_STATE_WAIT_SE;
+                return RENDER_UPDATE;
+            case EXT_CTRL_CODE_PLAY_BGM:
+                currChar  = *textPrinter->printerTemplate.currentChar++;
+                currChar |= (*textPrinter->printerTemplate.currentChar++ << 8);
+                PlayBGM(currChar);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_ESCAPE:
+                currChar = *textPrinter->printerTemplate.currentChar++ | 0x100;
+                break;
+            case EXT_CTRL_CODE_PLAY_SE:
+                currChar  = *textPrinter->printerTemplate.currentChar++;
+                currChar |= (*textPrinter->printerTemplate.currentChar++ << 8);
+                PlaySE(currChar);
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_SHIFT_RIGHT:
+                if (textPrinter->printerTemplate.rtlMode)
+                    textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *textPrinter->printerTemplate.currentChar++;
+                else
+                    textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_SHIFT_DOWN:
+                textPrinter->printerTemplate.currentY = textPrinter->printerTemplate.y + *textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_FILL_WINDOW:
+                FillWindowPixelBuffer(textPrinter->printerTemplate.windowId, PIXEL_FILL(textPrinter->printerTemplate.bgColor));
+                textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+                textPrinter->printerTemplate.currentY = textPrinter->printerTemplate.y;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_CLEAR:
+                width = *textPrinter->printerTemplate.currentChar++;
+                if (width > 0)
+                {
+                    ClearTextSpan(textPrinter, width);
+                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
+                    return RENDER_PRINT;
+                }
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_SKIP:
+                if (textPrinter->printerTemplate.rtlMode)
+                    textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *textPrinter->printerTemplate.currentChar++;
+                else
+                    textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_CLEAR_TO:
+                widthHelper = *textPrinter->printerTemplate.currentChar++ + textPrinter->printerTemplate.x;
+                if (textPrinter->printerTemplate.rtlMode)
+                    width = textPrinter->printerTemplate.currentX - widthHelper;
+                else
+                    width = widthHelper - textPrinter->printerTemplate.currentX;
+                if (width > 0)
+                {
+                    ClearTextSpan(textPrinter, width);
+                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
+                    return RENDER_PRINT;
+                }
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_MIN_LETTER_SPACING:
+                textPrinter->minLetterSpacing = *textPrinter->printerTemplate.currentChar++;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_JPN:
+                textPrinter->japanese = TRUE;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_ENG:
+                textPrinter->japanese = FALSE;
+                return RENDER_REPEAT;
+            case EXT_CTRL_CODE_CHAR_SWAP:
+            {
+                u8 letter = *textPrinter->printerTemplate.currentChar++;
+
+                if (gSaveBlock2Ptr->playerGender == FEMALE)
+                    currChar = SwapLetterHebrewFinalChars(letter);
+                else
+                    currChar = letter;
+                break;
+            }
+            }
+            break;
+
+        case CHAR_PROMPT_CLEAR:
+            textPrinter->state = RENDER_STATE_CLEAR;
+            TextPrinterInitDownArrowCounters(textPrinter);
+            return RENDER_UPDATE;
+
+        case CHAR_PROMPT_SCROLL:
+            textPrinter->state = RENDER_STATE_SCROLL_START;
+            TextPrinterInitDownArrowCounters(textPrinter);
+            return RENDER_UPDATE;
+
+        case CHAR_EXTRA_SYMBOL:
+            currChar = *textPrinter->printerTemplate.currentChar++ | 0x100;
+            break;
+
+        case CHAR_KEYPAD_ICON:
+            currChar = *textPrinter->printerTemplate.currentChar++;
+            gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar,
+                                             textPrinter->printerTemplate.currentX,
+                                             textPrinter->printerTemplate.currentY);
+            textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
+                                                   ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
+                                                   : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+            return RENDER_PRINT;
+
+        case EOS:
+            return RENDER_FINISH;
+        }
+
+        /* Decompress font glyph */
+        switch (subStruct->fontId)
+        {
+        case FONT_SMALL:        DecompressGlyph_Small(currChar, textPrinter->japanese); break;
+        case FONT_NORMAL:       DecompressGlyph_Normal(currChar, textPrinter->japanese); break;
+        case FONT_SHORT:
+        case FONT_SHORT_COPY_1:
+        case FONT_SHORT_COPY_2:
+        case FONT_SHORT_COPY_3: DecompressGlyph_Short(currChar, textPrinter->japanese); break;
+        case FONT_NARROW:       DecompressGlyph_Narrow(currChar, textPrinter->japanese); break;
+        case FONT_SMALL_NARROW: DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese); break;
+        case FONT_BRAILLE:      break;
+        }
+
+        CopyGlyphToWindow(textPrinter);
+
+        if (textPrinter->minLetterSpacing)
+        {
+            if (textPrinter->printerTemplate.rtlMode)
+            {
+                textPrinter->printerTemplate.currentX -= gCurGlyph.width;
+                width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                if (width > 0)
+                {
+                    ClearTextSpan(textPrinter, width);
+                    textPrinter->printerTemplate.currentX -= width;
+                }
+            }
+            else
+            {
+                textPrinter->printerTemplate.currentX += gCurGlyph.width;
+                width = textPrinter->minLetterSpacing - gCurGlyph.width;
+                if (width > 0)
+                {
+                    ClearTextSpan(textPrinter, width);
+                    textPrinter->printerTemplate.currentX += width;
+                }
+            }
+        }
+        else
+        {
+            if (textPrinter->printerTemplate.rtlMode)
+                textPrinter->printerTemplate.currentX -= (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+            else if (textPrinter->japanese)
+                textPrinter->printerTemplate.currentX += (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+            else
+                textPrinter->printerTemplate.currentX += gCurGlyph.width;
+        }
+        return RENDER_PRINT;
+
+    /* Other states unchanged */
+    case RENDER_STATE_WAIT:
+        if (TextPrinterWait(textPrinter))
+            textPrinter->state = RENDER_STATE_HANDLE_CHAR;
+        return RENDER_UPDATE;
+
+    case RENDER_STATE_CLEAR:
+        if (TextPrinterWaitWithDownArrow(textPrinter))
+        {
+            FillWindowPixelBuffer(textPrinter->printerTemplate.windowId, PIXEL_FILL(textPrinter->printerTemplate.bgColor));
+            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+            textPrinter->printerTemplate.currentY = textPrinter->printerTemplate.y;
+            textPrinter->state = RENDER_STATE_HANDLE_CHAR;
+        }
+        return RENDER_UPDATE;
+
+    case RENDER_STATE_SCROLL_START:
+        if (TextPrinterWaitWithDownArrow(textPrinter))
+        {
+            TextPrinterClearDownArrow(textPrinter);
+            textPrinter->scrollDistance = gFonts[textPrinter->printerTemplate.fontId].maxLetterHeight
+                                        + textPrinter->printerTemplate.lineSpacing;
+            textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
+            textPrinter->state = RENDER_STATE_SCROLL;
+        }
+        return RENDER_UPDATE;
+
+    case RENDER_STATE_SCROLL:
+        if (textPrinter->scrollDistance)
+        {
+            int scrollSpeed = GetPlayerTextSpeed();
+            int speed = sWindowVerticalScrollSpeeds[scrollSpeed];
+            if (textPrinter->scrollDistance < speed)
+            {
+                ScrollWindow(textPrinter->printerTemplate.windowId, 0, textPrinter->scrollDistance,
+                             PIXEL_FILL(textPrinter->printerTemplate.bgColor));
+                textPrinter->scrollDistance = 0;
+            }
+            else
+            {
+                ScrollWindow(textPrinter->printerTemplate.windowId, 0, speed,
+                             PIXEL_FILL(textPrinter->printerTemplate.bgColor));
+                textPrinter->scrollDistance -= speed;
+            }
+            CopyWindowToVram(textPrinter->printerTemplate.windowId, COPYWIN_GFX);
+        }
+        else
+        {
+            textPrinter->state = RENDER_STATE_HANDLE_CHAR;
+        }
+        return RENDER_UPDATE;
+
+    case RENDER_STATE_WAIT_SE:
+        if (!IsSEPlaying())
+            textPrinter->state = RENDER_STATE_HANDLE_CHAR;
+        return RENDER_UPDATE;
+
+    case RENDER_STATE_PAUSE:
+        if (textPrinter->delayCounter != 0)
+            textPrinter->delayCounter--;
+        else
+            textPrinter->state = RENDER_STATE_HANDLE_CHAR;
+        return RENDER_UPDATE;
+    }
+
+    return RENDER_FINISH;
+}
+/* 
+static u16 RenderText(struct TextPrinter *textPrinter)
+{
+    struct TextPrinterSubStruct *subStruct = (struct TextPrinterSubStruct *)(&textPrinter->subStructFields);
+    u16 currChar;
+    s32 width;
+    s32 widthHelper;
 
     switch (textPrinter->state)
     {
@@ -1289,7 +1907,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
     }
 
     return RENDER_FINISH;
-}
+} */
 
 static u32 UNUSED GetStringWidthFixedWidthFont(const u8 *str, u8 fontId, u8 letterSpacing)
 {

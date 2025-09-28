@@ -1652,6 +1652,37 @@ static void HandleDpadMovement(struct Task *task)
 
 static void DrawNormalTextEntryBox(void)
 {
+    FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
+
+    // Expand placeholders into a stable global buffer before printing
+    StringExpandPlaceholders(gStringVar4, sNamingScreen->template->title);
+
+    AddTextPrinterParameterizedWithRTL(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX],
+                                      FONT_NORMAL,
+                                      gStringVar4,   // expanded string
+                                      8, 1, 0, 0, TRUE);
+    PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
+}
+
+static void DrawMonTextEntryBox(void)
+{
+    // Put the species name into STR_VAR_1 so {STR_VAR_1} expands correctly
+    StringCopy(gStringVar1, gSpeciesNames[sNamingScreen->monSpecies]);
+
+    // Expand the template (which may contain {STR_VAR_1}) into a stable buffer
+    StringExpandPlaceholders(gStringVar4, sNamingScreen->template->title);
+
+    FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
+    AddTextPrinterParameterizedWithRTL(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX],
+                                      FONT_NORMAL,
+                                      gStringVar4,   // expanded string
+                                      8, 1, 0, 0, TRUE);
+    PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
+}
+
+/* 
+static void DrawNormalTextEntryBox(void)
+{
     u8 rightAlignX;
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterizedWithRTL(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, sNamingScreen->template->title, 8, 1, 0, 0, TRUE);
@@ -1667,7 +1698,7 @@ static void DrawMonTextEntryBox(void)
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterizedWithRTL(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0, TRUE);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
-}
+} */
 
 static void (*const sDrawTextEntryBoxFuncs[])(void) =
     {

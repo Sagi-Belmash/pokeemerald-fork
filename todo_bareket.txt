@@ -14,6 +14,7 @@ TODO:
 - Shop & Other item lists: Fix positioning
 
 - Fix Placeholders name location to be correct based on LTR/RTL
+- Move text at PC 2nd menu more left
 
 // Localization/Translation
 ~ Littleroot Town

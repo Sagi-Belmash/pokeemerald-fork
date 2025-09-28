@@ -51,7 +51,7 @@ gText_Birch_YourePlayer::
 
 gText_Birch_AreYouReady_Male::
 	.string "אוקיי, מוכן?\p"
-	.string "ההרפתקאה שלך עומדת\n"
+	.string "ההרפתקה שלך עומדת\n"
 	.string "להתחיל.\p"
 	.string "אזור אומץ, וזנק אל תוך\n"
 	.string "עולם הפוקימון איפה שחלומות,\l"
@@ -62,7 +62,7 @@ gText_Birch_AreYouReady_Male::
 
 gText_Birch_AreYouReady_Female::
 	.string "אוקיי, מוכנה?\p"
-	.string "ההרפתקאה שלך עומדת\n"
+	.string "ההרפתקה שלך עומדת\n"
 	.string "להתחיל.\p"
 	.string "אזרי אומץ, וזנקי אל תוך\n"
 	.string "עולם הפוקימון איפה שחלומות,\l"

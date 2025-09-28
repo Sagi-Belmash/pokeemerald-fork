@@ -1018,10 +1018,10 @@ static void BagMenu_PrintCursor(u8 listTaskId, u8 colorIndex)
 
 static void BagMenu_PrintCursorAtPos(u8 y, u8 colorIndex)
 {
-    u16 windowWidthPx = GetWindowAttribute(WIN_ITEM_LIST, WINDOW_WIDTH) * 8;
-
+    int windowWidthPx = GetWindowAttribute(WIN_ITEM_LIST, WINDOW_WIDTH) * 8;
+    
     if (colorIndex == COLORID_NONE)
-        FillWindowPixelRect(WIN_ITEM_LIST, PIXEL_FILL(0), windowWidthPx - 8/* 0 */, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
+        FillWindowPixelRect(WIN_ITEM_LIST, PIXEL_FILL(1), windowWidthPx - 8, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
     else
         BagMenu_Print(WIN_ITEM_LIST, FONT_NORMAL, gText_SelectorArrow2, 0, y, 0, 0, 0, colorIndex, TRUE);
 }
@@ -1196,7 +1196,7 @@ static void PrintItemQuantity(u8 windowId, s16 quantity)
     u8 numDigits = (gBagPosition.pocket == BERRIES_POCKET) ? BERRY_CAPACITY_DIGITS : BAG_ITEM_CAPACITY_DIGITS;
     ConvertIntToDecimalStringN(gStringVar1, quantity, STR_CONV_MODE_LEADING_ZEROS, numDigits);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
-    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0x28), 2, 0, 0, TRUE);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0x28), 2, 0, 0, FALSE);
 }
 
 // Prints the quantity of items to be sold and the amount that would be earned
@@ -1732,7 +1732,7 @@ static void Task_ItemContext_MultipleRows(u8 taskId)
                 ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_NONE, MENU_CURSOR_DELTA_DOWN);
             }
         }
-        else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
+        else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
         {
             if ((cursorPos & 1) && IsValidContextMenuPos(cursorPos - 1))
             {
@@ -1740,7 +1740,7 @@ static void Task_ItemContext_MultipleRows(u8 taskId)
                 ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_LEFT, MENU_CURSOR_DELTA_NONE);
             }
         }
-        else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
+        else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
         {
             if (!(cursorPos & 1) && IsValidContextMenuPos(cursorPos + 1))
             {
@@ -2407,6 +2407,7 @@ static void CB2_QuizLadyExitBagMenu(void)
     SetMainCallback2(CB2_ReturnToField);
 }
 
+// Pocket names in top left
 static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
 {
     struct WindowTemplate window = {0};

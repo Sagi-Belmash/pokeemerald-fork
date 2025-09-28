@@ -149,7 +149,7 @@ void PrintMoneyAmount(u8 windowId, u8 x, u8 y, int amount, u8 speed)
         *(txtPtr++) = CHAR_SPACER;
 
     StringExpandPlaceholders(txtPtr, gText_PokedollarVar1);
-    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, x, y, speed, NULL, TRUE);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, x, y, speed, NULL, FALSE);
 }
 
 void PrintMoneyAmountInMoneyBoxWithBorder(u8 windowId, u16 tileStart, u8 pallete, int amount)

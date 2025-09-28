@@ -680,7 +680,7 @@ static void ListMenuErasePrintedCursor(struct ListMenu *list, u16 selectedRow)
         u8 height = GetMenuCursorDimensionByFont(list->template.fontId, 1);
         FillWindowPixelRect(list->template.windowId,
                             PIXEL_FILL(list->template.fillValue),
-                            list->template.cursor_X,
+                            /* list->template.cursor_X */GetWindowAttribute(list->template.windowId, WINDOW_WIDTH) * 8 - width,
                             selectedRow * yMultiplier + list->template.upText_Y,
                             width,
                             height);

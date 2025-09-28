@@ -1138,6 +1138,8 @@ void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpac
     printer.x = windowWidthPx - left;
     printer.currentX = printer.x;
 
+    printer.rtlMode = TRUE;
+
     for (i = 0; i < itemCount; i++)
     {
         printer.currentChar = menuActions[actionIds[i]].text;
@@ -1258,6 +1260,8 @@ void PrintMenuActionGrid(u8 windowId, u8 fontId, u8 left, u8 top, u8 optionWidth
     printer.letterSpacing = GetFontAttribute(fontId, FONTATTR_LETTER_SPACING);
     printer.lineSpacing = GetFontAttribute(fontId, FONTATTR_LINE_SPACING);
 
+    printer.rtlMode = TRUE;
+
     for (i = 0; i < verticalCount; i++)
     {
         for (j = 0; j < horizontalCount; j++)
@@ -1321,12 +1325,12 @@ static void MoveMenuGridCursor(u8 oldCursorPos, u8 newCursorPos)
 
     u16 windowWidthPx = GetWindowAttribute(sMenu.windowId, WINDOW_WIDTH) * 8;
  
-    u8 xPos = windowWidthPx - (oldCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
+    u8 xPos = (oldCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     u8 yPos = (oldCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
     
-    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), xPos, yPos, cursorWidth, cursorHeight);
+    FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(1), windowWidthPx - xPos - 8, yPos, cursorWidth, cursorHeight);
 
-    xPos = windowWidthPx - (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
+    xPos = (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     yPos = (newCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
     AddTextPrinterParameterizedWithRTL(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0, TRUE);
 }
@@ -1424,13 +1428,13 @@ static s8 UNUSED Menu_ProcessGridInput_NoSoundLimit(void)
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_NONE, MENU_CURSOR_DELTA_DOWN);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
+    else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
     {
         PlaySE(SE_SELECT);
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_LEFT, MENU_CURSOR_DELTA_NONE);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
+    else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
     {
         PlaySE(SE_SELECT);
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_RIGHT, MENU_CURSOR_DELTA_NONE);
@@ -1465,13 +1469,13 @@ s8 Menu_ProcessGridInput(void)
             PlaySE(SE_SELECT);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
+    else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
     {
         if (oldPos != ChangeGridMenuCursorPosition(-1, 0))
             PlaySE(SE_SELECT);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
+    else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
     {
         if (oldPos != ChangeGridMenuCursorPosition(1, 0))
             PlaySE(SE_SELECT);
@@ -1504,13 +1508,13 @@ static s8 UNUSED Menu_ProcessGridInputRepeat_NoSoundLimit(void)
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_NONE, MENU_CURSOR_DELTA_DOWN);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_REPEAT(DPAD_ANY) == DPAD_LEFT || GetLRKeysPressedAndHeld() == MENU_L_PRESSED)
+    else if (JOY_REPEAT(DPAD_ANY) == DPAD_RIGHT || GetLRKeysPressedAndHeld() == MENU_R_PRESSED)
     {
         PlaySE(SE_SELECT);
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_LEFT, MENU_CURSOR_DELTA_NONE);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_REPEAT(DPAD_ANY) == DPAD_RIGHT || GetLRKeysPressedAndHeld() == MENU_R_PRESSED)
+    else if (JOY_REPEAT(DPAD_ANY) == DPAD_LEFT || GetLRKeysPressedAndHeld() == MENU_L_PRESSED)
     {
         PlaySE(SE_SELECT);
         ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_RIGHT, MENU_CURSOR_DELTA_NONE);
@@ -1545,13 +1549,13 @@ static s8 UNUSED Menu_ProcessGridInputRepeat(void)
             PlaySE(SE_SELECT);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_REPEAT(DPAD_ANY) == DPAD_LEFT || GetLRKeysPressedAndHeld() == MENU_L_PRESSED)
+    else if (JOY_REPEAT(DPAD_ANY) == DPAD_RIGHT || GetLRKeysPressedAndHeld() == MENU_R_PRESSED)
     {
         if (oldPos != ChangeGridMenuCursorPosition(-1, 0))
             PlaySE(SE_SELECT);
         return MENU_NOTHING_CHOSEN;
     }
-    else if (JOY_REPEAT(DPAD_ANY) == DPAD_RIGHT || GetLRKeysPressedAndHeld() == MENU_R_PRESSED)
+    else if (JOY_REPEAT(DPAD_ANY) == DPAD_LEFT || GetLRKeysPressedAndHeld() == MENU_L_PRESSED)
     {
         if (oldPos != ChangeGridMenuCursorPosition(1, 0))
             PlaySE(SE_SELECT);
@@ -1599,25 +1603,6 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
-
-/* 
-// Solution that works as replacement
-void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount,
-                                           const struct MenuAction *menuActions,
-                                           const u8 *actionIds)
-{
-    u8 i;
-    for (i = 0; i < itemCount; i++)
-    {
-        AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL,
-                                    menuActions[actionIds[i]].text,
-                                    8,  // fixed right margin
-                                    (i * 16) + 1,
-                                    TEXT_SKIP_DRAW, NULL, TRUE);
-    }
-
-    CopyWindowToVram(windowId, COPYWIN_GFX);
-} */
 
 void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {

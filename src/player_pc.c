@@ -524,7 +524,7 @@ static void InitItemStorageMenu(u8 taskId, u8 var)
 static void ItemStorageMenuPrint(const u8 *textPtr)
 {
     DrawDialogueFrame(0, FALSE);
-    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, textPtr, 0, 1, 0, 0, TRUE);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, textPtr, 8/* 0 */, 1, 0, 0, TRUE);
 }
 
 static void ItemStorageMenuProcessInput(u8 taskId)

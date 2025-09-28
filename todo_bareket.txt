@@ -1,20 +1,26 @@
 TODO:
 // Programming C
 - Battle: 
-	F Swap Lv. with Nickname [Sagi]
+	~ Swap Lv. with Nickname [Sagi]
 - Item Menu: 
 	Fix positioning of:
-	- Arrow [Shahar]
-	- Select item box with its elements
+	V Arrow
+	V Select item box with its elements
 	V Move Number left
-- Pokemon Summary Screen: Fix Positioning
+- Pokemon Summary Screen: Fix Positioning [Shahar]
 - Pokedex: Fix positioning
 - PC: Fix positioning
 - PokeNav: Fix positioning
-- Shop & Other item lists: Fix positioning
+V Shop & Other item lists: Fix positioning
+- Credits
+- Contest
+- Level Up window
 
-- Fix Placeholders name location to be correct based on LTR/RTL
-- Move text at PC 2nd menu more left
+- Fix Placeholders name location to be at the correct position based on LTR/RTL for ex. {STR_VAR_1} in nickname is stuck on right.
+- Fix so that numbers in placeholders mid sentence work correctly
+V Move text at PC 2nd menu more left
+- Fix Yes/No menu(s)
+- Move SEL icon in item menu to left side
 
 // Localization/Translation
 ~ Littleroot Town
@@ -33,7 +39,7 @@ V Pokemon Moves
 - Item Description
 
 Legend: 
-- TODO
+TODO
 ~ WIP
 V COMPLETE
 F FAIL

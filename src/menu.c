@@ -1635,14 +1635,17 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
 void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 paletteNum, u8 initialCursorPos)
 {
     struct TextPrinterTemplate printer;
+    u32 windowWidthPx;
 
     sYesNoWindowId = AddWindow(window);
     DrawStdFrameWithCustomTileAndPalette(sYesNoWindowId, TRUE, baseTileNum, paletteNum);
 
+    windowWidthPx = GetWindowAttribute(sYesNoWindowId, WINDOW_WIDTH) * 8;
+
     printer.currentChar = gText_YesNo;
     printer.windowId = sYesNoWindowId;
     printer.fontId = FONT_NORMAL;
-    printer.x = 8;
+    printer.x = windowWidthPx - 8;
     printer.y = 1;
     printer.currentX = printer.x;
     printer.currentY = printer.y;
@@ -1652,6 +1655,8 @@ void CreateYesNoMenu(const struct WindowTemplate *window, u16 baseTileNum, u8 pa
     printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
     printer.letterSpacing = 0;
     printer.lineSpacing = 0;
+
+    printer.rtlMode = TRUE;
 
     AddTextPrinter(&printer, TEXT_SKIP_DRAW, NULL);
 

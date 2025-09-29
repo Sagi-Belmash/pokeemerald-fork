@@ -756,8 +756,8 @@ static void PrintDecorationCategoryMenuItem(u8 winid, u8 category, u8 x, u8 y, b
     str = ConvertIntToDecimalStringN(str, GetNumOwnedDecorationsInCategory(category), STR_CONV_MODE_RIGHT_ALIGN, 2);
     *(str++) = CHAR_SLASH;
     ConvertIntToDecimalStringN(str, gDecorationInventories[category].size, STR_CONV_MODE_RIGHT_ALIGN, 2);
-    x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, width);
-    AddTextPrinterParameterizedWithRTL(winid, FONT_NORMAL, gStringVar4, x, y, speed, NULL, TRUE);
+    //x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, width);
+    AddTextPrinterParameterizedWithRTL(winid, FONT_NORMAL, gStringVar4, 0/* x */, y, speed, NULL, FALSE);
 }
 
 static void ColorMenuItemString(u8 *str, bool8 disabled)

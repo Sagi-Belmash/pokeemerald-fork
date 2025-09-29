@@ -4382,7 +4382,7 @@ const struct Item gItems[] =
 
     [ITEM_BERRY_POUCH] =
     {
-        .name = _("נרתיק פירות יער"),
+        .name = _("תיק פירות יער"),
         .itemId = ITEM_BERRY_POUCH,
         .price = 0,
         .description = sBerryPouchDesc,
@@ -4395,7 +4395,7 @@ const struct Item gItems[] =
 
     [ITEM_TEACHY_TV] =
     {
-        .name = _("טלויזיה לימודית"),
+        .name = _("טלויזיה מלמדת"),
         .itemId = ITEM_TEACHY_TV,
         .price = 0,
         .description = sTeachyTVDesc,

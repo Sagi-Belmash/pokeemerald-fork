@@ -19,7 +19,7 @@ V Shop & Other item lists: Fix positioning
 - Fix Placeholders name location to be at the correct position based on LTR/RTL for ex. {STR_VAR_1} in nickname is stuck on right.
 - Fix so that numbers in placeholders mid sentence work correctly
 V Move text at PC 2nd menu more left
-- Fix Yes/No menu(s)
+~ Fix Yes/No menu(s)
 - Move SEL icon in item menu to left side
 
 // Localization/Translation
@@ -39,6 +39,7 @@ V Pokemon Natures
 - Pokemon Abilities
 - Pokemon Abilities Description
 - Pokemon Description
+- Pokemon Move Description
 - Item Description
 
 Legend: 

@@ -34,7 +34,10 @@ V Move text at PC 2nd menu more left
 
 V Pokemon Names
 V Pokemon Moves
-~ Item Names
+V Item Names
+V Pokemon Natures
+- Pokemon Abilities
+- Pokemon Abilities Description
 - Pokemon Description
 - Item Description
 

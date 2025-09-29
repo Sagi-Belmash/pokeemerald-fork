@@ -3124,6 +3124,8 @@ static void BufferMonTrainerMemo(void)
         u8 *metLocationString = Alloc(32);
         GetMetLevelString(metLevelString);
 
+        ReverseIfNumeric(metLevelString);
+
         if (sum->metLocation < MAPSEC_NONE)
         {
             GetMapNameHandleAquaHideout(metLocationString, sum->metLocation);

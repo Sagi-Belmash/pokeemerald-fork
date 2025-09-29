@@ -20,5 +20,6 @@ void ConvertInternationalPlayerNameStripChar(u8 *str, u8 removeChar);
 void ConvertInternationalContestantName(u8 *str);
 int GetNicknameLanguage(u8 *str);
 void FillWindowTilesByRow(int windowId, int columnStart, int rowStart, int numFillTiles, int numRows);
+void ReverseNumeric(u8 *str);
 
 #endif // GUARD_INTERNATIONAL_STRING_UTIL_H

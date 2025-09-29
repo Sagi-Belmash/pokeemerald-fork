@@ -231,3 +231,18 @@ void FillWindowTilesByRow(int windowId, int columnStart, int rowStart, int numFi
         }
     }
 }
+
+void ReverseNumeric(u8 *str)
+{
+    s32 len;
+    s32 i;
+
+    len = StringLength(str);
+
+    for (i = 0; i < len / 2; i++)
+    {
+        u8 tmp = str[i];
+        str[i] = str[len - 1 - i];
+        str[len - 1 - i] = tmp;
+    }
+}

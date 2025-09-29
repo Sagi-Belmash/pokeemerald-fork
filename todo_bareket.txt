@@ -15,6 +15,7 @@ V Shop & Other item lists: Fix positioning
 - Credits
 - Contest
 - Level Up window
+- Berry Tag menu
 
 - Fix Placeholders name location to be at the correct position based on LTR/RTL for ex. {STR_VAR_1} in nickname is stuck on right.
 - Fix so that numbers in placeholders mid sentence work correctly

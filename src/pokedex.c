@@ -902,7 +902,7 @@ static const struct WindowTemplate sInfoScreen_WindowTemplates[] =
         .bg = 2,
         .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 32,
+        .width = 30, // was 32
         .height = 20,
         .paletteNum = 0,
         .baseBlock = 1,
@@ -969,7 +969,7 @@ static const struct WindowTemplate sNewEntryInfoScreen_WindowTemplates[] =
         .bg = 2,
         .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 32,
+        .width = 30, // was 32
         .height = 20,
         .paletteNum = 0,
         .baseBlock = 1,
@@ -2327,7 +2327,7 @@ static void PrintMonDexNumAndName(u8 windowId, u8 fontId, const u8 *str, u8 left
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GRAY;
-    AddTextPrinterParameterized4WithRTL(windowId, fontId, left * 8, (top * 8) + 1, 0, 0, color, TEXT_SKIP_DRAW, str, TRUE);
+    AddTextPrinterParameterized4WithRTL(windowId, fontId, left * 8 , (top * 8) + 1, 0, 0, color, TEXT_SKIP_DRAW, str, TRUE);
 }
 
 // u16 ignored is passed but never used

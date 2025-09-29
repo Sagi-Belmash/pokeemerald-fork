@@ -3234,7 +3234,7 @@ const struct Item gItems[] =
 
     [ITEM_CONTEST_PASS] =
     {
-        .name = _("אישור תחרות"),
+        .name = _("היתר תחרות"),
         .itemId = ITEM_CONTEST_PASS,
         .price = 0,
         .description = sContestPassDesc,
@@ -4185,7 +4185,7 @@ const struct Item gItems[] =
 
     [ITEM_OAKS_PARCEL] =
     {
-        .name = _("OAK'S PARCEL"),
+        .name = _("החבילה של אוק"),
         .itemId = ITEM_OAKS_PARCEL,
         .price = 0,
         .description = sOaksParcelDesc,
@@ -4197,7 +4197,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_FLUTE] =
     {
-        .name = _("POKé FLUTE"),
+        .name = _("חליל פוקימון"),
         .itemId = ITEM_POKE_FLUTE,
         .price = 0,
         .description = sPokeFluteDesc,
@@ -4209,7 +4209,7 @@ const struct Item gItems[] =
 
     [ITEM_SECRET_KEY] =
     {
-        .name = _("SECRET KEY"),
+        .name = _("מפתח סודי"),
         .itemId = ITEM_SECRET_KEY,
         .price = 0,
         .description = sSecretKeyDesc,
@@ -4221,7 +4221,7 @@ const struct Item gItems[] =
 
     [ITEM_BIKE_VOUCHER] =
     {
-        .name = _("BIKE VOUCHER"),
+        .name = _("שובר אופניים"),
         .itemId = ITEM_BIKE_VOUCHER,
         .price = 0,
         .description = sBikeVoucherDesc,
@@ -4233,7 +4233,7 @@ const struct Item gItems[] =
 
     [ITEM_GOLD_TEETH] =
     {
-        .name = _("GOLD TEETH"),
+        .name = _("שיניי זהב"),
         .itemId = ITEM_GOLD_TEETH,
         .price = 0,
         .description = sGoldTeethDesc,
@@ -4245,7 +4245,7 @@ const struct Item gItems[] =
 
     [ITEM_OLD_AMBER] =
     {
-        .name = _("OLD AMBER"),
+        .name = _("ענבר ישן"),
         .itemId = ITEM_OLD_AMBER,
         .price = 0,
         .description = sOldAmberDesc,
@@ -4257,7 +4257,7 @@ const struct Item gItems[] =
 
     [ITEM_CARD_KEY] =
     {
-        .name = _("CARD KEY"),
+        .name = _("מפתח כרטיס"),
         .itemId = ITEM_CARD_KEY,
         .price = 0,
         .description = sCardKeyDesc,
@@ -4269,7 +4269,7 @@ const struct Item gItems[] =
 
     [ITEM_LIFT_KEY] =
     {
-        .name = _("LIFT KEY"),
+        .name = _("מפתח מעלית"),
         .itemId = ITEM_LIFT_KEY,
         .price = 0,
         .description = sLiftKeyDesc,
@@ -4281,7 +4281,7 @@ const struct Item gItems[] =
 
     [ITEM_HELIX_FOSSIL] =
     {
-        .name = _("HELIX FOSSIL"),
+        .name = _("מאובן סליל"),
         .itemId = ITEM_HELIX_FOSSIL,
         .price = 0,
         .description = sHelixFossilDesc,
@@ -4293,7 +4293,7 @@ const struct Item gItems[] =
 
     [ITEM_DOME_FOSSIL] =
     {
-        .name = _("DOME FOSSIL"),
+        .name = _("מאובן כיפה"),
         .itemId = ITEM_DOME_FOSSIL,
         .price = 0,
         .description = sDomeFossilDesc,
@@ -4305,7 +4305,7 @@ const struct Item gItems[] =
 
     [ITEM_SILPH_SCOPE] =
     {
-        .name = _("SILPH SCOPE"),
+        .name = _("עדשות סילף"),
         .itemId = ITEM_SILPH_SCOPE,
         .price = 0,
         .description = sSilphScopeDesc,
@@ -4317,7 +4317,7 @@ const struct Item gItems[] =
 
     [ITEM_BICYCLE] =
     {
-        .name = _("BICYCLE"),
+        .name = _("אופניים"),
         .itemId = ITEM_BICYCLE,
         .price = 0,
         .description = sBicycleDesc,
@@ -4330,7 +4330,7 @@ const struct Item gItems[] =
 
     [ITEM_TOWN_MAP] =
     {
-        .name = _("TOWN MAP"),
+        .name = _("מפת ערים"),
         .itemId = ITEM_TOWN_MAP,
         .price = 0,
         .description = sTownMapDesc,
@@ -4343,7 +4343,7 @@ const struct Item gItems[] =
 
     [ITEM_VS_SEEKER] =
     {
-        .name = _("VS SEEKER"),
+        .name = _("מחפש נגד"),
         .itemId = ITEM_VS_SEEKER,
         .price = 0,
         .description = sVSSeekerDesc,
@@ -4356,7 +4356,7 @@ const struct Item gItems[] =
 
     [ITEM_FAME_CHECKER] =
     {
-        .name = _("FAME CHECKER"),
+        .name = _("בודק תהילה"),
         .itemId = ITEM_FAME_CHECKER,
         .price = 0,
         .description = sFameCheckerDesc,
@@ -4369,7 +4369,7 @@ const struct Item gItems[] =
 
     [ITEM_TM_CASE] =
     {
-        .name = _("TM CASE"),
+        .name = _("תיק מ”מ"),
         .itemId = ITEM_TM_CASE,
         .price = 0,
         .description = sTMCaseDesc,
@@ -4382,7 +4382,7 @@ const struct Item gItems[] =
 
     [ITEM_BERRY_POUCH] =
     {
-        .name = _("BERRY POUCH"),
+        .name = _("נרתיק פירות יער"),
         .itemId = ITEM_BERRY_POUCH,
         .price = 0,
         .description = sBerryPouchDesc,
@@ -4395,7 +4395,7 @@ const struct Item gItems[] =
 
     [ITEM_TEACHY_TV] =
     {
-        .name = _("TEACHY TV"),
+        .name = _("טלויזיה לימודית"),
         .itemId = ITEM_TEACHY_TV,
         .price = 0,
         .description = sTeachyTVDesc,
@@ -4408,7 +4408,7 @@ const struct Item gItems[] =
 
     [ITEM_TRI_PASS] =
     {
-        .name = _("TRI-PASS"),
+        .name = _("היתר משולש"),
         .itemId = ITEM_TRI_PASS,
         .price = 0,
         .description = sTriPassDesc,
@@ -4421,7 +4421,7 @@ const struct Item gItems[] =
 
     [ITEM_RAINBOW_PASS] =
     {
-        .name = _("RAINBOW PASS"),
+        .name = _("היתר קשת"),
         .itemId = ITEM_RAINBOW_PASS,
         .price = 0,
         .description = sRainbowPassDesc,
@@ -4434,7 +4434,7 @@ const struct Item gItems[] =
 
     [ITEM_TEA] =
     {
-        .name = _("TEA"),
+        .name = _("תה"),
         .itemId = ITEM_TEA,
         .price = 0,
         .description = sTeaDesc,
@@ -4447,7 +4447,7 @@ const struct Item gItems[] =
 
     [ITEM_MYSTIC_TICKET] =
     {
-        .name = _("MYSTICTICKET"),
+        .name = _("כרטיס מיסטי"),
         .itemId = ITEM_MYSTIC_TICKET,
         .price = 0,
         .description = sMysticTicketDesc,
@@ -4460,7 +4460,7 @@ const struct Item gItems[] =
 
     [ITEM_AURORA_TICKET] =
     {
-        .name = _("AURORATICKET"),
+        .name = _("כרטיס אורות"),
         .itemId = ITEM_AURORA_TICKET,
         .price = 0,
         .description = sAuroraTicketDesc,
@@ -4473,7 +4473,7 @@ const struct Item gItems[] =
 
     [ITEM_POWDER_JAR] =
     {
-        .name = _("POWDER JAR"),
+        .name = _("צנצנת אבקה"),
         .itemId = ITEM_POWDER_JAR,
         .price = 0,
         .description = sPowderJarDesc,
@@ -4486,7 +4486,7 @@ const struct Item gItems[] =
 
     [ITEM_RUBY] =
     {
-        .name = _("RUBY"),
+        .name = _("רובי"),
         .itemId = ITEM_RUBY,
         .price = 0,
         .description = sRubyDesc,
@@ -4499,7 +4499,7 @@ const struct Item gItems[] =
 
     [ITEM_SAPPHIRE] =
     {
-        .name = _("SAPPHIRE"),
+        .name = _("ספיר"),
         .itemId = ITEM_SAPPHIRE,
         .price = 0,
         .description = sSapphireDesc,

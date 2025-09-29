@@ -1040,7 +1040,7 @@ static void ItemStorage_PrintMenuItem(u8 windowId, u32 id, u8 yOffset)
         }
         ConvertIntToDecimalStringN(gStringVar1, gSaveBlock1Ptr->pcItems[id].quantity, STR_CONV_MODE_RIGHT_ALIGN, 3);
         StringExpandPlaceholders(gStringVar4, gText_xVar1);
-        AddTextPrinterParameterizedWithRTL(windowId, FONT_NARROW, gStringVar4, GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 104), yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
+        AddTextPrinterParameterizedWithRTL(windowId, FONT_NARROW, gStringVar4, 0/* GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 104) */, yOffset, TEXT_SKIP_DRAW, NULL, FALSE);
     }
 }
 
@@ -1345,7 +1345,7 @@ static void ItemStorage_PrintItemQuantity(u8 windowId, u16 value, u32 mode, u8 x
 {
     ConvertIntToDecimalStringN(gStringVar1, value, mode, n);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
-    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 48), y, 0, NULL, TRUE);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 48), y, 0, NULL, FALSE);
 }
 
 // Start an item Withdraw/Toss

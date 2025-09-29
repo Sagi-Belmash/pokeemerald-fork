@@ -987,7 +987,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
         {
             // Print registered icon
             if (gSaveBlock1Ptr->registeredItem != ITEM_NONE && gSaveBlock1Ptr->registeredItem == itemId)
-                BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 96, y - 1, 24, 16);
+                BlitBitmapToWindow(windowId, sRegisteredSelect_Gfx, 0/* 96 */, y - 1, 24, 16);
         }
     }
 }

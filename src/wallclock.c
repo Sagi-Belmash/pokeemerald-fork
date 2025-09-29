@@ -720,7 +720,7 @@ void CB2_StartWallClock(void)
 
     WallClockInit();
 
-    AddTextPrinterParameterizedWithRTL(WIN_BUTTON_LABEL, FONT_NORMAL, gText_Confirm3, 0, 1, 0, NULL, TRUE);
+    AddTextPrinterParameterizedWithRTL(WIN_BUTTON_LABEL, FONT_NORMAL, gText_Confirm3, 8/* 0 */, 1, 0, NULL, TRUE);
     PutWindowTilemap(WIN_BUTTON_LABEL);
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -768,7 +768,7 @@ void CB2_ViewWallClock(void)
 
     WallClockInit();
 
-    AddTextPrinterParameterizedWithRTL(WIN_BUTTON_LABEL, FONT_NORMAL, gText_Cancel4, 0, 1, 0, NULL, TRUE);
+    AddTextPrinterParameterizedWithRTL(WIN_BUTTON_LABEL, FONT_NORMAL, gText_Cancel4, 8/* 0 */, 1, 0, NULL, TRUE);
     PutWindowTilemap(WIN_BUTTON_LABEL);
     ScheduleBgCopyTilemapToVram(2);
 }

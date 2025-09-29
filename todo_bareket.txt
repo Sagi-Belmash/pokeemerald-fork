@@ -36,10 +36,11 @@ V Pokemon Names
 V Pokemon Moves
 V Item Names
 V Pokemon Natures
-- Pokemon Abilities
+V Pokemon Abilities
 - Pokemon Abilities Description
 - Pokemon Description
 - Pokemon Move Description
+- Pokemon Move Contest Description
 - Item Description
 
 Legend: 

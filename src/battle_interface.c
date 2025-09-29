@@ -1110,12 +1110,12 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     u32 xPos;
     u8 *objVram;
 
-    //text[0] = CHAR_EXTRA_SYMBOL;
-    //text[1] = CHAR_LV_2;
+    text[0] = CHAR_EXTRA_SYMBOL;
+    text[1] = CHAR_LV_2;
 
     objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-    *objVram++ = CHAR_LV_2;
-    *objVram = EOS;
+    //*objVram++ = CHAR_LV_2;
+    //*objVram = EOS;
     xPos = 5 * (3 - (objVram - (text + 2)));
 
     windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, xPos, 3, 2, &windowId, FALSE);

@@ -28,32 +28,18 @@ void DynamicPlaceholderTextUtil_SetPlaceholderPtr(u8 idx, const u8 *ptr)
     }
 }
 
-void ReverseIfNumeric(u8 *str)
+void ReverseNumeric(u8 *str)
 {
     s32 len;
     s32 i;
-    bool8 onlyDigits = TRUE;
 
     len = StringLength(str);
 
-    // check if all characters are digits
-    for (i = 0; i < len; i++)
+    for (i = 0; i < len / 2; i++)
     {
-        if (str[i] < CHAR_0 || str[i] > CHAR_9) // depends on your font encoding
-        {
-            onlyDigits = FALSE;
-            break;
-        }
-    }
-
-    if (onlyDigits)
-    {
-        for (i = 0; i < len / 2; i++)
-        {
-            u8 tmp = str[i];
-            str[i] = str[len - 1 - i];
-            str[len - 1 - i] = tmp;
-        }
+        u8 tmp = str[i];
+        str[i] = str[len - 1 - i];
+        str[len - 1 - i] = tmp;
     }
 }
 

@@ -384,6 +384,11 @@ EMIT_YUD      = FD 11
 EMIT_HEY      = FD 12
 EMIT_TAF      = FD 13
 EMIT_VAV      = FD 14
+SWAP_CHAF     = FD 15
+SWAF_MEM      = FD 16
+SWAP_NUN      = FD 17
+SWAP_PEY      = FD 18
+SWAP_TZADIK   = FD 19
 
 @ battle string placeholders
 
@@ -481,7 +486,6 @@ JPN = FC 15
 ENG = FC 16
 PAUSE_MUSIC = FC 17
 RESUME_MUSIC = FC 18
-CHAR_SWAP = FC 19
 
 @ fonts
 

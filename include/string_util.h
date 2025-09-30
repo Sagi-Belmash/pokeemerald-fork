@@ -52,4 +52,10 @@ const u8 *ExpandPlaceholder_EmitHey(void);
 const u8 *ExpandPlaceholder_EmitTaf(void);
 const u8 *ExpandPlaceholder_EmitVav(void);
 
+const u8 *ExpandPlaceholder_SwapChaf(void);
+const u8 *ExpandPlaceholder_SwapMem(void);
+const u8 *ExpandPlaceholder_SwapNun(void);
+const u8 *ExpandPlaceholder_SwapPey(void);
+const u8 *ExpandPlaceholder_SwapTzadik(void);
+
 #endif // GUARD_STRING_UTIL_H

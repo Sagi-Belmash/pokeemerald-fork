@@ -931,7 +931,7 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "הן יתנו מרץ לצעד!$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} החלי{CHAR_SWAP 0xEE}{ADD_HEY} נעליים לנעלי ריצה.\n"
+	.string "{PLAYER} החלי{SWAP_PEY}{ADD_HEY} נעליים לנעלי ריצה.\n"
 	.string "$"
 
 LittlerootTown_Text_ExplainRunningShoes:

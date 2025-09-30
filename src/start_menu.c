@@ -1361,7 +1361,8 @@ static void ShowSaveInfoWindow(void)
 
     // Print player name
     yOffset += 16;
-    AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gText_SavingPlayer, 0, yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
+    StringExpandPlaceholders(gStringVar4, gText_SavingPlayer);
+    AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gStringVar4, 0, yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
     BufferSaveMenuText(SAVE_MENU_NAME, gStringVar4, color);
     xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 0x70);
     PrintPlayerNameOnWindow(sSaveInfoWindowId, gStringVar4, xOffset - 28, yOffset);

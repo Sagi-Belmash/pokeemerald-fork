@@ -21,6 +21,29 @@ extern const u8 gText_ExpandedPlaceholder_Yud[];
 extern const u8 gText_ExpandedPlaceholder_Hey[];
 extern const u8 gText_ExpandedPlaceholder_Taf[];
 extern const u8 gText_ExpandedPlaceholder_Vav[];
+
+extern const u8 gText_ExpandedPlaceholder_Chaf[];
+extern const u8 gText_ExpandedPlaceholder_ChafSofit[];
+extern const u8 gText_ExpandedPlaceholder_Mem[];
+extern const u8 gText_ExpandedPlaceholder_MemSofit[];
+extern const u8 gText_ExpandedPlaceholder_Nun[];
+extern const u8 gText_ExpandedPlaceholder_NunSofit[];
+extern const u8 gText_ExpandedPlaceholder_Pey[];
+extern const u8 gText_ExpandedPlaceholder_PeySofit[];
+extern const u8 gText_ExpandedPlaceholder_Tzadik[];
+extern const u8 gText_ExpandedPlaceholder_TzadikSofit[];
+
+extern const u8 gText_ExpandedPlaceholder_Chaf[];
+extern const u8 gText_ExpandedPlaceholder_ChafSofit[];
+extern const u8 gText_ExpandedPlaceholder_Mem[];
+extern const u8 gText_ExpandedPlaceholder_MemSofit[];
+extern const u8 gText_ExpandedPlaceholder_Nun[];
+extern const u8 gText_ExpandedPlaceholder_NunSofit[];
+extern const u8 gText_ExpandedPlaceholder_Pey[];
+extern const u8 gText_ExpandedPlaceholder_PeySofit[];
+extern const u8 gText_ExpandedPlaceholder_Tzadik[];
+extern const u8 gText_ExpandedPlaceholder_TzadikSofit[];
+
 extern const u8 sEmptyString[];
 
 extern const u8 gText_FromSpace[];

@@ -509,6 +509,46 @@ const u8 *ExpandPlaceholder_EmitVav(void)
         return gText_ExpandedPlaceholder_Empty;
 }
 
+const u8 *ExpandPlaceholder_SwapChaf(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_ChafSofit;
+    else
+        return gText_ExpandedPlaceholder_Chaf;
+}
+
+const u8 *ExpandPlaceholder_SwapMem(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_MemSofit;
+    else
+        return gText_ExpandedPlaceholder_Mem;
+}
+
+const u8 *ExpandPlaceholder_SwapNun(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_NunSofit;
+    else
+        return gText_ExpandedPlaceholder_Nun;
+}
+
+const u8 *ExpandPlaceholder_SwapPey(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_PeySofit;
+    else
+        return gText_ExpandedPlaceholder_Pey;
+}
+
+const u8 *ExpandPlaceholder_SwapTzadik(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        return gText_ExpandedPlaceholder_TzadikSofit;
+    else
+        return gText_ExpandedPlaceholder_Tzadik;
+}
+
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
@@ -579,6 +619,11 @@ const u8 *GetExpandedPlaceholder(u32 id)
     [PLACEHOLDER_ID_EMIT_HEY]       = ExpandPlaceholder_EmitHey,
     [PLACEHOLDER_ID_EMIT_TAF]       = ExpandPlaceholder_EmitTaf,
     [PLACEHOLDER_ID_EMIT_VAV]       = ExpandPlaceholder_EmitVav,
+    [PLACEHOLDER_ID_SWAP_CHAF]      = ExpandPlaceholder_SwapChaf,
+    [PLACEHOLDER_ID_SWAF_MEM]       = ExpandPlaceholder_SwapMem,
+    [PLACEHOLDER_ID_SWAP_NUN]       = ExpandPlaceholder_SwapNun,
+    [PLACEHOLDER_ID_SWAP_PEY]       = ExpandPlaceholder_SwapPey,
+    [PLACEHOLDER_ID_SWAP_TZADIK]    = ExpandPlaceholder_SwapTzadik,
     };
 
     if (id >= ARRAY_COUNT(funcs))

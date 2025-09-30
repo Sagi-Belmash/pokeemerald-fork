@@ -43,6 +43,7 @@ V Pokemon Abilities
 - Pokemon Move Description
 - Pokemon Move Contest Description
 - Item Description
+- City names Hebrew from translit to literal
 
 Legend: 
 TODO

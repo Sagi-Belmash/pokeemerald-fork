@@ -3570,8 +3570,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintInfoScreenText(gText_CryOf, 158/* 82 */, 33);
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
+        PrintInfoScreenText(gText_CryOf, 114/* 82 */, 33);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 114/* 82 */, 49);
         gMain.state++;
         break;
     case 5:
@@ -4154,7 +4154,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         description = gPokedexEntries[num].description;
     else
         description = sExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, DISPLAY_WIDTH), 95);
+    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, DISPLAY_WIDTH) + 14, 95/* 95 */);
 }
 
 static void PrintMonHeight(u16 height, u8 left, u8 top)

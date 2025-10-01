@@ -567,9 +567,9 @@ static void FrameType_DrawChoices(u8 selection)
     // Convert a number to decimal string
     if (n / 10 != 0)
     {
-        text[i] = n / 10 + CHAR_0;
-        i++;
         text[i] = n % 10 + CHAR_0;
+        i++;
+        text[i] = n / 10 + CHAR_0;
         i++;
     }
     else

@@ -1282,7 +1282,7 @@ static bool32 MatchCall_DrawWindow(u8 taskId)
 
     PutWindowTilemap(tWindowId);
     DrawMatchCallTextBoxBorder_Internal(tWindowId, TILE_MC_WINDOW, 14);
-    WriteSequenceToBgTilemapBuffer(0, (0xF << 12) | TILE_POKENAV_ICON, 1, 15, 4, 4, 17, 1);
+    WriteSequenceToBgTilemapBuffer(0, (0xF << 12) | TILE_POKENAV_ICON, 25/* 1 */, 15, 4, 4, 17, 1);
     tIconTaskId = CreateTask(Task_SpinPokenavIcon, 10);
     CopyWindowToVram(tWindowId, COPYWIN_GFX);
     CopyBgTilemapBufferToVram(0);
@@ -1405,13 +1405,15 @@ static void DrawMatchCallTextBoxBorder_Internal(u32 windowId, u32 tileOffset, u3
 
 static void InitMatchCallTextPrinter(int windowId, const u8 *str)
 {
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+
     struct TextPrinterTemplate printerTemplate;
     printerTemplate.currentChar = str;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = FONT_NORMAL;
-    printerTemplate.x = 32;
+    printerTemplate.x = windowWidthPx - 32;
     printerTemplate.y = 1;
-    printerTemplate.currentX = 32;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = 1;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;
@@ -1420,6 +1422,7 @@ static void InitMatchCallTextPrinter(int windowId, const u8 *str)
     printerTemplate.bgColor = TEXT_COLOR_BLUE;
     printerTemplate.shadowColor = TEXT_DYNAMIC_COLOR_5;
     gTextFlags.useAlternateDownArrow = FALSE;
+    printerTemplate.rtlMode = TRUE;
 
     AddTextPrinter(&printerTemplate, GetPlayerTextSpeedDelay(), NULL);
 }
@@ -1449,7 +1452,7 @@ static void Task_SpinPokenavIcon(u8 taskId)
             tSpinStage = 0;
 
         tTileNum = (tSpinStage * 16) + TILE_POKENAV_ICON;
-        WriteSequenceToBgTilemapBuffer(0, tTileNum | ~0xFFF, 1, 15, 4, 4, 17, 1);
+        WriteSequenceToBgTilemapBuffer(0, tTileNum | ~0xFFF, 25/* 1 */, 15, 4, 4, 17, 1);
         CopyBgTilemapBufferToVram(0);
     }
 }

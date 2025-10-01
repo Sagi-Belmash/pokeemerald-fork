@@ -2352,16 +2352,16 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             {
                 ClearMonListEntry(17, i * 2, ignored);
                 if (sPokedexView->pokedexList[entryNum].seen)
-                {
-                    CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
-                    CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, i * 2, ignored);
-                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, i * 2);
+                {/*  */
+                    CreateMonDexNum(entryNum, 5/* 0x12 */, i * 2, ignored);
+                    CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, i * 2, ignored);
+                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, i * 2);
                 }
                 else
                 {
-                    CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
-                    CreateCaughtBall(FALSE, 0x11, i * 2, ignored);
-                    CreateMonName(0, 0x16, i * 2);
+                    CreateMonDexNum(entryNum, 5/* 0x12 */, i * 2, ignored);
+                    CreateCaughtBall(FALSE, 0x1B/* 0x11 */, i * 2, ignored);
+                    CreateMonName(0, 9/* 0x16 */, i * 2);
                 }
             }
             entryNum++;
@@ -2378,15 +2378,15 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             ClearMonListEntry(17, sPokedexView->listVOffset * 2, ignored);
             if (sPokedexView->pokedexList[entryNum].seen)
             {
-                CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
-                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, sPokedexView->listVOffset * 2);
+                CreateMonDexNum(entryNum, 5/* 18 */, sPokedexView->listVOffset * 2, ignored);
+                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, sPokedexView->listVOffset * 2, ignored);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, sPokedexView->listVOffset * 2);
             }
             else
             {
-                CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
-                CreateCaughtBall(FALSE, 17, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(0, 0x16, sPokedexView->listVOffset * 2);
+                CreateMonDexNum(entryNum, 5/* 18 */, sPokedexView->listVOffset * 2, ignored);
+                CreateCaughtBall(FALSE, 27/* 17 */, sPokedexView->listVOffset * 2, ignored);
+                CreateMonName(0, 9/* 0x16 */, sPokedexView->listVOffset * 2);
             }
         }
         break;
@@ -2404,15 +2404,15 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             ClearMonListEntry(17, vOffset * 2, ignored);
             if (sPokedexView->pokedexList[entryNum].seen)
             {
-                CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
-                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, vOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, vOffset * 2);
+                CreateMonDexNum(entryNum, 5/* 18 */, vOffset * 2, ignored);
+                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, vOffset * 2, ignored);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, vOffset * 2);
             }
             else
             {
-                CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
-                CreateCaughtBall(FALSE, 0x11, vOffset * 2, ignored);
-                CreateMonName(0, 0x16, vOffset * 2);
+                CreateMonDexNum(entryNum, 5/* 18 */, vOffset * 2, ignored);
+                CreateCaughtBall(FALSE, 0x1B/* 0x11 */, vOffset * 2, ignored);
+                CreateMonName(0, 9/* 0x16 */, vOffset * 2);
             }
         }
         break;
@@ -2429,9 +2429,11 @@ static void CreateMonDexNum(u16 entryNum, u8 left, u8 top, u16 unused)
     dexNum = sPokedexView->pokedexList[entryNum].dexNum;
     if (sPokedexView->dexMode == DEX_MODE_HOENN)
         dexNum = NationalToHoennOrder(dexNum);
-    text[2] = CHAR_0 + dexNum / 100;
+    //text[2] = CHAR_0 + dexNum / 100;
+    text[2] = CHAR_0 + (dexNum % 100) % 10;
     text[3] = CHAR_0 + (dexNum % 100) / 10;
-    text[4] = CHAR_0 + (dexNum % 100) % 10;
+    //text[4] = CHAR_0 + (dexNum % 100) % 10;
+    text[4] = CHAR_0 + dexNum / 100;
     PrintMonDexNumAndName(0, FONT_NARROW, text, left, top);
 }
 

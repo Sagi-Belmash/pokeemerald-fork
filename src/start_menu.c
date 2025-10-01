@@ -1381,7 +1381,7 @@ static void ShowSaveInfoWindow(void)
         AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gText_SavingPokedex, 0, yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
         BufferSaveMenuText(SAVE_MENU_CAUGHT, gStringVar4, color);
         xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 0x70);
-        AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gStringVar4, xOffset - 28, yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
+        AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gStringVar4, xOffset - 28, yOffset, TEXT_SKIP_DRAW, NULL, FALSE);
     }
 
     // Print play time
@@ -1389,7 +1389,7 @@ static void ShowSaveInfoWindow(void)
     AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gText_SavingTime, 0, yOffset, TEXT_SKIP_DRAW, NULL, TRUE);
     BufferSaveMenuText(SAVE_MENU_PLAY_TIME, gStringVar4, color);
     xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 0x70);
-    AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gStringVar4, xOffset - 60, yOffset, TEXT_SKIP_DRAW, NULL, FALSE);
+    AddTextPrinterParameterizedWithRTL(sSaveInfoWindowId, FONT_NORMAL, gStringVar4, xOffset - 28, yOffset, TEXT_SKIP_DRAW, NULL, FALSE);
 
     CopyWindowToVram(sSaveInfoWindowId, COPYWIN_GFX);
 }

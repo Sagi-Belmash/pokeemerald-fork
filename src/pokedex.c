@@ -902,7 +902,7 @@ static const struct WindowTemplate sInfoScreen_WindowTemplates[] =
         .bg = 2,
         .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 30, // was 32
+        .width = 32,
         .height = 20,
         .paletteNum = 0,
         .baseBlock = 1,
@@ -969,7 +969,7 @@ static const struct WindowTemplate sNewEntryInfoScreen_WindowTemplates[] =
         .bg = 2,
         .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 30, // was 32
+        .width = 32,
         .height = 20,
         .paletteNum = 0,
         .baseBlock = 1,
@@ -3570,7 +3570,7 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintInfoScreenText(gText_CryOf, 82, 33);
+        PrintInfoScreenText(gText_CryOf, 158/* 82 */, 33);
         PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
         gMain.state++;
         break;
@@ -4116,14 +4116,18 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         value = NationalToHoennOrder(num);
     else
         value = num;
-    ConvertIntToDecimalStringN(StringCopy(str, gText_NumberClear01), value, STR_CONV_MODE_LEADING_ZEROS, 3);
-    PrintInfoScreenText(str, 0x60, 0x19);
+
+    StringCopy(str2, gText_NumberClear01);    
+    ConvertIntToDecimalStringN(str, value, STR_CONV_MODE_LEADING_ZEROS, 3);
+    ReverseNumeric(str);
+    StringAppend(str2, str);
+    PrintInfoScreenText(str2, 0x48/* 0x60 */, 0x19);
     natNum = NationalPokedexNumToSpecies(num);
     if (natNum)
         name = gSpeciesNames[natNum];
     else
         name = sText_TenDashes2;
-    PrintInfoScreenText(name, 0x84, 0x19);
+    PrintInfoScreenText(name, 0x6C/* 0x84 */, 0x19);
     if (owned)
     {
         CopyMonCategoryText(num, str2);
@@ -4133,18 +4137,18 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     {
         category = gText_5MarksPokemon;
     }
-    PrintInfoScreenText(category, 0x64, 0x29);
-    PrintInfoScreenText(gText_HTHeight, 0x60, 0x39);
-    PrintInfoScreenText(gText_WTWeight, 0x60, 0x49);
+    PrintInfoScreenText(category, 0x4C/* 0x64 */, 0x29);
+    PrintInfoScreenText(gText_HTHeight, 0x48/* 0x60 */, 0x39);
+    PrintInfoScreenText(gText_WTWeight, 0x48/* 0x60 */, 0x49);
     if (owned)
     {
-        PrintMonHeight(gPokedexEntries[num].height, 0x81, 0x39);
-        PrintMonWeight(gPokedexEntries[num].weight, 0x81, 0x49);
+        PrintMonHeight(gPokedexEntries[num].height, 0x77/* 0x81 */, 0x39);
+        PrintMonWeight(gPokedexEntries[num].weight, 0x77/* 0x81 */, 0x49);
     }
     else
     {
-        PrintInfoScreenText(gText_UnkHeight, 0x81, 0x39);
-        PrintInfoScreenText(gText_UnkWeight, 0x81, 0x49);
+        PrintInfoScreenText(gText_UnkHeight, 0x69/* 0x81 */, 0x39);
+        PrintInfoScreenText(gText_UnkWeight, 0x69/* 0x81 */, 0x49);
     }
     if (owned)
         description = gPokedexEntries[num].description;
@@ -4155,7 +4159,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
 
 static void PrintMonHeight(u16 height, u8 left, u8 top)
 {
-    u8 buffer[16];
+/*     u8 buffer[16];
     u32 inches, feet;
     u8 i = 0;
 
@@ -4183,12 +4187,15 @@ static void PrintMonHeight(u16 height, u8 left, u8 top)
     buffer[i++] = (inches % 10) + CHAR_0;
     buffer[i++] = CHAR_DBL_QUOTE_RIGHT;
     buffer[i++] = EOS;
-    PrintInfoScreenText(buffer, left, top);
+    PrintInfoScreenText(buffer, left, top); */
+
+    PrintInfoScreenText(gText_EmptyHeight, left, top);
+    PrintDecimalNum(0, height, left, top);
 }
 
 static void PrintMonWeight(u16 weight, u8 left, u8 top)
 {
-    u8 buffer[16];
+    /* u8 buffer[16];
     bool8 output;
     u8 i;
     u32 lbs = (weight * 100000) / 4536;
@@ -4241,7 +4248,10 @@ static void PrintMonWeight(u16 weight, u8 left, u8 top)
     buffer[i++] = CHAR_s;
     buffer[i++] = CHAR_PERIOD;
     buffer[i++] = EOS;
-    PrintInfoScreenText(buffer, left, top);
+    PrintInfoScreenText(buffer, left, top);*/
+
+    PrintInfoScreenText(gText_EmptyWeight, left, top);
+    PrintDecimalNum(0, weight, left, top);
 }
 
 const u8 *GetPokedexCategoryName(u16 dexNum) // unused
@@ -4543,7 +4553,7 @@ static void UNUSED UnusedPrintMonName(u8 windowId, const u8 *name, u8 left, u8 t
 }
 
 // Unused in the English version, used to print height/weight in versions which use metric system.
-static void UNUSED PrintDecimalNum(u8 windowId, u16 num, u8 left, u8 top)
+static void PrintDecimalNum(u8 windowId, u16 num, u8 left, u8 top)
 {
     u8 str[6];
     bool8 outputted = FALSE;
@@ -4577,6 +4587,7 @@ static void UNUSED PrintDecimalNum(u8 windowId, u16 num, u8 left, u8 top)
     str[3] = CHAR_DEC_SEPARATOR;
     str[4] = CHAR_0 + ((num % 1000) % 100) % 10;
     str[5] = EOS;
+    ReverseNumeric(str);
     PrintInfoSubMenuText(windowId, str, left, top);
 }
 

@@ -23,7 +23,14 @@ V Shop & Other item lists: Fix positioning
 - Fix so that numbers in placeholders mid sentence work correctly
 V Move text at PC 2nd menu more left
 ~ Fix Yes/No menu(s)
-- Move SEL icon in item menu to left side
+V Move SEL icon in item menu to left side
+- Use metric system in the POKeDEX
+- Add placeholder {POKEMON_GENDER_ADD_HEY} for female text
+- Move pokenav icon match call when player calls to right side
+- Fix trainer card back text
+- Fix trainer card battle arena text and images
+- At naming screen: Make Hebrew keyboard first, English second, numbers last.
+- Fix pokeblock placeholder
 
 // Localization/Translation
 ~ Littleroot Town

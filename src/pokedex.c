@@ -4150,8 +4150,14 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         PrintInfoScreenText(gText_UnkHeight, 0x69/* 0x81 */, 0x39);
         PrintInfoScreenText(gText_UnkWeight, 0x69/* 0x81 */, 0x49);
     }
+
+    StringCopy(gStringVar1, gSpeciesNames[num]);
+
     if (owned)
-        description = gPokedexEntries[num].description;
+    {
+        StringExpandPlaceholders(gStringVar4, gPokedexEntries[num].description);
+        description = gStringVar4;
+    }
     else
         description = sExpandedPlaceholder_PokedexDescription;
     PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, DISPLAY_WIDTH) + 14, 95/* 95 */);

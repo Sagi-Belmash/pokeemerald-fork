@@ -3798,6 +3798,8 @@ static void PrintUnionRoomText(u8 windowId, u8 fontId, const u8 *str, u8 x, u8 y
     printerTemplate.currentY = y;
     printerTemplate.unk = 0;
 
+    printerTemplate.rtlMode = TRUE;
+
     gTextFlags.useAlternateDownArrow = FALSE;
     switch (colorIdx)
     {

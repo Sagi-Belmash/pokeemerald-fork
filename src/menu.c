@@ -1621,6 +1621,8 @@ void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const stru
     printer.x = windowWidthPx - 8; // was 8
     printer.currentX = windowWidthPx - 8; // was 8
 
+    printer.rtlMode = TRUE;
+
     for (i = 0; i < itemCount; i++)
     {
         printer.currentChar = menuActions[actionIds[i]].text;

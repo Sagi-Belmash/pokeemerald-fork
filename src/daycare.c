@@ -1180,13 +1180,14 @@ static void UNUSED GetDaycareLevelMenuLevelText(struct DayCare *daycare, u8 *des
 static void DaycareAddTextPrinter(u8 windowId, const u8 *text, u32 x, u32 y)
 {
     struct TextPrinterTemplate printer;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printer.currentChar = text;
     printer.windowId = windowId;
     printer.fontId = FONT_NORMAL;
-    printer.x = x;
+    printer.x = windowWidthPx - x;
     printer.y = y;
-    printer.currentX = x;
+    printer.currentX = printer.x;
     printer.currentY = y;
     printer.unk = 0;
     gTextFlags.useAlternateDownArrow = 0;
@@ -1195,6 +1196,7 @@ static void DaycareAddTextPrinter(u8 windowId, const u8 *text, u32 x, u32 y)
     printer.fgColor = 2;
     printer.bgColor = 1;
     printer.shadowColor = 3;
+    printer.rtlMode = TRUE;
 
     AddTextPrinter(&printer, TEXT_SKIP_DRAW, NULL);
 }

@@ -911,8 +911,8 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "ובכן, זו עיירת ליטרלוט.\p"
 	.string "מה דעתך על זה?\n"
 	.string "זה הבית החדש שלנו!\p"
-	.string "יש לו תחושה משונה, אבל נראה שזה\n"
-	.string "מקום קל לגור בו, לא?\p"
+	.string "יש לזה תחושה מוזרה, אבל נראה שזה\n"
+	.string "מקום שקל לגור בו, לא?\p"
 	.string "ותקבל{ADD_YUD} חדר משלך, {PLAYER}!\n"
 	.string "בוא{ADD_YUD} ניכנס פנימה.$"
 
@@ -935,60 +935,56 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	.string "$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "אמא: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
+	.string "אמא: {PLAYER}, הנעליים האלה הגיעו עם\n"
+	.string "הוראות.\p"
+	.string "לח{SWAP_TZADIK}{ADD_YUD} על כפתור B בזמן שאת{EMIT_TAF} נועל{ADD_TAF} את\n"
+	.string "נעלי ריצה האלו כדי לרוץ מהר במיוחד!\p"
+	.string "“נעל{ADD_YUD} את נעלי הריצה האלה ותתחר{EMIT_HEY}{ADD_YUD}\n"
+	.string "במרחבי החוץ!”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "ולחשוב שיש לך פוקימון משלך עכשיו…\p"
+	.string "אבא שלך ישמח מאוד.\p"
+	.string "אבל בבקשה תיזהר{ADD_YUD}.\n"
+	.string "אם משהו יקרה, את{EMIT_HEY} יכול{ADD_HEY} לחזור הביתה.\p"
+	.string "קדימה, לך תרא{EMIT_HEY}{ADD_YUD} להם, מתוק{ADD_HEY}!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "אם את{EMIT_HEY} משתמש{ADD_TAF} במחשב, תוכל{ADD_YUD} לאחסן פריטים\n"
+	.string "ופוקימון.\p"
+	.string "כוח המדע מטלטל!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "פרופ. בירץ' מבלה ימים שלמים במעבדה שלו\n"
+	.string "לומד, ואז פתאום יוצא\l"
+	.string "לטבע כדי לעשות עוד מחקר…\p"
+	.string "מתי פרופ' בירץ' נמצא בבית?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "אממ, אממ, אממ!\p"
+	.string "אם תצ{ADD_YUD} החוצה ותל{SWAP_CHAF}{ADD_YUD} לדשא,\n"
+	.string "פוקימון פראי יקפוץ החוצה!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "זה מסוכן אם אין לך פוקימון משלך.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+	.string "אממ, היי!\p"
+	.string "יש פוקימונים מפחידים בחוץ!\n"
+	.string "אני יכולה לשמוע את הקולות שלהם!\p"
+	.string "אני רוצה ללכת לראות מה קורה,\n"
+	.string "…אבל אין לי אף פוקימון\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} ללכת לראות מה קורה שם בשבילי?$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "הצלת את פרופ. בירץ'!\n"
+	.string "אני כל כך שמחה!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+	.string "האם את{ADD_HEY} הול{SWAP_CHAF}{ADD_TAF} לתפוס פוקימון?\n"
+	.string "בהצלחה!$"
 
 LittlerootTown_Text_TownSign:
 	.string "עיירת ליטלרוט\n"
@@ -1004,13 +1000,13 @@ LittlerootTown_Text_ProfBirchsHouse:
 	.string "הבית של פרופ. בירץ'$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "פרופ. בירץ': Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
-	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
-	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let's go to my LAB.$"
+	.string "פרופ. בירץ': ובכן, ובכן, {PLAYER}{KUN}!\n"
+	.string "זו הייתה עבודה טובה שם בחוץ!\p"
+	.string "ידעתי שיש משהו מיוחד\n"
+	.string "בך כשראיתי אותך לראשונה,\l"
+	.string "אבל אף פעם לא ציפיתי לזה.\p"
+	.string "אה, כן. עדיין יש לך את הפוקידקס\n"
+	.string "שנתתי לך?\p"
+	.string "יש לי משהו להראות לך\n"
+	.string "בוא{ADD_YUD} נלך למעבדה שלי.$"
 

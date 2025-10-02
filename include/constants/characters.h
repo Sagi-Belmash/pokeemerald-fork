@@ -276,7 +276,6 @@
 #define PLACEHOLDER_ID_SWAP_PEY      0x18
 #define PLACEHOLDER_ID_SWAP_TZADIK   0x19
 
-
 // battle placeholders are located in battle_message.h
 
 // Hiragana from 0x1-0x50, Katakana from 0x51-0xA0.

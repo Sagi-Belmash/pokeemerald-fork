@@ -3,64 +3,61 @@ static const u8 sDummyDesc[] = _(
 
 // Pokeballs
 static const u8 sMasterBallDesc[] = _(
-    "The best BALL that\n"
-    "catches a POKéMON\n"
-    "without fail.");
+    "הכדור הטוב ביותר\n"
+    "שתופס פוקימון\n"
+    "מבלי להיכשל.");
 
 static const u8 sUltraBallDesc[] = _(
-    "A better BALL with\n"
-    "a higher catch rate\n"
-    "than a GREAT BALL.");
+    "כדור טוב יותר\n"
+    "עם שיעור תפיסה גבוה\n"
+    "יותר מאשר הכדור רב.");
 
 static const u8 sGreatBallDesc[] = _(
-    "A good BALL with a\n"
-    "higher catch rate\n"
-    "than a POKé BALL.");
+    "כדור טוב עם\n"
+    "שיעור תפיסה גבוה\n"
+    "יותר מאשר הפוכדור.");
 
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "POKéMON.");
+    "כלי המשמש ללכידת\n"
+    "פוקימונים פראיים.");
 
 static const u8 sSafariBallDesc[] = _(
-    "A special BALL that\n"
-    "is used only in the\n"
-    "SAFARI ZONE.");
+    "כדור מיוחד המשמש\n"
+    "רק באזור הספארי.");
 
 static const u8 sNetBallDesc[] = _(
-    "A BALL that works\n"
-    "well on WATER- and\n"
-    "BUG-type POKéMON.");
+    "כדור שעובד טוב\n"
+    "מול פוקימון מסוגי\n"
+    "מים וחרק.");
 
 static const u8 sDiveBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "on the ocean floor.");
+    "כדור שעובד טוב\n"
+    "יותר על פוקימון\n"
+    "שבקרקעית הים.");
 
 static const u8 sNestBallDesc[] = _(
-    "A BALL that works\n"
-    "better on weaker\n"
-    "POKéMON.");
+    "כדור שעובד טוב\n"
+    "יותר על פוקימון\n"
+    "חלש יותר.");
 
 static const u8 sRepeatBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "caught before.");
+    "כדור שעובד טוב\n"
+    "יותר על פוקימון\n"
+    "שנתפס לפניכן.");
 
 static const u8 sTimerBallDesc[] = _(
-    "A BALL that gains\n"
-    "power in battles\n"
-    "taking many turns.");
+    "כדור שצובר כוח\n"
+    "בקרבות שאורכות\n"
+    "הרבה תורות.");
 
 static const u8 sLuxuryBallDesc[] = _(
-    "A cozy BALL that\n"
-    "makes POKéMON\n"
-    "more friendly.");
+    "כדור נוח שגורם\n"
+    "לפוקימון להיות\n"
+    "יותר ידידותי.");
 
 static const u8 sPremierBallDesc[] = _(
-    "A rare BALL made\n"
-    "in commemoration\n"
-    "of some event.");
+    "כדור נדיר שמיוצר\n"
+    "לכבוד אירוע מסוים.");
 
 // Medicine
 static const u8 sPotionDesc[] = _(

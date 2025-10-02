@@ -4550,7 +4550,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_REGISTEEL] =
     {
-        .categoryName = _("IRON"),
+        .categoryName = _("ברזל"),
         .height = 19,
         .weight = 2050,
         .description = gRegisteelPokedexText,
@@ -4562,7 +4562,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LATIAS] =
     {
-        .categoryName = _("ברזל"),
+        .categoryName = _("עדן"),
         .height = 14,
         .weight = 400,
         .description = gLatiasPokedexText,

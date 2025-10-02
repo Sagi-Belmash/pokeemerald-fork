@@ -4,9 +4,13 @@
 
 {# Generate static map name strings #}
 {% for map_section in map_sections %}
+{% if existsIn(map_section, "name") %}
 static const u8 sMapName_{{ map_section.id }}[] = _(
 "{{ map_section.name }}"
 );
+{% else %}
+static const u8 sMapName_{{ map_section.id }}[] = _(""); // Declare as an empty string for safety
+{% endif %}
 {% endfor %}
 
 const struct RegionMapLocation gRegionMapEntries[] = {

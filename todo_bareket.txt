@@ -37,6 +37,7 @@ V Alter Tileset pokecetner/gym/mart
 - Align text correctly, adjust old changes to fit exactly.
 - Move ABLE in party menu
 - RTL mark menu in Storage system
+- The END screen
 
 * no use of CLEAR_TO unless fixed
 
@@ -56,7 +57,7 @@ V Item Names
 V Pokemon Natures
 V Pokemon Abilities
 V Pokémon Cateogries
-- Pokemon Abilities Description
+V Pokemon Abilities Description
 - Pokemon Description
 - Pokemon Move Description
 - Pokemon Move Contest Description

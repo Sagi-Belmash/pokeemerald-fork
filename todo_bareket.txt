@@ -32,6 +32,8 @@ V Use metric system in the POKeDEX
 - Fix trainer card battle arena text and images
 - At naming screen: Make Hebrew keyboard first, English second, numbers last.
 - Fix pokeblock placeholder
+- Make Pokedex sort by Letters to work for Hebrew instead of English
+- Alter Tileset pokecetner/gym/mart
 - Align text correctly, adjust old changes to fit exactly.
 
 // Localization/Translation

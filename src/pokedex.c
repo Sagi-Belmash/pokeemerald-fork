@@ -5429,24 +5429,24 @@ static void PrintSelectedSearchParameters(u8 taskId)
     ClearSearchMenuRect(40, 16, 96, 80);
 
     searchParamId = gTasks[taskId].tCursorPos_Name + gTasks[taskId].tScrollOffset_Name;
-    PrintSearchText(sDexSearchNameOptions[searchParamId].title, 0x2D, 0x11);
+    PrintSearchText(sDexSearchNameOptions[searchParamId].title, 125/* 0x2D */, 0x11);
 
     searchParamId = gTasks[taskId].tCursorPos_Color + gTasks[taskId].tScrollOffset_Color;
-    PrintSearchText(sDexSearchColorOptions[searchParamId].title, 0x2D, 0x21);
+    PrintSearchText(sDexSearchColorOptions[searchParamId].title, 125/* 0x2D */, 0x21);
 
     searchParamId = gTasks[taskId].tCursorPos_TypeLeft + gTasks[taskId].tScrollOffset_TypeLeft;
-    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 0x2D, 0x31);
+    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 173/* 0x2D */, 0x31);
 
     searchParamId = gTasks[taskId].tCursorPos_TypeRight + gTasks[taskId].tScrollOffset_TypeRight;
-    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 0x5D, 0x31);
+    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 125/* 0x5D */, 0x31);
 
     searchParamId = gTasks[taskId].tCursorPos_Order + gTasks[taskId].tScrollOffset_Order;
-    PrintSearchText(sDexOrderOptions[searchParamId].title, 0x2D, 0x41);
+    PrintSearchText(sDexOrderOptions[searchParamId].title, 125/* 0x2D */, 0x41);
 
     if (IsNationalPokedexEnabled())
     {
         searchParamId = gTasks[taskId].tCursorPos_Mode + gTasks[taskId].tScrollOffset_Mode;
-        PrintSearchText(sDexModeOptions[searchParamId].title, 0x2D, 0x51);
+        PrintSearchText(sDexModeOptions[searchParamId].title, 125/* 0x2D */, 0x51);
     }
 }
 
@@ -5650,22 +5650,22 @@ static void CreateSearchParameterScrollArrows(u8 taskId)
 static void EraseAndPrintSearchTextBox(const u8 *str)
 {
     ClearSearchMenuRect(8, 120, 224, 32);
-    PrintSearchText(str, 8, 121);
+    PrintSearchText(str, 24/* 8 */, 121);
 }
 
 static void EraseSelectorArrow(u32 y)
 {
-    ClearSearchMenuRect(144, y * 16 + 8, 8, 16);
+    ClearSearchMenuRect(230/* 144 */, y * 16 + 8, 8, 16);
 }
 
 static void PrintSelectorArrow(u32 y)
 {
-    PrintSearchText(gText_SelectorArrow, 144, y * 16 + 9);
+    PrintSearchText(gText_SelectorArrow, 19/* 144 */, y * 16 + 9);
 }
 
 static void PrintSearchParameterTitle(u32 y, const u8 *str)
 {
-    PrintSearchText(str, 152, y * 16 + 9);
+    PrintSearchText(str, 28/* 152 */, y * 16 + 9);
 }
 
 static void ClearSearchParameterBoxText(void)

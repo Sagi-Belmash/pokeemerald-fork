@@ -1095,7 +1095,7 @@ static void DrawMsgBoxForMatchCallMsg(struct Pokenav_MatchCallGfx *gfx)
     PutWindowTilemap(gfx->msgBoxWindowId);
     CopyWindowToVram(gfx->msgBoxWindowId, COPYWIN_FULL);
     sprite = GetSpinningPokenavSprite();
-    sprite->x = 24;
+    sprite->x = 216/* 24 */;
     sprite->y = 112;
     sprite->y2 = 0;
 }

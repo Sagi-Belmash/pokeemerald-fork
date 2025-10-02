@@ -1937,13 +1937,15 @@ static void FreeContestResults(void)
 
 static void AddContestTextPrinter(int windowId, u8 *str, int x)
 {
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    
     struct TextPrinterTemplate textPrinter;
     textPrinter.currentChar = str;
     textPrinter.windowId = windowId;
     textPrinter.fontId = FONT_NARROW;
-    textPrinter.x = x;
+    textPrinter.x = windowWidthPx - x;
     textPrinter.y = 2;
-    textPrinter.currentX = x;
+    textPrinter.currentX = textPrinter.x;
     textPrinter.currentY = 2;
     textPrinter.letterSpacing = 0;
     textPrinter.lineSpacing = 0;
@@ -1951,6 +1953,7 @@ static void AddContestTextPrinter(int windowId, u8 *str, int x)
     textPrinter.fgColor = 1;
     textPrinter.bgColor = 0;
     textPrinter.shadowColor = 8;
+    textPrinter.rtlMode = TRUE;
     AddTextPrinter(&textPrinter, 0, NULL);
     PutWindowTilemap(windowId);
 }

@@ -4323,8 +4323,11 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
     int windowId = WIN_TRAINER_NAME;
     int x = 0, y = 0;
     u8 palSlot = 0;
+    u16 windowWidthPx;
     s16 *allocatedArray = AllocZeroed(sizeof(s16) * ALLOC_ARRAY_SIZE);
     trainerId = DOME_TRAINERS[trainerTourneyId].trainerId;
+    windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+
 
     if (flags & CARD_ALTERNATE_SLOT)
         arrId = 2 * (FRONTIER_PARTY_SIZE + 1), windowId = WIN_TRAINER_NAME + NUM_INFO_CARD_WINDOWS, palSlot = 2;
@@ -4385,7 +4388,7 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
 
     // Initialize the text printer
     textPrinter.fontId = FONT_SHORT;
-    textPrinter.x = 0;
+    textPrinter.x = windowWidthPx/* 0 */;
     textPrinter.y = 0;
     textPrinter.currentX = textPrinter.x;
     textPrinter.currentY = textPrinter.y;
@@ -4395,6 +4398,8 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
     textPrinter.fgColor = TEXT_DYNAMIC_COLOR_5;
     textPrinter.bgColor = TEXT_COLOR_TRANSPARENT;
     textPrinter.shadowColor = TEXT_DYNAMIC_COLOR_4;
+
+    textPrinter.rtlMode = TRUE;
 
     // Get class and trainer name
     i = 0;
@@ -4786,6 +4791,7 @@ static void DisplayMatchInfoOnCard(u8 flags, u8 matchNo)
     int windowId = 0;
     int x = 0, y = 0;
     u8 palSlot = 0;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     if (flags & CARD_ALTERNATE_SLOT)
         arrId = 2 * (FRONTIER_PARTY_SIZE + 1), windowId = NUM_INFO_CARD_WINDOWS, palSlot = 2;
@@ -4918,7 +4924,7 @@ static void DisplayMatchInfoOnCard(u8 flags, u8 matchNo)
     }
 
     // Print the win string (or 'Let the battle begin!').
-    textPrinter.x = 0;
+    textPrinter.x = windowWidthPx/* 0 */;
     textPrinter.y = 2;
     textPrinter.currentX = textPrinter.x;
     textPrinter.currentY = textPrinter.y;
@@ -4928,6 +4934,7 @@ static void DisplayMatchInfoOnCard(u8 flags, u8 matchNo)
     textPrinter.fgColor = TEXT_DYNAMIC_COLOR_5;
     textPrinter.bgColor = TEXT_COLOR_TRANSPARENT;
     textPrinter.shadowColor = TEXT_DYNAMIC_COLOR_4;
+    textPrinter.rtlMode = TRUE;
     StringExpandPlaceholders(gStringVar4, sBattleDomeWinTexts[winStringId]);
     textPrinter.currentChar = gStringVar4;
     textPrinter.windowId = windowId + WIN_MATCH_WIN_TEXT;
@@ -5337,6 +5344,7 @@ static void Task_ShowTourneyTree(u8 taskId)
     struct TextPrinterTemplate textPrinter;
     int notInteractive = gTasks[taskId].tNotInteractive;
     int r4 = gTasks[taskId].data[2];
+    u16 windowWidthPx = GetWindowAttribute(TOURNEYWIN_TITLE, WINDOW_WIDTH) * 8;
 
     switch (gTasks[taskId].tState)
     {
@@ -5414,7 +5422,7 @@ static void Task_ShowTourneyTree(u8 taskId)
         textPrinter.fontId = FONT_SHORT;
         textPrinter.currentChar = gText_BattleTourney;
         textPrinter.windowId = TOURNEYWIN_TITLE;
-        textPrinter.x = 0;
+        textPrinter.x = windowWidthPx/* 0 */;
         textPrinter.y = 0;
         textPrinter.letterSpacing = 2;
         textPrinter.lineSpacing = 0;
@@ -5424,6 +5432,7 @@ static void Task_ShowTourneyTree(u8 taskId)
         textPrinter.fgColor = TEXT_DYNAMIC_COLOR_5;
         textPrinter.bgColor = TEXT_COLOR_TRANSPARENT;
         textPrinter.shadowColor = TEXT_DYNAMIC_COLOR_4;
+        textPrinter.rtlMode = TRUE;
         AddTextPrinter(&textPrinter, 0, NULL);
         for (i = 0; i < DOME_TOURNAMENT_TRAINERS_COUNT; i++)
         {
@@ -5597,7 +5606,7 @@ static void Task_HandleStaticTourneyTreeInput(u8 taskId)
             gTasks[taskId].tState = STATE_DELAY;
             gTasks[taskId].data[3] = 64;
             textPrinter.fontId = FONT_SHORT;
-            textPrinter.x = 0;
+            textPrinter.x = 232/* 0 */;
             textPrinter.y = 0;
             textPrinter.letterSpacing = 2;
             textPrinter.lineSpacing = 0;
@@ -5605,6 +5614,7 @@ static void Task_HandleStaticTourneyTreeInput(u8 taskId)
             textPrinter.fgColor = TEXT_DYNAMIC_COLOR_2;
             textPrinter.bgColor = TEXT_COLOR_TRANSPARENT;
             textPrinter.shadowColor = TEXT_DYNAMIC_COLOR_4;
+            textPrinter.rtlMode = TRUE;
 
             // Update the advancement lines and gray out eliminated trainer names
             for (i = 0; i < DOME_TOURNAMENT_TRAINERS_COUNT; i++)

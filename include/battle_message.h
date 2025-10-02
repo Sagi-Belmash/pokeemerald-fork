@@ -71,6 +71,9 @@
 #define B_TXT_EMIT_TAF 0x3A
 #define B_TXT_EMIT_VAV 0x3B
 
+#define B_TXT_MON_ADD_YUD 0x3C
+#define B_TXT_MON_ADD_HEY 0x3D
+
 // for B_TXT_BUFF1, B_TXT_BUFF2 and B_TXT_BUFF3
 
 #define B_BUFF_STRING                   0

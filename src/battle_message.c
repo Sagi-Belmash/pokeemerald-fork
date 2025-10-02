@@ -53,7 +53,7 @@ EWRAM_DATA struct BattleMsgData *gBattleMsgDataPtr = NULL;
 // todo: make some of those names less vague: attacker/target vs pkmn, etc.
 
 static const u8 sText_Trainer1LoseText[] = _("{B_TRAINER1_LOSE_TEXT}");
-static const u8 sText_PkmnGainedEXP[] = _("{B_BUFF1} gained{B_BUFF2}\n{B_BUFF3} EXP. Points!\p");
+static const u8 sText_PkmnGainedEXP[] = _("{B_BUFF1} צבר{B_MON_ADD_HEY}{B_BUFF2}\n{B_BUFF3} נק' ניסיון!\p");
 static const u8 sText_EmptyString4[] = _("");
 static const u8 sText_ABoosted[] = _(" a boosted");
 static const u8 sText_PkmnGrewToLv[] = _("{B_BUFF1} grew to\nLV. {B_BUFF2}!{WAIT_SE}\p");
@@ -1956,6 +1956,28 @@ static const struct BattleWindowText *const sBattleTextOnWindowsInfo[] =
 
 static const u8 sRecordedBattleTextSpeeds[] = {8, 4, 1, 0};
 
+
+// Start of gender diff
+static const u8 *ExpandPlaceholder_MonAddYud(u8 monId)
+{
+    struct Pokemon *mon = &gPlayerParty[monId];
+    if (GetMonGender(mon) == MON_MALE)
+        return gText_ExpandedPlaceholder_Yud;
+    else
+        return gText_ExpandedPlaceholder_Empty;
+}
+
+static const u8 *ExpandPlaceholder_MonAddHey(u8 monId)
+{
+    struct Pokemon *mon = &gPlayerParty[monId];
+    if (GetMonGender(mon) == MON_FEMALE)
+        return gText_ExpandedPlaceholder_Hey;
+    else
+        return gText_ExpandedPlaceholder_Empty;
+}
+// End of gender diff
+
+
 void BufferStringBattle(u16 stringID)
 {
     s32 i;
@@ -2385,6 +2407,12 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 break;
             case B_TXT_EMIT_VAV:
                 toCpy = ExpandPlaceholder_EmitVav();
+                break;
+            case B_TXT_MON_ADD_YUD:
+                toCpy = ExpandPlaceholder_MonAddYud(gBattleStruct->expGetterMonId);
+                break;
+            case B_TXT_MON_ADD_HEY:
+                toCpy = ExpandPlaceholder_MonAddHey(gBattleStruct->expGetterMonId);
                 break;
             case B_TXT_COPY_VAR_1:
                 toCpy = gStringVar1;

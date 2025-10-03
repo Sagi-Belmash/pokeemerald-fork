@@ -237,11 +237,17 @@ void FillWindowTilesByRow(int windowId, int columnStart, int rowStart, int numFi
 
 void ReverseNumeric(u8 *str)
 {
-    s32 len;
+    s32 len = StringLength(str);
     s32 i;
 
-    len = StringLength(str);
+    // Check if all chars are digits
+    for (i = 0; i < len; i++)
+    {
+        if (str[i] < CHAR_0 || str[i] > CHAR_9)
+            return; // Found non-digit, exit without reversing
+    }
 
+    // Reverse in place
     for (i = 0; i < len / 2; i++)
     {
         u8 tmp = str[i];

@@ -3,6 +3,8 @@
 #include "text.h"
 #include "strings.h"
 
+#include "international_string_util.h"
+
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
 EWRAM_DATA u8 gStringVar2[0x100] = {0};
 EWRAM_DATA u8 gStringVar3[0x100] = {0};
@@ -432,16 +434,19 @@ static const u8 *ExpandPlaceholder_PlayerName(void)
 
 static const u8 *ExpandPlaceholder_StringVar1(void)
 {
+    ReverseNumeric(gStringVar1);
     return gStringVar1;
 }
 
 static const u8 *ExpandPlaceholder_StringVar2(void)
 {
+    ReverseNumeric(gStringVar2);
     return gStringVar2;
 }
 
 static const u8 *ExpandPlaceholder_StringVar3(void)
 {
+    ReverseNumeric(gStringVar3);
     return gStringVar3;
 }
 

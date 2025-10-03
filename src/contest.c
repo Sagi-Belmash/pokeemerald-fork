@@ -779,7 +779,7 @@ static const struct WindowTemplate sContestWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 31,
-        .width = 9,
+        .width = 8/* 9 */,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x2A4
@@ -788,7 +788,7 @@ static const struct WindowTemplate sContestWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 33,
-        .width = 9,
+        .width = 8/* 9 */,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x2B6
@@ -797,7 +797,7 @@ static const struct WindowTemplate sContestWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 35,
-        .width = 9,
+        .width = 8/* 9 */,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x2C8
@@ -806,7 +806,7 @@ static const struct WindowTemplate sContestWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 37,
-        .width = 9,
+        .width = 8/* 9 */,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x2DA
@@ -1620,13 +1620,13 @@ static void Task_HandleMoveSelectInput(u8 taskId)
 
 static void DrawMoveSelectArrow(s8 moveIndex)
 {
-    ContestBG_FillBoxWithIncrementingTile(2, 55, 0, 31 + moveIndex * 2, 2, 2, 17, 1);
+    ContestBG_FillBoxWithIncrementingTile(2, 55, 8, 31 + moveIndex * 2, 2, 2, 17, 1);
 }
 
 static void EraseMoveSelectArrow(s8 moveIndex)
 {
-    ContestBG_FillBoxWithIncrementingTile(2, 11, 0, 31 + moveIndex * 2, 2, 1, 17, 1);
-    ContestBG_FillBoxWithIncrementingTile(2, 11, 0, 32 + moveIndex * 2, 2, 1, 17, 1);
+    ContestBG_FillBoxWithIncrementingTile(2, 12, 8, 31 + moveIndex * 2, 2, 1, 17, 1);
+    ContestBG_FillBoxWithIncrementingTile(2, 12, 8, 32 + moveIndex * 2, 2, 1, 17, 1);
 }
 
 static void Task_SelectedMove(u8 taskId)
@@ -3031,7 +3031,7 @@ static void PrintContestantTrainerNameWithColor(u8 contestant, u8 color)
     StringCopy(buffer, gText_Slash);
     StringAppend(buffer, gContestMons[contestant].trainerName);
     Contest_CopyStringWithColor(buffer, color);
-    offset = GetStringRightAlignXOffset(FONT_NARROW, gDisplayedStringBattle, 0x60);
+    offset = GetStringRightAlignXOffset(FONT_NARROW, gDisplayedStringBattle, 0x60) - 12;
     if (offset > 55)
         offset = 55;
     Contest_PrintTextToBg0WindowAt(gContestantTurnOrder[contestant], gDisplayedStringBattle, offset, 1, FONT_NARROW);
@@ -5408,13 +5408,14 @@ static void SetMoveTargetPosition(u16 move)
 static void Contest_PrintTextToBg0WindowStd(u32 windowId, const u8 *b)
 {
     struct TextPrinterTemplate printerTemplate;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = b;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = FONT_NORMAL;
-    printerTemplate.x = 0;
+    printerTemplate.x = windowWidthPx;
     printerTemplate.y = 1;
-    printerTemplate.currentX = 0;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = 1;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;
@@ -5433,13 +5434,14 @@ static void Contest_PrintTextToBg0WindowStd(u32 windowId, const u8 *b)
 void Contest_PrintTextToBg0WindowAt(u32 windowId, u8 *currChar, s32 x, s32 y, s32 fontId)
 {
     struct TextPrinterTemplate printerTemplate;
+    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = currChar;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = fontId;
-    printerTemplate.x = x;
+    printerTemplate.x = windowWidthPx - x;
     printerTemplate.y = y;
-    printerTemplate.currentX = x;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = y;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;
@@ -5459,13 +5461,14 @@ static void Contest_StartTextPrinter(const u8 *currChar, bool32 b)
 {
     struct TextPrinterTemplate printerTemplate;
     u8 speed;
+    u16 windowWidthPx = GetWindowAttribute(WIN_GENERAL_TEXT, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = currChar;
     printerTemplate.windowId = WIN_GENERAL_TEXT;
     printerTemplate.fontId = FONT_NORMAL;
-    printerTemplate.x = 0;
+    printerTemplate.x = windowWidthPx - 5;
     printerTemplate.y = 1;
-    printerTemplate.currentX = 0;
+    printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = 1;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;

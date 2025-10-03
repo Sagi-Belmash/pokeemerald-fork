@@ -37,6 +37,7 @@
 #include "constants/rgb.h"
 
 #include "menu.h"
+#include "strings.h"
 
 static void PlayerHandleGetMonData(void);
 static void PlayerHandleSetMonData(void);
@@ -2577,6 +2578,7 @@ static void HandleChooseActionAfterDma3(void)
 static void PlayerHandleChooseAction(void)
 {
     s32 i;
+    struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
     BattleTv_ClearExplosionFaintCause();
@@ -2586,6 +2588,10 @@ static void PlayerHandleChooseAction(void)
         ActionSelectionDestroyCursorAt(i);
 
     ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+    if (GetMonGender(mon) == MON_FEMALE)
+        StringCopy(gStringVar1, gText_ExpandedPlaceholder_Taf);
+    else
+        StringCopy(gStringVar1, gText_ExpandedPlaceholder_Yud);
     BattleStringExpandPlaceholdersToDisplayedString(gText_WhatWillPkmnDo);
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_ACTION_PROMPT, TRUE);
 }

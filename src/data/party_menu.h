@@ -57,7 +57,7 @@ static const struct PartyMenuBoxInfoRects sPartyBoxInfoRects[] =
             117, 12, 24,  8, // Max HP
              88, 10, 48,  3  // HP bar
         },
-        77, 4, 64, 16        // Description text
+        22/* 77 */, 4, 64, 16        // Description text
     },
 };
 

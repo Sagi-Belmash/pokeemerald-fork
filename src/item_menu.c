@@ -909,13 +909,11 @@ static void GetItemNameFromPocket(u8 *dest, u16 itemId)
         {
             // Get TM number
             ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_TM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 2);
-            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         }
         break;
     case BERRIES_POCKET:
         ConvertIntToDecimalStringN(gStringVar1, itemId - FIRST_BERRY_INDEX + 1, STR_CONV_MODE_LEADING_ZEROS, 2);
-        ReverseNumeric(gStringVar1);
         CopyItemName(itemId, gStringVar2);
         StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         break;
@@ -973,6 +971,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
         {
             // Print berry quantity
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BERRY_CAPACITY_DIGITS);
+            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
             offset = GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 119);
             BagMenu_Print(windowId, FONT_NARROW, gStringVar4, 0/* offset */, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL, FALSE);
@@ -981,6 +980,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
         {
             // Print item quantity
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
+            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
             offset = GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 119);
             BagMenu_Print(windowId, FONT_NARROW, gStringVar4, 0/* offset */, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL, FALSE);

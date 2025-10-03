@@ -200,7 +200,7 @@ const struct Item gItems[] =
 
     [ITEM_BURN_HEAL] =
     {
-        .name = _("רפא כויה"),
+        .name = _("ריפוי כויה"),
         .itemId = ITEM_BURN_HEAL,
         .price = 250,
         .description = sBurnHealDesc,
@@ -213,7 +213,7 @@ const struct Item gItems[] =
 
     [ITEM_ICE_HEAL] =
     {
-        .name = _("רפא קרח"),
+        .name = _("ריפוי קרח"),
         .itemId = ITEM_ICE_HEAL,
         .price = 250,
         .description = sIceHealDesc,
@@ -239,7 +239,7 @@ const struct Item gItems[] =
 
     [ITEM_PARALYZE_HEAL] =
     {
-        .name = _("רפא שיתוק"),
+        .name = _("ריפוי שיתוק"),
         .itemId = ITEM_PARALYZE_HEAL,
         .price = 200,
         .description = sParalyzeHealDesc,
@@ -308,7 +308,7 @@ const struct Item gItems[] =
 
     [ITEM_FULL_HEAL] =
     {
-        .name = _("רפא מלא"),
+        .name = _("ריפוי מלא"),
         .itemId = ITEM_FULL_HEAL,
         .price = 600,
         .description = sFullHealDesc,

@@ -10,12 +10,12 @@ static const u8 sMasterBallDesc[] = _(
 static const u8 sUltraBallDesc[] = _(
     "כדור טוב יותר\n"
     "עם שיעור תפיסה גבוה\n"
-    "יותר מאשר הכדור רב.");
+    "מאשר הכדור רב.");
 
 static const u8 sGreatBallDesc[] = _(
-    "כדור טוב עם\n"
-    "שיעור תפיסה גבוה\n"
-    "יותר מאשר הפוכדור.");
+    "כדור טוב\n"
+    "עם שיעור תפיסה גבוה\n"
+    "מאשר הפוכדור.");
 
 static const u8 sPokeBallDesc[] = _(
     "כלי המשמש ללכידת\n"
@@ -27,7 +27,7 @@ static const u8 sSafariBallDesc[] = _(
 
 static const u8 sNetBallDesc[] = _(
     "כדור שעובד טוב\n"
-    "מול פוקימון מסוגי\n"
+    "מול פוקימון מסוגים\n"
     "מים וחרק.");
 
 static const u8 sDiveBallDesc[] = _(
@@ -61,161 +61,159 @@ static const u8 sPremierBallDesc[] = _(
 
 // Medicine
 static const u8 sPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "20 points.");
+    "מחזיר נח של\n"
+    "פוקימון ב-02\n"
+    "נקודות.");
 
 static const u8 sAntidoteDesc[] = _(
-    "Heals a poisoned\n"
-    "POKéMON.");
+    "מרפא פוקימון\n"
+    "מורעל.");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals POKéMON\n"
-    "of a burn.");
+    "מרפא כוויה\n"
+    "על פוקימון.");
 
 static const u8 sIceHealDesc[] = _(
-    "Defrosts a frozen\n"
-    "POKéMON.");
+    "מפשיר פוקימון\n"
+    "קפוא.");
 
 static const u8 sAwakeningDesc[] = _(
-    "Awakens a sleeping\n"
-    "POKéMON.");
+    "מעיר פוקימון\n"
+    "ישן.");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Heals a paralyzed\n"
-    "POKéMON.");
+    "מרפא פוקימון\n"
+    "משותק.");
 
 static const u8 sFullRestoreDesc[] = _(
-    "Fully restores the\n"
-    "HP and status of a\n"
-    "POKéMON.");
+    "מרפא לחלוטין נח\n"
+    "וסטטוס של פוקימון.");
 
 static const u8 sMaxPotionDesc[] = _(
-    "Fully restores the\n"
-    "HP of a POKéMON.");
+    "מרפא לחלוטין נח\n"
+    "של פוקימון.");
 
 static const u8 sHyperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "200 points.");
+    "מרפא נח של\n"
+    "פוקימון ב-002\n"
+    "נקודות.");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "50 points.");
+    "מרפא נח של\n"
+    "פוקימון ב-05\n"
+    "נקודות.");
 
 static const u8 sFullHealDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one POKéMON.");
+    "מרפא כל בעיית\n"
+    "סטטוס של\n"
+    "פוקימון אחד.");
 
 static const u8 sReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with half\n"
-    "its HP.");
+    "מחייה פוקימון\n"
+    "שהתעלף עם חצי נח.");
 
 static const u8 sMaxReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with all\n"
-    "its HP.");
+    "מחייה פוקימון\n"
+    "שהתעלף עם נח\n"
+    "מלאים.");
 
 static const u8 sFreshWaterDesc[] = _(
-    "A mineral water\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "מים מינרלים\n"
+    "שמחזירים נח\n"
+    "ב-05 נקודות.");
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
-    "by 60 points.");
+    "סודה פופ תוסס\n"
+    "שמחזיר נח\n"
+    "ב-06 נקודות.");
 
 static const u8 sLemonadeDesc[] = _(
-    "A very sweet drink\n"
-    "that restores HP\n"
-    "by 80 points.");
+    "משקה מתוק מאוד\n"
+    "שמחזיר נח\n"
+    "ב-08 נקודות.");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "A nutritious milk\n"
-    "that restores HP\n"
-    "by 100 points.");
+    "חלב מזין\n"
+    "שמחזיר נח\n"
+    "ב-001 נקודות.");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "A bitter powder\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "אבקה מרירה\n"
+    "שמחזירה נח\n"
+    "ב-05 נקודות.");
 
 static const u8 sEnergyRootDesc[] = _(
-    "A bitter root\n"
-    "that restores HP\n"
-    "by 200 points.");
+    "שורש מר\n"
+    "שמחזיר נח\n"
+    "ב-002 נקודות.");
 
 static const u8 sHealPowderDesc[] = _(
-    "A bitter powder\n"
-    "that heals all\n"
-    "status problems.");
+    "אבקה מרירה\n"
+    "שמרפאת כל\n"
+    "בעיות סטטוס.");
 
 static const u8 sRevivalHerbDesc[] = _(
-    "A very bitter herb\n"
-    "that revives a\n"
-    "fainted POKéMON.");
+    "עשב מריר מאוד\n"
+    "שמחייה פוקימון\n"
+    "שהתעלף.");
 
 static const u8 sEtherDesc[] = _(
-    "Restores the PP\n"
-    "of a selected move\n"
-    "by 10.");
+    "מחזיר נכ של מהלך\n"
+    "נבחר ב-01.");
 
 static const u8 sMaxEtherDesc[] = _(
-    "Fully restores the\n"
-    "PP of a selected\n"
-    "move.");
+    "מחזיר לחלוטין\n"
+    "נכ של מהלך\n"
+    "נבחר.");
 
 static const u8 sElixirDesc[] = _(
-    "Restores the PP\n"
-    "of all moves by 10.");
+    "מחזיר נכ של\n"
+    "כל המהלכים ב-01.");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Fully restores the\n"
-    "PP of a POKéMON's\n"
-    "moves.");
+    "מחזיר לחלוטין\n"
+    "את נכ למהלכים\n"
+    "של פוקימון.");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
-    "status problems.");
+    "מומחיות מקומית\n"
+    "שמרפאת כל\n"
+    "בעיות סטטוס.");
 
 static const u8 sBlueFluteDesc[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "POKéMON.");
+    "חליל זכוכית\n"
+    "שמעיר פוקימון\n"
+    "ישן.");
 
 static const u8 sYellowFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of confusion.");
+    "חליל זכוכית\n"
+    "שמוציא פוקימון\n"
+    "מבלבול.");
 
 static const u8 sRedFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of attraction.");
+    "חליל זכוכית\n"
+    "שמוציא פוקימון\n"
+    "ממשיכה רומנטית.");
 
 static const u8 sBlackFluteDesc[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "POKéMON.");
+    "חליל זכוכית\n"
+    "שמרחיק פוקימונים\n"
+    "פראיים.");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "A glass flute that\n"
-    "lures wild POKéMON.");
+    "חליל זכוכית\n"
+    "שמפתה פוקימונים\n"
+    "פראיים.");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "A 100% pure juice\n"
-    "that restores HP\n"
-    "by 20 points.");
+    "מיץ 001% טהור\n"
+    "שמחזיר נח\n"
+    "ב-02 נקודות.");
 
 static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted POKéMON.");
+    "מחייה לחלוטין\n"
+    "את הפוקימונים\n"
+    "שהתעלפו.");
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(

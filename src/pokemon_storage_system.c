@@ -105,6 +105,7 @@ enum {
     MSG_VAR_RELEASE_MON_2, // Unused
     MSG_VAR_RELEASE_MON_3,
     MSG_VAR_ITEM_NAME,
+    MSG_VAR_HEY,
 };
 
 // IDs for menu selection items. See SetMenuText, HandleMenuInput, etc
@@ -1065,7 +1066,7 @@ static const struct SpriteTemplate sSpriteTemplate_DisplayMon =
 static const struct StorageMessage sMessages[] =
 {
     [MSG_EXIT_BOX]             = {gText_ExitFromBox,             MSG_VAR_NONE},
-    [MSG_WHAT_YOU_DO]          = {gText_WhatDoYouWantToDo,       MSG_VAR_NONE},
+    [MSG_WHAT_YOU_DO]          = {gText_WhatDoYouWantToDo,       MSG_VAR_HEY},
     [MSG_PICK_A_THEME]         = {gText_PleasePickATheme,        MSG_VAR_NONE},
     [MSG_PICK_A_WALLPAPER]     = {gText_PickTheWallpaper,        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,          MSG_VAR_MON_NAME_1},
@@ -1740,6 +1741,7 @@ void ResetPokemonStorageSystem(void)
     {
         u8 *dest = StringCopy(GetBoxNamePtr(boxId), gText_Box);
         ConvertIntToDecimalStringN(dest, boxId + 1, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ReverseNumeric(dest + 5);
     }
 
     for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
@@ -1941,6 +1943,7 @@ static void ChooseBoxMenu_PrintInfo(void)
 
     // Print #/30 for number of Pokémon in the box
     ConvertIntToDecimalStringN(numBoxMonsText, numInBox, STR_CONV_MODE_RIGHT_ALIGN, 2);
+    ReverseNumeric(numBoxMonsText);
     StringAppend(numBoxMonsText, sText_OutOf30);
     center = GetStringCenterAlignXOffset(FONT_NORMAL, numBoxMonsText, 64);
     AddTextPrinterParameterized3WithRTL(windowId, FONT_NORMAL, center, 17, sChooseBoxMenu_TextColors, TEXT_SKIP_DRAW, numBoxMonsText, TRUE);
@@ -4300,6 +4303,12 @@ static void PrintMessage(u8 id)
 
         *txtPtr = EOS;
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sStorage->itemName);
+        break;
+    case MSG_VAR_HEY:
+        if(gSaveBlock2Ptr->playerGender == MALE)
+            DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gText_ExpandedPlaceholder_Hey); 
+        else
+            DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gText_ExpandedPlaceholder_Empty); 
         break;
     }
 

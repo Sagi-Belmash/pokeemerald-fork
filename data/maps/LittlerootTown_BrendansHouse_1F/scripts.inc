@@ -367,49 +367,49 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "הוגגו, אוגו אוגו…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "מראיין: …אנחנו מביאים לכם את הדיווח \n"
+	.string "הזה מול מכון פטלבורג.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-	.string "There is a movie on TV.\p"
-	.string "Two men are dancing on a big piano\n"
-	.string "keyboard.\p"
-	.string "Better get going!$"
+	.string "יש סרט בטלוויזיה.\p"
+	.string "שני גברים רוקדים על קלידי\n"
+	.string "פסנתר.\p"
+	.string "כדאי שאתחיל ללכת!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "RUNNING SHOES.\p"
-	.string "“Press the B Button to run while\n"
-	.string "wearing your RUNNING SHOES.\p"
-	.string "“Lace up your RUNNING SHOES and hit\n"
-	.string "the road running!”$"
+	.string "זוהי חוברת ההוראות של\n"
+	.string "נעלי הריצה.\p"
+	.string "“לחץ על כפתור B כדי לרוץ בזמן\n"
+	.string "שאתה נועל את נעלי הריצה שלך.\p"
+	.string "“שרוך את נעלי הריצה שלך וצעד\n"
+	.string "למרחקים!”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-	.string "אבא: Hm?\p"
-	.string "Hey, it's {PLAYER}!\p"
-	.string "It's been a while since I saw you,\n"
-	.string "but you look…stronger, somehow.\p"
-	.string "That's the impression I get.\n"
-	.string "But your old man hasn't given up yet!\p"
-	.string "Oh, yes, I have something for you.\n"
-	.string "This came to you from someone named\l"
-	.string "MR. BRINEY.$"
+	.string "אבא: המ?\p"
+	.string "היי, זה {PLAYER}!\p"
+	.string "עבר זמן מאז שראיתי אותך,\n"
+	.string "אבל אתה נראה…חזק יותר, איכשהו.\p"
+	.string "זה הרושם שאני מקבל.\n"
+	.string "אבל אבא שלך הזקן עדיין לא ויתר!\p"
+	.string "אה, כן, יש לי משהו בשבילך.\n"
+	.string "זה הגיע אליך ממישהו בשם\l"
+	.string "מר. ברייני.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
-	.string "אבא: Hm, a TICKET for a ferry?\p"
-	.string "If I recall, there are ferry ports in\n"
-	.string "SLATEPORT and LILYCOVE.$"
+	.string "אבא: המ, כרטיס למעבורת?\p"
+	.string "אם אני זוכר, יש נמלי מעבורת\n"
+	.string "בסלייטפורט וליליקוב.$"
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
-	.string "I'd better get back to PETALBURG GYM.\p"
-	.string "MOM, thanks for looking after the house\n"
-	.string "while I'm away.$"
+	.string "כדאי שאחזור למכון פטלבורג.\p"
+	.string "אמא, תודה שאת שומרת על הבית בזמן שאני\n"
+	.string "לא כאן.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-	.string "אמא: That DAD of yours…\p"
-	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is POKéMON.\p"
-	.string "He should relax and stay a little longer.$"
+	.string "אמא: איזה אבא יש לך…\p"
+	.string "הוא חוזר הביתה בפעם הראשונה מזה תקופה,\n"
+	.string "אבל כל מה שהוא מדבר עליו זה פוקימון.\p"
+	.string "הוא צריך לנוח ולהישאר קצת יותר.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
 	.string "אמא: האם זה מבזק חדשות?$"

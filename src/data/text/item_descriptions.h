@@ -217,14 +217,14 @@ static const u8 sSacredAshDesc[] = _(
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "מלח שהושג\n"
+    "במעמקי מערת\n"
+    "שרטון.");
 
 static const u8 sShoalShellDesc[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "צדף שהושג\n"
+    "במעמקי מערת\n"
+    "שרטון.");
 
 static const u8 sRedShardDesc[] = _(
     "A shard from an\n"
@@ -232,64 +232,59 @@ static const u8 sRedShardDesc[] = _(
     "be sold cheaply.");
 
 static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "חרס מפריט עתיק.\n"
+    "ניתן למכור בזול.");
 
 static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "חרס מפריט עתיק.\n"
+    "ניתן למכור בזול.");
 
 static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "חרס מפריט עתיק.\n"
+    "ניתן למכור בזול.");
 
 // Vitamins
 static const u8 sHPUpDesc[] = _(
-    "Raises the base HP\n"
-    "of one POKéMON.");
+    "מעלה את בסיס נח\n"
+    "של פוקימון אחד.");
 
 static const u8 sProteinDesc[] = _(
-    "Raises the base\n"
-    "ATTACK stat of one\n"
-    "POKéMON.");
+    "מעלה את בסיס\n"
+    "ההתקפה של\n"
+    "פוקימון אחד.");
 
 static const u8 sIronDesc[] = _(
-    "Raises the base\n"
-    "DEFENSE stat of\n"
-    "one POKéMON.");
+    "מעלה את בסיס\n"
+    "ההגנה של\n"
+    "פוקימון אחד.");
 
 static const u8 sCarbosDesc[] = _(
-    "Raises the base\n"
-    "SPEED stat of one\n"
-    "POKéMON.");
+    "מעלה את בסיס\n"
+    "המהירות של\n"
+    "פוקימון אחד.");
 
 static const u8 sCalciumDesc[] = _(
-    "Raises the base\n"
-    "SP. ATK stat of one\n"
-    "POKéMON.");
+    "מעלה את בסיס\n"
+    "ההתקפה מ. של\n"
+    "פוקימון אחד.");
 
 static const u8 sRareCandyDesc[] = _(
-    "Raises the level\n"
-    "of a POKéMON by\n"
-    "one.");
+    "מעלה את הרמה\n"
+    "של פוקימון באחד.");
 
 static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+    "מעלה את המקס נכ\n"
+    "של מהלך נבחר.");
 
 static const u8 sZincDesc[] = _(
-    "Raises the base\n"
-    "SP. DEF stat of one\n"
-    "POKéMON.");
+    "מעל את בסיס\n"
+    "ההגנה מ. של\n"
+    "פוקימון אחד.");
 
 static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+    "מעלה את הנכ של\n"
+    "מהלך למקסימום\n"
+    "נקודות.");
 
 // Battle items
 static const u8 sGuardSpecDesc[] = _(
@@ -1536,11 +1531,11 @@ static const u8 sSapphireDesc[] = _(
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "TEAM MAGMA's mark.");
+    "פריט דמוי מדליה\n"
+    "באותה צורה כמו\n"
+    "סמל קבוצת מגמה.");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "A faded sea chart\n"
-    "that shows the way\n"
-    "to a certain island.");
+    "תרשים ים דהוי\n"
+    "שמראה את הדרך\n"
+    "לאי מסוים.");

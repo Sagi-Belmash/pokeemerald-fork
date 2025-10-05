@@ -24,6 +24,8 @@
 #include "constants/songs.h"
 #include "constants/rgb.h"
 
+#include "string_util.h"
+
 #define STARTER_MON_COUNT   3
 
 // Position of the sprite of the selected starter Pokémon
@@ -529,7 +531,8 @@ static void Task_AskConfirmStarter(u8 taskId)
 {
     PlayCry_Normal(GetStarterPokemon(gTasks[taskId].tStarterSelection), 0);
     FillWindowPixelBuffer(0, PIXEL_FILL(1));
-    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, gText_ConfirmStarterChoice, 0, 1, 0, NULL, TRUE);
+    StringExpandPlaceholders(gStringVar4, gText_ConfirmStarterChoice);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL, TRUE);
     ScheduleBgCopyTilemapToVram(0);
     CreateYesNoMenu(&sWindowTemplate_ConfirmStarter, 0x2A8, 0xD, 0);
     gTasks[taskId].func = Task_HandleConfirmStarterInput;

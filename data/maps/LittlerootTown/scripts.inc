@@ -925,7 +925,7 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "הו! איזה פוקימון מתוק!\n"
 	.string "קיבלת את זה מפרופ. בירץ'. איזה נחמד!\p"
 	.string "את{EMIT_HEY} הילד{ADD_HEY} של אביך, כמובן.\n"
-	.string "את{ADD_TAF} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} טוב ביחד עם פוקימון!\p"
+	.string "את{EMIT_HEY} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} טוב ביחד עם פוקימון!\p"
 	.string "הנה, מותק! אם את{EMIT_HEY} יוצא{ADD_TAF} להרפתקה,\n"
 	.string "תנעל{ADD_YUD} את נעלי הריצה האלו.\p"
 	.string "הן יתנו מרץ לצעד!$"
@@ -937,7 +937,7 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "אמא: {PLAYER}, הנעליים האלה הגיעו עם\n"
 	.string "הוראות.\p"
-	.string "לח{SWAP_TZADIK}{ADD_YUD} על כפתור B בזמן שאת{EMIT_TAF} נועל{ADD_TAF} את\n"
+	.string "לח{SWAP_TZADIK}{ADD_YUD} על כפתור B בזמן שאת{EMIT_HEY} נועל{ADD_TAF} את\n"
 	.string "נעלי ריצה האלו כדי לרוץ מהר במיוחד!\p"
 	.string "“נעל{ADD_YUD} את נעלי הריצה האלה ותתחר{EMIT_HEY}{ADD_YUD}\n"
 	.string "במרחבי החוץ!”$"
@@ -949,7 +949,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "אבא שלך ישמח מאוד.\p"
 	.string "אבל בבקשה תיזהר{ADD_YUD}.\n"
 	.string "אם משהו יקרה, את{EMIT_HEY} יכול{ADD_HEY} לחזור הביתה.\p"
-	.string "קדימה, לך תרא{EMIT_HEY}{ADD_YUD} להם, מתוק{ADD_HEY}!$"
+	.string "קדימה, לך תרא{EMIT_HEY}{ADD_YUD} להם, מותק{ADD_HEY}!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "אם את{EMIT_HEY} משתמש{ADD_TAF} במחשב, תוכל{ADD_YUD} לאחסן פריטים\n"
@@ -964,7 +964,7 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "אממ, אממ, אממ!\p"
-	.string "אם תצ{ADD_YUD} החוצה ותל{SWAP_CHAF}{ADD_YUD} לדשא,\n"
+	.string "אם תצא{ADD_YUD} החוצה ותל{SWAP_CHAF}{ADD_YUD} לדשא,\n"
 	.string "פוקימון פראי יקפוץ החוצה!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:

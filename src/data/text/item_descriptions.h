@@ -288,70 +288,63 @@ static const u8 sPPMaxDesc[] = _(
 
 // Battle items
 static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+    "מונע ירידה\n"
+    "של נתונים\n"
+    "כשבשימוש בקרב.");
 
 static const u8 sDireHitDesc[] = _(
-    "Raises the\n"
-    "critical-hit ratio\n"
-    "during one battle.");
+    "מעלה את \n"
+    "יחס מכה קריטית\n"
+    "במהלך קרב אחד.");
 
 static const u8 sXAttackDesc[] = _(
-    "Raises the stat\n"
-    "ATTACK during one\n"
-    "battle.");
+    "מעלה את ההתקפה\n"
+    "במהלך קרב אחד.");
 
 static const u8 sXDefendDesc[] = _(
-    "Raises the stat\n"
-    "DEFENSE during one\n"
-    "battle.");
+    "מעלה את ההגנה\n"
+    "במהלך קרב אחד.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Raises the stat\n"
-    "SPEED during one\n"
-    "battle.");
+    "מעלה את המהירות\n"
+    "במהלך קרב אחד.");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
+    "מעלה את הדיוק\n"
+    "של התקפות\n"
+    "במהלך קרב אחד.");
 
 static const u8 sXSpecialDesc[] = _(
-    "Raises the stat\n"
-    "SP. ATK during one\n"
-    "battle.");
+    "מעלה את ההתקפה מ.\n"
+    "במהלך קרב אחד.");
 
 static const u8 sPokeDollDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "משמש כדי לברוח\n"
+    "מכל קרב עם\n"
+    "פוקימון פראי.");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "משמש כדי לברוח\n"
+    "מכל קרב עם\n"
+    "פוקימון פראי.");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 200\n"
-    "steps.");
+    "דוחה פוקימון פראי\n"
+    "חלש ל-002 צעדים");
 
 static const u8 sMaxRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 250\n"
-    "steps.");
+    "דוחה פוקימון פראי\n"
+    "חלש ל-052 צעדים");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from a\n"
-    "cave or a dungeon.");
+    "משמש כדי לברוח\n"
+    "מיד ממערה או\n"
+    "צינוק.");
 
 static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 100\n"
-    "steps.");
+    "דוחה פוקימון פראי\n"
+    "חלש ל-001 צעדים");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(

@@ -904,12 +904,14 @@ static void GetItemNameFromPocket(u8 *dest, u16 itemId)
         {
             // Get HM number
             ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_HM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 1);
+            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(dest, gText_NumberItem_HM);
         }
         else
         {
             // Get TM number
             ConvertIntToDecimalStringN(gStringVar1, itemId - ITEM_TM01 + 1, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         }
         break;

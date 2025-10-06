@@ -289,34 +289,34 @@ PlayersHouse_1F_Text_IsntItNiceInHere:
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "הפוקימונים של המוביל עושים את כל העבודה\n"
-	.string "של המעבר וניקיון אחרי\l"
+	.string "של המעבר וניקיון אחרי.\l"
 	.string "זה כזה נוח!\p"
 	.string "{PLAYER}, החדר שלך למעלה.\n"
-	.string "לך תבדוק אותו, מתוק!\p"
+	.string "לך תבד{EMIT_VAV}ק{ADD_HEY} אותו, מתוק{ADD_HEY}!\p"
 	.string "אבא שלך קנה לך שעון חדש לציון\n"
 	.string "המעבר שלנו לפה.\l"
-	.string "אל תשכח לכוון אותו!$"
+	.string "אל תשכח{ADD_YUD} לכוון אותו!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "אמא: ובכן, {PLAYER}?\p"
-	.string "אתה לא סקרן לראות את החדר\n"
+	.string "את{EMIT_HEY} לא סקר{SWAP_NUN}{ADD_YUD}{ADD_TAF} לראות את החדר\n"
 	.string "הפרטי שלך?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
 	.string "אמא: {PLAYER}.\p"
-	.string "לך לכוון את השעון בחדר שלך, מתוק.$"
+	.string "ל{SWAP_CHAF}{ADD_YUD} לכוון את השעון בחדר שלך, מתוק{ADD_HEY}.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
 	.string "אמא: או! {PLAYER}, {PLAYER}!\n"
-	.string "מהר! בוא מהר!$"
+	.string "מהר! בוא{ADD_YUD} מהר!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "אמא: תראה! זה מכון פטלבורג!\n"
+	.string "אמא: תרא{EMIT_HEY}{ADD_YUD}! זה מכון פטלבורג!\n"
 	.string "אולי אבא יופיע!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "אמא: או… זה נגמר.\p"
-	.string "אני חושב שאבא הופיע, אבל החמצנו אותו.\n"
+	.string "אני חושבת שאבא הופיע, אבל החמצנו אותו.\n"
 	.string "חבל מאוד.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
@@ -327,7 +327,7 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "ללכת לשם ולהציג את עצמך.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "אמא: נתראה, מתוק!$"
+	.string "אמא: נתראה, מתוק{ADD_HEY}!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "אמא: האם הצגת את עצמך\n"
@@ -335,25 +335,25 @@ PlayersHouse_1F_Text_DidYouMeetProfBirch:
 
 PlayersHouse_1F_Text_YouShouldRestABit:
 	.string "אמא: מה שלומך, {PLAYER}?\n"
-	.string "אתה נראה קצת עייף.\p"
-	.string "אני חושבת שאתה צריך לנוח קצת.$"
+	.string "את{EMIT_HEY} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} קצת עיי{SWAP_PEY}{ADD_HEY}.\p"
+	.string "אני חושבת שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לנוח קצת.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "אמא: שמור על עצמך, מתוק!$"
+	.string "אמא: שמ{EMIT_VAV}ר}{ADD_YUD} על עצמך, מתוק{ADD_HEY}!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
 	.string "אמא: או? האם אבא נתן לך את התג הזה?\p"
 	.string "אז הנה משהו מאמא אלך!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
-	.string "אל תתאמץ יותר מדי, מתוק.\n"
-	.string "אתה יכול תמיד לבוא הביתה.\p"
-	.string "לך על זה, מתוק!$"
+	.string "אל תתאמ{SWAP_TZADIK}{ADD_YUD} יותר מדי, מתוק{ADD_HEY}.\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} תמיד לבוא הביתה.\p"
+	.string "ל{SWAP_CHAF}{ADD_YUD} על זה, מתוק{ADD_HEY}!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "אמא: מה זה, מתוק? פויקנווט?\n"
+	.string "אמא: מה זה, מתוק{ADD_HEY}? פויקנווט?\n"
 	.string "מישהו מדבון נתן לך אותו?\p"
-	.string "ובכן, מתוק, מה דעתך על להוסיף\n"
+	.string "ובכן, מתוק{ADD_HEY}, מה דעתך על להוסיף\n"
 	.string "את אמא שלך?\p"
 	.string "… … …$"
 
@@ -379,16 +379,16 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
 PlayersHouse_1F_Text_RunningShoesManual:
 	.string "זוהי חוברת ההוראות של\n"
 	.string "נעלי הריצה.\p"
-	.string "“לחץ על כפתור B כדי לרוץ בזמן\n"
-	.string "שאתה נועל את נעלי הריצה שלך.\p"
-	.string "“שרוך את נעלי הריצה שלך וצעד\n"
+	.string "“לחצו על כפתור B כדי לרוץ בזמן\n"
+	.string "שאתם נועלים את נעלי הריצה.\p"
+	.string "“שרכו את נעלי הריצה שלכם וצעדו\n"
 	.string "למרחקים!”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "אבא: המ?\p"
 	.string "היי, זה {PLAYER}!\p"
 	.string "עבר זמן מאז שראיתי אותך,\n"
-	.string "אבל אתה נראה…חזק יותר, איכשהו.\p"
+	.string "אבל את{EMIT_HEY} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF}…חזק{ADD_HEY} יותר, איכשהו.\p"
 	.string "זה הרושם שאני מקבל.\n"
 	.string "אבל אבא שלך הזקן עדיין לא ויתר!\p"
 	.string "אה, כן, יש לי משהו בשבילך.\n"
@@ -428,5 +428,5 @@ PlayersHouse_1F_Text_WhatColorDidTheySay:
 	.string "מה הצבע שהמגיש אמר שיש לפוקימון הזה?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
-	.string "אמא: ובכן, האם זה לא משהו!\n"
+	.string "אמא: ובכן, האם זה לא מוזר!\n"
 	.string "יש עדיין פוקימונים לא ידועים.$"

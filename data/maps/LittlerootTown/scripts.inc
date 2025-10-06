@@ -1005,7 +1005,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "ידעתי שיש משהו מיוחד\n"
 	.string "בך כשראיתי אותך לראשונה,\l"
 	.string "אבל אף פעם לא ציפיתי לזה.\p"
-	.string "אה, כן. עדיין יש לך את הפוקידקס\n"
+	.string "אה, כן. עדיין יש לך את הפוקידע\n"
 	.string "שנתתי לך?\p"
 	.string "יש לי משהו להראות לך\n"
 	.string "בוא{ADD_YUD} נלך למעבדה שלי.$"

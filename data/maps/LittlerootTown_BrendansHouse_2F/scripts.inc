@@ -271,32 +271,32 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "השעון נעצר…\p"
+	.string "כדאי לתקן ולכוון אותו!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "אמא: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "אמא: {PLAYER}, את{EMIT_HEY} אוהב את החדר\n"
+	.string "החדר שלך?\p"
+	.string "יופי! הכל מסודר להפליא!\p"
+	.string "הם סיימו להעביר הכל פנימה\n"
+	.string "גם למטה.\p"
+	.string "מובילי פוקימון זה כל כך נוח!\p"
+	.string "אה, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לוודא שהכל\n"
+	.string "נמצא על השולחן שלך.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the MENU with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER} פתח{ADD_HEY} את המחברת.\p"
+	.string "כלל הרפתקאות מס' 1\n"
+	.string "פתיחת התפריט עם TRATS.\p"
+	.string "כלל הרתפקאות מס' 2\n"
+	.string "תיעוד התקדמות בעזרת שמירה.\p"
+	.string "שאר הדפים ריקים…$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "HOENN region map.$"
+	.string "{PLAYER} התבונ{SWAP_NUN}{ADD_HEY} מקרוב\n"
+	.string "על מפת האזור הוון.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "זה נינטנדו גיימקיוב.\p"
+	.string "גיים בוי אדוונס מחובר כדי לשמש\n"
+	.string "כשלט.$"

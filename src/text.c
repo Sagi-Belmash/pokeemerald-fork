@@ -663,41 +663,26 @@ void ClearTextSpan(struct TextPrinter *textPrinter, u32 width)
     struct Window *window;
     struct Bitmap pixels_data;
     struct TextGlyph *glyph;
-    u8 glyphHeight;
-    s32 startX;
+    u8 *glyphHeight;
 
-    if (sLastTextBgColor == TEXT_COLOR_TRANSPARENT)
-        return;
-
-    window = &gWindows[textPrinter->printerTemplate.windowId];
-    pixels_data.pixels = window->tileData;
-    pixels_data.width = window->window.width << 3;
-    pixels_data.height = window->window.height << 3;
-
-    glyph = &gCurGlyph;
-    glyphHeight = glyph->height;
-
-    if (textPrinter->printerTemplate.rtlMode)
+    if (sLastTextBgColor != TEXT_COLOR_TRANSPARENT)
     {
-        /* clear to the left of currentX */
-        s32 cx = (s32)textPrinter->printerTemplate.currentX;
-        startX = cx - (s32)width;
-        if (startX < 0)
-            startX = 0;
-    }
-    else
-    {
-        /* clear to the right of currentX */
-        startX = (s32)textPrinter->printerTemplate.currentX;
-    }
+        window = &gWindows[textPrinter->printerTemplate.windowId];
+        pixels_data.pixels = window->tileData;
+        pixels_data.width = window->window.width << 3;
+        pixels_data.height = window->window.height << 3;
 
-    FillBitmapRect4Bit(
-        &pixels_data,
-        (u32)startX,
-        textPrinter->printerTemplate.currentY,
-        width,
-        glyphHeight,
-        sLastTextBgColor);
+        glyph = &gCurGlyph;
+        glyphHeight = &glyph->height;
+
+        FillBitmapRect4Bit(
+            &pixels_data,
+            textPrinter->printerTemplate.currentX,
+            textPrinter->printerTemplate.currentY,
+            width,
+            *glyphHeight,
+            sLastTextBgColor);
+    }
 }
 
 static u16 FontFunc_Small(struct TextPrinter *textPrinter)
@@ -1087,16 +1072,33 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                     textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *textPrinter->printerTemplate.currentChar++;
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_CLEAR_TO:
-                widthHelper = *textPrinter->printerTemplate.currentChar++ + textPrinter->printerTemplate.x;
-                if (textPrinter->printerTemplate.rtlMode)
-                    width = textPrinter->printerTemplate.currentX - widthHelper;
-                else
-                    width = widthHelper - textPrinter->printerTemplate.currentX;
-                if (width > 0)
                 {
-                    ClearTextSpan(textPrinter, width);
-                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
-                    return RENDER_PRINT;
+                    if(!textPrinter->printerTemplate.rtlMode) 
+                    {
+                        widthHelper = *textPrinter->printerTemplate.currentChar;
+                        widthHelper += textPrinter->printerTemplate.x;
+                        textPrinter->printerTemplate.currentChar++;
+                        width = widthHelper - textPrinter->printerTemplate.currentX;
+                        if (width > 0)
+                        {
+                            ClearTextSpan(textPrinter, width);
+                            textPrinter->printerTemplate.currentX += width;
+                            return RENDER_PRINT;
+                        }
+                    } 
+                    else 
+                    {
+                        widthHelper = *textPrinter->printerTemplate.currentChar;
+                        widthHelper = textPrinter->printerTemplate.x - widthHelper;
+                        textPrinter->printerTemplate.currentChar++;
+                        width = textPrinter->printerTemplate.currentX - widthHelper;
+                        if (width > 0)
+                        {
+                            //ClearTextSpan(textPrinter, width);
+                            textPrinter->printerTemplate.currentX -= width;
+                            return RENDER_PRINT;
+                        }
+                    }
                 }
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_MIN_LETTER_SPACING:

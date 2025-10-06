@@ -1544,11 +1544,11 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
         StringCopy(text, (statsDiff[i] >= 0) ? gText_Plus : gText_Dash);
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     56,
+                                     0/* 56 */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
-                                     text, TRUE);
+                                     text, FALSE);
         if (abs(statsDiff[i]) <= 9)
             x = 18;
         else
@@ -1557,7 +1557,7 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
         ConvertIntToDecimalStringN(text, abs(statsDiff[i]), STR_CONV_MODE_LEFT_ALIGN, 2);
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     0/* 56 + x */,
+                                     12/* 56 + x */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
@@ -1607,7 +1607,7 @@ void DrawLevelUpWindowPg2(u16 windowId, u16 *currStats, u8 bgClr, u8 fgClr, u8 s
 
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     0/* 56 + x */,
+                                     12/* 56 + x */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,

@@ -374,7 +374,7 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "יש סרט בטלוויזיה.\p"
 	.string "שני גברים רוקדים על קלידי\n"
 	.string "פסנתר.\p"
-	.string "כדאי שאתחיל ללכת!$"
+	.string "מוטב לצאת לדרך!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
 	.string "זוהי חוברת ההוראות של\n"

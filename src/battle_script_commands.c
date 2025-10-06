@@ -6088,9 +6088,9 @@ static void DrawLevelUpBannerText(void)
     printerTemplate.currentChar = gStringVar4;
     printerTemplate.windowId = B_WIN_LEVEL_UP_BANNER;
     printerTemplate.fontId = FONT_SMALL;
-    printerTemplate.x = windowWidthPx - 32;
+    printerTemplate.x = windowWidthPx - 12; // was 32
     printerTemplate.y = 0;
-    printerTemplate.currentX = windowWidthPx - 32;
+    printerTemplate.currentX = windowWidthPx - 12; // was 32
     printerTemplate.currentY = 0;
     printerTemplate.letterSpacing = 0;
     printerTemplate.lineSpacing = 0;
@@ -6099,11 +6099,13 @@ static void DrawLevelUpBannerText(void)
     printerTemplate.bgColor = TEXT_COLOR_TRANSPARENT;
     printerTemplate.shadowColor = TEXT_COLOR_DARK_GRAY;
 
+    printerTemplate.rtlMode = TRUE;
+
     AddTextPrinter(&printerTemplate, TEXT_SKIP_DRAW, NULL);
 
     txtPtr = gStringVar4;
-    *(txtPtr)++ = CHAR_EXTRA_SYMBOL;
-    *(txtPtr)++ = CHAR_LV_2;
+//    *(txtPtr)++ = CHAR_EXTRA_SYMBOL;
+    *(txtPtr)++ = CHAR_t/* CHAR_LV_2 */;
 
     var = (u32)(txtPtr);
     txtPtr = ConvertIntToDecimalStringN(txtPtr, monLevel, STR_CONV_MODE_LEFT_ALIGN, 3);

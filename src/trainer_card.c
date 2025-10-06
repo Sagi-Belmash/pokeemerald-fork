@@ -1139,7 +1139,7 @@ static void PrintTimeOnCard(void)
     }
     totalWidth = width + 30;
     x -= totalWidth;
-    x += 20;
+    x += 28;
 
     FillWindowPixelRect(1, PIXEL_FILL(0), x, y, totalWidth, 15);
     ConvertIntToDecimalStringN(gStringVar4, hours, STR_CONV_MODE_RIGHT_ALIGN, 3);

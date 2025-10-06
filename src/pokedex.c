@@ -4151,7 +4151,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         PrintInfoScreenText(gText_UnkWeight, 0x69/* 0x81 */, 0x49);
     }
 
-    StringCopy(gStringVar1, gSpeciesNames[num]);
+    StringCopy(gStringVar1, gSpeciesNames[natNum]);
 
     if (owned)
     {

@@ -339,7 +339,7 @@ PlayersHouse_1F_Text_YouShouldRestABit:
 	.string "אני חושבת שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לנוח קצת.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "אמא: שמ{EMIT_VAV}ר}{ADD_YUD} על עצמך, מתוק{ADD_HEY}!$"
+	.string "אמא: שמ{EMIT_VAV}ר{ADD_YUD} על עצמך, מתוק{ADD_HEY}!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
 	.string "אמא: או? האם אבא נתן לך את התג הזה?\p"

@@ -824,15 +824,15 @@ static const union AnimCmd *const sAnims_GameFreakLogo[] =
 static const s16 sGameFreakLetterData[NUM_GF_LETTERS][2] =
 {
     // Letter,   x offset
-    {GAMEFREAK_G, -72},
-    {GAMEFREAK_A, -56},
-    {GAMEFREAK_M, -40},
-    {GAMEFREAK_E, -24},
-    {GAMEFREAK_F,   8},
-    {GAMEFREAK_R,  24},
-    {GAMEFREAK_E,  40},
-    {GAMEFREAK_A,  56},
-    {GAMEFREAK_K,  72},
+    {GAMEFREAK_G, 72/* -72 */},
+    {GAMEFREAK_A, 56/* -56 */},
+    {GAMEFREAK_M, 40/* -40 */},
+    {GAMEFREAK_E, 24/* -24 */},
+    {GAMEFREAK_F,   -8/* 8 */},
+    {GAMEFREAK_R,  -24/* 24 */},
+    {GAMEFREAK_M/* GAMEFREAK_E */,  -40/* 40 */},
+    {GAMEFREAK_A,  -56/* 56 */},
+    {GAMEFREAK_K,  -72/* 72 */},
 };
 static const s16 sPresentsLetterData[][2] =
 {

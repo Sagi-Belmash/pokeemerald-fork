@@ -258,42 +258,42 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "ע-עזרו לי!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "הלו! את{EMIT_HEY} שם!\n"
+	.string "בבקשה! עז{EMIT_VAV}ר{ADD_YUD} לי!\p"
+	.string "בתיק שלי!\n"
+	.string "יש פוכדור!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "ל-לאן את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF}?!\n"
+	.string "אל תשאיר{ADD_YUD} אותי ככה!$"
 
 Route101_Text_YouSavedMe:
-	.string "פרופ. בירץ': Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "פרופ. בירץ': פיו…\p"
+	.string "הייתי בעשב דשא לומד על פוקימון\n"
+	.string "פראי ואז קפצו עליי.\p"
+	.string "את{EMIT_HEY} הצלת אותי.\n"
+	.string "תודה רבה!\p"
+	.string "או?\p"
+	.string "הי, את{EMIT_HEY} {PLAYER}{KUN}!\p"
+	.string "זה לא מקום לשוחח, אז בוא{ADD_YUD} למעבדת\n"
+	.string "הפוקימון שלי מאוחר יותר, בסדר?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "אם פוקימון מתעייף, קח{ADD_YUD} אותו\n"
+	.string "למרכז הפוקימונים.\p"
+	.string "יש מרכז פוקימונים בעיירת\n"
+	.string "אולדייל בקרבת מקום.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "פוקימון פראי יקפוץ עליך\n"
+	.string "בעשב גבוה.\p"
+	.string "אם את{EMIT_HEY} רוצה לתפוס פוקימון, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
+	.string "ללכת לתוך העשב הגבוה ולחפש.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "דרך 101\n"
+	.string "{UP_ARROW} עיירת אולדייל$"
 

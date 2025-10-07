@@ -749,7 +749,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "שתרא{EMIT_HEY}{ADD_YUD} או תפג{EMIT_VAV}ש{ADD_YUD}.\p"
 	.string "הילד{EMIT_HEY} שלי, {RIVAL}, הולכת לכל מקום\n"
 	.string "איתו.\p"
-	.string "כשה{EMIT_YUD}{ADD_VAV}א פוגש{EMIT_TAF} בפוקימון נדיר\n"
+	.string "כשהילד{EMIT_HEY} שלי פוגש{EMIT_TAF} בפוקימון נדיר\n"
 	.string "ומתעד{EMIT_TAF} את המידע עליו בפוקידע,\l"
 	.string "מדוע, {RIVAL} מחפש{EMIT_TAF} אותי כשאני בחוץ\l"
 	.string "עושה עבודת שדה, ומראה לי.$"

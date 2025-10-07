@@ -481,219 +481,219 @@ static const u8 sRetroMailDesc[] = _(
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
-    "A hold item that\n"
-    "heals paralysis\n"
-    "in battle.");
+    "פריט להחזקה\n"
+    "שמרפא שיתוק\n"
+    "בקרב.");
 
 static const u8 sChestoBerryDesc[] = _(
-    "A hold item that\n"
-    "awakens POKéMON\n"
-    "in battle.");
+    "פריט להחזקה\n"
+    "שמעיר פוקימון\n"
+    "בקרב.");
 
 static const u8 sPechaBerryDesc[] = _(
-    "A hold item that\n"
-    "heals poisoning\n"
-    "in battle.");
+    "פריט להחזקה\n"
+    "שמרפא רעל\n"
+    "בקרב.");
 
 static const u8 sRawstBerryDesc[] = _(
-    "A hold item that\n"
-    "heals a burn in\n"
-    "battle.");
+    "פריט להחזקה\n"
+    "שמרפא כוויה\n"
+    "בקרב.");
 
 static const u8 sAspearBerryDesc[] = _(
-    "A hold item that\n"
-    "defrosts POKéMON\n"
-    "in battle.");
+    "פריט להחזקה\n"
+    "שמפשיר פוקימון\n"
+    "בקרב.");
 
 static const u8 sLeppaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 PP in\n"
-    "battle.");
+    "פריט להחזקה\n"
+    "שמחזיר 01 נכ\n"
+    "בקרב.");
 
 static const u8 sOranBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 HP in\n"
-    "battle.");
+    "פריט להחזקה\n"
+    "שמרפא 01 נח\n"
+    "בקרב.");
 
 static const u8 sPersimBerryDesc[] = _(
-    "A hold item that\n"
-    "heals confusion\n"
-    "in battle.");
+    "פריט להחזקה\n"
+    "שמרפא בלבול\n"
+    "בקרב.");
 
 static const u8 sLumBerryDesc[] = _(
-    "A hold item that\n"
-    "heals any status\n"
-    "problem in battle.");
+    "פריט להחזקה\n"
+    "שמרפא כל בעיית\n"
+    "סטטוס בקרב.");
 
 static const u8 sSitrusBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 30 HP in\n"
-    "battle.");
+    "פריט להחזקה\n"
+    "שמרפא 03 נח\n"
+    "בקרב.");
 
 static const u8 sFigyBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "פריט להחזקה\n"
+    "שמחזיר נח אבל\n"
+    "עשוי לבלבל.");
 
 static const u8 sWikiBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "פריט להחזקה\n"
+    "שמחזיר נח אבל\n"
+    "עשוי לבלבל.");
 
 static const u8 sMagoBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "פריט להחזקה\n"
+    "שמחזיר נח אבל\n"
+    "עשוי לבלבל.");
 
 static const u8 sAguavBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "פריט להחזקה\n"
+    "שמחזיר נח אבל\n"
+    "עשוי לבלבל.");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "פריט להחזקה\n"
+    "שמחזיר נח אבל\n"
+    "עשוי לבלבל.");
 
 static const u8 sRazzBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RAZZ.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח פטל.");
 
 static const u8 sBlukBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BLUK.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח שחור.");
 
 static const u8 sNanabBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NANAB.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח בננה.");
 
 static const u8 sWepearBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WEPEAR.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח אגס מ.");
 
 static const u8 sPinapBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PINAP.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח אננס.");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base HP.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס נח.");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base ATTACK.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס התקפה.");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base DEFENSE.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס הגנה.");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. ATK.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס התקפה מ.");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. DEF.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס הגנה מ.");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SPEED.");
+    "גורם לפוקימון\n"
+    "להתידד אבל מוריד\n"
+    "בסיס מהירות.");
 
 static const u8 sCornnBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow CORNN.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח תירס.");
 
 static const u8 sMagostBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow MAGOST.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח מנגוסטין.");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RABUTA.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח רמבוטן.");
 
 static const u8 sNomelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NOMEL.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח לימון.");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow SPELON.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח מלון.");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PAMTRE.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח דקל.");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WATMEL.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח אבטיח.");
 
 static const u8 sDurinBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow DURIN.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח דוריאן.");
 
 static const u8 sBelueBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BELUE.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח כחול.");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "A hold item that\n"
-    "raises ATTACK in\n"
-    "a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה התקפה\n"
+    "בעת צרה.");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "A hold item that\n"
-    "raises DEFENSE in\n"
-    "a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה הגנה\n"
+    "בעת צרה.");
 
 static const u8 sSalacBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SPEED in\n"
-    "a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה מהירות\n"
+    "בעת צרה.");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. ATK in\n"
-    "a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה התקפה מ.\n"
+    "בעת צרה.");
 
 static const u8 sApicotBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. DEF in\n"
-    "a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה הגנה מ.\n"
+    "בעת צרה.");
 
 static const u8 sLansatBerryDesc[] = _(
-    "A hold item that\n"
-    "ups the critical-\n"
-    "hit rate in a pinch.");
+    "פריט להחזקה\n"
+    "שמעלה את יחס המכה\n"
+    "קריטית בעת צרה.");
 
 static const u8 sStarfBerryDesc[] = _(
-    "A hold item that\n"
-    "sharply boosts a\n"
-    "stat in a pinch.");
+    "פריט להחזקה\n"
+    "שמגביר בצורה חדה\n"
+    "נתון בעת צרה.");
 
 static const u8 sEnigmaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow a mystery.");
+    "מרכיב של פוקיגוש.\n"
+    "לשתילה באדמת חרס\n"
+    "להצמיח תמוה.");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(

@@ -420,64 +420,64 @@ static const u8 sHeartScaleDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "זיגזגון שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sHarborMailDesc[] = _(
-    "A WINGULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "ווינגול שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "פיקאצ'ו שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "מגנמייט שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "סלקות' שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "ויילמר שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sBeadMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "דואר שכולל\n"
+    "סקיצה של\n"
+    "הפוקימון המחזיק.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "דאסקול שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "דואר עם הדפס\n"
+    "בלוסום שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sDreamMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "דואר שכולל\n"
+    "סקיצה של\n"
+    "הפוקימון המחזיק.");
 
 static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "MAIL to be held\n"
-    "by a POKéMON.");
+    "דואר עם הדפס\n"
+    "יפהפה שפוקימון\n"
+    "יכול להחזיק.");
 
 static const u8 sRetroMailDesc[] = _(
-    "MAIL featuring the\n"
-    "drawings of three\n"
-    "POKéMON.");
+    "דואר הכולל\n"
+    "ציור של שלושה\n"
+    "פוקימונים.");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(

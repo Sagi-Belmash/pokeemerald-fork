@@ -719,26 +719,26 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "פרופ. בירץ': {RIVAL}?\n"
-	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
-	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.$"
+	.string "עזב{EMIT_HEY} הביתה, אני חושב.\p"
+	.string "או שאולי הילד{EMIT_HEY} מסתובב{EMIT_TAF} שוב\n"
+	.string "איפשהו בשדה עשב גבוה…\p"
+	.string "אם את{EMIT_HEY} או הפוקימונים שלך עייפים,\n"
+	.string "כדאי לך לנוח קצת בבית.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
-	.string "פרופ. בירץ': Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat {RIVAL} on\n"
-	.string "your first try. That's excellent!\p"
-	.string "{RIVAL}'s been helping with my research\n"
-	.string "for a long time.\p"
-	.string "{RIVAL} has an extensive history as\n"
-	.string "a TRAINER already.\p"
-	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
-	.string "research, but I think you should have\l"
-	.string "this POKéDEX.$"
+	.string "פרופ. בירץ': או, היי, {PLAYER}{KUN}!\p"
+	.string "שמעתי שהבסת את {RIVAL}\n"
+	.string "על הניסיון הראשון שלך. זה מצויין!\p"
+	.string "{RIVAL} עוזר{EMIT_TAF} לי במחקר שלי כבר\n"
+	.string "הרבה זמן.\p"
+	.string "ל{RIVAL} יש כבר היסטוריה עשירה\n"
+	.string "כמאמן.\p"
+	.string "הנה, {PLAYER}{KUN}, הזמנתי את זה\n"
+	.string "למחקר שלי, אבל אני חושב שכדאי שיהיה לך\l"
+	.string "את הפוקידע הזה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "{PLAYER} received the POKéDEX!$"
+	.string "{PLAYER} קיבל{ADD_HEY} את הפוקידע!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "פרופ. בירץ': The POKéDEX is a high-tech\n"
@@ -793,7 +793,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "I'll try to get them with POKé BALLS.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-	.string "Hey, your BAG's full.$"
+	.string "היי, התיק שלך מלא.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 	.string "BRENDAN: Where should I look for\n"
@@ -924,13 +924,13 @@ LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
 	.string "You picked a fine POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
-	.string "{PLAYER} received the {STR_VAR_1}\n"
-	.string "from PROF. BIRCH!$"
+	.string "{PLAYER} קיבל{ADD_HEY} את {STR_VAR_1}\n"
+	.string "מפרופ. בירץ'!$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_1} you received?$"
+	.string "רוצה לתת כינוי ל{STR_VAR_1}\n"
+	.string "שקיבלת?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "פרופ. בירץ': Listen, {PLAYER}{KUN}.\n"

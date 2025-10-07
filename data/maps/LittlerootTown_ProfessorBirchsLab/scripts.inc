@@ -292,6 +292,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Cyndaquil::
 	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	showmonpic SPECIES_CYNDAQUIL, 10, 3
+	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil
@@ -303,6 +304,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Totodile::
 	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	showmonpic SPECIES_TOTODILE, 10, 3
+	bufferspeciesname STR_VAR_1, SPECIES_TOTODILE
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile
@@ -314,6 +316,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita::
 	applymovement LOCALID_BIRCHS_LAB_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	showmonpic SPECIES_CHIKORITA, 10, 3
+	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita
@@ -658,9 +661,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "הא? פרופ. בירץ'?\p"
-	.string "הפרופ. בחוץ בעבודת שטח.\n"
+	.string "הפרופ. בחוץ בעבודת שדה.\n"
 	.string "כלומר, הוא לא פה.\p"
-	.string "אה, הרש{EMIT_HEY}{ADD_YUD} לי להסביר מה זה עבודת שטח.\p"
+	.string "אה, הרש{EMIT_HEY}{ADD_YUD} לי להסביר מה זה עבודת שדה.\p"
 	.string "זה לחקור דברים בסביבתם הטבעית, כמו\n"
 	.string "שדות והרים,\l"
 	.string "במקום בתוך המעבדה.\p"
@@ -741,187 +744,182 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} קיבל{ADD_HEY} את הפוקידע!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "פרופ. בירץ': The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "פרופ. בירץ': הפוקידע הוא כלי טכנולוגי\n"
+	.string "שמתעד אוטומטית כל פוקימון\l"
+	.string "שתרא{EMIT_HEY}{ADD_YUD} או תפג{EMIT_VAV}ש{ADD_YUD}.\p"
+	.string "הילד{EMIT_HEY} שלי, {RIVAL}, הולכת לכל מקום\n"
+	.string "איתו.\p"
+	.string "כשה{EMIT_YUD}{ADD_VAV}א פוגש{EMIT_TAF} בפוקימון נדיר\n"
+	.string "ומתעד{EMIT_TAF} את המידע עליו בפוקידע,\l"
+	.string "מדוע, {RIVAL} מחפש{EMIT_TAF} אותי כשאני בחוץ\l"
+	.string "עושה עבודת שדה, ומראה לי.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
-	.string "פרופ. בירץ': Countless POKéMON\n"
-	.string "await you!\p"
-	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!$"
+	.string "פרופ. בירץ': איסנפור פוקימונים\n"
+	.string "מחכים לך!\p"
+	.string "אחחח, אני מתחיל לרצות לצאת\n"
+	.string "לעשות שוב עבודות שדה!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "You got a POKéDEX, too!\p"
-	.string "That's great! Just like me!\n"
-	.string "I've got something for you, too!$"
+	.string "מאי: או, וואו, {PLAYER}{KUN}!\n"
+	.string "יש לך גם פוקידע!\p"
+	.string "זה נהדר! בדיוק כמוני!\n"
+	.string "יש לי גם משהו בשבילך!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "MAY: It's fun if you can get a lot of\n"
-	.string "POKéMON!\p"
-	.string "I'm going to look all over the place\n"
-	.string "because I want different POKéMON.\p"
-	.string "If I find any cute POKéMON, I'll catch\n"
-	.string "them with POKé BALLS!$"
+	.string "מאי: זה כיף אם אתה יכול להשיג\n"
+	.string "הרבה פוקימונים!\p"
+	.string "אני הולכת לחפש בכל מקום כי אני\n"
+	.string "רוצה פוקימונים שונים.\p"
+	.string "אם אני מוצאת כל פוקימון חמוד, אני אתפוס\n"
+	.string "אותו עם הפוכדורים!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-	.string "Oh? Your BAG's full.$"
+	.string "או? התיק שלך מלא.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
-	.string "MAY: I wonder where I should go look\n"
-	.string "for POKéMON next?$"
+	.string "מאי: אני תוהה לאן כדאי לי ללכת\n"
+	.string "עכשיו כדי למצוא פוקימונים?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-	.string "BRENDAN: Huh…\n"
-	.string "So you got a POKéDEX, too.\p"
-	.string "Well then, here.\n"
-	.string "I'll give you these.$"
+	.string "ברנדן: הא…\n"
+	.string "אז יש לך גם פוקידע.\p"
+	.string "ובכן, הנה.\n"
+	.string "אני אתן לך את אלה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of POKéMON.\p"
-	.string "I'm going to explore all over the place\n"
-	.string "to find different POKéMON.\p"
-	.string "If I find any cool POKéMON, you bet\n"
-	.string "I'll try to get them with POKé BALLS.$"
+	.string "ברנדן: את יודעת שזה יותר כיף כשיש לך\n"
+	.string "מלא פוקימונים.\p"
+	.string "אני הולך לחקור בכל עבר\n"
+	.string "כדי למצוא פוקימונים שונים.\p"
+	.string "אם אני מוצא פוקימון מגניב, את, תהיי\n"
+	.string "בטוחה שאנסה לתפוס אותם עם הפוכדורים.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "היי, התיק שלך מלא.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-	.string "BRENDAN: Where should I look for\n"
-	.string "POKéMON next…$"
+	.string "ברנדן: איפה כדאי לי ללכת\n"
+	.string "לחפש פוקימונים…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
-	.string "It's a serious-looking machine.\n"
-	.string "The PROF must use this for research.$"
+	.string "זה מכונה שנראית רצינית.\n"
+	.string "הפרופ. בטח משתמש בה למחקר.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
-	.string "It's a PC used for research.\n"
-	.string "Better not mess around with it.$"
+	.string "זה מחשב מיועד למחקר.\n"
+	.string "עדיף שלא אתעסק איתו.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
-	.string "It's crammed with books on POKéMON.$"
+	.string "זה צפוף בספרים על פוקימון.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
-	.string "It's a book that's too hard to read.$"
+	.string "זה ספר שקצת קשה מדי לקריאה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
-	.string "פרופ. בירץ': Now…\p"
-	.string "{PLAYER}{KUN} and {RIVAL}, I've had the two\n"
-	.string "of you help me study POKéMON.\p"
-	.string "Thanks to your help, new facts\n"
-	.string "are coming to light.\p"
-	.string "It appears that in the HOENN region,\n"
-	.string "there are also POKéMON from other\l"
-	.string "regions.\p"
-	.string "It goes to show how rich and varied\n"
-	.string "the natural environments of HOENN\l"
-	.string "happen to be.\p"
-	.string "That's why I think it's necessary for\n"
-	.string "me to upgrade your POKéDEX to\l"
-	.string "the NATIONAL Mode.\p"
-	.string "Here, let me see your POKéDEX units.$"
+	.string "פרופ. בירץ': עכשיו…\p"
+	.string "{PLAYER}{KUN} ו{RIVAL}, יש לי את שניכם\n"
+	.string "לעזור לי לחקור פוקימונים.\p"
+	.string "אודות לעזרה שלכם, עובדות חדשות\n"
+	.string "מתגלות לאור.\p"
+	.string "זה נראה שבאזור הוון, יש גם פוקימונים,\n"
+	.string "מאזורים אחרים\p"
+	.string "זה מראה כמה עשירה ומגוונת הסביבה הטבעית\n"
+	.string "של הוון, מסתבר.\p"
+	.string "זה למה אני חושב שזה הכרחי לשדרג\n"
+	.string "את הפוקידע שלכם לפוקידע לאומי.\p"
+	.string "הנה, ת{SWAP_NUN}{ADD_YUD} לי לראות את יחידות הפוקידע שלך.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
-	.string "MAY: Eheheh!\p"
-	.string "It's so cool that even my POKéDEX\n"
-	.string "is getting updated!\p"
-	.string "It's because you went out and caught\n"
-	.string "so many POKéMON, {PLAYER}{KUN}!$"
+	.string "מאי: היהיהי!\p"
+	.string "זה כזה מגניב שאפילו הפוקידע שלי\n"
+	.string "מתעדכן!\p"
+	.string "זה בגלל שיצאת ותפסת כל כך הרבה\n"
+	.string "פוקימונים, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "BRENDAN: I went out all over HOENN\n"
-	.string "and checked out POKéMON.\p"
-	.string "You can thank me for getting\n"
-	.string "the NATIONAL Mode POKéDEX.\p"
-	.string "Yep, you're lucky, {PLAYER}!$"
+	.string "ברנדן: אני יצאתי בכל רחבי הוון\n"
+	.string "ובדקתי פוקימונים.\p"
+	.string "אתה יכול להודות לי על שקיבלת\n"
+	.string "את הפוקידע במצב לאומי.\p"
+	.string "כן, את ברת מזל, {PLAYER}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
-	.string "פרופ. בירץ': Okay, all done!$"
+	.string "פרופ. בירץ': אוקיי, סיימתי!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-	.string "{PLAYER}'s POKéDEX was upgraded\n"
-	.string "to the NATIONAL Mode!$"
+	.string "הפוקידע של {PLAYER} שודרג למצב\n"
+	.string "לאומי!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-	.string "פרופ. בירץ': But listen.\n"
-	.string "You've become the CHAMPION,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "פרופ. בירץ': אבל תקשיב{ADD_YUD}.\n"
+	.string "הפכת לאלו{SWAP_PEY}{ADD_HEY},\l"
+	.string "אבל מסע הפוקימון שלך לא נגמר.\p"
+	.string "אין סוף לדרך שהיא פוקימון.\p"
+	.string "איפשהו, יש חלקת עשב שמחכה לך!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
-	.string "MAY: I think I'll take a short break\n"
-	.string "from fieldwork.\p"
-	.string "I think I'll help the PROF here for\n"
-	.string "a while.$"
+	.string "מאי: אני חושבת שאקח הפסקה קצרהk\n"
+	.string "מעבודות שדה.\p"
+	.string "אני חושבת שאעזור לפרופ. כאן\n"
+	.string "לזמן מה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
-	.string "BRENDAN: For the time being,\n"
-	.string "I'm taking a break from fieldwork.\p"
-	.string "I'll be helping out the PROF here\n"
-	.string "for a while.$"
+	.string "ברנדן: לעת עתה,\n"
+	.string "אני לוקח הפסקה מעבודות שדה.\p"
+	.string "אני אעזור לפרופ. כאן\n"
+	.string "לזמן מה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-	.string "פרופ. בירץ': Oh, {PLAYER}{KUN}!\n"
-	.string "Let's have a look at your POKéDEX.\p"
+	.string "פרופ. בירץ': או, {PLAYER}{KUN}!\n"
+	.string "בוא נראה את הפוקידע שלך.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Yes, there's no doubt about it.\p"
-	.string "You really have completed the HOENN\n"
-	.string "region's POKéDEX.\p"
-	.string "That's more than just impressive.\p"
-	.string "I have a gift for you.\p"
-	.string "Consider it my show of appreciation\n"
-	.string "for the fantastic work you've done.\p"
-	.string "My gift is a rare POKéMON only found\n"
-	.string "in another region!\p"
-	.string "You can have any one of these\n"
-	.string "three POKéMON!$"
+	.string "כן, אין לי ספק על זה.\p"
+	.string "את{EMIT_HEY} לגמרי השלמת את הפוקידע\n"
+	.string "של אזור הוון.\p"
+	.string "זה יותר ממרשים.\p"
+	.string "יש לי מתנה בשבילך.\p"
+	.string "רא{EMIT_HEY}{ADD_YUD} בזה כאות הערכה\n"
+	.string "על העבודה הנפלאה שעשית.\p"
+	.string "המתנה שלי זה פוקימון נדיר שנמצא\n"
+	.string "באזור אחר בלבד!\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקבל אחד\n"
+	.string "משלושת הפוקימונים האלו!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
-	.string "פרופ. בירץ': These are rare POKéMON\n"
-	.string "only found in another region!\p"
-	.string "You can have any one of these\n"
-	.string "three POKéMON!$"
+	.string "פרופ. בירץ': אלה פוקימונים נדירים\n"
+	.string "שנמצאים באזור אחר בלבד!\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקבל אחד\n"
+	.string "משלושת הפוקימונים האלו!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-	.string "פרופ. בירץ': The FIRE POKéMON\n"
-	.string "CYNDAQUIL caught your eye!\p"
-	.string "You're as sharp as ever!\p"
-	.string "So the CYNDAQUIL is your choice?$"
+	.string "פרופ. בירץ': פוקימון האש\n"
+	.string "{STR_VAR_1} משך את העין שלך!\p"
+	.string "את{EMIT_HEY} חד{ADD_HEY} מתמיד!\p"
+	.string "אז האם {STR_VAR_1} הבחירה שלך?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-	.string "פרופ. בירץ': The WATER POKéMON\n"
-	.string "TOTODILE is your choice!\p"
-	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the TOTODILE?$"
+	.string "פרופ. בירץ': פוקימון המים\n"
+	.string "{STR_VAR_1} הוא הבחירה שלך!\p"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} איך לבחור אחד טוב.\p"
+	.string "אז, את{EMIT_HEY} לוקח{ADD_TAF} את {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-	.string "פרופ. בירץ': The GRASS POKéMON\n"
-	.string "CHIKORITA is your choice!\p"
-	.string "You sure know what you're doing.\p"
-	.string "So, you'll take the CHIKORITA?$"
+	.string "פרופ. בירץ': פוקימון העשב\n"
+	.string "{STR_VAR_1} הוא הבחירה שלך!\p"
+	.string "את{EMIT_HEY} בטוח יודע{ADD_TAF} מה את{EMIT_HEY} עושה.\p"
+	.string "אז, את{EMIT_HEY} לוקח{ADD_TAF} את {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
-	.string "פרופ. בירץ': Take your time before\n"
-	.string "you decide.\p"
-	.string "They're all invaluable POKéMON.$"
+	.string "פרופ. בירץ': קח{ADD_YUD} את הזמן לפני\n"
+	.string "שאת{EMIT_HEY} מחליט{ADD_HEY}.\p"
+	.string "כולם הם פוקימון יקרי ערך.$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
-	.string "פרופ. בירץ': I see!\n"
-	.string "You picked a fine POKéMON!$"
+	.string "פרופ. בירץ': אני מבין!\n"
+	.string "בחרת בפוקימון נאה!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
 	.string "{PLAYER} קיבל{ADD_HEY} את {STR_VAR_1}\n"
@@ -933,60 +931,57 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 	.string "שקיבלת?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-	.string "פרופ. בירץ': Listen, {PLAYER}{KUN}.\n"
-	.string "You've completed the HOENN POKéDEX,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "פרופ. בירץ': תקשיב{ADD_YUD}, {PLAYER}{KUN}.\n"
+	.string "את{EMIT_HEY} השלמת את הפוקידע הוון,\l"
+	.string "אבל המסע שלך לא נגמר.\p"
+	.string "אין סוף לדרך שהיא פוקימון.\p"
+	.string "איפשהו, יש חלקת עשב שמחכה לך!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
-	.string "You received the promised POKéMON.\n"
-	.string "Better leave the others alone.$"
+	.string "את{EMIT_HEY} קיבל{ADD_TAF} את הפוקימון המובטח.\n"
+	.string "עדיף להשאיר את האחרים בשלווה.$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
-	.string "Oh, you don't have any room for\n"
-	.string "this POKéMON.$"
+	.string "או, אין לך מקום לפוקימון הזה.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-	.string "MAY: {PLAYER}{KUN}, after this…\n"
-	.string "What are you going to do?\p"
-	.string "Are you going to keep battling\n"
-	.string "and sharpening your skills?\p"
-	.string "Or are you going to try filling\n"
-	.string "the NATIONAL POKéDEX?\p"
-	.string "I'm staying here to help the PROF.$"
+	.string "מאי: {PLAYER}{KUN}, אחרי זה…\n"
+	.string "מה אתה הולך לעשות?\p"
+	.string "אתה הולך להמשיך בקרבות\n"
+	.string "ולחדד את כישוריך?\p"
+	.string "או האם אתה הולך למלא את הפוקידע\n"
+	.string "הלאומי?\p"
+	.string "אני נשארת פה לעזור לפרופ.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
-	.string "BRENDAN: Rather than collecting\n"
-	.string "POKéMON, I prefer slowly and \l"
-	.string "steadily raising the one I chose.$"
+	.string "ברנדן: חוץ מלאסוף פוקימונים,\n"
+	.string "אני מעדיף לגדל לאט \l"
+	.string "וביסודיות אחד שבחרתי.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\n"
-	.string "Have you gone to that place,\l"
-	.string "the BATTLE FRONTIER?$"
+	.string "מאי: או, הי, {PLAYER}{KUN}!\n"
+	.string "האם יצאת למקום הזה,\l"
+	.string "קצה הקרב?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
-	.string "BRENDAN: Hey, {PLAYER}!\n"
-	.string "Have you gone out to that place,\l"
-	.string "the BATTLE FRONTIER?$"
+	.string "ברנדן: היי, {PLAYER}!\n"
+	.string "יצאת למקום הזה,\l"
+	.string "קצה הקרב?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hi, hi, {PLAYER}!\n"
-	.string "It's me, SCOTT.\p"
-	.string "I'm aboard the S.S. TIDAL now.\n"
-	.string "It feels great to be on the sea!\p"
-	.string "By the way…\p"
-	.string "There's this place that I'd like to\n"
-	.string "invite you to for a visit.\p"
-	.string "If you're interested, board a ferry\n"
-	.string "at either SLATEPORT or LILYCOVE.\p"
-	.string "I'll fill you in on the details when\n"
-	.string "we meet. I'll be waiting!\p"
+	.string "… … … … … ביפ!\p"
+	.string "סקוט: היי, היי, {PLAYER}!\n"
+	.string "זה אני, סקוט.\p"
+	.string "אני עכשיון על סיפון ה-LADIT .S S.\n"
+	.string "זה מרגיש נהדר להיות בים!\p"
+	.string "אגב…\p"
+	.string "יש מקום שאני רוצה להזמין אותך\n"
+	.string "לביקור.\p"
+	.string "אם את{EMIT_HEY} מעוניי{SWAP_NUN}{ADD_TAF}, על{EMIT_HEY}{ADD_YUD} על המעבורת\n"
+	.string "בסלייטפורט או ליליקוב.\p"
+	.string "אני אעדכן אותך בפרטים מתי שניפגש\n"
+	.string "אני אחכה!\p"
 	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "… … … … … קליק!$"

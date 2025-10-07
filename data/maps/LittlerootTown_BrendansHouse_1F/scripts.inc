@@ -353,12 +353,12 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 PlayersHouse_1F_Text_IsThatAPokenav:
 	.string "אמא: מה זה, מתוק{ADD_HEY}? פויקנווט?\n"
 	.string "מישהו מדבון נתן לך אותו?\p"
-	.string "ובכן, מתוק{ADD_HEY}, מה דעתך על להוסיף\n"
+	.string "ובכן, מתוק{ADD_HEY}, מה דעתך על לרשום\n"
 	.string "את אמא שלך?\p"
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom:
-	.string "אמא נוספה לפוקינווט.$"
+	.string "אמא נרשמה לפוקינווט.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "פוגיייייה!$"

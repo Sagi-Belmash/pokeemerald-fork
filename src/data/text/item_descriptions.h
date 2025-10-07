@@ -348,75 +348,75 @@ static const u8 sRepelDesc[] = _(
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "גורם לחלק\n"
+    "ממיני פוקימון\n"
+    "להתפתח.");
 
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
-    "A plain mushroom\n"
-    "that would sell\n"
-    "at a cheap price.");
+    "פטרייה רגילה\n"
+    "שנמכרת במחיר\n"
+    "זול.");
 
 static const u8 sBigMushroomDesc[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
+    "פטרייה נדירה\n"
+    "שנמכרת במחיר\n"
+    "גבוה.");
 
 static const u8 sPearlDesc[] = _(
-    "A pretty pearl\n"
-    "that would sell at a\n"
-    "cheap price.");
+    "פנינה יפה\n"
+    "שנמכרת במחיר\n"
+    "זול.");
 
 static const u8 sBigPearlDesc[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
+    "פנינה גדולה וחביבה\n"
+    "שנמכרת במחיר\n"
+    "גבוה.");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+    "חום אדום יפהפה.\n"
+    "ניתן למכירה במחיר\n"
+    "גבוה.");
 
 static const u8 sStarPieceDesc[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+    "רסיס אבן חן אדומה.\n"
+    "נמכרת במחיר\n"
+    "גבוה מאוד.");
 
 static const u8 sNuggetDesc[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
+    "גוש זהב טהור.\n"
+    "ניתן למכירה במחיר\n"
+    "גבוה.");
 
 static const u8 sHeartScaleDesc[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+    "קשקש חביב.\n"
+    "נחשק על ידי\n"
+    "אספנים.");
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(

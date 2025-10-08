@@ -5,6 +5,7 @@
 
 #include "international_string_util.h"
 
+
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
 EWRAM_DATA u8 gStringVar2[0x100] = {0};
 EWRAM_DATA u8 gStringVar3[0x100] = {0};

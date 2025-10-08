@@ -5,6 +5,7 @@
 
 #include "international_string_util.h"
 
+
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
 EWRAM_DATA u8 gStringVar2[0x100] = {0};
 EWRAM_DATA u8 gStringVar3[0x100] = {0};
@@ -645,25 +646,57 @@ u8 *StringFill(u8 *dest, u8 c, u16 n)
     return dest;
 }
 
-u8 *StringCopyPadded(u8 *dest, const u8 *src, u8 c, u16 n)
+u8 *StringCopyPadded(u8 *dest, const u8 *src, u8 c, u16 n, int rtlMode)
 {
-    while (*src != EOS)
+    u16 len = 0;
+    const u8 *s = src;
+    if (rtlMode)
     {
-        *dest++ = *src++;
+        while (*s != EOS)
+        {
+            len++;
+            s++;
+        }
 
-        if (n)
+        while (n > len)
+        {
+            *dest++ = c;
+            *dest++ = c;
             n--;
-    }
+        }
 
-    n--;
-
-    while (n != (u16)-1)
-    {
-        *dest++ = c;
         n--;
-    }
 
-    *dest = EOS;
+        while (*src != EOS)
+        {
+            *dest++ = *src++;
+            n--;
+        }
+
+        *dest = EOS;
+
+    }
+    else
+    {
+        while (*src != EOS)
+        {
+            *dest++ = *src++;
+
+            if (n)
+                n--;
+        }
+
+        n--;
+
+        while (n != (u16)-1)
+        {
+            *dest++ = c;
+            n--;
+        }
+
+        *dest = EOS;
+
+    }
     return dest;
 }
 

@@ -348,7 +348,7 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
     *(str++) = TEXT_COLOR_LIGHT_BLUE;
 
     if (GetBoxOrPartyMonData(boxId, monId, MON_DATA_IS_EGG, NULL))
-        return StringCopyPadded(str, gText_EggNickname, CHAR_SPACE, POKEMON_NAME_LENGTH + 2);
+        return StringCopyPadded(str, gText_EggNickname, CHAR_SPACE, POKEMON_NAME_LENGTH + 2, 0);
 
     GetBoxOrPartyMonData(boxId, monId, MON_DATA_NICKNAME, str);
     StringGet_Nickname(str);
@@ -406,10 +406,10 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
     *(str_++) = TEXT_COLOR_TRANSPARENT;
     *(str_++) = TEXT_COLOR_LIGHT_BLUE;
     *(str_++) = CHAR_SLASH;
-//  *(str_++) = CHAR_EXTRA_SYMBOL;
-    *(str_++) = CHAR_t/* CHAR_LV_2 */;
+    //*(str_++) = CHAR_EXTRA_SYMBOL;
     txtPtr = str_;
     str_ = ConvertIntToDecimalStringN(str_, level, STR_CONV_MODE_LEFT_ALIGN, 3);
+    *(str_++) = CHAR_LV_2;
     lvlDigits = str_ - txtPtr;
     *(str_++) = CHAR_SPACE;
     if (!skipPadding)

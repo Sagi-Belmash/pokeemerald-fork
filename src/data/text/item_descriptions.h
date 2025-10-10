@@ -1100,9 +1100,9 @@ static const u8 sDevonScopeDesc[] = _(
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "עוצמתי, אבל גורם\n"
+    "למשתמש להירתע\n"
+    "אם נפגע מהיריב.");
 
 static const u8 sTM02Desc[] = _(
     "Hooks and slashes\n"

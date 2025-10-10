@@ -1020,83 +1020,83 @@ static const u8 sAcroBikeDesc[] = _(
     "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+    "מארז להחזקת\n"
+    "פוקיכגושים שהוכנו\n"
+    "מבלנדר פירות יער.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+    "מכתב לסטיבן\n"
+    "מהנשיא של\n"
+    "חברת דבון.");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+    "כרטיס למעבורת\n"
+    "אל אי דרומי\n"
+    "מרוחק.");
 
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "כדור אדום וזוהר\n"
+    "שנאמר שהוא מכיל\n"
+    "כוח עתיק.");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "כדור כחול וזוהר\n"
+    "שנאמר שהוא מכיל\n"
+    "כוח עתיק.");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+    "מכשיר שנמצא\n"
+    "בתוך הספינה\n"
+    "הנטושה.");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+    "משקפי מגן נחמדים\n"
+    "שמגנים על העיניים\n"
+    "מפני סופות חול במדבר.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
+    "מטאוריט שנמצא\n"
+    "במפלי מטאור.");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "מאובן של פוקימון\n"
+    "עתיק, השוכן\n"
+    "בקרקעית הים.");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "מאובן של פוקימון\n"
+    "עתיק, השוכן\n"
+    "בקרקעית הים.");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+    "מכשיר של דבון\n"
+    "שמאותת על כל\n"
+    "פוקימון בלתי נראה.");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
@@ -1512,14 +1512,14 @@ static const u8 sPowderJarDesc[] = _(
     "a BERRY CRUSHER.");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+    "אבן חן משובחת,\n"
+    "זוהרת באדום,\n"
+    "המסמלת תשוקה.");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+    "אבן חן כחולה\n"
+    "מבריקה המסמלת\n"
+    "כנות.");
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(

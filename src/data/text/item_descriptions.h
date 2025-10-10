@@ -1392,124 +1392,122 @@ static const u8 sHM08Desc[] = _(
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
-    "MART's clerk.");
+    "חבילה עבור פרופ.\n"
+    "אוק מהפקיד\n"
+    "בחנות פוקימון.");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "POKéMON.");
+    "חליל עם צליל נעים\n"
+    "שמעורר פוקימון.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "The key to the\n"
-    "CINNABAR ISLAND\n"
-    "GYM's entrance.");
+    "מפתח הכניסה\n"
+    "למכון באי\n"
+    "סינאבר.");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+    "שובר עבור\n"
+    "רכישת אופניים\n"
+    "מהחנות אופניים.");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the SAFARI\n"
-    "ZONE's WARDEN.");
+    "שיני תותב זהובות\n"
+    "שאבדו לשומר\n"
+    "הספארי.");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient POKéMON.");
+    "אבן המכילה\n"
+    "את הגנים של\n"
+    "פוקימון עתיק.");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in SILPH\n"
-    "CO's office.");
+    "כרטיס מפתח\n"
+    "לדלת המשמש\n"
+    "למשרד בחברת סילפ.");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in TEAM\n"
-    "ROCKET's HIDEOUT.");
+    "מפתח מעלית\n"
+    "המשמש במחבוא\n"
+    "של צוות רוקט.");
 
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's seashell.");
+    "חתיכה של צדף\n"
+    "פוקימון ימי\n"
+    "עתיק.");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's shell.");
+    "חתיכה מקונכיה\n"
+    "של פוקימון\n"
+    "ימי עתיק.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "SILPH CO's scope\n"
-    "makes unseeable\n"
-    "POKéMON visible.");
+    "עדשות חברת סילפ.\n"
+    "הופך פוקימון בלתי\n"
+    "נראה לגלוי.");
 
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the RUNNING SHOES.");
+    "אופניים מתקפלים\n"
+    "שהם מהירים יותר\n"
+    "מנעלי ריצה.");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "ניתן לצפייה בכל\n"
+    "עת. מציג את\n"
+    "מיקומך הנוכחי.");
 
 static const u8 sVSSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready TRAINERS.");
+    "יחידה נטענת\n"
+    "שמסמנת מאמנים\n"
+    "המוכנים לקרב.");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Stores information\n"
-    "on famous people\n"
-    "for instant recall.");
+    "מאחסן מידע\n"
+    "על אנשים מפורסמים\n"
+    "לשחזור מיידי.");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+    "תיק נוח שמחזיק\n"
+    "במ”מ ומ”נ.");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds BERRIES.");
+    "מארז נוח\n"
+    "המכיל פירות\n"
+    "יער.");
 
 static const u8 sTeachyTVDesc[] = _(
-    "A TV set tuned to\n"
-    "an advice program\n"
-    "for TRAINERS.");
+    "טלויזיה המכוונת\n"
+    "לתכנית יעוץ\n"
+    "עבור מאמנים.");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between ONE, TWO,\n"
-    "and THREE ISLAND.");
+    "כניסה למעבורות\n"
+    "בין איים אחד,\n"
+    "שניים ושלושה.");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "VERMILION and the\n"
-    "SEVII ISLANDS.");
+    "עבור מעבורות\n"
+    "המשרתות את\n"
+    "ורמיליון ואיי הסבי.");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+    "תה מרווה צמא\n"
+    "שהוכן על ידי\n"
+    "גברת זקנה.");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to NAVEL ROCK.");
+    "כרטיס הנדרש\n"
+    "לעלייה לספינה\n"
+    "אל סלע הטבור.");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+    "כרטיס הנדרש\n"
+    "לעלייה לספינה\n"
+    "אל אי הלידה.");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores BERRY\n"
-    "POWDER made using\n"
-    "a BERRY CRUSHER.");
+    "מאחסן אבקת\n"
+    "פרי יער המיוצר\n"
+    "בגורס פירות יער.");
 
 static const u8 sRubyDesc[] = _(
     "אבן חן משובחת,\n"
@@ -1525,7 +1523,7 @@ static const u8 sSapphireDesc[] = _(
 static const u8 sMagmaEmblemDesc[] = _(
     "פריט דמוי מדליה\n"
     "באותה צורה כמו\n"
-    "סמל קבוצת מגמה.");
+    "סמל צוות מגמה.");
 
 static const u8 sOldSeaMapDesc[] = _(
     "תרשים ים דהוי\n"

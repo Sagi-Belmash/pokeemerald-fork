@@ -802,159 +802,159 @@ static const u8 sMetalCoatDesc[] = _(
     "מהלכים מסוג פלדה.");
 
 static const u8 sLeftoversDesc[] = _(
-    "A hold item that\n"
-    "gradually restores\n"
-    "HP in battle.");
+    "פריט להחזקה\n"
+    "שמחזיר בהדרגה\n"
+    "נח בקרב.");
 
 static const u8 sDragonScaleDesc[] = _(
-    "A strange scale\n"
-    "held by DRAGON-\n"
-    "type POKéMON.");
+    "קשקש מוזר שמוחזק\n"
+    "בידי פוקימון\n"
+    "מסוג דרקון.");
 
 static const u8 sLightBallDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of PIKACHU.");
+    "פריט להחזקה\n"
+    "שמעלה התקפה מ.\n"
+    "של פיקאצ'ו.");
 
 static const u8 sSoftSandDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GROUND-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג אדמה.");
 
 static const u8 sHardStoneDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ROCK-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג אבן.");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GRASS-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג עשב.");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DARK-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג אופל.");
 
 static const u8 sBlackBeltDesc[] = _(
-    "A hold item that\n"
-    "boosts FIGHTING-\n"
-    "type moves.");
+    "פריט להחזקה\n"
+    "שמגביר מהלכים\n"
+    "מסוג לחימה.");
 
 static const u8 sMagnetDesc[] = _(
-    "A hold item that\n"
-    "boosts ELECTRIC-\n"
-    "type moves.");
+    "פריט להחזקה\n"
+    "שמגביר מהלכים\n"
+    "מסוג חשמל.");
 
 static const u8 sMysticWaterDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "WATER-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג מים.");
 
 static const u8 sSharpBeakDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FLYING-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג מעופף.");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "POISON-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג רעל.");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ICE-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג קרח.");
 
 static const u8 sSpellTagDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GHOST-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג רוח.");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "A hold item that\n"
-    "boosts PSYCHIC-\n"
-    "type moves.");
+    "פריט להחזקה\n"
+    "שמגביר מהלכים\n"
+    "מסוג על חושי.");
 
 static const u8 sCharcoalDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FIRE-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג אש.");
 
 static const u8 sDragonFangDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DRAGON-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג דרקון.");
 
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "NORMAL-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה עוצמה של\n"
+    "מהלכים מסוג רגיל.");
 
 static const u8 sUpGradeDesc[] = _(
-    "A peculiar box made\n"
-    "by SILPH CO.");
+    "קופסה מוזרה שיוצרה\n"
+    "בידי חברת סילפ.");
 
 static const u8 sShellBellDesc[] = _(
-    "A hold item that\n"
-    "restores HP upon\n"
-    "striking the foe.");
+    "פריט להחזקה\n"
+    "שמחזיר נ“ח בעת\n"
+    "פגיעה ביריב.");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "WATER-type moves.");
+    "פריט להחזקה\n"
+    "שמגביר בקצת\n"
+    "מהלכים מסוג מים.");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly lowers the\n"
-    "foe's accuracy.");
+    "פריט להחזקה\n"
+    "שמפחית בקצת את\n"
+    "דיוק היריב.");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "A hold item that\n"
-    "raises CHANSEY's\n"
-    "critical-hit rate.");
+    "פריט להחזקה\n"
+    "שמעלה את יחס\n"
+    "מכה קריטית לצ'נסי.");
 
 static const u8 sMetalPowderDesc[] = _(
-    "A hold item that\n"
-    "raises DITTO's\n"
-    "DEFENSE.");
+    "פריט להחזקה\n"
+    "שמעלה הגנה\n"
+    "של דיטו.");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises CUBONE or\n"
-    "MAROWAK's ATTACK.");
+    "פריט להחזקה\n"
+    "שמעלה התקפה של\n"
+    "קיובון או מארווק.");
 
 static const u8 sStickDesc[] = _(
-    "A hold item that\n"
-    "raises FARFETCH'D's\n"
-    "critical-hit ratio.");
+    "פריט להחזקה\n"
+    "שמעלה יחס \n"
+    "מכה קריטית לפארפץ'.");
 
 static const u8 sRedScarfDesc[] = _(
-    "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+    "פריט להחזקה\n"
+    "שמעלה מגניבות\n"
+    "בתחרויות.");
 
 static const u8 sBlueScarfDesc[] = _(
-    "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+    "פריט להחזקה\n"
+    "שמעלה יופי\n"
+    "בתחרויות.");
 
 static const u8 sPinkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+    "פריט להחזקה\n"
+    "שמעלה חמידות\n"
+    "בתחרויות.");
 
 static const u8 sGreenScarfDesc[] = _(
-    "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+    "פריט להחזקה\n"
+    "שמעלה חוכמה\n"
+    "בתחרויות.");
 
 static const u8 sYellowScarfDesc[] = _(
-    "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
-//
+    "פריט להחזקה\n"
+    "שמעלה קשיחות\n"
+    "בתחרויות.");
+
 // Key items
 static const u8 sMachBikeDesc[] = _(
     "A folding bicycle\n"

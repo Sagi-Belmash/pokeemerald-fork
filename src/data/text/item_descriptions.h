@@ -957,68 +957,67 @@ static const u8 sYellowScarfDesc[] = _(
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "A folding bicycle\n"
-    "that doubles your\n"
-    "speed or better.");
+    "אופניים מתקפלים\n"
+    "שמכפיל את המהירות\n"
+    "שלך או יותר.");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+    "תיבה שמכילה\n"
+    "עד 999,9 מטבעות.");
 
 static const u8 sItemfinderDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "מכשיר שמאותת\n"
+    "על פריט בלתי נראה\n"
+    "באמצעות צליל.");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+    "לשימוש ליד כל גוף\n"
+    "מים כדי לדוג\n"
+    "פוקימון פראי.");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "חכת דיג טובה\n"
+    "לתפיסת פוקימון\n"
+    "פראי.");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "החכה הטובה ביותר\n"
+    "לתפיסת פוקימון\n"
+    "פראי.");
 
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+    "כרטיס הנדרש\n"
+    "להפלגה במעבורת.");
 
 static const u8 sContestPassDesc[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+    "היתר הנדרש\n"
+    "להשתתפות\n"
+    "תחרויות פוקימון.");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+    "כלי המשמש להשקיית\n"
+    "פירות יער\n"
+    "וצמחים.");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+    "חבילה המכילה\n"
+    "חלקי מכונה\n"
+    "של דבון.");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+    "שק לאיסוף\n"
+    "והחזקה של\n"
+    "אפר וולקני.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for NEW\n"
-    "MAUVILLE beneath\n"
-    "MAUVILLE CITY.");
+    "המפתח למוויל\n"
+    "החדשה מתחת\n"
+    "לעיר מוויל.");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+    "אופניים מתקפלים\n"
+    "המסוגלים לקפיצות\n"
+    "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
     "A case for holding\n"

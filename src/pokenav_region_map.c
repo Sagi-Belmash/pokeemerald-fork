@@ -656,7 +656,7 @@ static void PrintLandmarkNames(struct Pokenav_RegionMapGfx *state, int mapSecId,
         if (!landmarkName)
             break;
 
-        StringCopyPadded(gStringVar1, landmarkName, CHAR_SPACE, 12, 0);
+        StringCopyPadded(gStringVar1, landmarkName, CHAR_SPACE, 12, FALSE);
         AddTextPrinterParameterizedWithRTL(state->infoWindowId, FONT_NARROW, gStringVar1, 0, i * 16 + 17, TEXT_SKIP_DRAW, NULL, TRUE);
         i++;
     }

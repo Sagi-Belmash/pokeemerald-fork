@@ -340,58 +340,58 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "אני רוצה לנוח, אז אני שומרת את\n"
+	.string "ההתקדמות שלי.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
-	.string "Hi!\n"
-	.string "I work at a POKéMON MART.\p"
-	.string "Can I get you to come with me?$"
+	.string "היי!\n"
+	.string "אני עובד בחנות פוקימון.\p"
+	.string "האם תוכל{ADD_YUD} לבוא איתי?$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "This is a POKéMON MART.\n"
-	.string "Just look for our blue roof.\p"
-	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching POKéMON.\p"
-	.string "Here, I'd like you to have this as\n"
-	.string "a promotional item.$"
+	.string "זה חנות הפוקימון.\n"
+	.string "רק חפש{ADD_YUD} את הגג הכחול שלנו.\p"
+	.string "אנחנו מוכרים מגוון מוצרים, כולל\n"
+	.string "פוכדורים לתפיסת פוקימון.\p"
+	.string "הנה, אני רוצה שתקבל{ADD_YUD} את זה\n"
+	.string "בתור פריט קידום מכירות.$"
 
 OldaleTown_Text_PotionExplanation:
-	.string "A POTION can be used anytime, so it's\n"
-	.string "even more useful than a POKéMON CENTER\l"
-	.string "in certain situations.$"
+	.string "ניתן להשתמש בשיקוי בכל עת, אז זה\n"
+	.string "אפילו יותר שימושי ממרכז הפוקימון\l"
+	.string "במצבים מסוימים.$"
 
 OldaleTown_Text_WaitDontComeInHere:
-	.string "Aaaaah! Wait!\n"
-	.string "Please don't come in here.\p"
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "אאאא! חכ{EMIT_HEY}{ADD_YUD}!\n"
+	.string "בבקשה אל תיכנס{ADD_YUD} לכאן.\p"
+	.string "אני בדיוק עכשיו גיליתי עקבות\n"
+	.string "של פוקימון נדיר!\p"
+	.string "חכ{EMIT_HEY}{ADD_YUD} שאסיים לשרטט אותן,\n"
+	.string "בסדר?$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "אני בדיוק עכשיו גיליתי עקבות\n"
+	.string "של פוקימון נדיר!\p"
+	.string "חכ{EMIT_HEY}{ADD_YUD} שאסיים לשרטט אותן,\n"
+	.string "בסדר?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "I finished sketching the footprints of\n"
-	.string "a rare POKéMON.\p"
-	.string "But it turns out they were only my\n"
-	.string "own footprints…$"
+	.string "סיימתי לשרטט את עקבותיו של\n"
+	.string "פוקימון נדיר.\p"
+	.string "אבל מסתבר שאלה היו העקבות\n"
+	.string "שלי…$"
 
 OldaleTown_Text_MayLetsGoBack:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Over here!\l"
-	.string "Let's hurry home!$"
+	.string "מאי: {PLAYER}{KUN}!\n"
+	.string "כאן!\l"
+	.string "בוא נמהר הביתה!$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to my dad's\n"
-	.string "LAB now.\l"
-	.string "{PLAYER}, you should hustle back, too.$"
+	.string "ברנדן: אני חוזר עכשיו למעבדה\n"
+	.string "של אבא שלי.\l"
+	.string "{PLAYER}, גם את צריכה להזדרז.$"
 
 OldaleTown_Text_TownSign:
-	.string "OLDALE TOWN\n"
-	.string "“Where things start off scarce.”$"
+	.string "עיירת אולדייל\n"
+	.string "“היכן שדברים מתחילים דלים.”$"
 

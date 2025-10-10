@@ -53,16 +53,16 @@ OldaleTown_Mart_EventScript_Boy::
 	end
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
-	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any POKé BALLS.$"
+	.string "המוכר אומר שכולם אזלו.\n"
+	.string "אני לא יכולה לקנות פוכדורים.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
-	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!$"
+	.string "אני הולכת לקנות המון פוכדורים\n"
+	.string "ולתפוס מלא פוקימונים!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
-	.string "If a POKéMON gets hurt and loses its HP\n"
-	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your POKéMON from fainting,\n"
-	.string "restore its HP with a POTION.$"
+	.string "אם פוקימון נפגע ומאבד את נ“ח שלו\n"
+	.string "ומתעלף, הוא לא יוכל להילחם.\p"
+	.string "כדי למנוע מהפוקימון שלך להתעלף,To prevent your POKéMON from fainting,\n"
+	.string "החז{ADD_YUD}ר{ADD_YUD} נ“ח עם שיקוי.$"
 

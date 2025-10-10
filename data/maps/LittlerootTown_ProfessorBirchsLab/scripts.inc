@@ -718,7 +718,7 @@ LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "פרופ. בירץ': אה, אל תהי{EMIT_HEY} כזה.\n"
-	.string "כדאי לך ללכת לפגוש את הילד שלי.$"
+	.string "כדאי לך ללכת לפגוש את הילד{EMIT_HEY} שלי.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "פרופ. בירץ': {RIVAL}?\n"

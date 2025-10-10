@@ -1179,9 +1179,9 @@ static void BufferNameForCardBack(void)
 static void PrintNameOnCardBack(void)
 {
     if (!sData->isHoenn)
-        AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, 136, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard, TRUE);
+        AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, 8/* 136 */, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard, TRUE);
     else
-        AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, sData->textPlayersCard, 216), 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard, TRUE);
+        AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, 8/* GetStringRightAlignXOffset(FONT_NORMAL, sData->textPlayersCard, 216) */, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard, TRUE);
 }
 
 static const u8 sText_HofTime[] = _("{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}");
@@ -1203,7 +1203,7 @@ static void PrintStatOnBackOfCard(u8 top, const u8 *statName, u8 *stat, const u8
     static const u8 widths[] = {216, 216};
 
     AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, xOffsets[sData->isHoenn], top * 16 + 33, sTrainerCardTextColors, TEXT_SKIP_DRAW, statName, TRUE);
-    AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, stat, widths[sData->isHoenn]), top * 16 + 33, color, TEXT_SKIP_DRAW, stat, TRUE);
+    AddTextPrinterParameterized3WithRTL(WIN_CARD_TEXT, FONT_NORMAL, 8/* GetStringRightAlignXOffset(FONT_NORMAL, stat, widths[sData->isHoenn]) */, top * 16 + 33, color, TEXT_SKIP_DRAW, stat, FALSE);
 }
 
 static void PrintHofDebutTimeOnCard(void)

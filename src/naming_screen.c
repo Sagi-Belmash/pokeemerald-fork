@@ -89,9 +89,9 @@ enum
 // This set is used for sNamingScreen->currentPage. It uses the order that the pages are cycled in
 enum
 {
-    KBPAGE_SYMBOLS,
-    KBPAGE_LETTERS_UPPER,
     KBPAGE_LETTERS_LOWER,
+    KBPAGE_LETTERS_UPPER,
+    KBPAGE_SYMBOLS,
     KBPAGE_COUNT,
 };
 
@@ -432,8 +432,8 @@ static void NamingScreen_Init(void)
     sNamingScreen->bg2vOffset = 0;
     sNamingScreen->bg1Priority = BGCNT_PRIORITY(1);
     sNamingScreen->bg2Priority = BGCNT_PRIORITY(2);
-    sNamingScreen->bgToReveal = 0;
-    sNamingScreen->bgToHide = 1;
+    sNamingScreen->bgToReveal = 1;
+    sNamingScreen->bgToHide = 0;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
     sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 36/* 72 */; // was +6
@@ -546,15 +546,15 @@ static void Task_NamingScreen(u8 taskId)
 // Which gfx/pal to load for the swap page button
 static const u8 sPageToNextGfxId[KBPAGE_COUNT] =
     {
-        [KBPAGE_SYMBOLS] = PAGE_SWAP_UPPER,
-        [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_LOWER,
-        [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS};
+        [KBPAGE_SYMBOLS] = PAGE_SWAP_LOWER,
+        [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_OTHERS,
+        [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_UPPER};
 
 static const u8 sPageToNextKeyboardId[KBPAGE_COUNT] =
     {
-        [KBPAGE_SYMBOLS] = KEYBOARD_LETTERS_UPPER,
-        [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_LOWER,
-        [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS};
+        [KBPAGE_SYMBOLS] = KEYBOARD_LETTERS_LOWER,
+        [KBPAGE_LETTERS_UPPER] = KEYBOARD_SYMBOLS,
+        [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_UPPER};
 
 static const u8 sPageToKeyboardId[KBPAGE_COUNT] =
     {
@@ -580,13 +580,13 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DrawBgTilemap(3, gNamingScreenBackground_Tilemap);
-    sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
-    DrawBgTilemap(2, gNamingScreenKeyboardLower_Tilemap);
-    DrawBgTilemap(1, gNamingScreenKeyboardUpper_Tilemap);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
-    NamingScreen_Dummy(2, KEYBOARD_LETTERS_LOWER);
-    NamingScreen_Dummy(1, KEYBOARD_LETTERS_UPPER);
+    sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
+    DrawBgTilemap(2, gNamingScreenKeyboardUpper_Tilemap);
+    DrawBgTilemap(1, gNamingScreenKeyboardLower_Tilemap);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_UPPER);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
+    NamingScreen_Dummy(2, KEYBOARD_LETTERS_UPPER);
+    NamingScreen_Dummy(1, KEYBOARD_LETTERS_LOWER);
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
@@ -1933,9 +1933,9 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
 static const u32 *const sNextKeyboardPageTilemaps[] =
     {
-        [KBPAGE_SYMBOLS] = gNamingScreenKeyboardUpper_Tilemap,
-        [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap,  // lower
-        [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap // symbols
+        [KBPAGE_SYMBOLS] = gNamingScreenKeyboardLower_Tilemap,
+        [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardSymbols_Tilemap,  // lower
+        [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardUpper_Tilemap // symbols
 };
 
 // There are always 2 keyboard pages drawn, the current page and the one that will shown next if the player swaps
@@ -2062,7 +2062,7 @@ static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
         .maxChars = PLAYER_NAME_LENGTH,
         .iconFunction = 1,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_UPPER,
+        .initialPage = KBPAGE_LETTERS_LOWER,
         .unused = 35,
         .title = gText_YourName,
 };
@@ -2073,7 +2073,7 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
         .maxChars = BOX_NAME_LENGTH,
         .iconFunction = 2,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_UPPER,
+        .initialPage = KBPAGE_LETTERS_LOWER,
         .unused = 19,
         .title = gText_BoxName,
 };
@@ -2084,7 +2084,7 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
         .maxChars = POKEMON_NAME_LENGTH,
         .iconFunction = 3,
         .addGenderIcon = TRUE,
-        .initialPage = KBPAGE_LETTERS_UPPER,
+        .initialPage = KBPAGE_LETTERS_LOWER,
         .unused = 35,
         .title = gText_PkmnsNickname,
 };
@@ -2095,7 +2095,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
         .maxChars = WALDA_PHRASE_LENGTH,
         .iconFunction = 4,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_UPPER,
+        .initialPage = KBPAGE_LETTERS_LOWER,
         .unused = 11,
         .title = gText_TellHimTheWords,
 };

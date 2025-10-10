@@ -697,109 +697,109 @@ static const u8 sEnigmaBerryDesc[] = _(
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
-    "A hold item that\n"
-    "casts a glare to\n"
-    "reduce accuracy.");
+    "פריט להחזקה\n"
+    "שמטיל נעיצת מבט\n"
+    "שמפחיתה דיוק.");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "A hold item that\n"
-    "restores any\n"
-    "lowered stat.");
+    "פריט להחזקה\n"
+    "שמחזיר כל\n"
+    "נתון שהורד.");
 
 static const u8 sMachoBraceDesc[] = _(
-    "A hold item that\n"
-    "promotes growth,\n"
-    "but reduces SPEED.");
+    "פריט להחזקה\n"
+    "שמקדם צמיחה,\n"
+    "אבל מפחית מהירות.");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets EXP. points\n"
-    "from battles.");
+    "פריט להחזקה\n"
+    "שמקבל נק'\n"
+    "ניסיון מקרבות.");
 
 static const u8 sQuickClawDesc[] = _(
-    "A hold item that\n"
-    "occasionally allows\n"
-    "the first strike.");
+    "פריט להחזקה\n"
+    "שמאפשר מדי פעם\n"
+    "להכות ראשון.");
 
 static const u8 sSootheBellDesc[] = _(
-    "A hold item that\n"
-    "calms spirits and\n"
-    "fosters friendship.");
+    "פריט להחזקהt\n"
+    "שמרגיע רוחות\n"
+    "ומטפח חברות.");
 
 static const u8 sMentalHerbDesc[] = _(
-    "A hold item that\n"
-    "snaps POKéMON out\n"
-    "of infatuation.");
+    "פריט להחזקה\n"
+    "שמוציא פוקימון\n"
+    "מהתאהבות.");
 
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+    "מגדיל את עוצמת\n"
+    "המהלך, אך מאפשר\n"
+    "רק את המהלך הזה.");
 
 static const u8 sKingsRockDesc[] = _(
-    "A hold item that\n"
-    "may cause flinching\n"
-    "when the foe is hit.");
+    "פריט להחזקה\n"
+    "שעלול לגרום לרתיעה\n"
+    "כאשר האויב נפגע.");
 
 static const u8 sSilverPowderDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "BUG-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה את עוצמת\n"
+    "מהלכים מסוג חרק.");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "מכפיל כסף בקרב\n"
+    "אם המחזיק\n"
+    "השתתף בו.");
 
 static const u8 sCleanseTagDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "POKéMON.");
+    "פריט להחזקהn"
+    "שמסייע לדחות\n"
+    "פוקימון פראי.");
 
 static const u8 sSoulDewDesc[] = _(
-    "Hold item: raises\n"
-    "SP. ATK & SP. DEF of\n"
-    "LATIOS & LATIAS.");
+    "פריט החזקה: מעלה\n"
+    "התקפה מ. והגנה מ. של\n"
+    "לאטיוס ולאטיאס.");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of CLAMPERL.");
+    "פריט להחזקה\n"
+    "שמעלה התקפה מ.\n"
+    "של קלמפרל.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. DEF\n"
-    "of CLAMPERL.");
+    "פריט להחזקה\n"
+    "שמעלה הגנה מ.\n"
+    "של קלמפרל.");
 
 static const u8 sSmokeBallDesc[] = _(
-    "A hold item that\n"
-    "assures fleeing\n"
-    "from wild POKéMON.");
+    "פריט להחזקה\n"
+    "שמבטיח הימלטות\n"
+    "מפוקימון פראי.");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "פריט מופלא\n"
+    "להחזקה שמונע\n"
+    "התפתחות.");
 
 static const u8 sFocusBandDesc[] = _(
-    "A hold item that\n"
-    "occasionally\n"
-    "prevents fainting.");
+    "פריט להחזקה\n"
+    "שמדי פעם\n"
+    "מונע התעלפות.");
 
 static const u8 sLuckyEggDesc[] = _(
-    "A hold item that\n"
-    "boosts EXP. points\n"
-    "earned in battle.");
+    "פריט להחזקה\n"
+    "שמגביר נ“נ\n"
+    "שנצברו בקרב.");
 
 static const u8 sScopeLensDesc[] = _(
-    "A hold item that\n"
-    "improves the\n"
-    "critical-hit rate.");
+    "פריט להחזקה\n"
+    "שמשפר את\n"
+    "יחס מכה קריטית.");
 
 static const u8 sMetalCoatDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "STEEL-type moves.");
+    "פריט להחזקה\n"
+    "שמעלה את עוצמת\n"
+    "מהלכים מסוג פלדה.");
 
 static const u8 sLeftoversDesc[] = _(
     "A hold item that\n"
@@ -954,7 +954,7 @@ static const u8 sYellowScarfDesc[] = _(
     "A hold item that\n"
     "raises TOUGH in\n"
     "CONTESTS.");
-
+//
 // Key items
 static const u8 sMachBikeDesc[] = _(
     "A folding bicycle\n"

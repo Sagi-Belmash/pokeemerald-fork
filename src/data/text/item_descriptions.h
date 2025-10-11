@@ -1200,195 +1200,194 @@ static const u8 sTM20Desc[] = _(
     "כוח מיסטי.");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "ככל המשתמש פחות\n"
+    "אוהב אותך, כך המהלך\n"
+    "הזה חזק יותר.");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "סופג אור שמש\n"
+    "בתור הראשון, ואז\n"
+    "תוקף בתור הבא.");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower DEFENSE.");
+    "מטיח את היריב עם\n"
+    "זנב קשה. עלול\n"
+    "להוריד הגנה.");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+    "התקפה חשמלית\n"
+    "חזקה שעלולה\n"
+    "לגרום לשיתוק.");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+    "מכה את האויב\n"
+    "ם ברק. עלולה\n"
+    "לגרום לשיתוק.");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+    "גורם לרעידת אדמה\n"
+    "שאין לה השפעה\n"
+    "יריבים מעופפים.");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "ככל שהמשתמש אוהב\n"
+    "אותך יותר, כך המהלך\n"
+    "הזה עוצמתי יותר.");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+    "חופר באדמה\n"
+    "בתור הראשון, ואז\n"
+    "מכה בתור הבא.");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower SP. DEF.");
+    "התקפה על חושית\n"
+    "חזקה שעלולה\n"
+    "להוריד הגנה מ.");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower SP. DEF.");
+    "משליך גוש אפל\n"
+    "על היריב. עלול\n"
+    "להוריד הגנה מ.");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like LIGHT SCREEN\n"
-    "and causes damage.");
+    "הורס מחסומים\n"
+    "כמו מסך אור\n"
+    "וגורם נזק.");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+    "יוצר עותקי\n"
+    "אשליה בכדי להגביר\n"
+    "חמקמקות.");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+    "יוצר חומה של\n"
+    "אור שמחלישה\n"
+    "התקפות פיזיות.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "ממריץ את היריב עם\n"
+    "זעזוע חשמל\n"
+    "שאף פעם לא מחטיא.");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+    "משחרר זרם\n"
+    "אש שעשויה לכוות\n"
+    "את היריב.");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+    "משליך רפש על\n"
+    "היריב. עלול להרעיל\n"
+    "את היריב.");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+    "גורם לסופת חול\n"
+    "שפוגעת ביריב\n"
+    "במשך מספר תורות.");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+    "התקפת אש עוצמתית\n"
+    "שעשויה לכוות\n"
+    "את היריב.");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+    "בעזרת סלעים מונע\n"
+    "מהיריב לזוז.\n"
+    "עלול להוריד מהירות.");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "התקפה מהירה\n"
+    "במיוחד שלא ניתן\n"
+    "להתחמק ממנה.");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+    "מונע מהיריב\n"
+    "להשתמש באותו\n"
+    "מהלך ברצף.");
 
 static const u8 sTM42Desc[] = _(
-    "Raises ATTACK when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+    "מגביר התקפה כאשר\n"
+    "מורעל, נכווה,\n"
+    "או משותק.");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+    "מוסיף השפעה\n"
+    "להתקפה בהתאם\n"
+    "למיקום.");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+    "המשתמש ישן למשך\n"
+    "2 תורות כדי\n"
+    "לרפא בריאות ומצב.");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "מקשה על היריב\n"
+    "לתקוף את\n"
+    "המגדר האחר.");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+    "בזמן התקפה,\n"
+    "זה עלול לגנוב את\n"
+    "הפריט של היריב.");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+    "פורש כנפיים\n"
+    "מחודדות וחזקות\n"
+    "ומתנגש ביריב.");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+    "מחליף יכולות\n"
+    "עם היריב בתור\n"
+    "שהמהלך בשימוש.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "גונב את ההשפעות\n"
+    "של המהלך שהיריב\n"
+    "מנסה להשתמש.");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
+    "מאפשר התקפה בעוצמה\n"
+    "מלאה, אבל מורידה\n"
+    "בחדות את ההתקפה מ.");
 
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "תוקף את היריב\n"
+    "עם להבים חדים\n"
+    "או טפרים.");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "עף למעלה בסיבוב\n"
+    "הראשון, ואז תוקף\n"
+    "בסיבוב הבא.");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+    "יוצר גל ענקי,\n"
+    "ואז מתרסק על\n"
+    "היריב.");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+    "בונה כוח עצום,\n"
+    "ואז מכה באויב.");
 
 static const u8 sHM05Desc[] = _(
-    "Looses a powerful\n"
-    "blast of light that\n"
-    "reduces accuracy.");
+    "משחרר פרץ אור\n"
+    "עוצמתי שמוריד\n"
+    "דיוק.");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower DEFENSE.");
+    "התקפה נוקשית\n"
+    "ומרסקת שעלולה\n"
+    "להוריד הגנה.");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "תוקף את היריב\n"
+    "עם מספיק כוח\n"
+    "כדי לטפס על מפלים.");
 
 static const u8 sHM08Desc[] = _(
-    "Dives underwater\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "צולל מתחת למים\n"
+    "בתור הראשון, ואז\n"
+    "תוקף בתור הבא.");
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(

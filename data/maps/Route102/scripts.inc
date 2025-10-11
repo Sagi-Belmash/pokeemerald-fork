@@ -74,36 +74,35 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-	.string "WALLY: {PLAYER}…\n"
-	.string "POKéMON hide in tall grass like this,\l"
-	.string "don't they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
-	.string "…Whoa!$"
+	.string "וואלי: {PLAYER}…\n"
+	.string "פוקימון מסתבר בעשב גבוה כזה,\l"
+	.string "נכון?\p"
+	.string "בבקשה תסתכל{ADD_YUD} עליי ותרא{EMIT_HEY}{ADD_YUD} אם אני יכול\n"
+	.string "לתפוס אחד כמו שצריך.\p"
+	.string "…וואו!$"
 
 Route102_Text_WallyIDidIt:
-	.string "WALLY: I did it… It's my…\n"
-	.string "My POKéMON!$"
+	.string "וואלי: עשיתי את זה… זה ה…\n"
+	.string "פוקימון שלי!$"
 
 Route102_Text_LetsGoBack:
-	.string "{PLAYER}, thank you!\n"
-	.string "Let's go back to the GYM!$"
+	.string "{PLAYER}, תודה לך!\n"
+	.string "בוא{ADD_YUD} נחזור למכון!$"
 
 Route102_Text_ImNotVeryTall:
-	.string "I'm…not very tall, so I sink right\n"
-	.string "into tall grass.\p"
-	.string "The grass goes up my nose and…\n"
-	.string "Fwafwafwafwafwa…\p"
-	.string "Fwatchoo!$"
+	.string "אני…לא גבוה במיוחד, אז אני שוקע\n"
+	.string "לעשב הגבוה.\p"
+	.string "הדשא עולה לי לאף ו…\n"
+	.string "פוואפוואפוואפווא…\p"
+	.string "פוואצ'ו!$"
 
 Route102_Text_CatchWholeBunchOfPokemon:
-	.string "I'm going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+	.string "אני הולך לתפוס המון פוקימונים!$"
 
 Route102_Text_RouteSignOldale:
-	.string "ROUTE 102\n"
-	.string "{RIGHT_ARROW} OLDALE TOWN$"
+	.string "דרך 201\n"
+	.string "{RIGHT_ARROW} עיירת אולדייל$"
 
 Route102_Text_RouteSignPetalburg:
-	.string "ROUTE 102\n"
-	.string "{LEFT_ARROW} PETALBURG CITY$"
+	.string "דרך 201\n"
+	.string "{LEFT_ARROW} עיר פטלבורג$"

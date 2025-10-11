@@ -33,7 +33,7 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	release
 	end
 
-PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::,
+PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
 	bufferspeciesname STR_VAR_1, VAR_STARTER_MON
 	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType
 	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
@@ -88,4 +88,3 @@ PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
 	.string "הוא חזק נגד סוג אש.\p"
 	.string "אבל, חלש נגד פוקימון מסוג עשב\n"
 	.string "וחשמל.$"
-

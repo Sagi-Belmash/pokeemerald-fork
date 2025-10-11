@@ -664,6 +664,7 @@ void ClearTextSpan(struct TextPrinter *textPrinter, u32 width)
     struct Bitmap pixels_data;
     struct TextGlyph *glyph;
     u8 *glyphHeight;
+    u32 startX;
 
     if (sLastTextBgColor != TEXT_COLOR_TRANSPARENT)
     {
@@ -675,14 +676,18 @@ void ClearTextSpan(struct TextPrinter *textPrinter, u32 width)
         glyph = &gCurGlyph;
         glyphHeight = &glyph->height;
 
+        startX = textPrinter->printerTemplate.rtlMode
+                ? textPrinter->printerTemplate.currentX - width
+                : textPrinter->printerTemplate.currentX;
+
         FillBitmapRect4Bit(
             &pixels_data,
-            textPrinter->printerTemplate.currentX,
+            startX,
             textPrinter->printerTemplate.currentY,
             width,
             *glyphHeight,
             sLastTextBgColor);
-    }
+            }
 }
 
 static u16 FontFunc_Small(struct TextPrinter *textPrinter)
@@ -1073,11 +1078,12 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_CLEAR_TO:
                 {
-                    if(!textPrinter->printerTemplate.rtlMode) 
+                    widthHelper = *textPrinter->printerTemplate.currentChar++;
+                    
+                    if (!textPrinter->printerTemplate.rtlMode)
                     {
-                        widthHelper = *textPrinter->printerTemplate.currentChar;
+                        // Clear to the right (LTR)
                         widthHelper += textPrinter->printerTemplate.x;
-                        textPrinter->printerTemplate.currentChar++;
                         width = widthHelper - textPrinter->printerTemplate.currentX;
                         if (width > 0)
                         {
@@ -1085,16 +1091,15 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                             textPrinter->printerTemplate.currentX += width;
                             return RENDER_PRINT;
                         }
-                    } 
-                    else 
+                    }
+                    else
                     {
-                        widthHelper = *textPrinter->printerTemplate.currentChar;
+                        // Clear to the left (RTL)
                         widthHelper = textPrinter->printerTemplate.x - widthHelper;
-                        textPrinter->printerTemplate.currentChar++;
                         width = textPrinter->printerTemplate.currentX - widthHelper;
                         if (width > 0)
                         {
-                            //ClearTextSpan(textPrinter, width);
+                            ClearTextSpan(textPrinter, width);
                             textPrinter->printerTemplate.currentX -= width;
                             return RENDER_PRINT;
                         }

@@ -623,7 +623,7 @@ const u8 *GetExpandedPlaceholder(u32 id)
     [PLACEHOLDER_ID_EMIT_TAF]       = ExpandPlaceholder_EmitTaf,
     [PLACEHOLDER_ID_EMIT_VAV]       = ExpandPlaceholder_EmitVav,
     [PLACEHOLDER_ID_SWAP_CHAF]      = ExpandPlaceholder_SwapChaf,
-    [PLACEHOLDER_ID_SWAF_MEM]       = ExpandPlaceholder_SwapMem,
+    [PLACEHOLDER_ID_SWAP_MEM]       = ExpandPlaceholder_SwapMem,
     [PLACEHOLDER_ID_SWAP_NUN]       = ExpandPlaceholder_SwapNun,
     [PLACEHOLDER_ID_SWAP_PEY]       = ExpandPlaceholder_SwapPey,
     [PLACEHOLDER_ID_SWAP_TZADIK]    = ExpandPlaceholder_SwapTzadik,

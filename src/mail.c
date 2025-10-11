@@ -689,7 +689,7 @@ static void PrintMailText(void)
     }
     bufptr = StringCopy(signature, gText_FromSpace);
     StringCopy(bufptr, sMailRead->playerName);
-    box_x = GetStringCenterAlignXOffset(FONT_NORMAL, signature, sMailRead->signatureWidth) + 104;
+    box_x = sMailRead->layout->lines[i].xOffset + sMailRead->layout->wordsXPos/* GetStringCenterAlignXOffset(FONT_NORMAL, signature, sMailRead->signatureWidth) + 104 */;
     box_y = sMailRead->layout->signatureYPos + 88;
     AddTextPrinterParameterized3WithRTL(0, FONT_NORMAL, box_x, box_y, sTextColors, 0, signature, TRUE);
     CopyWindowToVram(0, COPYWIN_FULL);

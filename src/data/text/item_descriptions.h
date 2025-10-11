@@ -739,7 +739,7 @@ static const u8 sChoiceBandDesc[] = _(
 static const u8 sKingsRockDesc[] = _(
     "פריט להחזקה\n"
     "שעלול לגרום לרתיעה\n"
-    "כאשר האויב נפגע.");
+    "כאשר היריב נפגע.");
 
 static const u8 sSilverPowderDesc[] = _(
     "פריט להחזקה\n"
@@ -1105,99 +1105,99 @@ static const u8 sTM01Desc[] = _(
     "אם נפגע מהיריב.");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+    "תופס וחותך את\n"
+    "היריב עם טפרים\n"
+    "ארוכים וחדים.");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "יוצר גל\n"
+    "אולטרסאונד שעשוי\n"
+    "לבלבל.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+    "מעלה את ההתקפה מ.\n"
+    "וההגנה מ. על ידי\n"
+    "מיקוד המחשבה.");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "שאגה פראית\n"
+    "שגורמת ליריב לברוח\n"
+    "לכדי סיום הקרב.");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+    "מרעיל את היריב\n"
+    "עם רעלן שבהדרגה\n"
+    "מחמיר.");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except ICE.");
+    "יוצר סופת ברד\n"
+    "שפוגעת בכל\n"
+    "סוג חוץ מקרח.");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+    "מחזק את הגוף\n"
+    "כדי להגביר\n"
+    "התקפה והגנה.");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+    "יורה 2 עד 5 זרעים\n"
+    "ברציפות כדי\n"
+    "לפגוע ביריב.");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different POKéMON.");
+    "כוח ההתקפה\n"
+    "משתנה בין\n"
+    "פוקימונים שונים.");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "FIRE-type moves\n"
-    "for 5 turns.");
+    "מגביר את כוחם\n"
+    "של מהלכים מסוג אש\n"
+    "במשך 5 תורות.");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+    "מעורר זעם ביריב\n"
+    "כך שהוא רק משתמש\n"
+    "במהלכי התקפה.");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+    "יורה קרן קפואה\n"
+    "שעשויה להקפיא\n"
+    "את היריב.");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+    "התקפת שלג ורוח\n"
+    "אכזרית שעלולה\n"
+    "להקפיא את היריב.");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "עוצמתי, אבל\n"
+    "מצריך טעינה\n"
+    "בתור הבא.");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "SP. ATK damage.");
+    "יוצר קיר של אור\n"
+    "שמוריד נזק\n"
+    "של התקפה מ.");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+    "מבטל כל נזק,\n"
+    "אך עלול להיכשל\n"
+    "בשימוש ברצף.");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "WATER-type moves\n"
-    "for 5 turns.");
+    "מגביר את כוחם של\n"
+    "מהלכים מסוג מים\n"
+    "במשך 5 תורות.");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+    "מחזיר חצי מהנח\n"
+    "של הנזק שהמהלך\n"
+    "הזה גורם.");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+    "מונע חריגת\n"
+    "סטטוס בעזרת\n"
+    "כוח מיסטי.");
 
 static const u8 sTM21Desc[] = _(
     "The less the user\n"

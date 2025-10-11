@@ -699,63 +699,63 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
+	.string "לאן נעלם וולי?\p"
+	.string "אנחנו צריכים לצאת לעיר ורדנטרף\n"
+	.string "בקרוב מאוד…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "היי! אולי את{EMIT_HEY}…\n"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} פוקימון חדש{ADD_HEY}?\p"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} מה מאמני פוקימון עושים\n"
+	.string "כשהם מגיעים לעיר חדשה?\p"
+	.string "קודם כול הם בודקים איזה סוג מכון\n"
+	.string "נמצא בעיר.$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "רואה? זה מכון העיר פטלבורג.$"
 
 PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
+	.string "זה השלט של המכון. חפש{ADD_YUD} אותו\n"
+	.string "כשאת{EMIT_HEY} מחפש{ADD_TAF} מכון פוקימון.$"
 
 PetalburgCity_Text_WaterReflection:
-	.string "My face is reflected in the water.\p"
-	.string "It's a shining grin full of hope…\p"
-	.string "Or it could be a look of somber silence\n"
-	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "הפנים שלי משתקפות במים.\p"
+	.string "זה חיוך בוהק מלא תקווה…\p"
+	.string "או אולי מבט שקט ועצוב\n"
+	.string "המתמודד עם פחד…\p"
+	.string "מה את{EMIT_HEY} רואה משתקף בפנים שלך?$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "נניח שיש לך שישה פוקימונים.\n"
+	.string "אם תלכ{EMIT_VAV}ד{ADD_YUD} עוד אחד…\p"
+	.string "הוא יישלח אוטומטית לתיבת אחסון\n"
+	.string "דרך חיבור המחשב.$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG CITY POKéMON GYM\n"
-	.string "LEADER: NORMAN\l"
-	.string "“A man in pursuit of power!”$"
+	.string "מכון פוקימון של העיר פטלבורג\n"
+	.string "מנהיג: נורמן\l"
+	.string "”גבר השואף לעוצמה!“$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG CITY\n"
-	.string "“Where people mingle with nature.”$"
+	.string "עיר פטלבורג\n"
+	.string "”המקום שבו אנשים משתלבים עם הטבע.“$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S HOUSE$"
+	.string "הבית של וולי$"
 
 PetalburgCity_Text_AreYouATrainer:
-	.string "Excuse me!\p"
-	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "סליחה!\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לנחש, לפי איך שאת{EMIT_HEY} לבוש{ADD_HEY},\n"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF} פוקימון?$"
 
 PetalburgCity_Text_WellMaybeNot:
 	.string "… … … … … …\p"
-	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty.\p"
-	.string "You're either a rookie TRAINER,\n"
-	.string "or maybe you're just an ordinary kid.$"
+	.string "ובכן, אולי לא.\n"
+	.string "הבגדים שלך לא ממש מלוכלכים.\p"
+	.string "את{EMIT_HEY} כנראה מאמ{SWAP_NUN}{ADD_TAF} מתחיל{ADD_HEY},\n"
+	.string "או אולי סתם ילד{ADD_HEY} רגיל{ADD_HEY}.$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
-	.string "I'm roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
-	.string "I'm sorry to have taken your time.$"
+	.string "אני נודד בארץ בחיפוש אחר\n"
+	.string "מאמנים מוכשרים.\p"
+	.string "סליחה שגזלתי מזמנך.$"

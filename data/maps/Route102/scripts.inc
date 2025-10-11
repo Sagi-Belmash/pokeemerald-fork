@@ -74,7 +74,7 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-	.string "וואלי: {PLAYER}…\n"
+	.string "וולי: {PLAYER}…\n"
 	.string "פוקימון מסתבר בעשב גבוה כזה,\l"
 	.string "נכון?\p"
 	.string "בבקשה תסתכל{ADD_YUD} עליי ותרא{EMIT_HEY}{ADD_YUD} אם אני יכול\n"
@@ -82,7 +82,7 @@ Route102_Text_WatchMeCatchPokemon:
 	.string "…וואו!$"
 
 Route102_Text_WallyIDidIt:
-	.string "וואלי: עשיתי את זה… זה ה…\n"
+	.string "וולי: עשיתי את זה… זה ה…\n"
 	.string "פוקימון שלי!$"
 
 Route102_Text_LetsGoBack:

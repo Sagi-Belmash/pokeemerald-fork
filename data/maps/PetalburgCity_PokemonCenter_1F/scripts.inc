@@ -33,7 +33,8 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	release
 	end
 
-PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::
+PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo::,
+	bufferspeciesname STR_VAR_1, VAR_STARTER_MON
 	call_if_eq VAR_STARTER_MON, 0, PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType
 	call_if_eq VAR_STARTER_MON, 1, PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType
 	call_if_eq VAR_STARTER_MON, 2, PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType
@@ -53,42 +54,38 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
-	.string "That PC-based POKéMON Storage\n"
-	.string "System…\p"
-	.string "Whoever made it must be some kind\n"
-	.string "of a scientific wizard!$"
+	.string "המערכת אחסון פוקימון מבוססת\n"
+	.string "מחשב הזאת…\p"
+	.string "מי שיצר אותו חייב להיות סוג\n"
+	.string "של קוסם מדעי!$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
-	.string "When my POKéMON ate an\n"
-	.string "ORAN BERRY, it regained HP!$"
+	.string "כשהפוקימון שלי אכל פרי אוכמניה,\n"
+	.string "זה החזיר לו נח!$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
-	.string "There are many types of POKéMON.\p"
-	.string "All types have their strengths and\n"
-	.string "weaknesses against other types.\p"
-	.string "Depending on the types of POKéMON,\n"
-	.string "a battle could be easy or hard.$"
+	.string "ישנם סוגים רבים של פוקימון.\p"
+	.string "לכל הסוגים יש את החוזקות והחולשות\n"
+	.string "שלהם נגד סוגים אחרים.\p"
+	.string "בהתאם לסוגים של הפוקימון,\n"
+	.string "קרב יכול להיות קל או קשה.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
-	.string "For example, your TREECKO\n"
-	.string "is a GRASS type.\p"
-	.string "It's strong against the WATER and\n"
-	.string "GROUND types.\p"
-	.string "But, it's weak against FIRE-type\n"
-	.string "POKéMON.$"
+	.string "למשל, ה{STR_VAR_1} שלך\n"
+	.string "הוא מסוג עשב.\p"
+	.string "הוא חזק נגד סוגי מים ואדמה.\p"
+	.string "אבל, חלש נגד פוקימון מסוג אש.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType:
-	.string "For example, your TORCHIC\n"
-	.string "is a FIRE type.\p"
-	.string "It's strong against the GRASS and\n"
-	.string "BUG types.\p"
-	.string "But, it's weak against WATER-type\n"
-	.string "POKéMON.$"
+	.string "למשל, ה{STR_VAR_1} שלך\n"
+	.string "הוא מסוג אש.\p"
+	.string "הוא חזק נגד סוגי עשב וחרק.\p"
+	.string "אבל, חלש נגד פוקימון מסוג מים.$"
 
 PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
-	.string "For example, your MUDKIP\n"
-	.string "is a WATER type.\p"
-	.string "It's strong against the FIRE type.\p"
-	.string "But, it's weak against GRASS-type\n"
-	.string "and ELECTRIC-type POKéMON.$"
+	.string "למשל, ה{STR_VAR_1} שלך\n"
+	.string "הוא מסוג מים.\p"
+	.string "הוא חזק נגד סוג אש.\p"
+	.string "אבל, חלש נגד פוקימון מסוג עשב\n"
+	.string "וחשמל.$"
 

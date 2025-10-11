@@ -740,6 +740,7 @@ static void BufferRibbonMonInfoText(struct PokenavListItem *listItem, u8 *dest)
 //  *s++ = CHAR_EXTRA_SYMBOL;
     *s++ = CHAR_t/* CHAR_LV_2 */;
     ConvertIntToDecimalStringN(s, level, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(s);
     dest = GetStringClearToWidth(dest, FONT_NORMAL, gStringVar1, 54);
     ConvertIntToDecimalStringN(dest, item->data, STR_CONV_MODE_RIGHT_ALIGN, 2);
 }

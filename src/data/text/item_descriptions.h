@@ -227,9 +227,8 @@ static const u8 sShoalShellDesc[] = _(
     "שרטון.");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "חרס מפריט עתיק.\n"
+    "ניתן למכור בזול.");
 
 static const u8 sBlueShardDesc[] = _(
     "חרס מפריט עתיק.\n"

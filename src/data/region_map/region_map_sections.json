@@ -450,7 +450,7 @@
     },
     {
       "id": "MAPSEC_MT_CHIMNEY",
-      "name": "MT. CHIMNEY",
+      "name": "הר ארובה",
       "x": 6,
       "y": 2,
       "width": 1,
@@ -458,7 +458,7 @@
     },
     {
       "id": "MAPSEC_SAFARI_ZONE",
-      "name": "SAFARI ZONE",
+      "name": "אזור הספארי",
       "x": 16,
       "y": 2,
       "width": 1,
@@ -466,7 +466,7 @@
     },
     {
       "id": "MAPSEC_BATTLE_FRONTIER",
-      "name": "BATTLE FRONTIER",
+      "name": "קצה הקרב",
       "x": 22,
       "y": 12,
       "width": 1,
@@ -474,7 +474,7 @@
     },
     {
       "id": "MAPSEC_PETALBURG_WOODS",
-      "name": "PETALBURG WOODS",
+      "name": "יער פטלבורג",
       "x": 0,
       "y": 8,
       "width": 1,
@@ -482,7 +482,7 @@
     },
     {
       "id": "MAPSEC_RUSTURF_TUNNEL",
-      "name": "RUSTURF TUNNEL",
+      "name": "מנהרת רסטרף",
       "x": 2,
       "y": 5,
       "width": 1,
@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "ABANDONED SHIP",
+      "name": "ספינה נטושה",
       "x": 6,
       "y": 14,
       "width": 1,
@@ -498,7 +498,7 @@
     },
     {
       "id": "MAPSEC_NEW_MAUVILLE",
-      "name": "NEW MAUVILLE",
+      "name": "מוויל החדשה",
       "x": 8,
       "y": 7,
       "width": 1,
@@ -506,7 +506,7 @@
     },
     {
       "id": "MAPSEC_METEOR_FALLS",
-      "name": "METEOR FALLS",
+      "name": "מפלי מטאור",
       "x": 0,
       "y": 3,
       "width": 1,
@@ -514,7 +514,7 @@
     },
     {
       "id": "MAPSEC_METEOR_FALLS2",
-      "name": "METEOR FALLS",
+      "name": "מפלי מטאור",
       "x": 1,
       "y": 2,
       "width": 1,
@@ -522,7 +522,7 @@
     },
     {
       "id": "MAPSEC_MT_PYRE",
-      "name": "MT. PYRE",
+      "name": "הר מוקד",
       "x": 16,
       "y": 4,
       "width": 1,
@@ -530,7 +530,7 @@
     },
     {
       "id": "MAPSEC_AQUA_HIDEOUT_OLD",
-      "name": "{AQUA} HIDEOUT",
+      "name": "מחבוא {AQUA}",
       "x": 19,
       "y": 3,
       "width": 1,
@@ -538,7 +538,7 @@
     },
     {
       "id": "MAPSEC_SHOAL_CAVE",
-      "name": "SHOAL CAVE",
+      "name": "מערת שרטון",
       "x": 24,
       "y": 4,
       "width": 1,
@@ -546,7 +546,7 @@
     },
     {
       "id": "MAPSEC_SEAFLOOR_CAVERN",
-      "name": "SEAFLOOR CAVERN",
+      "name": "מחילת קרקעית הים",
       "x": 24,
       "y": 9,
       "width": 1,
@@ -554,7 +554,7 @@
     },
     {
       "id": "MAPSEC_UNDERWATER_SEAFLOOR_CAVERN",
-      "name": "UNDERWATER",
+      "name": "במצולות",
       "x": 24,
       "y": 9,
       "width": 1,
@@ -562,7 +562,7 @@
     },
     {
       "id": "MAPSEC_VICTORY_ROAD",
-      "name": "VICTORY ROAD",
+      "name": "דרך הניצחון",
       "x": 27,
       "y": 9,
       "width": 1,
@@ -570,7 +570,7 @@
     },
     {
       "id": "MAPSEC_MIRAGE_ISLAND",
-      "name": "MIRAGE ISLAND",
+      "name": "אי התעתוע",
       "x": 17,
       "y": 10,
       "width": 1,
@@ -578,7 +578,7 @@
     },
     {
       "id": "MAPSEC_CAVE_OF_ORIGIN",
-      "name": "CAVE OF ORIGIN",
+      "name": "מערת המקור",
       "x": 21,
       "y": 7,
       "width": 1,
@@ -586,7 +586,7 @@
     },
     {
       "id": "MAPSEC_SOUTHERN_ISLAND",
-      "name": "SOUTHERN ISLAND",
+      "name": "האי הדרומי",
       "x": 12,
       "y": 14,
       "width": 1,
@@ -594,7 +594,7 @@
     },
     {
       "id": "MAPSEC_FIERY_PATH",
-      "name": "FIERY PATH",
+      "name": "מעבר לוהט",
       "x": 6,
       "y": 3,
       "width": 1,
@@ -602,7 +602,7 @@
     },
     {
       "id": "MAPSEC_FIERY_PATH2",
-      "name": "FIERY PATH",
+      "name": "מעבר לוהט",
       "x": 7,
       "y": 3,
       "width": 1,
@@ -610,7 +610,7 @@
     },
     {
       "id": "MAPSEC_JAGGED_PASS",
-      "name": "JAGGED PASS",
+      "name": "מעבר משונן",
       "x": 6,
       "y": 3,
       "width": 1,
@@ -618,7 +618,7 @@
     },
     {
       "id": "MAPSEC_JAGGED_PASS2",
-      "name": "JAGGED PASS",
+      "name": "מעבר משונן",
       "x": 7,
       "y": 2,
       "width": 1,
@@ -626,7 +626,7 @@
     },
     {
       "id": "MAPSEC_SEALED_CHAMBER",
-      "name": "SEALED CHAMBER",
+      "name": "תא אטום",
       "x": 11,
       "y": 10,
       "width": 1,
@@ -634,7 +634,7 @@
     },
     {
       "id": "MAPSEC_UNDERWATER_SEALED_CHAMBER",
-      "name": "UNDERWATER",
+      "name": "במצולות",
       "x": 11,
       "y": 10,
       "width": 1,
@@ -642,7 +642,7 @@
     },
     {
       "id": "MAPSEC_SCORCHED_SLAB",
-      "name": "SCORCHED SLAB",
+      "name": "לוח חרוך",
       "x": 13,
       "y": 0,
       "width": 1,
@@ -650,7 +650,7 @@
     },
     {
       "id": "MAPSEC_ISLAND_CAVE",
-      "name": "ISLAND CAVE",
+      "name": "מערת אי",
       "x": 0,
       "y": 10,
       "width": 1,
@@ -658,7 +658,7 @@
     },
     {
       "id": "MAPSEC_DESERT_RUINS",
-      "name": "DESERT RUINS",
+      "name": "חורבות מדבר",
       "x": 8,
       "y": 3,
       "width": 1,
@@ -666,7 +666,7 @@
     },
     {
       "id": "MAPSEC_ANCIENT_TOMB",
-      "name": "ANCIENT TOMB",
+      "name": "קבר עתיק",
       "x": 13,
       "y": 2,
       "width": 1,
@@ -674,11 +674,11 @@
     },
     {
       "id": "MAPSEC_INSIDE_OF_TRUCK",
-      "name": "INSIDE OF TRUCK"
+      "name": "בתוך המשאית"
     },
     {
       "id": "MAPSEC_SKY_PILLAR",
-      "name": "SKY PILLAR",
+      "name": "עמוד שמיים",
       "x": 19,
       "y": 10,
       "width": 1,
@@ -686,450 +686,450 @@
     },
     {
       "id": "MAPSEC_SECRET_BASE",
-      "name": "SECRET BASE"
+      "name": "בסיס סודי"
     },
     {
       "id": "MAPSEC_DYNAMIC"
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN"
+      "name": "עיירת פאלט"
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY"
+      "name": "עיר וירידיאן"
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY"
+      "name": "עיר פיוטר"
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY"
+      "name": "עיר סרוליאן"
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN"
+      "name": "עיירת לבנדר"
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY"
+      "name": "עיר ורמיליון"
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "CELADON CITY"
+      "name": "עיר סלדון"
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY"
+      "name": "עיר פושיה"
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND"
+      "name": "אי סינבר"
     },
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "INDIGO PLATEAU"
+      "name": "רמת אניל"
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY"
+      "name": "עיר ספרון"
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "ROUTE 4"
+      "name": "דרך 4"
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "ROUTE 10"
+      "name": "דרך 01"
     },
     {
       "id": "MAPSEC_ROUTE_1",
-      "name": "ROUTE 1"
+      "name": "דרך 1"
     },
     {
       "id": "MAPSEC_ROUTE_2",
-      "name": "ROUTE 2"
+      "name": "דרך 2"
     },
     {
       "id": "MAPSEC_ROUTE_3",
-      "name": "ROUTE 3"
+      "name": "דרך 3"
     },
     {
       "id": "MAPSEC_ROUTE_4",
-      "name": "ROUTE 4"
+      "name": "דרך 4"
     },
     {
       "id": "MAPSEC_ROUTE_5",
-      "name": "ROUTE 5"
+      "name": "דרך 5"
     },
     {
       "id": "MAPSEC_ROUTE_6",
-      "name": "ROUTE 6"
+      "name": "דרך 6"
     },
     {
       "id": "MAPSEC_ROUTE_7",
-      "name": "ROUTE 7"
+      "name": "דרך 7"
     },
     {
       "id": "MAPSEC_ROUTE_8",
-      "name": "ROUTE 8"
+      "name": "דרך 8"
     },
     {
       "id": "MAPSEC_ROUTE_9",
-      "name": "ROUTE 9"
+      "name": "דרך 9"
     },
     {
       "id": "MAPSEC_ROUTE_10",
-      "name": "ROUTE 10"
+      "name": "דרך 01"
     },
     {
       "id": "MAPSEC_ROUTE_11",
-      "name": "ROUTE 11"
+      "name": "דרך 11"
     },
     {
       "id": "MAPSEC_ROUTE_12",
-      "name": "ROUTE 12"
+      "name": "דרך 21"
     },
     {
       "id": "MAPSEC_ROUTE_13",
-      "name": "ROUTE 13"
+      "name": "דרך 31"
     },
     {
       "id": "MAPSEC_ROUTE_14",
-      "name": "ROUTE 14"
+      "name": "דרך 41"
     },
     {
       "id": "MAPSEC_ROUTE_15",
-      "name": "ROUTE 15"
+      "name": "דרך 51"
     },
     {
       "id": "MAPSEC_ROUTE_16",
-      "name": "ROUTE 16"
+      "name": "דרך 61"
     },
     {
       "id": "MAPSEC_ROUTE_17",
-      "name": "ROUTE 17"
+      "name": "דרך 71"
     },
     {
       "id": "MAPSEC_ROUTE_18",
-      "name": "ROUTE 18"
+      "name": "דרך 81"
     },
     {
       "id": "MAPSEC_ROUTE_19",
-      "name": "ROUTE 19"
+      "name": "דרך 91"
     },
     {
       "id": "MAPSEC_ROUTE_20",
-      "name": "ROUTE 20"
+      "name": "דרך 02"
     },
     {
       "id": "MAPSEC_ROUTE_21",
-      "name": "ROUTE 21"
+      "name": "דרך 12"
     },
     {
       "id": "MAPSEC_ROUTE_22",
-      "name": "ROUTE 22"
+      "name": "דרך 22"
     },
     {
       "id": "MAPSEC_ROUTE_23",
-      "name": "ROUTE 23"
+      "name": "דרך 32"
     },
     {
       "id": "MAPSEC_ROUTE_24",
-      "name": "ROUTE 24"
+      "name": "דרך 42"
     },
     {
       "id": "MAPSEC_ROUTE_25",
-      "name": "ROUTE 25"
+      "name": "דרך 52"
     },
     {
       "id": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "VIRIDIAN FOREST"
+      "name": "יער וירידיאן"
     },
     {
       "id": "MAPSEC_MT_MOON",
-      "name": "MT. MOON"
+      "name": "הר הירח"
     },
     {
       "id": "MAPSEC_S_S_ANNE",
-      "name": "S.S. ANNE"
+      "name": "ס.ס. אנה"
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH",
-      "name": "UNDERGROUND PATH"
+      "name": "מעבר תת-קרקעי"
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "UNDERGROUND PATH"
+      "name": "מעבר תת-קרקעי"
     },
     {
       "id": "MAPSEC_DIGLETTS_CAVE",
-      "name": "DIGLETT'S CAVE"
+      "name": "מערת דיגלט"
     },
     {
       "id": "MAPSEC_KANTO_VICTORY_ROAD",
-      "name": "VICTORY ROAD"
+      "name": "דרך הניצחון"
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
-      "name": "ROCKET HIDEOUT"
+      "name": "מחבוא רקטה"
     },
     {
       "id": "MAPSEC_SILPH_CO",
-      "name": "SILPH CO."
+      "name": "חברת סילפ."
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION"
+      "name": "אחוזת הפוקימון"
     },
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
-      "name": "SAFARI ZONE"
+      "name": "אזור הספארי"
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE"
+      "name": "ליגת הפוקימון"
     },
     {
       "id": "MAPSEC_ROCK_TUNNEL",
-      "name": "ROCK TUNNEL"
+      "name": "מנהרת הסלע"
     },
     {
       "id": "MAPSEC_SEAFOAM_ISLANDS",
-      "name": "SEAFOAM ISLANDS"
+      "name": "איי קצף הים"
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER"
+      "name": "מגדל הפוקימון"
     },
     {
       "id": "MAPSEC_CERULEAN_CAVE",
-      "name": "CERULEAN CAVE"
+      "name": "מערת סרוליאן"
     },
     {
       "id": "MAPSEC_POWER_PLANT",
-      "name": "POWER PLANT"
+      "name": "תחנת הכוח"
     },
     {
       "id": "MAPSEC_ONE_ISLAND",
-      "name": "ONE ISLAND"
+      "name": "אי אחד"
     },
     {
       "id": "MAPSEC_TWO_ISLAND",
-      "name": "TWO ISLAND"
+      "name": "אי שניים"
     },
     {
       "id": "MAPSEC_THREE_ISLAND",
-      "name": "THREE ISLAND"
+      "name": "אי שלוש"
     },
     {
       "id": "MAPSEC_FOUR_ISLAND",
-      "name": "FOUR ISLAND"
+      "name": "אי ארבע"
     },
     {
       "id": "MAPSEC_FIVE_ISLAND",
-      "name": "FIVE ISLAND"
+      "name": "אי חמש"
     },
     {
       "id": "MAPSEC_SEVEN_ISLAND",
-      "name": "SEVEN ISLAND"
+      "name": "אי שבע"
     },
     {
       "id": "MAPSEC_SIX_ISLAND",
-      "name": "SIX ISLAND"
+      "name": "אי שש"
     },
     {
       "id": "MAPSEC_KINDLE_ROAD",
-      "name": "KINDLE ROAD"
+      "name": "דרך האור"
     },
     {
       "id": "MAPSEC_TREASURE_BEACH",
-      "name": "TREASURE BEACH"
+      "name": "חוף אוצר"
     },
     {
       "id": "MAPSEC_CAPE_BRINK",
-      "name": "CAPE BRINK"
+      "name": "כף הקצה"
     },
     {
       "id": "MAPSEC_BOND_BRIDGE",
-      "name": "BOND BRIDGE"
+      "name": "גשר הקשר"
     },
     {
       "id": "MAPSEC_THREE_ISLE_PORT",
-      "name": "THREE ISLE PORT"
+      "name": "נמל שלושת האיים"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_6",
-      "name": "SEVII ISLE 6"
+      "name": "אי השבע 6"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_7",
-      "name": "SEVII ISLE 7"
+      "name": "אי השבע 7"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_8",
-      "name": "SEVII ISLE 8"
+      "name": "אי השבע 8"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_9",
-      "name": "SEVII ISLE 9"
+      "name": "אי השבע 9"
     },
     {
       "id": "MAPSEC_RESORT_GORGEOUS",
-      "name": "RESORT GORGEOUS"
+      "name": "אתר נופש משגע"
     },
     {
       "id": "MAPSEC_WATER_LABYRINTH",
-      "name": "WATER LABYRINTH"
+      "name": "מבוך מים"
     },
     {
       "id": "MAPSEC_FIVE_ISLE_MEADOW",
-      "name": "FIVE ISLE MEADOW"
+      "name": "אחו אי חמש"
     },
     {
       "id": "MAPSEC_MEMORIAL_PILLAR",
-      "name": "MEMORIAL PILLAR"
+      "name": "עמוד זיכרון"
     },
     {
       "id": "MAPSEC_OUTCAST_ISLAND",
-      "name": "OUTCAST ISLAND"
+      "name": "אי המנודה"
     },
     {
       "id": "MAPSEC_GREEN_PATH",
-      "name": "GREEN PATH"
+      "name": "מעבר ירוק"
     },
     {
       "id": "MAPSEC_WATER_PATH",
-      "name": "WATER PATH"
+      "name": "מעבר מים"
     },
     {
       "id": "MAPSEC_RUIN_VALLEY",
-      "name": "RUIN VALLEY"
+      "name": "עמק החורבה"
     },
     {
       "id": "MAPSEC_TRAINER_TOWER",
-      "name": "TRAINER TOWER"
+      "name": "מגדל מאמן"
     },
     {
       "id": "MAPSEC_CANYON_ENTRANCE",
-      "name": "CANYON ENTRANCE"
+      "name": "כניסת הקניון"
     },
     {
       "id": "MAPSEC_SEVAULT_CANYON",
-      "name": "SEVAULT CANYON"
+      "name": "קניון סוואלט"
     },
     {
       "id": "MAPSEC_TANOBY_RUINS",
-      "name": "TANOBY RUINS"
+      "name": "חורבות טנובי"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_22",
-      "name": "SEVII ISLE 22"
+      "name": "אי השבע 22"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_23",
-      "name": "SEVII ISLE 23"
+      "name": "אי השבע 32"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_24",
-      "name": "SEVII ISLE 24"
+      "name": "אי השבע 42"
     },
     {
       "id": "MAPSEC_NAVEL_ROCK_FRLG",
-      "name": "NAVEL ROCK"
+      "name": "סלע הטבור"
     },
     {
       "id": "MAPSEC_MT_EMBER",
-      "name": "MT. EMBER"
+      "name": "הר אוד"
     },
     {
       "id": "MAPSEC_BERRY_FOREST",
-      "name": "BERRY FOREST"
+      "name": "יער פרי"
     },
     {
       "id": "MAPSEC_ICEFALL_CAVE",
-      "name": "ICEFALL CAVE"
+      "name": "מערת מפל הקרח"
     },
     {
       "id": "MAPSEC_ROCKET_WAREHOUSE",
-      "name": "ROCKET WAREHOUSE"
+      "name": "מחסן רקטה"
     },
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
-      "name": "TRAINER TOWER"
+      "name": "מגדל מאמן"
     },
     {
       "id": "MAPSEC_DOTTED_HOLE",
-      "name": "DOTTED HOLE"
+      "name": "חור מנוקד"
     },
     {
       "id": "MAPSEC_LOST_CAVE",
-      "name": "LOST CAVE"
+      "name": "מערת אבדון"
     },
     {
       "id": "MAPSEC_PATTERN_BUSH",
-      "name": "PATTERN BUSH"
+      "name": "שיח דפוס"
     },
     {
       "id": "MAPSEC_ALTERING_CAVE_FRLG",
-      "name": "ALTERING CAVE"
+      "name": "מערת השינוי"
     },
     {
       "id": "MAPSEC_TANOBY_CHAMBERS",
-      "name": "TANOBY CHAMBERS"
+      "name": "תאי טנוביS"
     },
     {
       "id": "MAPSEC_THREE_ISLE_PATH",
-      "name": "THREE ISLE PATH"
+      "name": "מעבר שלושת האיים"
     },
     {
       "id": "MAPSEC_TANOBY_KEY",
-      "name": "TANOBY KEY"
+      "name": "מפתח טנובי"
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND_FRLG",
-      "name": "BIRTH ISLAND"
+      "name": "אי הלידה"
     },
     {
       "id": "MAPSEC_MONEAN_CHAMBER",
-      "name": "MONEAN CHAMBER"
+      "name": "תא מונין"
     },
     {
       "id": "MAPSEC_LIPTOO_CHAMBER",
-      "name": "LIPTOO CHAMBER"
+      "name": "תא ליפטו"
     },
     {
       "id": "MAPSEC_WEEPTH_CHAMBER",
-      "name": "WEEPTH CHAMBER"
+      "name": "תא וויפס"
     },
     {
       "id": "MAPSEC_DILFORD_CHAMBER",
-      "name": "DILFORD CHAMBER"
+      "name": "תא דילפורד"
     },
     {
       "id": "MAPSEC_SCUFIB_CHAMBER",
-      "name": "SCUFIB CHAMBER"
+      "name": "תא סקופיב"
     },
     {
       "id": "MAPSEC_RIXY_CHAMBER",
-      "name": "RIXY CHAMBER"
+      "name": "תא ריקסי"
     },
     {
       "id": "MAPSEC_VIAPOIS_CHAMBER",
-      "name": "VIAPOIS CHAMBER"
+      "name": "תא ויאפויס"
     },
     {
       "id": "MAPSEC_EMBER_SPA",
-      "name": "EMBER SPA"
+      "name": "ספא אוד"
     },
     {
       "id": "MAPSEC_SPECIAL_AREA",
-      "name": "SPECIAL AREA"
+      "name": "אזור מיוחד"
     },
     {
       "id": "MAPSEC_AQUA_HIDEOUT",
-      "name": "AQUA HIDEOUT",
+      "name": "מחבוא אקווה",
       "x": 19,
       "y": 3,
       "width": 1,
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "MAPSEC_MAGMA_HIDEOUT",
-      "name": "MAGMA HIDEOUT",
+      "name": "מחבוא מגמה",
       "x": 6,
       "y": 3,
       "width": 1,
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "MAPSEC_MIRAGE_TOWER",
-      "name": "MIRAGE TOWER",
+      "name": "מגדל התעתוע",
       "x": 8,
       "y": 2,
       "width": 1,
@@ -1153,15 +1153,15 @@
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND",
-      "name": "BIRTH ISLAND"
+      "name": "אי הלידה"
     },
     {
       "id": "MAPSEC_FARAWAY_ISLAND",
-      "name": "FARAWAY ISLAND"
+      "name": "אי המרוחק"
     },
     {
       "id": "MAPSEC_ARTISAN_CAVE",
-      "name": "ARTISAN CAVE",
+      "name": "מערת האומנים",
       "x": 22,
       "y": 12,
       "width": 1,
@@ -1169,19 +1169,19 @@
     },
     {
       "id": "MAPSEC_MARINE_CAVE",
-      "name": "MARINE CAVE"
+      "name": "מערה ימית"
     },
     {
       "id": "MAPSEC_UNDERWATER_MARINE_CAVE",
-      "name": "UNDERWATER"
+      "name": "במצולות"
     },
     {
       "id": "MAPSEC_TERRA_CAVE",
-      "name": "TERRA CAVE"
+      "name": "מערת יבשה"
     },
     {
       "id": "MAPSEC_UNDERWATER_105",
-      "name": "UNDERWATER",
+      "name": "במצולות",
       "x": 0,
       "y": 10,
       "width": 1,
@@ -1189,7 +1189,7 @@
     },
     {
       "id": "MAPSEC_UNDERWATER_125",
-      "name": "UNDERWATER",
+      "name": "במצולות",
       "x": 24,
       "y": 3,
       "width": 2,
@@ -1197,7 +1197,7 @@
     },
     {
       "id": "MAPSEC_UNDERWATER_129",
-      "name": "UNDERWATER",
+      "name": "במצולות",
       "x": 24,
       "y": 10,
       "width": 2,
@@ -1205,7 +1205,7 @@
     },
     {
       "id": "MAPSEC_DESERT_UNDERPASS",
-      "name": "DESERT UNDERPASS",
+      "name": "מעבר תת-קרקע מדברי",
       "x": 2,
       "y": 0,
       "width": 1,
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "MAPSEC_ALTERING_CAVE",
-      "name": "ALTERING CAVE",
+      "name": "מערת השינוי",
       "x": 6,
       "y": 8,
       "width": 1,
@@ -1221,11 +1221,11 @@
     },
     {
       "id": "MAPSEC_NAVEL_ROCK",
-      "name": "NAVEL ROCK"
+      "name": "סלע הטבור"
     },
     {
       "id": "MAPSEC_TRAINER_HILL",
-      "name": "TRAINER HILL",
+      "name": "גבעת המאמן",
       "x": 8,
       "y": 4,
       "width": 1,

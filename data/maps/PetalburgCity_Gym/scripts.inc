@@ -1138,454 +1138,424 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-	.string "אבא: Hm?\p"
-	.string "Well, if it isn't {PLAYER}!\n"
-	.string "So you're all finished moving in?\p"
-	.string "I'm surprised that you managed to\n"
-	.string "get here by yourself.\p"
-	.string "Oh, I see.\n"
-	.string "You're with your POKéMON.\p"
-	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
-	.string "That's great news!\n"
-	.string "I'll be looking forward to it!$"
+	.string "אבא: הממ?\p"
+	.string "אה, אם זה לא {PLAYER}!\n"
+	.string "אז סיימת לעבור לבית החדש?\p"
+	.string "אני מופתע שהצלחת להגיע לכאן\n"
+	.string "לבדך.\p"
+	.string "אה, אני רואה.\n"
+	.string "אתה כאן עם הפוקימון שלך.\p"
+	.string "הממ… אז כנראה שאתה מתכוון להיות\n"
+	.string "מאמן כמוני, {PLAYER}.\p"
+	.string "חדשות נהדרות!\n"
+	.string "אני כבר מצפה לזה!$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-	.string "Um… I…\n"
-	.string "I'd like to get a POKéMON, please…$"
+	.string "אממ… אני…\n"
+	.string "אני רוצה לקבל פוקימון, בבקשה…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-	.string "אבא: Hm? You're… Uh… Oh, right.\n"
-	.string "You're WALLY, right?$"
+	.string "אבא: הממ? אתה… אה… רגע.\n"
+	.string "נכון, אתה וולי, נכון?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
-	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…$"
+	.string "וולי: אני עומד לגור עם קרובי המשפחה שלי\n"
+	.string "בעיר ורדנטורף.\p"
+	.string "חשבתי שיהיה לי בודד לבד,\n"
+	.string "אז רציתי לקחת איתי פוקימון.\p"
+	.string "אבל אף פעם לא תפסתי פוקימון.\n"
+	.string "אני לא יודע איך…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "אבא: Hm. I see.$"
+	.string "אבא: הממ. אני מבין.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-	.string "אבא: {PLAYER}, you heard that,\n"
-	.string "right?\p"
-	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.$"
+	.string "אבא: {PLAYER}, שמעת את זה,\n"
+	.string "נכון?\p"
+	.string "לך עם וולי וודא שהוא תופס\n"
+	.string "פוקימון בבטחה.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "WALLY, here, I'll loan you my POKéMON.\p"
-	.string "WALLY received a ZIGZAGOON!$"
+	.string "וולי, הנה, אני אשאיל לך את הפוקימון שלי.\p"
+	.string "וולי קיבל את זיגזגון!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-	.string "WALLY: Oh, wow!\n"
-	.string "A POKéMON!\p"
-	.string "אבא: Hm. I'll give you a POKé BALL, too.\n"
-	.string "Go for it!\p"
-	.string "WALLY received a POKé BALL!$"
+	.string "וולי: וואו!\n"
+	.string "פוקימון!\p"
+	.string "אבא: הממ. אני אתן לך גם פוקדור אחד.\n"
+	.string "לך על זה!\p"
+	.string "וולי קיבל פוקדור!$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
-	.string "WALLY: Oh, wow!\n"
-	.string "Thank you!$"
+	.string "וולי: וואו!\n"
+	.string "תודה רבה!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+	.string "{PLAYER}… באמת תבוא איתי?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "אבא: So, did it work out?$"
+	.string "אבא: אז… זה הצליח?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here's your POKéMON back.\p"
-	.string "{PLAYER}, thank you for coming along\n"
-	.string "with me.\p"
-	.string "You two are why I was able to catch\n"
-	.string "my POKéMON.\p"
-	.string "I promise I'll take really good\n"
-	.string "care of it.\p"
-	.string "Oh! My mom's waiting for me,\n"
-	.string "so I have to go!\p"
-	.string "Bye, {PLAYER}!$"
+	.string "וולי: תודה, כן, זה הצליח.\n"
+	.string "הנה הפוקימון שלך חזרה.\p"
+	.string "{PLAYER}, תודה שבאת איתי.\p"
+	.string "בזכותכם הצלחתי לתפוס את\n"
+	.string "הפוקימון שלי.\p"
+	.string "אני מבטיח לטפל בו טוב מאוד.\p"
+	.string "אה! אמא שלי מחכה לי,\n"
+	.string "אני צריך ללכת!\p"
+	.string "להתראות, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-	.string "אבא: Now…\p"
-	.string "{PLAYER}, if you want to become a\n"
-	.string "strong TRAINER, here's my advice.\p"
-	.string "Head for RUSTBORO CITY beyond this\n"
-	.string "town.\p"
-	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other POKéMON\n"
-	.string "GYMS and defeat their LEADERS.\p"
-	.string "Collect BADGES from them,\n"
-	.string "understood?\p"
-	.string "Of course, I'm a GYM LEADER, too.\n"
-	.string "We'll battle one day, {PLAYER}.\p"
-	.string "But that's only after you become\n"
-	.string "stronger.$"
+	.string "אבא: עכשיו…\p"
+	.string "{PLAYER}, אם אתה רוצה להיות\n"
+	.string "מאמן חזק, הנה העצה שלי.\p"
+	.string "פנה לעיר ראסטבורו שמעבר\n"
+	.string "לעיר הזאת.\p"
+	.string "שם עליך לאתגר את מנהיגת המכון\n"
+	.string "רוקסן.\p"
+	.string "אחריה, המשך לשאר המאמנים\n"
+	.string "ונצח גם אותם.\p"
+	.string "אסוף מהם תגי מכון,\n"
+	.string "הבנת?\p"
+	.string "כמובן, גם אני מנהיג מכון.\n"
+	.string "יום אחד נילחם, {PLAYER}.\p"
+	.string "אבל רק אחרי שתתחזק מספיק.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "אבא: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
-	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
-	.string "{PLAYER}, I want you to challenge me\n"
-	.string "when you become a lot stronger.\p"
-	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?$"
+	.string "אבא: הממ? אתה לא הולך למכון\n"
+	.string "הפוקימונים בעיר ראסטבורו?\p"
+	.string "אין לי אתגר בללחום במאמן\n"
+	.string "טירון.\p"
+	.string "{PLAYER}, אני רוצה שתאתגר אותי\n"
+	.string "כשיהיו לך ארבעה תגי מכון, בסדר?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-	.string "אבא: I see… So, you've beaten\n"
-	.string "the GYM LEADER in RUSTBORO CITY.\p"
-	.string "But there are many more TRAINERS\n"
-	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in DEWFORD TOWN is a\n"
-	.string "GYM LEADER named BRAWLY.\p"
-	.string "You should go challenge him.$"
+	.string "אבא: אני רואה… אז ניצחת את\n"
+	.string "מנהיגת המכון בראסטבורו.\p"
+	.string "אבל יש עוד מאמנים חזקים ממך,\n"
+	.string "{PLAYER}.\p"
+	.string "מעבר לים, בעיר דואופורד,\n"
+	.string "יש מנהיג בשם בראולי.\p"
+	.string "כדאי שתלך לאתגר אותו.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-	.string "אבא: Hm… {PLAYER}, you have gotten\n"
-	.string "stronger.\p"
-	.string "I can tell by the number of BADGES\n"
-	.string "that you've earned.$"
+	.string "אבא: הממ… {PLAYER}, התחזקת.\p"
+	.string "אני רואה את זה לפי מספר התגים\n"
+	.string "שאספת.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "אבא: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
-	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
+	.string "אבא: הממ…\n"
+	.string "אז באמת השגת ארבעה תגי מכון.\p"
+	.string "טוב, כמו שהבטחתי, נילחם בקרב\n"
+	.string "פוקימונים.\p"
 	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
-	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
-	.string "{PLAYER}, you'd better give it your\n"
-	.string "best shot, too!$"
+	.string "אני כל כך שמח שזכיתי להילחם\n"
+	.string "בקרב אמיתי מול הילד שלי.\p"
+	.string "אבל קרב הוא קרב!\p"
+	.string "אני אעשה את כל שביכולתי כמנהיג\n"
+	.string "מכון כדי לנצח.\p"
+	.string "{PLAYER}, כדאי שגם אתה תיתן\n"
+	.string "את הכול!$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "…\p"
-	.string "I… I can't…\p"
-	.string "I can't believe it. {PLAYER}…\p"
-	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "אני… אני לא מאמין…\p"
+	.string "{PLAYER}…\p"
+	.string "הפסדתי ל-{PLAYER}?\p"
+	.string "אבל כללים הם כללים!\n"
+	.string "קח את זה.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+	.string "{PLAYER} קיבל את תג האיזון\n"
+	.string "מאבא!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-	.string "אבא: With that BADGE, the DEFENSE\n"
-	.string "of all your POKéMON will increase.\p"
-	.string "POKéMON that know the HM move SURF\n"
-	.string "will be able to travel over water.\p"
-	.string "This is my gift to you. {PLAYER}, I'm\n"
-	.string "sure you can use it correctly.$"
+	.string "אבא: עם התג הזה, ההגנה של כל\n"
+	.string "הפוקימונים שלך תעלה.\p"
+	.string "פוקימונים שיודעים את תנועת ה-HM גלישה\n"
+	.string "יוכלו לעבור מעל המים.\p"
+	.string "וזה המתנה שלי לך, {PLAYER}.\n"
+	.string "אני בטוח שתדע להשתמש בזה נכון.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "אבא: TM42 contains FACADE.\p"
-	.string "It doubles the power of moves if\n"
-	.string "the POKéMON is poisoned, paralyzed,\l"
-	.string "or burned.\p"
-	.string "It might be able to turn a bad\n"
-	.string "situation into an advantage.$"
+	.string "אבא: TM42 מכיל את המתקפה חזות.\p"
+	.string "הכוח שלה מוכפל אם הפוקימון\n"
+	.string "מורעל, משותק או נכווה.\p"
+	.string "לפעמים אפשר להפוך מצב רע\n"
+	.string "ליתרון.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "אבא: As the GYM LEADER, I can't\n"
-	.string "express how upset I am…\p"
-	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+	.string "אבא: כמנהיג מכון, אני לא יכול\n"
+	.string "להביע כמה זה מאכזב…\p"
+	.string "אבל כאבא, זה גם משמח אותי וגם\n"
+	.string "קצת עצוב. זה מוזר…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
-	.string "Ah, there you are, {PLAYER}{KUN}!\p"
-	.string "Please come with me.\n"
-	.string "I have something I want you to have.$"
+	.string "אה, הנה אתה, {PLAYER}{KUN}!\p"
+	.string "בוא איתי בבקשה.\n"
+	.string "יש משהו שאני רוצה לתת לך.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
-	.string "NORMAN, you don't mind, do you?\p"
-	.string "Let me borrow your {PLAYER}{KUN} for\n"
-	.string "a minute or two.$"
+	.string "נורמן, אתה לא מתנגד, נכון?\p"
+	.string "תן לי להשאיל את {PLAYER}{KUN}\n"
+	.string "לכמה דקות.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "אבא: {PLAYER}, you should go visit\n"
-	.string "your mother every so often.\p"
-	.string "I'm going to stay here and redouble\n"
-	.string "my training.\p"
-	.string "It would bother me as a TRAINER to\n"
-	.string "not avenge my loss to you, {PLAYER}!$"
+	.string "אבא: {PLAYER}, כדאי שתבקר את\n"
+	.string "אמא מדי פעם.\p"
+	.string "אני אשאר כאן ואמשיך להתאמן.\p"
+	.string "זה היה מציק לי כמאמן לא לנסות\n"
+	.string "לנקום את ההפסד שלי לך, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
-	.string "אבא: {PLAYER}, how are things going?\p"
-	.string "The world of POKéMON is deep.\p"
-	.string "I honestly think that no amount of\n"
-	.string "training would ever be enough.$"
+	.string "אבא: {PLAYER}, איך הולך?\p"
+	.string "העולם של הפוקימונים עמוק מאוד.\p"
+	.string "אני באמת חושב שאין כמות אימונים\n"
+	.string "שתהיה מספיקה.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "The doors in this GYM open when you\n"
-	.string "beat the awaiting TRAINERS.\p"
-	.string "Whoops! The doors in this room are\n"
-	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
-	.string "use all kinds of items.\p"
-	.string "The door at the left leads to\n"
-	.string "the SPEED ROOM.\p"
-	.string "The door at the right leads to\n"
-	.string "the ACCURACY ROOM.\p"
-	.string "The room's name will be on\n"
-	.string "the door, so choose carefully.\p"
-	.string "Once you've chosen the door…\n"
-	.string "Well, hey, go for it!$"
+	.string "היי, מה נשמע, {PLAYER}, אלוף-\n"
+	.string "העתיד שלנו?\p"
+	.string "הדלתות במכון הזה נפתחות כשאתה\n"
+	.string "מנצח את המאמנים שמחכים מאחוריהן.\p"
+	.string "אופס! הדלתות בחדר הזה כבר פתוחות,\n"
+	.string "אז אל תתקוף אותי!\p"
+	.string "המאמנים במכון של עיר פטלבורג\n"
+	.string "משתמשים בכל מיני חפצים.\p"
+	.string "הדלת שמשמאל מובילה לחדר המהירות.\p"
+	.string "הדלת מימין מובילה לחדר הדיוק.\p"
+	.string "שם החדר מופיע על הדלת,\n"
+	.string "אז תבחר בקפידה.\p"
+	.string "ברגע שבחרת דלת…\n"
+	.string "נו, קדימה, לך על זה!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
-	.string "{PLAYER}! Whoa! You've overcome even\n"
-	.string "your own father!\p"
-	.string "Like, whoa!\n"
-	.string "What a stunning turn of events!$"
+	.string "{PLAYER}! וואו! אפילו התגברת על\n"
+	.string "האבא שלך!\p"
+	.string "וואו באמת!\n"
+	.string "איזה טוויסט מדהים!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-	.string "The ability to attack before the\n"
-	.string "opponent…\p"
-	.string "Just that alone puts me at a great\n"
-	.string "advantage, don't you agree?$"
+	.string "היכולת לתקוף לפני היריב…\n"
+	.string "רק זה כבר נותן לי יתרון גדול,\p"
+	.string "אתה לא חושב?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
-	.string "That was a magnificent battle!$"
+	.string "זה היה קרב מרהיב!$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
-	.string "Go on to the next room where a new\n"
-	.string "challenge awaits you.\p"
-	.string "At the left is the CONFUSION ROOM.\p"
-	.string "The right door leads to the DEFENSE\n"
-	.string "ROOM.$"
+	.string "תמשיך לחדר הבא, שם מחכה לך אתגר חדש.\p"
+	.string "משמאל נמצא חדר הבלבול.\p"
+	.string "הדלת הימנית מובילה לחדר ההגנה.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-	.string "Whomever you beat, and whomever you\n"
-	.string "may lose to, you never shirk from\l"
-	.string "training yourself and your POKéMON.\p"
-	.string "That's what I think being a\n"
-	.string "GYM LEADER is all about.$"
+	.string "לא משנה במי אתה מנצח, או למי אתה\n"
+	.string "מפסיד – אתה אף פעם לא מפסיק\l"
+	.string "לאמן את עצמך ואת הפוקימונים שלך.\p"
+	.string "לדעתי, זה מה שגורם למישהו להיות\n"
+	.string "מנהיג מכון אמיתי.$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
-	.string "This is the CONFUSION ROOM.\p"
-	.string "Let me see how well bonded you are\n"
-	.string "with your POKéMON!$"
+	.string "זהו חדר הבלבול.\p"
+	.string "תן לי לראות עד כמה אתה קשור\n"
+	.string "לפוקימונים שלך!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
-	.string "I couldn't confuse your team enough…\n"
-	.string "You share a strong bond together.$"
+	.string "לא הצלחתי לבלבל את הצוות שלך מספיק…\n"
+	.string "הקשר ביניכם ממש חזק.$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
-	.string "The next room is the STRENGTH ROOM.\n"
-	.string "Can you withstand brute force?$"
+	.string "החדר הבא הוא חדר הכוח.\n"
+	.string "נראה אם תוכל לעמוד בפני עוצמה גולמית!$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
-	.string "After you beat our LEADER, the\n"
-	.string "training has become a lot tougher.$"
+	.string "מאז שניצחת את המנהיג שלנו,\n"
+	.string "האימונים כאן נהיו הרבה יותר קשים.$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-	.string "Just when you think you're going to\n"
-	.string "win, your opponent restores HP…\p"
-	.string "Can you just imagine how awful that\n"
-	.string "must feel?\p"
-	.string "I'll show you exactly how awful it\n"
-	.string "feels!$"
+	.string "כשנדמה לך שאתה עומד לנצח,\n"
+	.string "והיריב משחזר לעצמו חיים…\p"
+	.string "אפשר רק לדמיין כמה נורא זה מרגיש, נכון?\p"
+	.string "אני אראה לך בדיוק כמה זה נורא!$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-	.string "I couldn't restore HP enough…\n"
-	.string "What ATTACK power…$"
+	.string "לא הצלחתי לשחזר חיים מספיק…\n"
+	.string "איזו עוצמת התקפה…$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
-	.string "I should have expected no less from\n"
-	.string "our LEADER's kid.\p"
-	.string "No, wait! A TRAINER's abilities are\n"
-	.string "earned only through effort.\p"
-	.string "I lost because my own efforts\n"
-	.string "weren't enough.\p"
-	.string "Go on! The ONE-HIT KO ROOM is next.$"
+	.string "לא הייתי צריך לצפות לפחות\n"
+	.string "מהילד של המנהיג שלנו.\p"
+	.string "לא, רגע! היכולות של מאמן נקנות רק\n"
+	.string "באמצעות מאמץ.\p"
+	.string "הפסדתי כי לא התאמצתי מספיק.\p"
+	.string "תמשיך! החדר הבא הוא חדר ה-KO במכה אחת.$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
-	.string "I'm going to keep training at GYMS.\n"
-	.string "One day, I'll become a LEADER.$"
+	.string "אני מתכוון להמשיך להתאמן במכונים.\n"
+	.string "יום אחד אהיה מנהיג בעצמי.$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
-	.string "I'm not going to take it easy just\n"
-	.string "because you're our LEADER's kid.\p"
-	.string "I'll show you how horrid it is for\n"
-	.string "a POKéMON to take a critical hit!$"
+	.string "אני לא מתכוון לקחת את זה בקלות\n"
+	.string "רק בגלל שאתה הילד של המנהיג שלנו.\p"
+	.string "אני אראה לך כמה זה נורא כשפוקימון\n"
+	.string "חוטף מכה קריטית!$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
-	.string "Your power…\n"
-	.string "You're the real deal.$"
+	.string "העוצמה שלך…\n"
+	.string "אתה פשוט אמיתי.$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
-	.string "Your father really is strong.\n"
-	.string "He's a TRAINER worth my respect.\p"
-	.string "And, I sense the same glow coming\n"
-	.string "from you as your father.\p"
-	.string "I hope that you'll stage a terrific\n"
-	.string "battle with your father!$"
+	.string "האבא שלך באמת חזק.\n"
+	.string "הוא מאמן שאני ממש מעריך.\p"
+	.string "ואני מרגיש אותה הילה בך כמוהו.\p"
+	.string "אני מקווה שתערוך קרב מדהים מול אביך!$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
-	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of PETALBURG CITY have\l"
-	.string "become a lot tougher.$"
+	.string "מאז שאבא שלך נהיה מנהיג המכון,\n"
+	.string "המאמנים של עיר פטלבורג נהיו הרבה יותר חזקים.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
-	.string "Giggle…\n"
-	.string "This is the ACCURACY ROOM.\p"
-	.string "It's pretty nasty when every attack\n"
-	.string "lands without fail.$"
+	.string "חח…\n"
+	.string "זהו חדר הדיוק.\p"
+	.string "זה די מרושע כשתוקפים וכל מכה\n"
+	.string "פוגעת בלי לפספס.$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-	.string "You were a cut above me…$"
+	.string "היית טובה ממני…$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
-	.string "There are some even stronger\n"
-	.string "TRAINERS waiting for you.\p"
-	.string "The left is the DEFENSE ROOM, and\n"
-	.string "the right is the RECOVERY ROOM.\p"
-	.string "Your POKéMON's ATTACK power will be\n"
-	.string "on trial either way.$"
+	.string "יש עוד מאמנים חזקים שמחכים לך.\p"
+	.string "השמאלית היא חדר ההגנה,\n"
+	.string "והימנית היא חדר ההתאוששות.\p"
+	.string "כוח ההתקפה של הפוקימונים שלך\n"
+	.string "יעמוד למבחן בכל מקרה.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
-	.string "Do you know what we're trying to\n"
-	.string "achieve as TRAINERS?\p"
-	.string "We're striving to become soul mates\n"
-	.string "with our POKéMON.$"
+	.string "אתה יודע למה אנחנו שואפים כמאמנים?\p"
+	.string "אנחנו מנסים להפוך לנשמות תאומות\n"
+	.string "עם הפוקימונים שלנו.$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
-	.string "The higher the DEFENSE, the more\n"
-	.string "reckless I can be in attack.$"
+	.string "ככל שההגנה שלי גבוהה יותר,\n"
+	.string "כך אני יכולה לתקוף בפזיזות יותר!$"
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
-	.string "Our defenses weren't enough…$"
+	.string "ההגנות שלנו פשוט לא הספיקו…$"
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
-	.string "I think you've taught me a valuable\n"
-	.string "lesson here.\p"
-	.string "Now, go on! The left door goes to\n"
-	.string "the STRENGTH ROOM.\p"
-	.string "The right door opens to\n"
-	.string "the ONE-HIT KO ROOM.\p"
-	.string "Both of them have TRAINERS who are\n"
-	.string "skilled at offense.$"
+	.string "למדתי ממך שיעור חשוב היום.\p"
+	.string "עכשיו, תמשיך! הדלת השמאלית מובילה\n"
+	.string "לחדר הכוח.\p"
+	.string "הדלת הימנית נפתחת לחדר ה-KO במכה אחת.\p"
+	.string "בשניהם יש מאמנים שמתמחים בהתקפה.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
-	.string "Hi! Have you tried using SURF?$"
+	.string "היי! ניסית כבר להשתמש בגלישה?$"
 
 PetalburgCity_Gym_Text_JodyIntro:
-	.string "Our GYM LEADER told us to go all out\n"
-	.string "and beat you.\p"
-	.string "Even if you happen to be the\n"
-	.string "LEADER's kid!$"
+	.string "המנהיג שלנו אמר לנו להשקיע הכול\n"
+	.string "ולנצח אותך.\p"
+	.string "גם אם אתה במקרה הילד שלו!$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
-	.string "But… I went all out!$"
+	.string "אבל… נתתי הכול!$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "The way you use your POKéMON…\n"
-	.string "It's like your father's style.\p"
-	.string "Go on through! The GYM LEADER, your\n"
-	.string "father, is waiting!$"
+	.string "הדרך שבה אתה משתמש בפוקימונים שלך…\n"
+	.string "ממש מזכירה את הסגנון של אביך.\p"
+	.string "תמשיך קדימה! מנהיג המכון – אביך –\n"
+	.string "מחכה לך!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-	.string "Sure, it's fine to make your POKéMON\n"
-	.string "stronger.\p"
-	.string "But what decides the winner?\p"
-	.string "Why, it's the feelings TRAINERS have\n"
-	.string "for their POKéMON.$"
+	.string "נכון, זה טוב להפוך את הפוקימונים\n"
+	.string "לחזקים יותר.\p"
+	.string "אבל מה בעצם קובע את המנצח?\p"
+	.string "זה הרגשות של המאמן כלפי\n"
+	.string "הפוקימונים שלו.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
-	.string "This door appears to be locked\n"
-	.string "right now…$"
+	.string "נראה שהדלת הזו נעולה כרגע…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
-	.string "“SPEED ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר המהירות,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-	.string "This door appears to be locked\n"
-	.string "right now…$"
+	.string "נראה שהדלת הזו נעולה כרגע…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
-	.string "“ACCURACY ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר הדיוק,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterConfusionRoom:
-	.string "“CONFUSION ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר הבלבול,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterDefenseRoom:
-	.string "“DEFENSE ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר ההגנה,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
-	.string "“RECOVERY ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר ההתאוששות,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
-	.string "“STRENGTH ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר הכוח,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterOHKORoom:
-	.string "“ONE-HIT KO ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר ה-KO במכה אחת,” כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
-	.string "“GYM LEADER'S ROOM\p"
-	.string "“See for yourself what POKéMON await\n"
-	.string "you!” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string "“חדר מנהיג המכון.”\p"
+	.string "“ראה בעצמך אילו פוקימונים מחכים לך!”\n"
+	.string "כתוב על השלט.\p"
+	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string "מכון הפוקימונים של עיר פטלבורג$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "NORMAN'S CERTIFIED TRAINERS:\n"
+	.string "מכון הפוקימונים של עיר פטלבורג\p"
+	.string "מאמנים מוסמכים על ידי נורמן:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "אבא: {PLAYER}…\n"
-	.string "I had a feeling that you would come.\p"
-	.string "I would never refuse to accept\n"
-	.string "a challenge from you.\p"
-	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
-	.string "we are a parent and child.\p"
-	.string "…No, because we are parent and child,\n"
-	.string "we owe it to each other to do the best\l"
-	.string "we can. Isn't that right, {PLAYER}?$"
+	.string "ידעתי שיום אחד תגיע.\p"
+	.string "בחיים לא אסרב לאתגר ממך.\p"
+	.string "אתה מבין את זה, נכון?\p"
+	.string "בתוך מכון, זה לא משנה שאנחנו\n"
+	.string "הורה וילד.\p"
+	.string "לא… דווקא בגלל שאנחנו הורה וילד,\n"
+	.string "אנחנו חייבים לעשות את המיטב.\l"
+	.string "נכון, {PLAYER}?$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
-	.string "Uh… Haha…\n"
-	.string "Maybe that was going too hard…$"
+	.string "אה… חה חה…\n"
+	.string "אולי הפעם הגזמתי קצת…$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
 	.string "אבא: {PLAYER}…\n"
-	.string "What is your dream?\p"
-	.string "My dream…\n"
-	.string "Hahaha…\l"
-	.string "It has already come true, actually.$"
+	.string "מה החלום שלך?\p"
+	.string "החלום שלי…\n"
+	.string "חה חה חה…\l"
+	.string "בעצם, הוא כבר התגשם.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "אבא: {PLAYER}…\n"
-	.string "I had a feeling that you would come.\p"
-	.string "I would never refuse to accept\n"
-	.string "a challenge from you.\p"
-	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
-	.string "we are a parent and child.\p"
-	.string "Hm? Wait a second, {PLAYER}.\p"
-	.string "Do you only have one POKéMON that is\n"
-	.string "capable of battle?\p"
-	.string "Sorry, but you'll have to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "ידעתי שיום אחד תגיע.\p"
+	.string "בחיים לא אסרב לאתגר ממך.\p"
+	.string "אתה מבין את זה, נכון?\p"
+	.string "בתוך מכון, זה לא משנה שאנחנו\n"
+	.string "הורה וילד.\p"
+	.string "הממ? רגע, {PLAYER}.\p"
+	.string "יש לך רק פוקימון אחד שיכול\n"
+	.string "להילחם?\p"
+	.string "מצטער, אבל תצטרך לחזור כשתהיה\n"
+	.string "עם לפחות שני פוקימונים.$"
 

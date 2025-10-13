@@ -1164,4 +1164,4 @@ Route104_Text_BrendanPostBattle:
 	.string "אבל, את יודעת, לא כדאי רק\n"
 	.string "להילחם איתם.\p"
 	.string "כמו מר ברייני, חשוב גם להיות\n"
-	.string "חברה של הפוקימון שלך.$"
+	.string "חבר של הפוקימון שלך.$"

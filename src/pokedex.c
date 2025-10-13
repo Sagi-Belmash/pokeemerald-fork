@@ -2327,7 +2327,7 @@ static void PrintMonDexNumAndName(u8 windowId, u8 fontId, const u8 *str, u8 left
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GRAY;
-    AddTextPrinterParameterized4WithRTL(windowId, fontId, left * 8 , (top * 8) + 1, 0, 0, color, TEXT_SKIP_DRAW, str, TRUE);
+    AddTextPrinterParameterized4WithRTL(windowId, fontId, left * 8 + 3, (top * 8) + 1, 0, 0, color, TEXT_SKIP_DRAW, str, TRUE);
 }
 
 // u16 ignored is passed but never used
@@ -2353,15 +2353,15 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
                 ClearMonListEntry(17, i * 2, ignored);
                 if (sPokedexView->pokedexList[entryNum].seen)
                 {/*  */
-                    CreateMonDexNum(entryNum, 5/* 0x12 */, i * 2, ignored);
-                    CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, i * 2, ignored);
-                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, i * 2);
+                    CreateMonDexNum(entryNum, 4/* 0x12 */, i * 2, ignored);
+                    CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 28/* 0x11 */, i * 2, ignored);
+                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 8/* 0x16 */, i * 2);
                 }
                 else
                 {
-                    CreateMonDexNum(entryNum, 5/* 0x12 */, i * 2, ignored);
-                    CreateCaughtBall(FALSE, 0x1B/* 0x11 */, i * 2, ignored);
-                    CreateMonName(0, 9/* 0x16 */, i * 2);
+                    CreateMonDexNum(entryNum, 4/* 0x12 */, i * 2, ignored);
+                    CreateCaughtBall(FALSE, 28/* 0x11 */, i * 2, ignored);
+                    CreateMonName(0, 8/* 0x16 */, i * 2);
                 }
             }
             entryNum++;
@@ -2378,15 +2378,15 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             ClearMonListEntry(17, sPokedexView->listVOffset * 2, ignored);
             if (sPokedexView->pokedexList[entryNum].seen)
             {
-                CreateMonDexNum(entryNum, 5/* 18 */, sPokedexView->listVOffset * 2, ignored);
-                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, sPokedexView->listVOffset * 2);
+                CreateMonDexNum(entryNum, 4/* 18 */, sPokedexView->listVOffset * 2, ignored);
+                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 28/* 0x11 */, sPokedexView->listVOffset * 2, ignored);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 8/* 0x16 */, sPokedexView->listVOffset * 2);
             }
             else
             {
-                CreateMonDexNum(entryNum, 5/* 18 */, sPokedexView->listVOffset * 2, ignored);
-                CreateCaughtBall(FALSE, 27/* 17 */, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(0, 9/* 0x16 */, sPokedexView->listVOffset * 2);
+                CreateMonDexNum(entryNum, 4/* 18 */, sPokedexView->listVOffset * 2, ignored);
+                CreateCaughtBall(FALSE, 28/* 17 */, sPokedexView->listVOffset * 2, ignored);
+                CreateMonName(0, 8/* 0x16 */, sPokedexView->listVOffset * 2);
             }
         }
         break;
@@ -2404,15 +2404,15 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             ClearMonListEntry(17, vOffset * 2, ignored);
             if (sPokedexView->pokedexList[entryNum].seen)
             {
-                CreateMonDexNum(entryNum, 5/* 18 */, vOffset * 2, ignored);
-                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x1B/* 0x11 */, vOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 9/* 0x16 */, vOffset * 2);
+                CreateMonDexNum(entryNum, 4/* 18 */, vOffset * 2, ignored);
+                CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 28/* 0x11 */, vOffset * 2, ignored);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 8/* 0x16 */, vOffset * 2);
             }
             else
             {
-                CreateMonDexNum(entryNum, 5/* 18 */, vOffset * 2, ignored);
-                CreateCaughtBall(FALSE, 0x1B/* 0x11 */, vOffset * 2, ignored);
-                CreateMonName(0, 9/* 0x16 */, vOffset * 2);
+                CreateMonDexNum(entryNum, 4/* 18 */, vOffset * 2, ignored);
+                CreateCaughtBall(FALSE, 28/* 0x11 */, vOffset * 2, ignored);
+                CreateMonName(0, 8/* 0x16 */, vOffset * 2);
             }
         }
         break;
@@ -2440,9 +2440,9 @@ static void CreateMonDexNum(u16 entryNum, u8 left, u8 top, u16 unused)
 static void CreateCaughtBall(bool16 owned, u8 x, u8 y, u16 unused)
 {
     if (owned)
-        BlitBitmapToWindow(0, sCaughtBall_Gfx, x * 8, y * 8, 8, 16);
+        BlitBitmapToWindow(0, sCaughtBall_Gfx, x * 8 - 3, y * 8, 8, 16);
     else
-        FillWindowPixelRect(0, PIXEL_FILL(0), x * 8, y * 8, 8, 16);
+        FillWindowPixelRect(0, PIXEL_FILL(0), x * 8 - 3, y * 8, 8, 16);
 }
 
 static u8 CreateMonName(u16 num, u8 left, u8 top)

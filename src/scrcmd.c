@@ -50,6 +50,8 @@
 #include "window.h"
 #include "constants/event_objects.h"
 
+#include "international_string_util.h"
+
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(void);
 
@@ -1620,6 +1622,7 @@ bool8 ScrCmd_buffernumberstring(struct ScriptContext *ctx)
     u8 numDigits = CountDigits(num);
 
     ConvertIntToDecimalStringN(sScriptStringVars[stringVarIndex], num, STR_CONV_MODE_LEFT_ALIGN, numDigits);
+    ReverseNumeric(sScriptStringVars[stringVarIndex]);
     return FALSE;
 }
 

@@ -1351,8 +1351,8 @@ PetalburgCity_Gym_Text_RandallPostBattle:
 	.string "הדלת הימנית מובילה לחדר ההגנה.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-	.string "לא משנה במי אתה מנצח, או למי אתה\n"
-	.string "מפסיד – אתה אף פעם לא מפסיק\l"
+	.string "לא משנה מי אתה מנצח, או למי אתה\n"
+	.string "מפסיד, אתה אף פעם לא מפסיק\l"
 	.string "לאמן את עצמך ואת הפוקימונים שלך.\p"
 	.string "לדעתי, זה מה שגורם למישהו להיות\n"
 	.string "מנהיג מכון אמיתי.$"
@@ -1465,7 +1465,7 @@ PetalburgCity_Gym_Text_JodyDefeat:
 PetalburgCity_Gym_Text_JodyPostBattle:
 	.string "הדרך שבה אתה משתמש בפוקימונים שלך…\n"
 	.string "ממש מזכירה את הסגנון של אביך.\p"
-	.string "תמשיך קדימה! מנהיג המכון – אביך –\n"
+	.string "תמשיך קדימה! מנהיג המכון, אביך,\n"
 	.string "מחכה לך!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:

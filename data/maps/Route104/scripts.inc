@@ -1080,7 +1080,7 @@ Route104_Text_MayWeShouldRegister:
 	.string "מאי: היי, {PLAYER}{KUN}!\p"
 	.string "דבון שדרגו לך את הפוקינווט עם\n"
 	.string "מערכת השיחות, אה?\p"
-	.string "בוא נרשום זה את זה כדי\n"
+	.string "בוא נרשום אחת את השני כדי\n"
 	.string "שנוכל ליצור קשר בכל זמן.$"
 
 Route104_Text_RegisteredMay:
@@ -1126,7 +1126,7 @@ Route104_Text_BrendanWeShouldRegister:
 	.string "ברנדן: היי, {PLAYER}!\p"
 	.string "מגניב, התקנת את מערכת השיחות\n"
 	.string "בפוקינווט שלך!\p"
-	.string "בואי נרשום זה את זה כדי\n"
+	.string "בואי נרשום אחד את השנייה כדי\n"
 	.string "שנוכל לשמור על קשר.$"
 
 Route104_Text_RegisteredBrendan:

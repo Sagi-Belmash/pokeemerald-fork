@@ -995,76 +995,76 @@ Route104_EventScript_Darian::
 	end
 
 Route104_Text_BrineyLivesInSeasideCottage:
-	.string "That seaside cottage is where\n"
-	.string "MR. BRINEY lives.\p"
-	.string "He was once a mighty sailor who never\n"
-	.string "feared the sea, however stormy.$"
+	.string "בקתה זו שעל שפת הים היא\n"
+	.string "איפה שמר ברייני גר.\p"
+	.string "הוא היה פעם מלח אדיר שמעולם\n"
+	.string "לא פחד מהים, סוער ככל שיהיה.$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
-	.string "The sea, huh?\p"
-	.string "I wonder what it's like at the bottom\n"
-	.string "of the sea?$"
+	.string "הים, הא?\p"
+	.string "מעניין איך זה נראה\n"
+	.string "בתחתית הים?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "If you're going to throw a POKé BALL,\n"
-	.string "weaken the wild POKéMON first.\p"
-	.string "It will be easier to catch if it's been\n"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "אם את{EMIT_HEY} מתכוו{SWAP_NUN}{ADD_TAF} לזרוק פוכדור,\n"
+	.string "החל{ADD_YUD}ש{ADD_YUD} את קודם את הפוקימון הפראי.\p"
+	.string "זה יהיה קל יותר לתפוס אותו אם הוא\n"
+	.string "מורעל, נכווה, או הורדם.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
-	.string "You're a thief if you try to steal\n"
-	.string "someone else's POKéMON.\p"
-	.string "You should throw POKé BALLS only at\n"
-	.string "wild POKéMON.$"
+	.string "את{EMIT_HEY} גנב{ADD_TAF} אם את{EMIT_HEY} מנסה לגנוב\n"
+	.string "פוקימון של מישהו אחר.\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לזרוק פוכדורים רק על\n"
+	.string "פוקימון פראי.$"
 
 Route104_Text_ImNotATrainer:
-	.string "Oh, no, I'm not a TRAINER.\p"
-	.string "But that's right, if TRAINERS lock eyes,\n"
-	.string "it's a challenge to battle.\p"
-	.string "If you don't want to battle, stay out\n"
-	.string "of their sight.$"
+	.string "או, לא, אני לא מאמנת.\p"
+	.string "אבל זה נכון, אם מאמנים נועלים עיניים,\n"
+	.string "זה אתגר להילחם.\p"
+	.string "אם את{EMIT_HEY} לא רוצה להילחם, תישאר{ADD_YUD}\n"
+	.string "מחוץ לטווח ראייתם.$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
-	.string "I like filling my mouth with seeds,\n"
-	.string "then spitting them out fast!\p"
-	.string "You can have this, so you try it out!\p"
-	.string "Use it on a POKéMON, and it will learn\n"
-	.string "a move for firing seeds rapidly.$"
+	.string "אני אוהב למלא את הפה שלי בזרעים,\n"
+	.string "ואז לירוק אותם מהר!\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקבל את זה, שתנס{EMIT_HEY}{ADD_YUD}!\p"
+	.string "תשמש{ADD_YUD} בזה על פוקימון, והוא ילמד\n"
+	.string "מהלך לירי זרעים במהירות.$"
 
 Route104_Text_TMsAreOneTimeUse:
-	.string "A word of advice!\p"
-	.string "A TM, TECHNICAL MACHINE, is good only\n"
-	.string "for one-time use.\p"
-	.string "Once you use it, it's gone.\n"
-	.string "Think twice before using it!$"
+	.string "עצה קטנה!\p"
+	.string "מ”מ, מכשירי מהלכים, הם טובים\n"
+	.string "לשימוש חד פעמי.\p"
+	.string "ברגע שהשתמשת בה, היא נעלמת.\n"
+	.string "חש{EMIT_VAV}ב{ADD_YUD} פעמיים לפני שאת{EMIT_HEY} משתמש{ADD_TAF} בה!$"
 
 Route104_Text_DontNeedThisTakeIt:
-	.string "This FLOWER SHOP started selling\n"
-	.string "saplings recently.\p"
-	.string "It made me so happy, I went overboard\n"
-	.string "shopping.\p"
-	.string "I don't need this WHITE HERB anymore.\n"
-	.string "Would you take it, please?$"
+	.string "חנות הפרחים הזו התחילה למכור\n"
+	.string "שתילים לאחרונה.\p"
+	.string "זה שימח אותי כל כך, שהגזמתי\n"
+	.string "בקניות.\p"
+	.string "אני לא צריכה את העשב הלבן הזה יותר.\n"
+	.string "תוכל{ADD_YUD} לקחת אותו, בבקשה?$"
 
 Route104_Text_FlowerShopSellingSaplings:
-	.string "This FLOWER SHOP started selling\n"
-	.string "saplings recently.\p"
-	.string "It made me so happy, I went overboard\n"
-	.string "shopping. Where should I put them?$"
+	.string "חנות הפרחים הזו התחילה למכור\n"
+	.string "שתילים לאחרונה.\p"
+	.string "זה שימח אותי כל כך, שהגזמתי\n"
+	.string "בקניות. איפה אני אשים אותם?$"
 
 Route104_Text_MrBrineysCottage:
-	.string "MR. BRINEY'S COTTAGE$"
+	.string "הבקתה של מר ברייני$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROUTE 1O4\n"
-	.string "{RIGHT_ARROW} PETALBURG CITY$"
+	.string "דרך 401\n"
+	.string "{RIGHT_ARROW} עיר פטלבורג$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROUTE 1O4\n"
-	.string "{UP_ARROW} RUSTBORO CITY$"
+	.string "דרל 401\n"
+	.string "{UP_ARROW} עיר רסטבורו$"
 
 Route104_Text_PrettyPetalFlowShop:
-	.string "PRETTY PETAL FLOWER SHOP$"
+	.string "חנות פרחים יפי עלי כותרת$"
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "TRAINER TIPS\p"
@@ -1085,8 +1085,8 @@ Route104_Text_MayWeShouldRegister:
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay:
-	.string "{PLAYER} registered MAY\n"
-	.string "in the POKéNAV.$"
+	.string "{PLAYER} רש{SWAP_MEM}ה את מאי\n"
+	.string "בפוקינווט.$"
 
 Route104_Text_MayHowsYourPokedex:
 	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"

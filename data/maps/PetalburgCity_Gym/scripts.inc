@@ -159,6 +159,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanAddressWallyNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressWallyWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressWallyEast
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyOhWowThankYou, MSGBOX_DEFAULT
@@ -1144,9 +1145,9 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "אני מופתע שהצלחת להגיע לכאן\n"
 	.string "לבדך.\p"
 	.string "אה, אני רואה.\n"
-	.string "אתה כאן עם הפוקימון שלך.\p"
-	.string "הממ… אז כנראה שאתה מתכוון להיות\n"
-	.string "מאמן כמוני, {PLAYER}.\p"
+	.string "את{EMIT_HEY} כאן עם הפוקימון שלך.\p"
+	.string "הממ… אז כנראה שאת{EMIT_HEY} מתכוו{SWAP_NUN}{ADD_TAF} להיות\n"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} כמוני, {PLAYER}.\p"
 	.string "חדשות נהדרות!\n"
 	.string "אני כבר מצפה לזה!$"
 
@@ -1155,12 +1156,12 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "אני רוצה לקבל פוקימון, בבקשה…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-	.string "אבא: הממ? אתה… אה… רגע.\n"
-	.string "נכון, אתה וולי, נכון?$"
+	.string "אבא: הממ? אתה… אה… כן.\n"
+	.string "נכון, אתה וולי?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "וולי: אני עומד לגור עם קרובי המשפחה שלי\n"
-	.string "בעיר ורדנטורף.\p"
+	.string "בעיר ורדנטרף.\p"
 	.string "חשבתי שיהיה לי בודד לבד,\n"
 	.string "אז רציתי לקחת איתי פוקימון.\p"
 	.string "אבל אף פעם לא תפסתי פוקימון.\n"
@@ -1172,26 +1173,26 @@ PetalburgCity_Gym_Text_DadHmISee:
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 	.string "אבא: {PLAYER}, שמעת את זה,\n"
 	.string "נכון?\p"
-	.string "לך עם וולי וודא שהוא תופס\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} עם וולי וודא{ADD_YUD} שהוא תופס\n"
 	.string "פוקימון בבטחה.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "וולי, הנה, אני אשאיל לך את הפוקימון שלי.\p"
-	.string "וולי קיבל את זיגזגון!$"
+	.string "וולי קיבל את {STR_VAR_1}!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
 	.string "וולי: וואו!\n"
 	.string "פוקימון!\p"
-	.string "אבא: הממ. אני אתן לך גם פוקדור אחד.\n"
+	.string "אבא: הממ. אני אתן לך גם פוכדור אחד.\n"
 	.string "לך על זה!\p"
-	.string "וולי קיבל פוקדור!$"
+	.string "וולי קיבל פוכדור!$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
 	.string "וולי: וואו!\n"
 	.string "תודה רבה!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… באמת תבוא איתי?$"
+	.string "{PLAYER}… באמת תבוא{ADD_YUD} איתי?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 	.string "אבא: אז… זה הצליח?$"
@@ -1209,36 +1210,36 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "אבא: עכשיו…\p"
-	.string "{PLAYER}, אם אתה רוצה להיות\n"
-	.string "מאמן חזק, הנה העצה שלי.\p"
-	.string "פנה לעיר ראסטבורו שמעבר\n"
+	.string "{PLAYER}, אם את{EMIT_HEY} רוצה להיות\n"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} חזק{ADD_HEY}, הנה העצה שלי.\p"
+	.string "פנ{EMIT_HEY}{ADD_YUD} לעיר רסטבורו שמעבר\n"
 	.string "לעיר הזאת.\p"
 	.string "שם עליך לאתגר את מנהיגת המכון\n"
 	.string "רוקסן.\p"
-	.string "אחריה, המשך לשאר המאמנים\n"
-	.string "ונצח גם אותם.\p"
-	.string "אסוף מהם תגי מכון,\n"
+	.string "אחריה, המש{SWAP_CHAF}{ADD_YUD} לשאר המאמנים\n"
+	.string "ונצח{ADD_YUD} גם אותם.\p"
+	.string "אס{EMIT_HEY}{SWAP_PEY}{ADD_YUD} מהם תגי מכון,\n"
 	.string "הבנת?\p"
 	.string "כמובן, גם אני מנהיג מכון.\n"
 	.string "יום אחד נילחם, {PLAYER}.\p"
-	.string "אבל רק אחרי שתתחזק מספיק.$"
+	.string "אבל רק אחרי שתתחזק{ADD_YUD} מספיק.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "אבא: הממ? אתה לא הולך למכון\n"
-	.string "הפוקימונים בעיר ראסטבורו?\p"
-	.string "אין לי אתגר בללחום במאמן\n"
-	.string "טירון.\p"
-	.string "{PLAYER}, אני רוצה שתאתגר אותי\n"
+	.string "אבא: הממ? את{EMIT_HEY} לא הול{SWAP_CHAF}{ADD_TAF} למכון\n"
+	.string "הפוקימונים בעיר רסטבורו?\p"
+	.string "אין לי אתגר בלהילחם במאמ{SWAP_NUN}{ADD_TAF}\n"
+	.string "טירו{SWAP_NUN}{ADD_YUD}{ADD_TAF}.\p"
+	.string "{PLAYER}, אני רוצה שתאתגר{ADD_YUD} אותי\n"
 	.string "כשיהיו לך ארבעה תגי מכון, בסדר?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "אבא: אני רואה… אז ניצחת את\n"
-	.string "מנהיגת המכון בראסטבורו.\p"
+	.string "מנהיגת המכון ברסטבורו.\p"
 	.string "אבל יש עוד מאמנים חזקים ממך,\n"
 	.string "{PLAYER}.\p"
-	.string "מעבר לים, בעיר דואופורד,\n"
-	.string "יש מנהיג בשם בראולי.\p"
-	.string "כדאי שתלך לאתגר אותו.$"
+	.string "מעבר לים, בעיר דופורד,\n"
+	.string "יש מנהיג בשם ברולי.\p"
+	.string "כדאי שתל{SWAP_CHAF}{ADD_YUD} לאתגר אותו.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
 	.string "אבא: הממ… {PLAYER}, התחזקת.\p"
@@ -1252,35 +1253,35 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string "פוקימונים.\p"
 	.string "{PLAYER}…\p"
 	.string "אני כל כך שמח שזכיתי להילחם\n"
-	.string "בקרב אמיתי מול הילד שלי.\p"
+	.string "בקרב אמיתי מול הילד{ADD_HEY} שלי.\p"
 	.string "אבל קרב הוא קרב!\p"
 	.string "אני אעשה את כל שביכולתי כמנהיג\n"
 	.string "מכון כדי לנצח.\p"
-	.string "{PLAYER}, כדאי שגם אתה תיתן\n"
+	.string "{PLAYER}, כדאי שגם את{EMIT_HEY} תית{SWAP_NUN}{ADD_YUD}\n"
 	.string "את הכול!$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "…\p"
 	.string "אני… אני לא מאמין…\p"
 	.string "{PLAYER}…\p"
-	.string "הפסדתי ל-{PLAYER}?\p"
+	.string "הפסדתי ל{PLAYER}?\p"
 	.string "אבל כללים הם כללים!\n"
-	.string "קח את זה.$"
+	.string "קח{ADD_YUD} את זה.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} קיבל את תג האיזון\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג האיזון\n"
 	.string "מאבא!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "אבא: עם התג הזה, ההגנה של כל\n"
 	.string "הפוקימונים שלך תעלה.\p"
-	.string "פוקימונים שיודעים את תנועת ה-HM גלישה\n"
+	.string "פוקימונים שיודעים את תנועת המ”נ גלישה\n"
 	.string "יוכלו לעבור מעל המים.\p"
 	.string "וזה המתנה שלי לך, {PLAYER}.\n"
-	.string "אני בטוח שתדע להשתמש בזה נכון.$"
+	.string "אני בטוח שתדע{ADD_YUD} להשתמש בזה נכון.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "אבא: TM42 מכיל את המתקפה חזות.\p"
+	.string "אבא: מ”מ24 מכיל את המתקפה חזות.\p"
 	.string "הכוח שלה מוכפל אם הפוקימון\n"
 	.string "מורעל, משותק או נכווה.\p"
 	.string "לפעמים אפשר להפוך מצב רע\n"
@@ -1293,20 +1294,20 @@ PetalburgCity_Gym_Text_DadHappyAndSad:
 	.string "קצת עצוב. זה מוזר…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
-	.string "אה, הנה אתה, {PLAYER}{KUN}!\p"
-	.string "בוא איתי בבקשה.\n"
+	.string "אה, הנה את{EMIT_HEY}, {PLAYER}{KUN}!\p"
+	.string "בוא{ADD_YUD} איתי בבקשה.\n"
 	.string "יש משהו שאני רוצה לתת לך.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
-	.string "נורמן, אתה לא מתנגד, נכון?\p"
-	.string "תן לי להשאיל את {PLAYER}{KUN}\n"
+	.string "נורמן, את{EMIT_HEY} לא מתנגד{ADD_TAF}, נכון?\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי להשאיל את {PLAYER}{KUN}\n"
 	.string "לכמה דקות.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "אבא: {PLAYER}, כדאי שתבקר את\n"
+	.string "אבא: {PLAYER}, כדאי שתבקר{ADD_YUD} את\n"
 	.string "אמא מדי פעם.\p"
 	.string "אני אשאר כאן ואמשיך להתאמן.\p"
-	.string "זה היה מציק לי כמאמן לא לנסות\n"
+	.string "זה יציק לי כמאמן לא לנסות\n"
 	.string "לנקום את ההפסד שלי לך, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
@@ -1316,50 +1317,50 @@ PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "שתהיה מספיקה.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-	.string "היי, מה נשמע, {PLAYER}, אלוף-\n"
+	.string "היי, מה נשמע, {PLAYER}, אלו{SWAP_PEY}{ADD_TAF}-\n"
 	.string "העתיד שלנו?\p"
-	.string "הדלתות במכון הזה נפתחות כשאתה\n"
-	.string "מנצח את המאמנים שמחכים מאחוריהן.\p"
+	.string "הדלתות במכון הזה נפתחות כשאת{EMIT_HEY}\n"
+	.string "מנצח{ADD_TAF} את המאמנים שמחכים מאחוריהן.\p"
 	.string "אופס! הדלתות בחדר הזה כבר פתוחות,\n"
-	.string "אז אל תתקוף אותי!\p"
+	.string "אז לא להתלהם!\p"
 	.string "המאמנים במכון של עיר פטלבורג\n"
 	.string "משתמשים בכל מיני חפצים.\p"
 	.string "הדלת שמשמאל מובילה לחדר המהירות.\p"
 	.string "הדלת מימין מובילה לחדר הדיוק.\p"
 	.string "שם החדר מופיע על הדלת,\n"
-	.string "אז תבחר בקפידה.\p"
-	.string "ברגע שבחרת דלת…\n"
-	.string "נו, קדימה, לך על זה!$"
+	.string "אז תבחר{ADD_YUD} בקפידה.\p"
+	.string "ברגע שבחרת בדלת…\n"
+	.string "נו, קדימה, ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
 	.string "{PLAYER}! וואו! אפילו התגברת על\n"
 	.string "האבא שלך!\p"
 	.string "וואו באמת!\n"
-	.string "איזה טוויסט מדהים!$"
+	.string "איזו תפנית מדהימה!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
 	.string "היכולת לתקוף לפני היריב…\n"
 	.string "רק זה כבר נותן לי יתרון גדול,\p"
-	.string "אתה לא חושב?$"
+	.string "את{EMIT_HEY} לא חושב{ADD_TAF}?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
 	.string "זה היה קרב מרהיב!$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
-	.string "תמשיך לחדר הבא, שם מחכה לך אתגר חדש.\p"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD} לחדר הבא, שם מחכה לך אתגר חדש.\p"
 	.string "משמאל נמצא חדר הבלבול.\p"
 	.string "הדלת הימנית מובילה לחדר ההגנה.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-	.string "לא משנה מי אתה מנצח, או למי אתה\n"
-	.string "מפסיד, אתה אף פעם לא מפסיק\l"
+	.string "לא משנה מי את{EMIT_HEY} מנצח{ADD_TAF}, או למי את{EMIT_HEY}\n"
+	.string "מפסיד{ADD_HEY}, את{EMIT_HEY} אף פעם לא מפסיק{ADD_HEY}\l"
 	.string "לאמן את עצמך ואת הפוקימונים שלך.\p"
 	.string "לדעתי, זה מה שגורם למישהו להיות\n"
 	.string "מנהיג מכון אמיתי.$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
 	.string "זהו חדר הבלבול.\p"
-	.string "תן לי לראות עד כמה אתה קשור\n"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות עד כמה אתה קשור\n"
 	.string "לפוקימונים שלך!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
@@ -1368,29 +1369,29 @@ PetalburgCity_Gym_Text_ParkerDefeat:
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
 	.string "החדר הבא הוא חדר הכוח.\n"
-	.string "נראה אם תוכל לעמוד בפני עוצמה גולמית!$"
+	.string "נראה אם תוכל{ADD_YUD} לעמוד בפני עוצמה גולמית!$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
 	.string "מאז שניצחת את המנהיג שלנו,\n"
 	.string "האימונים כאן נהיו הרבה יותר קשים.$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-	.string "כשנדמה לך שאתה עומד לנצח,\n"
-	.string "והיריב משחזר לעצמו חיים…\p"
+	.string "כשנדמה לך שאת{EMIT_HEY} עומד{ADD_TAF} לנצח,\n"
+	.string "היריב מחזיר לעצמו נקודות חיים…\p"
 	.string "אפשר רק לדמיין כמה נורא זה מרגיש, נכון?\p"
 	.string "אני אראה לך בדיוק כמה זה נורא!$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-	.string "לא הצלחתי לשחזר חיים מספיק…\n"
+	.string "לא הצלחתי להחזיר נקודות חיים מספיק…\n"
 	.string "איזו עוצמת התקפה…$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "לא הייתי צריך לצפות לפחות\n"
-	.string "מהילד של המנהיג שלנו.\p"
+	.string "מהילד{ADD_HEY} של המנהיג שלנו.\p"
 	.string "לא, רגע! היכולות של מאמן נקנות רק\n"
 	.string "באמצעות מאמץ.\p"
 	.string "הפסדתי כי לא התאמצתי מספיק.\p"
-	.string "תמשיך! החדר הבא הוא חדר ה-KO במכה אחת.$"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD}! החדר הבא הוא חדר הנוקאאוט במכה אחת.$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
 	.string "אני מתכוון להמשיך להתאמן במכונים.\n"
@@ -1398,42 +1399,42 @@ PetalburgCity_Gym_Text_GeorgePostBadge:
 
 PetalburgCity_Gym_Text_BerkeIntro:
 	.string "אני לא מתכוון לקחת את זה בקלות\n"
-	.string "רק בגלל שאתה הילד של המנהיג שלנו.\p"
+	.string "רק בגלל שאת{EMIT_HEY} הילד{ADD_HEY} של המנהיג שלנו.\p"
 	.string "אני אראה לך כמה זה נורא כשפוקימון\n"
 	.string "חוטף מכה קריטית!$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
 	.string "העוצמה שלך…\n"
-	.string "אתה פשוט אמיתי.$"
+	.string "את{EMIT_HEY} פשוט אמיתי{ADD_TAF}.$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
 	.string "האבא שלך באמת חזק.\n"
 	.string "הוא מאמן שאני ממש מעריך.\p"
 	.string "ואני מרגיש אותה הילה בך כמוהו.\p"
-	.string "אני מקווה שתערוך קרב מדהים מול אביך!$"
+	.string "אני מקווה שתער{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} קרב מדהים מול אביך!$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
 	.string "מאז שאבא שלך נהיה מנהיג המכון,\n"
 	.string "המאמנים של עיר פטלבורג נהיו הרבה יותר חזקים.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
-	.string "חח…\n"
+	.string "צחקוק…\n"
 	.string "זהו חדר הדיוק.\p"
 	.string "זה די מרושע כשתוקפים וכל מכה\n"
 	.string "פוגעת בלי לפספס.$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-	.string "היית טובה ממני…$"
+	.string "היית טוב{ADD_HEY} ממני…$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
 	.string "יש עוד מאמנים חזקים שמחכים לך.\p"
-	.string "השמאלית היא חדר ההגנה,\n"
-	.string "והימנית היא חדר ההתאוששות.\p"
+	.string "משמאל זה חדר ההגנה,\n"
+	.string "ומימין זה חדר ההתאוששות.\p"
 	.string "כוח ההתקפה של הפוקימונים שלך\n"
 	.string "יעמוד למבחן בכל מקרה.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
-	.string "אתה יודע למה אנחנו שואפים כמאמנים?\p"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} למה אנחנו שואפים כמאמנים?\p"
 	.string "אנחנו מנסים להפוך לנשמות תאומות\n"
 	.string "עם הפוקימונים שלנו.$"
 
@@ -1446,9 +1447,9 @@ PetalburgCity_Gym_Text_AlexiaDefeat:
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "למדתי ממך שיעור חשוב היום.\p"
-	.string "עכשיו, תמשיך! הדלת השמאלית מובילה\n"
+	.string "עכשיו, תמשי{SWAP_CHAF}{ADD_YUD}! הדלת השמאלית מובילה\n"
 	.string "לחדר הכוח.\p"
-	.string "הדלת הימנית נפתחת לחדר ה-KO במכה אחת.\p"
+	.string "הדלת הימנית נפתחת לחדר הנוקאאוט במכה אחת.\p"
 	.string "בשניהם יש מאמנים שמתמחים בהתקפה.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
@@ -1457,15 +1458,15 @@ PetalburgCity_Gym_Text_AlexiaPostBadge:
 PetalburgCity_Gym_Text_JodyIntro:
 	.string "המנהיג שלנו אמר לנו להשקיע הכול\n"
 	.string "ולנצח אותך.\p"
-	.string "גם אם אתה במקרה הילד שלו!$"
+	.string "גם אם את{EMIT_HEY} במקרה הילד{ADD_HEY} שלו!$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
 	.string "אבל… נתתי הכול!$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "הדרך שבה אתה משתמש בפוקימונים שלך…\n"
+	.string "הדרך שבה את{EMIT_HEY} משתמש{ADD_TAF} בפוקימונים שלך…\n"
 	.string "ממש מזכירה את הסגנון של אביך.\p"
-	.string "תמשיך קדימה! מנהיג המכון, אביך,\n"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD} קדימה! מנהיג המכון, אביך,\n"
 	.string "מחכה לך!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
@@ -1479,7 +1480,7 @@ PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "נראה שהדלת הזו נעולה כרגע…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
-	.string "“חדר המהירות,” כתוב על השלט.\p"
+	.string "”חדר המהירות“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 @ Unused
@@ -1487,32 +1488,32 @@ PetalburgCity_Gym_Text_DoorAppearsLocked2:
 	.string "נראה שהדלת הזו נעולה כרגע…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
-	.string "“חדר הדיוק,” כתוב על השלט.\p"
+	.string "”חדר הדיוק“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterConfusionRoom:
-	.string "“חדר הבלבול,” כתוב על השלט.\p"
+	.string "”חדר הבלבול“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterDefenseRoom:
-	.string "“חדר ההגנה,” כתוב על השלט.\p"
+	.string "”חדר ההגנה“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
-	.string "“חדר ההתאוששות,” כתוב על השלט.\p"
+	.string "”חדר ההתאוששות“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
-	.string "“חדר הכוח,” כתוב על השלט.\p"
+	.string "”חדר הכוח“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterOHKORoom:
-	.string "“חדר ה-KO במכה אחת,” כתוב על השלט.\p"
+	.string "”חדר הנוקאאוט במכה אחת“, כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
-	.string "“חדר מנהיג המכון.”\p"
-	.string "“ראה בעצמך אילו פוקימונים מחכים לך!”\n"
+	.string "”חדר מנהיג המכון.“\p"
+	.string "“רא{EMIT_HEY}{ADD_YUD} בעצמך אילו פוקימונים מחכים לך!”\n"
 	.string "כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
@@ -1526,12 +1527,12 @@ PetalburgCity_Gym_Text_GymStatueCertified:
 
 PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "אבא: {PLAYER}…\n"
-	.string "ידעתי שיום אחד תגיע.\p"
+	.string "ידעתי שיום אחד תגיע{ADD_YUD}.\p"
 	.string "בחיים לא אסרב לאתגר ממך.\p"
-	.string "אתה מבין את זה, נכון?\p"
-	.string "בתוך מכון, זה לא משנה שאנחנו\n"
-	.string "הורה וילד.\p"
-	.string "לא… דווקא בגלל שאנחנו הורה וילד,\n"
+	.string "את{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY} את זה, נכון?\p"
+	.string "בתוך המכון, זה לא משנה שאנחנו\n"
+	.string "הורה וילד{ADD_HEY}.\p"
+	.string "לא… דווקא בגלל שאנחנו הורה וילד{ADD_HEY},\n"
 	.string "אנחנו חייבים לעשות את המיטב.\l"
 	.string "נכון, {PLAYER}?$"
 
@@ -1548,14 +1549,14 @@ PetalburgCity_Gym_Text_NormanPostRematch:
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "אבא: {PLAYER}…\n"
-	.string "ידעתי שיום אחד תגיע.\p"
+	.string "ידעתי שיום אחד תגיע{ADD_YUD}.\p"
 	.string "בחיים לא אסרב לאתגר ממך.\p"
-	.string "אתה מבין את זה, נכון?\p"
-	.string "בתוך מכון, זה לא משנה שאנחנו\n"
-	.string "הורה וילד.\p"
+	.string "את{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY} את זה, נכון?\p"
+	.string "בתוך המכון, זה לא משנה שאנחנו\n"
+	.string "הורה וילד{ADD_HEY}.\p"
 	.string "הממ? רגע, {PLAYER}.\p"
 	.string "יש לך רק פוקימון אחד שיכול\n"
 	.string "להילחם?\p"
-	.string "מצטער, אבל תצטרך לחזור כשתהיה\n"
+	.string "מצטער, אבל תצטר{SWAP_CHAF}{ADD_YUD} לחזור כשתהי{EMIT_HEY}{ADD_YUD}\n"
 	.string "עם לפחות שני פוקימונים.$"
 

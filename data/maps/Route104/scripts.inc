@@ -1067,102 +1067,101 @@ Route104_Text_PrettyPetalFlowShop:
 	.string "חנות פרחים יפי עלי כותרת$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-	.string "TRAINER TIPS\p"
-	.string "In the HOENN region there are pairs\n"
-	.string "of TRAINERS who challenge others\l"
-	.string "for 2-on-2 POKéMON battles called\l"
-	.string "DOUBLE BATTLES.\p"
-	.string "In a DOUBLE BATTLE, the TRAINER must\n"
-	.string "send out two POKéMON, the one at the\l"
-	.string "left of the list and the top one.\l"
-	.string "Watch how POKéMON are lined up.$"
+	.string "עצה למאמנים\p"
+	.string "באזור הוון יש זוגות של מאמנים\n"
+	.string "שמאתגרים אחרים לקרבות פוקימון\l"
+	.string "של 2 על 2, שנקראים קרבות כפולים.\p"
+	.string "בקרב כפול, המאמן חייב לשלוח שני\n"
+	.string "פוקימון, את זה שמשמאל ברשימה,\l"
+	.string "ואת זה שבראשה.\l"
+	.string "שימו לב לסדר הפוקימון שלך.$"
 
 Route104_Text_MayWeShouldRegister:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "DEVON upgraded your POKéNAV with\n"
-	.string "the MATCH CALL system, huh?\p"
-	.string "We should register each other so we\n"
-	.string "can get in contact anytime.$"
+	.string "מאי: היי, {PLAYER}{KUN}!\p"
+	.string "דבון שדרגו לך את הפוקינווט עם\n"
+	.string "מערכת השיחות, אה?\p"
+	.string "בוא נרשום זה את זה כדי\n"
+	.string "שנוכל ליצור קשר בכל זמן.$"
 
 Route104_Text_RegisteredMay:
 	.string "{PLAYER} רש{SWAP_MEM}ה את מאי\n"
 	.string "בפוקינווט.$"
 
 Route104_Text_MayHowsYourPokedex:
-	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"
-	.string "how's your POKéDEX coming along?$"
+	.string "מאי: דרך אגב, {PLAYER}{KUN},\n"
+	.string "איך הולך עם הפוקידע שלך?$"
 
 Route104_Text_MayMinesDecentLetsBattle:
-	.string "Mine's looking pretty decent.\n"
-	.string "So…\l"
-	.string "How about a little battle?$"
+	.string "שלי נראה די טוב.\n"
+	.string "אז…\l"
+	.string "מה דעתך על קרב קטן?$"
 
 Route104_Text_MayHaventRaisedPokemon:
-	.string "MAY: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "מאי: מה הבעיה?\p"
+	.string "לא תפסת או אימנת את הפוקימון שלך\n"
+	.string "מספיק?\p"
+	.string "זה לא כזה טוב למאמן!$"
 
 Route104_Text_MayLetsBattle:
-	.string "MAY: So, what do you think?\n"
-	.string "How about a little battle here?$"
+	.string "מאי: אז, מה אתה חושב?\n"
+	.string "נלך על קרב קטן כאן?$"
 
 Route104_Text_MayIntro:
-	.string "MAY: You just became a TRAINER,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "מאי: אתה רק עכשיו נהיית מאמן,\n"
+	.string "{PLAYER}{KUN}. אני לא הולכת להפסיד!$"
 
 Route104_Text_MayDefeat:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "וואו!\n"
+	.string "אתה טוב יותר ממה שחשבתי!$"
 
 Route104_Text_MayPostBattle:
-	.string "MAY: I can tell you've gotten pretty\n"
-	.string "good with the way you handle POKéMON.\p"
-	.string "But instead of only making them\n"
-	.string "battle, you should be like MR. BRINEY.\p"
-	.string "It's important to become friends with\n"
-	.string "POKéMON, too.$"
+	.string "מאי: אני רואה שאתה כבר די טוב\n"
+	.string "באיך שאתה מטפל בפוקימון שלך.\p"
+	.string "אבל במקום רק לגרום להם להילחם,\n"
+	.string "כדאי להיות כמו מר ברייני.\p"
+	.string "חשוב גם להיות חבר של הפוקימון\n"
+	.string "שלך.$"
 
 Route104_Text_BrendanWeShouldRegister:
-	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
-	.string "Cool, you had DEVON install the MATCH\n"
-	.string "CALL system on your POKéNAV!\p"
-	.string "Let's register each other in our\n"
-	.string "POKéNAVS so we can keep in touch.$"
+	.string "ברנדן: היי, {PLAYER}!\p"
+	.string "מגניב, התקנת את מערכת השיחות\n"
+	.string "בפוקינווט שלך!\p"
+	.string "בואי נרשום זה את זה כדי\n"
+	.string "שנוכל לשמור על קשר.$"
 
 Route104_Text_RegisteredBrendan:
-	.string "{PLAYER} registered BRENDAN\n"
-	.string "in the POKéNAV.$"
+	.string "{PLAYER} רש{SWAP_MEM}ה את ברנדן\n"
+	.string "בפוקינווט.$"
 
 Route104_Text_BrendanHowsYourPokedex:
-	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
-	.string "Have you filled in any pages yet?$"
+	.string "ברנדן: {PLAYER}, איך הפוקידע שלך?\n"
+	.string "הוספת כבר כמה עמודים?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
-	.string "Me, I'm doing great!\p"
-	.string "Want to check out how good I am with\n"
-	.string "a battle?$"
+	.string "אני במצב מצוין!\p"
+	.string "רוצה לבדוק כמה אני טוב\n"
+	.string "בקרב?$"
 
 Route104_Text_BrendanNoConfidence:
-	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "ברנדן: מה קרה? אין לך ביטחון\n"
+	.string "בפוקימון שלך?$"
 
 Route104_Text_BrendanLetsBattle:
-	.string "BRENDAN: What's up?\n"
-	.string "Want to have a battle with me?$"
+	.string "ברנדן: מה נשמע?\n"
+	.string "רוצה קרב איתי?$"
 
 Route104_Text_BrendanIntro:
-	.string "BRENDAN: I know you just became\n"
-	.string "a TRAINER, but I won't go easy!$"
+	.string "ברנדן: אני יודע שרק עכשיו נהיית\n"
+	.string "מאמנת, אבל אני לא אהיה עדין!$"
 
 Route104_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "הממ…\n"
+	.string "את ממש טובה.$"
 
 Route104_Text_BrendanPostBattle:
-	.string "BRENDAN: You've gotten pretty decent\n"
-	.string "at handling POKéMON.\p"
-	.string "But, you know, you shouldn't just be\n"
-	.string "making POKéMON battle.\p"
-	.string "Like MR. BRINEY, it's important to\n"
-	.string "become friends with your POKéMON.$"
+	.string "ברנדן: נהיית די טובה\n"
+	.string "בלטפל בפוקימון.\p"
+	.string "אבל, את יודעת, לא כדאי רק\n"
+	.string "להילחם איתם.\p"
+	.string "כמו מר ברייני, חשוב גם להיות\n"
+	.string "חברה של הפוקימון שלך.$"

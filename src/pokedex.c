@@ -1003,7 +1003,7 @@ static const u8 sLetterSearchRanges[][4] =
     [NAME_PQR] = {CHAR_P, 3, CHAR_p, 3},
     [NAME_STU] = {CHAR_S, 3, CHAR_s, 3},
     [NAME_VWX] = {CHAR_V, 3, CHAR_v, 3},
-    [NAME_YZ]  = {CHAR_Y, 2, CHAR_y, 2},
+//    [NAME_YZ]  = {CHAR_Y, 2, CHAR_y, 2},
 };
 
 #define LETTER_IN_RANGE_UPPER(letter, range) \
@@ -1356,7 +1356,7 @@ static const struct SearchOptionText sDexSearchNameOptions[] =
     [NAME_PQR] = {gText_DexEmptyString, gText_DexSearchAlphaPQR},
     [NAME_STU] = {gText_DexEmptyString, gText_DexSearchAlphaSTU},
     [NAME_VWX] = {gText_DexEmptyString, gText_DexSearchAlphaVWX},
-    [NAME_YZ]  = {gText_DexEmptyString, gText_DexSearchAlphaYZ},
+//    [NAME_YZ]  = {gText_DexEmptyString, gText_DexSearchAlphaYZ},
     {},
 };
 

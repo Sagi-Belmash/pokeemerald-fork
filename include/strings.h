@@ -1185,7 +1185,7 @@ extern const u8 gText_DexSearchAlphaMNO[];
 extern const u8 gText_DexSearchAlphaPQR[];
 extern const u8 gText_DexSearchAlphaSTU[];
 extern const u8 gText_DexSearchAlphaVWX[];
-extern const u8 gText_DexSearchAlphaYZ[];
+//extern const u8 gText_DexSearchAlphaYZ[];
 extern const u8 gText_DexSearchColorRed[];
 extern const u8 gText_DexSearchColorBlue[];
 extern const u8 gText_DexSearchColorYellow[];

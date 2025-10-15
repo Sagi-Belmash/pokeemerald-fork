@@ -437,8 +437,8 @@ static void NamingScreen_Init(void)
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
     sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 36/* 72 */; // was +6
-    if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
-        sNamingScreen->inputCharBaseXPos -= 41/* 77 */;
+     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
+        sNamingScreen->inputCharBaseXPos += 32 ; 
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)

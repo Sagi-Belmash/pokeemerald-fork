@@ -13,6 +13,8 @@
 #include "text.h"
 #include "constants/songs.h"
 
+#include "international_string_util.h"
+
 #define CONDITION_MONS_LOADED 3
 
 struct Pokenav_ConditionMenu
@@ -407,9 +409,10 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
     *(str_++) = TEXT_COLOR_LIGHT_BLUE;
     *(str_++) = CHAR_SLASH;
     //*(str_++) = CHAR_EXTRA_SYMBOL;
+    *(str_++) = CHAR_t/* CHAR_LV_2 */;
     txtPtr = str_;
     str_ = ConvertIntToDecimalStringN(str_, level, STR_CONV_MODE_LEFT_ALIGN, 3);
-    *(str_++) = CHAR_LV_2;
+    ReverseNumeric(txtPtr);
     lvlDigits = str_ - txtPtr;
     *(str_++) = CHAR_SPACE;
     if (!skipPadding)

@@ -1,6 +1,6 @@
 Text_WouldYouLikeToMixRecords:
-	.string "Would you like to mix records with\n"
-	.string "other TRAINERS?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לערבב תקליטים עם\n"
+	.string "מאמנים אחרים?$"
 
 Text_WeHopeToSeeYouAgain:
-	.string "We hope to see you again!$"
+	.string "אנו מקווים לראות אותך שוב!$"

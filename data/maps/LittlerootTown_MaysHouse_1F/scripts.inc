@@ -383,7 +383,7 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "את…\p"
 	.string "מי את?\p"
 	.string "אה, את {PLAYER}, לא?\n"
-	.string "עברת לביד ליד, נכון?\p"
+	.string "עברת לבית ליד, נכון?\p"
 	.string "אני לא ידעתי שאת בת.\p"
 	.string "אבא, פרופ. בירץ', אמר שהשכן\n"
 	.string "לידינו הוא הילד של מנהיג המכון,\l"

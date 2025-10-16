@@ -1,7 +1,6 @@
 #include "global.h"
 #include "mail.h"
 #include "constants/items.h"
-#include "main.h"
 #include "overworld.h"
 #include "task.h"
 #include "scanline_effect.h"
@@ -443,7 +442,7 @@ static const struct MailLayout sMailLayouts_Tall[] = {
     },
 };
 
-void ReadMail(struct Mail *mail, void (*exitCallback)(void), bool8 hasText)
+void ReadMail(struct Mail *mail, MainCallback exitCallback, bool8 hasText)
 {
     u16 buffer[2];
     u16 species;
@@ -690,7 +689,7 @@ static void PrintMailText(void)
     }
     bufptr = StringCopy(signature, gText_FromSpace);
     StringCopy(bufptr, sMailRead->playerName);
-    box_x = GetStringCenterAlignXOffset(FONT_NORMAL, signature, sMailRead->signatureWidth) + 104;
+    box_x = sMailRead->layout->lines[i].xOffset + sMailRead->layout->wordsXPos/* GetStringCenterAlignXOffset(FONT_NORMAL, signature, sMailRead->signatureWidth) + 104 */;
     box_y = sMailRead->layout->signatureYPos + 88;
     AddTextPrinterParameterized3WithRTL(0, FONT_NORMAL, box_x, box_y, sTextColors, 0, signature, TRUE);
     CopyWindowToVram(0, COPYWIN_FULL);

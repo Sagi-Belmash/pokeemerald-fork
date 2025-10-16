@@ -63,20 +63,19 @@ PetalburgCity_Mart_EventScript_Man::
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
-	.string "Even if a POKéMON is weak now,\n"
-	.string "it will grow stronger.\p"
-	.string "The most important thing is love!\n"
-	.string "Love for your POKéMON!$"
+	.string "גם אם פוקימון חלש עכשיו,\n"
+	.string "הוא יתחזק.\p"
+	.string "הדבר הכי חשוב הוא אהבה!\n"
+	.string "אהבה לפוקימון שלך!$"
 
 PetalburgCity_Mart_Text_RepelIsUseful:
-	.string "Do you use REPEL?\n"
-	.string "It keeps POKéMON away, so it's\l"
-	.string "useful when you're in a hurry.$"
+	.string "האם את{EMIT_HEY} משתמש{ADD_TAF} בדוחה?\n"
+	.string "זה מרחיק פוקימון, אז זה\l"
+	.string "שימושי כשאת{EMIT_HEY} ממהר{ADD_TAF}.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
-	.string "Do you have any ANTIDOTES with\n"
-	.string "you?\p"
-	.string "If you walk around with a poisoned\n"
-	.string "POKéMON, it will lose HP until it faints.\l"
-	.string "Take some ANTIDOTES with you.$"
+	.string "האם יש לך נוגדן איתך?\p"
+	.string "אם את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} עם פוקימון מורעל,\n"
+	.string "הוא יאבד נח עד שיתעלף.\l"
+	.string "קח{ADD_YUD} כמה נוגדנים איתך.$"
 

@@ -113,6 +113,7 @@ static bool8 LoadBikeScene(u8 data, u8);
 static void ResetCreditsTasks(u8);
 static void LoadTheEndScreen(u16, u16, u16);
 static void DrawTheEnd(u16, u16);
+static void DrawTheEnd_Hebrew(u16, u16);
 static void SpriteCB_Player(struct Sprite *);
 static void SpriteCB_Rival(struct Sprite *);
 static u8 CreateCreditsMonSprite(u16, s16, s16, u16);
@@ -161,6 +162,43 @@ static const u8 sTheEnd_LetterMap_D[] =
     1, 0xFF, 1,
     1, 0x88, 0x89,
     1, 0x86, 0x87,
+};
+
+// ף ו ס ה  (הסוף) — each entry is a 5x3 map (row-major)
+static const u8 sTheEnd_LetterMap_PeiSofit[] = // ף (final Pe)
+{
+    1, 1, 1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
+    0xFF, 0xFF, 1,
+    0xFF, 0xFF, 1,
+};
+
+static const u8 sTheEnd_LetterMap_Vav[] = // ו (Vav)
+{
+    2, 1, 0xFF,
+    0xFF, 1, 0xFF,
+    0xFF, 1, 0xFF,
+    0xFF, 1, 0xFF,
+    0xFF, 1, 0xFF,
+};
+
+static const u8 sTheEnd_LetterMap_Samekh[] = // ס (Samekh)
+{
+    1, 1, 1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
+    1, 1, 1,
+};
+
+static const u8 sTheEnd_LetterMap_He[] = // ה (He)
+{
+    1, 1, 1,
+    0xFF, 0xFF, 1,
+    1, 0xFF,    1,
+    1, 0xFF, 1,
+    1, 0xFF, 1,
 };
 
 #include "data/credits.h"
@@ -659,7 +697,8 @@ static void Task_CreditsTheEnd5(u8 taskId)
 {
     if (!gPaletteFade.active)
     {
-        DrawTheEnd(0x3800, 0);
+        //DrawTheEnd(0x3800, 0);
+        DrawTheEnd_Hebrew(0x3800, 0);
 
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0, RGB_BLACK);
         gTasks[taskId].tDelay = 7200;
@@ -1340,6 +1379,23 @@ static void DrawTheEnd(u16 offset, u16 palette)
     DrawLetterMapTiles(sTheEnd_LetterMap_E, 16, 7, offset, palette);
     DrawLetterMapTiles(sTheEnd_LetterMap_N, 20, 7, offset, palette);
     DrawLetterMapTiles(sTheEnd_LetterMap_D, 24, 7, offset, palette);
+}
+
+static void DrawTheEnd_Hebrew(u16 offset, u16 palette)
+{
+    u16 pos;
+    u16 baseTile = (palette / 16) << 12;
+
+    // Clear tilemap area (same as original)
+    for (pos = 0; pos < 32 * 32; pos++)
+        ((u16 *) (VRAM + offset))[pos] = baseTile + 1;
+
+    // Draw the Hebrew word "הסוף".
+    // Draw order in code is left-to-right, so we draw ף, ו, ס, ה (visual right-to-left)
+    DrawLetterMapTiles(sTheEnd_LetterMap_PeiSofit, 9, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_Vav,       13, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_Samekh,   16, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_He,       20, 7, offset, palette);
 }
 
 #define sState data[0]

@@ -32,6 +32,7 @@
 #include "constants/mauville_old_man.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#define MAIN_CURSER_XOFFSET 98
 
 static EWRAM_DATA struct EasyChatScreen *sEasyChatScreen = NULL;
 static EWRAM_DATA struct EasyChatScreenControl *sScreenControl = NULL;
@@ -3181,7 +3182,7 @@ static bool8 UpdateMainCursor(void)
     cursorRow = GetMainCursorRow();
     numColumns = GetNumColumns();
     ecWord = &currentPhrase[cursorRow * numColumns];
-    x = 8 * sPhraseFrameDimensions[frameId].left + 13;
+    x = 8 * sPhraseFrameDimensions[frameId].left + MAIN_CURSER_XOFFSET;
     for (i = 0; i < cursorColumn; i++)
     {
         if (*ecWord == EC_EMPTY_WORD)
@@ -4260,7 +4261,7 @@ static void PrintKeyboardGroupNames(void)
                 return;
             }
 
-            PrintEasyChatText(WIN_INPUT_SELECT, FONT_NORMAL, GetEasyChatWordGroupName(groupId), x * 84 + 10, y, TEXT_SKIP_DRAW, NULL);
+            PrintEasyChatText(WIN_INPUT_SELECT, FONT_NORMAL, GetEasyChatWordGroupName(groupId), x * 84 + 54, y, TEXT_SKIP_DRAW, NULL);
         }
 
         y += 16;
@@ -4636,7 +4637,7 @@ static void LoadEasyChatGfx(void)
 static void CreateMainCursorSprite(void)
 {
     u8 frameId = GetEasyChatScreenFrameId();
-    int x = sPhraseFrameDimensions[frameId].left * 8 + 13;
+    int x = sPhraseFrameDimensions[frameId].left * 8 + MAIN_CURSER_XOFFSET;
     int y = sPhraseFrameDimensions[frameId].top * 8 + 8;
     u8 spriteId = CreateSprite(&sSpriteTemplate_TriangleCursor, x, y, 2);
     sScreenControl->mainCursorSprite = &gSprites[spriteId];

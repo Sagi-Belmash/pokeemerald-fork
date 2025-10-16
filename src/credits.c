@@ -172,15 +172,17 @@ static const u8 sTheEnd_LetterMap_PeiSofit[] = // ף (final Pe)
     1, 0xFF, 1,
     0xFF, 0xFF, 1,
     0xFF, 0xFF, 1,
+    0xFF, 0xFF, 1,
 };
 
 static const u8 sTheEnd_LetterMap_Vav[] = // ו (Vav)
 {
-    2, 1, 0xFF,
+    1, 1, 0xFF,
     0xFF, 1, 0xFF,
     0xFF, 1, 0xFF,
     0xFF, 1, 0xFF,
     0xFF, 1, 0xFF,
+    0xFF, 0xFF, 0xFF,
 };
 
 static const u8 sTheEnd_LetterMap_Samekh[] = // ס (Samekh)
@@ -190,6 +192,7 @@ static const u8 sTheEnd_LetterMap_Samekh[] = // ס (Samekh)
     1, 0xFF, 1,
     1, 0xFF, 1,
     1, 1, 1,
+    0xFF, 0xFF, 0xFF,
 };
 
 static const u8 sTheEnd_LetterMap_He[] = // ה (He)
@@ -199,6 +202,7 @@ static const u8 sTheEnd_LetterMap_He[] = // ה (He)
     1, 0xFF,    1,
     1, 0xFF, 1,
     1, 0xFF, 1,
+    0xFF, 0xFF, 0xFF,
 };
 
 #include "data/credits.h"
@@ -1358,7 +1362,7 @@ static void DrawLetterMapTiles(const u8 baseTiles[], u8 baseX, u8 baseY, u16 off
     u8 y, x;
     const u16 tileOffset = (palette / 16) << 12;
 
-    for (y = 0; y < 5; y++)
+    for (y = 0; y < 6; y++)
     {
         for (x = 0; x < 3; x++)
             ((u16 *) (VRAM + offset + (baseY + y) * 64))[baseX + x] = tileOffset + GetLetterMapTile(baseTiles[y * 3 + x]);
@@ -1392,10 +1396,10 @@ static void DrawTheEnd_Hebrew(u16 offset, u16 palette)
 
     // Draw the Hebrew word "הסוף".
     // Draw order in code is left-to-right, so we draw ף, ו, ס, ה (visual right-to-left)
-    DrawLetterMapTiles(sTheEnd_LetterMap_PeiSofit, 9, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_Vav,       13, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_Samekh,   16, 7, offset, palette);
-    DrawLetterMapTiles(sTheEnd_LetterMap_He,       20, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_PeiSofit, 8, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_Vav,       12, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_Samekh,   15, 7, offset, palette);
+    DrawLetterMapTiles(sTheEnd_LetterMap_He,       19, 7, offset, palette);
 }
 
 #define sState data[0]

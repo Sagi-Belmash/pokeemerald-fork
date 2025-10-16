@@ -985,6 +985,7 @@ static void PrintNumberRegistered(u16 windowId)
 {
     u8 str[3];
     ConvertIntToDecimalStringN(str, GetNumberRegistered(), STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(str);
     PrintMatchCallInfoNumber(windowId, str, 1);
 }
 
@@ -1001,6 +1002,7 @@ static void PrintNumberOfBattles(u16 windowId)
         numTrainerBattles = 99999;
 
     ConvertIntToDecimalStringN(str, numTrainerBattles, STR_CONV_MODE_LEFT_ALIGN, 5);
+    ReverseNumeric(str);
     PrintMatchCallInfoNumber(windowId, str, 3);
 }
 

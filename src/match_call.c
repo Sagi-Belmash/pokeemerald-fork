@@ -33,6 +33,8 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 
+#include "international_string_util.h"
+
 // In this file only the values normally associated with Battle Pike and Factory are swapped.
 // Note that this is *not* a bug, because they are properly swapped consistently in this file.
 // There would only be an issue if anything in this file interacted with something expecting
@@ -1405,9 +1407,9 @@ static void DrawMatchCallTextBoxBorder_Internal(u32 windowId, u32 tileOffset, u3
 
 static void InitMatchCallTextPrinter(int windowId, const u8 *str)
 {
+    struct TextPrinterTemplate printerTemplate;
     u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
-    struct TextPrinterTemplate printerTemplate;
     printerTemplate.currentChar = str;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = FONT_NORMAL;
@@ -1422,6 +1424,7 @@ static void InitMatchCallTextPrinter(int windowId, const u8 *str)
     printerTemplate.bgColor = TEXT_COLOR_BLUE;
     printerTemplate.shadowColor = TEXT_DYNAMIC_COLOR_5;
     gTextFlags.useAlternateDownArrow = FALSE;
+
     printerTemplate.rtlMode = TRUE;
 
     AddTextPrinter(&printerTemplate, GetPlayerTextSpeedDelay(), NULL);
@@ -2080,7 +2083,9 @@ void BufferPokedexRatingForMatchCall(u8 *destStr)
     numSeen = GetHoennPokedexCount(FLAG_GET_SEEN);
     numCaught = GetHoennPokedexCount(FLAG_GET_CAUGHT);
     ConvertIntToDecimalStringN(gStringVar1, numSeen, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(gStringVar1);
     ConvertIntToDecimalStringN(gStringVar2, numCaught, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(gStringVar2);
     dexRatingLevel = GetPokedexRatingLevel(numCaught);
     str = StringCopy(buffer, gBirchDexRatingText_AreYouCurious);
     *(str++) = CHAR_PROMPT_CLEAR;

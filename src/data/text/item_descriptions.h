@@ -227,9 +227,8 @@ static const u8 sShoalShellDesc[] = _(
     "שרטון.");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "חרס מפריט עתיק.\n"
+    "ניתן למכור בזול.");
 
 static const u8 sBlueShardDesc[] = _(
     "חרס מפריט עתיק.\n"
@@ -739,7 +738,7 @@ static const u8 sChoiceBandDesc[] = _(
 static const u8 sKingsRockDesc[] = _(
     "פריט להחזקה\n"
     "שעלול לגרום לרתיעה\n"
-    "כאשר האויב נפגע.");
+    "כאשר היריב נפגע.");
 
 static const u8 sSilverPowderDesc[] = _(
     "פריט להחזקה\n"
@@ -957,576 +956,572 @@ static const u8 sYellowScarfDesc[] = _(
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "A folding bicycle\n"
-    "that doubles your\n"
-    "speed or better.");
+    "אופניים מתקפלים\n"
+    "שמכפיל את המהירות\n"
+    "שלך או יותר.");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+    "תיבה שמכילה\n"
+    "עד 999,9 מטבעות.");
 
 static const u8 sItemfinderDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "מכשיר שמאותת\n"
+    "על פריט בלתי נראה\n"
+    "באמצעות צליל.");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+    "לשימוש ליד כל גוף\n"
+    "מים כדי לדוג\n"
+    "פוקימון פראי.");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "חכת דיג טובה\n"
+    "לתפיסת פוקימון\n"
+    "פראי.");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "החכה הטובה ביותר\n"
+    "לתפיסת פוקימון\n"
+    "פראי.");
 
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+    "כרטיס הנדרש\n"
+    "להפלגה במעבורת.");
 
 static const u8 sContestPassDesc[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+    "היתר הנדרש\n"
+    "להשתתפות\n"
+    "תחרויות פוקימון.");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+    "כלי המשמש להשקיית\n"
+    "פירות יער\n"
+    "וצמחים.");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+    "חבילה המכילה\n"
+    "חלקי מכונה\n"
+    "של דבון.");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+    "שק לאיסוף\n"
+    "והחזקה של\n"
+    "אפר וולקני.");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for NEW\n"
-    "MAUVILLE beneath\n"
-    "MAUVILLE CITY.");
+    "המפתח למוויל\n"
+    "החדשה מתחת\n"
+    "לעיר מוויל.");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+    "אופניים מתקפלים\n"
+    "המסוגלים לקפיצות\n"
+    "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+    "מארז להחזקת\n"
+    "פוקיכגושים שהוכנו\n"
+    "מבלנדר פירות יער.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+    "מכתב לסטיבן\n"
+    "מהנשיא של\n"
+    "חברת דבון.");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+    "כרטיס למעבורת\n"
+    "אל אי דרומי\n"
+    "מרוחק.");
 
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "כדור אדום וזוהר\n"
+    "שנאמר שהוא מכיל\n"
+    "כוח עתיק.");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "כדור כחול וזוהר\n"
+    "שנאמר שהוא מכיל\n"
+    "כוח עתיק.");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+    "מכשיר שנמצא\n"
+    "בתוך הספינה\n"
+    "הנטושה.");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+    "משקפי מגן נחמדים\n"
+    "שמגנים על העיניים\n"
+    "מפני סופות חול במדבר.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
+    "מטאוריט שנמצא\n"
+    "במפלי מטאור.");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
+    "מפתח שפותח\n"
+    "דלת בתוך\n"
+    "הספינה הנטושה.");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "מאובן של פוקימון\n"
+    "עתיק, השוכן\n"
+    "בקרקעית הים.");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "מאובן של פוקימון\n"
+    "עתיק, השוכן\n"
+    "בקרקעית הים.");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+    "מכשיר של דבון\n"
+    "שמאותת על כל\n"
+    "פוקימון בלתי נראה.");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "עוצמתי, אבל גורם\n"
+    "למשתמש להירתע\n"
+    "אם נפגע מהיריב.");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+    "תופס וחותך את\n"
+    "היריב עם טפרים\n"
+    "ארוכים וחדים.");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "יוצר גל\n"
+    "אולטרסאונד שעשוי\n"
+    "לבלבל.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+    "מעלה את ההתקפה מ.\n"
+    "וההגנה מ. על ידי\n"
+    "מיקוד המחשבה.");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "שאגה פראית\n"
+    "שגורמת ליריב לברוח\n"
+    "לכדי סיום הקרב.");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+    "מרעיל את היריב\n"
+    "עם רעלן שבהדרגה\n"
+    "מחמיר.");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except ICE.");
+    "יוצר סופת ברד\n"
+    "שפוגעת בכל\n"
+    "סוג חוץ מקרח.");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+    "מחזק את הגוף\n"
+    "כדי להגביר\n"
+    "התקפה והגנה.");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+    "יורה 2 עד 5 זרעים\n"
+    "ברציפות כדי\n"
+    "לפגוע ביריב.");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different POKéMON.");
+    "כוח ההתקפה\n"
+    "משתנה בין\n"
+    "פוקימונים שונים.");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "FIRE-type moves\n"
-    "for 5 turns.");
+    "מגביר את כוחם\n"
+    "של מהלכים מסוג אש\n"
+    "במשך 5 תורות.");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+    "מעורר זעם ביריב\n"
+    "כך שהוא רק משתמש\n"
+    "במהלכי התקפה.");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+    "יורה קרן קפואה\n"
+    "שעשויה להקפיא\n"
+    "את היריב.");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+    "התקפת שלג ורוח\n"
+    "אכזרית שעלולה\n"
+    "להקפיא את היריב.");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "עוצמתי, אבל\n"
+    "מצריך טעינה\n"
+    "בתור הבא.");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "SP. ATK damage.");
+    "יוצר קיר של אור\n"
+    "שמוריד נזק\n"
+    "של התקפה מ.");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+    "מבטל כל נזק,\n"
+    "אך עלול להיכשל\n"
+    "בשימוש ברצף.");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "WATER-type moves\n"
-    "for 5 turns.");
+    "מגביר את כוחם של\n"
+    "מהלכים מסוג מים\n"
+    "במשך 5 תורות.");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+    "מחזיר חצי מהנח\n"
+    "של הנזק שהמהלך\n"
+    "הזה גורם.");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+    "מונע חריגת\n"
+    "סטטוס בעזרת\n"
+    "כוח מיסטי.");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "ככל המשתמש פחות\n"
+    "אוהב אותך, כך המהלך\n"
+    "הזה חזק יותר.");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "סופג אור שמש\n"
+    "בתור הראשון, ואז\n"
+    "תוקף בתור הבא.");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower DEFENSE.");
+    "מטיח את היריב עם\n"
+    "זנב קשה. עלול\n"
+    "להוריד הגנה.");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+    "התקפה חשמלית\n"
+    "חזקה שעלולה\n"
+    "לגרום לשיתוק.");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+    "מכה את האויב\n"
+    "ם ברק. עלולה\n"
+    "לגרום לשיתוק.");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+    "גורם לרעידת אדמה\n"
+    "שאין לה השפעה\n"
+    "יריבים מעופפים.");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "ככל שהמשתמש אוהב\n"
+    "אותך יותר, כך המהלך\n"
+    "הזה עוצמתי יותר.");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+    "חופר באדמה\n"
+    "בתור הראשון, ואז\n"
+    "מכה בתור הבא.");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower SP. DEF.");
+    "התקפה על חושית\n"
+    "חזקה שעלולה\n"
+    "להוריד הגנה מ.");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower SP. DEF.");
+    "משליך גוש אפל\n"
+    "על היריב. עלול\n"
+    "להוריד הגנה מ.");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like LIGHT SCREEN\n"
-    "and causes damage.");
+    "הורס מחסומים\n"
+    "כמו מסך אור\n"
+    "וגורם נזק.");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+    "יוצר עותקי\n"
+    "אשליה בכדי להגביר\n"
+    "חמקמקות.");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+    "יוצר חומה של\n"
+    "אור שמחלישה\n"
+    "התקפות פיזיות.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "ממריץ את היריב עם\n"
+    "זעזוע חשמל\n"
+    "שאף פעם לא מחטיא.");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+    "משחרר זרם\n"
+    "אש שעשויה לכוות\n"
+    "את היריב.");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+    "משליך רפש על\n"
+    "היריב. עלול להרעיל\n"
+    "את היריב.");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+    "גורם לסופת חול\n"
+    "שפוגעת ביריב\n"
+    "במשך מספר תורות.");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+    "התקפת אש עוצמתית\n"
+    "שעשויה לכוות\n"
+    "את היריב.");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+    "בעזרת סלעים מונע\n"
+    "מהיריב לזוז.\n"
+    "עלול להוריד מהירות.");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "התקפה מהירה\n"
+    "במיוחד שלא ניתן\n"
+    "להתחמק ממנה.");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+    "מונע מהיריב\n"
+    "להשתמש באותו\n"
+    "מהלך ברצף.");
 
 static const u8 sTM42Desc[] = _(
-    "Raises ATTACK when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+    "מגביר התקפה כאשר\n"
+    "מורעל, נכווה,\n"
+    "או משותק.");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+    "מוסיף השפעה\n"
+    "להתקפה בהתאם\n"
+    "למיקום.");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+    "המשתמש ישן למשך\n"
+    "2 תורות כדי\n"
+    "לרפא בריאות ומצב.");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "מקשה על היריב\n"
+    "לתקוף את\n"
+    "המגדר האחר.");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+    "בזמן התקפה,\n"
+    "זה עלול לגנוב את\n"
+    "הפריט של היריב.");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+    "פורש כנפיים\n"
+    "מחודדות וחזקות\n"
+    "ומתנגש ביריב.");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+    "מחליף יכולות\n"
+    "עם היריב בתור\n"
+    "שהמהלך בשימוש.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "גונב את ההשפעות\n"
+    "של המהלך שהיריב\n"
+    "מנסה להשתמש.");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
+    "מאפשר התקפה בעוצמה\n"
+    "מלאה, אבל מורידה\n"
+    "בחדות את ההתקפה מ.");
 
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "תוקף את היריב\n"
+    "עם להבים חדים\n"
+    "או טפרים.");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "עף למעלה בסיבוב\n"
+    "הראשון, ואז תוקף\n"
+    "בסיבוב הבא.");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+    "יוצר גל ענקי,\n"
+    "ואז מתרסק על\n"
+    "היריב.");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+    "בונה כוח עצום,\n"
+    "ואז מכה באויב.");
 
 static const u8 sHM05Desc[] = _(
-    "Looses a powerful\n"
-    "blast of light that\n"
-    "reduces accuracy.");
+    "משחרר פרץ אור\n"
+    "עוצמתי שמוריד\n"
+    "דיוק.");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower DEFENSE.");
+    "התקפה נוקשית\n"
+    "ומרסקת שעלולה\n"
+    "להוריד הגנה.");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "תוקף את היריב\n"
+    "עם מספיק כוח\n"
+    "כדי לטפס על מפלים.");
 
 static const u8 sHM08Desc[] = _(
-    "Dives underwater\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "צולל מתחת למים\n"
+    "בתור הראשון, ואז\n"
+    "תוקף בתור הבא.");
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
-    "MART's clerk.");
+    "חבילה עבור פרופ.\n"
+    "אוק מהפקיד\n"
+    "בחנות פוקימון.");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "POKéMON.");
+    "חליל עם צליל נעים\n"
+    "שמעורר פוקימון.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "The key to the\n"
-    "CINNABAR ISLAND\n"
-    "GYM's entrance.");
+    "מפתח הכניסה\n"
+    "למכון באי\n"
+    "סינאבר.");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+    "שובר עבור\n"
+    "רכישת אופניים\n"
+    "מהחנות אופניים.");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the SAFARI\n"
-    "ZONE's WARDEN.");
+    "שיני תותב זהובות\n"
+    "שאבדו לשומר\n"
+    "הספארי.");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient POKéMON.");
+    "אבן המכילה\n"
+    "את הגנים של\n"
+    "פוקימון עתיק.");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in SILPH\n"
-    "CO's office.");
+    "כרטיס מפתח\n"
+    "לדלת המשמש\n"
+    "למשרד בחברת סילפ.");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in TEAM\n"
-    "ROCKET's HIDEOUT.");
+    "מפתח מעלית\n"
+    "המשמש במחבוא\n"
+    "של צוות רוקט.");
 
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's seashell.");
+    "חתיכה של צדף\n"
+    "פוקימון ימי\n"
+    "עתיק.");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's shell.");
+    "חתיכה מקונכיה\n"
+    "של פוקימון\n"
+    "ימי עתיק.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "SILPH CO's scope\n"
-    "makes unseeable\n"
-    "POKéMON visible.");
+    "עדשות חברת סילפ.\n"
+    "הופך פוקימון בלתי\n"
+    "נראה לגלוי.");
 
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the RUNNING SHOES.");
+    "אופניים מתקפלים\n"
+    "שהם מהירים יותר\n"
+    "מנעלי ריצה.");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "ניתן לצפייה בכל\n"
+    "עת. מציג את\n"
+    "מיקומך הנוכחי.");
 
 static const u8 sVSSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready TRAINERS.");
+    "יחידה נטענת\n"
+    "שמסמנת מאמנים\n"
+    "המוכנים לקרב.");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Stores information\n"
-    "on famous people\n"
-    "for instant recall.");
+    "מאחסן מידע\n"
+    "על אנשים מפורסמים\n"
+    "לשחזור מיידי.");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+    "תיק נוח שמחזיק\n"
+    "במ”מ ומ”נ.");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds BERRIES.");
+    "מארז נוח\n"
+    "המכיל פירות\n"
+    "יער.");
 
 static const u8 sTeachyTVDesc[] = _(
-    "A TV set tuned to\n"
-    "an advice program\n"
-    "for TRAINERS.");
+    "טלויזיה המכוונת\n"
+    "לתכנית יעוץ\n"
+    "עבור מאמנים.");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between ONE, TWO,\n"
-    "and THREE ISLAND.");
+    "כניסה למעבורות\n"
+    "בין איים אחד,\n"
+    "שניים ושלושה.");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "VERMILION and the\n"
-    "SEVII ISLANDS.");
+    "עבור מעבורות\n"
+    "המשרתות את\n"
+    "ורמיליון ואיי הסבי.");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+    "תה מרווה צמא\n"
+    "שהוכן על ידי\n"
+    "גברת זקנה.");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to NAVEL ROCK.");
+    "כרטיס הנדרש\n"
+    "לעלייה לספינה\n"
+    "אל סלע הטבור.");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+    "כרטיס הנדרש\n"
+    "לעלייה לספינה\n"
+    "אל אי הלידה.");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores BERRY\n"
-    "POWDER made using\n"
-    "a BERRY CRUSHER.");
+    "מאחסן אבקת\n"
+    "פרי יער המיוצר\n"
+    "בגורס פירות יער.");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+    "אבן חן משובחת,\n"
+    "זוהרת באדום,\n"
+    "המסמלת תשוקה.");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+    "אבן חן כחולה\n"
+    "מבריקה המסמלת\n"
+    "כנות.");
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
     "פריט דמוי מדליה\n"
     "באותה צורה כמו\n"
-    "סמל קבוצת מגמה.");
+    "סמל צוות מגמה.");
 
 static const u8 sOldSeaMapDesc[] = _(
     "תרשים ים דהוי\n"

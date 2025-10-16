@@ -95,64 +95,64 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "MR. BRINEY: Hold on, lass!\n"
-	.string "Wait up, PEEKO!$"
+	.string "מר ברייני: חכי, עלמה!\n"
+	.string "חכי, פיקו!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? You're {PLAYER}{KUN}!\n"
-	.string "You saved my darling PEEKO!\l"
-	.string "We owe so much to you!\p"
-	.string "What's that?\n"
-	.string "You want to sail with me?\p"
-	.string "Hmhm…\p"
-	.string "You have a LETTER bound for DEWFORD\n"
-	.string "and a package for SLATEPORT, then?\p"
-	.string "Quite the busy life you must lead!\p"
-	.string "But, certainly, what you're asking is\n"
-	.string "no problem at all.\p"
-	.string "You've come to the right man!\n"
-	.string "We'll set sail for DEWFORD.$"
+	.string "המ? את{EMIT_HEY} {PLAYER}{KUN}!\n"
+	.string "את{EMIT_HEY} הצלת את פיקו היקרה שלי!\l"
+	.string "אנחנו חייבים לך כל כך!\p"
+	.string "מה זה?\n"
+	.string "את{EMIT_HEY} רוצה להפליג איתי?\p"
+	.string "המהמ…\p"
+	.string "יש לך מכתב בדרך לדופורד\n"
+	.string "וחבילה לסלייטפורט, אכן?\p"
+	.string "איזה חיים עמוסים את{EMIT_HEY} בטח מנהל{ADD_TAF}!\p"
+	.string "אבל, בהחלט, מה שאת{EMIT_HEY} מבקש{ADD_TAF}\n"
+	.string "זה לא בעיה בכלל.\p"
+	.string "הגעת לאיש הנכון!\n"
+	.string "נפליג לדופורד.$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "MR. BRINEY: DEWFORD it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "מר ברייני: זה דופורוד, אם כך!\p"
+	.string "עוגנים שוקלים!\n"
+	.string "פיקו, אנחנו מפליגים, יקירתי!$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
-	.string "MR. BRINEY: Is that so?\n"
-	.string "Your deliveries can wait?\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
+	.string "מר ברייני: הייתכן?\n"
+	.string "המשלוחים שלך יכולים לחכות?\p"
+	.string "פשוט תגיד{ADD_YUD} לי מתי\n"
+	.string "את{EMIT_HEY} רוצה להפליג!$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a LETTER to DEWFORD\n"
-	.string "and a package to SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "מר ברייני: אהוי!\n"
+	.string "אני יודע בדיוק מה את{EMIT_HEY} רוצה לומר!\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} למסור מכתב לדופורד\n"
+	.string "וחבילה לסלייטפורט.\p"
+	.string "מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} שאני אעשה זה לא בעיה\n"
+	.string "בכלל--אני האיש למשימה!\p"
+	.string "קודם כל, נפליג לדופורד.$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "מר ברייני: אהוי!\n"
+	.string "אני יודע בדיוק מה את{EMIT_HEY} רוצה לומר!\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} למסור חבילה\n"
+	.string "לקפטן סטרן בסלייטפורט.\p"
+	.string "מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} שאני אעשה זה לא בעיה\n"
+	.string "בכלל--אני האיש למשימה!\p"
+	.string "קודם כל, נפליג לדופורד.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?$"
+	.string "מר ברייני: אהוי!\n"
+	.string "בשבילך, אצא לים בכל עת!\p"
+	.string "עכשיו, ידיד{ADD_TAF}י, לאן אנחנו מועדים?$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
-	.string "MR. BRINEY: Is that so?\n"
-	.string "Well, PEEKO owes her life to you.\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
+	.string "מר ברייני: האם זה נכון?\n"
+	.string "ובכן, פיקו חבה לך את חייה.\p"
+	.string "פשוט תגיד{ADD_YUD} לי מתי שבא\n"
+	.string "לך לצאת להפליג!$"
 
 Route104_MrBrineysHouse_Text_Peeko:
-	.string "PEEKO: Pii piihyoro!$"
+	.string "פיקו: פיי פייורו!$"
 

@@ -1,6 +1,6 @@
 gText_WantToUseSurf::
-	.string "The water is dyed a deep blue…\n"
-	.string "Would you like to SURF?$"
+	.string "המים צבועים בכחול עמוק…\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להשתמש בגלישה?$"
 
 gText_PlayerUsedSurf::
-	.string "{STR_VAR_1} used SURF!$"
+	.string "{STR_VAR_1} השתמש{ADD_HEY} בגלישה!$"

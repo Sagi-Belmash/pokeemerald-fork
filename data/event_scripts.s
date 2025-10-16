@@ -843,84 +843,83 @@ gText_PokemonCenterSign::
 	.string "מרכז פוקימון$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
+	.string "התכנית עלולה להיות אהובה ע”י {STR_VAR_1}.\n"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string "כדאי לצאת לדרך!$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
-	.string "Which floor would you like?$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לחנות הכלבו בליליקוב.\p"
+	.string "לאיזה קומה תרצ{EMIT_HEY}{ADD_YUD}?$"
 
 gText_SandstormIsVicious::
-	.string "The sandstorm is vicious.\n"
-	.string "It's impossible to keep going.$"
+	.string "הסופת חול אכזרית.\n"
+	.string "בלתי אפשרי להמשיך הלאה.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "פריט בתיק ניתן לרשום\n"
+	.string "ל-TCELES לשימוש קל.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from POKéMON TRAINER\n"
-	.string "SCHOOL.\p"
+	.string "יש אימייל ממאמן פוקימון\n"
+	.string "בבית ספר.\p"
 	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
+	.string "פוקימון יכול ללמוד עד ארבעה מהלכים.\p"
+	.string "המומחיות של מאמן נבדקת על\n"
+	.string "סט המהלכים שבחרו לפוקימון.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
 	.string "{PLAYER} העל{ADD_TAF}ה את המחשב.$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "הקישור בוטל.$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "רוצה לתת כינוי\n"
+	.string "ל{STR_VAR_2} שקיבלת?$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "ל{PLAYER} נגמרו הפוקימונים\n"
+	.string "בשימוש!\p{PLAYER} התעל{SWAP_PEY}{ADD_HEY}!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "רישום {STR_VAR_1} {STR_VAR_2}\n"
+	.string "בפוקינווט.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
-	.string "One of our members will give it to you.\n"
-	.string "Come back and show me if you get it.\p"
-	.string "We'll accept you as a member and sell\n"
-	.string "you good stuff in secrecy.$"
+	.string "האם את{EMIT_HEY} מכיר{ADD_HEY} את המ”מ כוח סודי?\p"
+	.string "הקבוצה שלנו, אוהבת את המ”מ כוח סודי\p"
+	.string "אחד החברים שלנו ייתן לך אותו.\n"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} ותרא{EMIT_HEY}{ADD_YUD} לי לאחר שקיבלת אותו.\p"
+	.string "נקבל אותך כחבר קבוצה ונמכור\n"
+	.string "לך דברים טובים בסודיות.$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
-	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
-	.string "grow exceptionally well.$"
+	.string "ייתכן שהפוקימון שלך נגוע\n"
+	.string "בפוקיוירוס.\p"
+	.string "מעט ידוע על הפוקיוירוס\n"
+	.string "מלבד העובדה שאלה צורות חיים \l"
+	.string "מיקרוסקופיים שנצמדות לפוקימון.\p"
+	.string "בזמן הנגע, נאמר שפוקימוןo\n"
+	.string "גדל באופן משמעותי.$"
 
 	.include "data/text/surf.inc"
 
 gText_DoorOpenedFarAway::
-	.string "It sounded as if a door opened\n"
-	.string "somewhere far away.$"
+	.string "זה נשמע כאילו דלת נפתחה\n"
+	.string "במקום רחוק.$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string "יש חור גדול בקיר.$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "אני נורא מצטערת.\n"
+	.string "מועדון הפוקימון האלחוטי\l"
+	.string "עובר כעת התאמות.$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "נראה שהוא עובר\n"
+	.string "התאמות…$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
@@ -933,24 +932,24 @@ gText_SorryRecordCornerPreparation::
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} מסר{ADD_HEY} את\n"
+	.string "ה{STR_VAR_1}.$"
 
 gText_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "תודה שהשתמשת\n"
+	.string "במערכת מתנה מסתורית.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found one {STR_VAR_1}\n"
+	.string "{PLAYER} מצא{ADD_HEY} אחד {STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
-	.string "The weird tree attacked!$"
+	.string "העץ המוזר לא אוהב את\n"
+	.string "המזלף!\p"
+	.string "העץ המוזר תוקף!$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "ה{STR_VAR_1} הסתלק!$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"

@@ -75,7 +75,7 @@ Route102_EventScript_Allen::
 
 Route102_Text_WatchMeCatchPokemon:
 	.string "וולי: {PLAYER}…\n"
-	.string "פוקימון מסתבר בעשב גבוה כזה,\l"
+	.string "פוקימון מסתתר בדשא גבוה כזה,\l"
 	.string "נכון?\p"
 	.string "בבקשה תסתכל{ADD_YUD} עליי ותרא{EMIT_HEY}{ADD_YUD} אם אני יכול\n"
 	.string "לתפוס אחד כמו שצריך.\p"

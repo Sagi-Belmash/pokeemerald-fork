@@ -957,7 +957,7 @@ static const u8 sYellowScarfDesc[] = _(
 // Key items
 static const u8 sMachBikeDesc[] = _(
     "אופניים מתקפלים\n"
-    "שמכפיל את המהירות\n"
+    "שמכפילים את המהירות\n"
     "שלך או יותר.");
 
 static const u8 sCoinCaseDesc[] = _(
@@ -1019,8 +1019,8 @@ static const u8 sAcroBikeDesc[] = _(
     "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "מארז להחזקת\n"
-    "פוקיכגושים שהוכנו\n"
+    "נרתיק להחזקת\n"
+    "פוקיגושים שהוכנו\n"
     "מבלנדר פירות יער.");
 
 static const u8 sLetterDesc[] = _(

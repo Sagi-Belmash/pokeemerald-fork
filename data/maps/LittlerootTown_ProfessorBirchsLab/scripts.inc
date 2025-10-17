@@ -962,12 +962,12 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 	.string "מאי: או, הי, {PLAYER}{KUN}!\n"
 	.string "האם יצאת למקום הזה,\l"
-	.string "קצה הקרב?$"
+	.string "חזית הקרב?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 	.string "ברנדן: היי, {PLAYER}!\n"
 	.string "יצאת למקום הזה,\l"
-	.string "קצה הקרב?$"
+	.string "חזית הקרב?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"

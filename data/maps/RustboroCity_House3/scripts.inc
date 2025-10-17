@@ -6,6 +6,7 @@ RustboroCity_House3_EventScript_OldMan::
 	end
 
 RustboroCity_House3_EventScript_OldWoman::
+	bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
 	msgbox RustboroCity_House3_Text_NamingPikachuPekachu, MSGBOX_NPC
 	end
 
@@ -15,23 +16,24 @@ RustboroCity_House3_EventScript_Pekachu::
 	faceplayer
 	waitse
 	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
 	msgbox RustboroCity_House3_Text_Pekachu, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
-	.string "For my own POKéMON, I give them\n"
-	.string "perfectly suited nicknames!\p"
-	.string "It's my expression of, uh…\n"
-	.string "originality, yes, that's it!$"
+	.string "לפוקימון שלי, אני נותן,\n"
+	.string "כינויים מתאימים להפליא!\p"
+	.string "זה הביטוי שלי ל…\n"
+	.string "יצירתיות, כן, זהו זה!$"
 
 RustboroCity_House3_Text_NamingPikachuPekachu:
-	.string "But giving the name PEKACHU to\n"
-	.string "a PIKACHU? It seems pointless.\p"
-	.string "I suppose it is good to use a name\n"
-	.string "that's easy to understand, but…$"
+	.string "אבל לתת את השם פקצ'ו\n"
+	.string "ל{STR_VAR_1}? זה חסר טעם.\p"
+	.string "אני מניחה שטוב להשתמש בשם\n"
+	.string "שקל להבין, אבל עדיין…$"
 
 RustboroCity_House3_Text_Pekachu:
-	.string "PEKACHU: Peka!$"
+	.string "{STR_VAR_1}: פיקא!$"
 

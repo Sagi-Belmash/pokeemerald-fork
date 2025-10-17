@@ -724,7 +724,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "פרופ. בירץ': {RIVAL}?\n"
 	.string "עזב{EMIT_HEY} הביתה, אני חושב.\p"
 	.string "או שאולי הילד{EMIT_HEY} מסתובב{EMIT_TAF} שוב\n"
-	.string "איפשהו בשדה עשב גבוה…\p"
+	.string "איפשהו בשדה דשא גבוה…\p"
 	.string "אם את{EMIT_HEY} או הפוקימונים שלך עייפים,\n"
 	.string "כדאי לך לנוח קצת בבית.$"
 
@@ -856,7 +856,7 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "הפכת לאלו{SWAP_PEY}{ADD_HEY},\l"
 	.string "אבל מסע הפוקימון שלך לא נגמר.\p"
 	.string "אין סוף לדרך שהיא פוקימון.\p"
-	.string "איפשהו, יש חלקת עשב שמחכה לך!$"
+	.string "איפשהו, יש שדה דשא שמחכה לך!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "מאי: אני חושבת שאקח הפסקה קצרהk\n"
@@ -935,7 +935,7 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "את{EMIT_HEY} השלמת את הפוקידע הוון,\l"
 	.string "אבל המסע שלך לא נגמר.\p"
 	.string "אין סוף לדרך שהיא פוקימון.\p"
-	.string "איפשהו, יש חלקת עשב שמחכה לך!$"
+	.string "איפשהו, יש שדה דשא שמחכה לך!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
 	.string "את{EMIT_HEY} קיבל{ADD_TAF} את הפוקימון המובטח.\n"

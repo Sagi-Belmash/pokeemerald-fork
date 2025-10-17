@@ -272,7 +272,7 @@ Route101_Text_DontLeaveMe:
 
 Route101_Text_YouSavedMe:
 	.string "פרופ. בירץ': פיו…\p"
-	.string "הייתי בעשב דשא לומד על פוקימון\n"
+	.string "הייתי בדשא, לומד על פוקימון\n"
 	.string "פראי ואז קפצו עליי.\p"
 	.string "את{EMIT_HEY} הצלת אותי.\n"
 	.string "תודה רבה!\p"
@@ -291,7 +291,7 @@ Route101_Text_WildPokemonInTallGrass:
 	.string "פוקימון פראי יקפוץ עליך\n"
 	.string "בעשב גבוה.\p"
 	.string "אם את{EMIT_HEY} רוצה לתפוס פוקימון, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
-	.string "ללכת לתוך העשב הגבוה ולחפש.$"
+	.string "ללכת לתוך הדשא הגבוה ולחפש.$"
 
 Route101_Text_RouteSign:
 	.string "דרך 101\n"

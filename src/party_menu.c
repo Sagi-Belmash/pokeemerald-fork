@@ -1849,8 +1849,10 @@ static void Task_PartyMenuModifyHP(u8 taskId)
     {
         // If HP was recovered, buffer the amount recovered
         if (tHP > tStartHP)
+        {
             ConvertIntToDecimalStringN(gStringVar2, tHP - tStartHP, STR_CONV_MODE_LEFT_ALIGN, 3);
-
+            ReverseNumeric(gStringVar2);
+        }
         SwitchTaskToFollowupFunc(taskId);
     }
 }
@@ -4986,6 +4988,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         RemoveBagItem(gSpecialVar_ItemId, 1);
         GetMonNickname(mon, gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
+        ReverseNumeric(gStringVar2);
         StringExpandPlaceholders(gStringVar4, gText_PkmnElevatedToLvVar2);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
         ScheduleBgCopyTilemapToVram(2);

@@ -42,6 +42,8 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 
+#include "international_string_util.h"
+
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
 static void Task_CallItemUseOnFieldCallback(u8);
@@ -654,6 +656,7 @@ static void Task_OpenRegisteredPokeblockCase(u8 taskId)
 void ItemUseOutOfBattle_CoinCase(u8 taskId)
 {
     ConvertIntToDecimalStringN(gStringVar1, GetCoins(), STR_CONV_MODE_LEFT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_CoinCase);
 
     if (!gTasks[taskId].tUsingRegisteredKeyItem)
@@ -669,6 +672,7 @@ void ItemUseOutOfBattle_CoinCase(u8 taskId)
 void ItemUseOutOfBattle_PowderJar(u8 taskId)
 {
     ConvertIntToDecimalStringN(gStringVar1, GetBerryPowder(), STR_CONV_MODE_LEFT_ALIGN, 5);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_PowderQty);
 
     if (!gTasks[taskId].tUsingRegisteredKeyItem)

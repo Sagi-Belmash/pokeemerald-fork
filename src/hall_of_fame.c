@@ -942,6 +942,7 @@ static void Task_HofPC_DrawSpritesPrintText(u8 taskId)
     BlendPalettes(PALETTES_OBJECTS, 0xC, RGB(16, 29, 24));
 
     ConvertIntToDecimalStringN(gStringVar1, gTasks[taskId].tCurrPageNo, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_HOFNumber);
 
     if (gTasks[taskId].tCurrTeamNo <= 0)

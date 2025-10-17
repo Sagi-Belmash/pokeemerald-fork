@@ -984,6 +984,7 @@ static void TowerPrintStreak(const u8 *str, u16 num, u8 x1, u8 x2, u8 y)
     if (num > MAX_STREAK)
         num = MAX_STREAK;
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_WinStreak);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1082,6 +1083,7 @@ static void PrintTwoStrings(const u8 *str1, const u8 *str2, u16 num, u8 x1, u8 x
 {
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, str1, x1, y, TEXT_SKIP_DRAW, NULL, TRUE);
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, str2);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1144,6 +1146,7 @@ static void PalacePrintStreak(const u8 *str, u16 num, u8 x1, u8 x2, u8 y)
     if (num > MAX_STREAK)
         num = MAX_STREAK;
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_WinStreak);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1225,6 +1228,7 @@ static void PikePrintCleared(const u8 *str1, const u8 *str2, u16 num, u8 x1, u8 
 {
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, str1, x1, y, TEXT_SKIP_DRAW, NULL, TRUE);
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, str2);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1272,6 +1276,7 @@ static void ArenaPrintStreak(const u8 *str, u16 num, u8 x1, u8 x2, u8 y)
     if (num > MAX_STREAK)
         num = MAX_STREAK;
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_KOsInARow);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1332,10 +1337,12 @@ static void FactoryPrintStreak(const u8 *str, u16 num1, u16 num2, u8 x1, u8 x2, 
     if (num1 > MAX_STREAK)
         num1 = MAX_STREAK;
     ConvertIntToDecimalStringN(gStringVar1, num1, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_WinStreak);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 
     ConvertIntToDecimalStringN(gStringVar1, num2, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_TimesVar1);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x3, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -1423,6 +1430,7 @@ static void PyramidPrintStreak(const u8 *str, u16 num, u8 x1, u8 x2, u8 y)
     if (num > MAX_STREAK)
         num = MAX_STREAK;
     ConvertIntToDecimalStringN(gStringVar1, num, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_FloorsCleared);
     AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, x2, y, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -2235,6 +2243,7 @@ static void Print1PRecord(s32 position, s32 x, s32 y, struct RankingHall1P *hall
         if (winStreak > MAX_STREAK)
             winStreak = MAX_STREAK;
         ConvertIntToDecimalStringN(gStringVar2, winStreak, STR_CONV_MODE_RIGHT_ALIGN, 4);
+        ReverseNumeric(gStringVar2);
         StringExpandPlaceholders(gStringVar4, sHallFacilityToRecordsText[hallFacilityId]);
         AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, sHallFacilityToRecordsText[hallFacilityId], 0xC8), (8 * (y + 5 * position)) + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
@@ -2262,6 +2271,7 @@ static void Print2PRecord(s32 position, s32 x, s32 y, struct RankingHall2P *hall
         if (winStreak > MAX_STREAK)
             winStreak = MAX_STREAK;
         ConvertIntToDecimalStringN(gStringVar2, winStreak, STR_CONV_MODE_RIGHT_ALIGN, 4);
+        ReverseNumeric(gStringVar2);
         StringExpandPlaceholders(gStringVar4, sHallFacilityToRecordsText[RANKING_HALL_TOWER_LINK]);
         AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, sHallFacilityToRecordsText[RANKING_HALL_TOWER_LINK], 0xC8), (8 * (y + 5 * position)) + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }

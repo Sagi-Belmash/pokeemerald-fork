@@ -1430,6 +1430,7 @@ static void ItemStorage_DoItemWithdraw(u8 taskId)
         // Item withdrawn
         CopyItemName(gSaveBlock1Ptr->pcItems[pos].itemId, gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, tQuantity, STR_CONV_MODE_LEFT_ALIGN, 3);
+        ReverseNumeric(gStringVar2);
         ItemStorage_PrintMessage(ItemStorage_GetMessage(MSG_WITHDREW_ITEM));
         gTasks[taskId].func = ItemStorage_HandleRemoveItem;
     }

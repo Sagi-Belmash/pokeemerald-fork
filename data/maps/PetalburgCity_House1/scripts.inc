@@ -18,7 +18,7 @@ PetalburgCity_House1_Text_GoOnAdventure:
 	.string "אנחה…\p"
 	.string "הלוואי ויכולתי לצאת להרפתקה\n"
 	.string "עם פוקימון…\p"
-	.string "לזחול דרך עשב לח…\n"
+	.string "לזחול שדה דשא לח…\n"
 	.string "לטפס הרים סלעיים ומחוספסים…\p"
 	.string "לחצות את הימים הסוערים…\n"
 	.string "לשוטט במערות חשוכות…\p"

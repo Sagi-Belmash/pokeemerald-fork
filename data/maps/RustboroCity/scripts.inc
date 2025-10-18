@@ -1096,7 +1096,7 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "אה, זה את{EMIT_HEY}!\p"
 	.string "את{EMIT_HEY} המאמ{SWAP_NUN}{ADD_TAF} הנהדר{ADD_TAF}\n"
-	.string "שעזר{ADD_HEY} לי ביער פטלבורג!\p"
+	.string "שעזר{ADD_HEY} לי ביערות פטלבורג!\p"
 	.string "תעז{EMIT_VAV}ר{ADD_YUD} לי! נשדדתי על ידי צוות אקווה!\n"
 	.string "אני חייב להחזיר את הסחורה של דבון!\p"
 	.string "אם לא…\n"
@@ -1137,7 +1137,7 @@ RustboroCity_Text_RegisteredMay:
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "מאי: או, דרך אגב, אני חלפתי\n"
-	.string "על פני מר ברייני ביער פטלבורג.\p"
+	.string "על פני מר ברייני ביערות פטלבורג.\p"
 	.string "אני מניחה שהוא בדרך חזרה לבקתה\n"
 	.string "שלו ליד הים.\p"
 	.string "איך הפוקידע שלך מתמלא,\n"
@@ -1184,7 +1184,7 @@ RustboroCity_Text_RegisteredBrendan:
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 	.string "ברנדן: דרך אגב, {PLAYER}, חלפתי על\n"
-	.string "פני מר ברייני ביער פטלבורג.\p"
+	.string "פני מר ברייני ביערות פטלבורג.\p"
 	.string "בטח הוא בדרך חזרה לבקתה שלו\n"
 	.string "ליד הים.\p"
 	.string "{PLAYER}, איך הפוקידע שלך?\n"

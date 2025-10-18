@@ -828,7 +828,7 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         _,
         &sCreditsEntry_HebrewNames,
         &sCreditsEntry_MSElboim,
-        &sCreditsEntry_ShaharBerenson,
+        _,
         _,
     },
     [PAGE_SPECIAL_THANKS_6] = {
@@ -836,6 +836,7 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         &sCreditsEntry_SpecialThanks,
         &sCreditsEntry_MayaKatz,
         _,
-    }
+        _,
+    },
 };
 #undef _

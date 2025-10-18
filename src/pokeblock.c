@@ -744,6 +744,7 @@ static void PutPokeblockListMenuString(u8 *dst, u16 pkblId)
     *(txtPtr++) = CHAR_BLOCK_1;
 
     ConvertIntToDecimalStringN(gStringVar1, GetHighestPokeblocksFlavorLevel(pkblock), STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(txtPtr, gText_LvVar1);
 }
 
@@ -791,6 +792,7 @@ static void DrawPokeblockInfo(s32 pkblId)
 
         // Print the Pokéblock's feel
         ConvertIntToDecimalStringN(gStringVar1, GetPokeblocksFeel(pokeblock), STR_CONV_MODE_RIGHT_ALIGN, 2);
+        ReverseNumeric(gStringVar1);
         PrintOnPokeblockWindow(WIN_FEEL, gStringVar1, 4);
     }
     else

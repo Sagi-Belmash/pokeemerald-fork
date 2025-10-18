@@ -190,7 +190,7 @@ static void HandleInputChooseAction(void)
         }
         SafariBufferExecCompleted();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(DPAD_RIGHT))
     {
         if (gActionSelectionCursor[gActiveBattler] & 1)
         {
@@ -200,7 +200,7 @@ static void HandleInputChooseAction(void)
             ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(DPAD_LEFT))
     {
         if (!(gActionSelectionCursor[gActiveBattler] & 1))
         {

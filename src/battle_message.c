@@ -1276,7 +1276,7 @@ const u8 gText_WhatWillWallyDo[] = _("מה וולי\nיעשה?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}קישור במצב המתנה…");
 const u8 gText_BattleMenu[] = _("קרב             תיק\nפוקימון         בריחה");
 //const u8 gText_SafariZoneMenu[] = _("BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN");
-const u8 gText_SafariZoneMenu[] = _("פוקבלוק           כדור\nהתקרבות         בריחה");
+const u8 gText_SafariZoneMenu[] = _("כדור            פוקיגוש\nהתקרבות      בריחה");
 const u8 gText_MoveInterfacePP[] = _("כנ ");
 const u8 gText_MoveInterfaceType[] = _("סוג/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nסוג/");
@@ -1303,7 +1303,7 @@ static const u8 *const sStatNamesTable2[] =
 };
 
 const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}כדורי ספארי");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}נשארו: $" "{HIGHLIGHT DARK_GRAY}");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}וראשנ: $" "{HIGHLIGHT DARK_GRAY}");
 const u8 gText_Sleep[] = _("שינה");
 const u8 gText_Poison[] = _("רעל");
 const u8 gText_Burn[] = _("כוויה");

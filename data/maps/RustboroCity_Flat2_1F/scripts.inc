@@ -10,15 +10,16 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 	faceplayer
 	waitse
 	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox RustboroCity_Flat2_1F_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
-	.string "DEVON CORPORATION's workers live in\n"
-	.string "this building.$"
+	.string "עובדים של חברת דבון גרים\n"
+	.string "בבניין הזה.$"
 
 RustboroCity_Flat2_1F_Text_Skitty:
-	.string "SKITTY: Gyaaaah!$"
+	.string "{STR_VAR_1}: גיאאאה!$"
 

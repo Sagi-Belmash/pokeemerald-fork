@@ -50,32 +50,32 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
-	.string "Huh? My POKéMON is cute?\n"
-	.string "Sure, I knew that.\p"
-	.string "But if you really want, I'm willing\n"
-	.string "to trade it to you.\p"
-	.string "I'll trade you my {STR_VAR_2} for\n"
-	.string "a {STR_VAR_1} if you want.$"
+	.string "הא? הפוקימון שלי חמוד?\n"
+	.string "בטח, ידעתי את זה.\p"
+	.string "אבל אם את{EMIT_HEY} ממש רוצה, אני מוכן\n"
+	.string "להחליף אותו איתך.\p"
+	.string "אני אתן לך את {STR_VAR_2} שלי תמורת\n"
+	.string "{STR_VAR_1} אם את{EMIT_HEY} רוצה.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
-	.string "Eheheh…\n"
-	.string "Please be good to my POKéMON.$"
+	.string "היהיהי…\n"
+	.string "בבקשה תטפל{ADD_YUD} יפה בפוקימון שלי.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
-	.string "Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.$"
+	.string "הא? זה בכלל לא נראה לי\n"
+	.string "כמו {STR_VAR_1}.$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my POKéMON is cute, you know…$"
+	.string "אה, אם את{EMIT_HEY} לא רוצה, זה בסדר.\n"
+	.string "אבל הפוקימון שלי חמוד, את{EMIT_HEY} יודע{ADD_TAF}…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
-	.string "Any POKéMON can be cute if you raise\n"
-	.string "it with care and kindness.$"
+	.string "כל פוקימון יכול להיות חמוד אם\n"
+	.string "מטפלים בו בתשומת לב ובחיבה.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
-	.string "In all sorts of places, there are all\n"
-	.string "sorts of POKéMON and people.\p"
-	.string "I find that fascinating, so I go to all\n"
-	.string "sorts of places.$"
+	.string "בכל מיני מקומות יש כל מיני\n"
+	.string "פוקימונים ואנשים.\p"
+	.string "זה מרתק אותי, לכן אני הולך לכל\n"
+	.string "מיני מקומות.$"
 

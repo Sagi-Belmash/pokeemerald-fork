@@ -3358,7 +3358,7 @@ static void PrintHeldItemName(void)
         text = gStringVar1;
     }
 
-    x = GetStringCenterAlignXOffset(FONT_NORMAL, text, 72) + 6;
+    x = GetStringCenterAlignXOffset(FONT_NORMAL, text, 72);/*  + 6 */
     PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_HELD_ITEM), text, x, 1, 0, 0, TRUE);
 }
 

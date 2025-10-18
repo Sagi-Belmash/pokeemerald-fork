@@ -328,7 +328,7 @@ PetalburgWoods_Text_HaveYouSeenShroomish:
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 	.string "התכוונתי לארוב לך, אבל\n"
-	.string "היית חייב להתעקב ביער פטלבורג\l"
+	.string "היית חייב להתעקב ביערות פטלבורג\l"
 	.string "לנצח, נכון?\p"
 	.string "נמאס לי לחכות, אז הנה אני!$"
 

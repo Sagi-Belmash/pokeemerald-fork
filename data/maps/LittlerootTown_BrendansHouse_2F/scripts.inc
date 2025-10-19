@@ -294,7 +294,7 @@ PlayersHouse_2F_Text_Notebook:
 
 Common_Text_LookCloserAtMap:
 	.string "{PLAYER} התבונ{SWAP_NUN}{ADD_HEY} מקרוב\n"
-	.string "על מפת האזור הוון.$"
+	.string "על מפת האזור הואן.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
 	.string "זה נינטנדו גיימקיוב.\p"

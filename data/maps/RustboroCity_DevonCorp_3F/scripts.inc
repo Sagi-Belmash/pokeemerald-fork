@@ -225,7 +225,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "פוקינווט.\p"
 	.string "זה כלי שאין בלעדיו לכל מאמן\n"
 	.string "שיוצא להרפתקה.\p"
-	.string "יש בו מפה של מחוז הוון.\p"
+	.string "יש בו מפה של מחוז הואן.\p"
 	.string "תוכל{ADD_YUD} לבדוק בקלות את מיקומן של\n"
 	.string "דופורד וסלייטפורט!\p"
 	.string "דרך אגב, שמעתים ששני צוותי פשע ערמומיים\n"

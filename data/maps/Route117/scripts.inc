@@ -179,28 +179,28 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_DayCarePokemonHadNewMove:
-	.string "I left my POKéMON at the DAY CARE.\p"
-	.string "When I got it back, it had a new move\n"
-	.string "that I didn't teach it.\l"
-	.string "I was really, really surprised.$"
+	.string "השארתי את הפוקימון שלי במעון יום.\p"
+	.string "כשקיבלתי אותו בחזרה, היה לו מהלך\n"
+	.string "חדש שלא לימדתי אותו.\l"
+	.string "הייתי ממש ממש מופעת.$"
 
 Route117_Text_ArentTheseFlowersPretty:
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string "מה דעתך?\n"
+	.string "הפרחים האלה יפים, נכון?\p"
+	.string "שתלתי את כולם!$"
 
 Route117_Text_AirIsTastyHere:
-	.string "The air is tasty here!$"
+	.string "האוויר כאן טעים!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "דרך 711\n"
+	.string "{LEFT_ARROW} עיירת ורדנטרף$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "דרך 711\n"
+	.string "{RIGHT_ARROW} עיר מוויל$"
 
 Route117_Text_DayCareSign:
-	.string "POKéMON DAY CARE\n"
-	.string "“Let us raise your POKéMON.”$"
+	.string "מעון יום של פוקימון\n"
+	.string "”תנו לנו לגדל את הפוקימון שלכם.“$"
 

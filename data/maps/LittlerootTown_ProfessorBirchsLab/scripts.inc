@@ -822,10 +822,10 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "לעזור לי לחקור פוקימונים.\p"
 	.string "אודות לעזרה שלכם, עובדות חדשות\n"
 	.string "מתגלות לאור.\p"
-	.string "זה נראה שבאזור הוון, יש גם פוקימונים,\n"
+	.string "זה נראה שבאזור הואן, יש גם פוקימונים,\n"
 	.string "מאזורים אחרים\p"
 	.string "זה מראה כמה עשירה ומגוונת הסביבה הטבעית\n"
-	.string "של הוון, מסתבר.\p"
+	.string "של הואן, מסתבר.\p"
 	.string "זה למה אני חושב שזה הכרחי לשדרג\n"
 	.string "את הפוקידע שלכם לפוקידע לאומי.\p"
 	.string "הנה, ת{SWAP_NUN}{ADD_YUD} לי לראות את יחידות הפוקידע שלך.$"
@@ -838,7 +838,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "פוקימונים, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "ברנדן: אני יצאתי בכל רחבי הוון\n"
+	.string "ברנדן: אני יצאתי בכל רחבי הואן\n"
 	.string "ובדקתי פוקימונים.\p"
 	.string "אתה יכול להודות לי על שקיבלת\n"
 	.string "את הפוקידע במצב לאומי.\p"
@@ -877,7 +877,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "… … … … … …\p"
 	.string "כן, אין לי ספק על זה.\p"
 	.string "את{EMIT_HEY} לגמרי השלמת את הפוקידע\n"
-	.string "של אזור הוון.\p"
+	.string "של אזור הואן.\p"
 	.string "זה יותר ממרשים.\p"
 	.string "יש לי מתנה בשבילך.\p"
 	.string "רא{EMIT_HEY}{ADD_YUD} בזה כאות הערכה\n"
@@ -932,7 +932,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "פרופ. בירץ': תקשיב{ADD_YUD}, {PLAYER}{KUN}.\n"
-	.string "את{EMIT_HEY} השלמת את הפוקידע הוון,\l"
+	.string "את{EMIT_HEY} השלמת את הפוקידע הואן,\l"
 	.string "אבל המסע שלך לא נגמר.\p"
 	.string "אין סוף לדרך שהיא פוקימון.\p"
 	.string "איפשהו, יש שדה דשא שמחכה לך!$"

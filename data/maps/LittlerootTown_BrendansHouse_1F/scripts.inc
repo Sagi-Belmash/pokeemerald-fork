@@ -417,7 +417,7 @@ PlayersHouse_1F_Text_IsThatABreakingStory:
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "אנחנו מביאים לכם את מבזק החדשות\n"
 	.string "הזה אלכים!\p"
-	.string "ברחבי הוון, ישנם דיווחים על\n"
+	.string "ברחבי הואן, ישנם דיווחים על\n"
 	.string "בזזז… פוקימון צבעוני בתעופה.\p"
 	.string "הזהות של הפוקימון עדיין לא ידועה.\p"
 	.string "אנחנו עכשיו חוזרים לתוכנית השגרתית\n"

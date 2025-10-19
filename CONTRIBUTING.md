@@ -221,7 +221,7 @@ $ - o סיום הטקסט
 
 קבצים עם יעוד מסוים נמצאים במס' מקומות.
 
-ניתן לעקוב אחר רשימות קבצים ב-[טבלת המשימות](https://docs.google.com/spreadsheets/d/1amAZuZTY1h0RqybugEXF55fMS3_ioOqCLsNzYqEPss8/edit?usp=sharing) בחלוניות של התרגום.
+ניתן לעקוב אחר רשימות הקבצים ב-[טבלת המשימות](https://docs.google.com/spreadsheets/d/1amAZuZTY1h0RqybugEXF55fMS3_ioOqCLsNzYqEPss8/edit?usp=sharing) בחלוניות של התרגום.
 
 [חזרה להתחלה](#המדריך-למתרגם)
 

@@ -892,7 +892,7 @@ static const u8 sSilkScarfDesc[] = _(
 
 static const u8 sUpGradeDesc[] = _(
     "קופסה מוזרה שיוצרה\n"
-    "בידי חברת סילפ.");
+    "בידי חברת סילף.");
 
 static const u8 sShellBellDesc[] = _(
     "פריט להחזקה\n"
@@ -1421,7 +1421,7 @@ static const u8 sOldAmberDesc[] = _(
 static const u8 sCardKeyDesc[] = _(
     "כרטיס מפתח\n"
     "לדלת המשמש\n"
-    "למשרד בחברת סילפ.");
+    "למשרד בחברת סילף.");
 
 static const u8 sLiftKeyDesc[] = _(
     "מפתח מעלית\n"
@@ -1439,7 +1439,7 @@ static const u8 sDomeFossilDesc[] = _(
     "ימי עתיק.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "עדשות חברת סילפ.\n"
+    "עדשות חברת סילף.\n"
     "הופך פוקימון בלתי\n"
     "נראה לגלוי.");
 

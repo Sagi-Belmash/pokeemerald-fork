@@ -2437,14 +2437,33 @@ static void DisplayPartyPokemonHPBar(u16 hp, u16 maxhp, struct PartyMenuBox *men
 
 static void DisplayPartyPokemonDescriptionText(u8 stringID, struct PartyMenuBox *menuBox, u8 c)
 {
+    int xPos;
     if (c)
     {
         int width = ((menuBox->infoRects->descTextLeft % 8) + menuBox->infoRects->descTextWidth + 7) / 8;
         int height = ((menuBox->infoRects->descTextTop % 8) + menuBox->infoRects->descTextHeight + 7) / 8;
         menuBox->infoRects->blitFunc(menuBox->windowId, menuBox->infoRects->descTextLeft >> 3, menuBox->infoRects->descTextTop >> 3, width, height, TRUE);
     }
+
     if (c != 2)
-        AddTextPrinterParameterized3WithRTL(menuBox->windowId, FONT_NORMAL, menuBox->infoRects->descTextLeft, menuBox->infoRects->descTextTop, sFontColorTable[0], 0, sDescriptionStringTable[stringID], TRUE);
+    {
+        xPos = menuBox->infoRects->descTextLeft;
+
+        // Apply -55 offset only for right column
+        if (menuBox->infoRects == &sPartyBoxInfoRects[PARTY_BOX_RIGHT_COLUMN])
+            xPos -= 55;
+
+        AddTextPrinterParameterized3WithRTL(
+            menuBox->windowId,
+            FONT_NORMAL,
+            xPos,
+            menuBox->infoRects->descTextTop,
+            sFontColorTable[0],
+            0,
+            sDescriptionStringTable[stringID],
+            TRUE
+        );
+    }
 }
 
 static void PartyMenuRemoveWindow(u8 *ptr)

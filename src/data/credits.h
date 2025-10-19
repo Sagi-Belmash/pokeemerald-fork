@@ -60,6 +60,7 @@ enum
     PAGE_HEBREW_VERSION,
     PAGE_PROGRAMMERS_6,
     PAGE_TRANSLATOR_2,
+    PAGE_GRAPHIC_DESIGNERS_4,
     PAGE_HEBREW_NAMES,
     PAGE_SPECIAL_THANKS_6,
     PAGE_COUNT
@@ -227,6 +228,7 @@ static const u8 sCreditsText_NicolaPrattBarlow[]              = _("WOLRAB TTARP 
 static const u8 sCreditsText_ShellieDow[]                     = _("WOD EILLEHS");
 static const u8 sCreditsText_ErikJohnson[]                    = _("NOSNHOJ KIRE");
 
+static const u8 sCreditsText_Translators[]                     = _("מתרגמים");
 static const u8 sCreditsText_HebrewVersion[]                  = _("מתאם גרסת העברית");
 static const u8 sCreditsText_ShaharBerenson[]                 = _("שחר ברנסון");
 static const u8 sCreditsText_SagiBelmash[]                    = _("שגיא בלמש");
@@ -400,6 +402,7 @@ static const struct CreditsEntry sCreditsEntry_SagiBelmash                      
 static const struct CreditsEntry sCreditsEntry_HebrewNames                      = { 0, TRUE, sCreditsText_HebrewNames};
 static const struct CreditsEntry sCreditsEntry_MSElboim                         = { 0, FALSE, sCreditsText_MSElboim};
 static const struct CreditsEntry sCreditsEntry_MayaKatz                         = { 0, FALSE, sCreditsText_MayaKatz};
+static const struct CreditsEntry sCreditsEntry_Translators                      = { 0, FALSE, sCreditsText_Translators};
 
 #define _ &sCreditsEntry_EmptyString
 static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][ENTRIES_PER_PAGE] =
@@ -820,6 +823,13 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
     [PAGE_TRANSLATOR_2] = {
         _,
         &sCreditsEntry_Translator,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+    [PAGE_GRAPHIC_DESIGNERS_4] = {
+        _,
+        &sCreditsEntry_GraphicDesigners,
         &sCreditsEntry_ShaharBerenson,
         _,
         _,

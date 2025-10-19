@@ -129,7 +129,7 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "של מוצרים תעשייתיים.“$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
-	.string "אב־טיפוס ומוצרים ניסיוניים ממלאים\n"
+	.string "אבטיפוס ומוצרים ניסיוניים ממלאים\n"
 	.string "את תיבת התצוגה מזכוכית.\p"
 	.string "יש לוח עם תיאור עליו…\p"
 	.string "”בנוסף למוצרים תעשייתיים,\n"

@@ -1026,7 +1026,7 @@ static const u8 sPokeblockCaseDesc[] = _(
 static const u8 sLetterDesc[] = _(
     "מכתב לסטיבן\n"
     "מהנשיא של\n"
-    "חברת דבון.");
+    "תאגיד דבון.");
 
 static const u8 sEonTicketDesc[] = _(
     "כרטיס למעבורת\n"

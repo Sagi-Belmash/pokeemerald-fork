@@ -79,66 +79,63 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 	end
 
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
-	.string "Hello and welcome to the DEVON\n"
-	.string "CORPORATION.\p"
-	.string "We're proud producers of items and\n"
-	.string "medicine that enhance your life.$"
+	.string "שלום וברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לחברת\n"
+	.string "דבון.\p"
+	.string "אנחנו גאים לייצר מוצרים ותרופות\n"
+	.string "שמשפרים את איכות החיים שלכם.$"
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
-	.string "One of our research staff stupidly\n"
-	.string "got robbed of an important parcel.$"
+	.string "אחד מחוקרי החברה שלנו בטיפשות\n"
+	.string "נשדד ונלקחה ממנו חבילה חשובה.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
-	.string "Hey, those RUNNING SHOES!\n"
-	.string "They're one of our products!\p"
-	.string "It makes me happy when I see someone\n"
-	.string "using something we made.$"
+	.string "היי, הנעלה ריצה האלה!\n"
+	.string "אלה אחד המוצרים שלנו!\p"
+	.string "זה משמח אותי לראות מישהו\n"
+	.string "שמשתמש במשהו שאנחנו ייצרנו.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
-	.string "anything that anyone can use.\p"
-	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.$"
+	.string "החבילה הגנובה ההיא…\p"
+	.string "נו, היא אמנם חשובה, אבל זה לא משהו\n"
+	.string "שמישהו באמת יכול להשתמש בו.\p"
+	.string "לדעתי, הגנב הזה לא היה כל כך חכם.$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
-	.string "It sounds like they've recovered\n"
-	.string "the ripped-off DEVON GOODS.$"
+	.string "נשמע שהצליחו להחזיר את\n"
+	.string "הסחורה הגנובה של דבון.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string "I'm sorry, only authorized people\n"
-	.string "are allowed to enter here.$"
+	.string "מצטער, רק אנשים מורשים יכולים\n"
+	.string "להיכנס לכאן.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
-	.string "It's beyond stupid.\n"
-	.string "How could we get robbed?$"
+	.string "זה פשוט מטופש.\n"
+	.string "איך בכלל הצליחו לשדוד אותנו?$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
-	.string "Hi, there!\n"
-	.string "You're always welcome here!$"
+	.string "היי שם!\n"
+	.string "את{EMIT_HEY} תמיד תהי{EMIT_HEY}{ADD_YUD} רצוי{ADD_HEY} כאן!$"
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
-	.string "Samples of rocks and metal are\n"
-	.string "displayed in the glass case.\p"
-	.string "There's a panel with some writing\n"
-	.string "on it…\p"
-	.string "“DEVON CORPORATION got its start as\n"
-	.string "a producer of stones from quarries.\p"
-	.string "“The company also produced iron from\n"
-	.string "filings in the sand.\p"
-	.string "“From that humble start as a producer\n"
-	.string "of raw materials, DEVON developed.\p"
-	.string "“DEVON is now a manufacturer of a wide\n"
-	.string "range of industrial products.”$"
+	.string "דגימות של סלעים ומתכות מוצגות\n"
+	.string "בתוך תיבת זכוכית.\p"
+	.string "יש לוח עם כיתוב עליו…\p"
+	.string "”תאגיד דבון התחילה את דרכה כיצרנית\n"
+	.string "אבנים ממחצבות.\p"
+	.string "”החברה גם ייצרה ברזל משיירי חול.\n"
+	.string "”מההתחלה הצנועה הזו כיצרנית חומרי גלם,\n"
+	.string "דבון התפתחה.\p"
+	.string "”דבון כיום היא יצרנית של מגוון רחב\n"
+	.string "של מוצרים תעשייתיים.“$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
-	.string "Prototypes and test products fill\n"
-	.string "the glass display case.\p"
-	.string "There's a panel with a description…\p"
-	.string "“In addition to industrial products,\n"
-	.string "DEVON now markets sundries and\l"
-	.string "pharmaceuticals for better lifestyles.\p"
-	.string "“Recently, DEVON has begun marketing\n"
-	.string "tools for POKéMON TRAINERS, including\l"
-	.string "POKé BALLS and POKéNAV systems.”$"
+	.string "אב־טיפוס ומוצרים ניסיוניים ממלאים\n"
+	.string "את תיבת התצוגה מזכוכית.\p"
+	.string "יש לוח עם תיאור עליו…\p"
+	.string "”בנוסף למוצרים תעשייתיים,\n"
+	.string "דבון גם משווקת תרופות ומוצרים שונים\l"
+	.string "לאיכות חיים טובה יותר.\p"
+	.string "”לאחרונה, דבון החלה לשווק כלים\n"
+	.string "למאמני פוקימון, הכוללים\l"
+	.string "פוכדורים ומערכות הפוקינווט.”$"
 

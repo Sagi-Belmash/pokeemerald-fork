@@ -269,98 +269,93 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with POKéMON.\p"
-	.string "But we haven't had much success…$"
+	.string "אנחנו מפתחים מכשיר שמאפשר לדבר\n"
+	.string "עם פוקימון.\p"
+	.string "אבל לא ממש הצלחנו עד עכשיו…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…$"
+	.string "אני מפתח סוגים חדשים של\n"
+	.string "פוכדורים…\p"
+	.string "אבל ההתקדמות שלי איטית למדי…$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
-	.string "We finally made new kinds of\n"
-	.string "POKé BALLS!\p"
-	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch POKéMON you've caught before.\p"
-	.string "The TIMER BALL gets better at catching\n"
-	.string "POKéMON the longer a battle runs.\p"
-	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "Please give them a try!$"
+	.string "סוף-סוף יצרנו סוגים חדשים של\n"
+	.string "פוכדורים!\p"
+	.string "הכדור חוזר מקל על לכידת פוקימון\n"
+	.string "שכבר תפסת בעבר.\p"
+	.string "הכדור עצר נהיה יעיל יותר ככל\n"
+	.string "שהקרב מתמשך.\p"
+	.string "שניהם פיתוחים גאים של תאגיד דבון.\p"
+	.string "אנא נס{EMIT_HEY}{ADD_YUD} אותם!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string "יצרתי את הפוקינווט!\p"
+	.string "כמהנדס, אני מרגיש מבורך\n"
+	.string "שיצרתי משהו כל כך נהדר!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
-	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
-	.string "It came about as a result of our\n"
-	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "או, וואו!\n"
+	.string "זה הפוקינווט!\p"
+	.string "הוא נוצר בזכות הרצון של הנשיא שלנו\n"
+	.string "להבין את רגשות הפוקימון.\p"
+	.string "רוצה שאסביר את התכונות שלו בפירוט?\p"
+	.string "לא, לא. אני חושב שתלמד{ADD_YUD} בעצמך כשנתס{EMIT_HEY}{ADD_YUD}\n"
+	.string "את הפוקינווט.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "POKéMON…\p"
-	.string "But it's not going well.$"
+	.string "אני מנסה לפתח מכשיר שיציג באופן חזותי\n"
+	.string "את החלומות של פוקימון…\p"
+	.string "אבל זה לא ממש מתקדם.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKéMON from fossils…\p"
-	.string "And, it's working!$"
+	.string "אני מנסה לפתח מכשיר שמחייה פוקימון\n"
+	.string "ממאובנים…\p"
+	.string "וזה עובד!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
-	.string "Wait! That thing you have there…\n"
-	.string "Is that a POKéMON fossil?\p"
-	.string "Would you like to bring that POKéMON\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "רגע! הדבר הזה שיש לך שם…\n"
+	.string "זה מאובן של פוקימון?\p"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להחזיר את הפוקימון הזה\n"
+	.string "לחיים?\p"
+	.string "אני יכול בעזרת המכשיר\n"
+	.string "מחייה מאובנים החדש שלי.$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "DEVON's technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "אה, באמת?\p"
+	.string "הטכנולוגיה של דבון\n"
+	.string "פשוט מדהימה.$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have not one, but two, fossils?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one POKéMON at a time.\p"
-	.string "Would you like to pick one of your\n"
-	.string "fossils for regeneration?$"
+	.string "אה, איזו הפתעה!\n"
+	.string "יש לך לא מאובן אחד, אלא שניים?\p"
+	.string "למרבה הצער, המכונה שלי יכולה להחיות\n"
+	.string "רק פוקימון אחד בכל פעם.\p"
+	.string "רוצה לבחור באיזה מאובן להשתמש\n"
+	.string "לשחזור?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "מעולה!\n"
+	.string "בוא{ADD_YUD} נתחיל מיד.\p"
+	.string "{PLAYER} נת{SWAP_NUN}{ADD_HEY} את {STR_VAR_1}\n"
+	.string "לחוקר של דבון.$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "מחייה המאובנים שפיתחתי\n"
+	.string "הוא מדהים.\p"
+	.string "אבל יש לו חיסרון אחד--הוא עובד\n"
+	.string "לאט מאוד.\p"
+	.string "אז, אולי תצא{ADD_YUD} לטיול קצר\n"
+	.string "ותסובב{ADD_YUD} קצת בינתיים?$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized POKéMON has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient POKéMON.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "תודה שחיכית!\p"
+	.string "הפוקימון המאובן שלך הוחזר לחיים!\p"
+	.string "המאובן היה של פוקימון קדום.\n"
+	.string "זה היה {STR_VAR_2}!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את {STR_VAR_2}\n"
+	.string "מחוקר של דבון.$"
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
@@ -368,15 +363,14 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
 	.string "You have no room for this one.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
-	.string "But it's not going well.$"
+	.string "אני מנסה לפתח תוסף חדש\n"
+	.string "לפוקינווט…\p"
+	.string "אבל זה לא מתקדם כל כך.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "ובכן, על מה עכשיו כדאי לי\n"
+	.string "לעבוד?\p"
+	.string "החברה שלנו מאפשרת לנו להפוך רעיונות\n"
+	.string "להמצאות אמיתיות.\p"
+	.string "כמהנדס, אין סביבה טובה מזו.$"
 

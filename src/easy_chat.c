@@ -33,6 +33,19 @@
 #include "constants/songs.h"
 #include "constants/rgb.h"
 
+#define MAIN_CURSOR_XOFFSET 188
+#define GROUP_CURSOR_XOFFSET 142
+#define WORD_SELECT_CURSOR_XOFFSET 220
+
+// The names of the different windows:
+// Main / Phrase - The window where the user fills up the words.
+// * Buttons - The window under the Main window.
+// Group (mode) - The window where the user chooses a group, right after choosing a word to fill in the Main window.
+// Alphabet / Keyboard (mode) - The window where the user can type.
+// Button - The window next to the Group/Alphabet window where the user can change mode / delete the selected word / cancel the selection.
+// Word - The window where the user chooses a word, right after choosing a group in the group Window.
+
+
 static EWRAM_DATA struct EasyChatScreen *sEasyChatScreen = NULL;
 static EWRAM_DATA struct EasyChatScreenControl *sScreenControl = NULL;
 static EWRAM_DATA struct EasyChatScreenWordData *sWordData = NULL;
@@ -1198,7 +1211,7 @@ static const struct SpriteTemplate sSpriteTemplate_ScrollIndicator =
 };
 
 static const u8 sFooterOptionXOffsets[NUM_FOOTER_TYPES][4] = {
-    [FOOTER_NORMAL] = {16, 111, 196,   0},
+    [FOOTER_NORMAL] = {16, 111, 180,   0},
     [FOOTER_QUIZ]   = {16,  78, 130, 160},
     [FOOTER_ANSWER] = {16,  80, 134, 170},
 };
@@ -1849,7 +1862,7 @@ static u16 HandleEasyChatInput_MainScreenButtons(void)
         }
         else if (JOY_NEW(DPAD_LEFT))
         {
-            sEasyChatScreen->mainCursorColumn--;
+            sEasyChatScreen->mainCursorColumn++;
             break;
         }
         else if (JOY_NEW(DPAD_DOWN))
@@ -1859,7 +1872,7 @@ static u16 HandleEasyChatInput_MainScreenButtons(void)
         }
         else if (JOY_NEW(DPAD_RIGHT))
         {
-            sEasyChatScreen->mainCursorColumn++;
+            sEasyChatScreen->mainCursorColumn--;
             break;
         }
 
@@ -2402,13 +2415,6 @@ static int MoveKeyboardCursor_GroupNames(u32 input)
         }
         break;
     case INPUT_LEFT:
-        if (sEasyChatScreen->keyboardColumn)
-            sEasyChatScreen->keyboardColumn--;
-        else
-            SetKeyboardCursorInButtonWindow();
-
-        return ECFUNC_UPDATE_KEYBOARD_CURSOR;
-    case INPUT_RIGHT:
         if (sEasyChatScreen->keyboardColumn < 1)
         {
             sEasyChatScreen->keyboardColumn++;
@@ -2419,6 +2425,13 @@ static int MoveKeyboardCursor_GroupNames(u32 input)
         {
             SetKeyboardCursorInButtonWindow();
         }
+        return ECFUNC_UPDATE_KEYBOARD_CURSOR;
+    case INPUT_RIGHT:
+        if (sEasyChatScreen->keyboardColumn)
+            sEasyChatScreen->keyboardColumn--;
+        else
+            SetKeyboardCursorInButtonWindow();
+
         return ECFUNC_UPDATE_KEYBOARD_CURSOR;
     }
 
@@ -2481,12 +2494,12 @@ static int MoveKeyboardCursor_ButtonWindow(u32 input)
 
         return ECFUNC_UPDATE_KEYBOARD_CURSOR;
     case INPUT_LEFT:
-        sEasyChatScreen->keyboardRow++;
-        SetKeyboardCursorToLastColumn();
-        return ECFUNC_UPDATE_KEYBOARD_CURSOR;
-    case INPUT_RIGHT:
         sEasyChatScreen->keyboardColumn = 0;
         sEasyChatScreen->keyboardRow++;
+        return ECFUNC_UPDATE_KEYBOARD_CURSOR;
+    case INPUT_RIGHT:
+        sEasyChatScreen->keyboardRow++;
+        SetKeyboardCursorToLastColumn();
         return ECFUNC_UPDATE_KEYBOARD_CURSOR;
     }
 
@@ -2555,14 +2568,6 @@ static u16 MoveWordSelectCursor(u32 input)
         }
         break;
     case INPUT_LEFT:
-        if (sEasyChatScreen->wordSelectColumn > 0)
-            sEasyChatScreen->wordSelectColumn--;
-        else
-            sEasyChatScreen->wordSelectColumn = 1;
-
-        ReduceToValidWordSelectColumn();
-        return ECFUNC_UPDATE_WORD_SELECT_CURSOR;
-    case INPUT_RIGHT:
         if (sEasyChatScreen->wordSelectColumn < 1)
         {
             sEasyChatScreen->wordSelectColumn++;
@@ -2573,6 +2578,14 @@ static u16 MoveWordSelectCursor(u32 input)
         {
             sEasyChatScreen->wordSelectColumn = 0;
         }
+        return ECFUNC_UPDATE_WORD_SELECT_CURSOR;
+    case INPUT_RIGHT:
+        if (sEasyChatScreen->wordSelectColumn > 0)
+            sEasyChatScreen->wordSelectColumn--;
+        else
+            sEasyChatScreen->wordSelectColumn = 1;
+
+        ReduceToValidWordSelectColumn();
         return ECFUNC_UPDATE_WORD_SELECT_CURSOR;
     case INPUT_START:
         // Page scroll up
@@ -3181,7 +3194,7 @@ static bool8 UpdateMainCursor(void)
     cursorRow = GetMainCursorRow();
     numColumns = GetNumColumns();
     ecWord = &currentPhrase[cursorRow * numColumns];
-    x = 8 * sPhraseFrameDimensions[frameId].left + 13;
+    x = 8 * sPhraseFrameDimensions[frameId].left + MAIN_CURSOR_XOFFSET;
     for (i = 0; i < cursorColumn; i++)
     {
         if (*ecWord == EC_EMPTY_WORD)
@@ -3195,7 +3208,7 @@ static bool8 UpdateMainCursor(void)
         }
 
         trueStringWidth = stringWidth + 17;
-        x += trueStringWidth;
+        x -= trueStringWidth;
         ecWord++;
     }
 
@@ -4260,7 +4273,7 @@ static void PrintKeyboardGroupNames(void)
                 return;
             }
 
-            PrintEasyChatText(WIN_INPUT_SELECT, FONT_NORMAL, GetEasyChatWordGroupName(groupId), x * 84 + 10, y, TEXT_SKIP_DRAW, NULL);
+            PrintEasyChatText(WIN_INPUT_SELECT, FONT_NORMAL, GetEasyChatWordGroupName(groupId), x * 84 + 54, y, TEXT_SKIP_DRAW, NULL);
         }
 
         y += 16;
@@ -4636,7 +4649,7 @@ static void LoadEasyChatGfx(void)
 static void CreateMainCursorSprite(void)
 {
     u8 frameId = GetEasyChatScreenFrameId();
-    int x = sPhraseFrameDimensions[frameId].left * 8 + 13;
+    int x = sPhraseFrameDimensions[frameId].left * 8 + MAIN_CURSOR_XOFFSET;
     int y = sPhraseFrameDimensions[frameId].top * 8 + 8;
     u8 spriteId = CreateSprite(&sSpriteTemplate_TriangleCursor, x, y, 2);
     sScreenControl->mainCursorSprite = &gSprites[spriteId];
@@ -4720,11 +4733,11 @@ static void SetRectangleCursorPos_GroupMode(s8 column, s8 row)
     {
         // In group name window
         StartSpriteAnim(sScreenControl->rectangleCursorSpriteRight, RECTCURSOR_ANIM_ON_GROUP);
-        sScreenControl->rectangleCursorSpriteRight->x = column * 84 + 58;
+        sScreenControl->rectangleCursorSpriteRight->x = -column * 84 + GROUP_CURSOR_XOFFSET;
         sScreenControl->rectangleCursorSpriteRight->y = row * 16 + 96;
 
         StartSpriteAnim(sScreenControl->rectangleCursorSpriteLeft, RECTCURSOR_ANIM_ON_GROUP);
-        sScreenControl->rectangleCursorSpriteLeft->x = column * 84 + 58;
+        sScreenControl->rectangleCursorSpriteLeft->x = -column * 84 + GROUP_CURSOR_XOFFSET;
         sScreenControl->rectangleCursorSpriteLeft->y = row * 16 + 96;
     }
     else
@@ -4809,8 +4822,8 @@ static void UpdateWordSelectCursorPos(void)
     s8 column, row, x, y;
 
     GetWordSelectColAndRow(&column, &row);
-    x = column * 13;
-    x = x * 8 + 28;
+    x = -column * 13;
+    x = x * 8 + WORD_SELECT_CURSOR_XOFFSET;
     y = row * 16 + 96;
     SetWordSelectCursorPos(x, y);
 }
@@ -5068,7 +5081,7 @@ static int GetFooterOptionXOffset(int option)
 {
     int footerIndex = GetFooterIndex();
     if (footerIndex < NUM_FOOTER_TYPES)
-        return sFooterOptionXOffsets[footerIndex][option] + 4;
+        return 28 * 8 - sFooterOptionXOffsets[footerIndex][option] + 20;
     else
         return 0;
 }

@@ -3168,7 +3168,7 @@ static void SpriteCB_DexListStartMenuCursor(struct Sprite *sprite)
         {
             sprite->invisible = FALSE;
             sprite->y2 = sPokedexView->menuCursorPos * 16;
-            sprite->x2 = gSineTable[(u8)sprite->data[2]] / 64;
+            sprite->x2 = gSineTable[(u8)sprite->data[2]] / 64 + 90;
             sprite->data[2] += 8;
         }
         else

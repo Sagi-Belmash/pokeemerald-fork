@@ -17,7 +17,7 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 	end
 
 RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
-	.string "עובדים של חברת דבון גרים\n"
+	.string "עובדים של תאגיד דבון גרים\n"
 	.string "בבניין הזה.$"
 
 RustboroCity_Flat2_1F_Text_Skitty:

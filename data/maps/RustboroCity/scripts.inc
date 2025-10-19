@@ -1015,7 +1015,7 @@ RustboroCity_EventScript_Boy1::
 	end
 
 RustboroCity_Text_WeShortenItToDevon:
-	.string "חברת דבון…\n"
+	.string "תאגיד דבון…\n"
 	.string "כולנו פשוט קוראים לה דבון.\p"
 	.string "החברה זו מייצרת כל מיני\n"
 	.string "מוצרים נוחים.$"
@@ -1224,7 +1224,7 @@ RustboroCity_Text_TunnelNearingCompletion:
 	.string "על זה בצבע אדום…$"
 
 RustboroCity_Text_DevonCorpSign:
-	.string "חברת דבון\p"
+	.string "תאגיד דבון\p"
 	.string "”לכל צורכי החיים שלכם, אנחנו\n"
 	.string "מייצרים הכל.“$"
 
@@ -1234,7 +1234,7 @@ RustboroCity_Text_GymSign:
 	.string "“תלמידה אוהבת אבן המכובדת!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
-	.string "סניף משרד חברת דבון\p"
+	.string "סניף משרד תאגיד דבון\p"
 	.string "”גישה מוגבלת לעובדי דבון\n"
 	.string "ואישיות מורשת.“$"
 

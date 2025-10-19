@@ -159,7 +159,7 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "בזכותך, וולדה היקרה שלי\n"
 	.string "צחקה בשבילי!\p"
 	.string "האמתי, אני אולי לא נראה כל כך\n"
-	.string "מיוחד, אבל אני חוקר מחברת דבון,\l"
+	.string "מיוחד, אבל אני חוקר מתאגיד דבון,\l"
 	.string "אחד מהחוקרים המובילים.\p"
 	.string "אז, מה דעתך שאעשה משהו בתמורה\n"
 	.string "בשבילך?\p"

@@ -1068,7 +1068,7 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "עצה למאמנים\p"
-	.string "באזור הואן יש זוגות של מאמנים\n"
+	.string "במחוז הואן יש זוגות של מאמנים\n"
 	.string "שמאתגרים אחרים לקרבות פוקימון\l"
 	.string "של 2 על 2, שנקראים קרבות כפולים.\p"
 	.string "בקרב כפול, המאמן חייב לשלוח שני\n"

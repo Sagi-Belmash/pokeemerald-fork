@@ -216,16 +216,17 @@ $ - o סיום הטקסט
 במשחק יש שתי אופציות לשמות שהשחקן יכול לבחור בהגדרות: תעתיק ומילולי. בכדי להציג לשחקן את השם של הפוקימון בהתאם להגדרה שבחר נשתמש בממלא מקום.
 ניתן להשאיר את השם כמו שהוא באנגלית ואז אני אתרגם אותו או אם זה לא טרחה אתם יכולים להוסיף את הממלא מקום. בשורה שלפני הקריאה לטקסט msgbox ... יש להוסיף את הטעינה של שם הפוקימון לממלא המקום ואז להשתמש בו בטקסט.
 <div dir="ltr" align="left">
- ```	
-RustboroCity_House3_EventScript_Pekachu::
-	...
-	bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
-	msgbox ...
-	...
 
-RustboroCity_House3_Text_Pekachu:
-	.string "{STR_VAR_1}: פיקא!$"
 ```
+	RustboroCity_House3_EventScript_Pekachu::
+		...
+		bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
+		msgbox ...
+		...
+	RustboroCity_House3_Text_Pekachu:
+		.string "{STR_VAR_1}: פיקא!$"
+```
+
 </div>
 
 [חזרה להתחלה](#המדריך-למתרגם)

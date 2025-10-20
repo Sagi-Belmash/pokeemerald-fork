@@ -221,7 +221,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "מר סטון: המכשיר הזה…\p"
-	.string "זה נווט הפוקימון, או בקיצור\n"
+	.string "זה הפוקימון נווט, או בקיצור\n"
 	.string "פוקינווט.\p"
 	.string "זה כלי שאין בלעדיו לכל מאמן\n"
 	.string "שיוצא להרפתקה.\p"

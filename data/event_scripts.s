@@ -839,7 +839,7 @@ gText_PokemartSign::
 	.string "חנות פוקימון$"
 
 gText_PokemonCenterSign::
-	.string "“לחדש את שותפיך העייפים!”\n"
+	.string "לרענן את שותפיך העייפים!”\n"
 	.string "מרכז פוקימון$"
 
 gText_MomOrDadMightLikeThisProgram::

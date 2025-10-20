@@ -1621,6 +1621,7 @@ static void PrintResultsText(struct BerryCrushGame *game, u8 page, u8 sp14, u8 b
             if (i != 0 && results->stats[page][i] != results->stats[page][i - 1])
                 ranking = i;
             ConvertIntToDecimalStringN(gStringVar4, results->stats[page][i], STR_CONV_MODE_RIGHT_ALIGN, 4);
+            ReverseNumeric(gStringVar4);
             StringAppend(gStringVar4, sResultsTexts[page]);
             break;
         case RESULTS_PAGE_RANDOM:
@@ -1628,6 +1629,7 @@ static void PrintResultsText(struct BerryCrushGame *game, u8 page, u8 sp14, u8 b
             if (i != 0 && results->stats[page][i] != results->stats[page][i - 1])
                 ranking = i;
             ConvertIntToDecimalStringN(gStringVar1, results->stats[page][i] >> 4, STR_CONV_MODE_RIGHT_ALIGN, 3);
+            ReverseNumeric(gStringVar1);
             xOffset = 0;
             stat = results->stats[page][i] & 15;
             for (j = 0; j < 4; j++)
@@ -1635,6 +1637,7 @@ static void PrintResultsText(struct BerryCrushGame *game, u8 page, u8 sp14, u8 b
                     xOffset += sPressingSpeedConversionTable[j];
             stat = xOffset / 1000000u;
             ConvertIntToDecimalStringN(gStringVar2, stat, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(gStringVar2);
             StringExpandPlaceholders(gStringVar4, sResultsTexts[page]);
             break;
         case RESULTS_PAGE_CRUSHING:
@@ -1680,6 +1683,8 @@ static void PrintCrushingResults(struct BerryCrushGame *game)
     // Print seconds value
     ConvertIntToDecimalStringN(gStringVar1, game->gfx.secondsInt, STR_CONV_MODE_LEADING_ZEROS, 2);
     ConvertIntToDecimalStringN(gStringVar2, game->gfx.secondsFrac, STR_CONV_MODE_LEADING_ZEROS, 2);
+    ReverseNumeric(gStringVar1);
+    ReverseNumeric(gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_XDotY2);
     x -= GetStringWidth(FONT_SHORT, gStringVar4, -1);
     AddTextPrinterParameterized3WithRTL(game->gfx.resultsWindowId, FONT_SHORT, x, y, sTextColorTable[COLORID_GRAY], 0, gStringVar4, TRUE);
@@ -1690,6 +1695,7 @@ static void PrintCrushingResults(struct BerryCrushGame *game)
 
     // Print minutes value
     ConvertIntToDecimalStringN(gStringVar1, game->gfx.minutes, STR_CONV_MODE_LEADING_ZEROS, 1);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_StrVar1);
     x -= GetStringWidth(FONT_SHORT, gStringVar4, -1);
     AddTextPrinterParameterized3WithRTL(game->gfx.resultsWindowId, FONT_SHORT, x, y, sTextColorTable[COLORID_GRAY], 0, gStringVar4, TRUE);
@@ -1706,6 +1712,8 @@ static void PrintCrushingResults(struct BerryCrushGame *game)
             pressingSpeedFrac += *(i + sPressingSpeedConversionTable); // It's accessed in a different way here for unknown reason
     ConvertIntToDecimalStringN(gStringVar1, game->pressingSpeed >> 8, STR_CONV_MODE_RIGHT_ALIGN, 3);
     ConvertIntToDecimalStringN(gStringVar2, pressingSpeedFrac / 1000000, STR_CONV_MODE_LEADING_ZEROS, 2);
+    ReverseNumeric(gStringVar1);
+    ReverseNumeric(gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_XDotY3);
     x -= GetStringWidth(FONT_SHORT, gStringVar4, -1);
     if (game->newRecord)
@@ -1719,6 +1727,7 @@ static void PrintCrushingResults(struct BerryCrushGame *game)
 
     // Print silkiness value
     ConvertIntToDecimalStringN(gStringVar1, results->silkiness, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ReverseNumeric(gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_Var1Percent);
     x = 176 - (u8)GetStringWidth(FONT_SHORT, gStringVar4, -1);
     AddTextPrinterParameterized3WithRTL(game->gfx.resultsWindowId, FONT_SHORT, x, y, sTextColorTable[COLORID_GRAY], 0, gStringVar4, TRUE);
@@ -1819,6 +1828,7 @@ static void Task_ShowRankings(u8 taskId)
         for (i = 0; i < MAX_RFU_PLAYERS - 1; i++)
         {
             ConvertIntToDecimalStringN(gStringVar1, i + 2, STR_CONV_MODE_LEFT_ALIGN, 1);
+            ReverseNumeric(gStringVar1);
             StringExpandPlaceholders(gStringVar4, gText_Var1Players);
             AddTextPrinterParameterized3WithRTL(tWindowId, FONT_NORMAL, 0, yPos, sTextColorTable[COLORID_GRAY], 0, gStringVar4, TRUE);
             xPos = 192 - (u8)GetStringWidth(FONT_NORMAL, gText_TimesPerSec, -1);
@@ -1830,6 +1840,8 @@ static void Task_ShowRankings(u8 taskId)
             }
             ConvertIntToDecimalStringN(gStringVar1, (u16)tPressingSpeeds(i) >> 8, STR_CONV_MODE_RIGHT_ALIGN, 3);
             ConvertIntToDecimalStringN(gStringVar2, score / 1000000, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(gStringVar1);
+            ReverseNumeric(gStringVar2);
             StringExpandPlaceholders(gStringVar4, gText_XDotY3);
             xPos -= GetStringWidth(FONT_NORMAL, gStringVar4, -1);
             AddTextPrinterParameterized3WithRTL(tWindowId, FONT_NORMAL, xPos, yPos, sTextColorTable[COLORID_GRAY], 0, gStringVar4, TRUE);
@@ -2972,6 +2984,7 @@ static u32 Cmd_HandleTimeUp(struct BerryCrushGame *game, u8 *args)
         if (!IsLinkTaskFinished())
             return 0;
         ConvertIntToDecimalStringN(gStringVar1, game->powder, STR_CONV_MODE_LEFT_ALIGN, 6);
+        ReverseNumeric(gStringVar1);
         SetPrintMessageArgs(args, MSG_TIMES_UP, F_MSG_CLEAR, 0, 0);
         game->nextCmd = CMD_SAVE;
         RunOrScheduleCommand(CMD_PRINT_MSG, SCHEDULE_CMD, NULL);
@@ -3208,6 +3221,8 @@ static u32 Cmd_ShowResults(struct BerryCrushGame *game, u8 *args)
         // Print message showing how much powder was created
         ConvertIntToDecimalStringN(gStringVar1, game->powder, STR_CONV_MODE_LEFT_ALIGN, 6);
         ConvertIntToDecimalStringN(gStringVar2, GetBerryPowder(), STR_CONV_MODE_LEFT_ALIGN, 6);
+        ReverseNumeric(gStringVar1);
+        ReverseNumeric(gStringVar2);
         SetPrintMessageArgs(args, MSG_POWDER, F_MSG_CLEAR | F_MSG_EXPAND, 0, 0);
         game->nextCmd = CMD_SAVE;
         RunOrScheduleCommand(CMD_PRINT_MSG, SCHEDULE_CMD, NULL);

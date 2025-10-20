@@ -55,9 +55,16 @@ If you'd like an English version of this document ~~despite not being able to fo
 
 **Commit comments / הערות / קומנטים**
 בלי להיכנס כרגע לשאלה מה זה Commit, נאמר שכשאנחנו מסתכלים על קובץ פה בגיטהאב, אנחנו יכולים לראות לידו הערה:\
-![Example](https://i.imgur.com/5WJa1l7.png)
-*(באדום - שם הקובץ, בתכלת - הערות, בצהוב - תאריך השינוי האחרון)*\
+<img src="img2.png">
+
+*(באדום - שם התיקייה, בתכלת - הערות, בצהוב - תאריך השינוי האחרון)*\
 ההערה הזו נרשמה ליד הקובץ בפעם האחרונה שהתבצע בו שינוי. בכל פעם שמתבצע שינוי בקובץ, נרשמת לידו הערה חדשה, והערות לא יכולות להירשם מבלי שיתבצעו שינויים בקובץ.
+
+<img src="img3.png">
+
+
+*(בירוק - שם הקובץ)*
+
 
 **Pull request**
 כשאתם מבצעים שינוי באחד הקבצים - לדוגמה, תרגום טקסט - השינוי לא מתבצע אוטומטית בפרויקט.\
@@ -260,13 +267,19 @@ $ - o סיום הטקסט
 
 נעבור צעד-צעד.
 דבר ראשון נמצא קובץ שנרצה לתרגם, ונלחץ על שם הקובץ.
-![Example file name](https://i.imgur.com/1MLj57L.png)
+
+<img src="img3.png">
+
 
 אתם תראו דף שנראה בערך ככה. חפשו את הכפתור עם האייקון של העיפרון ולחצו עליו.
-![Example edit button](https://i.imgur.com/iqjazem.png)
+
+<img src="img4.png">
+
 
 ערכו את הקובץ איך שבא לכם
-![Example edited file](https://i.imgur.com/eVkQwjZ.png)
+
+<img src="img1.png">
+
 
 כדי להגיש את השינויים, ליחצו על הכפתור "Propose file change"
 ![Example propose file changes](https://i.imgur.com/P55A5ke.png)

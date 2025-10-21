@@ -290,20 +290,20 @@ static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIE
 static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
 static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
 static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
-static const u8 sText_BlendingResults[] = _("RESULTS OF BLENDING");
-static const u8 sText_BerryUsed[] = _("BERRY USED");
-static const u8 sText_SpaceBerry[] = _(" BERRY");
-static const u8 sText_Time[] = _("Time:");
-static const u8 sText_Min[] = _(" min. ");
-static const u8 sText_Sec[] = _(" sec.");
-static const u8 sText_MaximumSpeed[] = _("MAXIMUM SPEED");
-static const u8 sText_RPM[] = _(" RPM");
+static const u8 sText_BlendingResults[] = _("תוצאות של ערבוב");
+static const u8 sText_BerryUsed[] = _("פרי יער ששומש");
+static const u8 sText_SpaceBerry[] = _(" פרי יער");
+static const u8 sText_Time[] = _("זמן:");
+static const u8 sText_Min[] = _(" דק. ");
+static const u8 sText_Sec[] = _(" שנ.");
+static const u8 sText_MaximumSpeed[] = _("מהירות מקסימלית");
+static const u8 sText_RPM[] = _(" סלד");
 static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Space[] = _(" ");
-static const u8 sText_Ranking[] = _("RANKING");
-static const u8 sText_TheLevelIs[] = _("The level is ");
-static const u8 sText_TheFeelIs[] = _(", and the feel is ");
+static const u8 sText_Ranking[] = _("דירוג");
+static const u8 sText_TheLevelIs[] = _("הרמה היא ");
+static const u8 sText_TheFeelIs[] = _(", והריגוש הוא ");
 static const u8 sText_Dot2[] = _(".");
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -3504,6 +3504,7 @@ static bool8 PrintBlendingResults(void)
                 u8 place = sBerryBlender->playerPlaces[i];
 
                 ConvertIntToDecimalStringN(sBerryBlender->stringVar, i + 1, STR_CONV_MODE_LEFT_ALIGN, 1);
+                ReverseNumeric(sBerryBlender->stringVar);
                 StringAppend(sBerryBlender->stringVar, sText_Dot);
                 StringAppend(sBerryBlender->stringVar, gText_Space);
                 StringAppend(sBerryBlender->stringVar, gLinkPlayers[place].name);
@@ -3517,9 +3518,11 @@ static bool8 PrintBlendingResults(void)
 
             Blender_AddTextPrinter(WIN_RESULTS, sText_MaximumSpeed, 0, 0x51, TEXT_SKIP_DRAW, 3);
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, sBerryBlender->maxRPM / 100, STR_CONV_MODE_RIGHT_ALIGN, 3);
+            ReverseNumeric(sBerryBlender->stringVar);
             StringAppend(sBerryBlender->stringVar, sText_Dot);
 
             ConvertIntToDecimalStringN(text, sBerryBlender->maxRPM % 100, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(text);
             StringAppend(sBerryBlender->stringVar, text);
             StringAppend(sBerryBlender->stringVar, sText_RPM);
 
@@ -3531,9 +3534,11 @@ static bool8 PrintBlendingResults(void)
             minutes = (sBerryBlender->gameFrameTime / (60 * 60));
 
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, minutes, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(sBerryBlender->stringVar);
             txtPtr = StringAppend(sBerryBlender->stringVar, sText_Min);
 
             ConvertIntToDecimalStringN(txtPtr, seconds, STR_CONV_MODE_LEADING_ZEROS, 2);
+            ReverseNumeric(txtPtr);
             StringAppend(sBerryBlender->stringVar, sText_Sec);
 
             xPos = GetStringRightAlignXOffset(FONT_NORMAL, sBerryBlender->stringVar, 0xA8);
@@ -3604,10 +3609,12 @@ static void PrintMadePokeblockString(struct Pokeblock *pokeblock, u8 *dst)
 
     StringAppend(dst, sText_TheLevelIs);
     ConvertIntToDecimalStringN(text, flavorLvl, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(text);
     StringAppend(dst, text);
 
     StringAppend(dst, sText_TheFeelIs);
     ConvertIntToDecimalStringN(text, feel, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(text);
     StringAppend(dst, text);
 
     StringAppend(dst, sText_Dot2);
@@ -3697,11 +3704,11 @@ static bool8 PrintBlendingRanking(void)
         StartSpriteAnim(&gSprites[sBerryBlender->scoreIconIds[SCORE_BEST]], SCOREANIM_BEST_STATIC);
         gSprites[sBerryBlender->scoreIconIds[SCORE_BEST]].callback = SpriteCallbackDummy;
 
-        sBerryBlender->scoreIconIds[SCORE_GOOD] = CreateSprite(&sSpriteTemplate_ScoreSymbols, 160, 52, 0);
+        sBerryBlender->scoreIconIds[SCORE_GOOD] = CreateSprite(&sSpriteTemplate_ScoreSymbols, 96/* 160 */, 52, 0);
         // implicitly uses SCOREANIM_GOOD, no need to assign
         gSprites[sBerryBlender->scoreIconIds[SCORE_GOOD]].callback = SpriteCallbackDummy;
 
-        sBerryBlender->scoreIconIds[SCORE_MISS] = CreateSprite(&sSpriteTemplate_ScoreSymbols, 192, 52, 0);
+        sBerryBlender->scoreIconIds[SCORE_MISS] = CreateSprite(&sSpriteTemplate_ScoreSymbols, 64/* 192 */, 52, 0);
         StartSpriteAnim(&gSprites[sBerryBlender->scoreIconIds[SCORE_MISS]], SCOREANIM_MISS);
         gSprites[sBerryBlender->scoreIconIds[SCORE_MISS]].callback = SpriteCallbackDummy;
 
@@ -3712,18 +3719,22 @@ static bool8 PrintBlendingRanking(void)
             u8 place = sBerryBlender->playerPlaces[i];
 
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, i + 1, STR_CONV_MODE_LEFT_ALIGN, 1);
+            ReverseNumeric(sBerryBlender->stringVar);
             StringAppend(sBerryBlender->stringVar, sText_Dot);
             StringAppend(sBerryBlender->stringVar, gText_Space);
             StringAppend(sBerryBlender->stringVar, gLinkPlayers[place].name);
             Blender_AddTextPrinter(WIN_RESULTS, sBerryBlender->stringVar, 0, yPos, TEXT_SKIP_DRAW, 3);
 
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, sBerryBlender->scores[place][SCORE_BEST], STR_CONV_MODE_RIGHT_ALIGN, 3);
+            ReverseNumeric(sBerryBlender->stringVar);
             Blender_AddTextPrinter(WIN_RESULTS, sBerryBlender->stringVar, 78, yPos, TEXT_SKIP_DRAW, 3);
 
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, sBerryBlender->scores[place][SCORE_GOOD], STR_CONV_MODE_RIGHT_ALIGN, 3);
+            ReverseNumeric(sBerryBlender->stringVar);
             Blender_AddTextPrinter(WIN_RESULTS, sBerryBlender->stringVar, 78 + 32, yPos, TEXT_SKIP_DRAW, 3);
 
             ConvertIntToDecimalStringN(sBerryBlender->stringVar, sBerryBlender->scores[place][SCORE_MISS], STR_CONV_MODE_RIGHT_ALIGN, 3);
+            ReverseNumeric(sBerryBlender->stringVar);
             Blender_AddTextPrinter(WIN_RESULTS, sBerryBlender->stringVar, 78 + 64, yPos, TEXT_SKIP_DRAW, 3);
         }
 
@@ -3776,8 +3787,10 @@ void ShowBerryBlenderRecordWindow(void)
         record = gSaveBlock1Ptr->berryBlenderRecords[i];
 
         txtPtr = ConvertIntToDecimalStringN(text, record / 100, STR_CONV_MODE_RIGHT_ALIGN, 3);
+        ReverseNumeric(text);
         txtPtr = StringAppend(txtPtr, sText_Dot);
         txtPtr = ConvertIntToDecimalStringN(txtPtr, record % 100, STR_CONV_MODE_LEADING_ZEROS, 2);
+        ReverseNumeric(txtPtr);
         txtPtr = StringAppend(txtPtr, sText_RPM);
 
         xPos = GetStringRightAlignXOffset(FONT_NORMAL, text, 140);

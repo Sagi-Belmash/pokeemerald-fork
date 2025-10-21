@@ -1303,7 +1303,7 @@ static const u8 *const sStatNamesTable2[] =
 };
 
 const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}כדורי ספארי");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}וראשנ: $" "{HIGHLIGHT DARK_GRAY}");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY} :וראשנ$" "{HIGHLIGHT DARK_GRAY}");
 const u8 gText_Sleep[] = _("שינה");
 const u8 gText_Poison[] = _("רעל");
 const u8 gText_Burn[] = _("כוויה");

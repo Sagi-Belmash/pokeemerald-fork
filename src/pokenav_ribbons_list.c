@@ -669,9 +669,10 @@ static void DrawListIndexNumber(s32 windowId, s32 index, s32 max)
     u32 x;
 
     u8 *ptr = strbuf;
-    ptr = ConvertIntToDecimalStringN(ptr, index, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ptr = ConvertIntToDecimalStringN(ptr, max, STR_CONV_MODE_RIGHT_ALIGN, 3);
     *ptr++ = CHAR_SLASH;
-    ConvertIntToDecimalStringN(ptr, max, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ConvertIntToDecimalStringN(ptr, index, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ReverseNumeric(ptr);
     x = GetStringCenterAlignXOffset(FONT_NORMAL, strbuf, 56);
     AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, strbuf, x, 1, TEXT_SKIP_DRAW, NULL, TRUE);
 }
@@ -743,4 +744,5 @@ static void BufferRibbonMonInfoText(struct PokenavListItem *listItem, u8 *dest)
     ReverseNumeric(s);
     dest = GetStringClearToWidth(dest, FONT_NORMAL, gStringVar1, 54);
     ConvertIntToDecimalStringN(dest, item->data, STR_CONV_MODE_RIGHT_ALIGN, 2);
+    ReverseNumeric(dest);
 }

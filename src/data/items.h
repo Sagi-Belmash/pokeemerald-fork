@@ -1774,7 +1774,7 @@ const struct Item gItems[] =
 
     [ITEM_WIKI_BERRY] =
     {
-        .name = _("פרי ויקי"),
+        .name = _("פרי קיווי"),
         .itemId = ITEM_WIKI_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_DRY,
@@ -1892,7 +1892,7 @@ const struct Item gItems[] =
 
     [ITEM_KELPSY_BERRY] =
     {
-        .name = _("פרי אצתי"),
+        .name = _("פרי אצות"),
         .itemId = ITEM_KELPSY_BERRY,
         .price = 20,
         .description = sKelpsyBerryDesc,

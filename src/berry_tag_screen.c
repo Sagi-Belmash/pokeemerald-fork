@@ -404,6 +404,7 @@ static void PrintBerryNumberAndName(void)
 {
     const struct Berry *berry = GetBerryInfo(sBerryTag->berryId);
     ConvertIntToDecimalStringN(gStringVar1, sBerryTag->berryId, STR_CONV_MODE_LEADING_ZEROS, 2);
+    ReverseNumeric(gStringVar1);
     StringCopy(gStringVar2, berry->name);
     StringExpandPlaceholders(gStringVar4, gText_NumberVar1Var2);
     PrintTextInBerryTagScreen(WIN_BERRY_NAME, gStringVar4, 0, 1, 0, 0);
@@ -415,17 +416,18 @@ static void PrintBerrySize(void)
     AddTextPrinterParameterizedWithRTL(WIN_SIZE_FIRM, FONT_NORMAL, gText_SizeSlash, 0, 1, TEXT_SKIP_DRAW, NULL, TRUE);
     if (berry->size != 0)
     {
-        u32 inches, fraction;
+        /* u32 inches, fraction;
 
         inches = 1000 * berry->size / 254;
         if (inches % 10 > 4)
             inches += 10;
         fraction = (inches % 100) / 10;
-        inches /= 100;
+        inches /= 100; */
 
-        ConvertIntToDecimalStringN(gStringVar1, inches, STR_CONV_MODE_LEFT_ALIGN, 2);
-        ConvertIntToDecimalStringN(gStringVar2, fraction, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar1, berry->size / 10, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar2, berry->size % 10, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringExpandPlaceholders(gStringVar4, gText_Var1DotVar2);
+        ReverseNumeric(gStringVar4);
         AddTextPrinterParameterizedWithRTL(WIN_SIZE_FIRM, FONT_NORMAL, gStringVar4, 0x28, 1, 0, NULL, TRUE);
     }
     else

@@ -354,5 +354,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SHOCK_WAVE] = _("גל הלם"),
     [MOVE_WATER_PULSE] = _("דופק מים"),
     [MOVE_DOOM_DESIRE] = _("תאוות אבדון"),
-    [MOVE_PSYCHO_BOOST] = _("בוסט על-חושי"),
+    [MOVE_PSYCHO_BOOST] = _("הגבר על-חושי"),
 };

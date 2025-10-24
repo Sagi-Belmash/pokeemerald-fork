@@ -18,22 +18,22 @@ GraniteCave_1F_EventScript_ReceivedFlash::
 	end
 
 GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
-	.string "Hey, you.\n"
-	.string "It gets awfully dark ahead.\l"
-	.string "It'll be tough trying to explore.\p"
-	.string "That guy who came by earlier…\n"
-	.string "STEVEN, I think it was.\p"
-	.string "He knew how to use FLASH, so he ought\n"
-	.string "to be all right, but…\p"
-	.string "Well, for us HIKERS, helping out those\n"
-	.string "that we meet is our motto.\p"
-	.string "Here you go, I'll pass this on to you.$"
+	.string "היי, את{EMIT_HEY}.\n"
+	.string "זה נהיה חשוך להחריד בהמשך .\l"
+	.string "זה יהיה קשוח לנסות לחקור.\p"
+	.string "הבחור שעבר כאן קודם…\n"
+	.string "סטיבן, נראה לי .\p"
+	.string "הוא ידע איך להשתמש בהבזק, אז הוא\n"
+	.string "בטח יסתדר, אבל…\p"
+	.string "ובכן, לנו המטיילים, המוטו שלנו\n"
+	.string "הוא לעזור למי שאנחנו פוגשים.\p"
+	.string "אז הנה, אני נותן לך את זה.$"
 
 GraniteCave_1F_Text_ExplainFlash:
-	.string "Teach that hidden move FLASH to\n"
-	.string "a POKéMON and use it.\p"
-	.string "It lights up even the inky darkness\n"
-	.string "of caves.\p"
-	.string "But, to use it, you need the GYM BADGE\n"
-	.string "from DEWFORD's POKéMON GYM.$"
+	.string "תלמד{ADD_YUD} את המכשיר נסתר הבזק\n"
+	.string "לפוקימון ותשתמש{ADD_YUD} בו.\p"
+	.string "זה מאיר אפילו את החושך העמוק\n"
+	.string "של המערות.\p"
+	.string "אבל, כדי להשתמש בו, צריך את תג המכון\n"
+	.string "מהמכון פוקימון בדופורד.$"
 

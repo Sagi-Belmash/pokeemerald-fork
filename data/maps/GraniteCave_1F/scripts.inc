@@ -25,7 +25,7 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 	.string "סטיבן, נראה לי .\p"
 	.string "הוא ידע איך להשתמש בהבזק, אז הוא\n"
 	.string "בטח יסתדר, אבל…\p"
-	.string "ובכן, לנו המטיילים, המוטו שלנו\n"
+	.string "ובכן, לנו המטפסים, המוטו שלנו\n"
 	.string "הוא לעזור למי שאנחנו פוגשים.\p"
 	.string "אז הנה, אני נותן לך את זה.$"
 

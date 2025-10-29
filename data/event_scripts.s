@@ -835,12 +835,12 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
-	.string "POKéMON MART$"
+	.string "“פריטים נבחרים לנוחיותך!”\n"
+	.string "חנות פוקימון$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "“לחדש את שותפיך העייפים!”\n"
+	.string "מרכז פוקימון$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
@@ -869,7 +869,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} העל{ADD_TAF}ה את המחשב.$"
 
 gText_PokeblockLinkCanceled::
 	.string "The link was canceled.$"

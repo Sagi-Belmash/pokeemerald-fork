@@ -627,164 +627,162 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_TinyIslandCommunity:
-	.string "DEWFORD is a tiny island community.\n"
-	.string "If something gets trendy here,\l"
-	.string "everyone picks up on it right away.$"
+	.string "דופורד היא קהילת אי קטנטנה.\n"
+	.string "אם משהו הופך לטרנדי כאן,\l"
+	.string "כולם קופצים על זה מיד.$"
 
 DewfordTown_Text_TownSign:
-	.string "DEWFORD TOWN\n"
-	.string "“A tiny island in the blue sea.”$"
+	.string "עיירת דופורד\n"
+	.string "“אי פצפון בים הכחול.”$"
 
 DewfordTown_Text_GymSign:
-	.string "DEWFORD TOWN POKéMON GYM\n"
-	.string "LEADER: BRAWLY\l"
-	.string "“A big wave in fighting!”$"
+	.string "מכון הפוקימון בעיירת דופורד\n"
+	.string "מנהיג: בראולי\l"
+	.string "”גל ענק בקרב!“$"
 
 DewfordTown_Text_HallSign:
-	.string "DEWFORD HALL\n"
-	.string "“Everyone's information exchange!”$"
+	.string "אולם דופורד\n"
+	.string "”החלפת מידע לכל!“$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've hit land in DEWFORD.\p"
-	.string "I suppose you're off to deliver that\n"
-	.string "LETTER to, who was it now, STEVEN!$"
+	.string "מר ברייני: אהוי!\n"
+	.string "הגענו לדופורד.\p"
+	.string "אני מניח שאת{EMIT_HEY} בדרך למסור את\n"
+	.string "המכתב הזה ל…, מי זה היה עכשיו… סטיבן!$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
-	.string "MR. BRINEY: Have you delivered your\n"
-	.string "LETTER?\p"
-	.string "Or were you meaning to sail back to\n"
-	.string "PETALBURG?$"
+	.string "מר ברייני: האם מסרת את המכתב שלך?\p"
+	.string "או שהתכוונת להפליג חזרה לפטלבורג?$"
 
 DewfordTown_Text_PetalburgWereSettingSail2:
-	.string "MR. BRINEY: PETALBURG it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "מר ברייני: לפטלבורג, אז!\p"
+	.string "עוגנים למעלה!\n"
+	.string "פיקו, אנחנו מפליגים, יקירתי!$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
-	.string "MR. BRINEY: Then you go on and deliver\n"
-	.string "the LETTER. I'll be waiting.$"
+	.string "מר ברייני: אז תל{SWAP_CHAF}{ADD_YUD} למסור את\n"
+	.string "המכתב. אני אחכה.$"
 
 DewfordTown_Text_BrineyLandedInDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "We've hit land in DEWFORD!\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail again!$"
+	.string "מר ברייני: אהוי!\n"
+	.string "הגענו לדופורד!\p"
+	.string "רק לי תגיד{ADD_YUD} מתי תרצ{EMIT_HEY}{ADD_YUD} לצאת\n"
+	.string "שוב להפלגה!$"
 
 DewfordTown_Text_WhereAreWeBound:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?$"
+	.string "מר ברייני: אהוי!\n"
+	.string "בשבילך, אני אצא לים בכל עת!\p"
+	.string "עכשיו, חבר{ADD_TAF}י, לאן פנינו?$"
 
 DewfordTown_Text_PetalburgWereSettingSail:
-	.string "MR. BRINEY: PETALBURG, is it?\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "מר ברייני: לפטלבורג, כן?\p"
+	.string "עוגנים למעלה!\n"
+	.string "פיקו, אנחנו מפליגים, יקירתי!$"
 
 DewfordTown_Text_SlateportWereSettingSail:
-	.string "MR. BRINEY: SLATEPORT, is it?\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "מר ברייני: לסלייטפורט, כן?\p"
+	.string "עוגנים למעלה!\n"
+	.string "פיקו, אנחנו מפליגים, יקירתי!$"
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
-	.string "MR. BRINEY: You just tell me whenever\n"
-	.string "you need to set sail again!$"
+	.string "מר ברייני: רק לי תגיד{ADD_YUD} מתי תרצ{EMIT_HEY}{ADD_YUD} לצאת\n"
+	.string "שוב להפלגה!$"
 
 DewfordTown_Text_GettingItchToFish:
-	.string "This is a renowned fishing spot.\n"
-	.string "Are you getting the itch to fish?$"
+	.string "זאת נקודת דייג מפורסמת.\n"
+	.string "יש לך את החשק לדוג?$"
 
 DewfordTown_Text_GiveYouOneOfMyRods:
-	.string "I hear you, and I like what\n"
-	.string "you're saying!\p"
-	.string "I'll give you one of my fishing RODS.$"
+	.string "אני שומע אותך, ואני אוהב את\n"
+	.string "מה שאמרת!\p"
+	.string "אני אתן לך אחת ממקלות הדייג שלי.$"
 
 DewfordTown_Text_ThrowInFishingAdvice:
-	.string "And, as an added bonus, I'll even throw\n"
-	.string "in a little fishing advice!\p"
-	.string "First, you want to face the water,\n"
-	.string "then use the ROD.\p"
-	.string "Focus your mind…\n"
-	.string "If you get a bite, pull on the ROD.\p"
-	.string "Sometimes you can snag something\n"
-	.string "immediately, but with bigger catches,\l"
-	.string "you need to time the pulls on your ROD\l"
-	.string "to haul them in.$"
+	.string "וכבונוס, אני אפילו אוסיף\n"
+	.string "עצת דייג קטנה!\p"
+	.string "ראשית, את{EMIT_HEY} רוצה לעמוד מול הים,\n"
+	.string "ואז להשתמש בחכה.\p"
+	.string "לרכז את המחשבות…\n"
+	.string "אם תרגיש{ADD_YUD} ביס, מש{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} את החכה.\p"
+	.string "לפעמים תוכל{ADD_YUD} לתפוס משהו מיד,\n"
+	.string "אבל עם דגים גדולים יותר,\l"
+	.string "צריך לתזמן את המשיכות בחכה\l"
+	.string "כדי להוציא אותם.$"
 
 DewfordTown_Text_ThatsTooBadThen:
-	.string "Oh, is that so?\n"
-	.string "That's too bad, then.$"
+	.string "או, הייתכן?\n"
+	.string "חבל, אז.$"
 
 DewfordTown_Text_HowsYourFishing:
-	.string "Yo!\n"
-	.string "How's your fishing?$"
+	.string "יו!\n"
+	.string "איך הולך הדיג?$"
 
 DewfordTown_Text_GreatHaulInSomeBigOnes:
-	.string "Is that right! That's great!\n"
-	.string "Haul in some big ones!$"
+	.string "באמת! זה נהדר!\n"
+	.string "תפ{EMIT_VAV}ס{ADD_YUD} דגים גדולים!$"
 
 DewfordTown_Text_FishingAdvice:
-	.string "Oh, hey, don't get down on yourself!\n"
-	.string "I'll give you a little fishing advice.\p"
-	.string "First, you want to face the water,\n"
-	.string "then use the ROD.\p"
-	.string "Focus your mind…\n"
-	.string "If you get a bite, pull the ROD.\p"
-	.string "Sometimes you can snag something\n"
-	.string "immediately, but with bigger catches,\l"
-	.string "you need to time the pulls on your ROD\l"
-	.string "to haul them in.$"
+	.string "או, היי, אל תתייאש{ADD_YUD}!\n"
+	.string "אני תן לך עצת דייג קטנה.\p"
+	.string "ראשית, את{EMIT_HEY} רוצה לעמוד מול הים,\n"
+	.string "ואז להשתמש בחכה.\p"
+	.string "לרכז את המחשבות…\n"
+	.string "אם תרגיש{ADD_YUD} ביס, מש{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} את החכה.\p"
+	.string "לפעמים תוכל{ADD_YUD} לתפוס משהו מיד,\n"
+	.string "אבל עם דגים גדולים יותר,\l"
+	.string "צריך לתזמן את המשיכות בחכה\l"
+	.string "כדי להוציא אותם.$"
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight:
-	.string "I like what's hip, happening, and trendy.\n"
-	.string "I'm always checking it out.\p"
-	.string "Listen, have you heard about this new\n"
+	.string "אני אוהב את מה שמגניב, מתקדם, וטרנדי.\n"
+	.string "אני תמיד בודק את זה.\p"
+	.string "תשמע{ADD_YUD}, שמעת על הזה החדש\n"
 	.string "“{STR_VAR_1}”?\p"
-	.string "That's right!\n"
-	.string "Of course you know!\p"
-	.string "I mean, sheesh,\n"
-	.string "“{STR_VAR_1}”…\l"
-	.string "It's the hottest thing in cool!\p"
-	.string "Wherever you're from,\n"
-	.string "“{STR_VAR_1}”\l"
-	.string "is the biggest happening thing, right?$"
+	.string "בדיוק!\n"
+	.string "כמובן שאת{EMIT_HEY} יודע{ADD_TAF}!\p"
+	.string "אני מתכוון, באמת,\n"
+	.string "”{STR_VAR_1}“…\l"
+	.string "זה הדבר הכי חם עכשיו!\p"
+	.string "מאיפה שבאת,\n"
+	.string "”{STR_VAR_1}“\l"
+	.string "זה הדבר הכי גדול, נכון?$"
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
-	.string "Hunh?\n"
-	.string "It's not the hip and happening thing?\p"
-	.string "Well, hey, you have to tell me,\n"
-	.string "what's new and what's “in”?$"
+	.string "האא?\n"
+	.string "זה לא דבר מגניב ומתקדם?\p"
+	.string "ובכן, היי, את{EMIT_HEY} חייב{ADD_TAF} להגיד לי,\n"
+	.string "מה הדבר החם והמגניב?$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
-	.string "Hunh?\n"
-	.string "“{STR_VAR_2}”?\p"
+	.string "האא?\n"
+	.string "”{STR_VAR_2}“?\p"
 	.string "… …\p"
-	.string "…Uh… Yeah! That's right!\n"
-	.string "Yeah, I knew that! Knew it all along!\p"
-	.string "Of course I know about that!\n"
-	.string "“{STR_VAR_2},” right?\p"
-	.string "Yeah, that's it, it's there!\n"
-	.string "Isn't “{STR_VAR_2}”\l"
-	.string "the coolest, or what?\p"
-	.string "It's the hippest thing in hip.\n"
-	.string "You think I'd not know about it?\p"
-	.string "“{STR_VAR_1}”…\n"
-	.string "It's, like, so five minutes ago.\p"
-	.string "Now, “{STR_VAR_2}” is\n"
-	.string "what's vital and in tune with the times!$"
+	.string "…אה… כן! נכון!\n"
+	.string "כן, ידעתי את זה! ידעתי כל הזמן!\p"
+	.string "כמובן שאני יודע על זה!\n"
+	.string "”{STR_VAR_2},“ נכון?\p"
+	.string "כן, זה זה, זה שם!\n"
+	.string "האם ”{STR_VAR_2}“\l"
+	.string "לא הכי מגניב, או מה?\p"
+	.string "זה הדבר הכי חם בטרנד.\n"
+	.string "את{EMIT_HEY} חושב{ADD_TAF} שלא ידעתי על זה?\p"
+	.string "”{STR_VAR_1}“…\n"
+	.string "זה, כמו, אז לפני חמש דקות.\p"
+	.string "עכשיו, ”{STR_VAR_2}“ זה\n"
+	.string "מה שחיוני וטרנדי!$"
 
 DewfordTown_Text_XHuhIThinkYIsCool:
-	.string "Hmm…\n"
-	.string "“{STR_VAR_2},” huh?\p"
-	.string "But personally, I think\n"
-	.string "“{STR_VAR_1}”\l"
-	.string "is what's real in cool.$"
+	.string "הממ…\n"
+	.string "”{STR_VAR_2},“ הא?\p"
+	.string "אבל אישית, אני חושב\n"
+	.string "ש”{STR_VAR_1}“\l"
+	.string "זה הדבר האמיתי והמנגיב.$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
-	.string "Well, if you hear of any happening new\n"
-	.string "trends, come share them with me, okay?$"
+	.string "ובכן, אם תשמע{ADD_YUD} טרנדים חדשים,\n"
+	.string "בוא{ADD_YUD} ותשת{SWAP_PEY}{ADD_YUD} אותי, בסדר?$"
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
-	.string "Yeah, absolutely right!\p"
-	.string "“{STR_VAR_1}” is the\n"
-	.string "definition of “in” right now.$"
+	.string "כן, בדיוק נכון!\p"
+	.string "”{STR_VAR_1}“ הוא ההגדרה\n"
+	.string "של טרנדי עכשיו.$"

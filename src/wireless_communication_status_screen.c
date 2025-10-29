@@ -378,7 +378,7 @@ static void WCSS_AddTextPrinterParameterized(u8 windowId, u8 fontId, const u8 *s
         break;
     }
 
-    AddTextPrinterParameterized4(windowId, fontId, x, y, 0, 0, color, TEXT_SKIP_DRAW, str);
+    AddTextPrinterParameterized4WithRTL(windowId, fontId, x, y, 0, 0, color, TEXT_SKIP_DRAW, str, TRUE);
 }
 
 static u32 CountPlayersInGroupAndGetActivity(struct RfuPlayer *player, u32 *groupCounts)

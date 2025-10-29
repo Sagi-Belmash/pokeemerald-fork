@@ -1396,7 +1396,7 @@ static bool8 SlotTask_HandleBetInput(struct Task *task)
 static bool8 SlotTask_PrintMsg_Need3Coins(struct Task *task)
 {
     DrawDialogueFrame(WIN_MSG, FALSE);
-    AddTextPrinterParameterized(WIN_MSG, FONT_NORMAL, gText_YouDontHaveThreeCoins, 0, 1, 0, 0);
+    AddTextPrinterParameterizedWithRTL(WIN_MSG, FONT_NORMAL, gText_YouDontHaveThreeCoins, 8, 1, 0, 0, TRUE);
     CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
     sSlotMachine->state = SLOTTASK_WAIT_MSG_NEED_3_COINS;
     return FALSE;
@@ -1661,7 +1661,7 @@ static bool8 SlotTask_NoMatches(struct Task *task)
 static bool8 SlotTask_AskQuit(struct Task *task)
 {
     DrawDialogueFrame(WIN_MSG, FALSE);
-    AddTextPrinterParameterized(WIN_MSG, FONT_NORMAL, gText_QuitTheGame, 0, 1, 0, 0);
+    AddTextPrinterParameterizedWithRTL(WIN_MSG, FONT_NORMAL, gText_QuitTheGame, 8, 1, 0, 0, TRUE);
     CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
     CreateYesNoMenuParameterized(0x15, 7, 0x214, 0x180, 0xE, 0xF);
     sSlotMachine->state = SLOTTASK_HANDLE_QUIT_INPUT;
@@ -1693,7 +1693,7 @@ static bool8 SlotTask_HandleQuitInput(struct Task *task)
 static bool8 SlotTask_PrintMsg_MaxCoins(struct Task *task)
 {
     DrawDialogueFrame(WIN_MSG, FALSE);
-    AddTextPrinterParameterized(WIN_MSG, FONT_NORMAL, gText_YouveGot9999Coins, 0, 1, 0, 0);
+    AddTextPrinterParameterizedWithRTL(WIN_MSG, FONT_NORMAL, gText_YouveGot9999Coins, 8, 1, 0, 0, TRUE);
     CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
     sSlotMachine->state = SLOTTASK_WAIT_MSG_MAX_COINS;
     return FALSE;
@@ -1714,7 +1714,7 @@ static bool8 SlotTask_WaitMsg_MaxCoins(struct Task *task)
 static bool8 SlotTask_PrintMsg_NoMoreCoins(struct Task *task)
 {
     DrawDialogueFrame(WIN_MSG, FALSE);
-    AddTextPrinterParameterized(WIN_MSG, FONT_NORMAL, gText_YouveRunOutOfCoins, 0, 1, 0, 0);
+    AddTextPrinterParameterizedWithRTL(WIN_MSG, FONT_NORMAL, gText_YouveRunOutOfCoins, 8, 1, 0, 0, TRUE);
     CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
     sSlotMachine->state = SLOTTASK_WAIT_MSG_NO_MORE_COINS;
     return FALSE;
@@ -3934,7 +3934,7 @@ static void InfoBox_DrawWindow(struct Task *task)
 
 static void InfoBox_AddText(struct Task *task)
 {
-    AddTextPrinterParameterized3(WIN_INFO, FONT_NORMAL, 2, 5, sColors_ReeltimeHelp, 0, gText_ReelTimeHelp);
+    AddTextPrinterParameterized3WithRTL(WIN_INFO, FONT_NORMAL, 2, 5, sColors_ReeltimeHelp, 0, gText_ReelTimeHelp, TRUE);
     CopyWindowToVram(WIN_INFO, COPYWIN_FULL);
     BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
     task->tState++;

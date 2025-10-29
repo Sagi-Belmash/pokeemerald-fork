@@ -499,8 +499,8 @@ void PrintMysteryGiftOrEReaderHeader(bool8 isEReader, bool32 useCancel)
         options = gJPText_DecideStop;
     }
 
-    AddTextPrinterParameterized4(WIN_HEADER, FONT_NORMAL, 4, 1, 0, 0, sTextColors_Header, TEXT_SKIP_DRAW, title);
-    AddTextPrinterParameterized4(WIN_HEADER, FONT_SMALL, GetStringRightAlignXOffset(FONT_SMALL, options, 0xDE), 1, 0, 0, sTextColors_Header, TEXT_SKIP_DRAW, options);
+    AddTextPrinterParameterized4WithRTL(WIN_HEADER, FONT_NORMAL, 4, 1, 0, 0, sTextColors_Header, TEXT_SKIP_DRAW, title, TRUE);
+    AddTextPrinterParameterized4WithRTL(WIN_HEADER, FONT_SMALL, GetStringRightAlignXOffset(FONT_SMALL, options, 0xDE), 1, 0, 0, sTextColors_Header, TEXT_SKIP_DRAW, options, TRUE);
     CopyWindowToVram(WIN_HEADER, COPYWIN_GFX);
     PutWindowTilemap(WIN_HEADER);
 }
@@ -546,7 +546,7 @@ void MG_AddMessageTextPrinter(const u8 *str)
 {
     StringExpandPlaceholders(gStringVar4, str);
     FillWindowPixelBuffer(WIN_MSG, 0x11);
-    AddTextPrinterParameterized4(WIN_MSG, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4);
+    AddTextPrinterParameterized4WithRTL(WIN_MSG, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4, TRUE);
     DrawTextBorderOuter(WIN_MSG, 0x001, 0xF);
     PutWindowTilemap(WIN_MSG);
     CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
@@ -677,7 +677,7 @@ s8 DoMysteryGiftYesNo(u8 *textState, u16 *windowId, bool8 yesNoBoxPlacement, con
         else
             *windowId = AddWindow(&sWindowTemplate_YesNoMsg);
         FillWindowPixelBuffer(*windowId, 0x11);
-        AddTextPrinterParameterized4(*windowId, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4);
+        AddTextPrinterParameterized4WithRTL(*windowId, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4, TRUE);
         DrawTextBorderOuter(*windowId, 0x001, 0x0F);
         CopyWindowToVram(*windowId, COPYWIN_GFX);
         PutWindowTilemap(*windowId);
@@ -734,7 +734,7 @@ static s32 HandleGiftSelectMenu(u8 *textState, u16 *windowId, bool32 cannotToss,
             StringExpandPlaceholders(gStringVar4, gText_WhatToDoWithNews);
         *windowId = AddWindow(&sWindowTemplate_GiftSelect);
         FillWindowPixelBuffer(*windowId, 0x11);
-        AddTextPrinterParameterized4(*windowId, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4);
+        AddTextPrinterParameterized4WithRTL(*windowId, FONT_NORMAL, 0, 1, 0, 0, sMG_Ereader_TextColor_2, 0, gStringVar4, TRUE);
         DrawTextBorderOuter(*windowId, 0x001, 0x0F);
         CopyWindowToVram(*windowId, COPYWIN_GFX);
         PutWindowTilemap(*windowId);

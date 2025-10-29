@@ -87,11 +87,11 @@ void CreateAvailableDecorationsMenu(u8 taskId)
     for (i = 0; i < NUM_TRADER_ITEMS; i++)
     {
         if (trader->decorations[i] > NUM_DECORATIONS)
-            AddTextPrinterParameterized(tWindowId, FONT_NORMAL, gText_FiveMarks, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterizedWithRTL(tWindowId, FONT_NORMAL, gText_FiveMarks, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL, TRUE);
         else
-            AddTextPrinterParameterized(tWindowId, FONT_NORMAL, gDecorations[trader->decorations[i]].name, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL);
+            AddTextPrinterParameterizedWithRTL(tWindowId, FONT_NORMAL, gDecorations[trader->decorations[i]].name, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     }
-    AddTextPrinterParameterized(tWindowId, FONT_NORMAL, gText_Exit, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterizedWithRTL(tWindowId, FONT_NORMAL, gText_Exit, 8, 16 * i + 1, TEXT_SKIP_DRAW, NULL, TRUE);
     InitMenuInUpperLeftCornerNormal(tWindowId, NUM_TRADER_ITEMS + 1, 0);
     ScheduleBgCopyTilemapToVram(0);
 }

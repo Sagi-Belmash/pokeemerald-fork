@@ -2753,8 +2753,8 @@ static void AddYesNoMenuAt(u8 left, u8 top, u8 initialCursorPos)
     {
         FillWindowPixelBuffer(sDisplay->yesNoMenuWindowId, PIXEL_FILL(1));
         PutWindowTilemap(sDisplay->yesNoMenuWindowId);
-        AddTextPrinterParameterized(sDisplay->yesNoMenuWindowId, FONT_NORMAL, gText_Yes, 8, 1, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(sDisplay->yesNoMenuWindowId, FONT_NORMAL, gText_No, 8, 17, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterizedWithRTL(sDisplay->yesNoMenuWindowId, FONT_NORMAL, gText_Yes, 8, 1, TEXT_SKIP_DRAW, NULL, TRUE);
+        AddTextPrinterParameterizedWithRTL(sDisplay->yesNoMenuWindowId, FONT_NORMAL, gText_No, 8, 17, TEXT_SKIP_DRAW, NULL, TRUE);
         DrawTextBorderOuter(sDisplay->yesNoMenuWindowId, 1, 13);
         InitMenuInUpperLeftCornerNormal(sDisplay->yesNoMenuWindowId, 2, initialCursorPos);
     }
@@ -2822,7 +2822,7 @@ static void AddStdMessageWindow(int msgId, u16 bg0vofs)
     if (sDisplayStdMessages[msgId].boxType == 1)
     {
         DrawTextBorderInner(windowId, 0xA, 2);
-        AddTextPrinterParameterized5(
+        AddTextPrinterParameterized5WithRTL(
             windowId,
             FONT_NORMAL,
             str,
@@ -2831,12 +2831,12 @@ static void AddStdMessageWindow(int msgId, u16 bg0vofs)
             TEXT_SKIP_DRAW,
             NULL,
             sDisplayStdMessages[msgId].letterSpacing,
-            sDisplayStdMessages[msgId].lineSpacing);
+            sDisplayStdMessages[msgId].lineSpacing, TRUE);
     }
     else
     {
         DrawTextBorderOuter(windowId, 0xA, 2);
-        AddTextPrinterParameterized5(
+        AddTextPrinterParameterized5WithRTL(
             windowId,
             FONT_NORMAL,
             str,
@@ -2845,7 +2845,7 @@ static void AddStdMessageWindow(int msgId, u16 bg0vofs)
             TEXT_SKIP_DRAW,
             NULL,
             sDisplayStdMessages[msgId].letterSpacing,
-            sDisplayStdMessages[msgId].lineSpacing);
+            sDisplayStdMessages[msgId].lineSpacing, TRUE);
     }
 
     sDisplay->messageWindowId = windowId;
@@ -2890,7 +2890,7 @@ static void DrawTextEntryMessage(u16 x, u8 *str, u8 bgColor, u8 fgColor, u8 shad
     strBuffer[1] = EXT_CTRL_CODE_MIN_LETTER_SPACING;
     strBuffer[2] = 8;
     StringCopy(&strBuffer[3], str);
-    AddTextPrinterParameterized3(WIN_TEXT_ENTRY, FONT_SHORT, x * 8, 1, color, TEXT_SKIP_DRAW, strBuffer);
+    AddTextPrinterParameterized3WithRTL(WIN_TEXT_ENTRY, FONT_SHORT, x * 8, 1, color, TEXT_SKIP_DRAW, strBuffer, TRUE);
 }
 
 static void PrintCurrentKeyboardPage(void)
@@ -2925,7 +2925,7 @@ static void PrintCurrentKeyboardPage(void)
                 return;
 
             StringCopy(&str[3], sUnionRoomKeyboardText[page][i]);
-            AddTextPrinterParameterized3(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str);
+            AddTextPrinterParameterized3WithRTL(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str, TRUE);
         }
     }
     else
@@ -2936,7 +2936,7 @@ static void PrintCurrentKeyboardPage(void)
             str2 = GetRegisteredTextByRow(i);
             if (GetStringWidth(FONT_SMALL, str2, 0) <= 40)
             {
-                AddTextPrinterParameterized3(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str2);
+                AddTextPrinterParameterized3WithRTL(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str2, TRUE);
             }
             else
             {
@@ -2947,8 +2947,8 @@ static void PrintCurrentKeyboardPage(void)
                     StringCopyN_Multibyte(str, str2, length);
                 } while (GetStringWidth(FONT_SMALL, str, 0) > 35);
 
-                AddTextPrinterParameterized3(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str);
-                AddTextPrinterParameterized3(WIN_KEYBOARD, FONT_SMALL, left + 35, top, color, TEXT_SKIP_DRAW, sText_Ellipsis);
+                AddTextPrinterParameterized3WithRTL(WIN_KEYBOARD, FONT_SMALL, left, top, color, TEXT_SKIP_DRAW, str, TRUE);
+                AddTextPrinterParameterized3WithRTL(WIN_KEYBOARD, FONT_SMALL, left + 35, top, color, TEXT_SKIP_DRAW, sText_Ellipsis, TRUE);
             }
         }
     }
@@ -3019,7 +3019,7 @@ static void PrintChatMessage(u16 row, u8 *str, u8 colorIdx)
     color[1] = colorIdx * 2 + 2;
     color[2] = colorIdx * 2 + 3;
     FillWindowPixelRect(WIN_CHAT_HISTORY, PIXEL_FILL(1), 0, row * 15, 168, 15);
-    AddTextPrinterParameterized3(WIN_CHAT_HISTORY, FONT_SHORT, 0, row * 15 + 1, color, TEXT_SKIP_DRAW, str);
+    AddTextPrinterParameterized3WithRTL(WIN_CHAT_HISTORY, FONT_SHORT, 0, row * 15 + 1, color, TEXT_SKIP_DRAW, str, TRUE);
 }
 
 static void ResetGpuBgState(void)

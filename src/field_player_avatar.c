@@ -1828,7 +1828,7 @@ static bool8 Fishing_ShowDots(struct Task *task)
             }
             else
             {
-                AddTextPrinterParameterized(0, FONT_NORMAL, dot, task->tNumDots * 8, 1, 0, NULL);
+                AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, dot, task->tNumDots * 8, 1, 0, NULL, TRUE);
                 task->tNumDots++;
             }
         }
@@ -1877,7 +1877,7 @@ static bool8 Fishing_CheckForBite(struct Task *task)
 static bool8 Fishing_GotBite(struct Task *task)
 {
     AlignFishingAnimationFrames();
-    AddTextPrinterParameterized(0, FONT_NORMAL, gText_OhABite, 0, 17, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(0, FONT_NORMAL, gText_OhABite, 0, 17, 0, NULL, TRUE);
     task->tStep++;
     task->tFrameCounter = 0;
     return FALSE;

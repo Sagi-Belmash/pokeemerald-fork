@@ -2704,7 +2704,7 @@ static void ResetWindows(void)
 
 static void PrintTextOnWindow(u8 windowId, const u8 *string, u8 x, u8 y, u8 lineSpacing, u8 colorId)
 {
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, lineSpacing, sTextColors[colorId], 0, string);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NORMAL, x, y, 0, lineSpacing, sTextColors[colorId], 0, string, TRUE);
 }
 
 static void PrintMonInfo(void)

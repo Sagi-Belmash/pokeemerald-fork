@@ -738,7 +738,7 @@ static void PrintDecorationCategoryMenuItems(u8 taskId)
             PrintDecorationCategoryMenuItem(windowId, i, 8, i * 16, FALSE, TEXT_SKIP_DRAW);
     }
 
-    AddTextPrinterParameterized(windowId, FONT_NORMAL, gTasks[taskId].tDecorationMenuCommand == DECOR_MENU_TRADE ? gText_Exit : gText_Cancel, 8, i * 16 + 1, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, gTasks[taskId].tDecorationMenuCommand == DECOR_MENU_TRADE ? gText_Exit : gText_Cancel, 8, i * 16 + 1, 0, NULL, TRUE);
     ScheduleBgCopyTilemapToVram(0);
 }
 
@@ -752,12 +752,12 @@ static void PrintDecorationCategoryMenuItem(u8 winid, u8 category, u8 x, u8 y, b
     ColorMenuItemString(gStringVar4, disabled);
     str = StringLength(gStringVar4) + gStringVar4;
     StringCopy(str, sDecorationCategoryNames[category]);
-    AddTextPrinterParameterized(winid, FONT_NORMAL, gStringVar4, x, y, speed, NULL);
+    AddTextPrinterParameterizedWithRTL(winid, FONT_NORMAL, gStringVar4, x, y, speed, NULL, TRUE);
     str = ConvertIntToDecimalStringN(str, GetNumOwnedDecorationsInCategory(category), STR_CONV_MODE_RIGHT_ALIGN, 2);
     *(str++) = CHAR_SLASH;
     ConvertIntToDecimalStringN(str, gDecorationInventories[category].size, STR_CONV_MODE_RIGHT_ALIGN, 2);
     x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, width);
-    AddTextPrinterParameterized(winid, FONT_NORMAL, gStringVar4, x, y, speed, NULL);
+    AddTextPrinterParameterizedWithRTL(winid, FONT_NORMAL, gStringVar4, x, y, speed, NULL, TRUE);
 }
 
 static void ColorMenuItemString(u8 *str, bool8 disabled)
@@ -1034,7 +1034,7 @@ static void PrintDecorationItemDescription(s32 itemIndex)
     else
         str = gDecorations[gCurDecorationItems[itemIndex]].description;
 
-    AddTextPrinterParameterized(windowId, FONT_NORMAL, str, 0, 1, 0, 0);
+    AddTextPrinterParameterizedWithRTL(windowId, FONT_NORMAL, str, 0, 1, 0, 0, TRUE);
 }
 
 static void RemoveDecorationItemsOtherWindows(void)

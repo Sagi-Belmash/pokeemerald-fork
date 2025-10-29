@@ -684,14 +684,14 @@ static void PrintMailText(void)
         if (sMailRead->message[i][0] == EOS || sMailRead->message[i][0] == CHAR_SPACE)
             continue;
 
-        AddTextPrinterParameterized3(0, FONT_NORMAL, sMailRead->layout->lines[i].xOffset + sMailRead->layout->wordsXPos, y + sMailRead->layout->wordsYPos, sTextColors, 0, sMailRead->message[i]);
+        AddTextPrinterParameterized3WithRTL(0, FONT_NORMAL, sMailRead->layout->lines[i].xOffset + sMailRead->layout->wordsXPos, y + sMailRead->layout->wordsYPos, sTextColors, 0, sMailRead->message[i], TRUE);
         y += sMailRead->layout->lines[i].height;
     }
     bufptr = StringCopy(signature, gText_FromSpace);
     StringCopy(bufptr, sMailRead->playerName);
     box_x = GetStringCenterAlignXOffset(FONT_NORMAL, signature, sMailRead->signatureWidth) + 104;
     box_y = sMailRead->layout->signatureYPos + 88;
-    AddTextPrinterParameterized3(0, FONT_NORMAL, box_x, box_y, sTextColors, 0, signature);
+    AddTextPrinterParameterized3WithRTL(0, FONT_NORMAL, box_x, box_y, sTextColors, 0, signature, TRUE);
     CopyWindowToVram(0, COPYWIN_FULL);
     CopyWindowToVram(1, COPYWIN_FULL);
 }

@@ -248,7 +248,16 @@ void DeactivateAllTextPrinters(void)
         sTextPrinters[printer].active = FALSE;
 }
 
-u16 AddTextPrinterParameterizedWithRTL(u8 windowId, u8 fontId, const u8 *str, s8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16), bool8 rtlMode)
+u16 AddTextPrinterParameterizedWithRTL(
+    u8 windowId,
+    u8 fontId,
+    const u8 *str,
+    s8 x,
+    u8 y,
+    u8 speed,
+    void (*callback)(struct TextPrinterTemplate *, u16),
+    bool8 rtlMode
+)
 {
     struct TextPrinterTemplate printerTemplate;
     s32 baseX;
@@ -265,25 +274,15 @@ u16 AddTextPrinterParameterizedWithRTL(u8 windowId, u8 fontId, const u8 *str, s8
     printerTemplate.bgColor = gFonts[fontId].bgColor;
     printerTemplate.shadowColor = gFonts[fontId].shadowColor;
 
-    /* Interpret x depending on rtlMode:
-       - rtlMode == FALSE: x is left padding (use x directly)
-       - rtlMode == TRUE:  x is right padding (distance from right edge) -> match original behavior
-    */
+    // RTL: interpret x as right padding
     if (rtlMode)
-        baseX = (s32)windowWidthPx - (s32)x - 8;
+        baseX = (s32)windowWidthPx - x - 8;
     else
         baseX = (s32)x;
 
-    /* store printerTemplate.x (s8) and currentX (u8) safely */
-    printerTemplate.x = (s8)baseX;
-
-    if (baseX < 0)
-        printerTemplate.currentX = 0;
-    else if (baseX > 0xFF)
-        printerTemplate.currentX = 0xFF;
-    else
-        printerTemplate.currentX = (u8)baseX;
-
+    // don’t clamp: store full value
+    printerTemplate.x = baseX;
+    printerTemplate.currentX = baseX;
     printerTemplate.currentY = y;
     printerTemplate.rtlMode = rtlMode;
 
@@ -627,7 +626,7 @@ void CopyGlyphToWindow(struct TextPrinter *textPrinter)
     u32 widthOffset = template->width * 32;
 
     // RTL: shift currX so glyph is aligned to the right
-    if (textPrinter->rtlMode)
+    if (textPrinter->printerTemplate.rtlMode)
     {
         if (currX >= gCurGlyph.width)
             currX -= gCurGlyph.width;
@@ -804,12 +803,6 @@ static u16 FontFunc_SmallNarrow(struct TextPrinter *textPrinter)
         subStruct->hasFontIdBeenSet = TRUE;
     }
     return RenderText(textPrinter);
-}
-
-static bool8 IsNumChar(u16 ch)
-{
-    // nums yen and colon 
-   return ((ch >= 0xA1 && ch <= 0xAA) || ch == 0xB7 /* || ch == 0xF0 */ );
 }
 
 void TextPrinterInitDownArrowCounters(struct TextPrinter *textPrinter)
@@ -1070,7 +1063,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case EXT_CTRL_CODE_FONT:
                 subStruct->fontId = *textPrinter->printerTemplate.currentChar++;
                 return RENDER_REPEAT;
-            case EXT_CTRL_CODE_RESET_SIZE:
+            case EXT_CTRL_CODE_RESET_FONT:
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_PAUSE:
                 textPrinter->delayCounter = *textPrinter->printerTemplate.currentChar++;
@@ -1097,8 +1090,8 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 currChar |= (*textPrinter->printerTemplate.currentChar++ << 8);
                 PlaySE(currChar);
                 return RENDER_REPEAT;
-            case EXT_CTRL_CODE_SHIFT_TEXT:
-                if (textPrinter->rtlMode)
+            case EXT_CTRL_CODE_SHIFT_RIGHT:
+                if (textPrinter->printerTemplate.rtlMode)
                     textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *textPrinter->printerTemplate.currentChar++;
                 else
                     textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *textPrinter->printerTemplate.currentChar++;
@@ -1116,26 +1109,26 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 if (width > 0)
                 {
                     ClearTextSpan(textPrinter, width);
-                    textPrinter->printerTemplate.currentX += textPrinter->rtlMode ? -width : width;
+                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
                     return RENDER_PRINT;
                 }
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_SKIP:
-                if (textPrinter->rtlMode)
+                if (textPrinter->printerTemplate.rtlMode)
                     textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x - *textPrinter->printerTemplate.currentChar++;
                 else
                     textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x + *textPrinter->printerTemplate.currentChar++;
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_CLEAR_TO:
                 widthHelper = *textPrinter->printerTemplate.currentChar++ + textPrinter->printerTemplate.x;
-                if (textPrinter->rtlMode)
+                if (textPrinter->printerTemplate.rtlMode)
                     width = textPrinter->printerTemplate.currentX - widthHelper;
                 else
                     width = widthHelper - textPrinter->printerTemplate.currentX;
                 if (width > 0)
                 {
                     ClearTextSpan(textPrinter, width);
-                    textPrinter->printerTemplate.currentX += textPrinter->rtlMode ? -width : width;
+                    textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode ? -width : width;
                     return RENDER_PRINT;
                 }
                 return RENDER_REPEAT;
@@ -1170,7 +1163,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar,
                                              textPrinter->printerTemplate.currentX,
                                              textPrinter->printerTemplate.currentY);
-            textPrinter->printerTemplate.currentX += textPrinter->rtlMode
+            textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
                                                    ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
                                                    : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
             return RENDER_PRINT;
@@ -1197,7 +1190,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
 
         if (textPrinter->minLetterSpacing)
         {
-            if (textPrinter->rtlMode)
+            if (textPrinter->printerTemplate.rtlMode)
             {
                 textPrinter->printerTemplate.currentX -= gCurGlyph.width;
                 width = textPrinter->minLetterSpacing - gCurGlyph.width;
@@ -1220,7 +1213,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
         }
         else
         {
-            if (textPrinter->rtlMode)
+            if (textPrinter->printerTemplate.rtlMode)
                 textPrinter->printerTemplate.currentX -= (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
             else if (textPrinter->japanese)
                 textPrinter->printerTemplate.currentX += (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);

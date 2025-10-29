@@ -3765,8 +3765,8 @@ void ShowBerryBlenderRecordWindow(void)
     FillWindowPixelBuffer(gRecordsWindowId, PIXEL_FILL(1));
 
     xPos = GetStringCenterAlignXOffset(FONT_NORMAL, gText_BlenderMaxSpeedRecord, 144);
-    AddTextPrinterParameterized(gRecordsWindowId, FONT_NORMAL, gText_BlenderMaxSpeedRecord, xPos, 1, 0, NULL);
-    AddTextPrinterParameterized(gRecordsWindowId, FONT_NORMAL, gText_234Players, 4, 41, 0, NULL);
+    AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gText_BlenderMaxSpeedRecord, xPos, 1, 0, NULL, TRUE);
+    AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, gText_234Players, 4, 41, 0, NULL, TRUE);
 
     for (i = 0, yPos = 41; i < NUM_SCORE_TYPES; i++)
     {
@@ -3781,7 +3781,7 @@ void ShowBerryBlenderRecordWindow(void)
         txtPtr = StringAppend(txtPtr, sText_RPM);
 
         xPos = GetStringRightAlignXOffset(FONT_NORMAL, text, 140);
-        AddTextPrinterParameterized(gRecordsWindowId, FONT_NORMAL, text, xPos, yPos + (i * 16), 0, NULL);
+        AddTextPrinterParameterizedWithRTL(gRecordsWindowId, FONT_NORMAL, text, xPos, yPos + (i * 16), 0, NULL, TRUE);
     }
 
     PutWindowTilemap(gRecordsWindowId);
@@ -3877,7 +3877,7 @@ static void Blender_AddTextPrinter(u8 windowId, const u8 *string, u8 x, u8 y, s3
     if (caseId != 3)
         FillWindowPixelBuffer(windowId, PIXEL_FILL(txtColor[0]));
 
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, letterSpacing, 1, txtColor, speed, string);
+    AddTextPrinterParameterized4WithRTL(windowId, FONT_NORMAL, x, y, letterSpacing, 1, txtColor, speed, string, TRUE);
 }
 
 static bool32 PrintMessage(s16 *textState, const u8 *string, s32 textSpeed)

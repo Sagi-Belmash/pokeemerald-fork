@@ -974,9 +974,9 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
     *(str++) = TEXT_COLOR_TRANSPARENT;
     *(str++) = TEXT_COLOR_LIGHT_BLUE;
     *(str++) = CHAR_SLASH;
-    *(str++) = CHAR_EXTRA_SYMBOL;
-    *(str++) = CHAR_LV_2;
+    //*(str++) = CHAR_EXTRA_SYMBOL;
     str = ConvertIntToDecimalStringN(str, level, STR_CONV_MODE_LEFT_ALIGN, 3);
+    *(str++) = CHAR_t/* CHAR_LV_2 */;
     *(str++) = CHAR_SPACE;
     *str = EOS;
 
@@ -1544,11 +1544,11 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
         StringCopy(text, (statsDiff[i] >= 0) ? gText_Plus : gText_Dash);
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     56,
+                                     0/* 56 */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
-                                     text, TRUE);
+                                     text, FALSE);
         if (abs(statsDiff[i]) <= 9)
             x = 18;
         else
@@ -1557,11 +1557,11 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
         ConvertIntToDecimalStringN(text, abs(statsDiff[i]), STR_CONV_MODE_LEFT_ALIGN, 2);
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     56 + x,
+                                     12/* 56 + x */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
-                                     text, TRUE);
+                                     text, FALSE);
     }
 }
 
@@ -1607,11 +1607,11 @@ void DrawLevelUpWindowPg2(u16 windowId, u16 *currStats, u8 bgClr, u8 fgClr, u8 s
 
         AddTextPrinterParameterized3WithRTL(windowId,
                                      FONT_NORMAL,
-                                     56 + x,
+                                     12/* 56 + x */,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
-                                     text, TRUE);
+                                     text, FALSE);
     }
 }
 

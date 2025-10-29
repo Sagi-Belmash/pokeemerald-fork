@@ -838,7 +838,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "פוקימונים, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "ברנדן: אני יצאתי בכל רחבי הואן\n"
+	.string "ברנדן: אני יצאתי לכל רחבי הואן\n"
 	.string "ובדקתי פוקימונים.\p"
 	.string "אתה יכול להודות לי על שקיבלת\n"
 	.string "את הפוקידע במצב לאומי.\p"

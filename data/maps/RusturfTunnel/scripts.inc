@@ -459,47 +459,47 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "אה, אז את{EMIT_HEY} {PLAYER}{KUN}!\n"
 	.string "אני מודה לך מכל הלב!\p"
 	.string "מעכשיו, אם יש משהו שמטריד\n"
-	.string "אותך, אל תהסס{ADD_YEE} לספר לי!\p"
-	.string "בדרך כלל תוכל{ADD_YEE} למצוא אותי בבקתה שלי\n"
-	.string "ליד הים קרוב ל-PETALBURG WOODS.\p"
-	.string "בואי, PEEKO, אנחנו צריכים\n"
+	.string "אותך, אל תהסס{ADD_YUD} לספר לי!\p"
+	.string "בדרך כלל תוכל{ADD_YUD} למצוא אותי בבקתה שלי\n"
+	.string "ליד הים קרוב ליערות פטלבורג.\p"
+	.string "בואי, פיקו, אנחנו צריכים\n"
 	.string "לחזור הביתה.\p"
-	.string "PEEKO: פיהיו!$"
+	.string "פיקו: פיהיו!$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"
 	.string "למה הם לא יכולים להמשיך לחפור?\n"
 	.string "האם סלע התשתית קשה מדי?\p"
-	.string "אהובתי מחכה לי ב-VERDANTURF\n"
-	.string "TOWN ממש מעבר לכאן…\p"
-	.string "אם RUSTBORO ו-VERDANTURF היו\n"
+	.string "אהובתי מחכה לי בעיירת\n"
+	.string "ורדנטרף ממש מעבר לכאן…\p"
+	.string "אם רסטבורו וורדנטרף היו\n"
 	.string "מחוברות במנהרה הזו, הייתי יכול\l"
 	.string "לבקר אותה כל יום…\p"
 	.string "אבל ככה…\n"
 	.string "מה אני יכול לעשות?$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-	.string "כדי להגיע מ-RUSTBORO ל-VERDANTURF,\n"
-	.string "צריך ללכת ל-DEWFORD, ואז לעבור\l"
-	.string "דרך SLATEPORT ו-MAUVILLE…$"
+	.string "כדי להגיע מרסטבורו לורדנטרף,\n"
+	.string "צריך להגיע לדופורד, ואז לעבור\l"
+	.string "דרך סלייטפורט ומוויל…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "וואו! ניפצת את הסלע הענק\n"
 	.string "שחסם את הדרך.\p"
 	.string "כדי להראות לך כמה אני מעריך את זה,\n"
-	.string "אני רוצה לתת לך את ה-HM הזה.$"
+	.string "אני רוצה לתת לך את המ”נ הזה.$"
 
 RusturfTunnel_Text_ExplainStrength:
-	.string "ה-HM הזה מכיל את STRENGTH.\p"
+	.string "המ”נ הזה מכיל את עוצמה.\p"
 	.string "אם פוקימון שרירי ילמד\n"
 	.string "את זה, הוא יוכל להזיז אפילו\l"
 	.string "סלעים גדולים.$"
 
 RusturfTunnel_Text_WandaReunion:
-	.string "WANDA!\n"
+	.string "וונדה!\n"
 	.string "עכשיו אני יכול לראות אותך מתי שארצה!\p"
-	.string "WANDA: זה… נפלא.\p"
-	.string "בבקשה, בוא{ADD_YEE} לנוח בבית שלי.$"
+	.string "וונדה: זה… נפלא.\p"
+	.string "בבקשה, בוא לנוח בבית שלי.$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 	.string "בצד השני של הסלע הזה…\n"
@@ -507,7 +507,7 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 	.string "הוא… הוא לא רק חופר את המנהרה\n"
 	.string "כדי לבוא לראות אותי.\p"
 	.string "הוא עובד עד שהידיים שלו נשחקות\n"
-	.string "למען טובת כולם.$"
+	.string "לטובת כולם.$"
 
 RusturfTunnel_Text_MikeIntro:
 	.string "איך קוראים לאיש פרא שחי\n"

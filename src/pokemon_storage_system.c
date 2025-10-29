@@ -5505,7 +5505,7 @@ static void InitBoxTitle(u8 boxId)
     sStorage->boxTitleAltPalOffset = OBJ_PLTT_ID(tagIndex) + 14;
     sStorage->wallpaperPalBits |= (1 << 16) << tagIndex;
 
-    StringCopyPadded(sStorage->boxTitleText, GetBoxNamePtr(boxId), 0, BOX_NAME_LENGTH, 1);
+    StringCopyPadded(sStorage->boxTitleText, GetBoxNamePtr(boxId), 0, BOX_NAME_LENGTH, TRUE);
     DrawTextWindowAndBufferTiles(sStorage->boxTitleText, sStorage->boxTitleTiles, 0, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     x = GetBoxTitleBaseX(GetBoxNamePtr(boxId));
@@ -5550,7 +5550,7 @@ static void CreateIncomingBoxTitle(u8 boxId, s8 direction)
         template.paletteTag = PALTAG_BOX_TITLE;
     }
 
-    StringCopyPadded(sStorage->boxTitleText, GetBoxNamePtr(boxId), 0, BOX_NAME_LENGTH, 1);
+    StringCopyPadded(sStorage->boxTitleText, GetBoxNamePtr(boxId), 0, BOX_NAME_LENGTH, TRUE);
     DrawTextWindowAndBufferTiles(sStorage->boxTitleText, sStorage->boxTitleTiles, 0, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     LoadPalette(sBoxTitleColors[GetBoxWallpaper(boxId)], palOffset, sizeof(sBoxTitleColors[0]));

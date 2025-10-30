@@ -445,8 +445,8 @@ Route116_Text_RouteSignRustboro:
 
 Route116_Text_RusturfTunnelSign:
 	.string "מנהרת רסטרף\n"
-	.string "מחבר בין רסטבורו וורדנטרף\p"
-	.string "פרויקט המנהרה בוטל.$"
+	.string "”מקשרת בין רסטבורו וורדנטרף\p"
+	.string "”פרויקט המנהרה בוטל.“$"
 
 Route116_Text_TunnelersRestHouse:
 	.string "בית מנוחת החופרים$"

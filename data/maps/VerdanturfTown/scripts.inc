@@ -62,64 +62,61 @@ VerdanturfTown_EventScript_RusturfTunnelSign::
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel:
-	.string "My papa told me.\p"
-	.string "He says this tunnel is full of\n"
-	.string "timid POKéMON.\p"
-	.string "They get all scared of loud noise and\n"
-	.string "make a big uproar.\p"
-	.string "So they had to stop the big tunnel\n"
-	.string "project.\p"
-	.string "But there's one man. He's trying to dig\n"
-	.string "the tunnel by himself!$"
+	.string "אבא שלי סיפר לי.\p"
+	.string "הוא אמר שהמנהרה הזאת מלאה\n"
+	.string "בפוקימונים ביישנים.\p"
+	.string "הם נורא נבהלים מרעשים חזקים\n"
+	.string "ועושים מהומה גדולה.\p"
+	.string "אז נאלצו לעצור את פרויקט\n"
+	.string "המנהרה הגדול.\p"
+	.string "אבל יש איש אחד. הוא מנסה לחפור\n"
+	.string "את המנהרה לבדו!$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
-	.string "There was a man who dug a tunnel for\n"
-	.string "a lady he loved.\p"
-	.string "I don't really get it, but hey!$"
+	.string "היה פה איש שחפר מנהרה בשביל\n"
+	.string "אישה שהוא אהב.\p"
+	.string "אני לא ממש מבינה את זה, אבל היי!$"
 
 VerdanturfTown_Text_AirCleanHere:
-	.string "The way the winds blow, volcanic ash\n"
-	.string "is never blown in this direction.\p"
-	.string "The air is clean and delicious here.\n"
-	.string "Living here should do wonders for even\l"
-	.string "frail and sickly people.$"
+	.string "בגלל כיוון הרוחות, אפר וולקני\n"
+	.string "אף פעם לא עף לכיוון הזה.\p"
+	.string "האוויר פה נקי וטעים.\n"
+	.string "לחיות פה יכול לעשות פלאים אפילו\l"
+	.string "לאנשים חלשים וחולניים.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
+	.string "הפוקימון שלי ואני, אנחנו ברצף\n"
+	.string "ניצחונות מרשים.\p"
+	.string "אז החלטתי לעשות את הופעת הבכורה\n"
+	.string "שלי באוהל הקרב בעיירה הזאת.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
-	.string "Did you see the cave next to the\n"
-	.string "POKéMON MART?\p"
-	.string "There's a guy in there who's trying to\n"
-	.string "bust up boulders so he can bust out\l"
-	.string "through to the other side.\p"
-	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit RUSTBORO.$"
+	.string "ראית את המערה ליד החנות פוקימון?\p"
+	.string "יש שם בחור שמנסה לנפץ סלעים\n"
+	.string "כדי שיוכל לפרוץ דבר לצד השני.\p"
+	.string "זה יהיה נהדר אם נוכל לעבור דרך שם…\n"
+	.string "זה יקל על הביקור ברסטבורו.$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
-	.string "That cave next to the POKéMON MART\n"
-	.string "is now a tunnel to the other side.\p"
-	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in RUSTBORO now.$"
+	.string "המערה שליד החנות פוקימון\n"
+	.string "היא עכשיו מנהרה לצד השני.\p"
+	.string "זה נהדר--קל ללכת לקנות\n"
+	.string "מוצרי דבון חדשים ברסטבורו עכשיו.$"
 
 VerdanturfTown_Text_TownSign:
-	.string "VERDANTURF TOWN\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string "עיירת ורדנטרף\p"
+	.string "”הרמות שטופות הרוח עם\n"
+	.string "הניחוח המתוק של הדשא.“$"
 
 VerdanturfTown_Text_WandasHouse:
-	.string "WANDA'S HOUSE$"
+	.string "הבית של וונדה$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "אוהל הקרב אתר ורדנטרף\n"
+	.string "”בואו לחזות בעינכם בקרבות!“$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "מנהרת רסטרף\n"
+	.string "”מקשרת בין רסטבורו וורדנטרף\p"
+	.string "”פרויקט המנהרה בוטל.“$"
 

@@ -243,57 +243,56 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
-	.string "Have you met many kinds of POKéMON\n"
-	.string "since I last saw you?\p"
-	.string "There are many, many kinds of POKéMON\n"
-	.string "in this wide world of ours.\p"
-	.string "If you wanted to raise only your\n"
-	.string "favorites, that's fine.\p"
-	.string "Perhaps you find it more fun to raise\n"
-	.string "all sorts of POKéMON.\p"
-	.string "As a TRAINER of POKéMON,\n"
-	.string "what do you think?\p"
-	.string "Of course, it's not any of my business.\p"
-	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "סטיבן: הי, {PLAYER}{KUN}!\p"
+	.string "זה אני, סטיבן!\n"
+	.string "נפגשנו במערה ליד דופורד.\p"
+	.string "פגשת מאז הרבה סוגים שונים של\n"
+	.string "פוקימונים?\p"
+	.string "יש הרבה, הרבה סוגים של פוקימונים\n"
+	.string "בעולם הרחב שלנו.\p"
+	.string "אם רצית לגדל רק את המועדפים\n"
+	.string "עליך, זה בסדר.\p"
+	.string "אולי את{EMIT_HEY} מוצא{ADD_TAF} את זה יותר כיף לגדל\n"
+	.string "כל מיני פוקימונים.\p"
+	.string "כמאמ{SWAP_NUN}{ADD_TAF} פוקימונים,\n"
+	.string "מה את{EMIT_HEY} חושב{ADD_TAF}?\p"
+	.string "כמובן, זה לא ענייני האישי.\p"
+	.string "זה יהיה נחמד אם ניפגש שוב\n"
+	.string "איפשהו בעתיד.$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "הממ!\n"
+	.string "חכה טובה היא באמת טובה!\p"
+	.string "לא תסכי{SWAP_MEM}{ADD_YUD} איתי?$"
 
 Route118_Text_IdenticalMindsTakeThis:
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "הממ!\n"
+	.string "אנחנו עם אותם מחשבות!\p"
+	.string "הממ!\n"
+	.string "קח את החכה טובה הזאת!$"
 
 Route118_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "איפה שיש מים, תנס{EMIT_HEY}{ADD_YUD} את המזל שלך\n"
+	.string "בדייג.$"
 
 Route118_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string "את{EMIT_HEY} לא אוהב{ADD_TAF} לדוג?$"
 
 Route118_Text_TryCatchingMonWithGoodRod:
-	.string "Try catching all sorts of POKéMON\n"
-	.string "with your GOOD ROD.$"
+	.string "תנס{EMIT_HEY}{ADD_YUD} לתפוס כל מיני סוגים של\n"
+	.string "פוקימון עם החכה הטובה שלך.$"
 
 Route118_Text_CanCrossRiversWithSurf:
-	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
-	.string "POKéMON can be counted on to do so\n"
-	.string "much!$"
+	.string "אפילו אם אין סירה, אפשר לחצות נהרות\n"
+	.string "וים אם יש לך פוקימון שיודע גלישה.\p"
+	.string "אפשר לסמוך על פוקימונים לעשות כל כך\n"
+	.string "הרבה!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "דרך 811\n"
+	.string "{LEFT_ARROW} עיר מוויל$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "דרך 811\n"
+	.string "{UP_ARROW} דרך 911$"
 

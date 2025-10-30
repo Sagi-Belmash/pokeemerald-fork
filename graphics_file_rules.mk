@@ -667,7 +667,7 @@ $(PKNAVOPTIONSGFXDIR)/options.4bpp: $(PKNAVOPTIONSGFXDIR)/hoenn_map.4bpp \
 	@cat $^ >$@
 
 $(PKNAVGFXDIR)/header.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 53 -Wnum_tiles
+	$(GFX) $< $@ -num_tiles 54 -Wnum_tiles
 
 $(PKNAVGFXDIR)/device_outline.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 53 -Wnum_tiles

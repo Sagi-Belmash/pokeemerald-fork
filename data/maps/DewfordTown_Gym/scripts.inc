@@ -283,177 +283,171 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
-	.string "Going against him with NORMAL-type\n"
-	.string "POKéMON is asking for trouble.\p"
-	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
-	.string "the ocean floor.\p"
-	.string "But it will get brighter after defeating\n"
-	.string "the TRAINERS in your way.\p"
-	.string "Hey, okay, go for it!$"
+	.string "היי, איך הולך אלו{SWAP_PEY}{ADD_HEY}\n"
+	.string "לעתיד {PLAYER}?\p"
+	.string "מנהיג המכון בדופורוד, בראולי, פוקד\n"
+	.string "על פוקימונים מסוג לחימה.\p"
+	.string "ללכת נגדו עם פוקימונים מסוג רגיל\n"
+	.string "זה לבקש צרות.\p"
+	.string "פוקימוני לחימה יתנו מכה רצינית\n"
+	.string "לפוקימון מסוג רגיל,\l"
+	.string "אז תיזהר{ADD_YUD}!\p"
+	.string "גרוע מכך, המכון חשוך כמו\n"
+	.string "קרקעית האוקיינוס.\p"
+	.string "אבל הוא יתבהר לאחר שתביס{ADD_YUD}\n"
+	.string "מאמנים שעומדים בדרכך.\p"
+	.string "היי, אוקיי, ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!$"
+	.string "וואה! נהיה פה בהיר מדי!\p"
+	.string "העתיד שלך מזהיר, גם כן!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
-	.string "Might is right!\n"
-	.string "Come on!$"
+	.string "הכוח הוא הצדק!\n"
+	.string "בוא{ADD_YUD}!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Not enough power…$"
+	.string "אין מספיק כוח…$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
+	.string "הכישרון שלך התגבר על העוצמה שלי!\n"
+	.string "הטכניקה שלך ראויה לשבח!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
-	.string "involved!\p"
-	.string "I'll crush you!$"
+	.string "אין צורך לבראולי להיות מעורב!\p"
+	.string "אני אמחוץ אותך!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
-	.string "But… How?\n"
-	.string "How could I lose so easily?$"
+	.string "אבל… איך?\n"
+	.string "איך יכולתי להפסיד בכזאת קלות?$"
 
 DewfordTown_Gym_Text_JocelynPostBattle:
-	.string "I'm not going to waste this loss.\n"
-	.string "I'll use it to motivate me to train!\p"
-	.string "One day I'll become a GYM LEADER…\p"
-	.string "No, I'll become the POKéMON LEAGUE\n"
-	.string "CHAMPION!$"
+	.string "אני לא הולכת לבזבז את ההפסד הזה.\n"
+	.string "אני אשתמש בו כדי להניע אותי להתאמן!\p"
+	.string "יום אחד אהפוך למנהיגת מכון…\p"
+	.string "לא, אני אהפוך לאלופת ליגת הפוקימון!$"
 
 DewfordTown_Gym_Text_LauraIntro:
-	.string "Don't you dare brush me off!\n"
-	.string "It's not my fault if you cry!$"
+	.string "אל תעז{ADD_YUD} להתעלם ממני!\n"
+	.string "זאת לא אשמתי אם תבכ{EMIT_HEY}{ADD_YUD}!$"
 
 DewfordTown_Gym_Text_LauraDefeat:
-	.string "Waaaaaaah!\n"
-	.string "I lost!$"
+	.string "ואאאאאאאה!\n"
+	.string "הפסדתי!$"
 
 DewfordTown_Gym_Text_LauraPostBattle:
-	.string "I battle in the dark to make my heart\n"
-	.string "stronger.\p"
-	.string "But because it's so dark, I can never\n"
-	.string "see BRAWLY's face…$"
+	.string "אני נלחמת בחושך כדי לחזק את הלב שלי.\p"
+	.string "אבל בגלל שכל כך חשוך, אני אף פעם לא\n"
+	.string "רואה את הפנים של בראולי…$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
+	.string "אופופו…\n"
+	.string "האם את{EMIT_HEY} מגשש{ADD_TAF} באפלה?$"
 
 DewfordTown_Gym_Text_LilithDefeat:
-	.string "Oh, you…\n"
-	.string "I don't want to know you!$"
+	.string "או, את{EMIT_HEY}…\n"
+	.string "אני לא רוצה להכיר אותך!$"
 
 DewfordTown_Gym_Text_LilithPostBattle:
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
+	.string "מגיע לך להישאר אבוד{ADD_HEY} ובסוף\n"
+	.string "לחזור שוב לכניסה!$"
 
 DewfordTown_Gym_Text_BrendenIntro:
-	.string "I'll show you the gumption of\n"
-	.string "a sailing man!$"
+	.string "אני אראה לך את האומץ לב של\n"
+	.string "ימאי!$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
-	.string "How'd this happen?\n"
-	.string "It's not like me to lose this way!$"
+	.string "איך זה קרה?\n"
+	.string "זה לא מתאים לי להפסיד ככה!$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "Oh, aye! You're worthy of seeing\n"
-	.string "our GYM LEADER.$"
+	.string "או, איי! את{EMIT_HEY} ראוי{ADD_HEY} לראות\n"
+	.string "את מנהיג המכון שלנו.$"
 
 DewfordTown_Gym_Text_CristianIntro:
-	.string "If you mean to pass, it has to be\n"
-	.string "through me!$"
+	.string "את את{EMIT_HEY} מתכוו{SWAP_NUN}{ADD_TAF} לעבור, זה חייב להיות\n"
+	.string "דרכי!$"
 
 DewfordTown_Gym_Text_CristianDefeat:
-	.string "Grrrrr!\n"
-	.string "Vastly overpowered!$"
+	.string "גררררר!\n"
+	.string "הובסתי לחלוטין!$"
 
 DewfordTown_Gym_Text_CristianPostBattle:
-	.string "You win!\n"
-	.string "Go after that BADGE!$"
+	.string "ניצחת!\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} אחרי התג הזה!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string "אני בראולי!\n"
+	.string "מנהיג המכון בדופורד!\p"
+	.string "נסחפתי בגלים הסוערים באזורים האלה,\n"
+	.string "והתחשלתי במערה החשוכה!\p"
+	.string "אז רצית לאתגר אותי?\n"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות ממה שאת{EMIT_HEY} עשוי{ADD_HEY}!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this GYM BADGE!$"
+	.string "וואה, וואו! עשית גל יותר\n"
+	.string "גדול ממה שציפיתי!\p"
+	.string "הצפת אותי!\p"
+	.string "אוקיי, הבסת אותי.\n"
+	.string "קח{ADD_YUD} את התג מכון הזה !$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג הפרק מבראולי.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The KNUCKLE BADGE makes all POKéMON\n"
-	.string "up to Level 30, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
-	.string "FLASH outside of battle.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+	.string "תג הפרק גורם לכל פוקימון\n"
+	.string "עד לרמה 30, גם כאלה שקיבלת\l"
+	.string "בהחלפה, לציית ללא עוררין.\p"
+	.string "ותוכל{ADD_YUD} גם להשתמש במהלך מ”נ הבזק\n"
+	.string "מחוץ לקרב.\p"
+	.string "אם תרצ{EMIT_HEY}{ADD_YUD}, תשתמש גם במהלך\n"
+	.string "מכשיר הזה.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+	.string "המ”מ80 הזה מכיל ניפוח.\p"
+	.string "זה מהלך שמעלה את נתוני ההתקפה\n"
+	.string "וההגנה.\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered GYM LEADER BRAWLY\n"
-	.string "in the POKéNAV.$"
+	.string "מנהיג המכון בראולי נרשם\n"
+	.string "בפוקינווט.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!$"
+	.string "אני יכול לראות את הכישרון שלך יום אחד\n"
+	.string "הופך לגל ענקי שגורם לסערה של תדהמה\l"
+	.string "בקרב מאמנים!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "מכון הפוקימון בעיירת דופורד$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
+	.string "מכון הפוקימון בעיירת דופורד\p"
+	.string "מאמנים מוסמכים בידי בראולי:\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
+	.string "בראולי: גל עשוי לשגת, אבל הוא\n"
+	.string "תמיד חוזר לחוף.\p"
+	.string "גל ענק של כישרון כמוך…\n"
+	.string "ידעתי שתחז{EMIT_VAV}ר{ADD_YUD}!\p"
+	.string "תרא{EMIT_HEY}{ADD_YUD} לי כמה גבוה הגעת!$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
-	.string "Wow!\n"
-	.string "Swamped again!$"
+	.string "וואו!\n"
+	.string "הוצפתי שוב!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string "בראולי: קרבות זה דבר עצום ועמוק.\n"
+	.string "לא ניתן לראות את התחתית.\l"
+	.string "זה בדיוק כמו הים של הואן!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one POKéMON\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "בראולי: גל עשוי לשגת, אבל הוא\n"
+	.string "תמיד חוזר לחוף.\p"
+	.string "גל ענק של כישרון כמוך…\n"
+	.string "ידעתי שתחז{EMIT_VAV}ר{ADD_YUD}!\p"
+	.string "או? יש לך רק פוקימון אחד\n"
+	.string "שיכול להילחם.\p"
+	.string "אני מצטער, אבל אני אשמח שתחז{EMIT_VAV}ר{ש{ADD_YUD}\n"
+	.string "עם לפחות שני פוקימונים.$"

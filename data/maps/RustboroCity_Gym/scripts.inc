@@ -203,7 +203,7 @@ RustboroCity_Gym_Text_ReceivedStoneBadge:
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "תג האבן מחזק את כוח ההתקפה\n"
 	.string "של הפוקימונים שלך.\p"
-	.string "זה גם מאפשר להם להשתמש במהלך מ.נ\n"
+	.string "זה גם מאפשר להם להשתמש במהלך מ”נ\n"
 	.string "חיתוך מחוץ לקרב.\p"
 	.string "קח{ADD_YUD} את זה גם איתך.$"
 
@@ -224,10 +224,10 @@ RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "תוכל{ADD_YUD} ללמוד המון.$"
 
 RustboroCity_Gym_Text_GymStatue:
-	.string "מכון הפוקימון של העיר רסטבורו$"
+	.string "מכון הפוקימון בעיר רסטבורו$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-	.string "מכון הפוקימון של העיר רסטבורו\p"
+	.string "מכון הפוקימון בעיר רסטבורו\p"
 	.string "מאמנים מוסמכים בידי רוקסן:\n"
 	.string "{PLAYER}$"
 

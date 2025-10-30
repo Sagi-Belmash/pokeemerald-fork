@@ -14,7 +14,7 @@ DewfordTown_House1_EventScript_Zigzagoon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
-	bufferspeciesnames STR_VAR_1, SPECIES_ZIGZAGOON
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox DewfordTown_House1_Text_Zigzagoon, MSGBOX_DEFAULT
 	waitmoncry
 	release

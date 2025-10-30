@@ -648,7 +648,7 @@ Route104_Text_LandedInDewfordDeliverLetter:
 	.string "מר ברייני: אהוי!\n"
 	.string "הגענו לדופורד.\p"
 	.string "אני מניח שאת{EMIT_HEY} בדרך למסור את\n"
-	.string "המכתב הזה ל…, מי זה היה עכשיו… סטיבן!$"
+	.string "המכתב הזה ל… מי זה היה עכשיו… סטיבן!$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
 	.string "מר ברייני: האם מסרת את המכתב שלך?\p"

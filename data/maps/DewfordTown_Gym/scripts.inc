@@ -449,5 +449,5 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "ידעתי שתחז{EMIT_VAV}ר{ADD_YUD}!\p"
 	.string "או? יש לך רק פוקימון אחד\n"
 	.string "שיכול להילחם.\p"
-	.string "אני מצטער, אבל אני אשמח שתחז{EMIT_VAV}ר{ש{ADD_YUD}\n"
+	.string "אני מצטער, אבל אני אשמח שתחז{EMIT_VAV}ר{ADD_YUD}\n"
 	.string "עם לפחות שני פוקימונים.$"

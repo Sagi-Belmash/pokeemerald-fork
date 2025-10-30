@@ -10,16 +10,15 @@ PacifidlogTown_House1_EventScript_Woman::
 	end
 
 PacifidlogTown_House1_Text_RegiStory:
-	.string "In the HOENN region, there are three\n"
-	.string "POKéMON that represent the power of\l"
-	.string "rock, ice, and steel.\p"
-	.string "Each of them is said to hide away deep\n"
-	.string "inside caves.\p"
-	.string "That's the story I heard when I was\n"
-	.string "just a little kid.$"
+	.string "במחוז הואן, ישנם שלושה פוקימונים\n"
+	.string "שמייצגים כוח של אבן, קרח ופלדה.\p"
+	.string "אומרים שכל אחד מהם מסתתר עמוק בתוך\n"
+	.string "מערות.\p"
+	.string "זה הסיפור ששמעתי כשהייתי\n"
+	.string "ילד קטן.$"
 
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
-	.string "“Six dots open three doors.”\p"
-	.string "Grandpa used to say that, but I don't\n"
-	.string "know what he meant.$"
+	.string "”שש נקודות פותחות שלוש דלתות.“\p"
+	.string "סבא נהג לומר את זה, אבל אני לא\n"
+	.string "יודעת למה הוא התכוון.$"
 

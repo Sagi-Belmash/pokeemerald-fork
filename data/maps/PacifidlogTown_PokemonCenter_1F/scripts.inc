@@ -20,6 +20,7 @@ PacifidlogTown_PokemonCenter_1F_EventScript_Girl::
 	end
 
 PacifidlogTown_PokemonCenter_1F_EventScript_Woman::
+	bufferspeiesname STR_VAR_1, SPECIES_CORSOLA
 	msgbox PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola, MSGBOX_NPC
 	end
 
@@ -28,21 +29,17 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-	.string "What color is your TRAINER CARD?\n"
-	.string "Mine's copper!$"
+	.string "איזה צבע הכרטיס מאמן שלך?\n"
+	.string "שלי בצבע נחושת!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "PACIFIDLOG TOWN floats on top of\n"
-	.string "a colony of CORSOLA.\p"
-	.string "If I told you that, would you believe\n"
-	.string "me?$"
+	.string "עיירת פסיפידלוג צפה מעל מושבה של\n"
+	.string "{STR_VAR_1}.\p"
+	.string "אם אמרתי לך את זה, היית מאמי{SWAP_NUN}{ADD_HEY} לי?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-	.string "The ancestors of the people in\n"
-	.string "PACIFIDLOG were said to have been\l"
-	.string "born on boats and then lived and died \l"
-	.string "aboard them.\p"
-	.string "I understand that they lived that way\n"
-	.string "because they were searching for\l"
-	.string "something.$"
-
+	.string "אומרים שאבותיהם של האנשים\n"
+	.string "בפסיפידלוג נולדו על סירות ואז\l"
+	.string "חיו ומתו עליהן.\p"
+	.string "אני מבין שהם חיו ככה כי\n"
+	.string "הם חיפשו משהו.$"

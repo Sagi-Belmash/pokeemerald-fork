@@ -5,6 +5,7 @@ VerdanturfTown_WandasHouse_EventScript_Wally::
 	lock
 	faceplayer
 	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
+	bufferspeciesname STR_VAR_1, SPECIES_RALTS
 	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeech, MSGBOX_DEFAULT
 	setflag FLAG_WALLY_SPEECH
 	release
@@ -83,86 +84,86 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 	end
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
-	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
-	.string "not feeling down anymore.\p"
-	.string "Because I have a new purpose in life.\n"
-	.string "Together with my RALTS, I'm going\l"
-	.string "to challenge POKéMON GYMS and become\l"
-	.string "a great TRAINER.\p"
-	.string "Please watch me, {PLAYER}.\n"
-	.string "I'm going to be stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "וואלי: הפסדתי לך, {PLAYER}, אבל אני\n"
+	.string "לא מרגיש מדוכא יותר.\p"
+	.string "כי יש לי מטרה חדשה בחיים.\n"
+	.string "ביחד עם ה{STR_VAR_1} שלי, אני הולך\l"
+	.string "לאתגר את מכוני הפוקימון ולהפוך\l"
+	.string "למאמן נהדר.\p"
+	.string "תחכ{EMIT_HEY}{ADD_YUD} לזה, {PLAYER}.\n"
+	.string "אני הולך להיות חזק יותר ממך.\p"
+	.string "כשאהיה, אני אאתגר אותך\n"
+	.string "לקרב נוסף.$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
-	.string "WALLY: Please watch me, {PLAYER}.\n"
-	.string "I'm going to get stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "וואלי: תחכ{EMIT_HEY}{ADD_YUD} לזה, {PLAYER}.\n"
+	.string "אני הולך להיות חזק יותר ממך.\p"
+	.string "כשאהיה, אני אאתגר אותך\n"
+	.string "לקרב נוסף.$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
-	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
-	.string "WALLY's next door.\p"
-	.string "But, boy, there's something I have to\n"
-	.string "tell you.\p"
-	.string "This natural environment is doing\n"
-	.string "wonders for WALLY's health.\p"
-	.string "Maybe it's not just the environment.\n"
-	.string "It could be POKéMON that are giving\l"
-	.string "the boy hope.$"
+	.string "דוד: או! {PLAYER}{KUN}!\n"
+	.string "וואלי בבית הסמוך.\p"
+	.string "אבל, תשמע{ADD_YUD}, יש משהו שאני צריך\n"
+	.string "לספר לך.\p"
+	.string "הסביבה הטבעית הזו עושה\n"
+	.string "פלאים לבריאות של וואלי.\p"
+	.string "אולי זו לא רק הסביבה.\n"
+	.string "יכול להיות שזה הפוקימון שנותנים\l"
+	.string "תקווה לילד.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
-	.string "WALLY's gone away…\n"
-	.string "He slipped off on his own…$"
+	.string "וואלי הלך לו…\n"
+	.string "הוא יצא לבדו…$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-	.string "UNCLE: Is that right?\n"
-	.string "WALLY's gone away that far all by\l"
-	.string "himself…\p"
-	.string "Well, I have to give him credit--he is\n"
-	.string "my little brother's son.$"
+	.string "דוד: זה נכון?\n"
+	.string "וואלי הלך כל כך רחוק לגמרי\l"
+	.string "לבדו…\p"
+	.string "ובכן, אני חייב לתת לו קרדיט--הוא\n"
+	.string "הבן של אחי הקטן.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
-	.string "WANDA: You are?\n"
-	.string "Oh, right, I get it!\p"
-	.string "You're the {PLAYER} who WALLY was\n"
-	.string "telling me about.\p"
-	.string "I'm WALLY's cousin.\n"
-	.string "Glad to meet you!\p"
-	.string "I think WALLY's become a lot more lively\n"
-	.string "and healthy since he came here.$"
+	.string "וונדה: ואת{EMIT_HEY}?\n"
+	.string "או, נכון, אני מבינה!\p"
+	.string "את{EMIT_HEY} {PLAYER} שואלי\n"
+	.string "סיפר לי עלי{EMIT_VAV}{ADD_HEY}.\p"
+	.string "אני דודה של וואלי.\n"
+	.string "שמחה לפגוש אותך!\p"
+	.string "אני חושבת שוואלי נהיה הרבה יותר נמרץ\n"
+	.string "ובריא מאז שהוא הגיע לכאן.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
-	.string "WANDA: Don't worry about WALLY.\n"
-	.string "He'll be just fine.\p"
-	.string "I know my little cousin, and he has\n"
-	.string "POKéMON with him, too.$"
+	.string "וונדה: אל תדאג{ADD_YUD} לגבי וואלי.\n"
+	.string "הוא יהיה בסדר גמור.\p"
+	.string "אני מכירה את הבן דוד הקטן שלי, ויש\n"
+	.string "איתו גם פוקימון.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-	.string "Thanks to you, I can see my girlfriend\n"
-	.string "every day.\l"
-	.string "Happy? You bet I am!$"
+	.string "בזכותך, אני יכול לראות את החברה\n"
+	.string "שלי כל יום.\l"
+	.string "שמח? בטח!$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
-	.string "My daughter's boyfriend is a very\n"
-	.string "driven and passionate sort of person.\p"
-	.string "He's been digging a tunnel nonstop\n"
-	.string "just so he can see my daughter.\p"
-	.string "My daughter's a little concerned,\n"
-	.string "so she goes out to the tunnel a lot.$"
+	.string "החבר של הבת שלי הוא בחור עם\n"
+	.string "הרבה מוטיבציה והתלהבות.\p"
+	.string "הוא חופר מנהרה בלי הפסקה\n"
+	.string "רק כדי שיוכל לראות את הבת שלי.\p"
+	.string "הבת שלי קצת מודאגת,\n"
+	.string "אז היא הולכת למנהרה הרבה.$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
-	.string "It's amazing. My daughter's boyfriend\n"
-	.string "was digging the tunnel by hand!\p"
-	.string "It's so incredible!$"
+	.string "זה מדהים. החבר של הבת שלי\n"
+	.string "חפר את המנהרה בידיו!\p"
+	.string "זה כל כך לא ייאמן!$"
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
-	.string "If anything were to happen to WALLY,\n"
-	.string "I would never be able to look his\l"
-	.string "parents in PETALBURG in the eye…$"
+	.string "אם משהו יקרה לוואלי,\n"
+	.string "אני לעולם לא אוכל להביט בעיניים\l"
+	.string "להורים שלו שבפטלבורג…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
-	.string "WALLY was in EVER GRANDE?\p"
-	.string "His parents in PETALBURG would be\n"
-	.string "astonished to hear that!$"
+	.string "וואלי היה באבר גרנדה?\p"
+	.string "ההורים שלו בפטלבורג\n"
+	.string "ידהמו מלשמוע את זה!$"
 

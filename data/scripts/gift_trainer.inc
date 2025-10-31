@@ -45,4 +45,4 @@ sText_MysteryGiftVisitingTrainerArrived:
 	.string "תוכל{ADD_YUD} להזמין מאמנים נוספים על ידי\n"
 	.string "הזנת סיסמאות אחרות.\p"
 	.string "נס{EMIT_HEY}{ADD_YUD} למצוא סיסמאות נוספות\n"
-	.string "שעשויות לעבוד.$
+	.string "שעשויות לעבוד.$"

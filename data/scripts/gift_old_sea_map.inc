@@ -37,7 +37,7 @@ OldSeaMap_Obtained:
 sText_MysteryGiftOldSeaMapForYou:
 	.string "תודה שהשתמשת במערכת\n"
 	.string "המתנה המסתורית.\p"
-	.string "רק לוודא—את{EMIT_HEY} {PLAYER}?\p"
+	.string "רק לוודא--את{EMIT_HEY} {PLAYER}?\p"
 	.string "קיבלנו את מפת הים העתיקה הזאת\n"
 	.string "שנשלחה אליך.$"
 

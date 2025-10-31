@@ -20,4 +20,4 @@ VerdanturfTown_House_Text_DefeatEliteFourInARow:
 	.string "שהחוקים אומרים שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להילחם ברצ\l"
 	.string "נגד הרביעיה העילית.\p"
 	.string "אם הפסדת לאחד מהם, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
-	.string "להתחיל את האתגר שלך שוב מהראשון.$
+	.string "להתחיל את האתגר שלך שוב מהראשון.$"

@@ -55,4 +55,3 @@ sText_AuroraTicketBagFull:
 	.string "תיק חפצי המפתח שלך מלא.\p"
 	.string "אנא אחס{SWAP_NUN}{ADD_YUD} משהו במחשב שלך,\n"
 	.string "ואז חז{EMIT_VAV}ר{ADD_YUD} לקחת את זה.$"
-

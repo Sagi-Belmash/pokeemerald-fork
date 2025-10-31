@@ -20,7 +20,7 @@ PacifidlogTown_PokemonCenter_1F_EventScript_Girl::
 	end
 
 PacifidlogTown_PokemonCenter_1F_EventScript_Woman::
-	bufferspeiesname STR_VAR_1, SPECIES_CORSOLA
+	bufferspeciesname STR_VAR_1, SPECIES_CORSOLA
 	msgbox PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola, MSGBOX_NPC
 	end
 

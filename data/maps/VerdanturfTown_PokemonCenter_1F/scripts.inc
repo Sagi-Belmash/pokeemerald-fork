@@ -35,5 +35,4 @@ VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
 	.string "הסיבה שלה מישהו יבקר\n"
 	.string "בורדנטרף…\p"
 	.string "זה אוהל הקרב. זה מובן מאליו.\p"
-	.string "או שיש פה מישהו שבאת לבקר?$
-
+	.string "או שיש פה מישהו שבאת לבקר?$"

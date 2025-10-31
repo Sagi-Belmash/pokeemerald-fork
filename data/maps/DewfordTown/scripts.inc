@@ -633,7 +633,7 @@ DewfordTown_Text_TinyIslandCommunity:
 
 DewfordTown_Text_TownSign:
 	.string "עיירת דופורד\n"
-	.string "“אי פצפון בים הכחול.”$"
+	.string "”אי פצפון בים הכחול.“$"
 
 DewfordTown_Text_GymSign:
 	.string "מכון הפוקימון בעיירת דופורד\n"

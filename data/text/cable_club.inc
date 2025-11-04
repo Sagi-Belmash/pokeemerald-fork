@@ -226,13 +226,13 @@ CableClub_Text_PlayerIsWaiting:
 MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
 	.string "אני יכול להסביר לך את חוקי המשחק,\n"
 	.string "אם תרצ{EMIT_HEY}{ADD_YUD}.\p"
-	.string "איזה שמקח תרצ{EMIT_HEY}{ADD_YUD} שאסביר?$"
+	.string "איזה משחק תרצ{EMIT_HEY}{ADD_YUD} שאסביר?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "“קפיצת פוקימון”\p"
 	.string "גרום לפוקימון שלך לדלג מעל חבל השוט\n"
-	.string "גפן עם כפתור A.\p"
-	.string "רק פוקימון קטן מתחת ל-7.0מ או פחות\n"
+	.string "גפן עם הכפתור A.\p"
+	.string "רק פוקימונים קטנים מתחת ל-7.0מ\n"
 	.string "יכולים להשתתף.\p"
 	.string "פוקימון שיכול רק לשחות, לחפור,\n"
 	.string "או לעוף, אינו טוב בקפיצה.\p"

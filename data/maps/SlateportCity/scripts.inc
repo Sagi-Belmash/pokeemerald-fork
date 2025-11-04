@@ -955,53 +955,50 @@ SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
 	.string "הפוקימונים שבים.$"
 
 SlateportCity_Text_SeaweedFullOfLife:
-	.string "Ooh, look at this!\p"
-	.string "The seaweed you can get around these\n"
-	.string "parts is fresh and full of life.\p"
-	.string "Why, it looks like it can even rear up\n"
-	.string "and attack!$"
+	.string "אוו, תרא{EMIT_HEY}{ADD_YUD} את זה!\p"
+	.string "האצה כאן טרייה ומלאת חיים.\p"
+	.string "זה נראה כאילו היא יכולה אפילו לקום\n"
+	.string "ולהתנגד!$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
-	.string "Where the water is clean, the fruits\n"
-	.string "of bountiful harvest gather.\p"
-	.string "And where people gather, a market\n"
-	.string "soon starts.\p"
-	.string "That is how a town is born and grows.$"
+	.string "כאשר המים נקיים, פירות הקציר השופע\n"
+	.string "מתקבצים.\p"
+	.string "וכאשר אנשים מתאספים, שוק\n"
+	.string "צומח במהרה.\p"
+	.string "כך נולדת וגדלה עיירה.$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-	.string "Shopping where you can breathe the\n"
-	.string "scent of the ocean…\p"
-	.string "SLATEPORT is such a wonderful place!$"
+	.string "קניות תוך כדאי שנושמים את\n"
+	.string "ריח הים…\p"
+	.string "סלייטפורט היא מקום נפלא!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
-	.string "If you put DOLLS or CUSHIONS on\n"
-	.string "the floor, they'll get dirty.\p"
-	.string "I'm going to buy some BRICKS so my\n"
-	.string "DOLLS and CUSHIONS won't get dirty\l"
-	.string "when I leave them out.$"
+	.string "אם תשי{SWAP_MEM}{ADD_YUD} בובות או כריות על\n"
+	.string "הרצפה, הן יתלכלכו.\p"
+	.string "אני הולכת לקנות כמה לבנים כדי שהבובות\n"
+	.string "והכריות שלי לא יתלכלו כשאשאיר אותן בחוץ.$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-	.string "Wroooar! I'm going to compete in\n"
-	.string "the BATTLE TENT, too!\p"
-	.string "But before that, I need to catch\n"
-	.string "some POKéMON!$"
+	.string "רואר! אני גם הולך להתחרות\n"
+	.string "באוהל הקרבות!\p"
+	.string "אבל קודם, אני צריך לתפוס\n"
+	.string "כמה פוקימונים!$"
 
 SlateportCity_Text_BushedHikingFromMauville:
-	.string "Whew… I'm just bushed…\p"
-	.string "I hiked over from MAUVILLE CITY.\n"
-	.string "But, boy, this city's huge.\p"
-	.string "If I'd known this, I would've ridden\n"
-	.string "my BIKE here.$"
+	.string "פיו… אני פשוט מותש…\p"
+	.string "הלכתי ברגל מהעיר מוויל.\n"
+	.string "אבל, האמת, העיר הזאת ענקית.\p"
+	.string "אם הייתי יודע, הייתי רוכב את\n"
+	.string "אופניי לכאן.$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
-	.string "STERN, the fellow who built the\n"
-	.string "MUSEUM, also happens to be the leader\l"
-	.string "of an undersea exploration team.\p"
-	.string "So, everyone calls him CAPT. STERN.$"
+	.string "סטרן, הסחבק שבנה את המוזיאון,\n"
+	.string "מסתבר שגם המנהיג של צוות חקירה תת ימי.\p"
+	.string "אז, כולם קוראים לו קפטן סטרן.$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
-	.string "What is that over there?\n"
-	.string "That long line…$"
+	.string "מה זה שם?\n"
+	.string "התור הארוך הזה…$"
 
 SlateportCity_Text_VisitedMuseumOften:
 	.string "When I was a child, I visited\n"

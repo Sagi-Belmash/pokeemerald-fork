@@ -920,39 +920,39 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-	.string "I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!$"
+	.string "אני גורו האנרגיה! אני אעשה זאת\n"
+	.string "ואמכור לך מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}!$"
 
 SlateportCity_Text_OhYourPokemon:
-	.string "Oh?\n"
-	.string "Your {STR_VAR_1}…$"
+	.string "או?\n"
+	.string "ה{STR_VAR_1} שלך…$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
-	.string "Went for it stupendously!\p"
-	.string "As its reward, please give it this\n"
-	.string "EFFORT RIBBON.$"
+	.string "הוא עשה זאת נהדר!\p"
+	.string "בתור פרס, בבקשה תביא{ADD_YUD} לו את\n"
+	.string "עיטור המאמץ.$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
-	.string "{PLAYER} received the EFFORT RIBBON.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את עיטור המאמץ.$"
 
 SlateportCity_Text_PutEffortRibbonOnMon:
-	.string "{PLAYER} put the EFFORT RIBBON\n"
-	.string "on {STR_VAR_1}.$"
+	.string "{PLAYER} ש{SWAP_MEM}{ADD_HEY} את עיטור המאמץ\n"
+	.string "ב{STR_VAR_1}.$"
 
 SlateportCity_Text_GoForItLittleHarder:
-	.string "You have to go for it a little harder.\p"
-	.string "If you do, I'll give your POKéMON\n"
-	.string "something nice.$"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להתאמץ קצת יותר.\p"
+	.string "כשתעש{EMIT_HEY}{ADD_YUD} זאת, אתן לפוקימון שלך\n"
+	.string "משהו נחמד.$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-	.string "Oh! Your {STR_VAR_1}, that EFFORT\n"
-	.string "RIBBON looks good on it!$"
+	.string "או! ה{STR_VAR_1} שלך, עיטור\n"
+	.string "המאמץ נראה טוב עליו!$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
-	.string "The light of the lighthouse reaches\n"
-	.string "dozens of miles away.\p"
-	.string "I wonder if it doesn't startle POKéMON\n"
-	.string "in the sea.$"
+	.string "אור המגדלור מגיע\n"
+	.string "רחוק לעשרות קילומטרים.\p"
+	.string "אני תוהה אם זה לא מבהיל את\n"
+	.string "הפוקימונים שבים.$"
 
 SlateportCity_Text_SeaweedFullOfLife:
 	.string "Ooh, look at this!\p"
@@ -1046,8 +1046,8 @@ SlateportCity_Text_WhyAreWeLiningUp:
 	.string "We should just march in!$"
 
 SlateportCity_Text_WhatDoYouWant:
-	.string "What?\n"
-	.string "What do you want?$"
+	.string "מה?\n"
+	.string "מה את{EMIT_HEY} רוצה?$"
 
 SlateportCity_Text_IllReadSignForYou:
 	.string "You want to read this sign?\n"

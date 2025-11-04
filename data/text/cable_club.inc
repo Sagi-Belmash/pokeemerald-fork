@@ -240,7 +240,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "דברים טובים קורים אם כולם קופצים בזמן.$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“בחירת פרי יער עם דודריו”\p"
+	.string "“קטיפת פרי יער עם דודריו”\p"
 	.string "של{EMIT_VAV}ט{ADD_YUD} בשלושת הראשים של דודריו\n"
 	.string "כדי לתפוס את הפירות יער הנופלים.\p"
 	.string "לח{SWAP_TZADIK}{ADD_YUD} ימינה, למעלה או שמאלה בכפתורי\n"
@@ -292,7 +292,7 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "זה כל מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לדעת.$"
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
-	.string "בחירת פרי יער עם דודריו הוא משחק שבו\n"
+	.string "קטיפת פרי יער עם דודריו הוא משחק שבו\n"
 	.string "יכולים להשתתף רק עם דודריו.$"
 
 MossdeepCity_GameCorner_1F_Text_RetryPlease:

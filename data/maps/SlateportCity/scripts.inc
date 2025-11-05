@@ -1131,67 +1131,63 @@ SlateportCity_Text_AmIOnTV:
 
 SlateportCity_Text_CaptainsACelebrity:
 	.string "ראיון בטלויזיה! כאן!\n"
-	.string "הקפטן סלב!$"
+	.string "הקפטן סלבריטאי!$"
 
 SlateportCity_Text_BigSmileForCamera:
-	.string "TY: Okay, CAPT. STERN, a big smile\n"
-	.string "for the camera!$"
+	.string "טאי: אוקיי, קפטן סטרן, חיוך גדול\n"
+	.string "למצלמה!$"
 
 SlateportCity_Text_MostInvaluableExperience:
-	.string "GABBY: I see, I see. You've had a most\n"
-	.string "invaluable experience…$"
+	.string "גאבי: מבינה, מבינה. חוית חוויה\n"
+	.string "שאין לה תחליף…$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-	.string "CAPT. STERN: Yes, indeed. We intend to\n"
-	.string "move ahead with our exploration.$"
+	.string "קפטן סטרן: כן, בהחלט. אנחנו מתכוונים\n"
+	.string "להמשיך בחקירה שלנו.$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
-	.string "GABBY: That's wonderful, CAPT. STERN!\n"
-	.string "Thank you for taking the time from\l"
-	.string "your busy schedule to talk to us.\p"
-	.string "We hope we can interview you again\n"
-	.string "with news of more discoveries!$"
+	.string "גאבי: זה נהדר, קפטן סטרן!\n"
+	.string "תודה שלקחת מזמנך היקר לשוחח איתנו.\p"
+	.string "אנו מקווים שנוכל לראיין אותך שוב\n"
+	.string "עם חדשות על גילויים נוספים!$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-	.string "CAPT. STERN: Whew…\p"
-	.string "That was my first time to be filmed for\n"
-	.string "TV. That was nerve-wracking.$"
+	.string "קפטן סטרן: פיו…\p"
+	.string "זו הייתה הפעם הראשונה שהצטלמתי\n"
+	.string "לטלוויזיה. זה היה מלחיץ.$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-	.string "Oh! {PLAYER}{KUN}!\n"
-	.string "You're looking great!\p"
-	.string "We made a huge discovery on our last\n"
-	.string "seafloor exploration.\p"
-	.string "We found an underwater cavern on\n"
-	.string "ROUTE 128.\p"
-	.string "We think it's the habitat of a POKéMON\n"
-	.string "that's said to have been long extinct.$"
+	.string "או! {PLAYER}{KUN}!\n"
+	.string "את{EMIT_HEY} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} נהדר!\p"
+	.string "עשינו גילוי ענקי בחקר שלנו על המצולות.\p"
+	.string "מצאנו מערה תת ימית בדרך 821.\p"
+	.string "אנחנו חושבים שזה בית גידול של פוקימון\n"
+	.string "שנאמר שנכחד מזמן.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\n"
-	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
-	.string "control of your submarine!\p"
-	.string "Your objections are meaningless!\n"
-	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
-	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!$"
+	.string "פופופו…\n"
+	.string "קפטן סטרן, אני מניח.\p"
+	.string "אנחנו מצוות אקווה נשתלט\n"
+	.string "על הצוללת שלך!\p"
+	.string "ההתנגדות שלך חסרת משמעות!\n"
+	.string "אנחנו מצפים לשיתוף פעולה מלא!\p"
+	.string "פופופו…\n"
+	.string "רק תסתכל{ADD_YUD} ותלמד{ADD_YUD} מה שצוות אקווה\l"
+	.string "מתכנן!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-	.string "CAPT. STERN: What was that all about?\p"
-	.string "It sounded like someone using\n"
-	.string "a megaphone…\p"
-	.string "Where did it come from?$"
+	.string "קפטן סטרן: על מה כל זה היה?\p"
+	.string "נשמע שמישהו השתמש במגפון…\p"
+	.string "מאיפה זה הגיע?$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
-	.string "It's from the HARBOR!\p"
-	.string "The submarine!\n"
-	.string "They're trying to take it!$"
+	.string "זה מהנמל!\p"
+	.string "הצוללת!\n"
+	.string "הם מנסים לקחת אותה!$"
 
 SlateportCity_Text_PleaseComeWithMe:
 	.string "{PLAYER}{KUN}!\n"
-	.string "Please, come with me!$"
+	.string "בבקשה, בוא{ADD_YUD} איתי!$"
 
 SlateportCity_Text_BattleTentSign:
 	.string "BATTLE TENT SLATEPORT SITE\n"

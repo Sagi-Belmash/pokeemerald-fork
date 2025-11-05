@@ -481,60 +481,59 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "someone might teach you…$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
-	.string "CAPT. STERN: Trying to catch a\n"
-	.string "submarine… It's impossible.\p"
-	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
-	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
-	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "קפטן סטרן: לנסות לתפוס\n"
+	.string "צוללת… זה בלתי אפשרי.\p"
+	.string "את{EMIT_HEY} תצטר{SWAP_CHAF}{ADD_YUD} פוקימון שיודע\n"
+	.string "לצלול…\p"
+	.string "אולי אם תל{SWAP_CHAF}{ADD_YUD} לעיר מוסדיפ…\p"
+	.string "הרבה צוללנים חיים שם, אז\n"
+	.string "מישהו אולי ילמד אותך…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-	.string "CAPT. STERN: Oh, yes.\n"
-	.string "MR. BRINEY came to our SHIPYARD.\p"
-	.string "It won't be long now before we finish\n"
-	.string "making the ferry!$"
+	.string "קפטן סטרן: או, כן.\n"
+	.string "מר ברייני הגיע למספנה שלנו.\p"
+	.string "זה לא ייקח עוד הרבה זמן עד שנסיים\n"
+	.string "לבנות את המעבורת!$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-	.string "CAPT. STERN: {PLAYER}{KUN}!\p"
-	.string "We finally finished making the ferry\n"
-	.string "S.S. TIDAL!\p"
-	.string "We couldn't have done it without\n"
-	.string "your friend MR. BRINEY.\p"
-	.string "Please go for a short cruise on it!$"
+	.string "קפטן סטרן: {PLAYER}{KUN}!\p"
+	.string "סוף סוף סיימנו לבנות את המעבורת\n"
+	.string "ס.ס גאות!\p"
+	.string "לא היינו מצליחים בלי העזרה של\n"
+	.string "החבר שלך, מר ברייני.\p"
+	.string "בבקשה תצא{ADD_YUD} להפלגה קצרה עליה!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-	.string "CAPT. STERN: Oh?\n"
-	.string "{PLAYER}{KUN}, that item you have…\p"
-	.string "That's a SCANNER! That would sure\n"
-	.string "help us on our explorations.\p"
-	.string "{PLAYER}{KUN}, would you trade your\n"
-	.string "SCANNER for something?\p"
-	.string "Like, say, a DEEPSEATOOTH or\n"
-	.string "a DEEPSEASCALE that I have?$"
+	.string "קפטן סטרן: או?\n"
+	.string "{PLAYER}{KUN}, הפריט הזה שיש לך…\p"
+	.string "זה הסורק! זה בטוח יעזור\n"
+	.string "לנו בחקירות שלנו.\p"
+	.string "{PLAYER}{KUN}, האם תרצ{EMIT_HEY}{ADD_YUD} להחליף את\n"
+	.string "הסורק שלך עבור משהו?\p"
+	.string "כמו, למשל, שן מצולות\n"
+	.string "או קשקש מצולות שיש לי?$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
-	.string "CAPT. STERN: Are you certain?\n"
-	.string "It's useless to you, {PLAYER}{KUN}…\p"
-	.string "Well, okay, then. If you want to trade\n"
-	.string "your SCANNER, let me know.$"
+	.string "קפטן סטרן: את{EMIT_HEY} בטוח{ADD_HEY}?\n"
+	.string "זה חסר תועלת בשבילך, {PLAYER}{KUN}…\p"
+	.string "ובכן, בסדר, אז. אם תרצ{EMIT_HEY}{ADD_YUD} להחליף את\n"
+	.string "הסורק שלך, תודיע{ADD_YUD} לי.$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEATOOTH?$"
+	.string "קפטן סטרן: אז את{EMIT_HEY} תחלי{SWAP_PEY}{ADD_YUD} אותו עבורSo you'll trade it for\n"
+	.string "השן מצולות שלי?$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEASCALE?$"
+	.string "קפטן סטרן: אז את{EMIT_HEY} תחלי{SWAP_PEY}{ADD_YUD} אותו עבורSo you'll trade it for\n"
+	.string "הקשקש מצולות שלי?$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-	.string "CAPT. STERN: Which one do you want?$"
+	.string "קפטן סטרן: איזה אחד אתה רוצה?$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-	.string "{PLAYER} handed the SCANNER to\n"
-	.string "CAPT. STERN.$"
+	.string "{PLAYER} מסר{ADD_HEY} את הסורק\n"
+	.string "לקפטן סטרן.$"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
-	.string "This will help our research a lot!$"
+	.string "קפטן סטרן: תודה, {PLAYER}{KUN}!\n"
+	.string "זה יעזור המון למחקר שלנו!$"

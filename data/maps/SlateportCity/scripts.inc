@@ -1087,7 +1087,7 @@ SlateportCity_Text_BuyTooMuch:
 SlateportCity_Text_GetNameRaterToHelpYou:
 	.string "אם את{EMIT_HEY} רוצה לשנות את הכינוי של\n"
 	.string "פוקימון, תצטר{SWAP_CHAF}{ADD_YUD} לקבל עזרה\l"
-	.string "מהמעריך שם.$"
+	.string "מהמעריך שמות.$"
 
 SlateportCity_Text_CantChangeTradeMonName:
 	.string "כל פוקימון שקיבלת בהחלפה,\n"
@@ -1190,157 +1190,150 @@ SlateportCity_Text_PleaseComeWithMe:
 	.string "בבקשה, בוא{ADD_YUD} איתי!$"
 
 SlateportCity_Text_BattleTentSign:
-	.string "BATTLE TENT SLATEPORT SITE\n"
-	.string "“Find it! The ultimate POKéMON!”$"
+	.string "אוהל הקרב אתר סלייטפורט\n"
+	.string "“מצא את זה! הפוקימון המיטבי!”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
-	.string "STERN'S SHIPYARD\p"
-	.string "“Wanted: A sailor capable of sailing\n"
-	.string "in all currents.”$"
+	.string "המספנה של סטרן\p"
+	.string "”דרוש: מלח שיודע להפליג\n"
+	.string "בכל הזרמים.“$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
-	.string "STERN'S SHIPYARD\p"
-	.string "“The ferry S.S. TIDAL nears\n"
-	.string "completion for serving the ports of\l"
-	.string "SLATEPORT and LILYCOVE.”$"
+	.string "המספנה של סטרן\p"
+	.string "”המעבורת ס.ס גאות כמעט\n"
+	.string "הושלמה לשרת את הנמלים של\l"
+	.string "סלייטפורט וליליקוב.“$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
-	.string "STERN'S SHIPYARD\p"
-	.string "“Boarding of the SLATEPORT-LILYCOVE\n"
-	.string "ferry S.S. TIDAL is handled at the\l"
-	.string "HARBOR.”$"
+	.string "המספנה של סטרן\p"
+	.string "”עלייה למעבורת ס.ס. גאות של\n"
+	.string "סלייטפורט-ליליקוב מתבצעת בנמל.“$"
 
 SlateportCity_Text_PokemonFanClubSign:
-	.string "POKéMON FAN CLUB\n"
-	.string "“Calling all fans of POKéMON!”$"
+	.string "מועדון מעריצי פוקימון\n"
+	.string "”קריאה לכל אוהדי פוקימון!“$"
 
 SlateportCity_Text_OceanicMuseumSign:
-	.string "“The endless sea sustains\n"
-	.string "all life.”\p"
-	.string "OCEANIC MUSEUM$"
+	.string "”הים האינסופי מזין\n"
+	.string "את כל החיים.“\p"
+	.string "מוזיאון ימי$"
 
 SlateportCity_Text_CitySign:
-	.string "SLATEPORT CITY\p"
-	.string "“The port where people and POKéMON\n"
-	.string "cross paths.”$"
+	.string "עיר סלייטפורט\p"
+	.string "”הנמל בו אנשים ופוקימון\n"
+	.string "חוצים יחדיו.“$"
 
 SlateportCity_Text_MarketSign:
-	.string "SLATEPORT MARKET\n"
-	.string "“Unique items found nowhere else!”$"
+	.string "שוק סלייטפורט\n"
+	.string "“פריטים יחודים שלא נמצאים במקום אחר!”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-	.string "SLATEPORT HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in the SHIPYARD.\p"
-	.string "“Service is scheduled to begin\n"
-	.string "shortly.”$"
+	.string "נמל סלייטפורט\p"
+	.string "”המעבורת ס.ס. גאות נמצאת בבנייה\n"
+	.string "במספנה.\p"
+	.string "”שירות צפוי להתחיל בקרוב.“$"
 
 SlateportCity_Text_HarborSign:
 	.string "נמל סלייטפורט\p"
-	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. TIDAL.”$"
+	.string "”תהנו משיט מהנה על\n"
+	.string "המעבורת ס.ס. גאות.“$"
 
 SlateportCity_Text_NameRatersHouseSign:
-	.string "NAME RATER'S HOUSE\n"
-	.string "“POKéMON nicknames rated.”$"
+	.string "בית המעריך שמות\n"
+	.string "”כינויי פוקימון להערכה.“$"
 
 SlateportCity_Text_ExplainBerries:
-	.string "If a wild POKéMON gets hurt, it heals\n"
-	.string "itself by chewing on BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "Somebody saw that and got the idea\n"
-	.string "of making medicine from BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "To turn BERRIES into medicine,\n"
-	.string "they must be crushed into powder.\p"
-	.string "Did you know that?\p"
-	.string "You seem to have an interest\n"
-	.string "in BERRIES!\p"
-	.string "I've got something good for someone\n"
-	.string "like you.$"
+	.string "אם פוקימון פראי נפגע, הוא מרפא את\n"
+	.string "עצמו באכילת פירות יער.\p"
+	.string "ידעת את זה?\p"
+	.string "מישהו ראה את זה וקיבל את הרעיון\n"
+	.string "של להכין תרופות מפירות יער.\p"
+	.string "ידעת את זה?\p"
+	.string "להפוך פירות יער לתרופה,\n"
+	.string "צריך למעוך אותם לכדי אבקה.\p"
+	.string "ידעת את זה?\p"
+	.string "נראה שיש לך עניין בפירות יער!\p"
+	.string "יש לי משהו טוב עבור מישהו כמוך.$"
 
 SlateportCity_Text_ExplainBerryPowder:
-	.string "I recently had machines installed at\n"
-	.string "POKéMON CENTERS for crushing BERRIES.\p"
-	.string "The BERRY CRUSH machines are at\n"
-	.string "the DIRECT CORNER upstairs.\p"
-	.string "Did you know?\p"
-	.string "Could you make BERRY POWDER for\n"
-	.string "me using those machines?\p"
-	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.$"
+	.string "לאחרונה התקנתי מכונות במרכזי\n"
+	.string "פוקימון למעיכת פירות יער.\p"
+	.string "המכונות מעיכת פירות יער נמצאות\n"
+	.string "בפינה הישירה בקומה העליונה.\p"
+	.string "ידעת?\p"
+	.string "תוכל{ADD_YUD} להכין עבורי אבקת פירות יער\n"
+	.string "בעזרת המכונות האלו?\p"
+	.string "אני יכול להכין לך כל מיני תרופות\n"
+	.string "אם תביא{ADD_YUD} לי הרבה אבקת פירות יער.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
-	.string "Have you brought me some\n"
-	.string "BERRY POWDER?$"
+	.string "הבאת לי קצת אבקת פירות יער?$"
 
 SlateportCity_Text_ExchangeWhatWithIt:
-	.string "What would you like to exchange\n"
-	.string "it with?$"
+	.string "במה תרצה להחליף את זה?$"
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
-	.string "Okay, you want to exchange your\n"
-	.string "BERRY POWDER for one {STR_VAR_1}?$"
+	.string "אוקיי, רוצה להחליף את האבקת\n"
+	.string "פירות יער עבור {STR_VAR_1} אחד?$"
 
 SlateportCity_Text_DontHaveEnoughBerryPowder:
-	.string "Oh, dear. You don't have enough\n"
-	.string "BERRY POWDER.$"
+	.string "או, יקיר{ADD_TAF}י. אין לך מספיק\n"
+	.string "אבקת פירות יער.$"
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
-	.string "This is fine BERRY POWDER.\n"
-	.string "It will make excellent medicine.\p"
-	.string "Would you like to trade more of your\n"
-	.string "BERRY POWDER for something else?$"
+	.string "זה אבקת פירות יער איכותית.\n"
+	.string "זה ייצור תרופות מצויינות.\p"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להחליף עוד מהאבקת\n"
+	.string "יער שלך עבור משהו אחר?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:
-	.string "Okay! When you get some more\n"
-	.string "BERRY POWDER, bring it to me, please!$"
+	.string "בסדר! כשתשיג{ADD_YUD} עוד אבקת פירות יער,\n"
+	.string "תביא{ADD_YUD} לי בבקשה!$"
 
 SlateportCity_Text_ComeBackToTradeBerryPowder:
-	.string "Come back if you'd like to trade your\n"
-	.string "BERRY POWDER for some medicine.\p"
-	.string "I'm always running a bazaar here.\p"
-	.string "Did you know?$"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} אם תרצי להחליף אבקת\n"
+	.string "פירות יער עבור תרופה.\p"
+	.string "אני תמיד מנהלת כאן שוק.\p"
+	.string "ידעת?$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
-	.string "SCOTT: Huh?\n"
-	.string "I'm sure I met you somewhere before.\p"
-	.string "Have I introduced myself to you?\n"
-	.string "If not, my name's SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
-	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?$"
+	.string "סקוט: הא?\n"
+	.string "אני בטוח שפגשתי אותך איפשהו לפניכן.\p"
+	.string "האם הצגתי את עצמי לך?\n"
+	.string "אם לא, שמי סקוט.\p"
+	.string "בדיוק ראיתי את צוות אקווה בורח\n"
+	.string "מכאן כאילו נעקצו.\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לנחש--את{EMIT_HEY} הברחת אותם?$"
 
 SlateportCity_Text_MaybeThisTrainer:
-	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
+	.string "סקוט: הממ…\n"
+	.string "אולי, רק אולי, המאמ{SWAP_NUN}{ADD_TAF} הז{EMIT_HEY}{ADD_VAV}…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-	.string "SCOTT: All right! I think you're going\n"
-	.string "to become a good friend.\p"
-	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
+	.string "סקוט: בסדר! אני חושב שתהי{EMIT_HEY}{ADD_YUD}\n"
+	.string "חבר{ADD_HEY} טוב{ADD_HEY}.\p"
+	.string "אז, בוא{ADD_YUD} נרשום אחד את השני{ADD_HEY}\n"
+	.string "בפוקינווט.\p"
 	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
-	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
+	.string "האדם הזה סקוט נרשם\n"
+	.string "בפוקינווט.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-	.string "SCOTT: What I'd like to do is tag along\n"
-	.string "with you, but I do want to keep an eye\l"
-	.string "on the talents of other people, too.\p"
-	.string "So, I'll be off to roam other towns\n"
-	.string "a bit more.\p"
-	.string "Be seeing you, {PLAYER}{KUN}!$"
+	.string "סקוט: מה שאני רוצה זה להצטרף אלייך,\n"
+	.string "אני גם רוצה לשים עין\l"
+	.string "על כישרונות של אחרים.\p"
+	.string "אז, אני אסתובב בערים אחרות קצת.\p"
+	.string "נתראה, {PLAYER}{KUN}!$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-	.string "SCOTT: Oh, hey!\n"
-	.string "If it isn't {PLAYER}{KUN}!\p"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
-	.string "to take the BATTLE TENT challenge?\p"
-	.string "Yeah! That's a good idea!\n"
-	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
-	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!$"
+	.string "סקוט: או, היי!\n"
+	.string "אם זה לא {PLAYER}{KUN}!\p"
+	.string "{PLAYER}{KUN}, ת{SWAP_NUN}{ADD_YUD} לי לנחש--את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF}\n"
+	.string "לאתגר את אוהל הקרב?\p"
+	.string "כן! זה רעיון טוב!\n"
+	.string "זה באמת רעיון נהדר!\p"
+	.string "אחרי הכל, מאמ{SWAP_NUN}{ADD_TAF} חזק{ADD_HEY} ה{EMIT_VAV}{ADD_YUD}א\n"
+	.string "התאמה מושלמת לאוהל הקרב!\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} את המאמץ הכי טוב שלך!$"

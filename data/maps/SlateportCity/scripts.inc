@@ -1001,138 +1001,137 @@ SlateportCity_Text_WhatsLongLineOverThere:
 	.string "התור הארוך הזה…$"
 
 SlateportCity_Text_VisitedMuseumOften:
-	.string "When I was a child, I visited\n"
-	.string "the MUSEUM often.\p"
-	.string "I used to dream about the mysteries of\n"
-	.string "the sea after seeing the exhibits.$"
+	.string "כשהייתי ילד, ביקרתי, לעיתים קרובות\n"
+	.string "במוזיאון.\p"
+	.string "חלמתי על מסתורי הים לאחר שראיתי\n"
+	.string "את התערוכות.$"
 
 SlateportCity_Text_QuitPushing:
-	.string "Hey, there! Quit pushing!\n"
-	.string "This is the line, can't you see?$"
+	.string "היי, שם! תפסיק{ADD_YUD} לדחוף!\n"
+	.string "זה התור, את{EMIT_HEY} לא רואה?$"
 
 SlateportCity_Text_AquaHasPolicy:
-	.string "TEAM AQUA has a policy of\n"
-	.string "assembling and dispersing at\l"
-	.string "the operation site.$"
+	.string "לצוות אקווה יש מדיניות\n"
+	.string "של להתאסף ולהתפזר\l"
+	.string "באתר הפעולה.$"
 
 SlateportCity_Text_BossIsBrilliant:
-	.string "Our BOSS is brilliant.\p"
-	.string "What would he want to do with\n"
-	.string "a MUSEUM now?$"
+	.string "הבוס שלנו גאוני.\p"
+	.string "מה הוא רוצה לעשות\n"
+	.string "עם מוזיאון עכשיו?$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
-	.string "What's the new scheme, I wonder?\p"
-	.string "Our BOSS is scary when he's mad, so\n"
-	.string "I'd better not screw things up…$"
+	.string "מה התוכנית החדשה, אני תוהה?\p"
+	.string "הבוס שלנו מפחיד כשהוא כועס, אז\n"
+	.string "עדיף שלא אהרוס את העניינים…$"
 
 SlateportCity_Text_ShouldTakeItAll:
-	.string "If there's something we need in\n"
-	.string "the MUSEUM, we should take it all!$"
+	.string "אם יש משהו שאנחנו צריכים\n"
+	.string "במוזיאון, כדאי שניקח הכל!$"
 
 SlateportCity_Text_DontButtIn:
-	.string "Hey, you there!\n"
-	.string "Don't butt in!$"
+	.string "היי, את{EMIT_HEY} שם!\n"
+	.string "אל תצטופ{SWAP_PEY}{ADD_YUD}!$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
-	.string "A long line, huh?\p"
-	.string "It reminds me of the times I lined up to\n"
-	.string "buy smash-hit games…$"
+	.string "תור ארוך, הא?\p"
+	.string "זה מזכיר לי את הפעמים שעמדתי בתור\n"
+	.string "לקנות משחקי להיטs…$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
-	.string "Why are we even lining up and paying?\n"
-	.string "We should just march in!$"
+	.string "למה אנחנו בכלל עומדים בתור ומשלמים?\n"
+	.string "אנחנו צריכים פשוט להיכנס!$"
 
 SlateportCity_Text_WhatDoYouWant:
 	.string "מה?\n"
 	.string "מה את{EMIT_HEY} רוצה?$"
 
 SlateportCity_Text_IllReadSignForYou:
-	.string "You want to read this sign?\n"
-	.string "I'll read it for you!$"
+	.string "את{EMIT_HEY} רוצה לקרוא את השלט הזה?\n"
+	.string "אני אקרא בשבילך!$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-	.string "Let's see…\p"
-	.string "Um… I think it says something like\n"
-	.string "“the life in the sea is endless.”\p"
-	.string "Yup, I'm pretty sure that's what\n"
-	.string "it says.$"
+    .string "בוא{ADD_YUD} נראה…\p"
+    .string "אממ… נראה שזה אומר משהו כמו\n"
+    .string "”החיים בים הם אינסופיים.“\p"
+    .string "כן, אני די בטוח שזה מה\n"
+    .string "שכתוב.$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-	.string "Grumble…\p"
-	.string "I should've brought my Game Boy\n"
-	.string "Advance so I wouldn't get bored in line…\p"
-	.string "Grumble…$"
+	.string "רטינה…\p"
+	.string "הייתי צריך להביא את הגיים בוי\n"
+	.string "אדוונס שלי כדי שלא אשתעמם בתור…\p"
+	.string "רטינה…$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
-	.string "When this operation's over, I'll take\n"
-	.string "you to a hot spring spa!\p"
-	.string "That's what our leader said.\n"
-	.string "I can't wait!$"
+	.string "כשהמבצע יגמר, אני אקח אותך לספא\n"
+	.string "מעיינות חמים!\p"
+	.string "זה מה שהמנהיג שלנו אמר.\n"
+	.string "אני לא יכול לחכות!$"
 
 SlateportCity_Text_SeaIsSoWet:
-	.string "The sea is just so vast…\p"
-	.string "Could the sea have been made by\n"
-	.string "the tears shed by POKéMON?$"
+	.string "הים פשוט כל כך רחב…\p"
+	.string "יכול להיות שהים נוצר\n"
+	.string "מדמעות ששחררו פוקימון?$"
 
 SlateportCity_Text_SinkOldBoats:
-	.string "Do you know what they do with old\n"
-	.string "ships that become too creaky to sail?\p"
-	.string "They sink them in the sea so they\n"
-	.string "become habitats for POKéMON.$"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} מה הם עושים עם\n"
+	.string "ספינות ישנות שכבר ישנות מדי להפלגה?\p"
+	.string "הם שוקעים אותן בים כדי שיהפכו\n"
+	.string "לבית לפוקימון.$"
 
 SlateportCity_Text_BuyTooMuch:
-	.string "Whenever I visit here, I get carried\n"
-	.string "away and buy too much.$"
+	.string "בכל פעם שאני מבקרת כאן, אני נסחפת\n"
+	.string "וקונה יותר מדי.$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-	.string "If you want to change your POKéMON's\n"
-	.string "nickname, you'll have to get the NAME\l"
-	.string "RATER to help you.$"
+	.string "אם את{EMIT_HEY} רוצה לשנות את הכינוי של\n"
+	.string "פוקימון, תצטר{SWAP_CHAF}{ADD_YUD} לקבל עזרה\l"
+	.string "מהמעריך שם.$"
 
 SlateportCity_Text_CantChangeTradeMonName:
-	.string "Any POKéMON you get in a trade,\n"
-	.string "you can't change its nickname.\p"
-	.string "The original TRAINER's love for that\n"
-	.string "POKéMON is in the nickname.$"
+	.string "כל פוקימון שקיבלת בהחלפה,\n"
+	.string "לא ניתן לשנות את כינויו.\p"
+	.string "האהבה של המאמן המקורית לפוקימון\n"
+	.string "הזה נמצאת בכינוי.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
-	.string "Recently, a BATTLE TENT was built\n"
-	.string "in SLATEPORT.\p"
-	.string "GYMS are fun, but the BATTLE TENT's\n"
-	.string "awesome in its own way.\p"
-	.string "You should go find tough POKéMON\n"
-	.string "for the BATTLE TENT!$"
+	.string "לאחרונה, אוהל קרב נבנה\n"
+	.string "בסלייטפורט.\p"
+	.string "מכונים הם כיפים, אבל האוהל קרב\n"
+	.string "נהדר בדרכו שלו\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} למצוא פוקימון קשוח\n"
+	.string "לאוהל הקרב!$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
-	.string "I was hoping that it was a famous star\n"
-	.string "so I could get an autograph.\p"
-	.string "But who's that being interviewed?\n"
-	.string "Isn't that CAPT. STERN?$"
+    .string "קיוויתי שזה כוכב מפורסם\n"
+    .string "כדי שאוכל לקבל חתימה.\p"
+    .string "אבל מי זה שמתראיין?\n"
+	.string "זה לא קפטן סטרן?$"
 
 SlateportCity_Text_InterviewerSoCool:
-	.string "That lady interviewer is so cool\n"
-	.string "and pretty.\p"
-	.string "When I grow up, I'm going to be\n"
-	.string "an international journalist!$"
+	.string "המראיינת היא כל כך מגניבה ויפה.\p"
+	.string "כשאגדל, אני הולכת להיות\n"
+	.string "עיתונאית בינלאומית!$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
-	.string "CAPT. STERN says they discovered\n"
-	.string "something at the bottom of the sea.\p"
-	.string "I wonder what it is?\n"
-	.string "What could it be?$"
+	.string "קפטן סטרן אומר שהם גילו משהו\n"
+	.string "בתחתית הים.\p"
+	.string "אני תוהה מה זה?\n"
+	.string "מה זה יכול להיות?$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
-	.string "What's going on here?\p"
-	.string "Did the good CAPTAIN come back with\n"
-	.string "a big fish from the ocean floor?$"
+	.string "מה קורה כאן?\p"
+	.string "האם הקפטן הטוב חזר עם דג\n"
+	.string "ענקי מקרקעית הים?$"
 
 SlateportCity_Text_AmIOnTV:
-	.string "Hey! Are you watching?\n"
-	.string "Am I on TV?$"
+	.string "היי! את{EMIT_HEY} צופה?\n"
+	.string "האם אני בטלוויזיה?$"
 
 SlateportCity_Text_CaptainsACelebrity:
-	.string "A TV interview! Here!\n"
-	.string "The CAPTAIN's a celebrity!$"
+	.string "ראיון בטלויזיה! כאן!\n"
+	.string "הקפטן סלב!$"
 
 SlateportCity_Text_BigSmileForCamera:
 	.string "TY: Okay, CAPT. STERN, a big smile\n"
@@ -1241,7 +1240,7 @@ SlateportCity_Text_HarborFerryUnderConstruction:
 	.string "shortly.”$"
 
 SlateportCity_Text_HarborSign:
-	.string "SLATEPORT HARBOR\p"
+	.string "נמל סלייטפורט\p"
 	.string "“Enjoy a delightful cruise on\n"
 	.string "the ferry S.S. TIDAL.”$"
 

@@ -232,6 +232,7 @@ static const u8 sCreditsText_Translators[]                     = _("מתרגמי
 static const u8 sCreditsText_HebrewVersion[]                  = _("מתאם גרסת העברית");
 static const u8 sCreditsText_ShaharBerenson[]                 = _("שחר ברנסון");
 static const u8 sCreditsText_SagiBelmash[]                    = _("שגיא בלמש");
+static const u8 sCreditsText_NogaShakked[]                    = _("נגה שקד");
 static const u8 sCreditsText_HebrewNames[]                    = _("עברות שמות הפוקימון");
 static const u8 sCreditsText_MSElboim[]                       = _("מ. ש. אלבוים");
 static const u8 sCreditsText_MayaKatz[]                       = _("מאיה כץ");

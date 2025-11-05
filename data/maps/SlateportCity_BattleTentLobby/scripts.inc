@@ -273,35 +273,35 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "So, like, I couldn't find myself any\n"
-	.string "POKéMON that were, like, for me.\p"
-	.string "So, I figured, like, hey, I should file\n"
-	.string "a complaint to the guy there?\p"
-	.string "And he wouldn't hear me out, like, hey!\n"
-	.string "So, like, total bummer, man!\p"
-	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!$"
+	.string "אז, כאילו, לא הצלחתי למצוא אף\n"
+	.string "פוקימון שמתאים לי, כזה.\p"
+	.string "אז, חשבתי, כאילו, היי, אולי אמלא\n"
+	.string "תלונה לבחור שמה?\p"
+	.string "והוא בכלל לא הקשיב לי, כאילו, היי!\n"
+	.string "אז, כאילו, באסה טוטאלית, בחור!\p"
+	.string "היי, כאילו, את{EMIT_HEY}! שותק{ADD_TAF}, את{EMIT_HEY} יודע{ADD_TAF}?\n"
+	.string "רק, את{EMIT_HEY} יודע{ADD_TAF}, קח{ADD_YUD} את זה!$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
-	.string "That's, like, TM41, you know?\n"
-	.string "Hey, it's TORMENT, you hearing me?\p"
-	.string "Like, it won't let the other guy\n"
-	.string "use the same move twice in a row, see?\p"
-	.string "Hey, now, you listen here, like,\n"
-	.string "I'm not laying a torment on you!$"
+	.string "זה, כאילו, מ”מ14, את{EMIT_HEY} יודע{ADD_TAF}?\n"
+	.string "היי, זה עינוי, שמעת אותי?\p"
+	.string "כאילו, זה לא יתן ליריב להשתמש\n"
+	.string "באותו מהלך פעמיים ברצף, רואה?\p"
+	.string "היי, עכשיו, שמעת אותי כאן, כאילו,\n"
+	.string "אני לא מענה אותך!$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG POKéMON,\n"
-	.string "but maybe I'll try using some for\l"
-	.string "a change of pace.\p"
-	.string "Who knows, I might even get to like\n"
-	.string "them!$"
+	.string "אני לא ממש אוהב פוקימוני חרק,\n"
+	.string "אבל אולי אני אנסה להשתמש בכמה\l"
+	.string "בשביל שינוי אווירה.\p"
+	.string "מי יודע, אולי אפילו אתחיל לחבב\n"
+	.string "אותם!$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
-	.string "You can battle all you want here even\n"
-	.string "if you don't have any tough POKéMON.$"
+	.string "אפשר להילחם כאן כמה שרוצים גם\n"
+	.string "אם אין לך שום פוקימון קשוח.$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-	.string "Wouldn't it be nice if they had more of\n"
-	.string "a selection?$"
+	.string "זה לא היה נחמד אם היה להם מבחר\n"
+	.string "גדול יותר?$"
 

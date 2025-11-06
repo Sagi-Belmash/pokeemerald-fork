@@ -282,14 +282,14 @@ static const u8 *const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = sText_Miss
 };
 
-static const u8 sText_PressAToStart[] = _("Press the A Button to start.");
-static const u8 sText_PleaseWaitAWhile[] = _("Please wait a while.");
-static const u8 sText_CommunicationStandby[] = _("Communication standby…");
-static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another BERRY?");
-static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIES for\nblending in the BERRY BLENDER.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
-static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
+static const u8 sText_PressAToStart[] = _("נא ללחוץ על הכפתור A כדי להתחיל.");
+static const u8 sText_PleaseWaitAWhile[] = _("נא לחכות קצת.");
+static const u8 sText_CommunicationStandby[] = _("תקשורת בהמתנה…");
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("האם תרצ{EMIT_HEY}{ADD_YUD} לערבב עוד פרי יער?");
+static const u8 sText_RunOutOfBerriesForBlending[] = _("נגמר לך הפירות יער \nלערבוב במערבל הפירות יער.\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("המארז פוקיגוש שלך מלא.\p");
+static const u8 sText_HasNoBerriesToPut[] = _(" חסר פירות יער לשים\nבמערבל הפירות יער.");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("עם מארז פוקיגוש מלא.\p");
 static const u8 sText_BlendingResults[] = _("תוצאות של ערבוב");
 static const u8 sText_BerryUsed[] = _("פרי יער ששומש");
 static const u8 sText_SpaceBerry[] = _(" פרי יער");

@@ -61,7 +61,9 @@ SlateportCity_EventScript_ScottScene::
 	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 60
-	msgbox SlateportCity_Text_MaybeThisTrainer, MSGBOX_DEFAULT
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, SlatePort_EventScript_ScottSceneMaybeThisTrainerMale
+	call_if_eq VAR_RESULT, FEMALE, SlatePort_EventScript_ScottSceneMaybeThisTrainerFemale
 	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	msgbox SlateportCity_Text_LetsRegisterEachOther, MSGBOX_DEFAULT
@@ -85,6 +87,14 @@ SlateportCity_EventScript_ScottScene::
 	addvar VAR_SCOTT_STATE, 1
 	releaseall
 	end
+
+SlatePort_EventScript_ScottSceneMaybeThisTrainerMale::
+	msgbox SlateportCity_Text_MaybeThisTrainerMale, MSGBOX_DEFAULT
+	return
+
+SlatePort_EventScript_ScottSceneMaybeThisTrainerFemale::
+	msgbox SlateportCity_Text_MaybeThisTrainerFemale, MSGBOX_DEFAULT
+	return
 
 SlateportCity_Movement_PlayerFaceScott:
 	delay_16
@@ -1305,9 +1315,13 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "מכאן כאילו נעקצו.\p"
 	.string "ת{SWAP_NUN}{ADD_YUD} לי לנחש--את{EMIT_HEY} הברחת אותם?$"
 
-SlateportCity_Text_MaybeThisTrainer:
+SlateportCity_Text_MaybeThisTrainerMale:
 	.string "סקוט: הממ…\n"
-	.string "אולי, רק אולי, המאמ{SWAP_NUN}{ADD_TAF} הז{EMIT_HEY}{ADD_VAV}…$"
+	.string "אולי, רק אולי, המאמן הזה…$"
+
+SlateportCity_Text_MaybeThisTrainerFemale:
+	.string "סקוט: הממ…\n"
+	.string "אולי, רק אולי, המאמנת הזאת…$"	
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "סקוט: בסדר! אני חושב שתהי{EMIT_HEY}{ADD_YUD}\n"

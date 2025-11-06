@@ -422,7 +422,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
-        .tilemapLeft = 1,
+        .tilemapLeft = 7, // was 1
         .tilemapTop = 13,
         .width = 5,
         .height = 6,
@@ -431,7 +431,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
-        .tilemapLeft = 7,
+        .tilemapLeft = 1, // was 7
         .tilemapTop = 13,
         .width = 4,
         .height = 6,

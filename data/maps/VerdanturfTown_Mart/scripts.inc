@@ -41,7 +41,7 @@ VerdanturfTown_Mart_EventScript_Lass::
 VerdanturfTown_Mart_Text_XSpecialIsCrucial:
 	.string "לכל קרב פוקימון, X מיוחד\n"
 	.string "הוא חיוני.\p"
-	.string "הוא מחזק את העוצמה של מתקפות\n"
+	.string "הוא מחזק את הכוח של מתקפות\n"
 	.string "מסוימות, למרות שזה רק לקרב אחד.$"
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:

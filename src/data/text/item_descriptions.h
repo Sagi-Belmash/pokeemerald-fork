@@ -1019,7 +1019,7 @@ static const u8 sAcroBikeDesc[] = _(
     "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "נרתיק להחזקת\n"
+    "תרמיל להחזקת\n"
     "פוקיגושים שהוכנו\n"
     "מבלנדר פירות יער.");
 

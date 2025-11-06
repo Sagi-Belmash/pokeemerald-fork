@@ -908,6 +908,7 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
     u16 box, mon, species, level, gender;
     struct BoxPokemon *boxMon;
     u8 *str;
+    u8 *numStart;
 
     box = boxId;
     mon = monId;
@@ -975,8 +976,10 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
     *(str++) = TEXT_COLOR_LIGHT_BLUE;
     *(str++) = CHAR_SLASH;
     //*(str++) = CHAR_EXTRA_SYMBOL;
-    str = ConvertIntToDecimalStringN(str, level, STR_CONV_MODE_LEFT_ALIGN, 3);
     *(str++) = CHAR_t/* CHAR_LV_2 */;
+    numStart = str;
+    str = ConvertIntToDecimalStringN(str, level, STR_CONV_MODE_LEFT_ALIGN, 3);
+    ReverseNumeric(numStart);
     *(str++) = CHAR_SPACE;
     *str = EOS;
 

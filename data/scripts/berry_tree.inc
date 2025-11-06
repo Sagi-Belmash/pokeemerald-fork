@@ -183,69 +183,69 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "זו אדמה רכה ודשנה.$"
 
 BerryTree_Text_WantToPlant:
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a BERRY?$"
+	.string "זו אדמה רכה ודשנה.\n"
+	.string "רוצה לשתול פרי יער?$"
 
 BerryTree_Text_PlantedOneBerry:
-	.string "{PLAYER} planted one {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{PLAYER} שתל{ADD_HEY} {STR_VAR_1} אחד\n"
+	.string "באדמה רכה ודשנה.$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "One {STR_VAR_1} was planted here.$"
+	.string "{STR_VAR_1} אחד נשתל כאן.$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} has sprouted.$"
+	.string "{STR_VAR_1} נבט.$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string "צמח ה{STR_VAR_1} גדל לגובה.$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "These {STR_VAR_1} flowers are blooming\n"
+	.string "פרחי ה{STR_VAR_1} פורחים\n"
 	.string "{STR_VAR_2}.$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "מאוד יפה$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "בצורה חמודה$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "בצורה יפה$"
 
 BerryTree_Text_WantToPick:
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
+	.string "מצאת {STR_VAR_2} {STR_VAR_1}!\p"
+	.string "רוצה לקטוף\n"
 	.string "{STR_VAR_1}?$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER} קט{SWAP_PEY}{ADD_HEY} {STR_VAR_2} {STR_VAR_1}.$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.\p"
-	.string "The soil returned to its soft and\n"
-	.string "loamy state.$"
+	.string "{PLAYER} ש{SWAP_MEM}{ADD_HEY} את {STR_VAR_1}\n"
+	.string "בתיק בתא של הפירות יער.\p"
+	.string "האדמה חזרה למצבה\n"
+	.string "הרך והדשן.$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "תא הפירות יער בתיק כבר מלא.\p"
+	.string "לא ניתן לקחת את ה{STR_VAR_1}.$"
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{PLAYER} עזב{ADD_HEY} את {STR_VAR_1}\n"
+	.string "לא קטוף.$"
 
 BerryTree_Text_WantToWater:
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "רוצה להשקות את {STR_VAR_1} עם\n"
+	.string "המזלף ויילמר?$"
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{PLAYER} השק{ADD_TAF}ה את {STR_VAR_1}.$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "The plant seems to be delighted.$"
+	.string "נראה שהצמח מרוצה.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"

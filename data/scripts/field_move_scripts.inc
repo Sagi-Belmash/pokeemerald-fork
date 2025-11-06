@@ -263,27 +263,27 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "הים עמוק כאן. פוקימון\n"
+	.string "יוכל אולי לצלול.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "הים עמוק כאן.\n"
+	.string "רוצה להשתמש בצלילה?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} השתמש בצלילה.$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "אור מסתנן מלמעלה.\n"
+	.string "פוקימון יוכל אולי לעלות.$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "אור מסתנן מלמעלה.\n"
+	.string "רוצה להשתמש בצלילה?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "נראה שאין פה כלום…$"

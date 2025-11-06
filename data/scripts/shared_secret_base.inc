@@ -209,7 +209,7 @@ SecretBase_Text_IndentUseSecretPower::
 	.string "להשתמש בכוח סודי?$"
 
 SecretBase_Text_DiscoveredSmallCavern::
-	.string "גיל{ADD_TAF}ה מערה קטנה!$"
+	.string "התגלתה מערה קטנה!$"
 
 SecretBase_Text_WantToMakeYourSecretBaseHere:
 	.string "רוצה לבנות כאן את הבסיס הסודי שלך?$"

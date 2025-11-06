@@ -498,7 +498,7 @@ const u8 DecorDesc_SPIN_CUSHION[] = _(
         "מזרן או שולחן.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "כרית סבליי.\n"
+    "כרית סיבליי.\n"
         "להניח אותה על\n"
         "מזרן או שולחן.");
 

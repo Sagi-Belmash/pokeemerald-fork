@@ -44,7 +44,7 @@ static const u8 sText_EnsureGBAConnectionMatches[] = _("נא לודא שהחיב
                                                        "בגיים בוי אדוונס תואמת את זה.\n"
                                                        "{COLOR RED}{SHADOW LIGHT_RED}כן: לחיצה על הכפתור A.\n"
                                                        "לא: כיבוי המכשיר וניסיון חוזר.");
-static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("נא להדליק את המכשיר עם פוקימוןPlease turn on the power of POKéMON\n"
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("נא להדליק את המכשיר עם פוקימון\n"
                                                            "רובי/ספיר בעוד שמחזיקים TRATS\n"
                                                            "ו-TCELES יחדיו. ואז, לודא\n"
                                                            "שהתמונה שלמעלה מופיעה.");

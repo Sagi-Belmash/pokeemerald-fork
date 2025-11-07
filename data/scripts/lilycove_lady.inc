@@ -514,7 +514,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_Kecleon::
 	faceplayer
 	waitse
 	playmoncry VAR_0x8005, CRY_MODE_NORMAL
-	bufferspeciesname STR_VAR_1, SPECIES_KECKLEON
+	bufferspeciesname STR_VAR_1, SPECIES_KECLEON
 	msgbox LilycoveCity_PokemonCenter_1F_Text_Kecleon, MSGBOX_DEFAULT
 	waitmoncry
 	release

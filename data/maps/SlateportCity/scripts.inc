@@ -940,13 +940,13 @@ SlateportCity_Text_OhYourPokemon:
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
 	.string "הוא עשה זאת נהדר!\p"
 	.string "בתור פרס, בבקשה תביא{ADD_YUD} לו את\n"
-	.string "עיטור המאמץ.$"
+	.string "סרט המאמץ.$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
-	.string "{PLAYER} קיבל{ADD_HEY} את עיטור המאמץ.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את סרט המאמץ.$"
 
 SlateportCity_Text_PutEffortRibbonOnMon:
-	.string "{PLAYER} ש{SWAP_MEM}{ADD_HEY} את עיטור המאמץ\n"
+	.string "{PLAYER} ש{SWAP_MEM}{ADD_HEY} את סרט המאמץ\n"
 	.string "ב{STR_VAR_1}.$"
 
 SlateportCity_Text_GoForItLittleHarder:
@@ -955,7 +955,7 @@ SlateportCity_Text_GoForItLittleHarder:
 	.string "משהו נחמד.$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-	.string "או! ה{STR_VAR_1} שלך, עיטור\n"
+	.string "או! ה{STR_VAR_1} שלך, סרט\n"
 	.string "המאמץ נראה טוב עליו!$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:

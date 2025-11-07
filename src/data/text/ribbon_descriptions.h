@@ -1,4 +1,4 @@
-const u8 gRibbonDescriptionPart1_Champion[] = _("תבוסת האלופים, עיטור");
+const u8 gRibbonDescriptionPart1_Champion[] = _("תבוסת האלופים, סרט");
 const u8 gRibbonDescriptionPart2_Champion[] = _("היכל התהילה");
 const u8 gRibbonDescriptionPart1_CoolContest[] = _("תחרות מגניבות");
 const u8 gRibbonDescriptionPart1_BeautyContest[] = _("תחרות יופי");
@@ -13,9 +13,9 @@ const u8 gRibbonDescriptionPart1_Winning[] = _("עבור השלמת רמה 05");
 const u8 gRibbonDescriptionPart2_Winning[] = _("במגדל הקרב.");
 const u8 gRibbonDescriptionPart1_Victory[] = _("עבור השלמת רמה פתוחה");
 const u8 gRibbonDescriptionPart2_Victory[] = _("במגדל הקרב.");
-const u8 gRibbonDescriptionPart1_Artist[] = _("עיטור עבור בחירתך");
+const u8 gRibbonDescriptionPart1_Artist[] = _("סרט עבור בחירתך");
 const u8 gRibbonDescriptionPart2_Artist[] = _("כמודל סקיצת על.");
-const u8 gRibbonDescriptionPart1_Effort[] = _("עיטור מוענק עבור");
+const u8 gRibbonDescriptionPart1_Effort[] = _("סרט מוענק עבור");
 const u8 gRibbonDescriptionPart2_Effort[] = _("עובד חרוץ.");
 
 const u8 *const gRibbonDescriptionPointers[][2] =

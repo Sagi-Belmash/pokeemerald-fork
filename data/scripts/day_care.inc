@@ -271,46 +271,45 @@ EventScript_EggHatch::
 	end
 
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon:
-	.string "I'm the DAY-CARE MAN.\p"
-	.string "I help take care of the precious\n"
-	.string "POKéMON of TRAINERS.\p"
-	.string "If you'd like me to raise your POKéMON,\n"
-	.string "have a word with my wife.$"
+	.string "אני איש המעון.\p"
+	.string "אני עוזר לטפל בפוקימונים\n"
+	.string "היקרים של מאמנים.\p"
+	.string "אם תרצ{EMIT_HEY}{ADD_YUD} שאגדל את הפוקימון שלך,\n"
+	.string "דבר{ADD_YUD} עם אשתי.$"
 
 Route117_Text_DoYouWantEgg:
-	.string "Ah, it's you!\p"
-	.string "We were raising your POKéMON,\n"
-	.string "and my goodness, were we surprised!\p"
-	.string "Your POKéMON had an EGG!\p"
-	.string "We don't know how it got there,\n"
-	.string "but your POKéMON had it.\p"
-	.string "You do want it, yes?$"
+	.string "אה, זה את{EMIT_HEY}!\p"
+	.string "גידלנו את הפוקימונים שלך,\n"
+	.string "ולטובתנו, הופתענו!\p"
+	.string "לפוקימונים שלך יש ביצה!\p"
+	.string "אנחנו לא יודעים איך היא הגיעה לשם,\n"
+	.string "אבל לפוקימונים שלך יש אותה.\p"
+	.string "את{EMIT_HEY} רוצה אותה, נכון?$"
 
 Route117_Text_YourMonIsDoingFine:
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your {STR_VAR_1}'s doing fine.$"
+	.string "אה, זה את{EMIT_HEY}! טוב לראות אותך.\n"
+	.string "ה{STR_VAR_1} שלך מסתדר מצוין.$"
 
 Route117_Text_IllKeepIt:
-	.string "Well then, I'll keep it.\n"
-	.string "Thanks!$"
+	.string "אם כך, אשמור אותה.\n"
+	.string "תודה!$"
 
 Route117_Text_YouHaveNoRoomForIt:
-	.string "You have no room for it…\n"
-	.string "Come back when you've made room.$"
+	.string "אין לך מקום בשבילה…\n"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} כשתפנ{EMIT_HEY}{ADD_YUD} מקום.$"
 
 Route117_Text_ReceivedEgg:
-	.string "{PLAYER} received the EGG from\n"
-	.string "the DAY-CARE MAN.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את הביצה\n"
+	.string "מאיש המעון.$"
 
 Route117_Text_TakeGoodCareOfIt:
-	.string "Take good care of it.$"
+	.string "טפל{ADD_YUD} בה היטב.$"
 
 Route117_Text_FriendlyWithOtherTrainersMon:
-	.string "By the way, about your {STR_VAR_1},\n"
-	.string "it seemed to be friendly with\l"
-	.string "{STR_VAR_2}'s {STR_VAR_3}.\p"
-	.string "I may even have seen it receiving\n"
-	.string "a piece of MAIL.$"
+	.string "דרך אגב, ה{STR_VAR_1} שלך,\n"
+	.string "נראה ידידותי ל{STR_VAR_3} של {STR_VAR_2}.\p"
+	.string "יכול להיות שאפילו ראיתי אותו מקבל\n"
+	.string "דואר.$"
 
 @ Unused
 Route117_Text_SeeWifeIfYouWantToPickUpMon:
@@ -318,97 +317,96 @@ Route117_Text_SeeWifeIfYouWantToPickUpMon:
 	.string "have a word with my wife.$"
 
 Route117_Text_YourMonsAreDoingFine:
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} are doing fine.$"
+	.string "אה, זה את{EMIT_HEY}! ה{STR_VAR_1} שלך\n"
+	.string "ו{STR_VAR_2} מסתדרים מצויין.$"
 
 Route117_Text_IWillKeepDoYouWantIt:
-	.string "I really will keep it.\n"
-	.string "You do want this, yes?$"
+	.string "אני באמת אשמור אותה.\n"
+	.string "את{EMIT_HEY} באמת רוצה את זה, כן?$"
 
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise POKéMON for you.\p"
-	.string "Would you like us to raise one?$"
+	.string "אני גברת המעון.\p"
+	.string "אנחנו יכולים לגדל עבורך פוקימונים.\p"
+	.string "תרצ{EMIT_HEY}{ADD_YUD} שנגדל אחד?$"
 
 Route117_PokemonDayCare_Text_WhichMonShouldWeRaise:
-	.string "Which POKéMON should we raise for\n"
-	.string "you?$"
+	.string "איזה פוקימון תרצ{EMIT_HEY}{ADD_YUD} שנגדל\n"
+	.string "עבורך?$"
 
 Route117_PokemonDayCare_Text_WellRaiseYourMon:
-	.string "Fine, we'll raise your {STR_VAR_1}\n"
-	.string "for a while.\p"
-	.string "Come back for it later.$"
+	.string "בסדר, אנחנו נגדל את ה{STR_VAR_1} שלך\n"
+	.string "לזמן מה.\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} אליו מאוחר יותר.$"
 
 Route117_PokemonDayCare_Text_WeCanRaiseOneMore:
-	.string "We can raise two of your POKéMON.\n"
-	.string "Would you like us to raise one more?$"
+	.string "אנחנו יכולים לגדל שניים מהפוקימונים שלך.\n"
+	.string "תרצ{EMIT_HEY}{ADD_YUD} שנגדל עוד אחד?$"
 
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou:
-	.string "My husband was looking for you.$"
+	.string "בעלי חיפש אותך.$"
 
 Route117_PokemonDayCare_Text_FineThenComeAgain:
-	.string "Oh, fine, then.\n"
-	.string "Come again.$"
+	.string "או, בסדר, אם כך.\n"
+	.string "בוא{ADD_YUD} שוב.$"
 
 Route117_PokemonDayCare_Text_NotEnoughMoney:
-	.string "You don't have enough money…$"
+	.string "אין לך מספיק כסף…$"
 
 Route117_PokemonDayCare_Text_TakeOtherOneBackToo:
-	.string "Will you take back the other one,\n"
-	.string "too?$"
+	.string "האם תקח{ADD_YUD} בחזרה גם את השני?$"
 
 Route117_PokemonDayCare_Text_ComeAgain:
-	.string "Fine.\n"
-	.string "Come again.$"
+	.string "בסדר.\n"
+	.string "בוא{ADD_YUD} שוב.$"
 
 Route117_PokemonDayCare_Text_GoodToSeeYou:
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your POKéMON can only be doing good!$"
+	.string "אה, זה את{EMIT_HEY}! טוב לראות אותך.\n"
+	.string "הפוקימונים שלך רק מסתדרים מצויין!$"
 
 Route117_PokemonDayCare_Text_YourMonHasGrownXLevels:
-	.string "By level, your {STR_VAR_1} has\n"
-	.string "grown by {STR_VAR_2}.$"
+	.string "מבחינת רמה, ה{STR_VAR_1} שלך\n"
+	.string "גדל ב-{STR_VAR_2}.$"
 
 Route117_PokemonDayCare_Text_YourTeamIsFull:
-	.string "Your POKéMON team is full.\n"
-	.string "Make room, then come see me.$"
+	.string "צוות הפוקימונים שלך מלא.\n"
+	.string "פנ{EMIT_HEY}{ADD_YUD} מקום, ואז בוא{ADD_YUD} לראות אותי.$"
 
 @ Unused
 Route117_PokemonDayCare_Text_TakeBackWhichMon:
 	.string "Which POKéMON will you take back?$"
 
 Route117_PokemonDayCare_Text_ItWillCostX:
-	.string "If you want your {STR_VAR_1} back,\n"
-	.string "it will cost ¥{STR_VAR_2}.$"
+	.string "אם את{EMIT_HEY} רוצה את {STR_VAR_1} שלך בחזרה,\n"
+	.string "זה יעלה {STR_VAR_2}¥.$"
 
 Route117_PokemonDayCare_Text_HeresYourMon:
-	.string "Perfect!\n"
-	.string "Here's your POKéMON.$"
+	.string "מצויין!\n"
+	.string "הנה הפוקימון שלך.$"
 
 Route117_PokemonDayCare_Text_TookBackMon:
-	.string "{PLAYER} took back {STR_VAR_1} from\n"
-	.string "the DAY-CARE LADY.$"
+	.string "{PLAYER} לקח{ADD_HEY} בחזרה את {STR_VAR_1}\n"
+	.string "מגברת המעון.$"
 
 Route117_PokemonDayCare_Text_YouHaveJustOneMon:
-	.string "Oh? But you have just one\n"
-	.string "POKéMON.\p"
-	.string "Come back another time.$"
+	.string "או? אבל יש לך רק פוקימון\n"
+	.string "אחד.\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} בפעם אחרת.$"
 
 Route117_PokemonDayCare_Text_TakeYourMonBack:
-	.string "Will you take your POKéMON back?$"
+	.string "האם תקח{ADD_YUD} את הפוקימון שלך בחזרה?$"
 
 Route117_PokemonDayCare_Text_WhatWillYouBattleWith:
-	.string "If you leave me that POKéMON,\n"
-	.string "what will you battle with?\p"
-	.string "Come back another time.$"
+	.string "אם תשאיר לי את הפוקימון הזה,\n"
+	.string "עם מה תילח{SWAP_MEM}{ADD_YUD}?\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} בפעם אחרת.$"
 
 Text_EggHatchHuh:
-	.string "Huh?$"
+	.string "הא?$"
 
 Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
-	.string "Huh?\n"
-	.string "Now, now.\p"
-	.string "If you leave that POKéMON with\n"
-	.string "me, you'll be left with just one.\p"
-	.string "You will be better off if you catch\n"
-	.string "some more, I dare say.$"
+	.string "הא?\n"
+	.string "רגע, רגע.\p"
+	.string "אם תשאיר{ADD_YUD} את הפוקימון הזה איתי,\n"
+	.string "את{EMIT_HEY} תישאר{ADD_YUD} עם רק אחד.\p"
+	.string "יהיה לך עדיף אם תתפ{EMIT_VAV}ס{ADD_YUD}\n"
+	.string "עוד כמה, אני חייבת לומר.$"

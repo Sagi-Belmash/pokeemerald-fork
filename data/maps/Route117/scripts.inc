@@ -179,7 +179,7 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_DayCarePokemonHadNewMove:
-	.string "השארתי את הפוקימון שלי במעון יום.\p"
+	.string "השארתי את הפוקימון שלי במעון.\p"
 	.string "כשקיבלתי אותו בחזרה, היה לו מהלך\n"
 	.string "חדש שלא לימדתי אותו.\l"
 	.string "הייתי ממש ממש מופעת.$"
@@ -201,6 +201,6 @@ Route117_Text_RouteSignMauville:
 	.string "{RIGHT_ARROW} עיר מוויל$"
 
 Route117_Text_DayCareSign:
-	.string "מעון יום של פוקימון\n"
+	.string "מעון של פוקימון\n"
 	.string "”תנו לנו לגדל את הפוקימון שלכם.“$"
 

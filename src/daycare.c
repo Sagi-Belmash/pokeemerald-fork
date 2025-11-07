@@ -306,6 +306,7 @@ static u8 GetNumLevelsGainedForDaycareMon(struct DaycareMon *daycareMon)
 {
     u8 numLevelsGained = GetNumLevelsGainedFromSteps(daycareMon);
     ConvertIntToDecimalStringN(gStringVar2, numLevelsGained, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ReverseNumeric(gStringVar2);
     GetBoxMonNickname(&daycareMon->mon, gStringVar1);
     return numLevelsGained;
 }
@@ -318,6 +319,7 @@ static u32 GetDaycareCostForSelectedMon(struct DaycareMon *daycareMon)
     GetBoxMonNickname(&daycareMon->mon, gStringVar1);
     cost = 100 + 100 * numLevelsGained;
     ConvertIntToDecimalStringN(gStringVar2, cost, STR_CONV_MODE_LEFT_ALIGN, 5);
+    ReverseNumeric(gStringVar2);
     return cost;
 }
 

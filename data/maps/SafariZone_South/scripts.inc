@@ -142,6 +142,7 @@ SafariZone_Northeast_EventScript_Boy::
 	end
 
 SafariZone_Northeast_EventScript_Woman::
+	bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
 	msgbox SafariZone_Northeast_Text_Woman, MSGBOX_NPC
 	end
 

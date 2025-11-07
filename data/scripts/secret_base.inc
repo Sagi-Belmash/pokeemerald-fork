@@ -672,7 +672,7 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-.string "כל הקישוטים והרהיטים בבסיס\n"
+	.string "כל הקישוטים והרהיטים בבסיס\n"
 	.string "הסודי שלך יוחזרו למחשב.\p"
 	.string "האם זה בסדר?$ "
 

@@ -200,7 +200,7 @@ const u8 gText_MatchCallTriathlete_Dylan_Intro2[] = _("הופך לאחד עם ה
 
 const u8 gText_MatchCallTriathlete_Katelyn_Strategy[] = _("התקפה בכל הכוח!");
 const u8 gText_MatchCallTriathlete_Katelyn_Pokemon[] = _("פוקימוני מים שולטים!");
-const u8 gText_MatchCallTriathlete_Katelyn_Intro1[] = _("אני חייבת לשחות מעל 10 ק\"מ");
+const u8 gText_MatchCallTriathlete_Katelyn_Intro1[] = _("אני חייבת לשחות מעל 01 ק”מ");
 const u8 gText_MatchCallTriathlete_Katelyn_Intro2[] = _("כל יום.");
 
 const u8 gText_MatchCallTriathlete_Benjamin_Strategy[] = _("לדחוף ולדחוף שוב!");
@@ -373,7 +373,6 @@ const u8 gText_MatchCallEliteFour_Phoebe_Pokemon[] = _("אין שום דבר מ�
 const u8 gText_MatchCallEliteFour_Phoebe_Intro1[] = _("מעניין מה שלום סבתא שלי");
 const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("בהר המוקד?");
 
-CSS
 const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("אני משתמשת בפריטים לעזרה.");
 const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("תשוקה בוערת בקור מקפיא!");
 const u8 gText_MatchCallEliteFour_Glacia_Intro1[] = _("את סוג הקרח אפשר לאמן");

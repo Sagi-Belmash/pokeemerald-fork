@@ -1,85 +1,85 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
-	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "מאסטר הערבוב: אכן כן!\n"
+	.string "אני הוא מאסטר הערבוב!\p"
+	.string "ערבב איתי, ותזכה לחזות\n"
+	.string "במיומנות שאני מביא לערבוב!$"
 
 BerryBlender_Text_SeeMyMasteryInAction:
-	.string "BLEND MASTER: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "מאסטר הערבוב: הממם! אז, ברצונך\n"
+	.string "לראות את המיומנות שלי בפעולה?$"
 
 BerryBlender_Text_TooBusyNowIsee:
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "המממ!\p"
+	.string "אז, את{EMIT_HEY} עסוק{ADD_HEY} מדי עכשיו, אני רואה!\p"
+	.string "אך אל חשש!\n"
+	.string "אני אהיה כאן כל היום!\l"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} מהר מהסידורים שלך!$"
 
 BerryBlender_Text_BlendMasterNoBerries:
-	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some BERRIES!$"
+	.string "המממ!\p"
+	.string "אין לך אפילו פרי יער אחד!\p"
+	.string "אני אהיה כאן כל היום!\n"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} מהר מהסידורים שלך!$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from BERRIES?$"
+	.string "כמובן!\n"
+	.string "כמובן!\p"
+	.string "דרך אגב…\n"
+	.string "את{EMIT_HEY} כן יודע{ADD_TAF} איך לערבב פוקיגושים\l"
+	.string "מפירות יער?$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "המממ!\p"
+	.string "אה, אבל זהו תהליך פשוט!\p"
+	.string "כאשר החץ של המערבב מגיע,\n"
+	.string "פשוט לח{SWAP_TZADIK}{ADD_YUD} על הכפתור A.\p"
+	.string "זה כל מה שעליך לעשות.\p"
+	.string "כשתרא{EMIT_HEY}{ADD_YUD} באיזו דייקנות אני לוחץ\n"
+	.string "על הכפתור A, את{EMIT_HEY} תבי{SWAP_NUN}{ADD_YUD}.$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "בסדר!\p"
+	.string "בוא{ADD_YUD} נתחיל, אם כך!\p"
+	.string "כולם יחד עם מאסטר הערבוב,\n"
+	.string "בואו נערבב פירות יער!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
-	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "המממ!\p"
+	.string "לא נראה שקיבלת את\n"
+	.string "קופסת הפוקיגוש!\p"
+	.string "אני אהיה כאן כל היום!\n"
+	.string "הש{ADD_YUD}ג{ADD_YUD} את קופסת הפוקיגוש וחז{EMIT_VAV}ר{ADD_YUD} מהר!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "המממ!\p"
+	.string "קופסת הפוקיגוש שלא נראית מלאה!\p"
+	.string "אני אהיה כאן כל היום!\n"
+	.string "השתמש{ADD_YUD} בכמה פוקיגושים וחז{EMIT_VAV}ר{ADD_YUD} מהר!$"
 
 BerryBlender_Text_WhoaAwesome:
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "וואה!\n"
+	.string "אדיר!$"
 
 BerryBlender_Text_WickedlyFast:
-	.string "Wickedly fast!$"
+	.string "מהיר בטירוף!$"
 
 BerryBlender_Text_WhatAnExpert:
-	.string "What an expert!$"
+	.string "איזה מומח{EMIT_HEY}{ADD_YUD}{ADD_TAF}!$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the MASTER,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "כשאני ערבבתי את המאסטר,\n"
+	.string "הכנו פוקיגושים מדהימים!$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the BLEND MASTER truly great.$"
+	.string "עיניים שעוקבות אחר החץ\n"
+	.string "בעצימות של מכונה…\p"
+	.string "יד שלוחצת על כפתור A\n"
+	.string "בדיוק של שעון…\p"
+	.string "היכולת להחזיק בתכונות אלו הופכת\n"
+	.string "את מאסטר הערבוב לגדול באמת.$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend BERRIES all day long.$"
+	.string "מאסטר הערבוב אמור לעבוד\n"
+	.string "על כישוריו עמוק בהרים.\p"
+	.string "לפעמים, הוא מגיע לליליקוב\n"
+	.string "כדי לערבב פירות יער כל היום.$"

@@ -2453,7 +2453,7 @@ static u32 Cmd_AskPickBerry(struct BerryCrushGame *game, u8 *args)
         break;
     case 0:
         ResetGame(game);
-        SetPrintMessageArgs(args, MSG_PICK_BERRY, F_MSG_CLEAR, 0, 1);
+        SetPrintMessageArgs(args, MSG_PICK_BERRY, F_MSG_EXPAND, 0, 1);
         game->nextCmd = CMD_ASK_PICK_BERRY;
         RunOrScheduleCommand(CMD_PRINT_MSG, SCHEDULE_CMD, NULL);
         break;

@@ -87,63 +87,63 @@ MauvilleCity_PokemonCenter_1F_EventScript_TeachWord::
 
 @ Trader
 MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor:
-	.string "Hi, I'm the TRADER.\n"
-	.string "Want to trade decorations with me?$"
+	.string "הי, אני הסוחר.\n"
+	.string "רוצה להחליף קישוטים איתי?$"
 
 MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "או…\n"
+	.string "השארת אותי מדוכדך…$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeveAlreadyTraded:
-	.string "But we've traded decorations already,\n"
-	.string "you and I.$"
+	.string "אבל החלפנו קישוטים כבר,\n"
+	.string "אני ואת{EMIT_HEY}.$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickADecorItem:
-	.string "If you see any decorative item that\n"
-	.string "you want of mine, speak up.$"
+	.string "אם תרא{EMIT_HEY}{ADD_YUD} פריט קישוט שלי\n"
+	.string "שתרצ{EMIT_HEY}{ADD_YUD}, תגיד{ADD_YUD}.$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything:
-	.string "You don't want anything?\n"
-	.string "I feel unwanted…$"
+	.string "את{EMIT_HEY} לא רוצה כלום?\n"
+	.string "אני מרגיש לא רצוי…$"
 
 MauvilleCity_PokemonCenter_1F_Text_OnceBelongedToPlayerDoYouWantIt:
-	.string "That decorative item once belonged\n"
-	.string "to {STR_VAR_1}.\p"
-	.string "Do you want it?$"
+	.string "הפריט קישוט הזה היה שייך פעם\n"
+	.string "ל{STR_VAR_1}.\p"
+	.string "את{EMIT_HEY} רוצה אותו?$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontHaveAnyDecor:
-	.string "Uh… Wait a second. You don't have a\n"
-	.string "single piece of decoration!$"
+	.string "אה… חכ{EMIT_HEY}{ADD_YUD} שנייה. אין לך\n"
+	.string "אף פריט קישוט!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickTheDecorToTrade:
-	.string "Okay, pick the decoration that you'll\n"
-	.string "trade to me.$"
+	.string "אוקיי, בחר{ADD_YUD} את הקישוט\n"
+	.string "שתחלי{SWAP_PEY}{ADD_YUD} איתי.$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantToTrade:
-	.string "You won't trade with me?\n"
-	.string "I feel unwanted…$"
+	.string "את{EMIT_HEY} לא תחלי{SWAP_PEY}{ADD_YUD} איתי?\n"
+	.string "אני מרגיש לא רצוי…$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouveNoRoomForThis:
-	.string "You've got all the {STR_VAR_2}S that can\n"
-	.string "be stored. You've no room for this.$"
+	.string "יש לך את כל ה{STR_VAR_2}ים שניתן\n"
+	.string "לאחסן. אין לך מקום לזה.$"
 
 MauvilleCity_PokemonCenter_1F_Text_SoWellTradeTheseDecor:
-	.string "Okay, so we'll trade my {STR_VAR_3}\n"
-	.string "for your {STR_VAR_2}?$"
+	.string "אוקיי, אז נחליף את ה{STR_VAR_3}\n"
+	.string "שלי עבור ה{STR_VAR_2} שלך?$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatDecorIsInUse:
-	.string "That piece of decoration is in use.\n"
-	.string "You can't trade it.$"
+	.string "הפריט קישוט הזה בשימוש.\n"
+	.string "את{EMIT_HEY} לא יכול{ADD_HEY} להחליף אותו.$"
 
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC:
-	.string "Then we'll trade!\n"
-	.string "I'll send my decoration to your PC.$"
+	.string "אז נחליף!\n"
+	.string "אני אשלח את הקישוט שלי למחשב שלך.$"
 
 MauvilleCity_PokemonCenter_1F_Text_CantTradeThatOne:
-	.string "Oops! Sorry! That's a really rare\n"
-	.string "piece of decoration.\l"
-	.string "I can't trade that one away!\p"
-	.string "Can I interest you in something else?$"
+	.string "אופס! סליחה! זה ממש פריט\n"
+	.string "קישוט נדיר.\l"
+	.string "אני לא יכול להחליף אותו!\p"
+	.string "את{EMIT_HEY} מעוניי{SWAP_NUN}{ADD_TAF} במשהו אחר?$"
 
 MauvilleCity_PokemonCenter_1F_EventScript_Trader::
 	lock
@@ -233,14 +233,14 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor::
 
 @ Storyteller
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
-	.string "I'm the STORYTELLER.\n"
-	.string "I'll tell you tales of legendary\l"
-	.string "TRAINERS.\p"
-	.string "Will you hear my tale?$"
+	.string "אני המספר.\n"
+	.string "אני אספר לך על מאמנים\l"
+	.string "אגדיים.\p"
+	.string "האם תשמע{ADD_YUD} את סיפורי?$"
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues:
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "או…\n"
+	.string "השארת אותי מדוכדך…$"
 
 MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
 	.string "I know of these legends.\n"
@@ -970,7 +970,7 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 	.string "I've got nothing new to teach you!$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
-	.string "Hey, have you heard about\n"
-	.string "“{STR_VAR_1}”?\p"
-	.string "What's it mean? Well…\n"
-	.string "Ask your daddy or mommy, okay?$"
+	.string "היי, שמעת על\n"
+	.string "”{STR_VAR_1}“?\p"
+	.string "מה המשמעות? ובכן…\n"
+	.string "תשאל{ADD_YUD} את אבא או אמא שלך, אוקיי?$"

@@ -1,108 +1,108 @@
 @ Battle Tower
 gText_AnabelWonSilver::
-	.string "It's very disappointing…$"
+	.string "זה מאוד מאכזב…$"
 
 gText_AnabelDefeatSilver::
-	.string "Okay, I understand…$"
+	.string "אוקיי, אני מבינה…$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "אני מאוד מצטערת…$"
 
 gText_AnabelDefeatGold::
-	.string "Thank you…$"
+	.string "תודה לך…$"
 
 @ Battle Dome
 gText_TuckerWonSilver::
-	.string "Ahahaha! Aren't you embarrassed?\n"
-	.string "Everyone's watching!$"
+	.string "אהאהאהא! את{EMIT_HEY} לא מוב{SWAP_CHAF}{ADD_TAF}?\n"
+	.string "כולם צופים!$"
 
 gText_TuckerDefeatSilver::
-	.string "Grr…\n"
-	.string "What the…$"
+	.string "גרר…\n"
+	.string "מה לע…$"
 
 gText_TuckerWonGold::
-	.string "My DOME ACE title isn't just for show!$"
+	.string "התואר אלוף הכיפה הוא לא רק בשביל היופי!$"
 
 gText_TuckerDefeatGold::
-	.string "Ahahaha!\n"
-	.string "You're inspiring!$"
+	.string "אהאהאהא!\n"
+	.string "את{EMIT_HEY} נות{SWAP_NUN}{ADD_TAF} השראה!$"
 
 @ Battle Factory
 gText_NolandWonSilver::
-	.string "Way to work!\n"
-	.string "That was a good lesson, eh?$"
+	.string "עבדת יפה!\n"
+	.string "זה היה שיעור טוב, הא?$"
 
 gText_NolandDefeatSilver::
-	.string "Good job!\n"
-	.string "You know what you're doing!$"
+	.string "עבודה טובה!\n"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} מה את{EMIT_HEY} עושה!$"
 
 gText_NolandWonGold::
-	.string "Hey, hey, hey!\n"
-	.string "You're finished already?$"
+	.string "היי, היי, היי!\n"
+	.string "כבר סיימת?$"
 
 gText_NolandDefeatGold::
-	.string "What happened here?$"
+	.string "מה קרה כאן?$"
 
 @ Battle Pike
 gText_LucyWonSilver::
-	.string "Humph…$"
+	.string "המף…$"
 
 gText_LucyDefeatSilver::
-	.string "Urk…$"
+	.string "אוך…$"
 
 gText_LucyWonGold::
-	.string "Hah!$"
+	.string "הא!$"
 
 gText_LucyDefeatGold::
-	.string "Darn!$"
+	.string "לעזאזל!$"
 
 @ Battle Arena
 gText_GretaWonSilver::
-	.string "Oh, come on!\n"
-	.string "You have to try harder than that!$"
+	.string "או, בחייאת!\n"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} להתאמץ יותר מזה!$"
 
 gText_GretaDefeatSilver::
-	.string "No way!\n"
-	.string "Good job!$"
+	.string "אין מצב!\n"
+	.string "עבודה טובה!$"
 
 gText_GretaWonGold::
-	.string "Heheh!\n"
-	.string "What did you expect?$"
+	.string "חהחהחה!\n"
+	.string "מה ציפית?$"
 
 gText_GretaDefeatGold::
-	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "הא?\n"
+	.string "את{EMIT_HEY} רציני{ADD_TAF}?!$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+	.string "הפוקימונים שלך חלשים כי\n"
+	.string "את{EMIT_HEY} חלש{ADD_HEY} כמאמ{SWAP_NUN}{ADD_TAF}!$"
 
 gText_SpenserDefeatSilver::
-	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "אה…\n"
+	.string "עכשיו זה משהו אחר…$"
 
 gText_SpenserWonGold::
-	.string "Gwahahaha!\n"
-	.string "My brethren, we have nothing to fear!$"
+	.string "גוואהאהאהא!\n"
+	.string "אחיי, אין לנו ממה לפחד!$"
 
 gText_SpenserDefeatGold::
-	.string "Gwah!\n"
-	.string "Hahahaha!$"
+	.string "גוואה!\n"
+	.string "האהאהאהא!$"
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Hey! What's wrong with you!\n"
-	.string "Let's see some effort! Get up!$"
+	.string "היי! מה לא בסדר איתך!\n"
+	.string "בוא{ADD_YUD} נראה קצת מאמץ! תקו{SWAP_MEM}{ADD_YUD}!$"
 
 gText_BrandonDefeatSilver::
-	.string "That's it! You've done great!\n"
-	.string "You've worked hard for this!$"
+	.string זהו זה! היית נהדר{ADD_TAF}!\n"
+	.string "עבדת קשה בשביל זה!$"
 
 gText_BrandonWonGold::
-	.string "Hey! Don't you give up now!\n"
-	.string "Get up! Don't lose faith in yourself!$"
+	.string "היי! אל תוותר{ADD_YUD} עכשיו!\n"
+	.string "קו{SWAP_MEM}{ADD_YUD}! אל תאבד{ADD_YUD} אמונה בעצמך!$"
 
 gText_BrandonDefeatGold::
-	.string "That's it! You've done it!\n"
-	.string "You kept working for this!$"
+	.string "זהו זה! עשית את זה!\n"
+	.string "המשכת לעבוד בשביל זה!$"

@@ -11,7 +11,7 @@ EventTicket_Text_ThatPass:
 	.string "ההיתר הזה…$"
 
 EventTicket_Text_ShowEonTicket:
-	.string "איי, חבר{ADD_HEY}, את{EMIT_HEY} זה שהבאת אתt\n"
+	.string "איי, חבר{ADD_HEY}, את{EMIT_HEY} שהבאת אתt\n"
 	.string "ההיתר המוזר והאדיר הזה?\p"
 	.string "אני אגיד לך, את{EMIT_HEY} מנסה להגיע\n"
 	.string "לאי קטנטן הרחק בדרום.\p"

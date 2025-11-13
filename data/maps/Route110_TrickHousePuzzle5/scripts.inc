@@ -305,6 +305,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll5Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz1::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_ODDISH
+	bufferspeciesname STR_VAR_2, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_3, SPECIES_TAILLOW
 	multichoice 0, 0, MULTI_MECHADOLL1_Q1, TRUE
 	switch VAR_RESULT
 	case 2, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -313,6 +316,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz1::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_AZURILL
+	bufferspeciesname STR_VAR_2, SPECIES_LOTAD
+	bufferspeciesname STR_VAR_3, SPECIES_WINGULL
 	multichoice 0, 0, MULTI_MECHADOLL1_Q2, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -321,6 +327,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_DISTOX
+	bufferspeciesname STR_VAR_2, SPECIES_ZUBAT
+	bufferspeciesname STR_VAR_3, SPECIES_NINCADA
 	multichoice 0, 0, MULTI_MECHADOLL1_Q3, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -329,6 +338,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz1::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_RALTS
+	bufferspeciesname STR_VAR_2, SPECIES_ZIGZAGOON
+	bufferspeciesname STR_VAR_3, SPECIES_SLAKOTH
 	multichoice 0, 0, MULTI_MECHADOLL2_Q1, TRUE
 	switch VAR_RESULT
 	case 1, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -337,6 +349,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz1::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz2::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_2, SPECIES_SHROOMISH
+	bufferspeciesname STR_VAR_3, SPECIES_ZIGZAGOON
 	multichoice 0, 0, MULTI_MECHADOLL2_Q2, TRUE
 	switch VAR_RESULT
 	case 2, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -345,6 +360,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_2, SPECIES_ZUBAT
+	bufferspeciesname STR_VAR_3, SPECIES_CARVANHA
 	multichoice 0, 0, MULTI_MECHADOLL2_Q3, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer

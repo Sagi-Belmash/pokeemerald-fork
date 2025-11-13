@@ -1,104 +1,104 @@
 gTrickHouse_Mechadoll_Oddish::
-	.string "ODDISH$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Poochyena::
-	.string "POOCHYENA$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Taillow::
-	.string "TAILLOW$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_Azurill::
-	.string "AZURILL$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Lotad::
-	.string "LOTAD$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Wingull::
-	.string "WINGULL$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_Dustox::
-	.string "DUSTOX$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Zubat::
-	.string "ZUBAT$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Nincada::
-	.string "NINCADA$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_Ralts::
-	.string "RALTS$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Zigzagoon::
-	.string "ZIGZAGOON$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Slakoth::
-	.string "SLAKOTH$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_Poochyena2::
-	.string "POOCHYENA$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Shroomish::
-	.string "SHROOMISH$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Zigzagoon2::
-	.string "ZIGZAGOON$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_Poochyena3::
-	.string "POOCHYENA$"
+	.string "{STR_VAR_1}$"
 
 gTrickHouse_Mechadoll_Zubat2::
-	.string "ZUBAT$"
+	.string "{STR_VAR_2}$"
 
 gTrickHouse_Mechadoll_Carvanha::
-	.string "CARVANHA$"
+	.string "{STR_VAR_3}$"
 
 gTrickHouse_Mechadoll_BurnHeal::
-	.string "BURN HEAL$"
+	.string "ריפוי כויה$"
 
 gTrickHouse_Mechadoll_HarborMail::
-	.string "HARBOR MAIL$"
+	.string "דואר נמל$"
 
 gTrickHouse_Mechadoll_SamePrice::
-	.string "Same price$"
+	.string "אותו מחיר$"
 
 gTrickHouse_Mechadoll_60Yen::
-	.string "¥60$"
+	.string "06¥$"
 
 gTrickHouse_Mechadoll_55Yen::
-	.string "¥55$"
+	.string "55¥$"
 
 gTrickHouse_Mechadoll_Nothing::
-	.string "Nothing$"
+	.string "כלום$"
 
 gTrickHouse_Mechadoll_CostMore::
-	.string "They will cost more.$"
+	.string "הם יעלו יותר.$"
 
 gTrickHouse_Mechadoll_CostLess::
-	.string "They will cost less.$"
+	.string "הם יעלו פחות.$"
 
 gTrickHouse_Mechadoll_SamePrice2::
-	.string "Same price$"
+	.string "אותו מחיר$"
 
 gTrickHouse_Mechadoll_Male::
-	.string "Male$"
+	.string "זכר$"
 
 gTrickHouse_Mechadoll_Female::
-	.string "Female$"
+	.string "נקבה$"
 
 gTrickHouse_Mechadoll_Neither::
-	.string "Neither$"
+	.string "אף אחד מהם$"
 
 gTrickHouse_Mechadoll_ElderlyMen::
-	.string "Elderly men$"
+	.string "גברים זקנים$"
 
 gTrickHouse_Mechadoll_ElderlyLadies::
-	.string "Elderly ladies$"
+	.string "נשים זקנות$"
 
 gTrickHouse_Mechadoll_SameNumber::
-	.string "Same number$"
+	.string "אותו מספר$"
 
 gTrickHouse_Mechadoll_None::
-	.string "None$"
+	.string "כלום$"
 
 gTrickHouse_Mechadoll_One::
 	.string "1$"

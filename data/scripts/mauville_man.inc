@@ -593,199 +593,199 @@ MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
 	.string "פירות יער!$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle::
-	.string "The CONTEST-Loving TRAINER$"
+	.string "המאמן שאוהב תחרויות$"  
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction::
-	.string "Entered CONTESTS$"
+	.string "השתתף בתחרויות$"  
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER entered CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love showing off\n"
-	.string "POKéMON to others!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה נכנס לתחרויות\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח אוהב להראות\n"  
+	.string "את הפוקימונים שלו לאחרים!$"  
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
-	.string "The CONTEST Master$"
+	.string "מאסטר התחרויות$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "Won CONTESTS$"
+	.string "ניצח בתחרויות$"  
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be an incredible\n"
-	.string "CONTEST master!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה ניצח בתחרויות\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} הוא מאסטר תחרויות\n"  
+	.string "מדהים!$"  
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle::
-	.string "The Happy Shopper$"
+	.string "הקונה השמח$"  
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedAction::
-	.string "Shopped$"
+	.string "קנה$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bought items in shops\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be one of those\n"
-	.string "people who are born to shop.$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה קנה פריטים בחנויות\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח אחד מהאלה\n"
+	.string "שנולדו לקנות.$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
-	.string "The Item-Finding TRAINER$"
+	.string "המאמן שמוצא פריטים$"  
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "Used an ITEMFINDER$"
+	.string "השתמש במאתר פריט$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used an ITEMFINDER\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must enjoy scouring the\n"
-	.string "ground for hidden items!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה השתמש במאתר פריט\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} נהנה לסרוק את האדמה\n"  
+	.string "ולמצוא פריטים חבויים!$"  
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedTitle::
-	.string "The Rain-Soaked TRAINER$"
+	.string "המאמן הספוג מהגשם$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction::
-	.string "Got rained on$"
+	.string "נרטב$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got soaked by rain\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3}'s charisma must even\n"
-	.string "attract rain!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה נספג בגשם\n"
+	.string "{STR_VAR_1} פעמים!\p"
+	.string "הכריזמה של {STR_VAR_3} בטח\n"
+	.string "מושכת גשם!$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle::
-	.string "The Avid POKéDEX Reader$"
+	.string "חובב קריאת הפוקידע$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction::
-	.string "Checked a POKéDEX$"
+	.string "בדק את הפוקידע$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked a POKéDEX\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love inspecting\n"
-	.string "POKéMON in a POKéDEX!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה בדק את הפוקידע\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח אוהב לבדוק\n"
+	.string "פוקימונים בפוקידע!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle::
-	.string "The RIBBON Collector$"
+	.string "אוסף הסרטים$"  
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction::
-	.string "Received RIBBONS$"
+	.string "קיבל סרטים$"  
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER received RIBBONS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
-	.string "loves to collect RIBBONS!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה קיבל סרטים\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח אוהב לאסוף\n"  
+	.string "סרטים!$"  
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle::
-	.string "The Ledge-Jumping TRAINER$"
+	.string "המאמן שקפץ מהקצה$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
-	.string "Jumped down ledges$"
+	.string "קפץ למטה מהקצה$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER jumped down ledges\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "If there's a ledge to be jumped,\n"
-	.string "{STR_VAR_3} can't ignore it!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה קפץ למטה מהקצה\n"
+	.string "{STR_VAR_1} פעמים!\p"
+	.string "אם יש קצה לקפוץ ממנו,\n"
+	.string "{STR_VAR_3} לא יכול להתעלם!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle::
-	.string "The Legendary TV Viewer$"
+	.string "צופה הטלוויזיה האגדי$"  
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction::
-	.string "Watched TV$"
+	.string "צפה בטלוויזיה$" 
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER watched TV\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love watching TV!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה צפה בטלוויזיה\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח אוהב לצפות בטלוויזיה!$"  
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle::
-	.string "The Time-Conscious TRAINER$"
+	.string "המאמן שקשוב לזמן$"  
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction::
-	.string "Checked the time$"
+	.string "בדק את השעה$" 
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked the time\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a punctual TRAINER\n"
-	.string "who's conscious of the time.$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה בדק את השעה\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} הוא מאמן דייקן\n"  
+	.string "שהוא מודע לזמן.$"  
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle::
-	.string "The POKéMON LOTTERY Wizard$"
+	.string "קוסם לוטו הפוקימון$"  
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction::
-	.string "Won POKéMON LOTTERIES$"
+	.string "זכה בלוטו הפוקימון$"  
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won POKéMON LOTTERIES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must have many friends\n"
-	.string "to trade POKéMON with!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה זכה בלוטו הפוקימון\n"
+	.string "{STR_VAR_1} פעמים!\p"
+	.string "{STR_VAR_3} בטח עם הרבה חברים\n"
+	.string "להחליף איתם פוקימונים!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "The DAY CARE-Using Trainer$"
+	.string "המאמן שמשתמש במעון$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
-	.string "Left POKéMON at the DAY CARE$"
+	.string "השאיר פוקימונים במעון$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left POKéMON with the\n"
-	.string "DAY CARE {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a real go-getter\n"
-	.string "who raises POKéMON aggressively!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה השאיר פוקימונים במעון\n"  
+	.string "{STR_VAR_1} פעמים!\p"  
+	.string "{STR_VAR_3} בטח דוחף קדימה\n"
+	.string "לגידול פוקימונים באגרסיביות!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::
-	.string "The CABLE CAR-Loving TRAINER$"
+	.string "המאמן שאוהב רכבלים$"  
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction::
-	.string "Rode the CABLE CAR$"
+	.string "רכב ברכבל$"  
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER rode the CABLE CAR\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a busy TRAINER\n"
-	.string "who's up and down all the time!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p" 
+	.string "המאמן הזה רכב ברכבל\n"
+	.string "{STR_VAR_1} פעמים!\p"
+	.string "{STR_VAR_3} בטח מאמן עסוק\n"
+	.string "שעולה ויורד כל הזמן!$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsTitle::
-	.string "The Hot Spring-Loving TRAINER$"
+	.string "המאמן שאוהב מעיינות חמים$" 
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsAction::
-	.string "Bathed in hot springs$"
+	.string "התרחץ במעיינות חמים$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bathed in hot springs\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER with\n"
-	.string "baby-smooth skin!$"
+	.string "זהו סיפור על מאמן\n"  
+	.string "בשם {STR_VAR_3}.\p"  
+	.string "המאמן הזה התרחץ במעיינות חמים\n"
+	.string "{STR_VAR_1} פעמים!\p"
+	.string "{STR_VAR_3} בטח מאמן עם עור\n"
+	.string "חלק כמו תינוק!$"
 
 
 MauvilleCity_PokemonCenter_1F_EventScript_Storyteller::

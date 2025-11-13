@@ -4,35 +4,36 @@
 @       section by editing ScrCmd_braillemessage.
 Underwater_SealedChamber_Braille_GoUpHere:
 	brailleformat 4, 6, 26, 13, 7, 9
-	.braille "GO UP HERE.$"
+	.braille "עלU Kאנ.$" 
+	@ עלו כאן
 
 SealedChamber_OuterRoom_Braille_ABC:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "ABC$"
+	.braille "אבVג$"
 
 SealedChamber_OuterRoom_Braille_GHI:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "GHI$"
+	.braille "זחט$"
 
 SealedChamber_OuterRoom_Braille_MNO:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "MNO$"
+	.braille "מנס$"
 
 SealedChamber_OuterRoom_Braille_TUV:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "TUV$"
+	.braille "קרשץ$"
 
 SealedChamber_OuterRoom_Braille_DEF:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "DEF$"
+	.braille "דהוOU$"
 
 SealedChamber_OuterRoom_Braille_JKL:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "JKL$"
+	.braille "יIכKל$"
 
 SealedChamber_OuterRoom_Braille_PQRS:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "PQRS$"
+	.braille "סעפFצ$"
 
 SealedChamber_OuterRoom_Braille_Period:
 	brailleformat 9, 6, 19, 13, 12, 9
@@ -40,7 +41,7 @@ SealedChamber_OuterRoom_Braille_Period:
 
 SealedChamber_OuterRoom_Braille_WXYZ:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "WXYZ$"
+	.braille "ת$"
 
 SealedChamber_OuterRoom_Braille_Comma:
 	brailleformat 9, 6, 19, 13, 12, 9

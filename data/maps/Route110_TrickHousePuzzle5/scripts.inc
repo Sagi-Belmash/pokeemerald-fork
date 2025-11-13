@@ -327,7 +327,7 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3, MSGBOX_DEFAULT
-	bufferspeciesname STR_VAR_1, SPECIES_DISTOX
+	bufferspeciesname STR_VAR_1, SPECIES_DUSTOX
 	bufferspeciesname STR_VAR_2, SPECIES_ZUBAT
 	bufferspeciesname STR_VAR_3, SPECIES_NINCADA
 	multichoice 0, 0, MULTI_MECHADOLL1_Q3, TRUE

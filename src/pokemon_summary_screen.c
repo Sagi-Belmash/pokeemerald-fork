@@ -590,21 +590,21 @@ static const struct WindowTemplate sPageInfoTemplate[] =
     }, */
     [PSS_DATA_WINDOW_INFO_ORIGINAL_TRAINER] = {
         .bg = 0,
-        .tilemapLeft = 22,
-        .tilemapTop = 4,
-        .width = 7,
-        .height = 2,
-        .paletteNum = 6,
-        .baseBlock = 471,
-    },
-    [PSS_DATA_WINDOW_INFO_ID] = {
-        .bg = 0,
-        .tilemapLeft = 11,
+        .tilemapLeft = 18, // was 11
         .tilemapTop = 4,
         .width = 11,
         .height = 2,
         .paletteNum = 6,
         .baseBlock = 449,
+    },
+    [PSS_DATA_WINDOW_INFO_ID] = {
+        .bg = 0,
+        .tilemapLeft = 11,
+        .tilemapTop = 4,
+        .width = 7,
+        .height = 2,
+        .paletteNum = 6,
+        .baseBlock = 471,
     },
     [PSS_DATA_WINDOW_INFO_ABILITY] = {
         .bg = 0,

@@ -267,7 +267,7 @@ MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
 	.string "האם את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF}?\p"
-	.string "אם כך אמ{EMIT_VAV}ר{ADD_YUD} לי – האם יש לך סיפורים\n"
+	.string "אם כך אמ{EMIT_VAV}ר{ADD_YUD} לי - האם יש לך סיפורים\n"
 	.string "שהם ולו במקצת אגדיים?$"
 
 @ Unused
@@ -419,7 +419,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
 	.string "זהו סיפור על מאמן\n"  
 	.string "בשם {STR_VAR_3}.\p"  
-	.string "המאמן הזה גרם ל־{STR_VAR_1} פוקימונים\n"  
+	.string "המאמן הזה גרם ל-{STR_VAR_1} פוקימונים\n"  
 	.string "להתפתח!\p"  
 	.string "{STR_VAR_3} הוא מפתח הפוקימונים\n"  
 	.string "העליון!$"  

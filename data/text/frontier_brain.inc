@@ -96,7 +96,7 @@ gText_BrandonWonSilver::
 	.string "בוא{ADD_YUD} נראה קצת מאמץ! תקו{SWAP_MEM}{ADD_YUD}!$"
 
 gText_BrandonDefeatSilver::
-	.string זהו זה! היית נהדר{ADD_TAF}!\n"
+	.string "זהו זה! היית נהדר{ADD_TAF}!\n"
 	.string "עבדת קשה בשביל זה!$"
 
 gText_BrandonWonGold::

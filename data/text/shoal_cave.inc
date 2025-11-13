@@ -26,7 +26,7 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
 	.string "זהו! סיימתי!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "ת{SWAP_NUN{ADD_YUD} לפוקימון שלך להחזיק בזה}.\n"
+	.string "ת{SWAP_NUN}{ADD_YUD} לפוקימון שלך להחזיק בזה.\n"
 	.string "הוא יאהב את זה, זה בטוח.\p"
 	.string "ובכן, הצליל של פעמון הצדפה…\n"
 	.string "הוא פשוט נפלא!\p"

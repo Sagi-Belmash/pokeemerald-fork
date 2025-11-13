@@ -39,7 +39,7 @@ PacifidlogTown_Text_NeatHousesOnWater:
 	.string "נולדתי כאן!$"
 
 PacifidlogTown_Text_SkyPillarTooScary:
-	.string "העמוד שמיים?\p"
+	.string "עמוד השמיים?\p"
 	.string "…או, את{EMIT_HEY} בטח מתכוו{SWAP_NUN}{ADD_TAF} למגדל, tall\n"
 	.string "הגבוה-גבוה ההוא קצת יותר רחוק.\p"
 	.string "אם שאלת אותי, לא הייתי מטפס עליו.\n"

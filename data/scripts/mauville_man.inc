@@ -540,12 +540,12 @@ MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle::
 	.string "אלוף המכונת מזל$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsAction::
-	.string "זכה בג'קפוט במכונות$"  
+	.string "זכה בפרס הגדול במכונות$"  
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory::
 	.string "זהו סיפור על מאמן\n"  
 	.string "בשם {STR_VAR_3}.\p"  
-	.string "המאמן הזה זכה בג'קפוט במכונות\n"  
+	.string "המאמן הזה זכה בפרס הגדול במכונות\n"  
 	.string "{STR_VAR_1} פעמים!\p"  
 	.string "{STR_VAR_3} הוא מאמן בר מזל\n"
 	.string "במכונות!$"

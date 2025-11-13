@@ -360,6 +360,37 @@ int AsmFile::ReadBraille(unsigned char* s)
         { ')', BRAILLE_CHAR_PAREN },
         { '\'', BRAILLE_CHAR_APOSTROPHE },
         { '#', BRAILLE_CHAR_NUMBER },
+
+        // hebrew letters with multiple verses will use the lower eng alternatives
+        { 'א', BRAILLE_CHAR_A},
+        { 'ב', BRAILLE_CHAR_B},
+        // ב עם נק as V
+        { 'ג', BRAILLE_CHAR_G},
+        { 'ד', BRAILLE_CHAR_D},
+        { 'ה', BRAILLE_CHAR_H},
+        { 'ו', BRAILLE_CHAR_W}, 
+        // ו as O
+        // ו as U
+        { 'ז', BRAILLE_CHAR_Z},
+        { 'ח', BRAILLE_CHAR_X},
+        { 'ט', BRAILLE_CHAR_T},
+        { 'י', BRAILLE_CHAR_J},
+        // אי Xy as I
+        { 'כ', BRAILLE_CHAR_CHAF}, // Kaf
+        // Kaf as K
+        { 'ל', BRAILLE_CHAR_L},
+        { 'מ', BRAILLE_CHAR_M},
+        { 'נ', BRAILLE_CHAR_N},
+        { 'ס', BRAILLE_CHAR_S},
+        { 'ע', BRAILLE_CHAR_AYIN},
+        { 'פ', BRAILLE_CHAR_P},
+        // fey as F
+        { 'צ', BRAILLE_CHAR_TZADIK},
+        { 'ק', BRAILLE_CHAR_Q},
+        { 'ר', BRAILLE_CHAR_R},
+        { 'ש', BRAILLE_CHAR_SHIN},
+        { 'ץ', BRAILLE_CHAR_SIN}, // used for Sin
+        { 'ת', BRAILLE_CHAR_TAF},
         { '$', EOS },
     };
 

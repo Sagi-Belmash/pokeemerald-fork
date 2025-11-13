@@ -137,7 +137,7 @@ u16 FontFunc_Braille(struct TextPrinter *textPrinter)
         }
         DecompressGlyph_Braille(char_);
         CopyGlyphToWindow(textPrinter);
-        textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
+        textPrinter->printerTemplate.currentX -= gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
         return RENDER_PRINT;
     case RENDER_STATE_WAIT:
         if (TextPrinterWait(textPrinter))

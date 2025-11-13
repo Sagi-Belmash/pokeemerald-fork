@@ -40,7 +40,7 @@ Roulette_Text_ItsAHit::
 	.string "פגיעה!$"
 
 Roulette_Text_Jackpot::
-	.string "ג'קפוט!$"
+	.string "הפרס הגדול!$"
 
 Roulette_Text_NothingDoing::
 	.string "לא קרה כלום!$"

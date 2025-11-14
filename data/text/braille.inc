@@ -10,6 +10,7 @@ Underwater_SealedChamber_Braille_GoUpHere:
 SealedChamber_OuterRoom_Braille_ABC:
 	brailleformat 7, 6, 21, 13, 10, 9
 	.braille "אבVג$"
+	@ אבג
 
 SealedChamber_OuterRoom_Braille_GHI:
 	brailleformat 7, 6, 21, 13, 10, 9
@@ -22,18 +23,22 @@ SealedChamber_OuterRoom_Braille_MNO:
 SealedChamber_OuterRoom_Braille_TUV:
 	brailleformat 7, 6, 21, 13, 10, 9
 	.braille "קרשץ$"
+	@ קרש
 
 SealedChamber_OuterRoom_Braille_DEF:
 	brailleformat 7, 6, 21, 13, 10, 9
 	.braille "דהוOU$"
+	@ דהו
 
 SealedChamber_OuterRoom_Braille_JKL:
 	brailleformat 7, 6, 21, 13, 10, 9
 	.braille "יIכKל$"
+	@יכל
 
 SealedChamber_OuterRoom_Braille_PQRS:
 	brailleformat 7, 6, 21, 13, 10, 9
 	.braille "סעפFצ$"
+	@ סעפצ
 
 SealedChamber_OuterRoom_Braille_Period:
 	brailleformat 9, 6, 19, 13, 12, 9
@@ -49,70 +54,74 @@ SealedChamber_OuterRoom_Braille_Comma:
 
 SealedChamber_OuterRoom_Braille_DigHere:
 	brailleformat 7, 4, 23, 15, 10, 7
-	.braille "DIG HERE.$"
+	.braille "חfרU Kאנ.$"
+	@ חפרו כאן
 
 SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth:
 	brailleformat 0, 0, 29, 19, 3, 3
-	.braille "FIRST COMES\n"
-	.braille "WAILORD.\n"
-	.braille "LAST COMES\n"
-	.braille "RELICANTH.$"
+	.braille "ראשOנ בא\n"
+	.braille "ויילOרד.\n"
+	.braille "אחרOנ בא\n"
+	.braille "רלIKנת.$"
+	@ ראשון בא ויילורד אחרון בא רליקנת
 
 SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived:
 	brailleformat 2, 0, 26, 19, 5, 3
-	.braille "IN THIS\n"
-	.braille "CAVE WE\n"
-	.braille "HAVE\n"
-	.braille "LIVED.$"
+	.braille "במערה הזO\n"
+	.braille "חיIנU.$"
+	@ במערה הזו חיינו
 
 SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon:
 	brailleformat 7, 2, 23, 17, 10, 5
-	.braille "WE OWE ALL\n"
-	.braille "TO THE\n"
-	.braille "POKEMON.$"
+	.braille "אנחנU\n"
+	.braille "חייVIמ הKל\n"
+	.braille "לפOקIמOנ.$"
+	@ אנחנו חייבים הכל לפוקימון
 
 SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "BUT, WE\n"
-	.braille "SEALED THE\n"
-	.braille "POKEMON\n"
-	.braille "AWAY.$"
+	.braille "אבל אטמנU\n"
+	.braille "את הפOקIמOנ.$"
+	@ אבל אטמנו את הפוקימון
 
 SealedChamber_InnerRoom_Braille_WeFearedIt:
 	brailleformat 5, 6, 25, 13, 8, 9
-	.braille "WE FEARED IT.$"
+	.braille "פחדנU ממנO.$"
+	@ פחדנו ממנו
 
 SealedChamber_InnerRoom_Braille_ThoseWithCourageHope:
 	brailleformat 6, 0, 24, 19, 9, 3
-	.braille "THOSE WITH\n"
-	.braille "COURAGE,\n"
-	.braille "THOSE WITH\n"
-	.braille "HOPE.$"
+	.braille "בעלי אOמצ,\n"
+	.braille "בעלי תקווה.$"
+	@ בעלי אומץ, בעלי תקווה.
 
 SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits:
 	brailleformat 3, 2, 27, 17, 6, 5
-	.braille "OPEN A DOOR.\n"
-	.braille "AN ETERNAL\n"
-	.braille "POKEMON\n"
-	.braille "WAITS.$"
+	.braille "פתחU דלת,\n"
+	.braille "פOקIמOנ נצחI\n"
+	.braille "מחכה לכמ.$"
+	@ פתחו דלת, פוקימון נצחי מחכה לכם.
 
 DesertRuins_Braille_UseRockSmash:
 	brailleformat 1, 0, 27, 19, 4, 3
-	.braille "LEFT, LEFT,\n"
-	.braille "DOWN, DOWN.\n"
-	.braille "THEN, USE\n"
-	.braille "ROCK SMASH.$"
+	.braille "ץמאל, ץמאל,\n"
+	.braille "למטה, למטה.\n"
+	.braille "ואז, השתמשU\n"
+	.braille "ברIסUק אVנ.$"
+	@ שמאל, שמאל, למטה, למטה. ואז השתמשו בריסוק אבן.
 
 IslandCave_Braille_RunLapAroundWall:
 	brailleformat 5, 0, 25, 19, 8, 3
-	.braille "STAY CLOSE\n"
-	.braille "TO THE WALL.\n"
-	.braille "RUN AROUND\n"
-	.braille "ONE LAP.$"
+	.braille "הIשארU קרOV\n"
+	.braille "לקIר.\n"
+	.braille "רUצU סIVUV\n"
+	.braille "אחד.$"
+	@ הישארו קרוב לקיר, רוצו סיבוב אחד
 
 AncientTomb_Braille_ShineInTheMiddle:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "THOSE WHO\n"
-	.braille "INHERIT OUR\n"
-	.braille "WILL, SHINE\n"
-	.braille "IN THE MIDDLE.$"
+	.braille "אלU שיOרשIמ\n"
+	.braille "את רצOננU,\n"
+	.braille "זOהרIמ\n"
+	.braille "באמצע.$"
+	@ אלו שיורשים את רצוננו, זוהרים באמצע

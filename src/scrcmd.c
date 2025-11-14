@@ -1520,7 +1520,7 @@ bool8 ScrCmd_braillemessage(struct ScriptContext *ctx)
     yWindow = yText;
     yText += 2;
 
-    xText = (xWindow - xText - 1) * 8 + 3 - 8; // -8 was added
+    xText = (xWindow - xText - 1) * 8 + 3 - 7; // -7 was added
     yText = (yText - yWindow - 1) * 8;
 
     winTemplate = CreateWindowTemplate(0, xWindow, yWindow + 1, width, height, 0xF, 0x1);

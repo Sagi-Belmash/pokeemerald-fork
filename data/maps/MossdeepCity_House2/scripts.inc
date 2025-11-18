@@ -14,6 +14,7 @@ MossdeepCity_House2_EventScript_Wingull::
 	faceplayer
 	waitse
 	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox MossdeepCity_House2_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	closemessage
@@ -52,17 +53,17 @@ MossdeepCity_House2_Movement_WingullExitEast:
 	step_end
 
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree:
-	.string "My little sister exchanges MAIL with\n"
-	.string "her boyfriend in FORTREE.\p"
-	.string "I don't envy her one bit at all.$"
+    .string "האחות הקטנה שלי מחליפה מכתבים\n"
+    .string "עם החבר שלה בפורטרי.\p"
+    .string "אני בכלל לא מקנא בה.$"
 
 MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
-	.string "Even though I can't see my friend in\n"
-	.string "FORTREE, my POKéMON carries MAIL\l"
-	.string "back and forth for us.\p"
-	.string "I'm not lonesome, even though we're\n"
-	.string "apart.$"
+    .string "למרות שאני לא רואה את החבר שלי\n"
+    .string "בפורטרי, הפוקימון שלי מביא מכתבים\l"
+    .string "הלוך ושוב בשבילנו.\p"
+    .string "אני לא מרגישה בודדה, למרות שאנחנו\n"
+    .string "בנפרד.$"
 
 MossdeepCity_House2_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "{STR_VAR_1}: פיהיוה!$"
 

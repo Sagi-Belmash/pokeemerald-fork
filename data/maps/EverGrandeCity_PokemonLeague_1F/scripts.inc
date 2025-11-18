@@ -120,18 +120,18 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
-	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+    .string "מעבר לנקודה זו, רק מאמנים שאספו את\n"
+    .string "כל תגי המכון\l"
+    .string "מורשים להיכנס.\p"
+    .string "מאמ{SWAP_NUN}{ADD_TAF},נא לאשר שאספת\n"
+    .string "את כל תגי המכון.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+    .string "לא אספת את כל התגים.\p"
+    .string "אם את{EMIT_HEY} בדרך לליגת\n"
+    .string "הפוקימונים, עליך לחזור עם כולם.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+    .string "מאמ{SWAP_NUN}{ADD_TAF}! האמ{ADD_YUD}{SWAP_NUN}{ADD_YUD} בעצמך ובפוקימונים שלך,\n"
+    .string "וצא{ADD_YUD} לדרך!$"
 

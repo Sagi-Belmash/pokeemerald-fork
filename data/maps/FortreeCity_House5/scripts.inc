@@ -14,22 +14,23 @@ FortreeCity_House5_EventScript_Zigzagoon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox FortreeCity_House5_Text_Zigzagoon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 FortreeCity_House5_Text_TreeHousesAreGreat:
-	.string "The tree houses of FORTREE are great!\p"
-	.string "I think it's the number one town for\n"
-	.string "living together with POKéMON.$"
+    .string "בתי העץ של פורטרי נהדרים!\p"
+    .string "אני חושב שזו העיר מספר אחד\n"
+    .string "לחיות יחד עם פוקימון.$"
 
 FortreeCity_House5_Text_AdaptedToNature:
-	.string "POKéMON and people have adapted to\n"
-	.string "nature for survival.\p"
-	.string "There's no need to make nature\n"
-	.string "conform to the way we want to live.$"
+    .string "פוקימון ואנשים הסתגלו\n"
+    .string "לטבע כדי לשרוד.\p"
+    .string "אין צורך לגרום לטבע\n"
+    .string "להתאים לאופן שבו אנו רוצים לחיות.$"
 
 FortreeCity_House5_Text_Zigzagoon:
-	.string "ZIGZAGOON: Bufuu!$"
+	.string "{STR_VAR_1}: בופוו!$"
 

@@ -23,8 +23,8 @@ Roulette_EventScript_Play::
 	waitstate
 	end
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "ההימור המינימלי בשולחן הזה הוא\n"
-	.string "{STR_VAR_1}. רוצה לשחק?$"
+	.string "ההימור המינימלי בשולחן הזה הוא {STR_VAR_1}.\n"
+	.string "רוצה לשחק?$"
 
 Roulette_Text_NotEnoughCoins::
 	.string "אין לך מספיק מטבעות.$"
@@ -33,8 +33,8 @@ Roulette_Text_SpecialRateTable::
 	.string "שולחן בתעריף מיוחד עכשיו!$"
 
 Roulette_Text_ControlsInstruction::
-	.string "בחר{ADD_YUD} את סכום ההימור בעזרת + משטח\n"
-	.string "הבקרה, ואז לח{SWAP_TZADIK}{ADD_YUD} על כפתור A.$"
+	.string "מק{SWAP_MEM}{ADD_YUD} את סכום ההימור בעזרת + משטח\n"
+	.string "הבקרה, ואז לח{SWAP_TZADIK}{ADD_YUD} על הכפתור A.$"
 
 Roulette_Text_ItsAHit::
 	.string "פגיעה!$"

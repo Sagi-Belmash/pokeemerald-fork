@@ -450,7 +450,7 @@
     },
     {
       "id": "MAPSEC_MT_CHIMNEY",
-      "name": "הר ארובה",
+      "name": "הר הארובה",
       "x": 6,
       "y": 2,
       "width": 1,
@@ -578,7 +578,7 @@
     },
     {
       "id": "MAPSEC_CAVE_OF_ORIGIN",
-      "name": "מערת המקור",
+      "name": "מערת המוצא",
       "x": 21,
       "y": 7,
       "width": 1,

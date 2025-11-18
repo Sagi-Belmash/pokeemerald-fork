@@ -10,18 +10,19 @@ Route119_House_EventScript_Wingull::
 	faceplayer
 	waitse
 	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox Route119_House_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 Route119_House_Text_RumorAboutCaveOfOrigin:
-	.string "I heard about a cave called the CAVE\n"
-	.string "OF ORIGIN.\p"
-	.string "People rumor that the spirits of\n"
-	.string "POKéMON are revived there. Could\l"
-	.string "something like that really happen?$"
+    .string "שמעתי על מערה שנקראת מערת\n"
+    .string "המוצא.\p"
+    .string "יש שמועות שהרוחות של פוקימונים\n"
+    .string "חוזרות שם לחיים. האם\l"
+    .string "משהו כזה יכול באמת לקרות?$"
 
 Route119_House_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "{STR_VAR_1}: פיהיוה!$"
 

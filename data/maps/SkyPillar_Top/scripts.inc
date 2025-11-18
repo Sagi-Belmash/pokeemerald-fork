@@ -116,6 +116,7 @@ SkyPillar_Top_EventScript_AwakenRayquaza::
 	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaFlyOff
 	waitmovement 0
 	removeobject LOCALID_RAYQUAZA_SLEEPING
+	bufferspeciesname STR_VAR_1, SPECIES_RAYQUAZA
 	msgbox SkyPillar_Top_Text_RayquazaFlewOff, MSGBOX_DEFAULT
 	closemessage
 	delay 20
@@ -179,5 +180,5 @@ SkyPillar_Top_Movement_CameraPanDown:
 	step_end
 
 SkyPillar_Top_Text_RayquazaFlewOff:
-	.string "The awakened RAYQUAZA flew off…$"
+	.string "ה{TR_VAR_1} שהתעורר עף…$"
 

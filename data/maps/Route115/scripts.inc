@@ -131,7 +131,7 @@ Route115_EventScript_Marlene::
 
 Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "חקירת מערה זה לא כמו הליכה\n"
-	.string "בכביש.\p"
+	.string "בדרך.\p"
 	.string "לעולם אינך יודע{ADD_TAF} מתי פוקימון פראי\n"
 	.string "יופיע. מתח מלא.$"
 

@@ -991,6 +991,7 @@ Route104_EventScript_Mia::
 
 Route104_EventScript_Darian::
 	trainerbattle_single TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
+	bufferspeciesname STR_VAR_1, SPECIES_MAGIKARP
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 

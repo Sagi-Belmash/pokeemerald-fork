@@ -28,9 +28,9 @@ DesertUnderpass_EventScript_GiveRootFossil::
 
 @ Unused
 DesertUnderpass_Text_FoundRootFossil::
-	.string "{PLAYER} מצא{ADD_HEY} את המאובן שורש.$"
+	.string "{PLAYER} מצא{ADD_HEY} את מאובן השורש.$"
 
 @ Unused
 DesertUnderpass_Text_FoundClawFossil::
-	.string "{PLAYER} מצא{ADD_HEY} את המאובן טופר$"
+	.string "{PLAYER} מצא{ADD_HEY} את מאובן הטפר$"
 

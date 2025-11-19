@@ -34,28 +34,29 @@ MossdeepCity_House4_EventScript_Skitty::
 	faceplayer
 	waitse
 	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox MossdeepCity_House4_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 MossdeepCity_House4_Text_BrotherLikesToFindBases:
-	.string "My little brother says he likes to go\n"
-	.string "find people's SECRET BASES.$"
+	.string "האח הקטן שלי אומר שהוא אוהב ללכת\n"
+	.string "ולמצוא בסיסים סודיים של אנשים.$"
 
 MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
-	.string "My little brother says he likes to\n"
-	.string "visit people's SECRET BASES and have\l"
-	.string "POKéMON battles.$"
+	.string "האח הקטן שלי אומר שהוא אוהב\n"
+	.string "לבקר בבסיסים סודיים של אנשים\l"
+	.string "ולעשות קרבות פוקימון.$"
 
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
-	.string "Was it you who made a SECRET BASE\n"
-	.string "near {STR_VAR_1}?$"
+	.string "זה את{EMIT_HEY} שהכנת בסיס סודי\n"
+	.string "ליד {STR_VAR_1}?$"
 
 MossdeepCity_House4_Text_MakeSecretBase:
-	.string "You should make a SECRET BASE\n"
-	.string "somewhere. I'll go find it!$"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להכין בסיס סודי\n"
+	.string "איפשהו. אני אלך למצוא אותו!$"
 
 MossdeepCity_House4_Text_Skitty:
-	.string "SKITTY: Miyaan?$"
+	.string "{STR_VAR_1}: מיאאן?$"
 

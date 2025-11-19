@@ -3477,7 +3477,7 @@ const struct Item gItems[] =
 
     [ITEM_ROOT_FOSSIL] =
     {
-        .name = _("מאובן שורש"),
+        .name = _("מאובן השורש"),
         .itemId = ITEM_ROOT_FOSSIL,
         .price = 0,
         .description = sRootFossilDesc,
@@ -3489,7 +3489,7 @@ const struct Item gItems[] =
 
     [ITEM_CLAW_FOSSIL] =
     {
-        .name = _("מאובן טופר"),
+        .name = _("מאובן הטפר"),
         .itemId = ITEM_CLAW_FOSSIL,
         .price = 0,
         .description = sClawFossilDesc,

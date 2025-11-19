@@ -169,20 +169,20 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
+	.string "אוקיי!\n"
+	.string "אנחנו זזים להר המוקד!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
+	.string "קדימה מתרומם הר המוקד…\p"
+	.string "זהו אתר טבעי המוקדש לרוחות\n"
+	.string "של פוקימון שעזבו…$"
 
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string "מזח הר המוקד\p"
+	.string "…השלט ישן ומרופט.\n"
+	.string "המילים בקושי קריאות…$"
 
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare POKéMON!”\n"
-	.string "SAFARI ZONE$"
+	.string "”ממולא בפוקימונים נדירים!“\n"
+	.string "אזור הספארי$"
 

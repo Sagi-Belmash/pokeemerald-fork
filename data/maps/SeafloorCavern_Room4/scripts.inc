@@ -12,25 +12,24 @@ SeafloorCavern_Room4_EventScript_Grunt4::
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro:
-	.string "Who are you?\n"
-	.string "Where did you come in from?$"
+	.string "מי את{EMIT_HEY}?\n"
+	.string "מאיפה נכנסת?$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat:
-	.string "Lost it…$"
+	.string "איבדתי את זה…$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
-	.string "I can't find the way out!\p"
-	.string "I'm not afraid. Don't get me wrong!$"
+	.string "אני לא מוצא את הדרך החוצה!\p"
+	.string "אני לא מפחד. אל תבי{SWAP_NUN}{ADD_YUD} אותי לא נכון!$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro:
-	.string "Who are you?\n"
-	.string "Where do you think you're going?$"
+	.string "מי את{EMIT_HEY}?\n"
+	.string "לאן את{EMIT_HEY} חושב{ADD_TAF} שאת{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF}?$"
 
 SeafloorCavern_Room4_Text_Grunt4Defeat:
-	.string "I failed to win!$"
+	.string "נכשלתי בלנצח!$"
 
 SeafloorCavern_Room4_Text_Grunt4PostBattle:
-	.string "My partner forgot the map in that\n"
-	.string "submarine!\p"
-	.string "How's that for being useless?$"
+	.string "השותף שלי שכח את המפה בצוללת!\p"
+	.string "איך זה בלהיות חסר תועלת?$"
 

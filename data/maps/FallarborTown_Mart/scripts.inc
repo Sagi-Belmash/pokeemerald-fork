@@ -28,6 +28,7 @@ FallarborTown_Mart_Pokemart:
 	pokemartlistend
 
 FallarborTown_Mart_EventScript_Woman::
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox FallarborTown_Mart_Text_DecidingSkittyEvolve, MSGBOX_NPC
 	end
 
@@ -40,25 +41,26 @@ FallarborTown_Mart_EventScript_Skitty::
 	faceplayer
 	waitse
 	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve:
-	.string "I'm having a hard time deciding if I\n"
-	.string "should make my SKITTY evolve or not.\p"
-	.string "I only have to use this MOON STONE,\n"
-	.string "but it's so hard to decide…\p"
-	.string "If I make it evolve, it will become\n"
-	.string "much stronger.\p"
-	.string "But it will look so different, too.$"
+	.string "אני מתקשה להחליט אם אני\n"
+	.string "צריך לגרום ל{STR_VAR_1} שלי להתפתח או לא.\p"
+	.string "אני רק צריך להשתמש באבן הירח הזו,\n"
+	.string "אבל קשה כל כך להחליט…\p"
+	.string "אם אתן לה להתפתח, היא תהיה\n"
+	.string "הרבה יותר חזקה.\p"
+	.string "אבל היא גם תראה שונה לגמרי.$"
 
 FallarborTown_Mart_Text_Skitty:
-	.string "SKITTY: Miyao?$"
+	.string "{STR_VAR_1}: מיאו?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
-	.string "This NUGGET I found here…\n"
-	.string "I suppose I'll have to sell it, seeing\l"
-	.string "as how it has no other use.$"
+	.string "גוש הזהב שמצאתי כאן…\n"
+	.string "כנראה שאצטרך למכור אותו,\n"
+	.string "מאחר שאין לו שימוש אחר.$"
 

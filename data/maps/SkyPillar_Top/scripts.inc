@@ -180,5 +180,5 @@ SkyPillar_Top_Movement_CameraPanDown:
 	step_end
 
 SkyPillar_Top_Text_RayquazaFlewOff:
-	.string "ה{TR_VAR_1} שהתעורר עף…$"
+	.string "ה{STR_VAR_1} שהתעורר עף…$"
 

@@ -39,7 +39,7 @@ MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
 	.string "יש פריטים שמעלים זמנית את\n"
 	.string "הנתונים של פוקימונים.\p"
 	.string "אלה שאני מכיר שאתה משתמש בהם\n"
-	.string "בקרב הם X התקפה ו־X הגנה…\p"
+	.string "בקרב הם X התקפה ו-X הגנה…\p"
 	.string "אני מאמין שיש עוד פריטים\n"
 	.string "כאלה.$"
 

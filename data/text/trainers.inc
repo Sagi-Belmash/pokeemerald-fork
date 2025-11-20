@@ -2786,8 +2786,8 @@ Route119_Text_CatherinePostRematch:
 	.string "גם הם סומכים עליך.$"
 
 Route119_Text_HughIntro:
-	.string ""מרחבי השמיים טומנים בחובם הבטחה עצומה!\p
-	.string "שום דבר לא משתווה לעוצמת ההתרגשות שבטיסה!"$"
+	.string "מרחבי השמיים טומנים בחובם הבטחה עצומה!\p"
+	.string "שום דבר לא משתווה לעוצמת ההתרגשות שבטיסה!$"
 
 Route119_Text_HughDefeat:
 	.string "מופל לקרשים!$"
@@ -3394,7 +3394,7 @@ Route123_Text_MiuNotEnoughMons:
 
 Route123_Text_YukiIntro:
 	.string "יוקי: אוקיי!\n"
-	.string "אנחנו מביסים את הפוקימון של המאמ{SWAP_NUN}{ADD_TAF} הז{EMIT_HEY}{ADD_VAV}!$"
+	.string "אנחנו מביסים את הפוקימון של המאמ{SWAP_NUN}{ADD_TAF} הזה!$"
 
 Route123_Text_YukiDefeat:
 	.string "יוקי: או או, הפסדנו.$"
@@ -3546,7 +3546,7 @@ Route124_Text_SpencerDefeat:
 
 Route124_Text_SpencerPostBattle:
 	.string "הרבה אנשים מאבדים כיוון בים.\p"
-	.string "אם את{EMIT_HEY} כז{EMIT_HEY}{ADD_VAV}, כדאי לך להסתכל\n"
+	.string "אם את{EMIT_HEY} כזה, כדאי לך להסתכל\n"
 	.string "על מפת הפוקינווט.$"
 
 Route124_Text_RolandIntro:
@@ -3603,7 +3603,7 @@ Route124_Text_GraceDefeat:
 
 Route124_Text_GracePostBattle:
 	.string "כל המאמץ שלך בטח הפך אותך\n"
-	.string "לקשוח{ADD_HEY} כז{EMIT_HEY}{ADD_VAV}.$"
+	.string "לקשוח{ADD_HEY} כזה.$"
 
 Route124_Text_ChadIntro:
 	.string "פופופופו… אני צולל עמוק מתחת למים\n"
@@ -3714,7 +3714,7 @@ Route124_Text_DeclanPostBattle:
 
 Route124_Text_IsabellaIntro:
 	.string "אני לא הולכת להפסיד למאמ{SWAP_NUN}{ADD_TAF}\n"
-	.string "גלישה כז{EMIT_HEY}{ADD_VAV}.$"
+	.string "גלישה כזה.$"
 
 Route124_Text_IsabellaDefeat:
 	.string "יש לי רק זיעה בעיניים!\n"
@@ -4267,7 +4267,7 @@ Route130_Text_RodneyIntro:
 	.string "נראה לי שעלינו להילחם!$"
 
 Route130_Text_RodneyDefeat:
-	.string "הילד{ADD_HEY} הז{EMIT_HEY}{ADD_VAV} חזק{ADD_HEY} להפליא…$"
+	.string "הילד{ADD_HEY} הזה חזק{ADD_HEY} להפליא…$"
 
 Route130_Text_RodneyPostBattle:
 	.string "לעיניך יש מראה של מישה{EMIT_VAV}{ADD_YUD}\n"
@@ -4444,7 +4444,7 @@ Route132_Text_DanaPostBattle:
 
 Route132_Text_RonaldIntro:
 	.string "לנצחאו להפסיד -- לא תדע{ADD_YUD} עד\n"
-	.string "שלא תנס{EMITT_HEY}{ADD_YUD}!$"
+	.string "שלא תנס{EMIT_HEY}{ADD_YUD}!$"
 
 Route132_Text_RonaldDefeat:
 	.string "ואאה!\n"
@@ -4483,7 +4483,7 @@ Route132_Text_MakaylaPostBattle:
 
 Route132_Text_JonathanIntro:
 	.string "מישהו צפה בי בעין חדה.\n"
-	.string "האם ז{EMIT_HEY}{ADD_VAV} היית את{EMIT_HEY}?$"
+	.string "האם זה היית את{EMIT_HEY}?$"
 
 Route132_Text_JonathanDefeat:
 	.string "וואו!\n"
@@ -4701,7 +4701,7 @@ Route134_Text_ReynaPostBattle:
 
 Route134_Text_HudsonIntro:
 	.string "תקשיב{ADD_YUD}, ראית מלחים נוספים\n"
-	.string "כאן באזור? $"
+	.string "כאן באזור?$"
 
 Route134_Text_HudsonDefeat:
 	.string "עכשיו, זה משהו!$"

@@ -461,7 +461,7 @@ const u8 *const gPokeblockWasTooXStringTable[FLAVOR_COUNT] =
 };
 
 static const u8 sText_PlayerUsedItem[] = _("{B_PLAYER_NAME} השתמש\nב{B_LAST_ITEM}!");
-static const u8 sText_WallyUsedItem[] = _("וואלי השתמש\nב{B_LAST_ITEM}!");
+static const u8 sText_WallyUsedItem[] = _("וולי השתמש\nב{B_LAST_ITEM}!");
 static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nהשתמש ב{B_LAST_ITEM}!");
 static const u8 sText_TrainerBlockedBall[] = _("המאמן חסם את הכדור!");
 static const u8 sText_DontBeAThief[] = _("אל תהיה גנב!");

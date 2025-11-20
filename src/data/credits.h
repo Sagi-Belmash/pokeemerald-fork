@@ -1,6 +1,15 @@
 enum
 {
     PAGE_TITLE,
+    //Hebrew Credits
+    PAGE_HEBREW_VERSION,
+    PAGE_LEAD_PROGRAMMER_2,
+    PAGE_TRANSLATOR_2,
+    PAGE_GRAPHIC_DESIGNERS_4,
+    PAGE_PROGRAMMERS_6,
+    PAGE_HEBREW_NAMES,
+    PAGE_SPECIAL_THANKS_6,
+    // Rest of Credits
     PAGE_DIRECTOR,
     PAGE_ART_DIRECTOR,
     PAGE_WORLD_DIRECTOR,
@@ -57,12 +66,6 @@ enum
     PAGE_EXECUTIVE_DIRECTOR,
     PAGE_EXECUTIVE_PRODUCERS_1,
     PAGE_EXECUTIVE_PRODUCERS_2,
-    PAGE_HEBREW_VERSION,
-    PAGE_PROGRAMMERS_6,
-    PAGE_TRANSLATOR_2,
-    PAGE_GRAPHIC_DESIGNERS_4,
-    PAGE_HEBREW_NAMES,
-    PAGE_SPECIAL_THANKS_6,
     PAGE_COUNT
 };
 
@@ -198,12 +201,12 @@ static const u8 sCreditsText_KazukiYoshihara[]                = _("arahihsoY iku
 static const u8 sCreditsText_RetsujiNomoto[]                  = _("otomoN ijusteR");
 static const u8 sCreditsText_AzusaTajima[]                    = _("amijaT asuzA");
 static const u8 sCreditsText_ShusakuEgami[]                   = _("imagE ukasuhS");
-static const u8 sCreditsText_PackageAndManual[]               = _("noitartsullI launaM & egakcaP");
-static const u8 sCreditsText_EnglishVersion[]                 = _("srotanidrooC noisreV hsilgnE");
-static const u8 sCreditsText_Translator[]                     = _("rotalsnarT");
-static const u8 sCreditsText_TextEditor[]                     = _("rotidE txeT");
-static const u8 sCreditsText_NCLCoordinator[]                 = _("rotanidrooC LCN");
-static const u8 sCreditsText_GraphicDesigner[]                = _("rengiseD cihparG");
+static const u8 sCreditsText_PackageAndManual[]               = _("איור אריזה ומדריך");
+static const u8 sCreditsText_EnglishVersion[]                 = _("מתאמי גרסת האנגלית");
+static const u8 sCreditsText_Translator[]                     = _("מתרגם");
+static const u8 sCreditsText_TextEditor[]                     = _("עורך טקסט");
+static const u8 sCreditsText_NCLCoordinator[]                 = _("מתאם LCN");
+static const u8 sCreditsText_GraphicDesigner[]                = _("מעצב גרפי");
 static const u8 sCreditsText_NOAProductTesting[]              = _("gnitseT tcudorP AON");
 static const u8 sCreditsText_HideyukiNakajima[]               = _("amijakaN ikuyediH");
 static const u8 sCreditsText_HidenoriSaeki[]                  = _("ikeaS ironediH");
@@ -228,11 +231,11 @@ static const u8 sCreditsText_NicolaPrattBarlow[]              = _("wolraB-ttarP 
 static const u8 sCreditsText_ShellieDow[]                     = _("woD eillehS");
 static const u8 sCreditsText_ErikJohnson[]                    = _("nosnhoJ kirE");
 
-static const u8 sCreditsText_Translators[]                     = _("מתרגמים");
 static const u8 sCreditsText_HebrewVersion[]                  = _("מתאם גרסת העברית");
 static const u8 sCreditsText_ShaharBerenson[]                 = _("שחר ברנסון");
 static const u8 sCreditsText_SagiBelmash[]                    = _("שגיא בלמש");
 static const u8 sCreditsText_NogaShakked[]                    = _("נגה שקד");
+static const u8 sCreditsText_LiorHalphon[]                    = _("ליאור חלפון");
 static const u8 sCreditsText_HebrewNames[]                    = _("עברות שמות הפוקימון");
 static const u8 sCreditsText_MSElboim[]                       = _("מ. ש. אלבוים");
 static const u8 sCreditsText_MayaKatz[]                       = _("מאיה כץ");
@@ -400,10 +403,11 @@ static const struct CreditsEntry sCreditsEntry_ErikJohnson                      
 static const struct CreditsEntry sCreditsEntry_HebrewVersion                    = { 0, TRUE, sCreditsText_HebrewVersion};
 static const struct CreditsEntry sCreditsEntry_ShaharBerenson                   = { 0, FALSE, sCreditsText_ShaharBerenson};
 static const struct CreditsEntry sCreditsEntry_SagiBelmash                      = { 0, FALSE, sCreditsText_SagiBelmash};
+static const struct CreditsEntry sCreditsEntry_LiorHalfon                       = { 0, FALSE, sCreditsText_LiorHalphon};
+static const struct CreditsEntry sCreditsEntry_NogaShakked                      = { 0, FALSE, sCreditsText_NogaShakked};
 static const struct CreditsEntry sCreditsEntry_HebrewNames                      = { 0, TRUE, sCreditsText_HebrewNames};
 static const struct CreditsEntry sCreditsEntry_MSElboim                         = { 0, FALSE, sCreditsText_MSElboim};
 static const struct CreditsEntry sCreditsEntry_MayaKatz                         = { 0, FALSE, sCreditsText_MayaKatz};
-static const struct CreditsEntry sCreditsEntry_Translators                      = { 0, FALSE, sCreditsText_Translators};
 
 #define _ &sCreditsEntry_EmptyString
 static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][ENTRIES_PER_PAGE] =
@@ -414,6 +418,55 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         &sCreditsEntry_Credits,
         _,
         _
+    },
+    [PAGE_HEBREW_VERSION] = {
+        _,
+        &sCreditsEntry_HebrewVersion,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+    [PAGE_LEAD_PROGRAMMER_2] = {
+        _,
+        &sCreditsEntry_LeadProgrammer,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+        [PAGE_TRANSLATOR_2] = {
+        _,
+        &sCreditsEntry_Translator,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+        [PAGE_GRAPHIC_DESIGNERS_4] = {
+        _,
+        &sCreditsEntry_GraphicDesigners,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+    [PAGE_PROGRAMMERS_6] = {
+        &sCreditsEntry_Programmers,
+        &sCreditsEntry_ShaharBerenson,
+        &sCreditsEntry_SagiBelmash,
+        &sCreditsEntry_LiorHalfon,
+        &sCreditsEntry_NogaShakked,
+    },
+    [PAGE_HEBREW_NAMES] = {
+        _,
+        &sCreditsEntry_HebrewNames,
+        &sCreditsEntry_MSElboim,
+        _,
+        _,
+    },
+    [PAGE_SPECIAL_THANKS_6] = {
+        _,
+        &sCreditsEntry_SpecialThanks,
+        &sCreditsEntry_MayaKatz,
+        _,
+        _,
     },
     [PAGE_DIRECTOR] = {
         _,
@@ -804,48 +857,6 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         _,
         &sCreditsEntry_ExecProducers,
         &sCreditsEntry_TsunekazIshihara,
-        _,
-        _,
-    },
-    [PAGE_HEBREW_VERSION] = {
-        _,
-        &sCreditsEntry_HebrewVersion,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_PROGRAMMERS_6] = {
-        _,
-        &sCreditsEntry_Programmers,
-        &sCreditsEntry_ShaharBerenson,
-        &sCreditsEntry_SagiBelmash,
-        _,
-    },
-    [PAGE_TRANSLATOR_2] = {
-        _,
-        &sCreditsEntry_Translator,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_GRAPHIC_DESIGNERS_4] = {
-        _,
-        &sCreditsEntry_GraphicDesigners,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_HEBREW_NAMES] = {
-        _,
-        &sCreditsEntry_HebrewNames,
-        &sCreditsEntry_MSElboim,
-        _,
-        _,
-    },
-    [PAGE_SPECIAL_THANKS_6] = {
-        _,
-        &sCreditsEntry_SpecialThanks,
-        &sCreditsEntry_MayaKatz,
         _,
         _,
     },

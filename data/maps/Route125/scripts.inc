@@ -27,6 +27,7 @@ Route125_EventScript_Nolen::
 
 Route125_EventScript_Stan::
 	trainerbattle_single TRAINER_STAN, Route125_Text_StanIntro, Route125_Text_StanDefeat
+	bufferspeciesname STR_VAR_1, SPECIES_HORSEA
 	msgbox Route125_Text_StanPostBattle, MSGBOX_AUTOCLOSE
 	end
 

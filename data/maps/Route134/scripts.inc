@@ -12,6 +12,7 @@ Route134_EventScript_Jack::
 	end
 
 Route134_EventScript_Laurel::
+	bufferspeciesname STR_VAR_1, SPECIES_LUVDISC
 	trainerbattle_single TRAINER_LAUREL, Route134_Text_LaurelIntro, Route134_Text_LaurelDefeat
 	msgbox Route134_Text_LaurelPostBattle, MSGBOX_AUTOCLOSE
 	end

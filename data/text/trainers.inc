@@ -799,7 +799,7 @@ Route109_Text_DavidPostBattle:
 	.string "לקרבות פוקימון!$"
 
 Route109_Text_AliceIntro:
-	.string "האם את{EMIT_HEY} מוג{SWAP_NUN}{ADD_TAF} כראוי מפני השמש?\n"
+	.string "האם את{EMIT_HEY} מוג{SWAP_NUN}{ADD_TAF} כראוי מפני השמש?$"
 
 Route109_Text_AliceDefeated:
 	.string "אאוץ', אאוץ', אאוץ'!$"
@@ -965,7 +965,8 @@ Route109_Text_ChandlerDefeated:
 	.string "איזה חבל!$"
 
 Route109_Text_ChandlerPostBattle:
-	.string "אחרי שהראיתי לך את האבוב העגול שלי…\n"
+	.string "גם אחרי שהראיתי לך את האבוב\n"
+	.string "העגול שלי…$"
 
 Route109_Text_HaileyIntro:
 	.string "אני לא יודעת לשחות, אז אני מעמידה\n"
@@ -998,53 +999,51 @@ Route110_Text_JacobDefeated:
 	.string "וואה!\n"
 	.string "הבלמים שלי נכשלו!$"
 
-@ TILL HERE 3
-
 Route110_Text_JacobPostBattle:
 	.string "תקר בגלגל או בעיות בבלמים\n"
 	.string "יכולות לגרום לפציעה קשה!\l"
-	.string "בדוק את האופניים שלך!$"
+	.string "בד{EMIT_VAV}ק{ADD_YUD} את האופניים שלך מבעיות!$"
 
 Route110_Text_AnthonyIntro:
-	.string "היי, אתה!\n"
-	.string "אתה יכול לעמוד בקצב שלי?$"
+	.string "יו, את{EMIT_HEY}!\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לעמוד בקצב המהירות שלי?$"
 
 Route110_Text_AnthonyDefeated:
-	.string "התנגש והתפוצץ!$"
+	.string "התנגשות והתפוצצות!$"
 
 Route110_Text_AnthonyPostBattle:
 	.string "המהירות לבדה לא תספיק לנצח בפוקימון.\n"
 	.string "אני צריך לשקול את זה מחדש…$"
 
 Route110_Text_BenjaminIntro:
-	.string "אל תיבהל אם האופניים שלך נוסעים מהר!$"
+	.string "אל תבהל{ADD_YUD} אם האופניים שלך נוסעים מהר!$"
 
 Route110_Text_BenjaminDefeated:
-	.string "לא הייתי צריך להיבהל בקרבות\n"
+	.string "לא הייתי צריך להבהל בקרבות\n"
 	.string "פוקימון…$"
 
 Route110_Text_BenjaminPostBattle:
-	.string "אין צורך להיבהל או ללחוץ.\n"
-	.string "תירגע. יש מספיק זמן.$"
+	.string "אין צורך להבהל או להילחץ.\n"
+	.string "תירגע{ADD_YUD}. יש מספיק זמן.$"
 
 Route110_Text_BenjaminRegister:
 	.string "אמשיך קדימה בלי לדאוג.\n"
 	.string "תגיד לי אם תרצה קרב נוסף.$"
 
 Route110_Text_BenjaminRematchIntro:
-	.string "האם אתה לא קצת מהיר מדי?\n"
-	.string "תירגע ובוא נילחם.$"
+	.string "האם את{EMIT_HEY} לא קצת מהיר{ADD_HEY} מדי?\n"
+	.string "תירגע{ADD_YUD} ובוא{ADD_YUD} נילחם.$"
 
 Route110_Text_BenjaminRematchDefeated:
-	.string "לא התבלבלתי, אבל עדיין הפסדתי…$"
+	.string "לא נכנסתי לפאניקה, אבל עדיין הפסדתי…$"
 
 Route110_Text_BenjaminRematchPostBattle:
-	.string "אין צורך להיבהל או ללחוץ.\n"
-	.string "תירגע. יש מספיק זמן.$"
+	.string "אין צורך להיבהל או להילחץ.\n"
+	.string "תירגע{ADD_YUD}. יש מספיק זמן.$"
 
 Route110_Text_AbigailIntro:
 	.string "הטריאתלון קשה עד הקצה.\p"
-	.string "עליך להשלים את שלושת האירועים:\n"
+	.string "עליך להשלים את שלושת האירועים של\n"
 	.string "שחייה, רכיבה וריצה.$"
 
 Route110_Text_AbigailDefeated:
@@ -1055,16 +1054,16 @@ Route110_Text_AbigailPostBattle:
 	.string "חשוב לנוח כראוי.$"
 
 Route110_Text_AbigailRegister:
-	.string "אתה יודע, אני מחבבת אותך!\n"
-	.string "בוא נעשה קרב חוזר בנתיב האופניים.$"
+	.string "את{EMIT_HEY} יודע{ADD_TAF}, אני מחבבת אותך!\n"
+	.string "בוא{ADD_YUD} נעשה קרב חוזר בשביל האופניים.$"
 
 Route110_Text_AbigailRematchIntro:
-	.string "הלא מדהים לקיים קרב בזמן\n"
+	.string "זה לא מגניב לקיים קרב בזמן\n"
 	.string "רכיבה? $"
 
 Route110_Text_AbigailRematchDefeated:
-	.string "וואו…\n"
-	.string "איך יכול להיות שאתה כל כך חזק?$"
+	.string "ואו…\n"
+	.string "איך יכול להיות שאת{EMIT_HEY} כל כך חזק{ADD_HEY}?$"
 
 Route110_Text_AbigailRematchPostBattle:
 	.string "האם ניסית לשבור שיא?\p"
@@ -1078,12 +1077,12 @@ Route110_Text_JasmineDefeated:
 	.string "אני דואגת לכיווצי שרירים…$"
 
 Route110_Text_JasminePostBattle:
-	.string "אה, יש לך תגים של חדר כושר?\n"
-	.string "לא פלא שאתה כל כך חזק!$"
+	.string "אה, יש לך כמה תגי מכונים?\n"
+	.string "לא פלא שאת{EMIT_HEY} כל כך חזק{ADD_HEY}!$"
 
 Route110_Text_EdwardIntro:
-	.string "חזיתי בכוונותיך!\n"
-	.string "אין ספק שאינני יכול להפסיד!$"
+	.string "חזיתי בכוונות שלך!\n"
+	.string "איני יכול להפסיד!$"
 
 Route110_Text_EdwardDefeated:
 	.string "לא חזיתי את סוף דרכי!$"
@@ -1094,7 +1093,7 @@ Route110_Text_EdwardPostBattle:
 	.string "אני רואה אור קורן…$"
 
 Route110_Text_JaclynIntro:
-	.string "אהחחחח!\n"
+	.string "אהאהאהא!\n"
 	.string "אפיל אותך בפלאיי!$"
 
 Route110_Text_JaclynDefeated:
@@ -1103,7 +1102,7 @@ Route110_Text_JaclynDefeated:
 Route110_Text_JaclynPostBattle:
 	.string "הצלחת לנצח רק כי זה היה\n"
 	.string "פלא! כן, פלא!\l"
-	.string "אל תחשוב שתוכל לנצח כל הזמן!$"
+	.string "אל תחש{EMIT_VAV}ב{ADD_YUD} שתוכל{ADD_YUD} לנצח כל הזמן!$"
 
 Route110_Text_EdwinIntro:
 	.string "האם אוכל לראות את הפוקימונים שלך?\n"
@@ -1114,12 +1113,12 @@ Route110_Text_EdwinDefeated:
 	.string "את האוסף שלי…$"
 
 Route110_Text_EdwinPostBattle:
-	.string "כשאני רואה פוקימון שטרם הכרתי,\n"
+	.string "כשאני רואה פוקימון שאני לא מכיר,\n"
 	.string "התשוקה שלי כאספן מתעוררת!$"
 
 Route110_Text_EdwinRegister:
 	.string "אני אוהב לאסוף גם\n"
-	.string "הרשמות 'MATCH CALL'…$"
+	.string "רשומות של שיחת קרב…$"
 
 Route110_Text_EdwinRematchIntro:
 	.string "היי, תפסת פוקימונים חדשים?\p"
@@ -1136,7 +1135,7 @@ Route110_Text_EdwinRematchPostBattle:
 
 Route110_Text_DaleIntro:
 	.string "היי!\n"
-	.string "אל תתגנב עליי מאחורה ככה!$"
+	.string "אל תתגנב{ADD_YUD} אליי מאחורה ככה!$"
 
 Route110_Text_DaleDefeated:
 	.string "הפסדתי!\n"
@@ -1144,14 +1143,14 @@ Route110_Text_DaleDefeated:
 
 Route110_Text_DalePostBattle:
 	.string "הדיג הוא עניין של ריכוז.\n"
-	.string "עליך להתרכז במקום הצף!$"
+	.string "עליך להתרכז במצוף!$"
 
 Route110_Text_IsabelIntro:
-	.string "חחחח! אלך לכל מקום כדי להראות\n"
+	.string "אהאהא! אלך לכל מקום כדי להראות\n"
 	.string "את הפוקימונים המתוקים שלי.$"
 
 Route110_Text_IsabelDefeated:
-	.string "אוי, זה לא בסדר.$"
+	.string "או, יקיר{ADD_TAF}י, זה לא מסתדר.$"
 
 Route110_Text_IsabelPostBattle:
 	.string "במקום להילחם, אולי אציג את\n"
@@ -1161,14 +1160,14 @@ Route110_Text_IsabelRegister:
 	.string "זה כלל לא היה ההצגה המלאה של\n"
 	.string "הפוקימונים שלי.\p"
 	.string "אהפוך אותך לקהל שבוי שלי\n"
-	.string "ככל שאוכל!$"
+	.string "לעיתים קרובות ככל האפשר!$"
 
 Route110_Text_IsabelRematchIntro:
-	.string "חחחח! אשמח להראות את הפוקימונים\n"
-	.string "שלי כל פעם שתרצה!$"
+	.string "אהאהאהא! אשמח להראות את הפוקימונים\n"
+	.string "שלי כל פעם שתרצ{EMIT_HEY}{ADD_YUD}!$"
 
 Route110_Text_IsabelRematchDefeated:
-	.string "אוי, זה לא מסתדר.$"
+	.string "או, יקיר{ADD_TAF}י, זה לא מסתדר.$"
 
 Route110_Text_IsabelRematchPostBattle:
 	.string "אני לא חושבת שאוכל להפסיק\n"
@@ -1176,7 +1175,7 @@ Route110_Text_IsabelRematchPostBattle:
 	.string "אבל גם אני אוהבת להילחם!$"
 
 Route110_Text_TimmyIntro:
-	.string "מצאתי כמה פוקימונים מגניבים בעשב\n"
+	.string "מצאתי כמה פוקימונים מגניבים בדשא\n"
 	.string "כאן בסביבה!$"
 
 Route110_Text_TimmyDefeated:
@@ -1187,7 +1186,7 @@ Route110_Text_TimmyPostBattle:
 	.string "הרגע.$"
 
 Route110_Text_AlyssaIntro:
-	.string "נפלתי מדרך האופניים…\p"
+	.string "נפלתי משביל האופניים…\p"
 	.string "אתגבר על המבוכה שלי באמצעות\n"
 	.string "קרב מולך!$"
 
@@ -1200,61 +1199,61 @@ Route110_Text_AlyssaPostBattle:
 	.string "זה כל-כך מביש עבורי!$"
 
 Route110_Text_JosephIntro:
-	.string "בסדר! עכשיו במלוא העוצמה! אם אתה לא\n"
-	.string "נכנס לקצב, אתה נשאר מאחור!$"
+	.string "בסדר! עכשיו במלוא העוצמה! אם את{EMIT_HEY} לא\n"
+	.string "נכנס{ADD_TAF} לקצב, את{EMIT_HEY} נשאר{ADD_TAF} מאחור!$"
 
 Route110_Text_JosephDefeated:
-	.string "הצלחת להיכנס לקצב באמת…$"
+	.string "הצלחת באמת להיכנס לקצב…$"
 
 Route110_Text_JosephPostBattle:
 	.string "זה לא ישפיל אותי!\n"
-	.string "ההפסד עשה אותי לאדם חזק יותר!$"
+	.string "ההפסד עשה אותי לאדם טוב יותר!$"
 
 Route110_Text_KalebIntro:
 	.string "כשפוקימונים חמודים עוזרים זה לזה…\n"
-	.string "לא תראה מראה חמוד יותר מזה!$"
+	.string "לא תרא{EMIT_HEY}{ADD_YUD} מראה חמוד יותר מזה!$"
 
 Route110_Text_KalebDefeated:
 	.string "האם אין בך חמלה או רחמים?$"
 
 Route110_Text_KalebPostBattle:
-	.string "טוב, טוב, עשיתם כמיטב יכולתכם,\n"
-	.string "החמודים שלי.$"
+	.string "אוקיי, אוקיי, עשיתם כמיטב יכולתכם,\n"
+	.string "יפים שלי.$"
 
 Route111_Text_DrewIntro:
-	.string "אה, היי! המשקפי-גו האלה מתאימים לך.\n"
+	.string "או, היי! המשקפי מיגון האלה מתאימים לך.\n"
 	.string "אבל אני חושב שהם נראים טוב יותר עליי.\p"
-	.string "בוא נחליט מי נראה איתם טוב יותר\n"
-	.string "בקרב!$"
+	.string "בוא{ADD_YUD} נחליט מי נראה איתם טוב יותר\n"
+	.string "עם קרב!$"
 
 Route111_Text_DrewDefeat:
 	.string "לא הצלחתי לראות מה קורה בצדדים שלי\n"
-	.string "בגלל משקפי-גו.$"
+	.string "בגלל משקפי המיגון.$"
 
 Route111_Text_DrewPostBattle:
-	.string "משקפי-גו מאפשרים לעבור דרך סופות חול.\l"
+	.string "משקפי המיגון מאפשרים לעבור דרך סופות חול.\l"
 	.string "זה משמח אותי!$"
 
 Route111_Text_HeidiIntro:
 	.string "אני עושה פיקניק במדבר.\p"
-	.string "תמיד אפשר למצוא מאמן,\n"
-	.string "אז גם כאן אפשר ליהנות מקרב!$"
+	.string "אפשר תמיד למצוא מאמן,\n"
+	.string "אז גם כאן אפשר להנות מקרב!$"
 
 Route111_Text_HeidiDefeat:
-	.string "אוו! איזה מרושע!$"
+	.string "אוו! את{EMIT_HEY} מרושע{ADD_TAF}!$"
 
 Route111_Text_HeidiPostBattle:
 	.string "כשנלחמים בסופת חול,\n"
-	.string "שימו לב ל-HP של הפוקימונים שלכם.\p"
+	.string "שימו לב לנח של הפוקימונים שלכם.\p"
 	.string "הם עלולים ליפול אם לא תשימו\n"
-	.string "עליהם לב!$"
+	.string "לב אליהם!$"
 
 Route111_Text_BeauIntro:
-	.string "להיות עם משקפי-גו גורם לי להרגיש כמו גיבור-על.\l"
+	.string "להיות עם משקפי מיגון גורם לי להרגיש כמו גיבור-על.\l"
 	.string "כרגע, אף אחד לא יכול להביס אותי!$"
 
 Route111_Text_BeauDefeat:
-	.string "אני לא יכול לנצח רק ברוח…$"
+	.string "אני לא יכול לנצח רק ברוחי…$"
 
 Route111_Text_BeauPostBattle:
 	.string "יום אחד אהיה גיבור אמיתי.\n"
@@ -1288,7 +1287,7 @@ Route111_Text_DustyPostBattle:
 Route111_Text_DustyRegister:
 	.string "לא חיפשתי אחר פוקימונים חזקים.\p"
 	.string "אבל, מסיבה כלשהי, אני ממש אוהב\n"
-	.string "את ה-POKéNAVS.$"
+	.string "את הפוקינווט.$"
 
 Route111_Text_DustyRematchIntro:
 	.string "חיפשתי חורבות עתיקות במשך שלושים שנה!\p"
@@ -1306,26 +1305,30 @@ Route111_Text_DustyPostRematch:
 	.string "כמה זמן אני כבר עושה זאת?$"
 
 Route111_Text_TravisIntro:
-	.string "מלא אנרגיה!\n"
+	.string "אני מלא באנרגיה!\n"
 	.string "והפוקימונים שלי מלאי אנרגיה גם הם!$"
 
 Route111_Text_TravisDefeat:
+	.string "הפוקימונים שלי איבדו\n"
+	.string "את האנרגיה שלהם…$"
 	.string "My POKéMON lost its pep…$"
 
 Route111_Text_TravisPostBattle:
+	.string "כשאני רואה מאמ{SWAP_NUN}{ADD_TAF} עם הרבה אנרגיה,,\n"
+	.string "אני לא יכול שלא להסתכל.$"
 	.string "When I see a TRAINER with a lot of pep,\n"
 	.string "I can't help looking.$"
 
 Route111_Text_IreneIntro:
-	.string "אני לא יודעת לאן אתה הולך,\n"
-	.string "אבל תרצה לקרב?$"
+	.string "אני לא יודעת לאן את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF},\n"
+	.string "אבל את{EMIT_HEY} רוצה קרב?$"
 
 Route111_Text_IreneDefeat:
-	.string "או, אתה טוב בצורה מגעילה!$"
+	.string "או, את{EMIT_HEY} טוב{ADD_HEY} בצורה מגעילה!$"
 
 Route111_Text_IrenePostBattle:
 	.string "אני חושבת שאולי עליי לעלות\n"
-	.string "לבן צ'ימני, אבל הנוף כאן\l"
+	.string "להר הארובה, אבל הנוף כאן\l"
 	.string "גם נחמד מאוד.$"
 
 Route111_Text_DaisukeIntro:
@@ -1341,7 +1344,7 @@ Route111_Text_DaisukePostBattle:
 	.string "כמוך.$"
 
 Route111_Text_WiltonIntro:
-	.string "הראה לי כמה חיזקת את\n"
+	.string "הרא{EMIT_HEY}{ADD_YUD} לי כמה חיזקת את\n"
 	.string "הפוקימונים שלך.$"
 
 Route111_Text_WiltonDefeat:
@@ -1352,24 +1355,24 @@ Route111_Text_WiltonPostBattle:
 	.string "פוקימונים ומאמנים לומדים המון\n"
 	.string "מקרבות.\p"
 	.string "החשוב הוא לא לוותר אף פעם,\n"
-	.string "גם אם תפסיד.$"
+	.string "גם אם תפסיד{ADD_YUD}.$"
 
 Route111_Text_WiltonRegister:
 	.string "יש הרבה מה ללמוד מסגנון\n"
-	.string "האמון שלך.\p"
+	.string "האימון שלך.\p"
 	.string "אבקש קרב חוזר אם זה\n"
-	.string "נראה לך מתאים.$"
+	.string "נשמע לך מתאים.$"
 
 Route111_Text_WiltonRematchIntro:
 	.string "אנחנו מתאמנים כאן כדי לקחת את\n"
 	.string "הרמה שלנו לשלב הבא.\l"
-	.string "הישאר והתאמן איתנו!$"
+	.string "הישאר{ADD_YUD} והתאמ{SWAP_NUN}{ADD_YUD} איתנו!$"
 
 Route111_Text_WiltonRematchDefeat:
-	.string "אוו, אתה אדיר!$"
+	.string "אוו, את{EMIT_HEY} די טוב{ADD_HEY}!$"
 
 Route111_Text_WiltonPostRematch:
-	.string "מכיוון שאתה כל כך חזק, עליך\n"
+	.string "מכיוון שאת{EMIT_HEY} כל כך חזק{ADD_HEY}, עליך\n"
 	.string "לשאוף לליגת הפוקימונים.$"
 
 Route111_Text_BrookeIntro:
@@ -1391,19 +1394,18 @@ Route111_Text_BrookeRegister:
 	.string "של עוד אנשים חזקים כמוך!$"
 
 Route111_Text_BrookeRematchIntro:
-	.string "אתה יכול לחזק או להחליש פוקימונים\n"
-	.string "תלוי בתנועות שאתה מלמד אותם.\l"
-	.string "\p"
-	.string "אילו סוגי תנועות הפוקימונים שלך\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לחזק או להחליש פוקימונים\n"
+	.string "תלוי במהלכים שאת{EMIT_HEY} מלמד{ADD_TAF} אותם.\p"
+	.string "אילו סוגי מהלכים הפוקימונים שלך\n"
 	.string "יודעים?$"
 
 Route111_Text_BrookeRematchDefeat:
-	.string "לימדת אותם תנועות מעולות!$"
+	.string "לימדת אותם מהלכים טובים!$"
 
 Route111_Text_BrookePostRematch:
 	.string "אולי היה עליי לעצור את\n"
 	.string "התפתחות הפוקימונים שלי עד שהם\l"
-	.string "ילמדו תנועות טובות יותר…$"
+	.string "ילמדו מהלכים טובים יותר…$"
 
 Route111_Text_CeliaIntro:
 	.string "לא הייתי צריכה להגיע למקום כזה\n"
@@ -1415,11 +1417,11 @@ Route111_Text_CeliaDefeat:
 
 Route111_Text_CeliaPostBattle:
 	.string "בסופת חול כזו, אני לא יכולה להכין\n"
-	.string "את המקום לפיקניק אפילו עם המשקפיים\l"
-	.string "המיוחדים שלי…$"
+	.string "את המקום לפיקניק אפילו עם המשקפי\l"
+	.string "מיגון שלי…$"
 
 Route111_Text_BryanIntro:
-	.string "כמה אתה חזק?\n"
+	.string "כמה את{EMIT_HEY} חזק{ADD_HEY}?\n"
 	.string "נגלה את הסוד הזה!$"
 
 Route111_Text_BryanDefeat:
@@ -1432,57 +1434,57 @@ Route111_Text_BryanPostBattle:
 
 Route111_Text_BrandenIntro:
 	.string "אתן לך קצת מהכריך שלי\n"
-	.string "אם תפסיד.$"
+	.string "אם תפסיד{ADD_YUD}.$"
 
 Route111_Text_BrandenDefeat:
-	.string "טץ! חשבתי שכריך יספיק כשוחד…$"
+	.string "טח! חשבתי שכריך יספיק כשוחד…$"
 
 Route111_Text_BrandenPostBattle:
-	.string "הסנדשראו שלי אוהב לאכול\n"
+	.string "ה{STR_VAR_1} שלי אוהב לאכול\n"
 	.string "את הכריכים שלי.$"
 
 Route111_Text_TyronIntro:
 	.string "זהו סוג הפוקימון האהוב עליי!$"
 
 Route111_Text_TyronDefeat:
-	.string "חכה!\n"
+	.string "חכ{EMIT_HEY}{ADD_YUD}!\n"
 	.string "הסתכלת טוב על הפוקימונים שלי?$"
 
 Route111_Text_TyronPostBattle:
 	.string "כשאני נלחם, אני נהנה להציג\n"
 	.string "את הפוקימונים שלי.\p"
-	.string "מניח שכל אחד מרגיש כך כשהוא\n"
+	.string "אני מניח שכל אחד מרגיש ככה כשהוא\n"
 	.string "נכנס לקרב!$"
 
 Route111_Text_CelinaIntro:
-	.string "הראה לי איך להכניס קצת ריגוש\n"
+	.string "הרא{EMIT_HEY}{ADD_YUD} לי איך להכניס קצת ריגוש\n"
 	.string "לחיי.$"
 
 Route111_Text_CelinaDefeat:
-	.string "אוי…\n"
-	.string "זה היה יותר מדי ריגוש.$"
+	.string "אוי… לי…\n"
+	.string "זה היה יותר מדי מרגש.$"
 
 Route111_Text_CelinaPostBattle:
 	.string "הדופק שלי עדיין גבוה.\n"
-	.string "אתה מאמן נהדר.$"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF} נהדר{ADD_TAF}.$"
 
 Route111_Text_HaydenIntro:
-	.string "כשאתה רעב כמוני,\n"
+	.string "כשאת{EMIT_HEY} רעב{ADD_HEY} כמוני,\n"
 	.string "אין מקום לרחמים!$"
 
 Route111_Text_HaydenDefeat:
-	.string "אוי…$"
+	.string "אנקה…$"
 
 Route111_Text_HaydenPostBattle:
-	.string "הבטן שלי רוקדת!\n"
-	.string "אולי אצליח לצלות קצת פירות…$"
+	.string "הבטן שלי מקרקרת!\n"
+	.string "אולי אצליח לצלות קצת פירות יער…$"
 
 Route111_Text_BiancaIntro:
-	.string "האם הגעת ממאוויל?\n"
-	.string "אז בטח מלא אנרגיה!$"
+	.string "האם הגעת ממוויל?\n"
+	.string "אז את{EMIT_HEY} בטח מלא{ADD_HEY} אנרגיה!$"
 
 Route111_Text_BiancaDefeat:
-	.string "אוה לה לה!\n"
+	.string "אוו לה לה!\n"
 	.string "זה היה הרבה לעכל!$"
 
 Route111_Text_BiancaPostBattle:
@@ -1490,39 +1492,39 @@ Route111_Text_BiancaPostBattle:
 	.string "עוד יש לך דרך ארוכה למסע.$"
 
 Route112_Text_BriceIntro:
-	.string "חחחח!\n"
+	.string "האהאהאהא!\n"
 	.string "מה דעתך על קרב?\l"
-	.string "אני ואתה!\l"
-	.string "חחחח!$"
+	.string "אני ואת{EMIT_HEY}!\l"
+	.string "האהאהאהא!$"
 
 Route112_Text_BriceDefeat:
 	.string "הפסדתי!\n"
-	.string "חחחח!$"
+	.string "האהאהאהא!$"
 
 Route112_Text_BricePostBattle:
-	.string "חחחחח! משהו נשאב לי לאף!\n"
-	.string "חחחחצ'ו!$"
+	.string "האהאהאהא! משהו נשאב לי לאף!\n"
+	.string "האהאהאהא-הצ'ו!$"
 
 Route112_Text_TrentIntro:
 	.string "הרגליים שלי חזקות מההליכות\n"
 	.string "בהרים.\p"
-	.string "הן לא יתעייפו בקלות, חבר!$"
+	.string "הן לא יתעייפו בקלות, חבר{ADD_HEY}!$"
 
 Route112_Text_TrentDefeat:
-	.string "איי! הרגליים שלי התכווצו!$"
+	.string "אאוץ'! הרגליים שלי התכווצו!$"
 
 Route112_Text_TrentPostBattle:
-	.string "נסה לטייל בשבילי ההר האלו, ואני מתכוון\n"
+	.string "נס{EMIT_HEY}{ADD_YUD} לטייל בשבילי ההר האלו, ואני מתכוון\n"
 	.string "לצעוד חזק עם תרמיל כבד ששוקל\l"
-	.string "עשרות פאונד.\p"
-	.string "זה, חברי, יעשה לגוף שלך\n"
-	.string "מצב רציני.$"
+	.string "עשרות קילו.\p"
+	.string "זה, חבר{ADD_TAF}י, יכניס את הגוף שלך\n"
+	.string "למבנה רציני.$"
 
 Route112_Text_TrentRegister:
-	.string "איי, הרגליים שלי התכווצו.\n"
-	.string "תוכל לשלוף לי תחבושות מהתרמיל?\p"
-	.string "אוי, זה ה-POKéNAV שלי!\n"
-	.string "טוב, אז ארשום אותך.$"
+	.string "אאו, הרגליים שלי התכווצו.\n"
+	.string "תוכל{ADD_YUD} לשלוף לי תחבושות מהתרמיל שלי?\p"
+	.string "לא, זה הפוקינווט שלי!\n"
+	.string "טוב, נו, אז ארשום אותך.$"
 
 Route112_Text_TrentRematchIntro:
 	.string "שמרתי על כושר על ידי טיולים.\n"
@@ -1533,114 +1535,114 @@ Route112_Text_TrentRematchDefeat:
 
 Route112_Text_TrentRematchPostBattle:
 	.string "שמעתי שיש מאמנים חזקים באמת\n"
-	.string "על פסגת הר צ'ימני.\p"
-	.string "אני מתכוון לעלות לשם ולתת להם\n"
-	.string "אתגר!$"
+	.string "על פסגת הר הארובה.\p"
+	.string "אני מתכוון לעלות לשם ולאתגר\n"
+	.string "אותם!$"
 
 Route112_Text_LarryIntro:
 	.string "אני חזק.\n"
 	.string "אני לא אבכה אם אפסיד.$"
 
 Route112_Text_LarryDefeat:
-	.string "וווואה!$"
+	.string "וואאאאה!$"
 
 Route112_Text_LarryPostBattle:
 	.string "אני לא בוכה כי אני מתגעגע לאמא!\n"
-	.string "נאנה…$"
+	.string "בכי…$"
 
 Route112_Text_CarolIntro:
-	.string "כשאתה בפיקניק, אתה פשוט חייב לשיר!\l"
-	.string "בוא, שר איתי!$"
+	.string "כשאת{EMIT_HEY} בפיקניק, את{EMIT_HEY} פשוט חייב{ADD_TAF} לשיר!\l"
+	.string "בוא{ADD_YUD}, שיר{ADD_YUD} איתי!$"
 
 Route112_Text_CarolDefeat:
-	.string "או, אתה כל-כך חזק!$"
+	.string "או, את{EMIT_HEY} כל כך חזק{ADD_HEY}!$"
 
 Route112_Text_CarolPostBattle:
-	.string "לא משנה אם אתה טוב או רע\n"
+	.string "לא משנה אם את{EMIT_HEY} טוב{ADD_HEY} או רע{ADD_HEY}\n"
 	.string "בשירה או בקרבות.\p"
-	.string "מי שכיף לו ביותר, הוא המנצח!$"
+	.string "אם את{EMIT_HEY} הכי נהנ{EMIT_HEY}{ADD_TAF}, את{EMIT_HEY} המנצח{ADD_TAF}!$"
 
 Route112_Text_BryantIntro:
-	.string "תפסתי פוקימונים חמים בנתיב האש!\n"
-	.string "תראה!$"
+	.string "תפסתי פוקימונים חמים במעבר הלוהט!\n"
+	.string "תרא{EMIT_HEY}{ADD_YUD}!$"
 
 Route112_Text_BryantDefeat:
-	.string "איזה מסע מתנפץ זה היה!$"
+	.string "איזה רכיבה קופצנית זאת הייתה!$"
 
 Route112_Text_BryantPostBattle:
 	.string "אני אוהב את סגנון הקרב שלך.\n"
 	.string "יש בו משהו אופייני וייחודי.$"
 
 Route112_Text_ShaylaIntro:
-	.string "או, האם אינך מאמן חמוד!\n"
+	.string "או, האם אינך מאמ{SWAP_NUN}{ADD_TAF} חמוד{ADD_HEY}!\n"
 	.string "בבקשה, אני רוצה קרב רומנטי!\l"
 	.string "אני די טובה!$"
 
 Route112_Text_ShaylaDefeat:
-	.string "או, כמה אתה חזק!\n"
+	.string "או, כמה את{EMIT_HEY} חזק{ADD_HEY}!\n"
 	.string "נתת לי הלם רציני!$"
 
 Route112_Text_ShaylaPostBattle:
-	.string "האם אתה עסוק עכשיו?\n"
+	.string "האם את{EMIT_HEY} עסוק{ADD_HEY} עכשיו?\n"
 	.string "חשבתי שאולי נחזור על הקרב עכשיו…\l"
-	.string "אבל זה בסדר אם אתה עסוק.$"
+	.string "אבל זה בסדר אם את{EMIT_HEY} עסוק{ADD_HEY}.$"
 
 Route113_Text_JaylenIntro:
-	.string "אתה יכול לנחש למה כל כך קר\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לנחש למה כל כך קר\n"
 	.string "פה בסביבה?$"
 
 Route113_Text_JaylenDefeat:
-	.string "פווו!\n"
-	.string "זה מביש!$"
+	.string "פיווו!\n"
+	.string "זה מבאס!$"
 
 Route113_Text_JaylenPostBattle:
-	.string "האסון הוולקני חוסם את השמש,\n"
-	.string "כך שאינו מתחמם פה.\p"
-	.string "זה טוב בשבילי—אני לא שורד חום!$"
+	.string "האפר הוולקני חוסם את השמש,\n"
+	.string "כך שלא מתחמם פה כל כך.\p"
+	.string "זה טוב בשבילי—אני לא סובל חום!$"
 
 Route113_Text_DillonIntro:
-	.string "התפרצות הר הוולקן היא הוכחה\n"
+	.string "התפרצות הר הגעש היא הוכחה\n"
 	.string "שהאדמה חיה.$"
 
 Route113_Text_DillonDefeat:
-	.string "אתה סוג של חזק במיוחד!$"
+	.string "את{EMIT_HEY} סוג של חזק{ADD_HEY} במיוחד!$"
 
 Route113_Text_DillonPostBattle:
-	.string "איי! אוי! אני לא רואה!\n"
-	.string "נכנסו לי אפרים לריסים!\p"
-	.string "הבנת? אפר וריסים?\p"
+	.string "אאוץ'! אאו! אני לא רואה!\n"
+	.string "נכנס לי אפרים לריסים!\p"
+	.string "הבנת? אפרים וריסים?\p"
 	.string "אוקי, זה היה גרוע, סליחה…$"
 
 Route113_Text_MadelineIntro:
 	.string "אני משתמשת במטריה הזו כדי לדחות\n"
-	.string "את אפר הוולקן המלוכלך הזה מעל\l"
-	.string "ה-NUMEL היקר שלי.$"
+	.string "את אפר הגעש המלוכלך הזה מעל\l"
+	.string "ה{STR_VAR_1} היקר שלי.$"
 
 Route113_Text_MadelineDefeat:
-	.string "הממ, הממ…\n"
+	.string "האף, האף…\n"
 	.string "אני מותשת…$"
 
 Route113_Text_MadelinePostBattle:
-	.string "אתה טוב בזה מאוד.\n"
-	.string "חייבת לומר שאני מרוצה!$"
+	.string "את{EMIT_HEY} טוב{ADD_HEY} בזה מאוד.\n"
+	.string "אני חייבת לומר שאני התרשמתי!$"
 
 Route113_Text_MadelineRegister:
-	.string "בוא תחליק תחת המטריה שלי.\n"
-	.string "תן לי לרשום אותך ב-POKéNAV שלי.$"
+	.string "בוא{ADD_YUD} תחליק תחת המטריה שלי.\n"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לרשום אותך בפוקינווט שלי.$"
 
 Route113_Text_MadelineRematchIntro:
-	.string "אה, הלו, לא היה זמן מה?\n"
-	.string "מותר להזמין אותך לקרב?$"
+	.string "או, הלו, זה לא היה זמן מה?\n"
+	.string "אוכל להזמין אותך לקרב?$"
 
 Route113_Text_MadelineRematchDefeat:
 	.string "או, כמה נפלא!$"
 
 Route113_Text_MadelinePostRematch:
-	.string "נשארת טוב בזה מאוד.\n"
-	.string "חייבת לומר שאני מרוצה!$"
+	.string "את{EMIT_HEY} נשארת טוב בזה מאוד.\n"
+	.string "אני חייבת לומר שאני התרשמתי!$"
 
 Route113_Text_LaoIntro:
-	.string "מבעד לאפר אני קופץ! הייהא!\n"
+	.string "מתוך האפר אני יוצא! הייהא!\n"
 	.string "אני מאתגר אותך!$"
 
 Route113_Text_LaoDefeat:
@@ -1651,11 +1653,11 @@ Route113_Text_LaoPostBattle:
 	.string "אני נפרד ממך.$"
 
 Route113_Text_LaoRegister:
-	.string "ייהאה! ראו את טכניקת הנינג'ה העתיקה\n"
-	.string "של רישום ב-POKéNAV!$"
+	.string "ייהאה! רא{EMIT_HEY}{ADD_YUD} את טכניקת הנינג'ה העתיקה\n"
+	.string "של רישום בפוקינווט!$"
 
 Route113_Text_LaoRematchIntro:
-	.string "מבעד לאפר אני קופץ! הייהא!\n"
+	.string "מתוך האפר אני יוצא! הייהא!\n"
 	.string "אני מאתגר אותך!$"
 
 Route113_Text_LaoRematchDefeat:
@@ -1672,16 +1674,16 @@ Route113_Text_LungIntro:
 
 Route113_Text_LungDefeat:
 	.string "אשתמש בנינג'יצו שלי עליך…\n"
-	.string ""VOLCANIC ASH SWIRL CLOAK"!\p"
+	.string "”סיבוב אפר געשי מוסתר“!\p"
 	.string "…מה?\n"
 	.string "זה כבר נגמר?$"
 
 Route113_Text_LungPostBattle:
-	.string "אתה יודע מה רע בהסתתרות?\n"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} מה רע בהסתתרות?\n"
 	.string "זה בודד אם אף אחד לא מגיע.$"
 
 Route113_Text_ToriIntro:
-	.string "TORI: שנינו אוספים אפר.\n"
+	.string "טורי: שנינו אוספים אפר.\n"
 	.string "אנחנו נלחם בפוקימונים גם כן.$"
 
 Route113_Text_ToriDefeat:
@@ -1689,106 +1691,106 @@ Route113_Text_ToriDefeat:
 	.string "אאסוף עוד אפר.$"
 
 Route113_Text_ToriPostBattle:
-	.string "TORI: כמה אפר יש לנו?\n"
-	.string "מקווה שזה מספיק עבור WHITE FLUTE.$"
+	.string "טורי: כמה אפר יש לנו?\n"
+	.string "מקווה שזה מספיק בשביל חליל לבן.$"
 
 Route113_Text_ToriNotEnoughMons:
-	.string "TORI: אנחנו רוצים להילחם 2 נגד 2.\n"
+	.string "טורי: אנחנו רוצים להילחם 2 נגד 2.\n"
 	.string "אם לא, היינו מפסידים!$"
 
 Route113_Text_TiaIntro:
-	.string "TIA: שנינו אוספים אפר.\n"
+	.string "טיא: שנינו אוספים אפר.\n"
 	.string "אנחנו נלחם בפוקימונים גם כן.$"
 
 Route113_Text_TiaDefeat:
-	.string "TIA: לא הצלחנו לנצח… זה משעמם,\n"
+	.string "טיא: לא הצלחנו לנצח… זה משעמם,\n"
 	.string "אז אני אלך לאסוף עוד אפר.$"
 
 Route113_Text_TiaPostBattle:
-	.string "TIA: יש לנו הרבה אפר!\n"
-	.string "אולי זה מספיק עבור WHITE FLUTE!$"
+	.string "טיא: יש לנו הרבה אפר!\n"
+	.string "אולי זה מספיק עבור חליל לבן!$"
 
 Route113_Text_TiaNotEnoughMons:
-	.string "TIA: אנחנו רוצים להילחם 2 נגד 2.\n"
+	.string "טיא: אנחנו רוצים להילחם 2 נגד 2.\n"
 	.string "אם לא, לא ננצח!$"
 
 Route113_Text_CobyIntro:
-	.string "פף, עם הכנפיים האלה אני יכול\n"
+	.string "פפף, עם הכנפיים האלה אני יכול\n"
 	.string "לנגב אותך הצידה!$"
 
 Route113_Text_CobyDefeat:
 	.string "א… מה?$"
 
 Route113_Text_CobyPostBattle:
-	.string "אני לא יודע מה לומר כשמכים אותי\n"
+	.string "אני לא יודע מה לומר כשמביסים אותי\n"
 	.string "ככה בקלות…$"
 
 Route113_Text_SophieIntro:
 	.string "החום כאן עושה לי תרדמת.\n"
-	.string "תתמודד איתי כדי שאשאר ערה.$"
+	.string "תתמודד{ADD_YUD} מולי כדי שאשאר ערה.$"
 
 Route113_Text_SophieDefeat:
 	.string "זה חלום.\n"
-	.string "בטוחה בזה…$"
+	.string "אני בטוחה בזה…$"
 
 Route113_Text_SophiePostBattle:
-	.string "ההפסד הופך אותי לאדומה…\n"
+	.string "הפסד מכעיס אותי…\n"
 	.string "אני פשוט אלך לישון כאן!\l"
 	.string "זזז!$"
 
 Route113_Text_LawrenceIntro:
 	.string "האם אולי היית באמצע\n"
-	.string "איסוף אפר וולקני?$"
+	.string "איסוף אפר געשי?$"
 
 Route113_Text_LawrenceDefeat:
-	.string "אחהחה.\n"
+	.string "איהיהי.\n"
 	.string "הובלנו להפסד ברור.$"
 
 Route113_Text_LawrencePostBattle:
 	.string "צריך גם להסתתר מתחת לאפר.$"
 
 Route113_Text_WyattIntro:
-	.string "ר-רצית להילחם איתי?\n"
-	.string "גם כשברגע זה תפסתי את הפוקימון שלי?$"
+	.string "ר-רצית להילחם מולי?\n"
+	.string "גם כשרק תפסתי את הפוקימון שלי?$"
 
 Route113_Text_WyattDefeat:
-	.string "א-אתה כל כך שמח מהניצחון?\n"
+	.string "א-את{EMIT_HEY} כל כך שמח{ADD_HEY} מהניצחון?\n"
 	.string "גם כשזה רק אני?$"
 
 Route113_Text_WyattPostBattle:
-	.string "אה, עכשיו אתה רוצה לומר מילה\n"
+	.string "אה, עכשיו את{EMIT_HEY} רוצה לומר מילה\n"
 	.string "למפסיד?\p"
-	.string "כמה מגניב אתה, אה?\n"
-	.string "המף!$"
+	.string "כמה מגניב{ADD_HEY} את{EMIT_HEY}?\n"
+	.string "האמף!$"
 
 Route114_Text_LennyIntro:
-	.string "יודליי-הו!\p"
+	.string "יודלאייהוו!\p"
 	.string "… …\p"
-	.string "אתה אמור לצעוק\n"
-	.string ""יודליי-הו" כי פה זה לא מהדהד!$"
+	.string "את{EMIT_HEY} אמור{ADD_HEY} לצעוק\n"
+	.string "”יודלאייהוו“ כי זה לא מהדהד פה!$"
 
 Route114_Text_LennyDefeat:
-	.string "יודליי-הו!$"
+	.string "יודלאייהוו!$"
 
 Route114_Text_LennyPostBattle:
 	.string "כשהייתי קטן, חשבתי שמישהו מחקה אותי\n"
-	.string "וצועק חזרה "יודליי-הו."$"
+	.string "וצועק חזרה ”יודלאייהוו.“$"
 
 Route114_Text_LucasIntro:
-	.string "אם אתה לא מוכן, לא כדאי שתהיה\n"
-	.string "בכרי ההרים!$"
+	.string "אם את{EMIT_HEY} לא מוכ{SWAP_NUN}{ADD_HEY}, לא כדאי שתהי{EMIT_HEY}{ADD_YUD}\n"
+	.string "בגבהי ההרים!$"
 
 Route114_Text_LucasDefeat:
 	.string "ההרים לא סלחניים…$"
 
 Route114_Text_LucasPostBattle:
-	.string "בחורף ההרים הופכים קטלניים\n"
-	.string "עם סופות שלגים וסחיפות שלגים.$"
+	.string "בחורף ההרים הופכים לקטלניים\n"
+	.string "עם סופות שלגים ומפולות שלגים.$"
 
 Route114_Text_ShaneIntro:
-	.string "מחנאות זה כיף! אתה יכול לדוג,\n"
-	.string "לקלות מרשמלו ולספר סיפורי מפחיד!\p"
-	.string "אבל הכי טוב זה קרבות הפוקימונים!$"
+	.string "מחנאות זה כיף! את{EMIT_HEY} יכול{ADD_HEY} לדוג,\n"
+	.string "לקלות מרשמלו ולספר סיפורים מפחידים!\p"
+	.string "אבל הכי טוב זה הקרבות פוקימונים!$"
 
 Route114_Text_ShaneDefeat:
 	.string "חזק מדי!$"
@@ -1799,7 +1801,7 @@ Route114_Text_ShanePostBattle:
 
 Route114_Text_NancyIntro:
 	.string "אני צריכה להתאמן אחרי ארוחה.\n"
-	.string "בוא נערוך קרב!$"
+	.string "בוא{ADD_YUD} נערוך קרב!$"
 
 Route114_Text_NancyDefeat:
 	.string "או, לא!$"
@@ -1809,73 +1811,72 @@ Route114_Text_NancyPostBattle:
 	.string "אני מתנמנמת…$"
 
 Route114_Text_SteveIntro:
-	.string "אופאופאופא…\n"
+	.string "אופופופו…\n"
 	.string "רוצה להילחם מול הפוקימונים שלי?$"
 
 Route114_Text_SteveDefeat:
-	.string "הה-פוקימונים שלי…$"
+	.string "ה-הפוקימונים שלי…$"
 
 Route114_Text_StevePostBattle:
-	.string "גוף גדול מכוסה בליטות וקשה,\n"
+	.string "גוף גדול קשה ומכוסה בליטות,\n"
 	.string "קרניים ענקיות וניבים אכזריים…\p"
-	.string "אופאופא…\n"
+	.string "אופופופו…\n"
 	.string "הלוואי והיה לי כזה פוקימון…$"
 
 Route114_Text_SteveRegister:
-	.string "אל תשכח מה שעשית לי!\n"
-	.string "אגרום לכך שלא תשכח!$"
+	.string "אל תשכח{ADD_YUD} מה שעשית לי!\n"
+	.string "אגרום לכך שלא תשכח{ADD_YUD}!$"
 
 Route114_Text_SteveRematchIntro:
-	.string "אופאופאופא…\n"
+	.string "אופופופופו…\n"
 	.string "קדימה, קרב מול הפוקימונים שלי…$"
 
 Route114_Text_SteveRematchDefeat:
-	.string "מרגיש כל-כך בר מזל לראות את\n"
+	.string "אני מרגיש כל כך בר מזל לראות את\n"
 	.string "הפוקימונים שלך…$"
 
 Route114_Text_StevePostRematch:
-	.string "אופאופאופא…\p"
-	.string "כשרואה קרבות פוקימונים, אני ממש\n"
-	.string "מרעיד ורועד…$"
+	.string "אופופופופו…\p"
+	.string "כשאני רואה קרבות פוקימונים, אני ממש\n"
+	.string "משקשק ורועד…$"
 
 Route114_Text_BernieIntro:
-	.string "אם אתה מדליק מדורה,\n"
-	.string "וודא שיש לך מים בקרבת מקום.$"
+	.string "אם את{EMIT_HEY} מדליק{ADD_HEY} מדורה,\n"
+	.string "וודא{ADD_YUD} שיש לך מים בקרבת מקום.$"
 
 Route114_Text_BernieDefeat:
 	.string "תודה שהכבת את האש שלי!$"
 
 Route114_Text_BerniePostBattle:
-	.string "צריך להיזהר מאוד מכל אש ביער.\p"
-	.string "אל תמעיט מעוצמת האש.$"
+	.string "את{EMIT_HEY} באמת צרי{SWAP_CHAF}{ADD_HEY} להיזהר מאוד מכל אש ביער.\p"
+	.string "אף פעם אל תמעיט{ADD_YUD} מעוצמת האש.$"
 
 Route114_Text_BernieRegister:
-	.string "הציתת את רוחי.\n"
-	.string "בוא נרשם זה לזה!$"
+	.string "הצתת את רוחי.\n"
+	.string "בוא{ADD_YUD} נרשם זה את זה!$"
 
 Route114_Text_BernieRematchIntro:
-	.string "למדת לשמור על מים קרוב למדורה?\n"
-	.string "כדי לשמור על בטיחות?$"
+	.string "למדת לשמור על מים קרוב למדורה?$"
 
 Route114_Text_BernieRematchDefeat:
-	.string "הכיבו אותי לפני שהספקתי\n"
-	.string "להתלהב, כך נראה.$"
+	.string "כיבו אותי לפני שהספקתי\n"
+	.string "להתלהב, כנראה.$"
 
 Route114_Text_BerniePostRematch:
-	.string "צריך להיזהר מאוד מכל אש ביער.\p"
-	.string "אל תמעיט מעוצמת האש.$"
+	.string "את{EMIT_HEY} באמת צרי{SWAP_CHAF}{ADD_HEY} להיזהר מאוד מכל אש ביער.\p"
+	.string "אף פעם אל תמעיט{ADD_YUD} מעוצמת האש.$"
 
 Route114_Text_ClaudeIntro:
 	.string "אם היינו דגים, לא היה לך סיכוי\n"
 	.string "מולי.\l"
-	.string "אז, הביא את הפוקימונים שלך!$"
+	.string "אז, של{EMIT_VAV}{SWAP_PEY}{ADD_YUD} את הפוקימונים שלך!$"
 
 Route114_Text_ClaudeDefeat:
 	.string "אם היינו דגים, הייתי מנצח…$"
 
 Route114_Text_ClaudePostBattle:
 	.string "אני חושב שאנסה את מזלי לתפוס\n"
-	.string "דג גדול במפל המטאור.\p"
+	.string "אחד גדול במפלי המטאור.\p"
 	.string "חייב להיות שם משהו.\n"
 	.string "אני פשוט מרגיש כך.$"
 
@@ -1883,73 +1884,73 @@ Route114_Text_NolanIntro:
 	.string "אני אוהב לדוג. אבל גם אוהב\n"
 	.string "להילחם!\p"
 	.string "אם מישהו אתגר אותי, אני שם,\n"
-	.string "גם כשאני מדוג.$"
+	.string "גם כשאני דג.$"
 
 Route114_Text_NolanDefeat:
 	.string "אני אוהב להילחם, אבל זה לא\n"
-	.string "משמעות שאני טוב בזה…$"
+	.string "אומר שאני טוב בזה…$"
 
 Route114_Text_NolanPostBattle:
 	.string "הפעם אצליח!\p"
-	.string "אני תמיד חושב כך, אז לא יכול\n"
-	.string "להתרחק מדיג או מפוקימונים.$"
+	.string "אני תמיד חושב ככה, אז לא יכול\n"
+	.string "להתרחק מדייג או מפוקימון.$"
 
 Route114_Text_TyraIntro:
-	.string "TYRA: טוב, כמובן.\n"
+	.string "טירא: טוב, כמובן.\n"
 	.string "אני במצב רוח לזה.\l"
-	.string "אוראה לך קצת על פוקימונים.$"
+	.string "אלמד לךאותך קצת על פוקימונים.$"
 
 Route114_Text_TyraDefeat:
-	.string "TYRA: איזה סגנון קרב מדהים!$"
+	.string "טירא: איזה סגנון קרב מדהים!$"
 
 Route114_Text_TyraPostBattle:
-	.string "TYRA: הייתי מלמדת את ה- IVY\n"
+	.string "טירא: הייתי מלמדת את אייוי\n"
 	.string "הצעירה שלי על פוקימונים.$"
 
 Route114_Text_TyraNotEnoughMons:
-	.string "TYRA: גיגל…\n"
-	.string "אם אתה רוצה להילחם איתנו, רק פוקימון\l"
-	.string "אחד אינו מספיק!$"
+	.string "טירא: צחקוק…\n"
+	.string "אם את{EMIT_HEY} רוצה להילחם מולנו, רק פוקימון\l"
+	.string "אחד לא מספיק!$"
 
 Route114_Text_IvyIntro:
-	.string "IVY: מי לימד אותך על פוקימונים?$"
+	.string "אייוי: מי לימד אותך על פוקימונים?$"
 
 Route114_Text_IvyDefeat:
-	.string "IVY: איזה סגנון קרב מדהים!$"
+	.string "אייוי: איזה סגנון קרב מדהים!$"
 
 Route114_Text_IvyPostBattle:
-	.string "IVY: התחלתי לאמן פוקימונים\n"
-	.string "כי TYRA, המנטורית שלי,\l"
+	.string "אייוי: התחלתי לאמן פוקימונים\n"
+	.string "כי טירא, המנטורית שלי,\l"
 	.string "לימדה אותי!$"
 
 Route114_Text_IvyNotEnoughMons:
-	.string "IVY: האם יש לך רק פוקימון אחד?\n"
+	.string "אייוי: האם יש לך רק פוקימון אחד?\n"
 	.string "זה בטח מרגיש בודד.$"
 
 Route114_Text_KaiIntro:
-	.string "תפסתי דג גדול!\n"
-	.string "ענק, אמור לך!$"
+	.string "תפסתי אחד גדול!\n"
+	.string "ענק, אני אומר לך!$"
 
 Route114_Text_KaiDefeat:
 	.string "מה זה היה עכשיו?\n"
-	.string "האם שלי התקשה בגודל?$"
+	.string "האם שלי הפסיד בגודל?$"
 
 Route114_Text_KaiPostBattle:
-	.string "טוב!\n"
-	.string "אז אפשוט לדוג אחד גדול יותר!$"
+	.string "אוקיי!\n"
+	.string "אז פשוט אדוג אחד גדול יותר!$"
 
 Route114_Text_CharlotteIntro:
 	.string "אני!\n"
 	.string "אני לא רק פרצוף יפה!$"
 
 Route114_Text_CharlotteDefeat:
-	.string "זה כלל לא היה חמוד!$"
+	.string "זה בכלל לא היה חמוד!$"
 
 Route114_Text_CharlottePostBattle:
 	.string "אני לא רוצה פוקימון שהוא\n"
 	.string "רק חמוד.\p"
-	.string "אני מעריצה חמודים שיש להם קצת\n"
-	.string "ייחודיות!$"
+	.string "אני מעריצה חמודים שיש להם ייחוד\n"
+	.string "או שניים!$"
 
 Route114_Text_AngelinaIntro:
 	.string "האם גרמת לפוקימונים שלך\n"
@@ -1961,15 +1962,15 @@ Route114_Text_AngelinaDefeat:
 
 Route114_Text_AngelinaPostBattle:
 	.string "יש פוקימונים שמשתנים כל כך\n"
-	.string "כשמתפתחים, שזה מפתיע!$"
+	.string "כשמתפתחים, זה מפתיע!$"
 
 Route115_Text_TimothyIntro:
-	.string "הממ…\n"
-	.string "נראה שאתה די מסוגל…\l"
-	.string "תן לי לחבור אליך!$"
+	.string "המ…\n"
+	.string "נראה שאת{EMIT_HEY} די מסוגל{ADD_TAF}…\l"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי להצטרף אליך!$"
 
 Route115_Text_TimothyDefeat:
-	.string "אתה הרבה יותר חזק\n"
+	.string "את{EMIT_HEY} הרבה יותר חזק{ADD_HEY}\n"
 	.string "ממה שדמיינתי!$"
 
 Route115_Text_TimothyPostBattle:
@@ -1980,13 +1981,13 @@ Route115_Text_TimothyPostBattle:
 Route115_Text_TimothyRegister:
 	.string "הממ… הפסד כה מוחץ היה\n"
 	.string "זיכרון רחוק.\p"
-	.string "אם תאפשר, אשמח להזדמנות\n"
+	.string "אם תאפשר{ADD_YUD}, אשמח להזדמנות\n"
 	.string "נוספת לקרב.$"
 
 Route115_Text_TimothyRematchIntro:
-	.string "הממ… כמו תמיד, הזריזות שלך מדברת\n"
+	.string "המ… כמו תמיד, הזריזות שלך מדברת\n"
 	.string "בעד עצמה.\l"
-	.string "בוא, תהיה לי חברה!$"
+	.string "בוא{ADD_YUD}, תארח{ADD_YUD} לי חברה!$"
 
 Route115_Text_TimothyRematchDefeat:
 	.string "חזק כרגיל!$"
@@ -1997,24 +1998,24 @@ Route115_Text_TimothyPostRematch:
 	.string "מאמץ!$"
 
 Route115_Text_KoichiIntro:
-	.string "אתה!\p"
-	.string "המַצ'וֹפ שלי!\p"
-	.string "תדרוש קרב!$"
+	.string "את{EMIT_HEY}!\p"
+	.string "ה{STR_VAR_1} שלי!\p"
+	.string "דורש קרב!$"
 
 Route115_Text_KoichiDefeat:
-	.string "איי, איי, איי!$"
+	.string "אאוץ', אאוץ', אאוץ'!$"
 
 Route115_Text_KoichiPostBattle:
-	.string "צוות המַצ'וֹפים שלי!\p"
+	.string "צוות ה{STR_VAR_1}ים שלי!\p"
 	.string "כל עוד הם מחפשים כוח, אני\n"
-	.string "אתחזק יחד אתם!$"
+	.string "אתחזק יחד איתם!$"
 
 Route115_Text_NobIntro:
 	.string "היכולת החזקה ביותר שלי היא לשבור\n"
 	.string "לבנים עם המצח שלי!$"
 
 Route115_Text_NobDefeat:
-	.string "אוגווווע!\n"
+	.string "אוגוואאאאה!\n"
 	.string "הראש שלי נשבר!$"
 
 Route115_Text_NobPostBattle:
@@ -2023,28 +2024,30 @@ Route115_Text_NobPostBattle:
 	.string "ממני. זה מרגש אותי.$"
 
 Route115_Text_NobRegister:
-	.string "הרשמת אותי! תן לי קרב חוזר\n"
+	.string "הרשמת אותי! ת{SWAP_NUN}{ADD_YUD} לי קרב חוזר\n"
 	.string "אחרי שאחזור על האימון שלי!$"
 
 Route115_Text_NobRematchIntro:
 	.string "אחרי שהבסת אותי, התאמנו חזק\n"
 	.string "כדי לשפר את הכישורים שלנו.\l"
-	.string "הבא, תן לנו קרב חוזר!$"
+	.string "קדימה, ת{SWAP_NUN}{ADD_YUD} לנו קרב חוזר!$"
 
 Route115_Text_NobRematchDefeat:
-	.string "אוגווו!\n"
+	.string "אוגוואאאאה!\n"
 	.string "הפסדנו שוב!$"
 
 Route115_Text_NobPostRematch:
-	.string "הפוקימונים שלי יחזיקו כוח!\n"
-	.string "אכפיל את האימון שלי!$"
+	.string "הפוקימונים שלי יתחזקו!\n"
+	.string "אני אכפיל את האימון שלי!$"
 
 Route115_Text_CyndyIntro:
 	.string "החוף הזה הוא מקום האימון הסודי שלי!\n"
-	.string "אל תפריע!$"
+	.string "אל תפריע{ADD_YUD}!$"
 
 Route115_Text_CyndyDefeat:
-	.string "לא התאמנתי מספיק!$"
+	.string "אני לא התאמנתי מספיק!$"
+
+@ TILL HERE 10
 
 Route115_Text_CyndyPostBattle:
 	.string "החול משמש כריפוד להפחתת\n"

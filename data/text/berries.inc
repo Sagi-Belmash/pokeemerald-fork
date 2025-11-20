@@ -1,234 +1,234 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
-	.string "אבא: Hi, {PLAYER}!\p"
-	.string "I just received a very rare BERRY.\n"
-	.string "I'd like you to have it.$"
+	.string "אבא: היי, {PLAYER}!\p"
+	.string "קיבלתי עכשיו פרי יער נדיר מאוד.\n"
+	.string "אני רוצה שתקח{ADD_YUD} אותו.$"
 
 Route104_Text_PlantBerriesInSoilTakeThis:
-	.string "If you see BERRIES growing in loamy\n"
-	.string "soil, feel free to take them.\p"
-	.string "But make sure you plant a BERRY in the\n"
-	.string "same spot. That's common courtesy.\p"
-	.string "Here, I'll share this with you.$"
+	.string "אם את{EMIT_HEY} רואה פירות יער גדלים באדמה\n"
+	.string "פורייה, תרגיש{ADD_YUD} חופשי לקחת אותם.\p"
+	.string "אבל וודא{ADD_YUD} שאת{EMIT_HEY} שותל{ADD_TAF} פרי יער\n"
+	.string "באותו מקום. זה מנהג נימוסי.\p"
+	.string "הנה, אני אשתף אותך עם זה.$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
-	.string "The way you look, you must be a\n"
-	.string "TRAINER, no?\p"
-	.string "TRAINERS often make POKéMON hold\n"
-	.string "BERRIES.\p"
-	.string "It's up to you whether to grow BERRIES\n"
-	.string "or use them.$"
+	.string "מראך אומר שאת{EMIT_HEY} חייב{ADD_TAF} להיות\n"
+	.string "מאמ{SWAP_NUN}{ADD_TAF}, נכון?\p"
+	.string "מאמנים לעיתים נותנים לפוקימון\n"
+	.string "להחזיק פירות יער.\p"
+	.string "הבחירה היא שלך אם לגדל פירות יער\n"
+	.string "או להשתמש בהם.$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry:
-	.string "I watered the plants every day.\n"
-	.string "They grew lots of flowers.\p"
-	.string "And they gave me lots of BERRIES, too.\p"
-	.string "Here you go!\n"
-	.string "You can have it!$"
+	.string "השקיתי את הצמחים כל יום.\n"
+	.string "הם גידלו המון פרחים.\p"
+	.string "והם נתנו לי גם המון פירות יער.\p"
+	.string "הנה, בשבילך!\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקחת אותו!$"
 
 Route111_Text_GoingToTryToMakeDifferentColorBerries:
-	.string "I'm going to try really hard and make\n"
-	.string "BERRIES in different colors.\p"
-	.string "I hope you try hard, too!$"
+	.string "אני עומד לנסות בכל כוחי לייצר\n"
+	.string "פירות יער בצבעים שונים.\p"
+	.string "אני מקווה שגם את{EMIT_HEY} תתאמ{SWAP_TZADIK}{ADD_YUD}!$"
 
 Route111_Text_WhatColorBerriesToLookForToday:
-	.string "I wonder what color BERRIES I'll look\n"
-	.string "for today?$"
+	.string "אני תוהה באיזה צבע פירות יער אחפש\n"
+	.string "היום?$"
 
 Route114_Text_LoveUsingBerryCrushShareBerry:
-	.string "I love using the BERRY CRUSH machine,\n"
-	.string "so I'm collecting BERRIES.\p"
-	.string "I'll share one with you, if you'd like.$"
+	.string "אני אוהב להשתמש במכונת מחיצת פירות,\n"
+	.string "לכן אני אוסף פירות יער.\p"
+	.string "אם תרצ{EMIT_HEY}{ADD_YUD}, אתן לך אחד.$"
 
 Route114_Text_TryBerryCrushWithFriends:
-	.string "You should try the BERRY CRUSH\n"
-	.string "machine with your friends.$"
+	.string "את{EMIT_HEY} צריך לנסות את המכונת מחיצת פירות\n"
+	.string "עם החברים שלך.$"
 
 Route114_Text_FunToThinkAboutBerries:
-	.string "Which BERRY should be planted?\n"
-	.string "Should you use or hoard BERRIES?\p"
-	.string "It's fun to think about.$"
+	.string "איזה פרי יער כדאי לשתול?\n"
+	.string "כדאי לך להשתמש במידי או לצבור פירות יער?\p"
+	.string "זה כיף לחשוב על זה.$"
 
 Route120_Text_BerriesExpressionOfLoveIsntIt:
-	.string "BERRIES grow by soaking up sunlight.\p"
-	.string "We help the BERRIES grow by watering\n"
-	.string "them regularly.\p"
-	.string "It's an expression of love, isn't it?$"
+	.string "פירות יער גדלים על ידי ספיגת אור השמש.\p"
+	.string "אנחנו עוזרים לפירות יער לגדול על ידי\n"
+	.string "השקיה סדירה.\p"
+	.string "זו הבעת אהבה, לא כך?$"
 
 Route120_Text_YesYouUnderstand:
-	.string "Yes, yes.\n"
-	.string "You understand what I mean.\p"
-	.string "You should take this.$"
+	.string "כן, כן.\n"
+	.string "את{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY} למה אני מתכוון.\p"
+	.string "קח{ADD_YUD} את זה.$"
 
 Route120_Text_MakeYourOwnImpressions:
-	.string "Oh… But it is important to make your\n"
-	.string "own impressions, I guess…\p"
-	.string "You can have this.$"
+	.string "או… אבל חשוב ליצור את\n"
+	.string "ההתרשמות שלך, אני חושב…\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקחת את זה.$"
 
 Route120_Text_BerryIsRareRaiseItWithCare:
-	.string "I think that BERRY is rare.\n"
-	.string "I hope you raise it with loving care.$"
+	.string "אני חושב שהפרי יער הזה נדיר.\n"
+	.string "אני מקווה שתטפח{ADD_YUD} אותו באהבה.$"
 
 Route120_Text_IllGetMoreBerriesFromBerryMaster:
-	.string "I'll get more BERRIES from\n"
-	.string "the BERRY MASTER.$"
+	.string "אני אקבל עוד פירות יער\n"
+	.string "ממומחה הערבוב.$"
 
 LilycoveCity_Text_BerrySuitsYou:
-	.string "When it gets right down to it…\p"
-	.string "The same way suits suit me perfectly,\n"
-	.string "a crisp breeze suits the sea.\p"
-	.string "And you, a BERRY suits you to a “T”…\p"
-	.string "Why should that be so?$"
+	.string "בסופו של דבר…\p"
+	.string "באותו אופן שחליפות מתאימות לי בצורה מושלמת,\n"
+	.string "נשיבת רוח קרירה מתאימה לים.\p"
+	.string "ואת{EMIT_HEY}, פרי יער מתאים לך בצורה מושלמת…\p"
+	.string "למה זה כך?$"
 
 LilycoveCity_Text_BecauseYoureTrainer:
-	.string "When it gets right down to it…\p"
-	.string "It's because you're a TRAINER!$"
+	.string "בסופו של דבר…\p"
+	.string "זה כי את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF}!$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon:
-	.string "When it gets right down to it…\p"
-	.string "The way dignified simplicity suits me,\n"
-	.string "{POKEBLOCK}S perfectly suit POKéMON.$"
+	.string "בסופו של דבר…\p"
+	.string "כמו שפשטות מעודנת מתאימה לי,\n"
+	.string "פוקיגושים מתאימים לפוקימון בצורה מושלמת.$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
-	.string "You may call me the BERRY MASTER.\p"
-	.string "I dream of filling the world with\n"
-	.string "beautiful flowers, so I raise BERRIES\l"
-	.string "and hand them out to everyone.\p"
-	.string "You're deserving of one!$"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקרוא לי מומחה לפירות יער.\p"
+	.string "אני חולם למלא את העולם\n"
+	.string "בפרחים יפים, לכן אני מגדל פירות יער\l"
+	.string "ונותן אותם לכל אחד.\p"
+	.string "את{EMIT_HEY} ראוי{ADD_HEY} לאחד!$"
 
 Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother:
-	.string "Why be stingy?\n"
-	.string "Take another!$"
+	.string "למה להיות קמצן?\n"
+	.string "קח{ADD_YUD} עוד אחד!$"
 
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop:
-	.string "Be sure to visit the PRETTY PETAL\n"
-	.string "flower shop near RUSTBORO.\p"
-	.string "Let flowers fill the world!$"
+	.string "בקר{ADD_YUD} בחנות הפרחים יפה עלי כותרת\n"
+	.string "ליד רסטבורו.\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לפרחים למלא את העולם!$"
 
 Route123_BerryMastersHouse_Text_DoneForToday:
-	.string "I'm done for today.\n"
-	.string "Come again another day.\p"
-	.string "Let flowers fill the world!$"
+	.string "סיימתי להיום.\n"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} ביום אחר.\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לפרחים למלא את העולם!$"
 
 Route123_BerryMastersHouse_Text_HeardAGoodSayingLately:
-	.string "The way my husband grows BERRIES,\n"
-	.string "oh, he's the best in the world.\p"
-	.string "He makes me proud, that he does.\p"
-	.string "Incidentally, child, have you heard\n"
-	.string "a good saying lately?$"
+	.string "האופן שבו בעלי מגדל פירות יער,\n"
+	.string "או, הוא הכי טוב בעולם.\p"
+	.string "זה גורם לי להיות גאה בו.\p"
+	.string "אגב, ילד{ADD_HEY}, שמעת פתגם\n"
+	.string "טוב לאחרונה?$"
 
 Route123_BerryMastersHouse_Text_InspirationalTakeThis:
-	.string "Ah! What a remarkable saying!\n"
-	.string "Inspirational, it is!\p"
-	.string "I want you to have this.$"
+	.string "אה! איזה פתגם יוצא דופן!\n"
+	.string "מעורר השראה, הוא!\p"
+	.string "אני רוצה שתיקח{ADD_YUD} את זה.$"
 
 Route123_BerryMastersHouse_Text_GoodSayingTakeThis:
-	.string "Oh! A good saying it is.\n"
-	.string "You're quite remarkable.\p"
-	.string "I want you to have this.$"
+	.string "או! זה פתגם טוב.\n"
+	.string "את{EMIT_HEY} ממש יוצא{ADD_TAF} דופן.\p"
+	.string "אני רוצה שתיקח{ADD_YUD} את זה.$"
 
 Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife:
-	.string "Our four grandchildren should become\n"
-	.string "more accomplished than my husband.\p"
-	.string "Joy never goes out of my life!$"
+	.string "ארבעת נכדינו צריכים להיות\n"
+	.string "יותר מוצלחים מבעלי.\p"
+	.string "השמחה לא תיעלם מחיי!$"
 
 Route123_BerryMastersHouse_Text_Ah:
-	.string "Ah…$"
+	.string "אה…$"
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
-	.string "Hello!\p"
-	.string "This is the PRETTY PETAL flower shop.\n"
-	.string "Spreading flowers all over the world!$"
+	.string "שלום!\p"
+	.string "זוהי חנות הפרחים יפה עלי כותרת.\n"
+	.string "מפיצים פרחים בכל רחבי העולם!$"
 
 Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries:
-	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "BERRIES?$"
+	.string "{PLAYER}{KUN}, האם תרצ{EMIT_HEY}{ADD_YUD} ללמוד על\n"
+	.string "פירות יער?$"
 
 Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries:
-	.string "Your name is?\p"
+	.string "איך קוראים לך?\p"
 	.string "{PLAYER}{KUN}.\n"
-	.string "That's a nice name.\p"
-	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "BERRIES?$"
+	.string "זה שם נחמד.\p"
+	.string "{PLAYER}{KUN}, האם תרצ{EMIT_HEY}{ADD_YUD} ללמוד על\n"
+	.string "פירות יער?$"
 
 Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
-	.string "BERRIES grow on trees that thrive\n"
-	.string "only in soft, loamy soil.\p"
-	.string "If you take some BERRIES, be sure to\n"
-	.string "plant one in the loamy soil again.\p"
-	.string "A planted BERRY will soon sprout,\n"
-	.string "grow into a plant, flower beautifully,\l"
-	.string "then grow BERRIES again.\p"
-	.string "I want to see the whole wide world\n"
-	.string "filled with beautiful flowers.\l"
-	.string "That's my dream.\p"
-	.string "Please help me, {PLAYER}{KUN}. Plant BERRIES\n"
-	.string "and bring more flowers into the world.$"
+	.string "פירות יער גדלים על עצים שמסתדרים\n"
+	.string "רק באדמה רכה ופורייה.\p"
+	.string "אם תיקח{ADD_YUD} כמה פירות יער, הקפ{ADD_YUD}ד{ADD_YUD} לשתול\n"
+	.string "אחד שוב באותה אדמה פורייה.\p"
+	.string "פרי יער שתשתול יצמיח במהרה נבג,\n"
+	.string "יהפוך לצמח, יפרח יפהפייה,\l"
+	.string "ואז יגדל פירות יער שוב.\p"
+	.string "אני רוצה לראות את עולמנו\n"
+	.string "מלא בפרחים יפים.\l"
+	.string "זה החלום שלי.\p"
+	.string "עזור לי, {PLAYER}{KUN}. שת{EMIT_VAV}ל{ADD_YUD} פירות יער\n"
+	.string "והב{ADD_YUD}א{ADD_YUD} עוד פרחים לעולם.$"
 
 Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
-	.string "Flowers bring so much happiness to\n"
-	.string "people, don't they?$"
+	.string "פרחים מביאים כל כך הרבה שמחה\n"
+	.string "לאנשים, לא כך?$"
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
-	.string "Hello!\p"
-	.string "The more attention you give to flowers,\n"
-	.string "the more beautifully they bloom.\p"
-	.string "You'll like tending flowers. I'm sure\n"
-	.string "of it. You can have this.$"
+	.string "שלום!\p"
+	.string "ככל שתתן יותר תשומת לב לפרחים,\n"
+	.string "כך הם יפרחו יפות יותר.\p"
+	.string "את{EMIT_HEY} תאהב{ADD_YUD} לטפח פרחים. אני בטוחה\n"
+	.string "בזה. את{EMIT_HEY} יכול{ADD_HEY} לקבל את זה.$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
-	.string "While BERRY plants are growing,\n"
-	.string "water them with the WAILMER PAIL.\p"
-	.string "Oh, another thing.\p"
-	.string "If you don't pick BERRIES for a while,\n"
-	.string "they'll drop off onto the ground.\l"
-	.string "But they'll sprout again.\p"
-	.string "Isn't that awesome?\n"
-	.string "It's like they have the will to live.$"
+	.string "בעת שצמחי פרי יער גדלים,\n"
+	.string "השקה אותם עם מזלף ויילמר.\p"
+	.string "או, דבר נוסף.\p"
+	.string "אם לא תקטוף פירות יער זמן מה,\n"
+	.string "הם ייפלו לקרקע.\l"
+	.string "אבל הם ינביטו שוב.\p"
+	.string "לא מדהים?\n"
+	.string "זה כאילו יש להם רצון לחיות.$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-	.string "I'm trying to be like my big sisters.\n"
-	.string "I'm growing flowers, too!\p"
-	.string "Here you go!\n"
-	.string "It's for you!$"
+	.string "אני מנסה להיות כמו האחיות הגדולות שלי.\n"
+	.string "גם אני מגדלת פרחים!\p"
+	.string "הנה, בשבילך!\n"
+	.string "זה בשבילך!$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
-	.string "You can plant a BERRY and grow it big,\n"
-	.string "or you can make a POKéMON hold it.\p"
-	.string "But now they have a machine that mixes\n"
-	.string "up different BERRIES and makes candies\l"
-	.string "for POKéMON.\p"
-	.string "I want some candy, too.$"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לשתול פרי יער ולגדלו,\n"
+	.string "או לגרום לפוקימון להחזיק אותו.\p"
+	.string "אבל עכשיו יש מכונה שמערבבת\n"
+	.string "פירות יער שונים ומכינה ממתקים\l"
+	.string "עבור פוקימון.\p"
+	.string "גם אני רוצה קצת ממתקים.$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
-	.string "Hi, what's your name?\p"
+	.string "היי, איך קוראים לך?\p"
 	.string "… … …  … … …  … … …\n"
-	.string "Okay. That's nice!\p"
-	.string "My name is KIRI.\p"
-	.string "My mommy and daddy named me that so\n"
-	.string "I would grow healthy and warmhearted.\l"
-	.string "That's what they wished.\p"
-	.string "You can have one of these.$"
+	.string "אוקיי. נחמד!\p"
+	.string "שמי קירי.\p"
+	.string "אמי ואבי קראו לי כך כדי\n"
+	.string "שאהיה בריאה וחמה בלב.\l"
+	.string "זה מה שהם רצו.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקחת אחד מאלה.$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:
-	.string "KIRI will give you this BERRY, too!\n"
-	.string "I really like it lots!$"
+	.string "קירי תתן לך גם את הפרי יער הזה!\n"
+	.string "אני ממש אוהבת אותו!$"
 
 SootopolisCity_Text_WhatKindOfWishInYourName:
-	.string "I wonder what kind of wish is included\n"
-	.string "in your name.$"
+	.string "אני תוהה איזו בקשה כלולה\n"
+	.string "בשם שלך.$"
 
 SootopolisCity_Text_LikeSeasonBornIn:
-	.string "Spring, summer, autumn, and winter.\p"
-	.string "If you're born in springtime, do you like\n"
-	.string "the spring, and if you're born in the\l"
-	.string "summer, do you like the summer?$"
+	.string "אביב, קיץ, סתיו וחורף.\p"
+	.string "אם נולדת באביב, האם את{EMIT_HEY} אוהב{ADD_TAF}\n"
+	.string "את האביב, ואם נולדת בקיץ, האם\l"
+	.string "את{EMIT_HEY} אוהב{ADD_TAF} את הקיץ?$"
 
 SootopolisCity_Text_ThenILoveAutumn:
-	.string "Then KIRI was born in the autumn,\n"
-	.string "so I love the autumn!\p"
-	.string "Which season do you like?$"
+	.string "אז קירי נולדה בסתיו,\n"
+	.string "לכן אני אוהבת את הסתיו!\p"
+	.string "איזה עונה את{EMIT_HEY} אוהב{ADD_TAF}?$"
 
 SootopolisCity_Text_OhDoesntMatter:
-	.string "Oh…\n"
-	.string "It doesn't matter…\p"
-	.string "There's so much that I want to know…$"
+	.string "או…\n"
+	.string "זה לא חשוב…\p"
+	.string "יש כל כך הרבה שאני רוצה לדעת…$"

@@ -930,7 +930,7 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-	.string "אני מומחה האנרגיה! אני אעשה זאת\n"
+	.string "אני גורו האנרגיה! אני אעשה זאת\n"
 	.string "ואמכור לך מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}!$"
 
 SlateportCity_Text_OhYourPokemon:

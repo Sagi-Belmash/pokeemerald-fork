@@ -46,3 +46,21 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string "If POKéMON are getting rest, so too\n"
 	.string "should their TRAINERS.$"
 
+LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
+	.string "אני חושבת שפוקימונים מתקרבים יותר\n"
+	.string "למאמנים שלהם כשהם מבלים יחד.\p"
+	.string "ככל שתבלו יותר זמן, יותר טוב.\n"
+	.string "ככה אני חושבת.$"
+
+LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
+	.string "יש בזה משהו קסום, רק לשבת\n"
+	.string "במעיין חם זה כבר מרענן.\p"
+	.string "הלוואי שיכולתי לתת גם לפוקימונים\n"
+	.string "שלי להתרטב.$"
+
+LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
+	.string הוהוהו! היי, ילד{ADD_HEY}, אפשר להגיע\n"
+	.string "מכאן למעיינות החמים.\p"
+	.string "אם פוקימונים נחים, גם המאמנים\n"
+	.string "שלהם צריכים לנוח.$"
+

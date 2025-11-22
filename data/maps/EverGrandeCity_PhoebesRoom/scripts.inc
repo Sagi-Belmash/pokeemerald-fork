@@ -59,26 +59,26 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "I did my training on MT. PYRE.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with GHOST-type POKéMON.\p"
-	.string "Yes, the bond I developed with POKéMON\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my POKéMON!$"
+	.string "אהההה!\p"
+	.string "אני PHOEBE מתוך ארבעת האלופים.\n"
+	.string "עברתי אימונים על MT. PYRE.\p"
+	.string "בזמן האימונים פיתחתי את היכולת\n"
+	.string "לתקשר עם פוקימונים מטיפוס רוח.\p"
+	.string "כן, הקשר שיצרתי עם הפוקימונים\n"
+	.string "חזק מאוד.\p"
+	.string "קדימה, תנסה לראות אם אתה בכלל יכול\n"
+	.string "לגרום נזק לפוקימונים שלי!$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "אוי, חבל.\n"
+	.string "הפסדתי.$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-	.string "There's a definite bond between you\n"
-	.string "and your POKéMON, too.\p"
-	.string "I didn't recognize it, so it's only\n"
-	.string "natural that I lost.\p"
-	.string "Yup, I'd like to see how far your bond\n"
-	.string "will carry you.\p"
-	.string "Go ahead, move on to the next room.$"
+	.string "גם בינך לבין הפוקימונים שלך\n"
+	.string "קיים קשר ברור.\p"
+	.string "לא זיהיתי זאת מוקדם יותר, ולכן\n"
+	.string "זה טבעי שהפסדתי.\p"
+	.string "כן, אשמח לראות עד לאן הקשר שלכם\n"
+	.string "יוביל אתכם.\p"
+	.string "קדימה, עברו לחדר הבא.$"
 

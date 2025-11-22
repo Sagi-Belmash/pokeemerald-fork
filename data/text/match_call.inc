@@ -2228,9 +2228,9 @@ MatchCall_Text_Juan1::
 	.string "{PLAYER}{KUN}… זה את{EMIT_HEY}?\p"
 	.string "הקרב שהיה לנו יחד, הוא\n"
 	.string "העלה בי זיכרונות מלפני\l"
-	.string "שפגשתי את וואלאס.\p"
+	.string "שפגשתי את וולאס.\p"
 	.string "אולי את{EMIT_HEY} גאון שאולי\n"
-	.string "יעלה על וואלאס!$"
+	.string "יעלה על וולאס!$"
 
 MatchCall_Text_Juan2::
 	.string "חואן: פופו… {PLAYER}{KUN}…\n"
@@ -2272,7 +2272,7 @@ MatchCall_Text_Phoebe::
 	.string "עם הפוקימונים שלך התחזק.$"
 
 MatchCall_Text_Glacia::
-	.string "גלאסייה: שלום, {PLAYER}.\p"
+	.string "גלסייה: שלום, {PLAYER}.\p"
 	.string "אני סומכת על כך שלא נהיית\n"
 	.string "שאנן עם הכוח שלך?\p"
 	.string "אם את{EMIT_HEY} מרגיש צורך לצנן את\n"
@@ -2292,7 +2292,7 @@ MatchCall_Text_Drake::
 	.string "את{EMIT_HEY} לא מסכים, {PLAYER}?$"
 
 MatchCall_Text_Wallace::
-	.string "וואלאס: שלום, {PLAYER}{KUN}.\n"
+	.string "וולאס: שלום, {PLAYER}{KUN}.\n"
 	.string "האם פגשת את סטיבן?\p"
 	.string "הוא…\n"
 	.string "למעשה מיומן להפליא.\p"

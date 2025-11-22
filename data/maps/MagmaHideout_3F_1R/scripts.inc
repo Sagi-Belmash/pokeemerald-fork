@@ -12,32 +12,32 @@ MagmaHideout_3F_1R_EventScript_Grunt16::
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro:
-	.string "What did I do to deserve this guard\n"
-	.string "posting?\p"
-	.string "My left ear is burning up!$"
+	.string "מה עשיתי כדי לקבל תפקיד שמירה\n"
+	.string "כזה?\p"
+	.string "האוזן השמאלית שלי בוערת!$"
 
 MagmaHideout_3F_1R_Text_Grunt9Defeat:
-	.string "I'm getting heat exhaustion…$"
+	.string "אני מתחיל לסבול מתשישות החום…$"
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle:
-	.string "Do you think it's odd that we're wearing\n"
-	.string "hoods in this magma-filled volcano?$"
+	.string "את{EMIT_HEY} חושב{ADD_TAF}שזה מוזר שאנחנו לובשים\n"
+	.string "קפוצ'ונים בתוך הר געש מלא לבה?$"
 
 MagmaHideout_3F_1R_Text_Grunt16Intro:
-	.string "We joined so we can help our leader\n"
-	.string "achieve his fantastic vision.\p"
-	.string "I don't care if you're with TEAM AQUA\n"
-	.string "or if you're just some kid passing by.\p"
-	.string "No one interferes with us and gets\n"
-	.string "away with it!$"
+	.string "הצטרפנו כדי לעזור למנהיגנו\n"
+	.string "להגשים את החזון המדהים שלו.\p"
+	.string "לא אכפת לי אם את{EMIT_HEY} עם צוות אקווה\n"
+	.string "או סתם ילד{ADD_HEY} שעובר{ADD_TAF} כאן.\p"
+	.string "אף אחד לא יתעסק איתנו ויזכה\n"
+	.string "לברוח מזה בקלות!$"
 
 MagmaHideout_3F_1R_Text_Grunt16Defeat:
-	.string "Oh, no!\n"
-	.string "You're not to be trusted at all!$"
+	.string "או, לא!\n"
+	.string "לא ניתן לסמוך עליך בכלל!$"
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
-	.string "Listen to me.\n"
-	.string "TEAM MAGMA is right!\p"
-	.string "Don't listen to TEAM AQUA.\n"
-	.string "Don't believe their lies!$"
+	.string "תקשיב{ADD_YUD} לי.\n"
+	.string "צוות מגמה צודק\p"
+	.string "אל תקשיב{ADD_YUD} לצוות אקווה.\n"
+	.string "אל תאמי{SWAP_NUN}{ADD_YUD} לשקרים שלהם!$"
 

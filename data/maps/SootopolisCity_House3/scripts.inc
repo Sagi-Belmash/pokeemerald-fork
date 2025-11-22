@@ -22,7 +22,7 @@ SootopolisCity_House3_EventScript_Girl::
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
 	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF} פוקימונים, נכון?\p"
 	.string "לחואן מסוטופוליס יש הרבה מעריצים.\n"
-	.string "אפילו יותר מהתלמיד שלו, וואלאס!\p"
+	.string "אפילו יותר מהתלמיד שלו, וולאס!\p"
 	.string "יש לך כמה?$"
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:

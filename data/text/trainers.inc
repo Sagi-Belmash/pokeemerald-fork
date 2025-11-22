@@ -909,18 +909,13 @@ Route109_Text_GwenPostBattle:
 Route109_Text_CarterIntro:
 	.string "ואהאהאה! הבחור הזה הולך לתפוס אחד\n"
 	.string "גדול לעצמו!$"
-	.string "Wahahah! This dude's going to catch\n"
-	.string "himself a big one!$"
 
 Route109_Text_CarterDefeated:
 	.string "הבחור הזה בדיוק הפסיד אחד…$"
-	.string "This dude just lost one…$"
 
 Route109_Text_CarterPostBattle:
 	.string "הבחור הזה חושב שאת{EMIT_HEY} גדול{ADD_HEY}.\n"
 	.string "לא, את{EMIT_HEY} תהי{EMIT_HEY}{ADD_YUD} גדול{ADD_HEY}!$"
-	.string "This dude thinks you're a big one.\n"
-	.string "No, you're a big-one-to-be!$"
 
 Route109_Text_PaulIntro:
 	.string "פול: טוב, זה הורס את האווירה.\p"
@@ -944,7 +939,7 @@ Route109_Text_MelIntro:
 	.string "הרומנטיקה שלנו מדליקה את כל הואן!$"
 
 Route109_Text_MelDefeated:
-	.string "MמלEL: הפסדנו, וזה באשמתי!\n"
+	.string "מל: הפסדנו, וזה באשמתי!\n"
 	.string "פול ישנא אותי!$"
 
 Route109_Text_MelPostBattle:
@@ -1311,13 +1306,10 @@ Route111_Text_TravisIntro:
 Route111_Text_TravisDefeat:
 	.string "הפוקימונים שלי איבדו\n"
 	.string "את האנרגיה שלהם…$"
-	.string "My פוקימון lost its pep…$"
 
 Route111_Text_TravisPostBattle:
 	.string "כשאני רואה מאמ{SWAP_NUN}{ADD_TAF} עם הרבה אנרגיה,,\n"
 	.string "אני לא יכול שלא להסתכל.$"
-	.string "When I see a TRAINER with a lot of pep,\n"
-	.string "I can't help looking.$"
 
 Route111_Text_IreneIntro:
 	.string "אני לא יודעת לאן את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF},\n"
@@ -1687,7 +1679,7 @@ Route113_Text_ToriIntro:
 	.string "אנחנו נלחם בפוקימונים גם כן.$"
 
 Route113_Text_ToriDefeat:
-	.string "TORI: הפסדנו… זה משעמם, אז אני\n"
+	.string "טורי: הפסדנו… זה משעמם, אז אני\n"
 	.string "אאסוף עוד אפר.$"
 
 Route113_Text_ToriPostBattle:
@@ -3382,7 +3374,7 @@ Route123_Text_MiuIntro:
 	.string "שהפוקימונים שלך לא יבכו כשהם יפסידו.$"
 
 Route123_Text_MiuDefeat:
-	.string "MIU: או או, הפסדנו.$"
+	.string "מיו: או או, הפסדנו.$"
 
 Route123_Text_MiuPostBattle:
 	.string "מיו: מאמנ{SWAP_NUN}{ADD_TAF}, הפוקימונים שלך\n"
@@ -3802,7 +3794,7 @@ Route125_Text_ErnestRematchPostBattle:
 	.string "אל תשכח{ADD_YUD}!$"
 
 Route125_Text_KimIntro:
-	.string "KIM: איש זקן ומצחיק גר במערת השרטון.\n"
+	.string "קים: איש זקן ומצחיק גר במערת השרטון.\n"
 	.string "מישהו אמר לי כך.\l"
 	.string "את{EMIT_HEY} גם עומד{ADD_TAF} לראות אותו?$"
 

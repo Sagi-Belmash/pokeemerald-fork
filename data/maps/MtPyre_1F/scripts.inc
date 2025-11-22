@@ -22,26 +22,27 @@ MtPyre_1F_EventScript_PokefanF::
 	end
 
 MtPyre_1F_EventScript_Man::
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox MtPyre_1F_Text_RestingPlaceOfZigzagoon, MSGBOX_NPC
 	end
 
 MtPyre_1F_Text_TakeThisForYourOwnGood:
-	.string "All sorts of beings wander the slopes\n"
-	.string "of MT. PYRE…\p"
-	.string "There is no telling what may happen.\n"
-	.string "Take this. It's for your own good.$"
+	.string "כל מיני יצורים משוטטים במדרונות\n"
+	.string "הר המוקד…\p"
+	.string "אי אפשר לדעת מה עלול לקרות.\n"
+	.string "קח{ADD_YUD} את זה. זה לטובתך.$"
 
 MtPyre_1F_Text_ExplainCleanseTag:
-	.string "Have a POKéMON hold that\n"
-	.string "CLEANSE TAG.\p"
-	.string "It will help ward off wild POKéMON.$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לפוקימון שלך להחזיק את\n"
+	.string "התג טיהור.\p"
+	.string "זה יעזור להרחיק פוקימונים פראיים.$"
 
 MtPyre_1F_Text_ComeToPayRespects:
-	.string "Did you come to pay your respect\n"
-	.string "to the spirits of departed POKéMON?\p"
-	.string "You must care for your POKéMON a lot.$"
+	.string "האם באת לחלוק כבוד\n"
+	.string "לרוחות שעזבו את הפוקימונים?\p"
+	.string "את{EMIT_HEY} בטח דואג{ADD_TAF} מאוד לפוקימונים שלך.$"
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
-	.string "This is the final resting place of my\n"
-	.string "ZIGZAGOON. I cherished it…$"
+	.string "זה מקום המנוחה האחרון של\n"
+	.string "{STR_VAR_1}. אני מוקיר אותו…$"
 

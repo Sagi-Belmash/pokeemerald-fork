@@ -41,8 +41,7 @@ LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
 	.string "שלי להתרטב.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
-	.string הוהוהו! היי, ילד{ADD_HEY}, אפשר להגיע\n"
+	.string "הוהוהו! היי, ילד{ADD_HEY}, אפשר להגיע\n"
 	.string "מכאן למעיינות החמים.\p"
 	.string "אם פוקימונים נחים, גם המאמנים\n"
 	.string "שלהם צריכים לנוח.$"
-

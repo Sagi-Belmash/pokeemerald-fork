@@ -56,7 +56,7 @@ gTrickHouse_Mechadoll_BurnHeal::
 	.string "ריפוי כויה$"
 
 gTrickHouse_Mechadoll_HarborMail::
-	.string "דואר נמל$"
+	.string "מכתב נמל$"
 
 gTrickHouse_Mechadoll_SamePrice::
 	.string "אותו מחיר$"

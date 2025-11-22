@@ -77,7 +77,7 @@ MoveTutor_MimicTeach:
 
 MoveTutor_MimicDeclined:
 	.string "או, חבל! רציתי ללמד חיקוי\n"
-	.string "לפּוקימון שלך!$"
+	.string "לפוקימון שלך!$"
 
 MoveTutor_Text_MimicWhichMon:
 	.string "פופו! והנה אעשה זאת!\n"

@@ -1472,7 +1472,7 @@ const struct Item gItems[] =
 // Mail
     [ITEM_ORANGE_MAIL] =
     {
-        .name = _("דואר כתום"),
+        .name = _("מכתב כתום"),
         .itemId = ITEM_ORANGE_MAIL,
         .price = 50,
         .description = sOrangeMailDesc,
@@ -1484,7 +1484,7 @@ const struct Item gItems[] =
 
     [ITEM_HARBOR_MAIL] =
     {
-        .name = _("דואר נמל"),
+        .name = _("מכתב נמל"),
         .itemId = ITEM_HARBOR_MAIL,
         .price = 50,
         .description = sHarborMailDesc,
@@ -1496,7 +1496,7 @@ const struct Item gItems[] =
 
     [ITEM_GLITTER_MAIL] =
     {
-        .name = _("דואר נוצץ"),
+        .name = _("מכתב נוצץ"),
         .itemId = ITEM_GLITTER_MAIL,
         .price = 50,
         .description = sGlitterMailDesc,
@@ -1508,7 +1508,7 @@ const struct Item gItems[] =
 
     [ITEM_MECH_MAIL] =
     {
-        .name = _("דואר מכני"),
+        .name = _("מכתב מכני"),
         .itemId = ITEM_MECH_MAIL,
         .price = 50,
         .description = sMechMailDesc,
@@ -1520,7 +1520,7 @@ const struct Item gItems[] =
 
     [ITEM_WOOD_MAIL] =
     {
-        .name = _("דואר עץ"),
+        .name = _("מכתב עץ"),
         .itemId = ITEM_WOOD_MAIL,
         .price = 50,
         .description = sWoodMailDesc,
@@ -1532,7 +1532,7 @@ const struct Item gItems[] =
 
     [ITEM_WAVE_MAIL] =
     {
-        .name = _("דואר גל"),
+        .name = _("מכתב גל"),
         .itemId = ITEM_WAVE_MAIL,
         .price = 50,
         .description = sWaveMailDesc,
@@ -1544,7 +1544,7 @@ const struct Item gItems[] =
 
     [ITEM_BEAD_MAIL] =
     {
-        .name = _("דואר חרוז"),
+        .name = _("מכתב חרוז"),
         .itemId = ITEM_BEAD_MAIL,
         .price = 50,
         .description = sBeadMailDesc,
@@ -1556,7 +1556,7 @@ const struct Item gItems[] =
 
     [ITEM_SHADOW_MAIL] =
     {
-        .name = _("דואר אפל"),
+        .name = _("מכתב אפל"),
         .itemId = ITEM_SHADOW_MAIL,
         .price = 50,
         .description = sShadowMailDesc,
@@ -1568,7 +1568,7 @@ const struct Item gItems[] =
 
     [ITEM_TROPIC_MAIL] =
     {
-        .name = _("דואר טרופי"),
+        .name = _("מכתב טרופי"),
         .itemId = ITEM_TROPIC_MAIL,
         .price = 50,
         .description = sTropicMailDesc,
@@ -1580,7 +1580,7 @@ const struct Item gItems[] =
 
     [ITEM_DREAM_MAIL] =
     {
-        .name = _("דואר חלומי"),
+        .name = _("מכתב חלומי"),
         .itemId = ITEM_DREAM_MAIL,
         .price = 50,
         .description = sDreamMailDesc,
@@ -1592,7 +1592,7 @@ const struct Item gItems[] =
 
     [ITEM_FAB_MAIL] =
     {
-        .name = _("דואר נהדר"),
+        .name = _("מכתב נהדר"),
         .itemId = ITEM_FAB_MAIL,
         .price = 50,
         .description = sFabMailDesc,
@@ -1604,7 +1604,7 @@ const struct Item gItems[] =
 
     [ITEM_RETRO_MAIL] =
     {
-        .name = _("דואר רטרו"),
+        .name = _("מכתב רטרו"),
         .itemId = ITEM_RETRO_MAIL,
         .price = 0,
         .description = sRetroMailDesc,

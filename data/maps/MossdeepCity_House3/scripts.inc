@@ -25,26 +25,26 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 	end
 
 MossdeepCity_House3_Text_YouWantSuperRod:
-	.string "Hey there, TRAINER!\n"
-	.string "A SUPER ROD really is super!\p"
-	.string "Say all you want, but this baby can\n"
-	.string "catch POKéMON off the seafloor!\p"
-	.string "What do you think?\n"
-	.string "You want it, don't you?$"
+	.string "היי שם, מאמ{SWAP_NUN}{ADD_TAF}!\n"
+	.string "החכה מעולה היא באמת מעולה!\p"
+	.string "תגיד{ADD_YUD} מה שבא לך, אבל התותחית הזו יכולה"
+	.string "לתפוס פוקימונים מקרקעית הים!\p"
+	.string "מה את{EMIT_HEY} חושב{ADD_TAF}?\n"
+	.string "את{EMIT_HEY} רוצה אותה, נכון?$"
 
 MossdeepCity_House3_Text_SuperRodIsSuper:
-	.string "You bet, you bet!\n"
-	.string "After all, a SUPER ROD is really super!$"
+	.string "בטח, בטח!\n"
+	.string "אחרי הכל, החכה המעולה היא באמת מעולה!$"
 
 MossdeepCity_House3_Text_TryDroppingRodInWater:
-	.string "If there's any water, try dropping in\n"
-	.string "your ROD and see what bites!$"
+	.string "אם יש מים איפשהו, נס{EMIT_HEY}{ADD_YUD} להטיל\n"
+	.string "את החכה שלך ותרא{EMIT_HEY}{ADD_YUD} מה נותן ביס!$"
 
 MossdeepCity_House3_Text_DontYouLikeToFish:
-	.string "Hunh?\n"
-	.string "Don't you like to fish?$"
+	.string "האא?\n"
+	.string "את{EMIT_HEY} לא אוהב{ADD_TAF} לדוג?$"
 
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon:
-	.string "Go after the seafloor POKéMON with\n"
-	.string "your SUPER ROD.$"
+	.string "צא{ADD_YUD} לצוד פוקימונים מקרקעית הים\n"
+	.string "עם החכה המעולה שלך.$"
 

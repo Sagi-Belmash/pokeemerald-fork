@@ -1,155 +1,147 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "FALLARBOR SITE!\p"
-	.string "I am your guide to the Set KO Tourney!$"
+	.string "אני מברך אותך על הגעתך לאוהל הקרב\n"
+	.string "אתר פאלרבור!\p"
+	.string "אני המדריך שלך לטורניר סט נוקאאוט!$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge:
-	.string "Now, do you wish to take the challenge\n"
-	.string "of a Set KO Tourney?$"
+	.string "עכשיו, האם ברצונך לקבל את האתגר\n"
+	.string "בטורניר סט נוקאאוט?$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "אנחנו נחכה לאתגר שלך\n"
+	.string "בהזדמנות אחרת!$"
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
-	.string "In the FALLARBOR BATTLE TENT,\n"
-	.string "we undertake the Set KO Tourney.\p"
-	.string "All participants enter with a team of\n"
-	.string "three POKéMON.\p"
-	.string "The three POKéMON must be lined up\n"
-	.string "in the order that they are to appear in.\p"
-	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
-	.string "Once a POKéMON enters battle, it must\n"
-	.string "remain out until the match is decided.\p"
-	.string "If a match remains undecided in\n"
-	.string "three turns, it goes to judging.\p"
-	.string "If you wish to interrupt your challenge,\n"
-	.string "please save the game.\p"
-	.string "If you don't save, you will not be able\n"
-	.string "to continue with your challenge.\p"
-	.string "If you pull off the feat of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a fine prize.$"
+	.string "בפולרבר אוהל הקרב,\n"
+	.string "מתקיים טורניר סט נוקאאוט.\p"
+	.string "כל המשתתפים נכנסים עם צוות של\n"
+	.string "שלושה פוקימונים.\p"
+	.string "שלושת הפוקימונים חייבים להיות מסודרים\n"
+	.string "בסדר שבו הם יופיעו.\p"
+	.string "במהלך הקרב, הפוקימונים יופיעו\n"
+	.string "אחד אחד בסדר שנקבע מראש.\p"
+	.string "ברגע שפוקימון נכנס לקרב, הוא חייב\n"
+	.string "להישאר עד שהקרב יוכרע.\p"
+	.string "אם קרב לא יוכרע בתוך\n"
+	.string "שלושה סיבובים, הוא יגיע לשיפוט.\p"
+	.string "אם ברצונך להפסיק את האתגר,\n"
+	.string "אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם אינך שומר, לא תוכל{ADD_YUD}\n"
+	.string "להמשיך עם האתגר שלך.\p"
+	.string "אם תצליח{ADD_YUD} להביס\n"
+	.string "שלושה מאמנים ברצף,\l"
+	.string "אנחנו נעניק לך פרס נפלא.$"
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "Before showing you to the BATTLE\n"
-	.string "TENT, I must save. Is that okay?$"
+	.string "לפני שאדריך אותך לאוהל הקרב,\n"
+	.string "אני חייב לשמור. זה בסדר?$"
 
 @ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode:
-	.string "We offer two levels of challenge,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "אנו מציעים שני רמות אתגר,\n"
+	.string "רמה 05 ורמה פתוחה.\l"
+	.string "מהי הבחירה שלך?$"
 
 FallarborTown_BattleTentLobby_Text_SelectThreeMons:
-	.string "Very well, now select your\n"
-	.string "three POKéMON, please.$"
+	.string "טוב מאוד, עכשיו בחר{ADD_YUD} את\n"
+	.string "שלושת הפוקימונים שלך.$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "מאתגר יקר!\p"
+	.string "אין לך את שלושת הפוקימונים\n"
+	.string "הנדרשים לכניסה.\p"
+	.string "הם גם חייבים להחזיק פריטים שונים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "כאשר תסיים בהכנותיך,\n"
+	.string "אנא חז{EMIT_VAV}ר{ADD_YUD}.$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "מאתגר יקר!\p"
+	.string "אין לך את שלושת הפוקימונים\n"
+	.string "הנדרשים לכניסה.\p"
+	.string "כדי להשתתף, עליך להביא שלושה\n"
+	.string "סוגים שונים של פוקימון.\p"
+	.string "הם גם חייבים להחזיק פריטים שונים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "כאשר תסיים בהכנותיך,\n"
+	.string "אנא חז{EMIT_VAV}ר{ADD_YUD}.$"
 
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent:
-	.string "I shall now guide you to\n"
-	.string "the BATTLE TENT.$"
+	.string "כעת אדריך אותך ל\n"
+	.string "אוהל הקרב.$"
 
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting:
-	.string "My dear challenger!\p"
-	.string "You did not save the game before\n"
-	.string "shutting down, did you?\p"
-	.string "It is unfortunate, but that has\n"
-	.string "resulted in your disqualification\l"
-	.string "from your challenge.\p"
-	.string "You may, of course, start with a fresh\n"
-	.string "challenge.$"
+	.string "אתגר יקר!\p"
+	.string "לא שמרת את המשחק לפני\n"
+	.string "שעצרת את המשחק, נכון?\p"
+	.string "לצערנו, זה גרם\n"
+	.string "לפסילה מהאתגר.\l"
+	.string "אתה כמובן יכול להתחיל\n"
+	.string "את האתגר מחדש.$"
 
 FallarborTown_BattleTentLobby_Text_BeatThreeTrainers:
-	.string "How splendid! You have beaten\n"
-	.string "three TRAINERS in succession!$"
+	.string "נפלא! הבסת\n"
+	.string "שלושה מאמנים ברצף!$"
 
 FallarborTown_BattleTentLobby_Text_WaitWhileSaveGame:
-	.string "Please wait while I save the game.$"
+	.string "אנא המתן בזמן שאני שומר את המשחק.$"
 
 FallarborTown_BattleTentLobby_Text_PresentYouWithPrize:
-	.string "In commemoration of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "לאות כבוד על רצף של 3 הניצחונות שלך,\n"
+	.string "אנחנו נעניק לך את הפרס הזה.$"
 
 FallarborTown_BattleTentLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את הפרס\n"
 	.string "{STR_VAR_1}.$"
 
 FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize:
-	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "אה?\n"
+	.string "התיק שלך נראה מלא.\p"
+	.string "אני ממליץ לפנות מקום ולחז{EMIT_VAV}ר\n"
+	.string "לקבלת הפרס שלך.$"
 
 FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving:
-	.string "Thank you so much for participating!\p"
-	.string "Please wait while I save the game.$"
+	.string "תודה רבה על השתתפותך!\p"
+	.string "אנא המת{EMIT_VAV}{SWAP_NUN}{ADD_YUD} בזמן שאני שומר את המשחק.$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "אנחנו נחכה לאתגר שלך\n"
+	.string "בהזדמנות אחרת!$"
 
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
-	.string "We have been looking forward to\n"
-	.string "your arrival.\p"
-	.string "Before I show you to the BATTLE TENT,\n"
-	.string "I must save the game. Please wait.$"
+	.string "חיכינו להגעתך.\p"
+	.string "לפני שאדריך אותך לאוהל הקרב,\n"
+	.string "אני חייב לשמור את המשחק. אנא המת{EMIT_VAV}{SWAP_NUN}{ADD_YUD}.$"
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "VERDANTURF SITE!\p"
-	.string "Here, the TRAINER's trust toward\n"
-	.string "POKéMON is tested.$"
+	.string "אני מברך אותך על הגעתך לאוהל הקרב\n"
+	.string "אתר ורדנטרף!\p"
+	.string "כאן נבחן את אמונו של המאמן בפוקימון.$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
-	.string "Do you wish to take the VERDANTURF\n"
-	.string "BATTLE TENT challenge?$"
+	.string "האם ברצונך לקבל את אתגר\n"
+	.string "אוהל הקרב של ורדנטרף?$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
-	.string "In the VERDANTURF BATTLE TENT,\n"
-	.string "there is one crucial rule that must\l"
-	.string "be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
-	.string "to their nature and battle on their own.\p"
-	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
-	.string "If you achieve the honor of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "בורדנטרף אוהל הקרב,\n"
+	.string "חוק אחד קריטי חייב להתקיים.\l"
+	.string "מאמנים מורשים רק להחליף\n"
+	.string "את הפוקימונים שלהם.\p"
+	.string "אסור למאמנים לתת הוראות לפוקימון.\p"
+	.string "הפוקימון יתנהג לפי טבעו\n"
+	.string "וילחם בעצמו.\p"
+	.string "עליך לתת אמון בפוקימון שלך\n"
+	.string "ולהשגיח עליו.\p"
+	.string "אם תצליח{ADD_YUD} להביס שלושה מאמנים\n"
+	.string "ברצף,\l"
+	.string "תקבל{ADD_YUD} פרס.\p"
+	.string "אם ברצונך להפסיק את האתגר,\n"
+	.string "אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD}, תפסל{ADD_YUD} מהאתגר.$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
-	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "כאשר חיזקת את לבך\n"
+	.string "ופוקימון, עליך לחז{EMIT_VAV}ר{ADD_YUD}.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode:
@@ -158,90 +150,81 @@ VerdanturfTown_BattleTentLobby_Text_WhichLevelMode:
 	.string "Which is your choice of a challenge?$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "אה…\p"
+	.string "אין לך את שלושת הפוקימונים\n"
+	.string "הנדרשים לאתגר.\p"
+	.string "לכניסה דרושים שלושה פוקימונים שונים.\p"
+	.string "הם גם חייבים להחזיק פריטים שונים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} כאשר תסיי{SWAP_MEM}{ADD_YUD} בהכנות.$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "אה…\p"
+	.string "אין לך את שלושת הפוקימונים\n"
+	.string "הנדרשים לאתגר.\p"
+	.string "לכניסה דרושים שלושה פוקימונים שונים.\p"
+	.string "הם גם חייבים להחזיק פריטים שונים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} כאשר תסיי{SWAP_MEM}{ADD_YUD} בהכנות.$"
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons:
-	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "טוב. עכשיו עליך לבחור\n"
+	.string "את שלושת הפוקימונים שלך.$"
 
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "I must save before I show you to\n"
-	.string "the BATTLE TENT. Is that okay?$"
+	.string "אני חייב לשמור לפני שאדריך אותך\n"
+	.string "לאוהל הקרב. זה בסדר?$"
 
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe:
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "טוב.\n"
+	.string "עכשיו, עק{EMIT_VAV}ב{ADD_YUD} אחרי.$"
 
 VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded:
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "זהו כבוד לראות את הפוקימונים שלך\n"
+	.string "בקרבות.\p"
+	.string "התוצאות יירשמו.\n"
+	.string "אנא המת{ADD_YUD}{SWAP_NUN}{ADD_YUD} מעט.$"
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak:
-	.string "To achieve a 3-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "כדי להשיג רצף של 3 ניצחונות…\p"
+	.string "הקשרים בין ליבך לפוקימון שלך נראים איתנים ונאמנים.$"
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded:
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "הישגך יירשם.\n"
+	.string "אנא המת{ADD_YUD}{SWAP_NUN}{ADD_YUD} מעט.$"
 
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
-	.string "For the feat of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "לאות על רצף של 3 הניצחונות שלך,\n"
+	.string "אנחנו נעניק לך את הפרס הזה.$"
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Tournament.$"
+	.string "ברוכים הבאים לאוהל הקרב\n"
+	.string "אתר סלייטפורט!\p"
+	.string "אני המדריך שלך לטורניר החלפת קרב.$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Swap challenge?$"
+	.string "האם ברצונך לקבל את אתגר החלפת קרב?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
-	.string "we hold Battle Swap events\l"
-	.string "using rental POKéMON.\p"
-	.string "First, you will be loaned three\n"
-	.string "POKéMON specifically for this event.\p"
-	.string "Using the supplied rental POKéMON,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental POKéMON.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win three times in\l"
-	.string "a row, you will earn a fine prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "כאן בסלייטפורט אוהל הקרב,\n"
+	.string "מתקיימים אירועי החלפת קרב\l"
+	.string "עם פוקימון להשאלה.\p"
+	.string "קודם כל, תקבל שלושה פוקימונים\n"
+	.string "לשימוש באירוע זה.\p"
+	.string "באמצעות הפוקימונים להשאלה,\n"
+	.string "עליך לנהל קרב יחיד.\p"
+	.string "אם תנצח, תוכל להחליף\n"
+	.string "אחד מהפוקימונים של היריב.\p"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} על מחז{EMIT_VAV}ר{ADD_YUD} הקרב וההחלפה--\l"
+	.string "אם תנצח שלוש פעמים ברצף,\n"
+	.string "תקבל פרס נפלא.\p"
+	.string "אם ברצונך להפסיק את האתגר,\n"
+	.string "אנא שמור את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD} לפני העצירה,\n"
+	.string "תפסל{ADD_YUD} מהאתגר.$"
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit:
-	.string "We look forward to your next visit.$"
+	.string "מצפים לביקורך הבא.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode:
@@ -249,8 +232,8 @@ SlateportCity_BattleTentLobby_Text_WhichLevelMode:
 	.string "Level 50 or Level 100?$"
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge:
-	.string "Before you begin your challenge,\n"
-	.string "I need to save data. Is that okay?$"
+	.string "לפני תחילת האתגר,\n"
+	.string "אני חייב לשמור. האם זה בסדר?$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping:
@@ -258,14 +241,14 @@ SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping:
 	.string "safekeeping while you compete.$"
 
 SlateportCity_BattleTentLobby_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "אנא צעד{ADD_YUD} בדרך זו.$"
 
 SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults:
-	.string "Thank you for participating!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "תודה על השתתפותך!\p"
+	.string "אני אחזיר את הפוקימונים שלך בתמורה\n"
+	.string "לפוקימון להשאלה שלנו.\p"
+	.string "אני גם אשמור את תוצאות האירוע.\n"
+	.string "אנא המתן.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals:
@@ -273,33 +256,33 @@ SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals:
 	.string "for our rental POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons:
-	.string "Congratulations!\n"
-	.string "You've won three straight matches!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "ברכות!\n"
+	.string "ניצחת שלושה קרבות רצופים!\p"
+	.string "אני אחזיר את הפוקימונים שלך בתמורה\n"
+	.string "לפוקימון להשאלה שלנו.\p"
+	.string "אני גם אשמור את תוצאות האירוע.\n"
+	.string "אנא המתן.$"
 
 SlateportCity_BattleTentLobby_Text_AwardYouThisPrize:
-	.string "In recognition of your 3-win streak,\n"
-	.string "we award you this prize.$"
+	.string "לאות כבוד על רצף של 3 הניצחונות שלך,\n"
+	.string "אנחנו נעניק לך את הפרס הזה.$"
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom:
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "אה?\n"
+	.string "נראה שאין לך מקום לכך.\p"
+	.string "אנא פנ{EMIT_HEY}{ADD_YUD} מקום בתיק שלך\n"
+	.string "ואודיע{ADD_YUD} לי.$"
 
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou:
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "חיכינו לך!\p"
+	.string "לפני שנמשיך את האתגר,\n"
+	.string "אני חייב לשמור את המשחק.$"
 
 SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting:
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "מצטער, אך לא שמרת\n"
+	.string "לפני שעצרת את המשחק.\p"
+	.string "כתוצאה מכך, הורחקת\n"
+	.string "מהאתגר שלך.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons:
@@ -319,46 +302,44 @@ SlateportCity_BattleTentLobby_Text_ReadWhichHeading:
 	.string "Which heading do you want to read?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules:
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three POKéMON.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same POKéMON.$"
+	.string "באירוע החלפת קרב, ניתן להשתמש\n"
+	.string "רק בשלושה פוקימונים.\p"
+	.string "בין אם להשאלה או החלפה,\n"
+	.string "הצוות שלך לא יכול להכיל שני\n"
+	.string "פוקימונים זהים.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules:
-	.string "You may swap POKéMON only with\n"
-	.string "the TRAINER you have just defeated.\p"
-	.string "You may swap for only those POKéMON\n"
-	.string "used by the beaten TRAINER.$"
+	.string "ניתן להחליף פוקימון רק עם\n"
+	.string "המאמן שהבסת זה עתה.\p"
+	.string "ניתן להחליף רק בפוקימון\n"
+	.string "שמשמש את המאמן המובס.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules:
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's POKéMON.\p"
-	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
+	.string "לאחר כל קרב שבו ניצחת,\n"
+	.string "תוכל להחליף אחד מהפוקימונים\n"
+	.string "של היריב המובס.\p"
+	.string "לא תוכל{ADD_YUD} להחליף פוקימון\n"
+	.string "עם המאמן השלישי באירוע.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
-	.string "There are two key points to be aware\n"
-	.string "of when swapping POKéMON.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the POKéMON you are\l"
-	.string "about to receive.\p"
-	.string "Second, the POKéMON on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "יש שני דברים חשובים לדעת\n"
+	.string "בזמן החלפת פוקימון.\p"
+	.string "ראשית, בהחלפה, אינך יכול לבדוק\n"
+	.string "את הסטטיסטיקות של הפוקימונים\n"
+	.string "שעתיד להגיע.\p"
+	.string "שנית, הפוקימונים בצוות מסודרים\n"
+	.string "בסדר שנבחר בעת ההשאלה.\p"
+	.string "סדר זה נשמר גם לאחר החלפות.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules:
-	.string "The POKéMON of the SLATEPORT\n"
-	.string "BATTLE TENT are all rentals.\p"
-	.string "All rental POKéMON are kept at\n"
-	.string "Level 30.$"
+	.string "כל הפוקימונים בסלייטפורט אוהל הקרב\n"
+	.string "הם להשאלה.\p"
+	.string "כל הפוקימונים להשאלה הם\n"
+	.string "ברמה 03.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2:
-	.string "The VERDANTURF BATTLE TENT\n"
+	.string "The ורדנטרף אוהל הקרב\n"
 	.string "rules are listed.$"
 
 @ Unused
@@ -367,7 +348,7 @@ VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading:
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
-	.string "Here at the VERDANTURF BATTLE TENT,\n"
+	.string "Here at the ורדנטרף אוהל הקרב,\n"
 	.string "POKéMON are required to think and\l"
 	.string "battle by themselves.\p"
 	.string "Unlike in the wild, POKéMON that live\n"
@@ -422,12 +403,10 @@ VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
 	.string "in a pinch, watch it carefully.$"
 
 BattleTentLobby_Text_ExplainLevelRules:
-	.string "At this BATTLE TENT, the levels of\n"
-	.string "your opponents will be adjusted to\l"
-	.string "match the levels of your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 30.$"
+	.string "באוהל זה, רמות הפוקימונים של היריבים\n"
+	.string "יתואמו לרמות הפוקימונים שלך.\l"
+	.string "עם זאת, אין מאמן ברמה נמוכה מ03.$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed:
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "חוקי אוהל הקרב של ורדנטרף\n"
+	.string "מופיעים כאן.$"

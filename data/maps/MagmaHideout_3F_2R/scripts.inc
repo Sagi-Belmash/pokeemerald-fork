@@ -7,20 +7,19 @@ MagmaHideout_3F_2R_EventScript_Grunt10::
 	end
 
 MagmaHideout_3F_2R_Text_Grunt10Intro:
-	.string "I understand everything our leader\n"
-	.string "says. But you know what?\p"
-	.string "Doing stuff like digging up a super-\n"
-	.string "ancient POKéMON and ripping off\l"
-	.string "someone's METEORITE…\p"
-	.string "I think we're going a little too far.\n"
-	.string "What do you think?$"
+	.string "אני מבין כל מה שהמנהיג שלנו\n"
+	.string "אומר. אבל את{EMIT_HEY} יודע{ADD_TAF} מה?\p"
+	.string "לעשות דברים כמו לחפור פוקימון\n"
+	.string "עתיק במיוחד ולגנוב למישהו מטאוריט...\p"
+	.string "אני חושב שאנחנו הולכים קצת רחוק\n"
+	.string "מדי. מה את{EMIT_HEY} חושב{ADD_TAF}?$"
 
 MagmaHideout_3F_2R_Text_Grunt10Defeat:
-	.string "Yeah, I think we are doing something\n"
-	.string "wrong somehow.$"
+	.string "כן, אני חושב שאנחנו עושים משהו\n"
+	.string "לא נכון איכשהו.$"
 
 MagmaHideout_3F_2R_Text_Grunt10PostBattle:
-	.string "You know, losing to you cleared my mind.\p"
-	.string "The next time I see our leader,\n"
-	.string "I'm going to ask him about what we do.$"
+	.string "את{EMIT_HEY} יודע{ADD_TAF}, להפסיד לך ניקה לי את הראש.\p"
+	.string "בפעם הבאה שאני אראה את המנהיג שלנו,\n"
+	.string "אני הולך לשאול אותו על מה שאנחנו עושים.$"
 

@@ -32,28 +32,29 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	faceplayer
 	waitse
 	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox BattleFrontier_PokemonCenter_1F_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
-	.string "There was someone here using a \n"
-	.string "POKéMON I've never seen before.\p"
-	.string "I never learned about it at\n"
-	.string "TRAINER'S SCHOOL at least.\p"
-	.string "I wonder where you can catch POKéMON\n"
-	.string "like that.$"
+	.string "היה כאן מישהו שהשתמש בפוקימון\n"
+	.string "שמעולם לא ראיתי.\p"
+	.string "אף פעם לא למדתי עליו בבית הספר\n"
+	.string "למאמנים לפחות.\p"
+	.string "אני תוהה איפה אפשר לתפוס פוקימונים\n"
+	.string "כאלה.$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
-	.string "Okay! Next stop, the BATTLE ARENA!\n"
-	.string "I'd better get the right POKéMON from\l"
-	.string "the PC Storage System.$"
+	.string "אוקיי! עצירה הבאה, זירת הקרב!\n"
+	.string "כדאי שאקח את הפוקימון הנכון\l"
+	.string "ממערכת האחסון במחשב.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-	.string "Giggle… I'm going to go through every\n"
-	.string "challenge with just this baby!$"
+	.string "צחקוק… אני הולכת לעבור כל אתגר\n"
+	.string "רק עם התינוק הזה!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
-	.string "SKITTY: Mya myaaah!$"
+	.string "{STR_VAR_1}: מיא מיאאאה!$"
 

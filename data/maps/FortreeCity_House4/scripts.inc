@@ -23,6 +23,7 @@ FortreeCity_House4_EventScript_Boy::
 FortreeCity_House4_EventScript_WingullOnErrand::
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox FortreeCity_House4_Text_AskedWingullToRunErrand, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -30,6 +31,7 @@ FortreeCity_House4_EventScript_WingullOnErrand::
 FortreeCity_House4_EventScript_WingullReturned::
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb, MSGBOX_DEFAULT
 	giveitem ITEM_MENTAL_HERB
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
@@ -40,6 +42,7 @@ FortreeCity_House4_EventScript_WingullReturned::
 FortreeCity_House4_EventScript_ReceivedMentalHerb::
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox FortreeCity_House4_Text_FriendsFarAwayThanksToWingull, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -57,39 +60,40 @@ FortreeCity_House4_EventScript_Wingull::
 	faceplayer
 	waitse
 	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_WINGULL
 	msgbox FortreeCity_House4_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether:
-	.string "By being together with POKéMON,\n"
-	.string "people make more and more friends.\p"
-	.string "And that brings the world closer\n"
-	.string "together. I think it's wonderful!$"
+	.string "כשאנשים נמצאים יחד עם פוקימון,\n"
+	.string "הם יוצרים יותר ויותר חברויות.\p"
+	.string "וזה מקרב את העולם כולו\n"
+	.string "יחד. אני חושבת שזה נהדר!$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-	.string "There!\n"
-	.string "Go, BIRD POKéMON!$"
+	.string "הנה!\n"
+	.string "קדימה, פוקימון ציפור!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
-	.string "an errand for me.$"
+	.string "היהי, ביקשתי מ{STR_VAR_1} לעשות סידור\n"
+	.string "בשבילי.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good!\n"
-	.string "Welcome back, WINGULL!\p"
-	.string "Huh? What is this?\n"
-	.string "What is it holding?\p"
-	.string "A MENTAL HERB?\n"
-	.string "It must have picked it up somewhere.\p"
-	.string "But I'm not a TRAINER, so you can\n"
-	.string "have it.$"
+	.string "יופי!\n"
+	.string "ברוך השב, {STR_VAR_1}!\p"
+	.string "הא? מה זה?\n"
+	.string "מה הוא מחזיק?\p"
+	.string "עשב נפשי?\n"
+	.string "הוא בטח מצא אותו איפשהו.\p"
+	.string "אבל אני לא מאמן, אז את{EMIT_HEY}\n"
+	.string "יכול{ADD_HEY} לקחת אותו.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
-	.string "who live far away.$"
+	.string "בזכות ה{STR_VAR_1} שלי, יש לי חברים\n"
+	.string "שגרים רחוק מכאן.$"
 
 FortreeCity_House4_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "{STR_VAR_1}: פיהיוה!$"
 

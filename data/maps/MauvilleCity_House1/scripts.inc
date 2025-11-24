@@ -19,28 +19,28 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 	end
 
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
-	.string "Woohoo!\p"
-	.string "I hear people call me the ROCK SMASH\n"
-	.string "GUY, but I find that sort of degrading.\p"
-	.string "I think I deserve a bit more respect,\n"
-	.string "like maybe the ROCK SMASH DUDE.\p"
-	.string "Woohoo!\p"
-	.string "Anyways, your POKéMON look pretty\n"
-	.string "strong.\p"
-	.string "I like that!\n"
-	.string "Here, take this HIDDEN MACHINE!$"
+	.string "ווהו!\p"
+	.string "שמעתי שקוראים לי איש המרסק סלעים,\n"
+	.string "אבל אני חושב שזה קצת מעליב.\p"
+	.string "אני חושב שמגיע לי קצת יותר כבוד,\n"
+	.string "אולי כמו אדון מרסק הסלעים.\p"
+	.string "ווהו!\p"
+    .string "בכל מקרה, הפוקימונים שלך נראים די\n"
+    .string "חזקים.\p"
+	.string "אני אוהב את זה!\n"
+	.string "הנה, קח את המכונה הנסתרת הזו!$"
 
 MauvilleCity_House1_Text_ExplainRockSmash:
-	.string "That HM contains ROCK SMASH.\p"
-	.string "If you come across large boulders\n"
-	.string "that block your path…\p"
-	.string "Well, use that HM move and smash\n"
-	.string "them right out of your way!\p"
-	.string "Yes, sir! Smash rocks aside, I say!\n"
-	.string "Woohoo!$"
+	.string "המ”נ הזה מכיל ריסוק.\p"
+	.string "אם תתקל{ADD_YUD} בסלעים גדולים\n"
+	.string "שחוסמים את הדרך…\p"
+	.string "ובכן, תשתמש{ADD_YUD} במ”נ ותרסק{ADD_YUD} אותם\n"
+	.string "מהדרך!\p"
+	.string "כן, אדוני{ADD_TAF}! לרסק סלעים הצידה, אני אומר!\n"
+	.string "ווהו!$"
 
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
-	.string "Oh, yes, if you smash a rock, a POKéMON\n"
-	.string "could come flying out of hiding.\p"
-	.string "Woohoo!$"
+	.string "או, כן, אם תרסק{ADD_YUD} אבן, פוקימון\n"
+	.string "עלול לקפוץ החוצה מהמסתור.\p"
+	.string "ווהו!$"
 

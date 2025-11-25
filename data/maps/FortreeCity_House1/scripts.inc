@@ -42,6 +42,8 @@ FortreeCity_House1_EventScript_NotRequestedMon::
 	end
 
 FortreeCity_House1_EventScript_TradeCompleted::
+	bufferspeciesname STR_VAR_1, SPECIES_VOLBEAT
+	bufferspeciesname STR_VAR_2, SPECIES_PLUSLE
 	msgbox FortreeCity_House1_Text_GoingToMakeVolbeatStrong, MSGBOX_DEFAULT
 	release
 	end
@@ -55,44 +57,45 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox FortreeCity_House1_Text_Zigzagoon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Wrooooaaar! I need it!\n"
-	.string "I have to get me a {STR_VAR_1}!\l"
-	.string "I'll do anything for it!\p"
-	.string "…Uh… Did you hear that?\n"
-	.string "My shout from the bottom of my heart?\p"
-	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "won't you?$"
+	.string "וואאאארואר! אני חייב אותו!\n"
+	.string "אני חייב להשיג {STR_VAR_1} אחד!\l"
+	.string "אני אעשה הכל בשבילו!\p"
+	.string "…אה… שמעת את זה?\n"
+	.string "את הצעקה שלי מעומק ליבי?\p"
+	.string "לאחר ששמעת זאת, תחלי{SWAP_PEY}{ADD_YUD}\n"
+	.string "את {STR_VAR_1} שלך עבור ה{STR_VAR_2} שלי,\l"
+	.string "נכון?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Oh, yeah, right on!\p"
-	.string "{STR_VAR_1}, welcome!\n"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "או, כן, בדיוק!\p"
+	.string "{STR_VAR_1}, ברוך הבא!\n"
+	.string "{STR_VAR_2}, שמור על עצמך!$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "או, לא, אני לא חושב כך.\n"
+	.string "זה לא {STR_VAR_1}.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "No? You won't trade me?\n"
-	.string "Even after I bared my heart to you?$"
+	.string "לא? את{EMIT_HEY} לא תסח{EMIT_VAV}ר{ADD_YUD} איתי?\n"
+	.string "אפילו אחרי שחשפתי את ליבי בפניך?$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VOLBEAT super\n"
-	.string "strong from this moment on!\p"
-	.string "I hope you do the same with PLUSLE!$"
+	.string "אני אהפוך את {STR_VAR_1} לחזק\n"
+	.string "במיוחד מרגע זה!\p"
+	.string "אני מקווה שתעש{EMIT_HEY}{ADD_YUD} את אותו דבר עם {STR_VAR_2}!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-	.string "Trading POKéMON with others…\p"
-	.string "It's as if you're trading your own\n"
-	.string "memories with other people.$"
+	.string "להחליף פוקימון עם אחרים…\p"
+	.string "זה כמו להחליף את הזיכרונות\n"
+	.string "שלך עם אנשים אחרים.$"
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "ZIGZAGOON: Gumomoh?$"
+	.string "{STR_VAR_1}: גומומוה?$"
 

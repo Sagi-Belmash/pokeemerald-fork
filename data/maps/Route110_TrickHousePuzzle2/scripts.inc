@@ -100,42 +100,42 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 	end
 
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is smart.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים הוא חכם.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle2_Text_TedIntro:
-	.string "Which switch closes which hole?$"
+	.string "איזה מתג סוגר איזה חור?$"
 
 Route110_TrickHousePuzzle2_Text_TedDefeat:
-	.string "After that battle, I'm even more\n"
-	.string "confused!$"
+	.string "אחרי הקרב הזה, אני אפילו יותר\n"
+	.string "מבולבל!$"
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
-	.string "Can I get you to push all the buttons\n"
-	.string "for me?$"
+	.string "אפשר לבקש ממך ללחוץ על כל\n"
+	.string "הכפתורים בשבילי?$"
 
 Route110_TrickHousePuzzle2_Text_PaulIntro:
-	.string "Oh! You're on your second TRICK HOUSE\n"
-	.string "challenge!$"
+	.string "או! את{EMIT_HEY} באתגר השני שלך\n"
+	.string "בבית הטריקים!$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
-	.string "You're good at battling too?$"
+	.string "את{EMIT_HEY} גם טוב{ADD_HEY} בקרבות?$"
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
 	.string "The TRICK MASTER rigged all the tricks\n"
 	.string "in this house all by himself.$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
-	.string "I want to make my own GYM one day.\n"
-	.string "So, I'm studying how to set traps.$"
+	.string "אני רוצה להקים מכון משלי יום אחד.\n"
+	.string "אז, אני לומדת איך להציב מלכודות.$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
-	.string "I didn't study battling enough!$"
+	.string "אני לא למדתי מספיק על קרבות!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
-	.string "You're strong, aren't you?\n"
-	.string "Maybe even enough to be a GYM LEADER!$"
+	.string "את{EMIT_HEY} חזק{ADD_HEY}, נכון?\n"
+	.string "אולי אפילו מספיק כדי להיות מנהיג{ADD_TAF} מכון!$"
 

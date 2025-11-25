@@ -41,7 +41,7 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 	.string "על הדלת.\p"
 	.string "”מאסטר הטריקים הוא מדהים.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle1_Text_SallyIntro:
 	.string "אני אחתוך ואקרע את דרכי לניצחון\n"

@@ -28,43 +28,43 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 	end
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is cool.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים הוא מגניב.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
-	.string "It's too much bother to think this out.\n"
-	.string "I only wanted to battle!$"
+	.string "זה יותר מדי טרחה לחשוב על זה.\n"
+	.string "אני רק רציתי להילחם!$"
 
 Route110_TrickHousePuzzle4_Text_CoraDefeat:
-	.string "Even though I lost, I still like battling\n"
-	.string "the best!$"
+	.string "למרות שהפסדתי, אני עדיין הכי אוהבת\n"
+	.string "להילחם!$"
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
-	.string "Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.$"
+	.string "את{EMIT_HEY} לא מסכי{SWAP_MEM}{ADD_HEY}? הייתי הולכת\n"
+	.string "לכל מקום אם היו שם מאמנים.$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
-	.string "Heh! Boulders like this, I can brush\n"
-	.string "aside with one finger!$"
+	.string "הא! סלעים כאלה, אני יכול להזיז\n"
+	.string "הצידה עם אצבע אחת!$"
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
-	.string "I can push boulders, but I can't solve\n"
-	.string "the puzzle…$"
+	.string "אני יכול לדחוף סלעים, אבל אני לא יכול לפתור\n"
+	.string "את הפאזל…$"
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
-	.string "It's not good enough to be brawny…\n"
-	.string "You have to use your head. Be brainy!$"
+	.string "זה לא מספיק להיות שרירי…\n"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} גם להשתמש בראש. תהי{EMIT_HEY}{ADD_YUD} מבריק{ADD_HEY}!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
-	.string "The TRICK HOUSE is getting trickier,\n"
-	.string "isn't it?$"
+	.string "בית הטריקים נהיה יותר טריקי,\n"
+	.string "לא כך?$"
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:
-	.string "Aaak!$"
+	.string "אההה!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
-	.string "Has anyone made it to the end?$"
+	.string "האם מישהו הצליח להגיע לסוף?$"
 

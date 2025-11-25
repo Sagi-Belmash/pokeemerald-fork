@@ -41,37 +41,38 @@ BattleFrontier_Lounge6_EventScript_NotRequestedMon::
 	end
 
 BattleFrontier_Lounge6_EventScript_TradeCompleted::
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined, MSGBOX_DEFAULT
 	release
 	end
 
 BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
-	.string "My POKéMON is a {STR_VAR_2}.\n"
-	.string "Do you know it?\l"
-	.string "It's quite cute and rather nice.\p"
-	.string "This little one, I could trade with\n"
-	.string "pride!\p"
-	.string "Would you like to trade me a {STR_VAR_1}\n"
-	.string "for my {STR_VAR_2}?$"
+	.string "הפוקימון שלי הוא {STR_VAR_2}.\n"
+	.string "את{EMIT_HEY} מכיר{ADD_HEY} אותו?\l"
+	.string "הוא די חמוד ונחמד למדי.\p"
+	.string "הקטנצ'יק הזה, אני יכול להחליף אותו\n"
+	.string "בשמחה!\p"
+	.string "רוצה להחליף את {STR_VAR_1}\n"
+	.string "עבור ה{STR_VAR_2} שלי?$"
 
 BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt:
-	.string "Oh, it's adorable!\n"
-	.string "Thank you!\l"
-	.string "I promise I'll be good to it!\p"
-	.string "Oh! I hope you'll be good to\n"
-	.string "my {STR_VAR_2}, too!$"
+	.string "או, הוא מקסים!\n"
+	.string "תודה לך!\l"
+	.string "אני מבטיחה שאהיה טובה אליו!\p"
+	.string "או! אני מקווה שגם את{EMIT_HEY} תהי{EMIT_HEY}{ADD_YUD}\n"
+	.string "טובה ל{STR_VAR_2} שלי!$"
 
 BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon:
-	.string "Oh, I'm sorry!\n"
-	.string "I don't intend to trade for anything\l"
-	.string "but a {STR_VAR_1}.$"
+	.string "או, אני מצטערת!\n"
+	.string "אני לא מתכוונת להחליף עבור שום דבר\l"
+	.string "חוץ מ{STR_VAR_1}.$"
 
 BattleFrontier_Lounge6_Text_WellThatsFineToo:
-	.string "Oh, you won't?\n"
-	.string "Well, that's fine, too.\l"
-	.string "Please come visit us again.$"
+	.string "או, את{EMIT_HEY} לא רוצה?\n"
+	.string "ובכן, זה גם בסדר.\l"
+	.string "בבקשה בוא{ADD_YUD} לבקר אותנו שוב.$"
 
 BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
-	.string "Giggle!\n"
-	.string "A SKITTY is so much cuter than I had\l"
-	.string "imagined. I'm delighted!$"
+	.string "צחקוק!\n"
+	.string "{STR_VAR_1} הוא חמוד יותר ממה\l"
+	.string "שדמיינתי. אני מאושרת!$"

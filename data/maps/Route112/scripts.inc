@@ -107,7 +107,7 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-    .string "היי, אח{ADD_VAV}{ADD_TAF}י, המנהיג שלנו באמת הולך\n"
+    .string "היי, בנאדם, המנהיג שלנו באמת הולך\n"
     .string "להעיר את הדבר הזה?$"
 
 Route112_Text_YeahWeNeedMeteorite:
@@ -128,7 +128,7 @@ Route112_Text_NotEasyToGetBackToLavaridge:
     .string "קשה מאוד לחזור ללברידג'.$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "רבכל הר הארובה\n"
+	.string "רכבל הר הארובה\n"
 	.string "”הליכה קצרה {UP_ARROW} מכאן!“$"
 
 Route112_Text_MtChimneySign:

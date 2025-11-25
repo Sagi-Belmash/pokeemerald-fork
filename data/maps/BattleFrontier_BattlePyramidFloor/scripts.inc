@@ -134,7 +134,7 @@ gText_BattlePyramidConfirmRest::
 	.string "האם זה בסדר?$"
 
 gText_BattlePyramidConfirmRetire::
-	.string "האם את{EMIT_HEY} בטוח{ADD_HEY} שאת{EMITש_HEY} רוצה לפהסיק\n"
+	.string "האם את{EMIT_HEY} בטוח{ADD_HEY} שאת{EMIT_HEY} רוצה להפסיק\n"
 	.string "את המשימה שלך בפירמידת הקרב?$"
 
 BattlePyramid_Text_ExitHintUp1::

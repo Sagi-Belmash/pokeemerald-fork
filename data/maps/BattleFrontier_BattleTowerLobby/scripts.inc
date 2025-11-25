@@ -982,7 +982,7 @@ BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
 	.string "סלח{ADD_YUD} לי, יש לך רגע?\p"
 	.string "האם תוכל{ADD_YUD} לתאר את התחושות שלך כאשר\n"
-	.string "את{EMIT_HEY} עומד{ADD_TAFש} להתחיל קרב\l"
+	.string "את{EMIT_HEY} עומד{ADD_TAF} להתחיל קרב\l"
 	.string "במגדל הקרב, או כשניצחת או שהפסדת בקרב?$"
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin:
@@ -1109,7 +1109,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
 	.string "מקום שבו הכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
-	.string "ברו{SWAP_בHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
 	.string "יחידניים.$"
 
@@ -1139,7 +1139,7 @@ BattleFrontier_BattleTowerLobby_Text_SelectThreeMons:
 BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
 	.string "מקום שבו הכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
-	.string "ברו{SWAP_בHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
 	.string "זוגיים.$"
 
@@ -1169,7 +1169,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons:
 BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
 	.string "מקום שבו הכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
-	.string "ברו{SWAP_בHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
 	.string "מרובי משתתפים.$"
 
@@ -1206,7 +1206,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
 BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
 	.string "מקום שבו הכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
-	.string "ברו{SWAP_בHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
 	.string "מרובי משתתפים בקשר.$"
 

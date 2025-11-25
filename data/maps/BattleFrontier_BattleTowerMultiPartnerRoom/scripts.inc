@@ -765,7 +765,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject::
 	.string "את{EMIT_HEY} לא רוצה להיות שותפי?\n"
-	.string "את{EMIT_HEY} תתחרט על זה אח"כ!$"
+	.string "את{EMIT_HEY} תתחרט{ADD_YUD} על זה אחר כך!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro::
 	.string "שלום!\p"
@@ -990,7 +990,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}!\n"
-	.string "האם אוכל להצטרף לצוות התג שלך?$
+	.string "האם אוכל להצטרף לצוות התג שלך?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept::
 	.string "תודה!\n"
@@ -1004,7 +1004,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro::
 	.string "אני משוגע הקסמים {STR_VAR_1}…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1::
-	.string "אני נושא עימי אחד {STR_VAR_1}-משתמש\n"
+	.string "אני נושא עימי אחד {STR_VAR_1} בשימוש\n"
 	.string "{STR_VAR_2} ביחד עם אחד$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask::
@@ -1248,7 +1248,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject::
 	.string "הבאה שנפגש.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro::
-	.string "אני מروض דרקונים {STR_VAR_1}!$"
+	.string "אני מאמן דרקונים {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1::
 	.string "הצוות שאימנתי הוא\n"
@@ -1732,7 +1732,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}!\p"
-	.string "יהיה נחמד אם נוציר צוות תג\n"
+	.string "יהיה נחמד אם ניצור צוות תג\n"
 	.string "ביחד, אז מה דעתך?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::

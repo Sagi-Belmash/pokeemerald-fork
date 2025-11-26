@@ -1107,7 +1107,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
-	.string "מקום שבו הכישורים של מאמנים\n"
+	.string "איפה שהכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
@@ -1137,7 +1137,7 @@ BattleFrontier_BattleTowerLobby_Text_SelectThreeMons:
 	.string "שיוכנסו.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
-	.string "מקום שבו הכישורים של מאמנים\n"
+	.string "איפה שהכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
@@ -1167,7 +1167,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons:
 	.string "שיוכנסו.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
-	.string "מקום שבו הכישורים של מאמנים\n"
+	.string "איפה שהכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
@@ -1204,7 +1204,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
 	.string "שיוכנסו.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
-	.string "מקום שבו הכישורים של מאמנים\n"
+	.string "איפה שהכישורים של מאמנים\n"
 	.string "עומדים למבחן!\p"
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"

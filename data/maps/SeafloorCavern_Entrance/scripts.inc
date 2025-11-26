@@ -69,7 +69,7 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 	.string "צוות מגמה!\p"
 	.string "אם כבר מדברים על צוות מגמה, שמעתי שהם\n"
 	.string "נצפו ליד מוסדיפ.\p"
-	.string "החבורה הזו של גולמים, הם בטח לא\n"
+	.string "החבר'ה האלה של גולמים, הם בטח לא\n"
 	.string "נראים טוב ליד הים!$"
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
@@ -81,6 +81,6 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
 	.string "צוות מגמה!\p"
 	.string "אם כבר מדברים על צוות מגמה, שמעתי שהם\n"
 	.string "נצפו ליד מוסדיפ.\p"
-	.string "החבורה הזו של גולמים, הם בטח לא\n"
+	.string "החבר'ה האלה של גולמים, הם בטח לא\n"
 	.string "נראים טוב ליד הים!$"
 

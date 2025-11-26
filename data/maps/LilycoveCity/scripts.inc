@@ -640,7 +640,7 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
     .string "המ, את{EMIT_HEY} יודע{ADD_TAF} על המערה המוזרה\n"
     .string "במפרץ הזה?\p"
     .string "זו היתה תצורה טבעית,\n"
-    .string "אבל אז החבורה הזאת מצוות אקווה באו\l"
+    .string "אבל אז החבר'ה האלה מצוות אקווה באו\l"
     .string "ועשו את השיפוצים שלהם.\p"
     .string "הם קוראים לעצמם\n"
     .string "”צוות אקווה אוהב הטבע“!\p"
@@ -651,7 +651,7 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
     .string "המערה הזו במפרץ…\p"
     .string "לא שמתי לב מיד,\n"
     .string "אבל היא ריקה לחלוטין עכשיו.\p"
-    .string "החבורה הזאת של צוות אקווה, הם בטח\n"
+    .string "החבר'ה האלה של צוות אקווה, הם בטח\n"
     .string "הלכו משם לתמיד.$"
 
 LilycoveCity_Text_CitySign:

@@ -107,54 +107,54 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-	.string "If you want to know the secret about\n"
-	.string "our HIDEOUT, you have me to beat!$"
+	.string "אם את{EMIT_HEY} רוצה לדעת את הסוד על\n"
+	.string "המחבוא שלנו, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להביס אותי!$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
-	.string "I can't win at all…$"
+	.string "אני לא מצליח לנצח בכלל…$"
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
-	.string "Our HIDEOUT's secret?\p"
-	.string "Well, let's just say…\n"
-	.string "There's a submarine at the far end!\p"
-	.string "But, by now…\n"
-	.string "Kekekeke…$"
+	.string "הסוד של המחבוא שלנו?\p"
+	.string "טוב, בוא נגיד ש…\n"
+	.string "יש צוללת בקצה הרחוק!\p"
+	.string "אבל, עד עכשיו…\n"
+	.string "קיקיקיקיקי…$"
 
 AquaHideout_B1F_Text_Grunt3Intro:
-	.string "Fuel supply loaded A-OK!\n"
-	.string "In-cruise snacks loaded A-OK!\p"
-	.string "Nothing left to do but KO a pesky\n"
-	.string "meddler!$"
+	.string "אספקת דלק נטענה - או.קיי!\n"
+	.string "חטיפי שייט נטענו - או.קיי!\p"
+	.string "לא נותר לי אלא לחסל איזה\n"
+	.string "נודניק{ADD_YUD}{ADD_TAF} מציק{ADD_HEY}!$"
 
 AquaHideout_B1F_Text_Grunt3Defeat:
-	.string "I took a serious licking!$"
+	.string "אני חטפתי מכה רצינית!$"
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-	.string "Humph!\n"
-	.string "This was supposed to happen!\p"
-	.string "My mission was to just hold you up!$"
+	.string "המפ!\n"
+	.string "זה היה אמור לקרות!\p"
+	.string "המשימה שלי הייתה רק לעכב אותך!$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
-	.string "Yawn… Keeping watch over the\n"
-	.string "HIDEOUT bores me. I'll take you on.$"
+	.string "פיהוק… לשמור על המחבוא\n"
+	.string "משעמם אותי. אני אתמודד מולך.$"
 
 AquaHideout_B1F_Text_Grunt5Defeat:
-	.string "Yawn…\n"
-	.string "Oh, I lost…$"
+	.string "פיהוק…\n"
+	.string "או, הפסדתי…$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-	.string "If you scurry too much, other TEAM\n"
-	.string "AQUA members might get you.$"
+	.string "אם תרו{SWAP_TZADIK}{ADD_YUD} יותר מדי, חברי צוות\n"
+	.string "אקווה אחרים עלולים לתפוס אותך.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-	.string "Hey!\n"
-	.string "You there!\p"
-	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "היי!\n"
+	.string "את{EMIT_HEY} שם!\p"
+	.string "מה לדעתך יותר מגניב?\n"
+	.string "המדים של צוות אקווה או של צוות מגמה?$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
-	.string "I lost in a cool way…$"
+	.string "אני הפסדתי בצורה מגניבה…$"
 
 AquaHideout_B1F_Text_Grunt7PostBattle:
-	.string "If you have a cool uniform, you look\n"
-	.string "good even in a loss, don't you think?$"
+	.string "אם יש לך מדים מגניבים, את{EMIT_HEY} נראה\n"
+	.string "טוב גם בהפסד, את{EMIT_HEY} לא חושב{ADD_TAF}?$"

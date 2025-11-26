@@ -281,7 +281,7 @@ MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
 	.string "ארצ'י: כן, כן, אנחנו חייבים!\n"
 	.string "אנחנו חייבים למהר.\p"
 	.string "אין לדעת מה צוות מגמה\n"
-	.string "יעשו בהר ארובה!$"
+	.string "יעשו בהר הארובה!$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
 	.string "ארצ'י: {PLAYER}, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
@@ -298,12 +298,12 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 	.string "ואז עוד חבורה דומה,\n"
 	.string "צוות אקווה הופיע.\p"
 	.string "אחרי זה…\n"
-	.string "אני לא מבין כלום מזה.\p"
+	.string "אני לא מבין כלום יותר.\p"
 	.string "אבל צוות מגמה הזה…\p"
 	.string "מה הם הולכים לעשות עם המטאוריט\n"
-	.string "הזה בהר ארובה?$"
+	.string "הזה בהר הארובה?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "פרופ. קוזמו: אבל צוות מגמה הזהA…\p"
 	.string "מה הם הולכים לעשות עם המטאוריט\n"
-	.string "הזה בהר ארובה?$"
+	.string "הזה בהר הארובה?$"

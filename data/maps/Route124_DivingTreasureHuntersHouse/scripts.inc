@@ -284,55 +284,54 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "I'm the DIVING TREASURE HUNTER!\p"
-	.string "I'm the awesome dude who makes\n"
-	.string "deep-sea dives to gather treasures\l"
-	.string "resting at the bottom.$"
+	.string "אני צייד האוצרות הצולל!\p"
+	.string "אני הבחור הנהדר שעושה\n"
+	.string "צלילות עמוקות כדי לאסוף אוצרות\l"
+	.string "שנחים בקרקעית.$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Tell me, have you seen any SHARDS of\n"
-	.string "tools made in ancient times?$"
+	.string "תגיד{ADD_YUD} לי, ראית חרסים של כלים\n"
+	.string "שנוצרו בימי קדם?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "You haven't got any treasures\n"
-	.string "for me…\p"
-	.string "If you see any SHARDS, like the RED\n"
-	.string "SHARD, you've got to trade it with me!$"
+	.string "אין לך אוצרות בשבילי…\p"
+	.string "אם את{EMIT_HEY} רואה שברים כלשהם, כמו\n"
+	.string "חרס אדום, את{EMIT_HEY} חייב{ADD_TAF} להחליף אותו איתי!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Oh, hey! That…\n"
-	.string "That's a SHARD! I'm looking for those!\p"
-	.string "Oh, man, you've got to trade that\n"
-	.string "with me! I'll give you something good!$"
+	.string "או, היי! זה…\n"
+	.string "זה חרס! אני מחפש כאלה!\p"
+	.string "או, בנאדם, את{EMIT_HEY} חייב{ADD_TAF} להחליף את זה\n"
+	.string "איתי! אני אתן לך משהו טוב!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "What do you want to trade?$"
+	.string "מה את{EMIT_HEY} רוצה להחליף?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "You'll trade your {STR_VAR_1} for\n"
-	.string "my {STR_VAR_2}, then?$"
+	.string "אז את{EMIT_HEY} תחלי{SWAP_PEY}{ADD_YUD} את ה{STR_VAR_1} שלך עבור\n"
+	.string "ה{STR_VAR_2} שלי?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "It's a done deal!\n"
-	.string "Use that wisely!$"
+	.string "זו עסקה!\n"
+	.string "השתמש{ADD_YUD} בזה בחוכמה!$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Do you want to trade something else?$"
+	.string "האם את{EMIT_HEY} רוצה להחליף משהו אחר?$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Whoops, your BAG's full.\n"
-	.string "Get rid of some items, friend!$"
+	.string "וופס, התיק שלך מלא.\n"
+	.string "תיפטר{ADD_YUD} מכמה פריטים, חבר{ADD_HEY}!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "No? That's a downer.\n"
-	.string "Well, if you change your mind, come back.$"
+	.string "לא? זה מאכזב.\n"
+	.string "ובכן, אם תשנ{EMIT_HEY}{ADD_YUD} את דעתך, תחז{EMIT_VAV}ר{ADD_YUD}.$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+	.string "{CLEAR_TO 0x0a}פריט מבוקש{CLEAR_TO 0x7c}פריט להחלפה\n"
+	.string "{CLEAR_TO 0x0f}חרס אדום{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}אבן אש{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}פריט מבוקש{CLEAR_TO 0x7c}פריט להחלפה\n"
+	.string "{CLEAR_TO 0x06}חרס צהוב{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}אבן רעם{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}פריט מבוקש{CLEAR_TO 0x7c}פריט להחלפה\n"
+	.string "{CLEAR_TO 0x0c}חרס כחול{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}אבן מים{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}פריט מבוקש{CLEAR_TO 0x7c}פריט להחלפה\n"
+	.string "{CLEAR_TO 0x08}חרס ירוק{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}אבן עלה$"

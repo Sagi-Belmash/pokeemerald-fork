@@ -1216,7 +1216,7 @@ SlateportCity_Text_SternsShipyardNearsCompletion:
 
 SlateportCity_Text_SternsShipyardFerryComplete:
 	.string "המספנה של סטרן\p"
-	.string "”עלייה למעבורת ס.ס. גאות של\n"
+	.string "”עלייה למעבורת א/ק גאות של\n"
 	.string "סלייטפורט-ליליקוב מתבצעת בנמל.“$"
 
 SlateportCity_Text_PokemonFanClubSign:
@@ -1239,14 +1239,14 @@ SlateportCity_Text_MarketSign:
 
 SlateportCity_Text_HarborFerryUnderConstruction:
 	.string "נמל סלייטפורט\p"
-	.string "”המעבורת ס.ס. גאות נמצאת בבנייה\n"
+	.string "”המעבורת א/ק גאות נמצאת בבנייה\n"
 	.string "במספנה.\p"
 	.string "”שירות צפוי להתחיל בקרוב.“$"
 
 SlateportCity_Text_HarborSign:
 	.string "נמל סלייטפורט\p"
 	.string "”תהנו משיט מהנה על\n"
-	.string "המעבורת ס.ס. גאות.“$"
+	.string "המעבורת א/ק גאות.“$"
 
 SlateportCity_Text_NameRatersHouseSign:
 	.string "בית המעריך שמות\n"

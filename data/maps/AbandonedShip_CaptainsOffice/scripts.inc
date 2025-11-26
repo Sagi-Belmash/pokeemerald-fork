@@ -36,6 +36,6 @@ AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
 	.string "עוד קצת.$"
 
 AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
-	.string "הספינה הזאת נקראת ס.ס. קקטוס.\n"
+	.string "הספינה הזאת נקראת א/ק קקטוס.\n"
 	.string "נראה שהיא מתקופה מוקדמת יותר.$"
 

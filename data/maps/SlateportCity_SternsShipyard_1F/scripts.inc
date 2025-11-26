@@ -104,7 +104,7 @@ SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
 
 SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
 	.string "דוק: המעבורת סוף סוף מוכנה!\p"
-	.string "הס.ס. גאות החדשה היא באמת פלא\n"
+	.string "הא/ק גאות החדשה היא באמת פלא\n"
 	.string "של טכנולוגיה!\p"
 	.string "אבל, יש לי תחושה שאנחנו יכולים\n"
 	.string "לבנות משהו טוב עוד יותר.\p"

@@ -57,41 +57,39 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that POKéMON\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach POKéMON those moves.\p"
-	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a HEART SCALE.\n"
-	.string "I'm collecting those now.$"
+    .string "אני מדריך המהלכים.\p"
+    .string "אני מכיר את כל המהלכים שפוקימון\n"
+    .string "לומדים--כל אחד ואחד מהם--ואני יכול\l"
+    .string "ללמד פוקימון את המהלכים האלה.\p"
+    .string "אני יכול ללמד מהלך לפוקימון\n"
+    .string "ששייך לך אם תרצ{EMIT_HEY}{ADD_YUD}.\p"
+    .string "אני עושה את זה עבור קשקש לב.\n"
+    .string "אני אוסף כאלה עכשיו.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness HEART SCALE!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+    .string "או! זה זה! זו ממש קשקש לב אמיתי!\p"
+    .string "ת{SWAP_NUN}{ADD_YUD} לי לנחש, אתה רוצה שאלמד מהלך?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which POKéMON needs tutoring?$"
+    .string "איזה פוקימון צריך הדרכה?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+    .string "איזה מהלך ללמד?$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that POKéMON.$"
+	.string "מצטער…\p"
+	.string "נראה שאין שום מהלך שאני יכול ללמד\n"
+	.string "את הפוקימון הזה.$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one HEART SCALE\n"
-	.string "in exchange.$"
+	.string "{PLAYER} מסר{ADD_HEY} קשקש לב אחד\n"
+	.string "בתמורה.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your POKéMON need to learn a move,\n"
-	.string "come back with a HEART SCALE.$"
+    .string "אם הפוקימון שלך צריך ללמוד מהלך,\n"
+    .string "תחז{EMIT_VAV}ר{ADD_YUD} עם קשקש לב.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
+    .string "הא? אין אפילו מהלך אחד שאני יכול\n"
+    .string "ללמד לביצה.$"
 

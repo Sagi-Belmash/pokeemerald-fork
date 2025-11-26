@@ -1376,17 +1376,17 @@ const u8 gText_Mind[] = _("תודעה");
 const u8 gText_Skill[] = _("כישרון");
 const u8 gText_Body[] = _("גוף");
 const u8 gText_Judgment[] = _("{B_BUFF1}{CLEAR 13}שיפוט{CLEAR 13}{B_BUFF2}");
-static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} הוציא/ה\nהחוצה {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא/ה\nהחוצה {B_OPPONENT_MON2_NAME}!");
-static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא/ה\nהחוצה {B_BUFF1}!");
+static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} הוציא\nהחוצה {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא\nהחוצה {B_OPPONENT_MON2_NAME}!");
+static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא\nהחוצה {B_BUFF1}!");
 static const u8 sText_TwoTrainersWantToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nו{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lרוצים קרב!\p");
 static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_CLASS} {B_PARTNER_NAME} הוציא\nהחוצה {B_PLAYER_MON2_NAME}!\lקדימה, {B_PLAYER_MON1_NAME}!");
 static const u8 sText_TwoInGameTrainersDefeated[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nו{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lהובסו!\p");
 static const u8 sText_Trainer2LoseText[] = _("{B_TRAINER2_LOSE_TEXT}");
-static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX} נראה/ית לא מסוגל/ת\nלהשתמש בשום כוח!");
+static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX} נראה לא מסוגל\nלהשתמש בשום כוח!");
 static const u8 sText_GlintAppearsInEye[] = _("ניצוץ מופיע בעיני\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
-static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} נכנס/ת\nלעמדה!");
-static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} התחיל/ה לנהום עמוקות!");
-static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} להוט/ה לעוד!");
+static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} נכנס\nלעמדה!");
+static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} התחיל לנהום עמוקות!");
+static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} להוט לעוד!");
 
 const u16 gBattlePalaceFlavorTextTable[] =
 {

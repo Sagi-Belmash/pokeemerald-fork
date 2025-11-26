@@ -22,54 +22,54 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-	.string "What, what, what?\p"
-	.string "Only TEAM MAGMA members are supposed\n"
-	.string "to be in here!\p"
-	.string "But you're not dressed in TEAM MAGMA's\n"
-	.string "uniform…\p"
-	.string "You rouse my suspicion!\n"
-	.string "Battle with me!$"
+	.string "מה, מה, מה?\p"
+	.string "רק חברי צוות מגמה אמורים\n"
+	.string "להיות כאן!\p"
+	.string "אבל את{EMIT_HEY} לא לבוש{ADD_HEY} במדים של\n"
+	.string "צוות מגמה…\p"
+	.string "את{EMIT_HEY} מעוררת{ADD_TAF} את חשדי!\n"
+	.string "הילח{SWAP_MEM}{ADD_YUD} בי!$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-	.string "Aiyiyi…\n"
-	.string "My pride as a TEAM MAGMA member…$"
+	.string "אייייי\n"
+	.string "הכבוד שלי כחברת צוות מגמה…$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
-	.string "If you suffer from chills, you should\n"
-	.string "join TEAM MAGMA.$"
+	.string "אם את{EMIT_HEY} סובל{ADD_TAF} מצמרמורות, כדאי\n"
+	.string "לך להצטרף לצוות מגמה.$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
-	.string "Hold it right there!\p"
-	.string "You don't really expect me to keep\n"
-	.string "my trap shut and let you waltz by me?$"
+	.string "עצ{EMIT_VAV}ר{ADD_YUD} בדיוק שם!\p"
+	.string "את{EMIT_HEY} באמת לא מצפה ממני לסתום\n"
+	.string "את הפה ולתת לך לחלוף על פני?$"
 
 MagmaHideout_2F_1R_Text_Grunt3Defeat:
-	.string "Ooh wow!\n"
-	.string "I concede!$"
+	.string "אוו ואו!\n"
+	.string "אני נכנע!$"
 
 MagmaHideout_2F_1R_Text_Grunt3PostBattle:
-	.string "Maybe it would've been better if I did\n"
-	.string "just let you go unchallenged…$"
+	.string "אולי עדיף היה פשוט לתת לך\n"
+	.string "לעבור ללא אתגר…$"
 
 MagmaHideout_2F_1R_Text_Grunt4Intro:
-	.string "Ahah!\n"
-	.string "An intruder!$"
+	.string "אהאה!\n"
+	.string "פולש{ADD_TAF}!$"
 
 MagmaHideout_2F_1R_Text_Grunt4Defeat:
-	.string "Graaah!$"
+	.string "גראאאה!$"
 
 MagmaHideout_2F_1R_Text_Grunt4PostBattle:
-	.string "I've already lost.\p"
-	.string "Do I really need to keep running\n"
-	.string "around in a circle?$"
+	.string "כבר הפסדתי.\p"
+	.string "האם אני באמת צריך להמשיך\n"
+	.string "לרוץ במעגל?$"
 
 MagmaHideout_2F_1R_Text_Grunt5Intro:
-	.string "Oh, oh!\n"
-	.string "An intruder!$"
+	.string "או, או!\n"
+	.string "פולש{ADD_TAF}!$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
-	.string "Mutter…$"
+	.string "מלמול…$"
 
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-	.string "Actually, I'm no expert at battling…$"
+	.string "האמת, אני לא מומחה בקרבות…$"
 

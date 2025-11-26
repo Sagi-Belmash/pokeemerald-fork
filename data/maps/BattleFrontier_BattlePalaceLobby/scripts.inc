@@ -469,7 +469,7 @@ BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "נראה שאין לך מקום לפרס שלנו.\p"
-	.string "כדאי שתחז{EMIV_VAV}ר{ADD_YUD} לאחר שארגנת\n"
+	.string "כדאי שתחז{EMIT_VAV}ר{ADD_YUD} לאחר שארגנת\n"
 	.string "את התיק שלך.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:

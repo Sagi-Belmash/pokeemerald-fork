@@ -1111,31 +1111,27 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     u8 *objVram;
 
     //text[0] = CHAR_EXTRA_SYMBOL;
-    text[0] = CHAR_t/* CHAR_LV_2 */;
-  
+    text[0] = CHAR_LV_2;
+
     objVram = ConvertIntToDecimalStringN(text + 1, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     ReverseNumeric(text + 1);
-    //*objVram++ = CHAR_LV_2;
-    //*objVram = EOS;
     xPos = 5 * (3 - (objVram - (text + 2)));
 
-    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 40/* xPos */, 3, 2, &windowId, TRUE);
+    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 42/* xPos */, 3, 2, &windowId, TRUE);
     spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
+    // MOVED TO "START" POSITION (Previously Nickname's spot)
+    // Takes offset 0x40 (Player) and 0x20 (Enemy).
+    // No split needed as 3 tiles fit easily.
     if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)
     {
-        objVram = (void *)(OBJ_VRAM0);
-        if (!IsDoubleBattle())
-            objVram += spriteTileNum + 0x820;
-        else
-            objVram += spriteTileNum + 0x420;
+        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x40 + spriteTileNum), windowTileData, 3);
     }
     else
     {
-        objVram = (void *)(OBJ_VRAM0);
-        objVram += spriteTileNum + 0x400;
+        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x20 + spriteTileNum), windowTileData, 3);
     }
-    TextIntoHealthboxObject(objVram, windowTileData, 3);
+
     RemoveWindowOnHealthbox(windowId);
 }
 
@@ -1911,15 +1907,26 @@ static void SpriteCB_StatusSummaryBalls_OnSwitchout(struct Sprite *sprite)
     sprite->x2 = gSprites[barSpriteId].x2;
     sprite->y2 = gSprites[barSpriteId].y2;
 }
+#define NAME_TILES            7    // nickname width in tiles
+#define TILES_PER_OBJ_ROW     32   // number of 8x8 tiles per VRAM row (tweak if your layout differs)
 
 static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
     void *ptr;
-    u32 windowId, spriteTileNum;
+    u32 windowId;
     u8 *windowTileData;
     u16 species;
     u8 gender;
+    u8 *objVram;
+    u16 spriteTileStart;
+    u8 rightSpriteId;
+    u8 *rightSpriteVram;
+    
+    // Variables for splitting text across two sprites
+    u8 tilesOnLeftSprite;
+    u8 tilesOnRightSprite;
+    u8 startTileOffset;
 
     StringCopy(gDisplayedStringBattle, gText_HealthboxNickname);
     GetMonData(mon, MON_DATA_NICKNAME, nickname);
@@ -1932,39 +1939,84 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && StringCompare(nickname, gSpeciesNames[species]) == 0)
         gender = 100;
 
-    // AddTextPrinterAndCreateWindowOnHealthbox's arguments are the same in all 3 cases.
-    // It's possible they may have been different in early development phases.
     switch (gender)
     {
     default:
         StringCopy(ptr, gText_HealthboxGender_None);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 12, 3, 2, &windowId, TRUE);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 8, 3, 2, &windowId, TRUE);
         break;
     case MON_MALE:
         StringCopy(ptr, gText_HealthboxGender_Male);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 12, 3, 2, &windowId, TRUE);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 8, 3, 2, &windowId, TRUE);
         break;
     case MON_FEMALE:
         StringCopy(ptr, gText_HealthboxGender_Female);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 12, 3, 2, &windowId, TRUE);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 8, 3, 2, &windowId, TRUE);
         break;
     }
 
-    spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
+    // Identify the main sprite and the secondary (right) sprite
+    spriteTileStart = gSprites[healthboxSpriteId].oam.tileNum;
+    rightSpriteId = gSprites[healthboxSpriteId].oam.affineParam;
+    
+    // Get VRAM pointers
+    objVram = (void *)(OBJ_VRAM0) + (spriteTileStart * TILE_SIZE_4BPP);
+    rightSpriteVram = (void *)(OBJ_VRAM0) + (gSprites[rightSpriteId].oam.tileNum * TILE_SIZE_4BPP);
 
+    // --- RTL / Split Positioning Logic ---
     if (GetBattlerSide(gSprites[healthboxSpriteId].data[6]) == B_SIDE_PLAYER)
     {
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x40 + spriteTileNum), windowTileData, 6);
-        ptr = (void *)(OBJ_VRAM0);
-        if (!IsDoubleBattle())
-            ptr += spriteTileNum + 0x800;
-        else
-            ptr += spriteTileNum + 0x400;
-        TextIntoHealthboxObject(ptr, windowTileData + 0xC0, 1);
+        // PLAYER SIDE
+        // Level uses tiles 2, 3, 4. Ends at start of Tile 5.
+        // We start the name at Tile 5.
+        startTileOffset = 5; 
+
+        // Main sprite width is 8 tiles (0-7).
+        // If we start at 5, we have tiles 5, 6, 7 available on Left Sprite (3 tiles).
+        tilesOnLeftSprite = 3; 
     }
     else
     {
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x20 + spriteTileNum), windowTileData, 7);
+        // OPPONENT SIDE
+        // Level uses tiles 1, 2, 3. Ends at start of Tile 4.
+        // We start the name at Tile 4.
+        startTileOffset = 4;
+
+        // If we start at 4, we have tiles 4, 5, 6, 7 available on Left Sprite (4 tiles).
+        tilesOnLeftSprite = 4;
+    }
+
+    // Calculate remainder for the Right Sprite
+    if (tilesOnLeftSprite >= NAME_TILES)
+    {
+        // Fits entirely on left sprite (Unlikely for RTL layout)
+        tilesOnLeftSprite = NAME_TILES;
+        tilesOnRightSprite = 0;
+    }
+    else
+    {
+        tilesOnRightSprite = NAME_TILES - tilesOnLeftSprite;
+    }
+
+    // --- DRAW PART 1: Left Sprite ---
+    if (tilesOnLeftSprite > 0)
+    {
+        TextIntoHealthboxObject(
+            objVram + (startTileOffset * TILE_SIZE_4BPP), 
+            windowTileData, 
+            tilesOnLeftSprite
+        );
+    }
+
+    // --- DRAW PART 2: Right Sprite ---
+    // We copy from windowTileData + offset (where offset is the bytes we already printed)
+    if (tilesOnRightSprite > 0)
+    {
+        TextIntoHealthboxObject(
+            rightSpriteVram, // Start at beginning of Right Sprite
+            windowTileData + (tilesOnLeftSprite * TILE_SIZE_4BPP), 
+            tilesOnRightSprite
+        );
     }
 
     RemoveWindowOnHealthbox(windowId);

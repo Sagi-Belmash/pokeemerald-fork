@@ -38,7 +38,7 @@ MagmaHideout_1F_Text_Grunt2Intro:
     .string "שפשוט העיף לנו את המוח!\p"
     .string "מה מצאנו?\p"
     .string "פוהאהאה!\n"
-    .string "אני אגיד לך אם תנצח{ADD_YUD}} אותי!$"
+    .string "אני אגיד לך אם תנצח{ADD_YUD} אותי!$"
 
 MagmaHideout_1F_Text_Grunt2Defeat:
 	.string "אחחח!\n"

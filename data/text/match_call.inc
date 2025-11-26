@@ -1459,17 +1459,17 @@ MatchCall_BattleFrontierStreakText8::
 
 MatchCall_BattleFrontierStreakText9::
 	.string "אוי, {PLAYER}{KUN}, היי!\n"
-	.string "זו {STR_VAR_1}!\p"
-	.string "שמעתי! רצף {STR_VAR_3} הניצחונות שלך ב\n"
-	.string "ה{STR_VAR_2}!\p"
+	.string "זה {STR_VAR_1}!\p"
+	.string "שמעתי! רצף {STR_VAR_3} הניצחונות שלך\n"
+	.string "ב{STR_VAR_2}!\p"
 	.string "זה כל כך קול!\n"
-	.string "מוטב שאנסה יותר קשה, גם!$"
+	.string "מוטב שגם אני אנסה יותר חזק!$"
 
 MatchCall_BattleFrontierStreakText10::
 	.string "אוי, {PLAYER}{KUN}, שלום…\n"
 	.string "זה {STR_VAR_1}.\p"
-	.string "ניצחת {STR_VAR_3} קרבות רצופים ב\n"
-	.string "ה{STR_VAR_2}?\p"
+	.string "ניצחת {STR_VAR_3} קרבות רצופים\n"
+	.string "ב{STR_VAR_2}?\p"
 	.string "זה הישג לא מבוטל.\n"
 	.string "אני צריך לעבוד קשה יותר.$"
 

@@ -640,260 +640,260 @@ BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
     .string "שלך יועברו לתיק הקרב שלך, {PLAYER}.$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-    .string "תיק הקרב אינו יכול להכיל את כל\n"
-    .string "הפריטים שלך, אני מצטער לומר.\p"
-    .string "אנא בחר את הפריטים שתשמור ב-\n"
-    .string "תיק הקרב, ועם הפוקימונים שלך.$"
-
+	.string "תיק הקרב אינו יכול להכיל את כל\n"
+	.string "הפריטים שלך, אני מצטער לומר.\p"
+	.string "אנא בחר את הפריטים שתשמור ב-\n"
+	.string "תיק הקרב, ועם הפוקימונים שלך.$"
+	
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
-    .string "לפחות פוקימון אחד עדיין\n"
-    .string "מחזיק פריט.$"
+	.string "לפחות פוקימון אחד עדיין\n"
+	.string "מחזיק פריט.$"
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-    .string "בבקשה לבחור את הפריטים לשמירה\n"
-    .string "בתיק הקרב, ועם הפוקימונים שלך.$"
+	.string "בבקשה לבחור את הפריטים לשמירה\n"
+	.string "בתיק הקרב, ועם הפוקימונים שלך.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
-    .string "{PLAYER} החזיר{ADD_HEY} את כל מה\n"
-    .string "שהפוקימונים החזיקו.$"
+	.string "{PLAYER} החזיר{ADD_HEY} את כל מה\n"
+	.string "שהפוקימונים החזיקו.$"
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-    .string "תיק הקרב שבו השתמשת יישמר\n"
-    .string "במוכנות לאתגר הבא שלך.\p"
-    .string "{PLAYER} מסר{ADD_HEY} את תיק הקרב\n"
-    .string "עבור החזרת התיק.$"
+	.string "תיק הקרב שבו השתמשת יישמר\n"
+	.string "במוכנות לאתגר הבא שלך.\p"
+	.string "{PLAYER} מסר{ADD_HEY} את תיק הקרב\n"
+	.string "עבור החזרת התיק.$"
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
-    .string "אני חייב לרשום את התוצאות שלך.\n"
-    .string "נא להמתין.$"
+	.string "אני חייב לרשום את התוצאות שלך.\n"
+	.string "נא להמתין.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
-    .string "כמזכרת על כיבוש\n"
-    .string "פירמידת הקרב, אנא קח{ADD_YUD} את זה.$"
+	.string "כמזכרת על כיבוש\n"
+	.string "פירמידת הקרב, אנא קח{ADD_YUD} את זה.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
-    .string "{PLAYER} קיבל{ADD_YUD} את הפרס\n"
-    .string "{STR_VAR_1}.$"
+	.string "{PLAYER} קיבל{ADD_YUD} את הפרס\n"
+	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
-    .string "…אה…\n"
-    .string "התיק שלך נראה מלא.\p"
-    .string "אנא חז{EMIT_VAV}ר{ADD_YUD} לאחר שארגנת את\n"
-    .string "תוכן התיק שלך.$"
+	.string "…אה…\n"
+	.string "התיק שלך נראה מלא.\p"
+	.string "אנא חז{EMIT_VAV}ר{ADD_YUD} לאחר שארגנת את\n"
+	.string "תוכן התיק שלך.$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
-    .string "כמה מאכזב עבורך…\p"
-    .string "הנה התיק שהחזקנו\n"
-    .string "עבורך.\p"
-    .string "{PLAYER} קיבל{ADD_HEY} את התיק בחזרה.$"
+	.string "כמה מאכזב עבורך…\p"
+	.string "הנה התיק שהחזקנו\n"
+	.string "עבורך.\p"
+	.string "{PLAYER} קיבל{ADD_HEY} את התיק בחזרה.$"
 
 @ TILL HERE 1
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
-    .string "אנחנו מצפים לאתגר\n"
-    .string "הבא שלך!$"
+	.string "אנחנו מצפים לאתגר\n"
+	.string "הבא שלך!$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
-    .string "אנחנו חיכינו לבואך\n"
-    .string "בקוצר רוח!\p"
-    .string "הנה הפרס שלך על כיבוש\n"
-    .string "הפירמידה.$"
+	.string "אנחנו חיכינו לבואך\n"
+	.string "בקוצר רוח!\p"
+	.string "הנה הפרס שלך על כיבוש\n"
+	.string "הפירמידה.$"
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
-    .string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}…\p"
-    .string "אני אשמח לספר לך אילו\n"
-    .string "צרות אורבות בפירמידה…$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}…\p"
+	.string "אני אשמח לספר לך אילו\n"
+	.string "צרות אורבות בפירמידה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_Aah:
-    .string "… … … … … …\n"
-    .string "… … … … … …\p"
-    .string "… … … … … …\n"
-    .string "אהה!$"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "… … … … … …\n"
+	.string "אהה!$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
-    .string "אני רואה מטר של ניצוצות…\p"
-    .string "…ובו, אני רואה את הפוקימונים שלך\n"
-    .string "מתקשים עם שיתוק…$"
+	.string "אני רואה מטר של ניצוצות…\p"
+	.string "…ובו, אני רואה את הפוקימונים שלך\n"
+	.string "מתקשים עם שיתוק…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
-    .string "אני רואה רעל…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "מהשפעות הרעל…$"
+	.string "אני רואה רעל…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "מהשפעות הרעל…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
-    .string "אני רואה להבות אדומות בוהקות…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "מכויות…$"
+	.string "אני רואה להבות אדומות בוהקות…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "מכויות…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
-    .string "אני חש בלחץ אדיר של\n"
-    .string "כעס בלתי ממומש…\p"
-    .string "זו קללה…\p"
-    .string "…ואני רואה את הפוקימונים שלך מרוקנים\n"
-    .string "מנקודות כוח ואין להם ברירה\l"
-    .string "אלא להשתמש במאבק…$"
+	.string "אני חש בלחץ אדיר של\n"
+	.string "כעס בלתי ממומש…\p"
+	.string "זו קללה…\p"
+	.string "…ואני רואה את הפוקימונים שלך מרוקנים\n"
+	.string "מנקודות כוח ואין להם ברירה\l"
+	.string "אלא להשתמש במאבק…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
-    .string "אני רואה פוקימונים מרחפים ברום…\p"
-    .string "…ואני רואה את הפוקימונים שלך מתוסכלים\n"
-    .string "ממהלכים סוג אדמה חסרות אונים…$"
+	.string "אני רואה פוקימונים מרחפים ברום…\p"
+	.string "…ואני רואה את הפוקימונים שלך מתוסכלים\n"
+	.string "ממהלכים סוג אדמה חסרות אונים…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
-    .string "אני חש אנרגיה אדירה עולה\n"
-    .string "מהקרקע שמתחת…\p"
-    .string "…ואני רואה את הפוקימונים שלך שאינם יכולים\n"
-    .string "לברוח מאחיזות הכוח…$"
+	.string "אני חש אנרגיה אדירה עולה\n"
+	.string "מהקרקע שמתחת…\p"
+	.string "…ואני רואה את הפוקימונים שלך שאינם יכולים\n"
+	.string "לברוח מאחיזות הכוח…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
-    .string "אני רואה פוקימונים מסוג קרח…\p"
-    .string "…ואני רואה את הפוקימונים שלך נלחמים\n"
-    .string "בהשפעות הקפואות של הקרח…$"
+	.string "אני רואה פוקימונים מסוג קרח…\p"
+	.string "…ואני רואה את הפוקימונים שלך נלחמים\n"
+	.string "בהשפעות הקפואות של הקרח…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
-    .string "אני רואה שטף של מהלכים שמסכנים\n"
-    .string "את המשתמש…\p"
-    .string "…ואני רואה את הפוקימונים שלך נופלים\n"
-    .string "להם…$"
+	.string "אני רואה שטף של מהלכים שמסכנים\n"
+	.string "את המשתמש…\p"
+	.string "…ואני רואה את הפוקימונים שלך נופלים\n"
+	.string "להם…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
-    .string "אני רואה פוקימונים מסוג על חושי…\p"
-    .string "…ואני רואה את הפוקימונים שלך בייסורים\n"
-    .string "ממהלכים על חושיים…$"
+	.string "אני רואה פוקימונים מסוג על חושי…\p"
+	.string "…ואני רואה את הפוקימונים שלך בייסורים\n"
+	.string "ממהלכים על חושיים…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
-    .string "אני רואה פוקימונים מסוג אבן…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכי אבן…$"
+	.string "אני רואה פוקימונים מסוג אבן…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכי אבן…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
-    .string "אני רואה פוקימונים מסוג לחימה…\p"
-    .string "…ואני רואה את הפוקימונים שלך מוכים\n"
-    .string "ממהלכי לחימה…$"
+	.string "אני רואה פוקימונים מסוג לחימה…\p"
+	.string "…ואני רואה את הפוקימונים שלך מוכים\n"
+	.string "ממהלכי לחימה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
-    .string "ריקוד גשם… יום שמשי…\n"
-    .string "סופת חול… ברד…\p"
-    .string "אני רואה פוקימונים שמתחזקים\n"
-    .string "עם מזג האוויר…\p"
-    .string "…ואני רואה את הפוקימונים שלך מבולבלים\n"
-    .string "מסוגים שונים של מהלכים…$"
+	.string "ריקוד גשם… יום שמשי…\n"
+	.string "סופת חול… ברד…\p"
+	.string "אני רואה פוקימונים שמתחזקים\n"
+	.string "עם מזג האוויר…\p"
+	.string "…ואני רואה את הפוקימונים שלך מבולבלים\n"
+	.string "מסוגים שונים של מהלכים…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
-    .string "אני רואה פוקימונים מסוג חרק…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "מסוגי התקפות שונים…$"
+	.string "אני רואה פוקימונים מסוג חרק…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "מסוגי התקפות שונים…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
-    .string "אני רואה פוקימונים מסוג אפלה…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכי אפלה…$"
+	.string "אני רואה פוקימונים מסוג אפלה…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכי אפלה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
-    .string "אני רואה פוקימונים מסוג מים…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכי מים…$"
+	.string "אני רואה פוקימונים מסוג מים…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכי מים…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
-    .string "אני רואה פוקימונים מסוג רוח…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכי רוח…$"
+	.string "אני רואה פוקימונים מסוג רוח…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכי רוח…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
-    .string "אני רואה פוקימונים מסוג פלדה…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
+	.string "אני רואה פוקימונים מסוג פלדה…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
-    .string "אני רואה פוקימונים מעופפים…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
+	.string "אני רואה פוקימונים מעופפים…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
-    .string "אני רואה את אלה שהתפתחו\n"
-    .string "מכוחן של אבנים…\p"
-    .string "אני גם חש באש, מים,\n"
-    .string "וחשמל…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "משלושת הכוחות האלה…$"
+	.string "אני רואה את אלה שהתפתחו\n"
+	.string "מכוחן של אבנים…\p"
+	.string "אני גם חש באש, מים,\n"
+	.string "וחשמל…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "משלושת הכוחות האלה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
-    .string "אני רואה פוקימונים מסוג רגיל…\p"
-    .string "…ואני רואה את הפוקימונים שלך סובלים\n"
-    .string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
+	.string "אני רואה פוקימונים מסוג רגיל…\p"
+	.string "…ואני רואה את הפוקימונים שלך סובלים\n"
+	.string "ממהלכים עוצמתיים במידה בלתי רגילה…$"
 
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
-    .string "בין אם תאמי{SWAP_NUN}{ADD_YUD} בגורלות שלי\n"
-    .string "או לא, הבחירה היא שלך…\p"
-    .string "את העתיד אפשר לשנות בכל עת…\n"
-    .string "אני מאחל לך מעבר בטוח…$"
+	.string "בין אם תאמי{SWAP_NUN}{ADD_YUD} בחזיונות שלי\n"
+	.string "או לא, הבחירה היא שלך…\p"
+	.string "את העתיד אפשר לשנות בכל עת…\n"
+	.string "אני מאחל לך מעבר בטוח…$"
 
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
-    .string "הידעת?\p"
-    .string "אם את{EMIT_HEY} ר{SWAP_TZADIK}{ADD_HEY} מהר, מאמנים עשויים לשים\n"
-    .string "לב ולבוא אחריך לקרב.\p"
-    .string "אז, אם את{EMIT_HEY} רוצה להימנע ממאמנים,\n"
-    .string "אל תתפ{EMIT_VAV}ס{ADD_YUD} את עיניהם, אלא חל{EMIV_VAV}{SWAP_PEY}{ADD_YUD}\l"
-    .string "על פניהם בזהירות ובשקט.$"
+	.string "הידעת?\p"
+	.string "אם את{EMIT_HEY} ר{SWAP_TZADIK}{ADD_HEY} מהר, מאמנים עשויים לשים\n"
+	.string "לב ולבוא אחריך לקרב.\p"
+	.string "אז, אם את{EMIT_HEY} רוצה להימנע ממאמנים,\n"
+	.string "אל תתפ{EMIT_VAV}ס{ADD_YUD} את עיניהם, אלא חל{EMIT_VAV}{SWAP_PEY}{ADD_YUD}\l"
+	.string "על פניהם בזהירות ובשקט.$"
 
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
-    .string "אווווואאאאאאררררג!\p"
-    .string "היו לי המון פריטים, אבל איבדתי\n"
-    .string "את כולם כשהפסדתי!\p"
-    .string "אווווואאאאאאררררג!$"
+	.string "אווווואאאאאאררררג!\p"
+	.string "היו לי המון פריטים, אבל איבדתי\n"
+	.string "את כולם כשהפסדתי!\p"
+	.string "אווווואאאאאאררררג!$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
-    .string "ברוך שובך!\n"
-    .string "עשית את הבלתי יאומן!\p"
-    .string "ניצחת את מלך הפירמידה\n"
-    .string "וכבשת את פירמידת הקרב!$"
+	.string "ברוך שובך!\n"
+	.string "עשית את הבלתי יאומן!\p"
+	.string "ניצחת את מלך הפירמידה\n"
+	.string "וכבשת את פירמידת הקרב!$"
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
-    .string "חוקר{ADD_TAF} צעיר{ADD_HEY}!\n"
-    .string "כהוקרה על אומץ לבך,\l"
-    .string "אנחנו מעניקים לך נקודות קרב אלה!$"
+	.string "חוקר{ADD_TAF} צעיר{ADD_HEY}!\n"
+	.string "כהוקרה על אומץ לבך,\l"
+	.string "אנחנו מעניקים לך נקודות קרב אלה!$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-    .string "חוקי מסע הקרב מפורטים.$"
+	.string "חוקי מסע הקרב מפורטים.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
-    .string "איזו כותרת תרצ{EMIT_HEY}{ADD_YUD} לקרוא?$"
+	.string "איזו כותרת תרצ{EMIT_HEY}{ADD_YUD} לקרוא?$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
-    .string "כאשר הפירמידה נכבשת,\n"
-    .string "הפוקימונים הפראיים שמופיעים בה\l"
-    .string "מוחלפים בסוגים אחרים.\p"
-    .string "חקרו, צפו, ולמדו אילו סוגי\n"
-    .string "פוקימונים פראיים אתם עשויים לפגוש.$"
+	.string "כאשר הפירמידה נכבשת,\n"
+	.string "הפוקימונים הפראיים שמופיעים בה\l"
+	.string "מוחלפים בסוגים אחרים.\p"
+	.string "חקרו, צפו, ולמדו אילו סוגי\n"
+	.string "פוקימונים פראיים אתם עשויים לפגוש.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-    .string "מאמנים אורבים לכם\n"
-    .string "בתוך הפירמידה.\p"
-    .string "בכל קומה, יש עד\n"
-    .string "שמונה מאמנים.\p"
-    .string "כאשר תנצחו מאמן, תקבלו\n"
-    .string "רמז מועיל להרפתקה שלכם.$"
+	.string "מאמנים אורבים לכם\n"
+	.string "בתוך הפירמידה.\p"
+	.string "בכל קומה, יש עד\n"
+	.string "שמונה מאמנים.\p"
+	.string "כאשר תנצחו מאמן, תקבלו\n"
+	.string "רמז מועיל להרפתקה שלכם.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
-    .string "המבוכים בפירמידה מסדרים\n"
-    .string "את עצמם מחדש בכל פעם שאתם נכנסים.\p"
-    .string "המבוכים מוארים באור קלוש.\n"
-    .string "עליכם להתקדם בזהירות.\p"
-    .string "האור מתחזק בכל פעם שאתם\n"
-    .string "מנצחים פוקימון פראי או מאמן.$"
+	.string "המבוכים בפירמידה מסדרים\n"
+	.string "את עצמם מחדש בכל פעם שאתם נכנסים.\p"
+	.string "המבוכים מוארים באור קלוש.\n"
+	.string "עליכם להתקדם בזהירות.\p"
+	.string "האור מתחזק בכל פעם שאתם\n"
+	.string "מנצחים פוקימון פראי או מאמן.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-    .string "תיק הקרב משמש כתיק שלכם\n"
-    .string "בזמן שאתם בפירמידה.\p"
-    .string "ישנם שני תיקי קרב נפרדים--\n"
-    .string "אחד לכל אחת מהרפתקאות רמה 05\l"
-    .string "ורמה פתוחה.\p"
-    .string "כל אחד מהם יכול להכיל עד 99 יחידות\n"
-    .string "מעשרה סוגי פריטים.\p"
-    .string "תכולת תיק הקרב אובדת\n"
-    .string "אם אתם נכשלים במסע שלכם.$"
+	.string "תיק הקרב משמש כתיק שלכם\n"
+	.string "בזמן שאתם בפירמידה.\p"
+	.string "ישנם שני תיקי קרב נפרדים--\n"
+	.string "אחד לכל אחת מהרפתקאות, רמה 05\l"
+	.string "ורמה פתוחה.\p"
+	.string "כל אחד מהם יכול להכיל עד 99 יחידות\n"
+	.string "מעשרה סוגי פריטים.\p"
+	.string "תכולת תיק הקרב אובדת\n"
+	.string "אם אתם נכשלים במסע שלכם.$"
 

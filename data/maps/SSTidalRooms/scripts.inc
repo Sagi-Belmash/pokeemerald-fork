@@ -61,115 +61,114 @@ SSTidalRooms_EventScript_Naomi::
 	trainerbattle_single TRAINER_NAOMI, SSTidalRooms_Text_NaomiIntro, SSTidalRooms_Text_NaomiDefeat
 	msgbox SSTidalRooms_Text_NaomiPostBattle, MSGBOX_AUTOCLOSE
 	end
-
 SSTidalRooms_Text_TakeRestOnBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "יש כאן מיטה…\n"
+	.string "בוא{ADD_YUD} ניקח מנוחה.$"
 
 SSTidalRooms_Text_ColtonIntro:
-	.string "I often sail to LILYCOVE CITY.\p"
-	.string "I enjoy attending CONTESTS,\n"
-	.string "you see.$"
+	.string "אני מפליג לעתים קרובות לעיר ליליקוב.\p"
+	.string "אני נהנה להשתתף בתחרויות,\n"
+	.string "את{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY}.$"
 
 SSTidalRooms_Text_ColtonDefeat:
-	.string "That was an enjoyable match!$"
+	.string "זה היה קרב מהנה!$"
 
 SSTidalRooms_Text_ColtonPostBattle:
-	.string "I get so excited imagining what kinds\n"
-	.string "of POKéMON I'll get to see in the next\l"
-	.string "CONTEST. The anticipation of it thrills!$"
+	.string "אני מתרגש כל כך כשאני מדמיין איזה סוגי\n"
+	.string "פוקימונים אני אזכה לראות בתחרות\l"
+	.string "הבאה. הציפייה לכך מלהיבה!$"
 
 SSTidalRooms_Text_MicahIntro:
-	.string "Are your friends strong?$"
+	.string "האם החברים שלך חזקים?$"
 
 SSTidalRooms_Text_MicahDefeat:
-	.string "Your friends are, indeed, strong.$"
+	.string "החברים שלך, אכן, חזקים.$"
 
 SSTidalRooms_Text_MicahPostBattle:
-	.string "Friends need not be human.\n"
-	.string "For me, POKéMON are treasured friends!$"
+	.string "חברים לא חייבים להיות בני אנוש.\n"
+	.string "בשבילי, פוקימונים הם חברים יקרים!$"
 
 SSTidalRooms_Text_ThomasIntro:
-	.string "Child…\n"
-	.string "Did you knock on the door?$"
+	.string "ילד{ADD_HEY}…\n"
+	.string "האם דפקת בדלת?$"
 
 SSTidalRooms_Text_ThomasDefeat:
-	.string "A loss is to be accepted without haste\n"
-	.string "or panic.$"
+	.string "יש לקבל הפסד ללא בהלה\n"
+	.string "או פאניקה.$"
 
 SSTidalRooms_Text_ThomasPostBattle:
-	.string "To be never ruffled in any situation is\n"
-	.string "the GENTLEMAN's code of conduct.$"
+	.string "לא להתרגז לעולם בשום מצב הוא\n"
+	.string "קוד ההתנהגות של הג'נטלמן.$"
 
 SSTidalRooms_Text_JedIntro:
-	.string "JED: I feel a little shy about this, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "ג'ד: אני מרגיש קצת ביישן לגבי זה, אבל…\n"
+	.string "אנחנו נראה לך את הכוח המאוהב שלנו!$"
 
 SSTidalRooms_Text_JedDefeat:
-	.string "JED: Sigh…$"
+	.string "ג'ד: אנחה…$"
 
 SSTidalRooms_Text_JedPostBattle:
-	.string "JED: It's the first time that our lovey-\n"
-	.string "dovey power couldn't prevail!\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "ג'ד: זו הפעם הראשונה שהכוח המאוהב\n"
+	.string "שלנו לא הצליח לגבור!\l"
+	.string "את{EMIT_HEY} בטח מאמ{SWAP_NUN}{ADD_TAF} מדהי{SWAP_MEM}{ADD_HEY}!$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-	.string "JED: You only have one POKéMON?\n"
-	.string "Isn't that just too lonesome?$"
+	.string "ג'ד: יש לך רק פוקימון אחד?\n"
+	.string "זה לא בודד מדי?$"
 
 SSTidalRooms_Text_LeaIntro:
-	.string "LEA: I feel a little silly, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "לאה: אני מרגישה קצת מטופשת, אבל…\n"
+	.string "אנחנו נראה לך את הכוח המאוהב שלנו!$"
 
 SSTidalRooms_Text_LeaDefeat:
-	.string "LEA: Oh, boo!$"
+	.string "לאה: או, בוו!$"
 
 SSTidalRooms_Text_LeaPostBattle:
-	.string "LEA: I can't believe it!\n"
-	.string "Our lovey-dovey power failed…\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "לאה: אני לא מאמינה!\n"
+	.string "הכוח המאוהב שלנו נכשל…\l"
+	.string "את{EMIT_HEY} בטח מאמ{SWAP_NUN}{ADD_TAF} מדהי{SWAP_MEM}{ADD_HEY}!$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two POKéMON…$"
+	.string "לאה: רציתי להילחם…\n"
+	.string "אבל אין לך אפילו שני פוקימונים…$"
 
 SSTidalRooms_Text_GarretIntro:
-	.string "Ah, you've come just in time.\p"
-	.string "I'm bored, you see.\n"
-	.string "You may entertain me.$"
+	.string "אה, הגעת בדיוק בזמן.\p"
+	.string "משעמם לי, את{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY}.\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לבדר אותי.$"
 
 SSTidalRooms_Text_GarretDefeat:
-	.string "…That will do.$"
+	.string "…זה יספיק.$"
 
 SSTidalRooms_Text_GarretPostBattle:
-	.string "Perhaps I shall get Father to acquire\n"
-	.string "a yacht for me.\l"
-	.string "A yacht for me and POKéMON!$"
+	.string "אולי אבקש מאבא שלי שיקנה\n"
+	.string "לי יאכטה.\l"
+	.string "יאכטה בשבילי ובשביל הפוקימונים!$"
 
 SSTidalRooms_Text_NaomiIntro:
-	.string "Oh, you're such an adorable TRAINER.\n"
-	.string "Would you like to have tea?\l"
-	.string "Or would you rather battle?$"
+	.string "או, את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF} כה מקסי{SWAP_MEM}{ADD_HEY}.\n"
+	.string "תרצ{EMIT_HEY}{ADD_YUD} לשתות תה?\l"
+	.string "או שאת{EMIT_HEY} מעדי{SWAP_PEY}{ADD_HEY} קרב?$"
 
 SSTidalRooms_Text_NaomiDefeat:
-	.string "I see.\n"
-	.string "You're the active sort.$"
+	.string "אני מבין.\n"
+	.string "את{EMIT_HEY} מהטיפוס הפעיל.$"
 
 SSTidalRooms_Text_NaomiPostBattle:
-	.string "A world cruise on a luxury liner has its\n"
-	.string "charms, I must say…\p"
-	.string "But, I will admit there is an appealing\n"
-	.string "side to touring HOENN by ferry.$"
+	.string "שייט עולמי על ספינת יוקרה\n"
+	.string "בעלת קסם משלו, אני חייבת לומר…\p"
+	.string "אבל, אני מודה שיש צד מושך\n"
+	.string "בסיור בהואן באמצעות מעבורת.$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-	.string "Uh… Hi! I… I'm not acting suspicious!\n"
-	.string "Uh… You can have this! For free!\p"
-	.string "It… Honestly, I didn't SNATCH it from\n"
-	.string "someone! I'd never do such a thing!\l"
-	.string "It's clean! You can use it!$"
+	.string "אה… היי! אני… אני לא נראה חשוד!\n"
+	.string "אה… את{EMIT_HEY} יכול{ADD_HEY} לקחת את זה! בחינם!\p"
+	.string "זה… באמת, לא חטפתי את זה\n"
+	.string "ממישהו! לעולם לא הייתי עושה דבר כזה!\l"
+	.string "זה נקי! את{EMIT_HEY} יכול{ADD_HEY} להשתמש בזה!$"
 
 SSTidalRooms_Text_ExplainSnatch:
-	.string "SNATCH steals the beneficial effects\n"
-	.string "of certain moves before they can be\l"
-	.string "used by a foe or ally.$"
+	.string "חטיפה גונבת את ההשפעות המועילות\n"
+	.string "של מהלכים מסוימים לפני שהן יכולות להיות\l"
+	.string "בשימוש על ידי יריב או בעל ברית.$"
 

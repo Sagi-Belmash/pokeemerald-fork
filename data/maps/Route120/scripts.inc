@@ -360,70 +360,69 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "סטיבן: המ? {PLAYER}{KUN}, היי.\n"
+	.string "עבר זמן מה.\p"
+	.string "יש כאן משהו שאת{EMIT_HEY} לא יכול{ADD_HEY}\n"
+	.string "לראות, נכון?\p"
+	.string "עכשיו, אם הייתי משתמש במכשיר הזה על\n"
+	.string "המכשול הבלתי נראה…\p"
+	.string "לא, לא. במקום לתאר את זה,\n"
+	.string "פשוט אראה לך.\l"
+	.string "זה יהיה יותר מהנה.\p"
+	.string "{PLAYER}{KUN}, האם הפוקימונים שלך מוכנים לקרב?$"
 
 Route120_Text_StevenIllWaitHere:
-	.string "STEVEN: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "סטיבן: לא?\p"
+	.string "אני אחכה כאן, כדי שתוכל{ADD_YUD} להתכונן.$"
 
 Route120_Text_StevenReadyForBattle:
-	.string "STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
-	.string "ready for battle?$"
+	.string "סטיבן: {PLAYER}{KUN}, האם הפוקימונים\n"
+	.string "שלך מוכנים לקרב?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+	.string "סטיבן: {PLAYER}{KUN}, הרא{EMIT_HEY}{ADD_YUD} לי את הכוח\n"
+	.string "האמיתי שלך כמאמ{SWAP_NUN}{ADD_TAF}!$"
 
 Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "סטיבן השתמש בעדשת דבון.\p"
+	.string "פוקימון בלתי נראה הפך לגלוי\n"
+	.string "לחלוטין!\p"
+	.string "הפוקימון המבוהל תקף!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "סטיבן: אני מבין…\n"
+	.string "סגנון הקרב שלך מסקרן.\p"
+	.string "הפוקימונים שלך בבירור גדלו\n"
+	.string "מאז שפגשתי אותך לראשונה בדופורד.\p"
+	.string "הייתי רוצה שתקבל{ADD_YUD} את\n"
+	.string "העדשת דבון הזאת.\p"
+	.string "מי יודע, אולי יש פוקימונים\n"
+	.string "מוסתרים נוספים.$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "סטיבן: {PLAYER}{KUN}.\p"
+	.string "אני נהנה לראות פוקימונים ומאמנים\n"
+	.string "ששואפים יחד.\p"
+	.string "אני חושב שאת{EMIT_HEY} עושה עבודה נהדרת.\p"
+	.string "טוב, בוא{ADD_YUD} ניפגש שוב איפשהו.$"
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "משהו בלתי נראה חוסם את הדרך.$"
 
 Kecleon_Text_WantToUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "משהו בלתי נראה חוסם את הדרך.\p"
+	.string "רוצה להשתמש בעדשת דבון?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "{PLAYER} השתמש{ADD_HEY}בעדשת דבון.\p"
+	.string "פוקימון בלתי נראה הפך לגלוי\n"
+	.string "לחלוטין!\p"
+	.string "הפוקימון המבוהל תקף!$"
 
 Route120_Text_RouteSignFortree:
-	.string "ROUTE 120\n"
-	.string "{LEFT_ARROW} FORTREE CITY$"
+	.string "דרך 021\n"
+	.string "{LEFT_ARROW} העיר פורטרי$"
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} ROUTE 121\n"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "{RIGHT_ARROW} דרך 131\n"
+	.string "{LEFT_ARROW} דרך 021$"

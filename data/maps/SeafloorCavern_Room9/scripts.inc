@@ -22,6 +22,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	msgbox SeafloorCavern_Room9_Text_ArchieSoItWasYou, MSGBOX_DEFAULT
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
+	bufferspeciesname STR_VAR_1, SPECIES_KYOGRE
 	msgbox SeafloorCavern_Room9_Text_ArchieBeholdKyogre, MSGBOX_DEFAULT
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
@@ -108,6 +109,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	waitmovement 0
 	applymovement VAR_0x8004, Common_Movement_Delay48
 	waitmovement 0
+	bufferspeciesname STR_VAR_2, SPECIES_GROUDON
 	msgbox SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty, MSGBOX_DEFAULT
 	msgbox SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue, MSGBOX_DEFAULT
 	closemessage
@@ -219,101 +221,101 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "ARCHIE: Hold it right there.$"
+	.string "ארצ'י: עצ{EMIT_VAV}ר{ADD_YUD} בדיוק שם.$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "ARCHIE: Fufufu…\n"
-	.string "So it was you, after all.$"
+	.string "ארצ'י: פופופו…\n"
+	.string "אז זה היית את{EMIT_HEY}, אחרי הכל.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHIE: Behold!\p"
-	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient POKéMON KYOGRE!\p"
-	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "ארצ'י: תסתכל{ADD_YUD}!\p"
+	.string "תרא{EMIT_HEY}{ADD_YUD} כמה יפה היא, הצורה הישנה\n"
+	.string "של הפוקימון הקדום {STR_VAR_1}!\p"
+	.string "חיכיתי כל כך הרבה זמן שהיום הזה\n"
+	.string "יגיע…$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "ARCHIE: It surprises me, how you've\n"
-	.string "managed to chase me here.\p"
-	.string "But that's all over now.\p"
-	.string "For the realization of my dream,\n"
-	.string "you must disappear now!$"
+	.string "ארצ'י: זה מפתיע אותי, איך הצלחת\n"
+	.string "לרדוף אחריי עד לכאן.\p"
+	.string "אבל זה נגמר עכשיו.\p"
+	.string "למען הגשמת החלום שלי,\n"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} להיעלם עכשיו!$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat:
-	.string "What?!\n"
-	.string "I lost to a mere child like you?!$"
+	.string "מה?!\p"
+	.string "הפסדתי לילד{ADD_HEY} פשוט{ADD_HEY} כמוך?!$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "ARCHIE: Fufufu…\p"
-	.string "I commend you. I must recognize that\n"
-	.string "you are truly gifted.\p"
-	.string "But!\n"
-	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "ארצ'י: פופופו…\p"
+	.string "אני משבח אותך. אני חייב להכיר בכך\n"
+	.string "שאת{EMIT_HEY} באמת מחונ{SWAP_NUN}{ADD_TAF}.\p"
+	.string "אבל!\n"
+	.string "זה ברשותי!\p"
+	.string "עם הכדור האדום הזה, אני יכול לגרום ל{STR_VAR_1}…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
-	.string "by itself!$"
+	.string "הכדור האדום החל לפתע לזרוח\n"
+	.string "מעצמו!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "ARCHIE: What?!\p"
-	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "ארצ'י: מה?!\p"
+	.string "לא עשיתי כלום.\n"
+	.string "למה הכדור האדום…\p"
+	.string "לאן {STR_VAR_1} נעלם?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "ארצ'י: המ? זו הודעה מהחברים\n"
+	.string "שלנו בחוץ…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHIE: Yes, what is it?\p"
-	.string "Hm…\n"
-	.string "It's raining heavily?\p"
-	.string "Good… That should have happened.\n"
-	.string "That is why we awakened KYOGRE,\l"
-	.string "to realize TEAM AQUA's vision of\l"
-	.string "expanding the sea.\p"
-	.string "What?!\p"
-	.string "It's raining far harder than we\n"
-	.string "envisioned? You're in danger?\p"
-	.string "That can't be…\n"
-	.string "That's just not possible…\p"
-	.string "Hold your position and monitor\n"
-	.string "the situation!$"
+	.string "ארצ'י: כן, מה זה?\p"
+	.string "המ…\n"
+	.string "יורד גשם כבד?\p"
+	.string "טוב… זה מה שהיה צריך לקרות.\n"
+	.string "לשם כך הערנו את {STR_VAR_1},\l"
+	.string "כדי להגשים את חזון צוות אקווה של\l"
+	.string "הרחבת הים.\p"
+	.string "מה?!\p"
+	.string "יורד גשם חזק הרבה יותר ממה\n"
+	.string "שדמיינו? אתם בסכנה?\p"
+	.string "זה לא יכול להיות…\n"
+	.string "זה פשוט לא אפשרי…\p"
+	.string "שמרו על המיקום שלכם ועקבו אחר\n"
+	.string "המצב!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
-	.string "and control KYOGRE…\p"
-	.string "But… Why?\n"
-	.string "Why did KYOGRE disappear?\p"
-	.string "Why?!$"
+	.string "ארצ'י: משהו לא בסדר…\p"
+	.string "הכדור האדום אמור להעיר\n"
+	.string "ולשלוט ב{STR_VAR_1}…\p"
+	.string "אבל… למה?\n"
+	.string "למה {STR_VAR_1} נעלם?\p"
+	.string "למה?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken KYOGRE,\n"
-	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "מקסי: מה עוללת?\p"
+	.string "ארצ'י… הערת סוף סוף את {STR_VAR_1}},\n"
+	.string "נכון?\p"
+	.string "מה יקרה לעולם אם המבול הזה\n"
+	.string "יימשך לנצח?\p"
+	.string "מסת היבשה של העולם תטבע\n"
+	.string "בים המעמיק…$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "ARCHIE: W-what?!\n"
-	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
-	.string "I should be able to control KYOGRE…\p"
-	.string "I should be able to control it…$"
+	.string "ארצ'י: מ-מה?!\n"
+	.string "אל תתנשא עליי!\p"
+	.string "לא הייתם אתם, צוות מגמה,\n"
+	.string "שהרגיזו את {STR_VAR_2}?\p"
+	.string "כל עוד הכדור האדום הזה אצלי,\n"
+	.string "אני אמור להיות מסוגל לשלוט ב{STR_VAR_1}…\p"
+	.string "אני אמור להיות מסוגל לשלוט בו…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "MAXIE: We don't have the time to\n"
-	.string "argue about it here!\p"
-	.string "Get outside and see for yourself!\p"
-	.string "See if what you've wrought is the\n"
-	.string "world that we desired!$"
+	.string "מקסי: אין לנו זמן\n"
+	.string "להתווכח על זה כאן!\p"
+	.string "צא החוצה ותראה בעצמך!\p"
+	.string "תראה אם מה שעוללת זה העולם\n"
+	.string "שאותו רצינו!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
-	.string "to get out of here, too!$"
+	.string "מקסי: {PLAYER}, קדימה, את{EMIT_HEY} גם חייב{ADD_TAF}\n"
+	.string "לצאת מכאן!$"

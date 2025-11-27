@@ -27,65 +27,62 @@ VictoryRoad_B1F_EventScript_Halle::
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro:
-	.string "The thought that I'm getting closer to\n"
-	.string "the POKéMON LEAGUE…\p"
-	.string "I'm getting stage fright…$"
+	.string "המחשבה שאני מתקרב לליגת הפוקימון…\n"
+	.string "אני מקבל פחד במה…$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "I couldn't do a thing…$"
+	.string "לא יכולתי לעשות כלום…$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
-	.string "The POKéMON LEAGUE became distant\n"
-	.string "again… What a letdown…$"
+	.string "ליגת הפוקימון שוב התרחקה… איזה אכזבה…$"
 
 VictoryRoad_B1F_Text_ShannonIntro:
-	.string "To win your way through the POKéMON\n"
-	.string "LEAGUE, you need the trust of your\l"
-	.string "POKéMON.$"
+	.string "כדי לנצח בדרכך בליגת הפוקימון,\n"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} את האמונים\l"
+	.string "של הפוקימונים שלך.$"
 
 VictoryRoad_B1F_Text_ShannonDefeat:
-	.string "Your relationship is based on\n"
-	.string "solid trust.$"
+	.string "היחסים שלכם מבוססים על אמון מוצק.$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
-	.string "By being together all the time, trust\n"
-	.string "grows between POKéMON and TRAINERS.$"
+	.string "בזכות להיות יחד כל הזמן, אמון גדל\n"
+	.string "בין פוקימונים למאמנים.$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the POKéMON LEAGUE.$"
+	.string "זו לא המטרה. זה רק מקום\n"
+	.string "בדרך לליגת הפוקימון.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
-	.string "That's the way!$"
+	.string "זה הדרך!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle:
-	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "את{EMIT_HEY} תצליח{ADD_YUD}, בטוח!\n"
+	.string "כל הפוקימונים שלך להוטים לצאת לדרך!$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
-	.string "My POKéMON are cosmically\n"
-	.string "awe inspiring!$"
+	.string "הפוקימונים שלי מעוררי השראה\n"
+	.string "במימד הקוסמי!$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
-	.string "I've never met anyone like you before.$"
+	.string "מעולם לא פגשתי מישהו כמוך לפניכן.$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
-	.string "Even outside of battle, I sense\n"
-	.string "incredible power emanating from you\l"
-	.string "and your POKéMON.$"
+	.string "אפילו מחוץ לקרב, אני מרגיש\n"
+	.string "כוח מדהים שיוצא ממך\l"
+	.string "ומהפוקימונים שלך.$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Okay, no need to get your back up!\n"
-	.string "Relax, let's take it easy!$"
+	.string "אוקיי, אין צורך להתעצבן!\n"
+	.string "תרגע{ADD_YUD}, בוא{ADD_YUD} ניקח את זה בקלות!$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "Whoa!\n"
-	.string "Wonderful!$"
+	.string "וואה!\n"
+	.string "נפלא!$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-	.string "Sure, this is VICTORY ROAD.\p"
-	.string "But it's not all that different from\n"
-	.string "the path you've taken so far.\p"
-	.string "Try to enjoy things the rest of\n"
-	.string "the way!$"
+	.string "בטח, זה דרך הניצחון.\p"
+	.string "אבל היא לא כל כך שונה\n"
+	.string "מהשביל שלקחת עד עכשיו.\p"
+	.string "נס{EMIT_HEY}{ADD_YUD} להנות מהדברים בשאר\n"
+	.string "הדרך!$"
 

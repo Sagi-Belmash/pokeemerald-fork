@@ -37,6 +37,7 @@ MossdeepCity_EventScript_SailorMagmaGone::
 	end
 
 MossdeepCity_EventScript_NinjaBoy::
+	bufferspeciesname STR_VAR_1, SPECIES_WAILMER
 	msgbox MossdeepCity_Text_WailmerWatching, MSGBOX_NPC
 	end
 
@@ -302,127 +303,126 @@ MossdeepCity_Movement_ScottExitEast:
 	walk_left
 	walk_left
 	step_end
-
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
-	.string "know what it's good for.\p"
-	.string "I think it's called KING'S ROCK.\n"
-	.string "Do you want it?$"
+	.string "קיבלתי את זה מסטיבן, אבל אני לא\n"
+	.string "יודע למה זה טוב.\p"
+	.string "אני חושב שקוראים לזה אבן המלך.\n"
+	.string "את{EMIT_HEY} רוצה את זה?$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Why would you want it?\n"
-	.string "You're weird.\p"
-	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "למה שתרצה את זה?\n"
+	.string "את{EMIT_HEY} מוזר{ADD_HEY}.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לשמור את זה, אבל שמ{EMIT_VAV}ר{ADD_YUD} את זה בסוד\n"
+	.string "מסטיבן.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "הבית של סטיבן נמצא ממש שם!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-	.string "Yeah, you think so, too! What are you\n"
-	.string "supposed to do with some weird rock?$"
+	.string "כן, גם את{EMIT_HEY} חושב{ADD_TAF} ככה! מה את{EMIT_HEY} אמור{ADD_HEY}\n"
+	.string "לעשות עם איזו אבן מוזרה?$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around MOSSDEEP, you can see wild\n"
-	.string "WAILMER.\p"
-	.string "It's called, uh…\n"
-	.string "What was it now…\p"
-	.string "WAI, WAI, WAI…\p"
-	.string "WAILMER watching!$"
+	.string "סביב מוסדיפ, אפשר לראות {STR_VAR_1}\n"
+	.string "פראיים.\p"
+	.string "קוראים לזה, אה…\n"
+	.string "מה זה היה?\p"
+	.string "וואי, וואי, וואי…\p"
+	.string "צפיית {STR_VAR_1}!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.\p"
-	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "מרכז החלל של האי\n"
+	.string "משגר טילים ענקיים.\p"
+	.string "הייתה איזו מהומה\n"
+	.string "בגלל מכתב שקיבלו לאחרונה.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.$"
+	.string "מרכז החלל של האי\n"
+	.string "משגר טילים ענקיים.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a SAILOR buddy that\n"
-	.string "TEAM AQUA set up shop in LILYCOVE.\p"
-	.string "I also heard that someone came along\n"
-	.string "and wiped the floor with them!\p"
-	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that TEAM MAGMA.\p"
-	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "שמעתי מחבר מלח שצוות אקווה\n"
+	.string "התמקם בליליקוב.\p"
+	.string "שמעתי גם שמישהו הגיע\n"
+	.string "והביס אותם לגמרי!\p"
+	.string "אבל מוסדיפ כאן סומנה כמטרה\n"
+	.string "על ידי צוות מגמה.\p"
+	.string "אם את{EMIT_HEY} רוצה לדעת מה הם זוממים,\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} לבקר במרכז החלל.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-	.string "I'm a SAILOR, so the sea's obviously\n"
-	.string "more important to me.\p"
-	.string "But you know? When I get back on land\n"
-	.string "after a long voyage, I do feel relief!$"
+	.string "אני מלח, אז הים הוא כמובן\n"
+	.string "חשוב יותר בשבילי.\p"
+	.string "אבל את{EMIT_HEY} יודע{ADD_TAF}? כשאני חוזר ליבשה\n"
+	.string "אחרי מסע ארוך, אני כן מרגיש הקלה!$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string "Wouldn't it be nice?\p"
-	.string "If the whole world was covered in\n"
-	.string "plants and flowers like this island?$"
+	.string "האם זה לא יהיה נחמד?\p"
+	.string "אם כל העולם היה מכוסה\n"
+	.string "בצמחים ופרחים כמו האי הזה?$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
-	.string "All life needs the sea to live, even\n"
-	.string "though it makes its home on the land.\p"
-	.string "Life, having run its course, becomes\n"
-	.string "soil and returns to the land.\p"
-	.string "And the sea is always connected to\n"
-	.string "the land.\p"
-	.string "Yes, like the very shoreline here.$"
+	.string "כל החיים זקוקים לים כדי להתקיים, למרות\n"
+	.string "שהם בונים את ביתם על היבשה.\p"
+	.string "החיים, לאחר שסיימו את דרכם, הופכים\n"
+	.string "לאדמה וחוזרים ליבשה.\p"
+	.string "והים תמיד מחובר\n"
+	.string "ליבשה.\p"
+	.string "כן, כמו קו החוף כאן.$"
 
 MossdeepCity_Text_SurfExhilarating:
-	.string "A voyage on a ship is fine.\p"
-	.string "But crossing the sea with POKéMON\n"
-	.string "using SURF…\p"
-	.string "Now that's an exhilarating trip!\n"
-	.string "Wouldn't you agree, youngster?$"
+	.string "מסע בספינה זה בסדר.\p"
+	.string "אבל לחצות את הים עם פוקימונים\n"
+	.string "באמצעות גלישה…\p"
+	.string "זהו מסע מעורר חושים!\n"
+	.string "את{EMIT_HEY} לא מסכי{SWAP_MEM}{ADD_HEY}, צעיר{ADD_HEY}?$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
-	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
-	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
-	.string "When you make a wish, what do you use?\n"
-	.string "Do you wish upon a star?\p"
-	.string "I use a wish tag to make it happen.\n"
-	.string "That's what I do.$"
+	.string "לאבן הזו יש משמעות מיוחדת עבור\n"
+	.string "האנשים במרכז החלל.\p"
+	.string "הם שמו אותה כאן כמשאלת לב עבור\n"
+	.string "הטילים שלהם שיטוסו בבטחה.\p"
+	.string "כשאת{EMIT_HEY} מבקש משאלה, במה את{EMIT_HEY} משתמש{ADD_TAF}?\n"
+	.string "האם את{EMIT_HEY} מבקש{ADD_TAF} משאלה מכוכב?\p"
+	.string "אני משתמשת בתג משאלה כדי שזה יקרה.\n"
+	.string "זה מה שאני עושה.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "זו אבן לבנה.$"
 
 MossdeepCity_Text_GymSign:
-	.string "MOSSDEEP CITY POKéMON GYM\n"
-	.string "LEADERS: LIZA & TATE\p"
-	.string "“The mystic combination!”$"
+	.string "מכון הפוקימונים של העיר מוסדיפ\n"
+	.string "מנהיגים: ליזה וטייט\p"
+	.string "”השילוב המיסטי!“$"
 
 MossdeepCity_Text_CitySign:
-	.string "MOSSDEEP CITY\n"
-	.string "“Our slogan: Cherish POKéMON!”$"
+	.string "העיר מוסדיפ\n"
+	.string "”הסלוגן שלנו: הוקרת פוקימונים!“$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "MOSSDEEP SPACE CENTER\n"
-	.string "“The closest place to space.”$"
+	.string "מרכז החלל של מוסדיפ\n"
+	.string "”המקום הקרוב ביותר לחלל.“$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
-	.string "I'm doing great!\p"
-	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
-	.string "pretty strong, so I decided to come\l"
-	.string "take a look-see for myself.\p"
-	.string "But there's something wrong about\n"
-	.string "this town.\p"
-	.string "People are going on about a warning\n"
-	.string "letter and the SPACE CENTER…\p"
-	.string "I don't think it concerns me in any\n"
-	.string "way, though.$"
+	.string "סקוט: {PLAYER}{KUN}, מרגיש{ADD_HEY} טוב?\n"
+	.string "אני מרגיש נהדר!\p"
+	.string "שמעתי שמנהיג מכון מוסדיפ\n"
+	.string "די חזק, אז החלטתי לבוא\l"
+	.string "לבדוק בעצמי.\p"
+	.string "אבל יש משהו מוזר\n"
+	.string "בעיר הזו.\p"
+	.string "אנשים מדברים על מכתב אזהרה\n"
+	.string "ועל מרכז החלל…\p"
+	.string "עם זאת, אני לא חושב שזה נוגע\n"
+	.string "אליי בשום צורה.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-	.string "Ahh… It feels great letting the waves\n"
-	.string "wash over my feet…\p"
-	.string "Speaking of the waves, you know that\n"
-	.string "island city SOOTOPOLIS?\p"
-	.string "I think the GYM there had a new\n"
-	.string "LEADER come in.\p"
-	.string "People tell me the new LEADER once\n"
-	.string "mentored WALLACE.$"
+	.string "אהה… זה מרגיש נהדר לתת לגלים\n"
+	.string "לשטוף את כפות רגליי…\p"
+	.string "אם כבר מדברים על גלים, את{EMIT_HEY} מכיר{ADD_HEY} את\n"
+	.string "עיר האי סוטופוליס?\p"
+	.string "אני חושב שהמכון שם קיבל מנהיג\n"
+	.string "חדש.\p"
+	.string "אנשים אומרים לי שהמנהיג החדש פעם\n"
+	.string "היה המנטור של וולאס.$"
 

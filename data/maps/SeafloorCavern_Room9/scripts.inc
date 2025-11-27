@@ -293,7 +293,7 @@ SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "מקסי: מה עוללת?\p"
-	.string "ארצ'י… הערת סוף סוף את {STR_VAR_1}},\n"
+	.string "ארצ'י… הערת סוף סוף את {STR_VAR_1},\n"
 	.string "נכון?\p"
 	.string "מה יקרה לעולם אם המבול הזה\n"
 	.string "יימשך לנצח?\p"

@@ -79,7 +79,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "קדומים.\p"
 	.string "יש עוד אחד איפשהו.\p"
 	.string "איפשהו, יש פוקימון על-\n"
-	.string "קדום בשם {STR_VAR_3}}.\p"
+	.string "קדום בשם {STR_VAR_3}.\p"
 	.string "נאמר ש{STR_VAR_3} הוא זה\n"
 	.string "שהרגיע את שני הנלחמים\l"
 	.string "בעבר הרחוק.\p"

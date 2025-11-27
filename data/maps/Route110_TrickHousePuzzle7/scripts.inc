@@ -315,78 +315,78 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 	end
 
 Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is huggable.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים ניתן לחיבוק.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
-	.string "The TRICK MASTER always vanishes\n"
-	.string "like smoke. How does he do it?$"
+	.string "מאסטר הטריקים תמיד נעלם\n"
+	.string "כמו עשן. איך הוא עושה את זה?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaDefeat:
-	.string "Aiyeeeh! You're much too strong!\n"
-	.string "How do you do it?$"
+	.string "אייי! את{EMIT_HEY} חזק{ADD_HEY} מדי!\n"
+	.string "איך את{EMIT_HEY} עושה את זה?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaPostBattle:
-	.string "I wish I could appear and disappear as\n"
-	.string "if I were smoke, too.$"
+	.string "הלוואי שגם יכולתי להופיע ולהיעלם\n"
+	.string "כאילו הייתי עשן.$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaIntro:
-	.string "Going around the same spot…\n"
-	.string "It begets ill fortune…$"
+	.string "להסתובב באותו מקום…\n"
+	.string "זה מביא מזל רע…$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaDefeat:
-	.string "Defeated!\n"
-	.string "It's a bad sign…$"
+	.string "הובסתי!\n"
+	.string "זה סימן רע…$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaPostBattle:
-	.string "I've circled the same spot over ten\n"
-	.string "times now… It's ill fortune…$"
+	.string "הקפתי את אותו מקום למעלה מעשר\n"
+	.string "פעמים עכשיו… זה מזל רע…$"
 
 Route110_TrickHousePuzzle7_Text_AlexisIntro:
-	.string "Whoever wins will get through here\n"
-	.string "first. That's the feeling I get.$"
+	.string "מי שמנצח יעבור מכאן\n"
+	.string "ראשון. זו ההרגשה שיש לי.$"
 
 Route110_TrickHousePuzzle7_Text_AlexisDefeat:
-	.string "Oh!\n"
-	.string "Well, go ahead, then!$"
+	.string "או!\n"
+	.string "טוב, ל{SWAP_CHAF}{ADD_YUD} קדימה, אם כך!$"
 
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
-	.string "You're solving all the puzzles in the\n"
-	.string "TRICK HOUSE. That's the feeling I get.$"
+	.string "את{EMIT_HEY} פותר{ADD_TAF} את כל הפאזלים בבית\n"
+	.string "הטריקים. זו ההרגשה שיש לי.$"
 
 Route110_TrickHousePuzzle7_Text_MarielaIntro:
-	.string "Nufufufu, here at last!\n"
-	.string "Let's get right with it!$"
+	.string "נופופופו, סוף סוף כאן!\n"
+	.string "בוא{ADD_YUD} ניגש ישר לעניין!$"
 
 Route110_TrickHousePuzzle7_Text_MarielaDefeat:
-	.string "You're so casual about winning!$"
+	.string "את{EMIT_HEY} כל כך רגוע{ADD_HEY} לגבי ניצחון!$"
 
 Route110_TrickHousePuzzle7_Text_MarielaPostBattle:
-	.string "Humph! I'm not upset!\n"
-	.string "Not me!$"
+	.string "המפ! אני לא כועסת!\n"
+	.string "לא אני!$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroIntro:
-	.string "I ever so closely watched you coming!$"
+	.string "צפיתי בך מגיע מקרוב כל כך!$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
-	.string "This outcome I didn't see coming…$"
+	.string "את התוצאה הזו לא ראיתי מגיעה…$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
-	.string "Well, anyway, we both picked a weird\n"
-	.string "place to get acquainted.\p"
-	.string "As one weirdo to another,\n"
-	.string "let's do our best!$"
+	.string "טוב, בכל אופן, שנינו בחרנו מקום מוזר\n"
+	.string "כדי להכיר אחד את השני.\p"
+	.string "כאחד מוזר לאחר,\n"
+	.string "בוא{ADD_YUD} נעשה כמיטב יכולתנו!$"
 
 Route110_TrickHousePuzzle7_Text_EverettIntro:
-	.string "It's awfully cramped in here…$"
+	.string "צפוף כאן נורא…$"
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat:
-	.string "Oh, yes, strong you are.$"
+	.string "או, כן, חזק{ADD_HEY} את{EMIT_HEY} חזק.$"
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
-	.string "I was hoping to switch places with you\n"
-	.string "when I beat you, but…$"
+	.string "קיוויתי להחליף איתך מקומות\n"
+	.string "כשאני אנצח אותך, אבל…$"
 

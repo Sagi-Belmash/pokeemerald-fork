@@ -74,7 +74,7 @@ LilycoveCity_ContestHall_EventScript_SmartContestant3::
 LilycoveCity_ContestHall_EventScript_SmartContestant4::
 	lock
 	faceplayer
-	bufferspeciesname, STR_VAR_1, SPECIES_ZUBAT
+	bufferspeciesname STR_VAR_1, SPECIES_ZUBAT
 	msgbox LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_SMART_CONTESTANT_4, Common_Movement_FaceOriginalDirection

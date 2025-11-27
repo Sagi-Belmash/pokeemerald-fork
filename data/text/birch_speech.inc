@@ -45,7 +45,7 @@ gText_Birch_SoItsPlayer::
 gText_Birch_YourePlayer::
 	.string "אה, אוקיי!\p"
 	.string "את{EMIT_HEY} {PLAYER}{KUN} שמגיע{ADD_HEY}\n"
-	.string "לעיר מולדי ליטלרוט.\l"
+	.string "לעיר מולדתי ליטלרוט.\l"
 	.string "הבנתי!\p"
 	.string "$"
 

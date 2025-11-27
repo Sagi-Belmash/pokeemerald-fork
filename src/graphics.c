@@ -1391,19 +1391,21 @@ const u32 gStorageSystemPartyMenu_Tilemap[] = INCBIN_U32("graphics/pokemon_stora
 
 // naming screen
 
-const u16 gNamingScreenMenu_Pal[6][16] =
+const u16 gNamingScreenMenu_Pal[7][16] =
 {
     INCBIN_U16("graphics/naming_screen/menu.gbapal"),
+    INCBIN_U16("graphics/naming_screen/page_swap_heb.gbapal"),
     INCBIN_U16("graphics/naming_screen/page_swap_upper.gbapal"),
     INCBIN_U16("graphics/naming_screen/page_swap_lower.gbapal"),
     INCBIN_U16("graphics/naming_screen/page_swap_others.gbapal"),
     INCBIN_U16("graphics/naming_screen/buttons.gbapal"),
-    INCBIN_U16("graphics/naming_screen/cursor.gbapal"),
+    INCBIN_U16("graphics/naming_screen/cursor.gbapal")
 };
 const u32 gNamingScreenMenu_Gfx[]                = INCBIN_U32("graphics/naming_screen/menu.4bpp.lz");
 const u32 gNamingScreenPageSwapFrame_Gfx[]       = INCBIN_U32("graphics/naming_screen/page_swap_frame.4bpp");
 const u32 gNamingScreenBackButton_Gfx[]          = INCBIN_U32("graphics/naming_screen/back_button.4bpp");
 const u32 gNamingScreenOKButton_Gfx[]            = INCBIN_U32("graphics/naming_screen/ok_button.4bpp");
+const u32 gNamingScreenPageSwapHeb_Gfx[]         = INCBIN_U32("graphics/naming_screen/page_swap_heb.4bpp");
 const u32 gNamingScreenPageSwapUpper_Gfx[]       = INCBIN_U32("graphics/naming_screen/page_swap_upper.4bpp");
 const u32 gNamingScreenPageSwapLower_Gfx[]       = INCBIN_U32("graphics/naming_screen/page_swap_lower.4bpp");
 const u32 gNamingScreenPageSwapOthers_Gfx[]      = INCBIN_U32("graphics/naming_screen/page_swap_others.4bpp");
@@ -1414,6 +1416,7 @@ const u32 gNamingScreenPageSwapButton_Gfx[]      = INCBIN_U32("graphics/naming_s
 const u32 gNamingScreenInputArrow_Gfx[]          = INCBIN_U32("graphics/naming_screen/input_arrow.4bpp");
 const u32 gNamingScreenUnderscore_Gfx[]          = INCBIN_U32("graphics/naming_screen/underscore.4bpp");
 const u32 gNamingScreenBackground_Tilemap[]      = INCBIN_U32("graphics/naming_screen/background.bin.lz");
+const u32 gNamingScreenKeyboardHeb_Tilemap[]   = INCBIN_U32("graphics/naming_screen/keyboard_heb.bin.lz");
 const u32 gNamingScreenKeyboardUpper_Tilemap[]   = INCBIN_U32("graphics/naming_screen/keyboard_upper.bin.lz");
 const u32 gNamingScreenKeyboardLower_Tilemap[]   = INCBIN_U32("graphics/naming_screen/keyboard_lower.bin.lz");
 const u32 gNamingScreenKeyboardSymbols_Tilemap[] = INCBIN_U32("graphics/naming_screen/keyboard_symbols.bin.lz");

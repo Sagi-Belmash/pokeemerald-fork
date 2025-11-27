@@ -151,108 +151,108 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-	.string "For 70 years I have raised POKéMON!\n"
-	.string "I am the man they revere as\l"
-	.string "the legendary top POKéMON BREEDER!\p"
-	.string "If you ever become as seasoned as me,\n"
-	.string "you'll see the abilities of POKéMON\l"
-	.string "at a glance.\p"
-	.string "You're a TRAINER. Doesn't it interest\n"
-	.string "you to know your own POKéMON's\l"
-	.string "abilities?\p"
-	.string "Here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "במשך 07 שנה גידלתי פוקימונים!\n"
+	.string "אני האיש שאותו הם מעריצים\l"
+	.string "כמגדל הפוקימונים האגדי הבכיר!\p"
+	.string "אם אי פעם תהפוך למנוסה כמוני,\n"
+	.string "תראה את היכולות של פוקימונים\l"
+	.string "במבט חטוף.\p"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF}. האם לא מעניין אותך לדעת\n"
+	.string "מהן היכולות של הפוקימונים שלך?\l"
+	.string "היכולות?\p"
+	.string "הנה!\n"
+	.string "בוא{ADD_YUD} נסתכל על הפוקימונים שלך!$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe\n"
-	.string "as being of average ability.$"
+	.string "…הממ…\p"
+	.string "את זה, בסך הכל, הייתי מתאר\n"
+	.string "כבעל יכולת ממוצעת.$"
 
 BattleFrontier_Lounge1_Text_BetterThanAverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe as\n"
-	.string "having better-than-average ability.$"
+	.string "…הממ…\p"
+	.string "את זה, בסך הכל, הייתי מתאר\n"
+	.string "כבעל יכולת טובה יותר מהממוצע.$"
 
 BattleFrontier_Lounge1_Text_ImpressiveAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "quite impressive in ability!$"
+	.string "…הממ…\p"
+	.string "את זה, בסך הכל, הייתי אומר שהוא\n"
+	.string "די מרשים ביכולת!$"
 
 BattleFrontier_Lounge1_Text_OutstandingAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "wonderfully outstanding in ability!$"
+	.string "…הממ…\p"
+	.string "את זה, בסך הכל, הייתי אומר שהוא\n"
+	.string "מצטיין להפליא ביכולת!$"
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its HP…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא הנח שלו…$"
 
 BattleFrontier_Lounge1_Text_BestAspectAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its ATTACK…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא ההתקפה שלו…$"
 
 BattleFrontier_Lounge1_Text_BestAspectDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its DEFENSE…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא ההגנה שלו…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL ATTACK…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא ההתקפה המיוחדת שלו…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL DEFENSE…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא ההגנה המיוחדת שלו…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPEED…$"
+	.string "אגב, ההיבט הטוב ביותר שלו,\n"
+	.string "הייתי אומר, הוא המהירות שלו…$"
 
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
-	.string "That stat is relatively good.\n"
-	.string "…Hm… That's how I call it.$"
+	.string "הנתון הזה טוב יחסית.\n"
+	.string "…המ… כך אני קורא לזה.$"
 
 BattleFrontier_Lounge1_Text_StatImpressive:
-	.string "That stat is quite impressive.\n"
-	.string "…Hm… That's how I call it.$"
+	.string "הנתון הזה די מרשים.\n"
+	.string "…המ… כך אני קורא לזה.$"
 
 BattleFrontier_Lounge1_Text_StatOutstanding:
-	.string "That stat is outstanding!\n"
-	.string "…Hm… That's how I call it.$"
+	.string "הנתון הזה מצטיין!\n"
+	.string "…המ… כך אני קורא לזה.$"
 
 BattleFrontier_Lounge1_Text_StatFlawless:
-	.string "It's flawless! A thing of perfection!\n"
-	.string "…Hm… That's how I call it.$"
+	.string "זה מושלם! דבר של שלמות!\n"
+	.string "…המ… כך אני קורא לזה.$"
 
 BattleFrontier_Lounge1_Text_NoTimeForMyAdvice:
-	.string "What?\n"
-	.string "You have no time for my advice?\p"
-	.string "You should always be eager to learn\n"
-	.string "from the experiences of your elders!$"
+	.string "מה?\n"
+	.string "אין לך זמן לעצה שלי?\p"
+	.string "את{EMIT_HEY} תמיד צרי{SWAP_CHAF}{ADD_HEY} להיות להוט{ADD_HEY} ללמוד\n"
+	.string "מהחוויות של המבוגרים ממך!$"
 
 @ Unused
 BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
-	.string "Yes, what is it now?\p"
-	.string "I have business that needs tending!\n"
-	.string "Save it for next time!$"
+	.string "כן, מה עכשיו?\p"
+	.string "יש לי עניינים שצריך לטפל בהם!\n"
+	.string "שמ{EMIT_VAV}ר{ADD_YUD} את זה לפעם הבאה!$"
 
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
-	.string "Ah, youngster! Do your POKéMON's\n"
-	.string "abilities intrigue you?\p"
-	.string "Here, here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "אה, צעיר{ADD_HEY}! האם היכולות של הפוקימונים\n"
+	.string "שלך מסקרנות אותך?\p"
+	.string "הנה, הנה!\n"
+	.string "בוא{ADD_YUD} נסתכל על הפוקימונים שלך!$"
 
 BattleFrontier_Lounge1_Text_EvenICantTell:
-	.string "An expert I am, but even I can't tell\n"
-	.string "anything about an unhatched POKéMON!\p"
-	.string "Show me a POKéMON!\n"
-	.string "A POKéMON is what I need to see!$"
+	.string "אני מומחה, אבל אפילו אני לא יכול לדעת\n"
+	.string "שום דבר על פוקימון שלא בקע!\p"
+	.string "הרא{EMIT_HEY}{ADD_YUD} לי פוקימון!\n"
+	.string "פוקימון זה מה שאני צריך לראות!$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "I'm glad I raised it carefully!$"
+	.string "הוא אמר שהפוקימון שלי מצטיין!\n"
+	.string "אני שמח שגידלתי אותו בזהירות!$"
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "But I didn't do anything special\l"
-	.string "raising it…$"
+	.string "הוא אמר שהפוקימון שלי מצטיין!\n"
+	.string "אבל לא עשיתי שום דבר מיוחד\l"
+	.string "כשגידלתי אותו…$"
 

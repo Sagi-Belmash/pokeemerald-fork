@@ -1111,19 +1111,19 @@ BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
 	.string "עומדים למבחן!\p"
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למגדל הקרב!\p"
 	.string "אני המדריך שלך לחדרי קרב\n"
-	.string "יחידניים.$"
+	.string "יחידיים.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
 	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להשתתף באתגר של\n"
-	.string "חדר קרב יחידני?$"
+	.string "חדר קרב יחידי?$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge:
-	.string "חדרי קרב יחידני במגדל הקרב\n"
-	.string "הם מתקנים לעריכת קרבות יחידניים\l"
+	.string "חדרי קרב יחידי במגדל הקרב\n"
+	.string "הם מתקנים לעריכת קרבות יחידיים\l"
 	.string "עם שלושה פוקימונים.\p"
-	.string "יש הרבה חדרי קרב יחידניים\n"
+	.string "יש הרבה חדרי קרב יחידיים\n"
 	.string "במגדל הקרב לקרבות קבוצתיים.\p"
-	.string "בכל אחד מחדרי הקרב היחידניים,\n"
+	.string "בכל אחד מחדרי הקרב היחידיים,\n"
 	.string "שבעה מאמנים מחכים לאתגר שלך.\p"
 	.string "אם תצליח{ADD_YUD} לנצח את כל השבעה,\n"
 	.string "תרוויח{ADD_YUD} נקודות קרב.\p"
@@ -1284,7 +1284,7 @@ BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
 BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
 	.string "מגדל הקרב הוא מתקן שבו\n"
 	.string "נערכים ארבעה סוגי קרבות--\l"
-	.string "קרב יחידני, קרב זוגי, קרב מרובה\l"
+	.string "קרב יחידי, קרב זוגי, קרב מרובה\l"
 	.string "משתתפים, וקרב מרובה משתתפים בקשר.\p"
 	.string "לכל אחד מהסוגים הללו, ישנם\n"
 	.string "חדרי קרב נפרדים.\p"
@@ -1295,7 +1295,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
 	.string "בהתאם לחדר הקרב שאליו תיכנסו,\n"
 	.string "תתבקשו לקחת\l"
 	.string "מספר מסוים של פוקימונים.\p"
-	.string "מצב קרב יחידני דורש\n"
+	.string "מצב קרב יחידי דורש\n"
 	.string "שלושה פוקימונים.\p"
 	.string "מצב קרב זוגי דורש ארבעה,\n"
 	.string "ושני מצבי הקרב המרובים דורשים שניים.$"

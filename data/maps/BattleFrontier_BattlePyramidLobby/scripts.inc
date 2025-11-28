@@ -691,8 +691,6 @@ BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 	.string "עבורך.\p"
 	.string "{PLAYER} קיבל{ADD_HEY} את התיק בחזרה.$"
 
-@ TILL HERE 1
-
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
 	.string "אנחנו מצפים לאתגר\n"
 	.string "הבא שלך!$"

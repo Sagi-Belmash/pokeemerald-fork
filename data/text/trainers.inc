@@ -4266,8 +4266,6 @@ Route130_Text_RodneyPostBattle:
 	.string "שעבר{ADD_HEY} אתגרים קשים וניצח{ADD_HEY}.\l"
 	.string "זה מתאים לך מאד!$"
 
-@ TILL HERE 17
-
 Route130_Text_KatieIntro:
 	.string "בים הכחול והעמוק,\n"
 	.string "הלב הכחול והמנופץ שלי מוצא\l"

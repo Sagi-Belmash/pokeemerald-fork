@@ -1036,7 +1036,6 @@ BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering:
 	.string "לפני הכניסה לחדר הקרב, ההתקדמות\n"
 	.string "שלך חייבת להישמר. האם זה בסדר?$"
 
-@ TILL HERE
 
 BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom:
 	.string "אני עכשיו אראה לך את\n"

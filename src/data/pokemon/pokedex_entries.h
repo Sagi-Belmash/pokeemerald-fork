@@ -1574,7 +1574,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LAPRAS] =
     {
-        .categoryName = _("תעבורה"),
+        .categoryName = _("הובלה"),
         .height = 25,
         .weight = 2200,
         .description = gLaprasPokedexText,

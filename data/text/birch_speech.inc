@@ -29,10 +29,10 @@ gText_Birch_MainSpeech::
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "והנך?$"
+	.string "ומה איתך?$"
 
 gText_Birch_BoyOrGirl::
-	.string "הנך בן?\n"
+	.string "בן?\n"
 	.string "או בת?$"
 
 gText_Birch_WhatsYourName::
@@ -40,7 +40,7 @@ gText_Birch_WhatsYourName::
 	.string "מה שמך?$"
 
 gText_Birch_SoItsPlayer::
-	.string "אז הנך {PLAYER}{KUN}?$"
+	.string "אז את{EMIT_HEY} {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "אה, אוקיי!\p"

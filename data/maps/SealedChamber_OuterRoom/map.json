@@ -27,7 +27,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 5,
+      "x": 11,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -35,7 +35,7 @@
     },
     {
       "type": "sign",
-      "x": 5,
+      "x": 11,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -43,7 +43,7 @@
     },
     {
       "type": "sign",
-      "x": 5,
+      "x": 11,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -51,7 +51,7 @@
     },
     {
       "type": "sign",
-      "x": 5,
+      "x": 11,
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -59,7 +59,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 5,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -67,7 +67,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 5,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -75,7 +75,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 5,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -83,7 +83,7 @@
     },
     {
       "type": "sign",
-      "x": 11,
+      "x": 5,
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -115,7 +115,7 @@
     },
     {
       "type": "sign",
-      "x": 6,
+      "x": 12,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -123,7 +123,7 @@
     },
     {
       "type": "sign",
-      "x": 4,
+      "x": 10,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -131,7 +131,7 @@
     },
     {
       "type": "sign",
-      "x": 4,
+      "x": 10,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -139,7 +139,7 @@
     },
     {
       "type": "sign",
-      "x": 6,
+      "x": 12,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -147,7 +147,7 @@
     },
     {
       "type": "sign",
-      "x": 4,
+      "x": 10,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -155,7 +155,7 @@
     },
     {
       "type": "sign",
-      "x": 6,
+      "x": 12,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -163,23 +163,31 @@
     },
     {
       "type": "sign",
-      "x": 4,
+      "x": 10,
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SealedChamber_OuterRoom_EventScript_BrailleTUV"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SealedChamber_OuterRoom_EventScript_BrailleTUV"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SealedChamber_OuterRoom_EventScript_BrailleDEF"
     },
     {
       "type": "sign",
       "x": 6,
-      "y": 15,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SealedChamber_OuterRoom_EventScript_BrailleTUV"
-    },
-    {
-      "type": "sign",
-      "x": 10,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -187,15 +195,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
-      "y": 6,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SealedChamber_OuterRoom_EventScript_BrailleDEF"
-    },
-    {
-      "type": "sign",
-      "x": 10,
+      "x": 4,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -203,7 +203,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 6,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -211,7 +211,7 @@
     },
     {
       "type": "sign",
-      "x": 10,
+      "x": 4,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -219,7 +219,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 6,
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -227,7 +227,7 @@
     },
     {
       "type": "sign",
-      "x": 10,
+      "x": 4,
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -235,7 +235,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 6,
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

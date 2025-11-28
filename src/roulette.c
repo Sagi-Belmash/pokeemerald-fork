@@ -1223,7 +1223,8 @@ static void CB2_LoadRoulette(void)
         SetMultiplierSprite(SELECTION_NONE);
         DrawGridBackground(SELECTION_NONE);
         DrawStdWindowFrame(sTextWindowId, FALSE);
-        AddTextPrinterParameterizedWithRTL(sTextWindowId, FONT_NORMAL, Roulette_Text_ControlsInstruction, 0, 1, TEXT_SKIP_DRAW, NULL, TRUE);
+        StringExpandPlaceholders(gStringVar4, Roulette_Text_ControlsInstruction);
+        AddTextPrinterParameterizedWithRTL(sTextWindowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, NULL, TRUE);
         CopyWindowToVram(sTextWindowId, COPYWIN_FULL);
         gSpriteCoordOffsetX = -60;
         gSpriteCoordOffsetY = 0;

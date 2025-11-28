@@ -18,11 +18,11 @@ SealedChamber_OuterRoom_Braille_GHI:
 
 SealedChamber_OuterRoom_Braille_MNO:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "מנס$"
+	.braille "מנ$"
 
 SealedChamber_OuterRoom_Braille_TUV:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "קרשץ$"
+	.braille "צק$"
 	@ קרש
 
 SealedChamber_OuterRoom_Braille_DEF:
@@ -37,7 +37,7 @@ SealedChamber_OuterRoom_Braille_JKL:
 
 SealedChamber_OuterRoom_Braille_PQRS:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "סעפFצ$"
+	.braille "סעפF$"
 	@ סעפצ
 
 SealedChamber_OuterRoom_Braille_Period:
@@ -46,7 +46,7 @@ SealedChamber_OuterRoom_Braille_Period:
 
 SealedChamber_OuterRoom_Braille_WXYZ:
 	brailleformat 7, 6, 21, 13, 10, 9
-	.braille "ת$"
+	.braille "רשץת$"
 
 SealedChamber_OuterRoom_Braille_Comma:
 	brailleformat 9, 6, 19, 13, 12, 9

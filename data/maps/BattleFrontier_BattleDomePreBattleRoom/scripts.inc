@@ -295,7 +295,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
 	.string "תודה שהתחרת!\p"
 	.string "אני אשיב את הפוקימונים שלך\n"
-	.string "למלוא בריאותם.$"
+	.string "לבריאות מלאה.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
 	.string "כל קרבות הסיבוב הראשון\n"

@@ -647,7 +647,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}…\n"
 	.string "יש לשבח אותך על מזלך…\p"
 	.string "הפוקימונים שלך יושבו\n"
-	.string "למלוא בריאותם…$"
+	.string "לבריאות מלאה…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
 	.string "אני מפציר בך להנות משאר\n"
@@ -685,7 +685,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
 	.string "מפואר…\p"
 	.string "כפי שהובטח, אני אשיב את\n"
-	.string "הפוקימונים שלך למלוא בריאותם.$"
+	.string "הפוקימונים שלך לבריאות מלאה.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
@@ -755,7 +755,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
 	.string "כמה נפלא…\p"
 	.string "לכבוד הניצחון שלך, הפוקימונים שלך\n"
-	.string "יושבו למלוא בריאותם…$"
+	.string "יושבו לבריאות מלאה…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
 	.string "אני מפציר בך להנות משאר\n"
@@ -827,7 +827,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
 	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}…\p"
 	.string "מאחר שבחרת בחדר הזה, אני אשיב\n"
-	.string "שני פוקימונים למלוא בריאותם…$"
+	.string "שני פוקימונים לבריאות מלאה…$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
@@ -844,5 +844,5 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
 	.string "אה, את{EMIT_HEY} בר{ADD_TAF} מזל!\n"
 	.string "אני במצב רוח טוב כרגע.\p"
 	.string "אני אשיב שני פוקימונים שלך\n"
-	.string "למלוא בריאותם!$"
+	.string "לבריאות מלאה!$"
 

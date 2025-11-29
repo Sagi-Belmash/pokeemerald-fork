@@ -434,293 +434,292 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord, MSGBOX_NPC
 	end
 
-הנה התרגום לעברית של הדיאלוגים מפינת שירות ההחלפה (Exchange Service Corner) בגבול הקרב, ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "שלום, זוהי פינת שירות ההחלפה.\p"
-	.string "אנו ממירים את_נקודות הקרב שאספת\n"
-	.string "בפרסים מקסימים.\p"
-	.string "אנא בחר פרס מתוך הרשימה הזו.$"
+	.string "Hello, this is the EXCHANGE SERVICE\n"
+	.string "CORNER.\p"
+	.string "We exchange the Battle Points you\n"
+	.string "have collected for lovely prizes.\p"
+	.string "Please choose a prize from this list.$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "אנא בחר פרס מתוך הרשימה הזו.$"
+	.string "Please choose a prize from this list.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "בחרת בפוסטר נשיקה.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the KISS POSTER.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "בחרת בכרית נשיקה.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the KISS CUSHION.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "בחרת בבובת סמוצ'ום.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the SMOOCHUM DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "בחרת בבובת טוגפי.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the TOGEPI DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "בחרת בבובת מיאוות'.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the MEOWTH DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "בחרת בבובת קלפאיירי.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CLEFAIRY DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "בחרת בבובת דיטו.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the DITTO DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "בחרת בבובת סינדאקוויל.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CYNDAQUIL DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "בחרת בבובת צ'יקוריטה.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CHIKORITA DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "בחרת בבובת טוטודייל.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the TOTODILE DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "בחרת בבובת לאפראס.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the LAPRAS DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "בחרת בבובת סנורלאקס.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the SNORLAX DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "בחרת בבובת וינוזאור.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the VENUSAUR DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "בחרת בבובת צ'אריזארד.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CHARIZARD DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "בחרת בבובת בלאסטויז.\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the BLASTOISE DOLL.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "בחרת ב_חלבון (PROTEIN).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the PROTEIN.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "בחרת ב_סידן (CALCIUM).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CALCIUM.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "בחרת ב_ברזל (IRON).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the IRON.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "בחרת ב_אבץ (ZINC).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the ZINC.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "בחרת ב_פחמימות (CARBOS).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CARBOS.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "בחרת ב_מעלה חיים (HP UP).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the HP UP.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "בחרת באבקת_הארה (BRIGHTPOWDER).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the BRIGHTPOWDER.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "בחרת בעשב_לבן (WHITE HERB).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the WHITE HERB.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "בחרת בטופר_מהיר (QUICK CLAW).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the QUICK CLAW.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "בחרת בעשב_מנטלי (MENTAL HERB).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the MENTAL HERB.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "בחרת ב_רצועת_הבחירה (CHOICE BAND).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the CHOICE BAND.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "בחרת באבן_מלך (KING'S ROCK).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the KING'S ROCK.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "בחרת ב_רצועת_הריכוז (FOCUS BAND).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the FOCUS BAND.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "בחרת ב_עדשת_הסקופ (SCOPE LENS).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the SCOPE LENS.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "בחרת ב_שאריות (LEFTOVERS).\n"
-	.string "האם זה נכון?$"
+	.string "You've chosen the LEFTOVERS.\n"
+	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "תודה!\n"
-	.string "נשלח את_זה למחשב (PC) שלך בבית.$"
+	.string "Thank you!\n"
+	.string "We'll send it to your PC at home.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "הנה הפרס שלך!$"
+	.string "Here is your prize!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "אני כל כך מצטער…\n"
-	.string "אין לך מספיק נקודות קרב…$"
+	.string "I'm so sorry…\n"
+	.string "You don't have enough Battle Points…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "אני כל כך מצטער…\n"
-	.string "נראה שהמחשב (PC) שלך מלא…$"
+	.string "I'm so sorry…\n"
+	.string "Your PC appears to be full…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "אני כל כך מצטער…\n"
-	.string "אין לך מקום להחזיק את_זה…$"
+	.string "I'm so sorry…\n"
+	.string "You don't have space to hold it…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "תודה רבה.\p"
-	.string "אנא בקר אותנו כאשר תצבור\n"
-	.string "נקודות קרב.$"
+	.string "Thank you very much.\p"
+	.string "Please visit us when you have\n"
+	.string "saved up Battle Points.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "הו, הם כל כך יפים!\n"
-	.string "הלוואי שהיו לי אותם!\l"
-	.string "כריות חמודות!\l"
-	.string "בובות קטיפה גדולות!\l"
-	.string "בובות קטיפה קטנות!\l"
-	.string "הלוואי שהיו לי את כולם!$"
+	.string "Oh, they're so nice!\n"
+	.string "I wish I had them!\l"
+	.string "Cute cushions!\l"
+	.string "Big plush DOLLS!\l"
+	.string "Little plush DOLLS!\l"
+	.string "I wish I had them all!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "תשאיר את זה לאמא שלך!\p"
-	.string "אם זה משהו שאתה רוצה, אני אלך\n"
-	.string "עד הסוף כדי להשיג לך את זה, מותק!$"
+	.string "Leave it to your mommy!\p"
+	.string "If it's anything you want, I'll go\n"
+	.string "through anything to get it, honey!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "אם אני אצליח לשים יד על_הפריטים כאן,\n"
-	.string "הפוקימון שלי יהפוך לקשוח יותר.\p"
-	.string "בטח שכן!\n"
-	.string "בלי ספק!$"
+	.string "If I can get hold of the items here,\n"
+	.string "my POKéMON will get tougher.\p"
+	.string "You bet they will!\n"
+	.string "No question about it!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "הא?\n"
-	.string "למה אתה בוהה?\p"
-	.string "אני לא אוהבת שאתה בוהה בבובת\n"
-	.string "הקטיפה שלי ככה.\p"
-	.string "אם אתה רוצה אותה, לך תשיג אחת בעצמך!\n"
-	.string "נכון, סמוצ'ום?$"
+	.string "Hah?\n"
+	.string "What are you gawking at?\p"
+	.string "I don't like you staring at my plush\n"
+	.string "doll like that.\p"
+	.string "If you want it, go get one yourself!\n"
+	.string "Isn't that right, SMOOCHUM?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "האם ידעת?\p"
-	.string "אם אתה משפר את_השיא שלך באחד מ\n"
-	.string "מתקני הקרב, הם מתחילים\l"
-	.string "לתת לך יותר ויותר נקודות קרב.$"
+	.string "Did you know?\p"
+	.string "If you stretch your record at any of\n"
+	.string "the BATTLE facilities, they start\l"
+	.string "giving you more and more Battle Points.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "פוסטר גדול עם הדפס סמוצ'ום.$"
+	.string "A large poster with a SMOOCHUM print.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "כרית סמוצ'ום.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A SMOOCHUM cushion.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "בובת סמוצ'ום.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A SMOOCHUM DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "בובת טוגפי.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A TOGEPI DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "בובת מיאוות'.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A MEOWTH DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "בובת קלפאיירי.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A CLEFAIRY DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "בובת דיטו.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A DITTO DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "בובת סינדאקוויל.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A CYNDAQUIL DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "בובת צ'יקוריטה.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A CHIKORITA DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "בובת טוטודייל.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A TOTODILE DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "בובה גדולה.\n"
-	.string "הנח אותה על מחצלת או שולחן.$"
+	.string "A large DOLL.\n"
+	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "מעלה את נתון ההתקפה\n"
-	.string "של פוקימון אחד.$"
+	.string "Raises the stat ATTACK of one\n"
+	.string "POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "מעלה את נתון ההתקפה המיוחדת\n"
-	.string "של פוקימון אחד.$"
+	.string "Raises the stat SP. ATK of one\n"
+	.string "POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
-	.string "מעלה את נתון ההגנה\n"
-	.string "של פוקימון אחד.$"
+	.string "Raises the stat DEFENSE of one\n"
+	.string "POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "מעלה את נתון ההגנה המיוחדת\n"
-	.string "של פוקימון אחד.$"
+	.string "Raises the stat SP. DEF of one\n"
+	.string "POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "מעלה את נתון המהירות\n"
-	.string "של פוקימון אחד.$"
+	.string "Raises the stat SPEED of one\n"
+	.string "POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "מעלה את נקודות החיים של פוקימון אחד.$"
+	.string "Raises the HP of one POKéMON.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "פריט מוחזק המשקם בהדרגה\n"
-	.string "נקודות חיים בקרב.$"
+	.string "A hold item that gradually restores\n"
+	.string "HP in battle.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "פריט מוחזק המשקם כל נתון\n"
-	.string "שהורד.$"
+	.string "A hold item that restores any\n"
+	.string "lowered stat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "פריט מוחזק המאפשר לעיתים\n"
-	.string "את המכה הראשונה.$"
+	.string "A hold item that occasionally allows\n"
+	.string "the first strike.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "פריט מוחזק המוציא פוקימונים\n"
-	.string "מ_מצב אהבה (infatuation).$"
+	.string "A hold item that snaps POKéMON out\n"
+	.string "of infatuation.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "פריט מוחזק המטיל בוהק כדי\n"
-	.string "להפחית דיוק.$"
+	.string "A hold item that casts a glare to\n"
+	.string "reduce accuracy.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "מעלה את כוח המהלך, אבל מתיר\n"
-	.string "רק את המהלך הזה.$"
+	.string "Raises a move's power, but permits\n"
+	.string "only that move.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "פריט מוחזק שעלול לגרום לרתיעה\n"
-	.string "כאשר היריב נפגע.$"
+	.string "A hold item that may cause flinching\n"
+	.string "when the foe is hit.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "פריט מוחזק שלעיתים\n"
-	.string "מונע התעלפות.$"
+	.string "A hold item that occasionally\n"
+	.string "prevents fainting.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "פריט מוחזק המעלה את\n"
-	.string "שיעור המכה הקריטית.$"
+	.string "A hold item that raises the\n"
+	.string "critical-hit rate.$"

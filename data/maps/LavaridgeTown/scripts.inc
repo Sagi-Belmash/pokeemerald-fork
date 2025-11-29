@@ -283,7 +283,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "את זה.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "מאי: עם משקפי המיגון האלה,\n"
+	.string "מאי: עם המשקפי מגן האלה,\n"
 	.string "לא תהיה לך בעיה לעבור את_המדבר\l"
 	.string "ליד דרך 111.\p"
 	.string "אבל, ואו, {PLAYER}{KUN}…\n"

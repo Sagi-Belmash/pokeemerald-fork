@@ -1216,17 +1216,17 @@ Route110_Text_KalebPostBattle:
 	.string "יפים שלי.$"
 
 Route111_Text_DrewIntro:
-	.string "או, היי! המשקפי מיגון האלה מתאימים לך.\n"
+	.string "או, היי! המשקפי מגן האלה מתאימים לך.\n"
 	.string "אבל אני חושב שהם נראים טוב יותר עליי.\p"
 	.string "בוא{ADD_YUD} נחליט מי נראה איתם טוב יותר\n"
 	.string "עם קרב!$"
 
 Route111_Text_DrewDefeat:
 	.string "לא הצלחתי לראות מה קורה בצדדים שלי\n"
-	.string "בגלל משקפי המיגון.$"
+	.string "בגלל המשקפי מגן.$"
 
 Route111_Text_DrewPostBattle:
-	.string "משקפי המיגון מאפשרים לעבור דרך סופות חול.\l"
+	.string "המשקפי מגן מאפשרים לעבור דרך סופות חול.\l"
 	.string "זה משמח אותי!$"
 
 Route111_Text_HeidiIntro:
@@ -1244,7 +1244,7 @@ Route111_Text_HeidiPostBattle:
 	.string "לב אליהם!$"
 
 Route111_Text_BeauIntro:
-	.string "להיות עם משקפי מיגון גורם לי להרגיש כמו גיבור-על.\l"
+	.string "להיות עם משקפי מגן גורם לי להרגיש כמו גיבור-על.\l"
 	.string "כרגע, אף אחד לא יכול להביס אותי!$"
 
 Route111_Text_BeauDefeat:

@@ -566,158 +566,157 @@ Route111_EventScript_TrainerHillSign::
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
-הנה התרגום לעברית של הדיאלוגים מדרך 111, ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 Route111_Text_BattleOurFamily:
-	.string "שלום! אני מניח שאתה נוסע.\p"
-	.string "מה דעתך? מה אתה אומר על_קבלת\n"
-	.string "אתגר נגד המשפחה שלנו, ארבעה מאיתנו, בסדרת\l"
-	.string "קרבות פוקימונים?$"
+	.string "Hello! I take it you're a traveler.\p"
+	.string "How's this? What do you say to taking\n"
+	.string "on our family of four in a series of\l"
+	.string "POKéMON battles?$"
 
 Route111_Text_IsThatSo:
-	.string "האם זה כך?\n"
-	.string "בוא לבקר, אם תשנה את דעתך!$"
+	.string "Is that so?\n"
+	.string "Drop in, if you change your mind!$"
 
 Route111_Text_VictorIntro:
-	.string "זו הרוח! אני מחבב אותך!$"
+	.string "That's the spirit! I like you!$"
 
 Route111_Text_VictorDefeat:
-	.string "איייה!\n"
-	.string "אתה הרבה יותר קשוח ממה שציפיתי!$"
+	.string "Aiyah!\n"
+	.string "You're a lot tougher than I expected!$"
 
 Route111_Text_VictorPostBattle:
-	.string "היי, כולם!\n"
-	.string "מצאתי מאמן די חזק!$"
+	.string "Hey, all!\n"
+	.string "I've found a pretty strong TRAINER!$"
 
 Route111_Text_VictoriaIntro:
-	.string "הו, אלוהים! אתה לא צעיר?\p"
-	.string "אתה בטח מאמן לא רע אם ניצחת\n"
-	.string "את בעלי, עם זאת.\p"
-	.string "עכשיו תורי להילחם!$"
+	.string "Oh, my goodness! Aren't you young?\p"
+	.string "You must be quite the TRAINER to beat\n"
+	.string "my husband, though.\p"
+	.string "It's my turn to battle now!$"
 
 Route111_Text_VictoriaDefeat:
-	.string "הו, אלוהים!\n"
-	.string "אני לא מצליחה להתגבר על כמה שאתה חזק!$"
+	.string "Oh, gosh!\n"
+	.string "I can't get over how strong you are!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "יש כאן מאמן חזק!\n"
-	.string "הוא ממש חזק!$"
+	.string "There's a strong TRAINER here!\n"
+	.string "This one's really strong!$"
 
 Route111_Text_ViviIntro:
-	.string "אתה חזק יותר מאמא? וואו!\p"
-	.string "אבל אני גם חזקה!\n"
-	.string "באמת! בכנות!$"
+	.string "You're stronger than Mommy? Wow!\p"
+	.string "But I'm strong, too!\n"
+	.string "Really! Honestly!$"
 
 Route111_Text_ViviDefeat:
-	.string "הא? האם הפסדתי עכשיו?$"
+	.string "Huh? Did I just lose?$"
 
 Route111_Text_ViviPostBattle:
-	.string "זה מבאס…\p"
-	.string "…חטפנות… סבתא!$"
+	.string "This stinks…\p"
+	.string "…Snivel… Grandma!$"
 
 Route111_Text_VickyIntro:
-	.string "איך אתה מעז לגרום לנכדה שלי\n"
-	.string "לבכות!\p"
-	.string "בגלל זה, אני הולכת להרביץ לך!\n"
-	.string "התכונן להפסד!$"
+	.string "How dare you make my granddaughter\n"
+	.string "cry!\p"
+	.string "For that, I'm going to smack you!\n"
+	.string "Prepare to lose!$"
 
 Route111_Text_VickyDefeat:
-	.string "קווא! אתה חזק…\n"
-	.string "הנכדה שלי צדקה…$"
+	.string "Kwah! You are strong…\n"
+	.string "My granddaughter was right…$"
 
 Route111_Text_VickyPostBattle:
-	.string "אם אתה לא ממהר,\n"
-	.string "תבקר אצלנו קצת.$"
+	.string "If you're not in any hurry,\n"
+	.string "visit with us awhile.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "אם לא תגדל את הפוקימונים שלך קצת\n"
-	.string "יותר, זה יכול להיות קשה להמשיך\l"
-	.string "ולנצח ברמות הגבוהות.\p"
-	.string "שמעתי ש_הרביעייה_הבכירה של_ליגת_הפוקימונים\n"
-	.string "חזקה בהרבה מכל מנהיג מכון.$"
+	.string "If you don't raise your POKéMON some\n"
+	.string "more, it could be tough to keep winning\l"
+	.string "up through the ranks.\p"
+	.string "I've heard the POKéMON LEAGUE's\n"
+	.string "ELITE FOUR are far stronger than\l"
+	.string "any GYM LEADER.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "אתגרתי את משפחת ווינסטרייט,\n"
-	.string "אבל ארבעה קרבות ברציפות זה קשה\l"
-	.string "מדי… הם השמידו אותי.$"
+	.string "I challenged the WINSTRATE family,\n"
+	.string "but four matches in a row is tough\l"
+	.string "going… They destroyed me.$"
 
 Route111_Text_RouteSignMauville:
-	.string "דרך 111\n"
-	.string "{DOWN_ARROW} עיר מוויל$"
+	.string "ROUTE 111\n"
+	.string "{DOWN_ARROW} MAUVILLE CITY$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "“הלבבות של_המשפחה שלנו פועמים כאחד!”\n"
-	.string "הבית של ווינסטרייט$"
+	.string "“Our family's hearts beat as one!”\n"
+	.string "THE WINSTRATE'S HOUSE$"
 
 Route111_Text_RouteSign112:
-	.string "דרך 111\n"
-	.string "{LEFT_ARROW} דרך 112$"
+	.string "ROUTE 111\n"
+	.string "{LEFT_ARROW} ROUTE 112$"
 
 Route111_Text_RouteSign113:
-	.string "דרך 111\n"
-	.string "{LEFT_ARROW} דרך 113$"
+	.string "ROUTE 111\n"
+	.string "{LEFT_ARROW} ROUTE 113$"
 
 Route111_Text_OldLadysRestStopSign:
-	.string "תחנת מנוחה של_אישה_זקנה\n"
-	.string "“היכנס לנוח מ_העצמות העייפות שלך.”$"
+	.string "OLD LADY'S REST STOP\n"
+	.string "“Come in and rest your tired bones.”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-	.string "טיפים למאמנים\p"
-	.string "אחד המדדים לעוצמה של_פוקימון\n"
-	.string "הוא SP. ATK. זה מייצג\l"
-	.string "“התקפה מיוחדת.”\p"
-	.string "באופן דומה, SP. DEF מייצג “הגנה\n"
-	.string "מיוחדת.”$"
+	.string "TRAINER TIPS\p"
+	.string "One of the indicators of a POKéMON's\n"
+	.string "powerfulness is SP. ATK. It stands for\l"
+	.string "“SPECIAL ATTACK.”\p"
+	.string "Likewise, SP. DEF stands for “SPECIAL\n"
+	.string "DEFENSE.”$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "אמורה להיות מגדל עשוי חול\n"
-	.string "איפשהו כאן.\p"
-	.string "אבל משום מה, ניתן לראות אותו\n"
-	.string "לפעמים, ולפעמים לא.\p"
-	.string "זו הסיבה שבגללה אני קורא לזה מגדל התעתועים.$"
+	.string "There should be a tower made of sand\n"
+	.string "around here somewhere.\p"
+	.string "But for some reason, it can be seen\n"
+	.string "sometimes, and sometimes not.\p"
+	.string "That's why I call it the MIRAGE TOWER.$"
 
 Route111_Text_MirageTowerClearlyVisible:
-	.string "אני רואה אותו!\n"
-	.string "מגדל החול!\p"
-	.string "מגדל החול שהם כינו תעתוע\n"
-	.string "נראה בבירור!\p"
-	.string "אבל הוא נראה כל כך שביר…\n"
-	.string "הוא יכול להתפורר בכל רגע…\p"
-	.string "אני רוצה להיכנס לתוכו, אבל אני לא\n"
-	.string "מצליח לאזור אומץ לזה…$"
+	.string "I see it!\n"
+	.string "The tower of sand!\p"
+	.string "The sand tower they called a mirage\n"
+	.string "is clearly visible!\p"
+	.string "But it looks so fragile…\n"
+	.string "It could crumble away anytime…\p"
+	.string "I want to go inside it, but I can't\n"
+	.string "get my courage up for it…$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "וואו…\n"
-	.string "זה היה מזעזע.\p"
-	.string "חול ירד בגושים בבת אחת.\n"
-	.string "פתאום.\p"
-	.string "איך זה היה בפנים?\n"
-	.string "האם היו שם רוחות רפאים חוליות וכדומה?$"
+	.string "Whoa…\n"
+	.string "That was shocking.\p"
+	.string "Sand rained down in chunks all of\n"
+	.string "a sudden.\p"
+	.string "What was it like inside?\n"
+	.string "Were there sandy ghosts and such?$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "מאז שדיברתי איתך, מגדל החול\n"
-	.string "לא נראה.\p"
-	.string "אולי זה באמת היה\n"
-	.string "מגדל התעתועים…$"
+	.string "Since I spoke to you, the tower of sand\n"
+	.string "hasn't been seen.\p"
+	.string "Perhaps it really was\n"
+	.string "the MIRAGE TOWER…$"
 
 Route111_Text_ClawFossilDisappeared:
-	.string "מאובן הטופר נעלם אל\n"
-	.string "תוך החול…$"
+	.string "The CLAW FOSSIL disappeared into\n"
+	.string "the sand…$"
 
 Route111_Text_RootFossilDisappeared:
-	.string "מאובן השורש נעלם אל\n"
-	.string "תוך החול…$"
+	.string "The ROOT FOSSIL disappeared into\n"
+	.string "the sand…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "הו, לא!\p"
-	.string "הדוד שלי במוויל אמר לי לקחת\n"
-	.string "ריסוק סלע (ROCK SMASH) איתי אם אני הולך\l"
-	.string "לדרך 111!\p"
-	.string "הדוד שלי? הוא גר ממול\n"
-	.string "לחנות האופניים במוויל.$"
+	.string "Oh, no!\p"
+	.string "My uncle in MAUVILLE told me to take\n"
+	.string "ROCK SMASH with me if I was going to\l"
+	.string "ROUTE 111!\p"
+	.string "My uncle? He lives across from\n"
+	.string "the bike shop in MAUVILLE.$"
 
 Route111_Text_TrainerHillSign:
-	.string "{RIGHT_ARROW} כניסה לגבעת המאמנים\p"
-	.string "“טפסו לגבהים, אתם מאמנים\n"
-	.string "בעלי דם חם!”$"
+	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
+	.string "“Scale the heights, you hot-blooded\n"
+	.string "TRAINERS!”$"
 

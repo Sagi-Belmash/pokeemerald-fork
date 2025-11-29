@@ -216,42 +216,42 @@ BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
 	step_end
 
 BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
-	.string "תענוג לראות אותך כאן!\n"
+	.string "זה תענוג לראות אותך כאן!\n"
 	.string "הגעת לפסגת פירמידת\l"
 	.string "הקרב!\p"
-	.string "מעל כאן נמצאת נקודת\n"
+	.string "מעל נמצאת נקודת\n"
 	.string "התצפית של הפירמידה.\p"
 	.string "זה מקום פתוח רק לאלה\n"
 	.string "שכבשו את הפירמידה.\p"
 	.string "עכשיו, בבקשה!\n"
-	.string "עלה למעלה!$"
+	.string "על{EMIT_HEY}{ADD_YUD} למעלה!$"
 
 BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
-	.string "הכובש החדש של הפירמידה!\n"
-	.string "שם {PLAYER} ייוודע!$"
+	.string "הכובש{ADD_TAF} החדש של הפירמידה!\n"
+	.string "שיהיה ידוע השם {PLAYER}!$"
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
-	.string "תענוג לראות אותך כאן!\p"
-	.string "לרוע המזל, היית שני בפער\n"
+	.string "זה תענוג לראות אותך כאן!\p"
+	.string "לרוע המזל, היית שני{ADD_HEY} בפער\n"
 	.string "של חלקיק זמן בלבד!\p"
 	.string "המפקד שלנו כבר כבש את\n"
 	.string "הפירמידה לפניך.\p"
-	.string "עם זאת, החוקר הצעיר שלי…\n"
-	.string "אתה מאמן!\p"
-	.string "הוכח את כוחך וקח את תהילת\n"
+	.string "למרות זאת, החוקר{ADD_TAF} הצעיר{ADD_HEY} שלי…\n"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF}!\p"
+	.string "הוכ{ADD_YUD}ח{ADD_YUD} את כוחך וקח{ADD_YUD} את תהילת\n"
 	.string "הפסגה מהמפקד שלנו!\p"
-	.string "עכשיו, בבקשה! כשתהיה מוכן,\n"
-	.string "קח צעד אחד נוסף של אומץ!$"
+	.string "עכשיו, בבקשה! כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY},\n"
+	.string "קח{ADD_YUD} צעד אחד נוסף של אומץ!$"
 
 BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
-	.string "הרפתקן צעיר…\p"
-	.string "האם לא תסכים שהחקר\n"
+	.string "הרפתק{SWAP_NUN}{ADD_YUD}{ADD_TAF} צעיר{ADD_HEY}…\p"
+	.string "האם לא תסכים שלחקור\n"
 	.string "הוא ההרפתקה הגדולה ביותר?\p"
 	.string "השכל שלך!\p"
 	.string "הכוח שלך!\p"
 	.string "הפוקימונים שלך!\p"
 	.string "ומעל לכל, רק האומץ שלך\n"
-	.string "להוביל אותך דרך עולמות לא נודעים…$"
+	.string "להוביל אותך דרך עולמות לא ידועים…$"
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "אהה, כן, החיים האלה באמת מופלאים!\n"
@@ -263,34 +263,34 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "בואך לכאן אומר שיש לך\n"
 	.string "ביטחון עצמי רב כל כך, אני צודק?\l"
 	.string "אני צודק?\p"
-	.string "האחהחחח!\n"
-	.string "זה צריך להיות מרגש!$"
+	.string "האהאהאהא!\n"
+	.string "זה הולך להיות מרגש!$"
 
 BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
-	.string "עכשיו, אם כן!\n"
-	.string "הבא את אומץ ליבך לקרב שלנו!$"
+	.string "עכשיו, אם כך!\n"
+	.string "הב{ADD_YUD}א{ADD_YUD} את אומץ ליבך לקרב שלנו!$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
-	.string "ברנדון: האחהחח! מופלא זה היה!\n"
+	.string "ברנדון: האהאהא! מופלא זה היה!\n"
 	.string "מופלא, כן, באמת!\p"
 	.string "כל הכבוד! הרווחת הכרה!\n"
-	.string "כרטיס גבול הקרב שלך, בבקשה!$"
+	.string "היתר חזית הקרב שלך, בבקשה!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
 	.string "סמל האומץ הוטבע על\n"
-	.string "כרטיס גבול הקרב!$"
+	.string "היתר חזית הקרב!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
-	.string "חוקר צעיר!\n"
+	.string "חוקר{ADD_TAF} צעיר{ADD_HEY}!\n"
 	.string "אני מצפה לפגישה הבאה שלנו!$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "ברנדון: …סוף סוף חזרת,\n"
-	.string "חוקר צעיר…\p"
+	.string "חוקר{ADD_TAF} צעיר{ADD_HEY}…\p"
 	.string "אהבתך להרפתקאות נראית כאילו מגיעה\n"
 	.string "עמוק מתוך ליבך…\p"
-	.string "כן… אתה בדיוק כמוני ב\n"
-	.string "צעירותי…\p"
+	.string "כן… את{EMIT_HEY} בדיוק כמוני\n"
+	.string "בצעירותי…\p"
 	.string "… … …אה…\p"
 	.string "הנלהבים!\p"
 	.string "המסוכנים!\p"
@@ -299,7 +299,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "מאשרות החיים, חזרו…$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
-	.string "עכשיו, אם כן!\p"
+	.string "עכשיו, אם כך!\p"
 	.string "אני חש שהאומץ שלי הוא מחוץ\n"
 	.string "לסקאלה!$"
 
@@ -308,24 +308,24 @@ BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
 	.string "אני מוכן לכל זה!$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
-	.string "ברנדון: האחהחח!\n"
+	.string "ברנדון: האהאהאהא!\n"
 	.string "מדהים!\l"
 	.string "כן, זה מופלא, באמת!\p"
-	.string "חוקר צעיר!\p"
+	.string "חוקר{ADD_TAF} צעיר{ADD_HEY}!\p"
 	.string "הבסת אותי לחלוטין!\n"
-	.string "הנה! אני רוצה שתקבל את זה!$"
+	.string "הנה! אני רוצה שתקבל{ADD_YUD} את זה!$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
 	.string "סמל האומץ קיבל\n"
 	.string "ברק זהוב!$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
-	.string "אה, כן! זה רק מראה ש\n"
-	.string "יש לי עוד הרבה מה ללמוד!\p"
+	.string "אה, כן! זה רק מראה\n"
+	.string "שיש לי עוד הרבה מה ללמוד!\p"
 	.string "מי ייתן ודרכינו יצטלבו שוב!\n"
-	.string "להתראות לעת עתה, חוקר צעיר!$"
+	.string "להתראות לעת עתה, חוקר{ADD_TAF} צעיר{ADD_HEY}!$"
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
-	.string "עכשיו, כשתהיה מוכן, קח אומץ\n"
-	.string "וצעד קדימה.$"
+	.string "עכשיו, כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}, קח{ADD_YUD} אומץ\n"
+	.string "וצעד{ADD_YUD} קדימה.$"
 

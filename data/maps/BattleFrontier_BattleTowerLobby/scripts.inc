@@ -1052,7 +1052,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
 	.string "שונים ברמה 05 ומטה כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
@@ -1062,7 +1062,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
 	.string "שונים כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
@@ -1072,7 +1072,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
 	.string "שונים ברמה 05 ומטה כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
@@ -1082,7 +1082,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
 	.string "שונים כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
@@ -1092,7 +1092,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
 	.string "שונים ברמה 05 ומטה כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
@@ -1102,7 +1102,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
 	.string "שונים כדי להיכנס.\p"
 	.string "הם גם חייבים להחזיק סוגים שונים\n"
 	.string "של פריטים.\p"
-	.string "ביצים{STR_VAR_1} אינן כשירות.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
 	.string "אנא בוא{ADD_YUD} אלי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:

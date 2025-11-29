@@ -266,166 +266,165 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-	.string "Where the luck of TRAINERS\n"
-	.string "is put to the test…\p"
-	.string "Welcome to the BATTLE PIKE…\p"
-	.string "I am your guide to the BATTLE PIKE…$"
+	.string "המקום שבו המזל של מאמנים\n"
+	.string "מועמד למבחן…\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לנהר הקרב…\p"
+	.string "אני המדריך שלך לנהר הקרב…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Choice challenge?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לקבל את אתגר\n"
+	.string "בחירת הקרב?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-	.string "Here we conduct an event we call\n"
-	.string "the Battle Choice.\p"
-	.string "The Battle Choice rules are very\n"
-	.string "simple…\p"
-	.string "Choose one of three paths and make\n"
-	.string "your way to the goal room at the end\l"
-	.string "of the BATTLE PIKE. It's that simple.\p"
-	.string "However, what happens on the chosen\n"
-	.string "path depends entirely on the luck\l"
-	.string "of the challenger…\p"
-	.string "If you reach the goal, you will be\n"
-	.string "rewarded with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please have a word with\l"
-	.string "our staff in the big rooms on the way.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "כאן אנחנו עורכים אירוע שאנו קוראים\n"
+	.string "לו בחירת הקרב.\p"
+	.string "החוקים של בחירת הקרב הם מאוד\n"
+	.string "פשוטים…\p"
+	.string "בחר{ADD_YUD} אחד משלושה נתיבים ול{SWAP_CHAF}{ADD_YUD}\n"
+	.string "לחדר המטרה בסוף נהר הקרב.\l"
+	.string "זה כזה פשוט.\p"
+	.string "עם זאת, מה שקורה בנתיב שנבחר\n"
+	.string "תלוי לחלוטין במזל של המתמודד…\p"
+	.string "אם תגיע{ADD_YUD} למטרה, תקבל{ADD_YUD}\n"
+	.string "נקודות קרב כפרס.\p"
+	.string "אם את{EMIT_HEY} רוצה להפסיק את האתגר\n"
+	.string "שלך, אנא דבר{ADD_YUD} עם הצוות שלנו\l"
+	.string "בחדרים הגדולים בדרך.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD} לפני שתפסיק{ADD_YUD},\n"
+	.string "את{EMIT_HEY} תיפסל{ADD_YUD}.$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
-	.string "We look forward to seeing you\n"
-	.string "on another occasion…$"
+	.string "אנחנו מצפים לראות אותך\n"
+	.string "בהזדמנות אחרת…$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
-	.string "You have the choice of two courses,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which will you challenge?$"
+	.string "יש לך בחירה בין שני מסלולים,\n"
+	.string "רמה 05 ורמה פתוחה.\l"
+	.string "באיזה תתמודד{ADD_YUD}?$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "אני מבקש את סליחתך, אבל…\p"
+	.string "אין לך שלושה פוקימונים מתאימים\n"
+	.string "לאירוע בחירת הקרב.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} שיהיו לך שלושה פוקימונים שונים\n"
+	.string "ברמה 05 או פחות כדי להיכנס.\p"
+	.string "הם גם חייבים להחזיק סוגים שונים\n"
+	.string "של פריטים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "אנא בוא{ADD_YUD} לבקר אותי\n"
+	.string "כשאת{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}…$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different\n"
-	.string "POKéMON to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "אני מבקש את סליחתך, אבל…\p"
+	.string "אין לך שלושה פוקימונים מתאימים\n"
+	.string "לאירוע בחירת הקרב.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} שיהיו לך שלושה פוקימונים\n"
+	.string "שונים כדי להיכנס.\p"
+	.string "הם גם חייבים להחזיק סוגים שונים\n"
+	.string "של פריטים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "אנא בוא{ADD_YUD} לבקר אותי\n"
+	.string "כשאת{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}…$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
-	.string "Please choose the three POKéMON\n"
-	.string "you wish to enter in the challenge…$"
+	.string "אנא בחר{ADD_YUD} את שלושת הפוקימונים\n"
+	.string "שבהם תרצ{EMIT_HEY}{ADD_YUD} להשתמש באתגר…$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
-	.string "Before starting your Battle Choice\n"
-	.string "challenge, I must save the game.\l"
-	.string "Is that acceptable?$"
+	.string "לפני שתתחיל{ADD_YUD} את אתגר בחירת הקרב\n"
+	.string "שלך, עליי לשמור את המשחק.\l"
+	.string "האם זה מקובל?$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
-	.string "Please step this way…$"
+	.string "תיכנס{ADD_YUD} מכאן…$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-	.string "Your challenge has ended…\p"
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "האתגר שלך הסתיים…\p"
+	.string "אני ארשום את התוצאות שלך.\n"
+	.string "נא להמתין…$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-	.string "You have completed the challenge…\p"
-	.string "I must say… You seem to possess luck\n"
-	.string "in abundance…$"
+	.string "את{EMIT_HEY} השלמת את האתגר…\p"
+	.string "אני חייב לומר… נראה שיש לך מזל\n"
+	.string "בשפע…$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "אני ארשום את התוצאות שלך.\n"
+	.string "נא להמתין…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-	.string "To commemorate your completion of\n"
-	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "כדי לחגוג את השלמת אתגר\n"
+	.string "בחירת הקרב, אנו מעניקים לך את נקודות\l"
+	.string "הקרב האלו…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
-	.string "You appear to have reached the limit\n"
-	.string "for Battle Points…\p"
-	.string "Please exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "זה נראה שהגעת למגבלה\n"
+	.string "של נקודות קרב…\p"
+	.string "אנא המ{ADD_YUD}ר{ADD_YUD} כמה נקודות קרב\n"
+	.string "עבור פרסים, ואז חז{EMIT_VAV}ר{ADD_YUD}…$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
-	.string "I beg your pardon, but…\p"
-	.string "You failed to save before you quit\n"
-	.string "your challenge the last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. I am sorry…$"
+	.string "אני מבקש את סליחתך, אבל…\p"
+	.string "לא שמרת לפני שהפסקת את\n"
+	.string "האתגר שלך בפעם האחרונה.\p"
+	.string "בגלל זה, האתגר שלך עד כה\n"
+	.string "נפסל. אני מצטער…$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
-	.string "Congratulations…\p"
-	.string "You have snatched victory from the\n"
-	.string "PIKE QUEEN and cleared the event…$"
+	.string "ברכות…\p"
+	.string "חטפת את הניצחון ממלכת הנהר\n"
+	.string "והשלמת את האירוע…$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
-	.string "In recognition of your amazing luck,\n"
-	.string "we award you these Battle Point(s)…$"
+	.string "כהכרה במזלך המדהים,\n"
+	.string "אנו מעניקים לך את נקודות הקרב האלו…$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
-	.string "Arrgh! I blew my chance!\n"
-	.string "I was one room away from the goal!\p"
-	.string "In this place, you'd better watch out\n"
-	.string "for poison, freezing, and so on.$"
+	.string "אררג! פספסתי את ההזדמנות!\n"
+	.string "הייתי חדר אחד רחוק מהמטרה!\p"
+	.string "במקום הזה, מוטב שתשי{SWAP_MEM}{ADD_YUD} לב\n"
+	.string "לרעל, הקפאה וכן הלאה.$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-	.string "I've completed the challenge 10 times\n"
-	.string "now, but I've never had to battle\l"
-	.string "a TRAINER once.$"
+	.string "השלמתי את האתגר 01 פעמים\n"
+	.string "עכשיו, אבל אף פעם לא הייתי צריך להילחם\l"
+	.string "במאמן אפילו פעם אחת.$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
-	.string "Listen! Listen!\p"
-	.string "Don't you think that the special\n"
-	.string "abilities of POKéMON will be useful\l"
-	.string "here?$"
+	.string "תקשיב{ADD_YUD}! תקשיב{ADD_YUD}!\p"
+	.string "את{EMIT_HEY} לא חושב{ADD_TAF} שהיכולות\n"
+	.string "המיוחדות של פוקימונים יהיו שימושיות\l"
+	.string "כאן?$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-	.string "What is this weird place?\n"
-	.string "I can't figure it out at all!\p"
-	.string "I've taken the challenge a bunch\n"
-	.string "of times, but all I ever do is run into\l"
-	.string "TRAINERS whichever path I choose.$"
+	.string "מה זה המקום המוזר הזה?\n"
+	.string "אני לא מצליח להבין את זה בכלל!\p"
+	.string "ניסיתי את האתגר מספר פעמים,\n"
+	.string "אבל כל מה שאני עושה זה להיתקל\l"
+	.string "במאמנים בכל נתיב שאני בוחר.$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
-	.string "The Battle Choice's rules are listed.$"
+	.string "חוקי בחירת הקרב רשומים.$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "איזו כותרת את{EMIT_HEY} רוצה לקרוא?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-	.string "The BAG and POKéNAV may not be used\n"
-	.string "during a Battle Choice challenge.$"
+	.string "אין להשתמש בתיק ובפוקינווט\n"
+	.string "במהלך אתגר בחירת הקרב.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "any BERRY or HERB held by POKéMON\l"
-	.string "will be effective only once.$"
+	.string "במהלך אתגר בחירת הקרב,\n"
+	.string "כל פרי יער או עשב המוחזק על ידי פוקימונים\l"
+	.string "יהיה יעיל רק פעם אחת.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
-	.string "During a Battle Choice challenge,\n"
-	.string "the sequence of POKéMON cannot be\l"
-	.string "changed.\p"
-	.string "The sequence must be set before\n"
-	.string "starting your challenge.$"
+	.string "במהלך אתגר בחירת הקרב,\n"
+	.string "הרצף של פוקימונים לא יכול\l"
+	.string "להשתנות.\p"
+	.string "יש לקבוע את הרצף לפני\n"
+	.string "תחילת האתגר שלך.$"
 

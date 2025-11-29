@@ -569,7 +569,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
     .string "המוכשרים לאתגר.\p"
     .string "אנא זכ{EMIT_VAV}ר{ADD_YUD} גם להסיר את כל הפריטים\n"
     .string "מהפוקימונים שלך.\p"
-    .string "ביצים{STR_VAR_1} אינן כשירות.\p"
+    .string "ביצים{STR_VAR_1} אינן מתאימות.\p"
     .string "כשאת{EMIT_HEY} מוכ{SWAP_NUN}{ADD_YUD}, דבר{ADD_YUD} איתי שוב.$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
@@ -580,7 +580,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
     .string "וכל אחד מהם לא גבוה מרמה 05.\p"
     .string "אנא זכ{EMIT_VAV}ר{ADD_YUD} גם להסיר את כל הפריטים\n"
     .string "מהפוקימונים שלך.\p"
-    .string "ביצים{STR_VAR_1} אינן כשירות.\p"
+    .string "ביצים{STR_VAR_1} אינן מתאימות.\p"
     .string "כשאת{EMIT_HEY} מוכ{SWAP_NUN}{ADD_YUD}, דבר{ADD_YUD} איתי שוב.$"
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:

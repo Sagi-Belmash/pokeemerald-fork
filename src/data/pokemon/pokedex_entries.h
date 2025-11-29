@@ -2942,7 +2942,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SUICUNE] =
     {
-        .categoryName = _("זוהר קוטבי"),
+        .categoryName = _("זוהר הקוטב"),
         .height = 20,
         .weight = 1870,
         .description = gSuicunePokedexText,

@@ -288,192 +288,192 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 	end
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough TRAINER.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "BEAUTY around, I tell you!\p"
+	.string "בוהאהאהא!\p"
+	.string "את{EMIT_HEY} לא יכול{ADD_HEY} לדעת מלהסתכל עכשיו,\n"
+	.string "אבל פעם הייתי מאמנת קשוחה.\p"
+	.string "היה לי מוניטין בתור היופי הכי\n"
+	.string "קשוח בסביבה, אני אומרת לך!\p"
 	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your POKéMON special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "מה זה עכשיו?\n"
+	.string "את{EMIT_HEY} לא מאמי{SWAP_NUN}{ADD_HEY} לי.\p"
+	.string "אני לא כמו האישה המתנשאת שם\n"
+	.string "מעבר. אני באמת מוכשרת!\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי להוכיח לך את זה.\n"
+	.string "אני יכולה ללמד את הפוקימונים שלך מהלכים\l"
+	.string "מיוחדים ועם זאת חמודים.\p"
+	.string "אבל השיעורים שלי לא ניתנים בחינם.\n"
+	.string "מה דעתך לשלם עבור המהלכים שאני מלמדת\l"
+	.string "עם קצת נקודות קרב?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute POKéMON moves?$"
+	.string "בווהאהאהא!\p"
+	.string "האם חזרת ללמוד מהלכי פוקימון\n"
+	.string "מיוחדים ועם זאת חמודים?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "בסדר, בסדר, תסתכל{ADD_YUD} לכאן!\n"
+	.string "איזה מהלך עליי ללמד?$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "המהלך {STR_VAR_1}, נכון?\n"
+	.string "זה יעלה {STR_VAR_2} נקודות קרב, אוקיי?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the POKéMON\n"
-	.string "I should teach the move to.$"
+	.string "בסדר, בסדר, עכשיו בחר{ADD_YUD} את הפוקימון\n"
+	.string "שעליי ללמד אותו את המהלך.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "מה לע…\n"
+	.string "אין לך מספיק נקודות קרב!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "את{EMIT_HEY} רואה כמה אני מוכשרת עכשיו?\n"
+	.string "אני אקח את נקודות הקרב שלך, תודה!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "מה זה?\n"
+	.string "את{EMIT_HEY} לא רוצה…\p"
+	.string "אם את{EMIT_HEY} רוצה לראות כמה אני מוכשרת,\n"
+	.string "את{EMIT_HEY} מוזמ{SWAP_NUN}{ADD_TAF} לבוא לראות אותי בכל עת!$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic TRAINER.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible SWIMMER around, I tell you!\p"
+	.string "איחיחי!\p"
+	.string "אני יודע שקשה לראות עכשיו, אבל פעם\n"
+	.string "הייתי מאמן פנטסטי.\p"
+	.string "היה לי מוניטין בתור השחיין\n"
+	.string "הבלתי מנוצח בסביבה, אני אומר לך!\p"
 	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your POKéMON hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "מה לא בסדר?\n"
+	.string "את{EMIT_HEY} לא מאמי{SWAP_NUN}{ADD_HEY} לי.\p"
+	.string "אני לא כמו האישה המגושמת שם\n"
+	.string "מעבר. אני באמת מנוסה!\p"
+	.string "אני יכול להוכיח לך את זה.\n"
+	.string "אני יכול ללמד את הפוקימונים שלך מהלכים\l"
+	.string "קשוחים ועם זאת יפים.\p"
+	.string "אבל השיעורים שלי לא ניתנים בחינם.\n"
+	.string "מה דעתך לשלם עבור המהלכים שאני מלמד\l"
+	.string "עם קצת נקודות קרב?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty POKéMON moves?$"
+	.string "איחיחי!\p"
+	.string "האם חזרת ללמוד מהלכי פוקימון\n"
+	.string "קשוחים ועם זאת יפים?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "הנשים האלה, הדרך שבה הן משמיצות\n"
+	.string "אחת את השנייה, את{EMIT_HEY} בטח חושב{ADD_TAF}\l"
+	.string "שהן לא מסתדרות.\p"
+	.string "אבל אם זה היה נכון, הן לא היו\n"
+	.string "נשארות כאן יחד, נכון?$"
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee YOUNGSTER,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us TRAINERS.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their POKéMON moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "כשהייתי רק צעיר קטן,\n"
+	.string "הנשים האלה היו חזקות ויפות.\p"
+	.string "הן היו אלילות בקרבנו המאמנים.\p"
+	.string "גם עכשיו, הגיל לא הקהה את\n"
+	.string "היכולות שלהן.\p"
+	.string "למעשה, מהלכי הפוקימון שלהן הפכו\n"
+	.string "מלוטשים יותר.\p"
+	.string "אבל… משום מה, אני לא יכול שלא\n"
+	.string "להרגיש את זה…\p"
+	.string "הזמן כל כך אכזרי…$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum HP.$"
+	.string "משקם עד\n"
+	.string "מחצית מהנח\n"
+	.string "המקסימליים של המשתמש.$"
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "מטיל נזק\n"
+	.string "זהה לרמה\n"
+	.string "של המשתמש.$"
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "משקם מחצית\n"
+	.string "מהנזק שהוטל\n"
+	.string "על יריב ישן.$"
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "אגרוף חזק\n"
+	.string "שנזרק עם\n"
+	.string "כוח מדהים.$"
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "בעיטה עוצמתית\n"
+	.string "בצורה יוצאת\n"
+	.string "דופן עם כוח עצום.$"
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "הטלת גוף מלאה\n"
+	.string "שעלולה לגרום\n"
+	.string "לשיתוק.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "סלעים גדולים\n"
+	.string "מוטלים. עלול\n"
+	.string "לגרום לרתיעה.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "מגיב על כל\n"
+	.string "מכה פיזית\n"
+	.string "בכוח כפול.$"
 
 BattleFrontier_Lounge7_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "זעזוע חלש של\n"
+	.string "חשמל שמשתק\n"
+	.string "את היריב.$"
 
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises ATTACK.$"
+	.string "ריקוד לחימה\n"
+	.string "שמעלה בחדות\n"
+	.string "את ההתקפה.$"
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise DEFENSE.$"
+	.string "מתכרבל כדי\n"
+	.string "להסתיר נקודות\n"
+	.string "תורפה ולהעלות הגנה.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "התקפה קולנית\n"
+	.string "שניתן להשתמש\n"
+	.string "בה רק בשינה.$"
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "מטיל בוץ על\n"
+	.string "פני היריב כדי\n"
+	.string "להפחית את הדיוק.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "מתיז קרניים\n"
+	.string "דמויות כוכב\n"
+	.string "שלעולם לא מחטיאות.$"
 
 BattleFrontier_Lounge7_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's SPEED.$"
+	.string "התקפה מצמררת\n"
+	.string "שמורידה את\n"
+	.string "המהירות של היריב.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "עומד בכל\n"
+	.string "התקפה למשך\n"
+	.string "סיבוב אחד, ומשאיר 1 נח.$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "מעתיק את\n"
+	.string "ההשפעות של היריב\n"
+	.string "ונותן למשתמש.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "אגרוף קפוא\n"
+	.string "שעלול להקפיא\n"
+	.string "את היריב.$"
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "אגרוף\n"
+	.string "מחושמל שעלול\n"
+	.string "לשתק את היריב.$"
 
 BattleFrontier_Lounge7_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "אגרוף לוהט\n"
+	.string "שעלול לשרוף\n"
+	.string "את היריב.$"

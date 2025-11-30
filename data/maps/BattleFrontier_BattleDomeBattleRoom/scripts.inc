@@ -987,12 +987,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
-	.string "האם ניתן להשיג את ההישג של_אליפות\n"
+	.string "האם ניתן להשיג את ההישג של אליפות\n"
 	.string "בניסיון הראשון?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-	.string "האם ניתן לנקום את ההפסד של_המשחק\n"
+	.string "האם ניתן לנקום את ההפסד של המשחק\n"
 	.string "הקודם?\p"
 	.string "$"
 
@@ -1047,7 +1047,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-	.string "הרגישו את הזוהר של_אמן אמיתי!$"
+	.string "הרגישו את הזוהר של אמן אמיתי!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 	.string "ועכשיו… המאמן שעומד ב_דרכו\n"
@@ -1108,14 +1108,14 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "בנים, בנות ופוקימונים!\p"
 	.string "סוף סוף!\n"
 	.string "סוף סוף, האגדה חזרה!\p"
-	.string "כן, השם של_האגדה הזו!\n"
+	.string "כן, השם של האגדה הזו!\n"
 	.string "אלוף הכיפה שלנו!\l"
 	.string "זה לא אחר מאשר טאקר!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "טאקר: אה…\n"
-	.string "שאגת ההרס של_הקהל…\l"
-	.string "החום דמוי_הכבשן של_ההתרגשות שלהם…\l"
+	.string "שאגת ההרס של הקהל…\l"
+	.string "החום דמוי_הכבשן של ההתרגשות שלהם…\l"
 	.string "זה מקום נפלא…\p"
 	.string "עבור הקהל, אני אלוף הכיפה…\n"
 	.string "אני מייצג את התקוות והחלומות שלהם…\l"

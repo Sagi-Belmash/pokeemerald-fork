@@ -472,7 +472,7 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "יש שבעה מתקנים ב\n"
 	.string "גבול הקרב.\p"
-	.string "מאמנים שמקבלים הכרה על_יכולותיהם\n"
+	.string "מאמנים שמקבלים הכרה על יכולותיהם\n"
 	.string "עשויים לקבל סמלים כפרס\l"
 	.string "מכל אחד מהמתקנים.\p"
 	.string "כדי לזכות בסמל, מאמנים עשויים להצטרך\n"

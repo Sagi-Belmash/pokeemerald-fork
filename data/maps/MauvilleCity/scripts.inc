@@ -459,7 +459,7 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-	.string "דוד: זה בגלל פוקימונים של_הילד\n"
+	.string "דוד: זה בגלל פוקימונים של הילד\n"
 	.string "הזה יש יותר חיוניות, אני מניח…\l"
 	.string "אבל הוא נהיה קצת יותר מדי נמרץ…$"
 
@@ -621,7 +621,7 @@ MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "אנשים שעוברים דרך.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "האם היית כבר בחנות האופניים של_ריידל?\p"
+	.string "האם היית כבר בחנות האופניים של ריידל?\p"
 	.string "ריידל, הבעלים, הוא איש נדיב\n"
 	.string "מאוד.$"
 

@@ -42,7 +42,7 @@ Route106_EventScript_Ned::
 	end
 
 Route106_Text_TrainerTips:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "עצה לתפיסת פוקימון עם חכה:\n"
 	.string "לחצו על כפתור A אם יש ביס.$"
 

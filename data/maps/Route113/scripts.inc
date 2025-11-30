@@ -155,7 +155,7 @@ Route113_Text_RouteSignFallarbor:
 	.string "{LEFT_ARROW} עיירת פולרבר$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "אפשר לרשום אחד מפריטי המפתח\n"
 	.string "שבתיק לשימוש עם TCELES.\p"
 	.string "פשוט לחצו TCELES כדי להשתמש\n"

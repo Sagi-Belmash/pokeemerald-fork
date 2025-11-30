@@ -311,7 +311,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro:
 	.string "שאני מנהיגה רק זמן קצר!\p"
 	.string "עם כישורים שירשתי מסבי\n"
 	.string "רבא, אני א… אני אדגים את\l"
-	.string "המהלכים הלוהטים שחישלנו על_האדמה הזו!$"
+	.string "המהלכים הלוהטים שחישלנו על האדמה הזו!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "הו…\n"

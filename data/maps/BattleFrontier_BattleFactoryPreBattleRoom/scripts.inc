@@ -633,7 +633,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "הו, אלוהים…\n"
 	.string "מצטער לשמור אותך ממתין!\p"
-	.string "יש לי הודעה מהבוס של_המתקן הזה,\n"
+	.string "יש לי הודעה מהבוס של המתקן הזה,\n"
 	.string "ראש בית_החרושת.\p"
 	.string "הוא אומר, “אנחנו הולכים לעשות את זה!\n"
 	.string "בוא לכאן מיד!”$"

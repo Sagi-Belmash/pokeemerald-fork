@@ -759,7 +759,7 @@ Route110_Text_MayLetsBattle:
 	.string "בזמן שחיפשתי פוקימונים\n"
 	.string "אחרים, הפוקימון שלי גדל חזק יותר.\p"
 	.string "אז…\n"
-	.string "מה דעתך על_קרב קטן?$"
+	.string "מה דעתך על קרב קטן?$"
 
 Route110_Text_MayDefeated:
 	.string "יואו!\n"
@@ -861,7 +861,7 @@ Route110_Text_CyclingChallengeResultSummary:
 
 Route110_Text_ChallengeReactionBest:
 	.string "בראבו! הופעה נהדרת!\p"
-	.string "האהבה שלך לרכיבה על_אופניים מגיעה\n"
+	.string "האהבה שלך לרכיבה על אופניים מגיעה\n"
 	.string "עמוק מתוך ליבך.\l"
 	.string "זעזעת אותי עד עמקי נשמתי!$"
 
@@ -874,7 +874,7 @@ Route110_Text_ChallengeReactionOk:
 	.string "הייתי מחשיב אותך כעבודה\n"
 	.string "בתהליך.\p"
 	.string "עם זאת, אני מקווה שלא תשכח את\n"
-	.string "ההנאה הטהורה של_רכיבה על_אופניים.$"
+	.string "ההנאה הטהורה של רכיבה על אופניים.$"
 
 Route110_Text_ChallengeReactionBad:
 	.string "אלוהים… כישורי הרכיבה שלך גובלים\n"
@@ -913,11 +913,11 @@ Route110_Text_SlateportCitySign:
 	.string "{DOWN_ARROW} עיר סלייטפורט$"
 
 Route110_Text_CyclingRoadSign:
-	.string "כביש האופניים של_חוף_הים$"
+	.string "כביש האופניים של חוף_הים$"
 
 Route110_Text_AquaWasHere:
 	.string "“צוות אקווה היה כאן!”\p"
-	.string "מישהו צבע את זה על_השלט הזה,\n"
+	.string "מישהו צבע את זה על השלט הזה,\n"
 	.string "אבל מישהו אחר צבע מעל.\p"
 	.string "“צוות מגמה שולט!” זה מה שזה\n"
 	.string "אומר עכשיו.$"
@@ -982,7 +982,7 @@ Route110_Text_RegisteredBirchInPokenav:
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "פרופ. בירץ': {PLAYER}{KUN}…\p"
-	.string "אנא השגח על_היריב שלי.\n"
+	.string "אנא השגח על היריב שלי.\n"
 	.string "… … … … … …\p"
 	.string "טוב, מוטב שאמשיך בדרכי.\n"
 	.string "נתראה שוב, {PLAYER}{KUN}!$"

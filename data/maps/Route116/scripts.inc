@@ -452,7 +452,7 @@ Route116_Text_TunnelersRestHouse:
 	.string "בית מנוחת החופרים$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "אם אתם רוצים למנוע מהפוקימון\n"
 	.string "להתפתח, לחצו על כפתור B בזמן\l"
 	.string "שהוא מנסה להתפתח.\l"
@@ -460,7 +460,7 @@ Route116_Text_TrainerTipsBToStopEvolution:
 	.string "זה נקרא ביטול התפתחות.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "בתיק שלך יש כמה תאים.\p"
 	.string "פריטים שמקבלים נכנסים\n"
 	.string "אוטומטית לתאים המתאימים.\p"

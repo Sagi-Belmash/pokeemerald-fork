@@ -601,11 +601,11 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
 	.string "אבל אף אחד לא רוצה להקשיב…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
-	.string "אני שומע דברים על_מאמן\n"
+	.string "אני שומע דברים על מאמן\n"
 	.string "חדש וקשוח.\p"
 	.string "המאמן הזה אמור להביס\n"
 	.string "אפילו מנהיגי מכונים.\p"
-	.string "האם אתה יודע משהו על_המאמן\n"
+	.string "האם אתה יודע משהו על המאמן\n"
 	.string "החדש הזה?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou:
@@ -720,7 +720,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
 	.string "{STR_VAR_1} הוא כזה קול בצורה מטורפת…\n"
-	.string "אני רוצה ללחוץ את ידו של_הגיבור שלי.$"
+	.string "אני רוצה ללחוץ את ידו של הגיבור שלי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 	.string "גם אם אני היחיד…\p"
@@ -732,7 +732,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
 	.string "{PLAYER}!\n"
 	.string "אתה מדהים אחרי הכל!\p"
-	.string "מאז ש_שמתי את העיניים על_יך,\n"
+	.string "מאז ש_שמתי את העיניים על יך,\n"
 	.string "ידעתי שאתה נהדר.\p"
 	.string "נראה שהעיניים שלי לא הטעו אותי.$"
 

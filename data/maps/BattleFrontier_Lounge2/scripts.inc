@@ -256,7 +256,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "האם נלחמת בשליטת הזירה\n"
 	.string "כשהיא רצינית?\p"
-	.string "כשהיא נלחמת על_אמת,\n"
+	.string "כשהיא נלחמת על אמת,\n"
 	.string "היא משתמשת לכאורה בפוקימונים הבאים:\p"
 	.string "פוקימון אור ירח מטיפוס אפל,\n"
 	.string "פוקימון צל רוח ורעל\l"

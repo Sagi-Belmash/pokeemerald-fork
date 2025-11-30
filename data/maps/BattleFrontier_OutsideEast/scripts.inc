@@ -251,7 +251,7 @@ BattleFrontier_OutsideEast_Text_BattlePyramidSign:
 	.string "התקדם דרך מסע הקרב!$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
-	.string "אולם הדירוג של_גבול הקרב\n"
+	.string "אולם הדירוג של גבול הקרב\n"
 	.string "כוון לשיאים חדשים!$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
@@ -341,7 +341,7 @@ BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
 	.string "זה לא היה קל להגיע לכאן,\n"
-	.string "אבל שמעתי על_ילדה יפהפייה\l"
+	.string "אבל שמעתי על ילדה יפהפייה\l"
 	.string "בזירת הקרב.\p"
 	.string "במקום אותה, אתה יודע מה\n"
 	.string "מצאתי?\p"

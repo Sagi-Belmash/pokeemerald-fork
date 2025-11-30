@@ -452,7 +452,7 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "נוחים שפוקימונים יכולים להחזיק.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "כל פוקימון שמופיע אפילו פעם אחת בקרב\n"
 	.string "מקבל נקודות ניסיון.\p"
 	.string "כדי לגדל פוקימון חלש, שי{SWAP_MEM}{ADD_YUD} אותו בצד שמאל\n"
@@ -461,7 +461,7 @@ PetalburgWoods_Text_TrainerTipsExperience:
 	.string "החוצה. הוא יקבל ניסיון מבלי להיפגע.$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "בנוסף לנקודות חיים (נח), לפוקימון\n"
 	.string "יש גם נקודות כוח (נכ) שמשמשות\l"
 	.string "למהלכים בקרב.\p"

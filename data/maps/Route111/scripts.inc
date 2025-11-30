@@ -566,45 +566,43 @@ Route111_EventScript_TrainerHillSign::
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
-הנה התרגום לעברית של הדיאלוגים מדרך 111, ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 Route111_Text_BattleOurFamily:
-	.string "שלום! אני מניח שאתה נוסע.\p"
-	.string "מה דעתך? מה אתה אומר על_קבלת\n"
+	.string "שלום! אני מניח שאת{EMIT_HEY} מטייל{ADD_TAF}.\p"
+	.string "מה דעתך? מה את{EMIT_HEY} אומר על הסכמת\n"
 	.string "אתגר נגד המשפחה שלנו, ארבעה מאיתנו, בסדרת\l"
 	.string "קרבות פוקימונים?$"
 
 Route111_Text_IsThatSo:
-	.string "האם זה כך?\n"
-	.string "בוא לבקר, אם תשנה את דעתך!$"
+	.string "אכן כך?\n"
+	.string "בוא{ADD_YUD} לבקר, אם תשנ{EMIT_HEY}{ADD_YUD} את דעתך!$"
 
 Route111_Text_VictorIntro:
-	.string "זו הרוח! אני מחבב אותך!$"
+	.string "זה הרוח! אני מחבב אותך!$"
 
 Route111_Text_VictorDefeat:
 	.string "איייה!\n"
-	.string "אתה הרבה יותר קשוח ממה שציפיתי!$"
+	.string "את{EMIT_HEY} הרבה יותר קשוח{ADD_HEY} ממה שציפיתי!$"
 
 Route111_Text_VictorPostBattle:
 	.string "היי, כולם!\n"
-	.string "מצאתי מאמן די חזק!$"
+	.string "מצאתי מאמ{SWAP_NUN}{ADD_TAF} די חזק{ADD_HEY}!$"
 
 Route111_Text_VictoriaIntro:
-	.string "הו, אלוהים! אתה לא צעיר?\p"
-	.string "אתה בטח מאמן לא רע אם ניצחת\n"
+	.string "או, אלוהים! את{EMIT_HEY} לא צעיר{ADD_HEY}?\p"
+	.string "את{EMIT_HEY} בטח מאמ{SWAP_NUN}{ADD_TAF} לא רע{ADD_HEY} אם ניצחת\n"
 	.string "את בעלי, עם זאת.\p"
 	.string "עכשיו תורי להילחם!$"
 
 Route111_Text_VictoriaDefeat:
-	.string "הו, אלוהים!\n"
-	.string "אני לא מצליחה להתגבר על כמה שאתה חזק!$"
+	.string "או, אלוהים!\n"
+	.string "אני לא מצליחה להתגבר על כמה שאת{EMIT_HEY} חזק{ADD_HEY}!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "יש כאן מאמן חזק!\n"
-	.string "הוא ממש חזק!$"
+	.string "יש כאן מאמ{SWAP_NUN}{ADD_TAF} חזק{ADD_HEY}!\n"
+	.string "ה{EMIT_VAV}{ADD_YUD}א ממש חזק{ADD_HEY}!$"
 
 Route111_Text_ViviIntro:
-	.string "אתה חזק יותר מאמא? וואו!\p"
+	.string "את{EMIT_HEY} חזק{ADD_HEY} יותר מאמא? ואו!\p"
 	.string "אבל אני גם חזקה!\n"
 	.string "באמת! בכנות!$"
 
@@ -613,31 +611,31 @@ Route111_Text_ViviDefeat:
 
 Route111_Text_ViviPostBattle:
 	.string "זה מבאס…\p"
-	.string "…חטפנות… סבתא!$"
+	.string "…בכי… סבתא!$"
 
 Route111_Text_VickyIntro:
-	.string "איך אתה מעז לגרום לנכדה שלי\n"
+	.string "איך את{EMIT_HEY} מעז{ADD_HEY} לגרום לנכדה שלי\n"
 	.string "לבכות!\p"
 	.string "בגלל זה, אני הולכת להרביץ לך!\n"
-	.string "התכונן להפסד!$"
+	.string "התכונ{SWAP_NUN}{ADD_YUD} להפסד!$"
 
 Route111_Text_VickyDefeat:
-	.string "קווא! אתה חזק…\n"
+	.string "קוואה! את{EMIT_HEY} חזק{ADD_HEY}…\n"
 	.string "הנכדה שלי צדקה…$"
 
 Route111_Text_VickyPostBattle:
-	.string "אם אתה לא ממהר,\n"
-	.string "תבקר אצלנו קצת.$"
+	.string "אם את{EMIT_HEY} לא ממהר{ADD_TAF},\n"
+	.string "תבקר{ADD_YUD} אצלנו קצת.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "אם לא תגדל את הפוקימונים שלך קצת\n"
+	.string "אם לא תגדל{ADD_YUD} את הפוקימונים שלך קצת\n"
 	.string "יותר, זה יכול להיות קשה להמשיך\l"
 	.string "ולנצח ברמות הגבוהות.\p"
-	.string "שמעתי ש_הרביעייה_הבכירה של_ליגת_הפוקימונים\n"
+	.string "שמעתי שהרביעייה העלית של ליגת הפוקימונים\n"
 	.string "חזקה בהרבה מכל מנהיג מכון.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "אתגרתי את משפחת ווינסטרייט,\n"
+	.string "אני אתגרתי את משפחת ווינסטרייט,\n"
 	.string "אבל ארבעה קרבות ברציפות זה קשה\l"
 	.string "מדי… הם השמידו אותי.$"
 
@@ -646,35 +644,35 @@ Route111_Text_RouteSignMauville:
 	.string "{DOWN_ARROW} עיר מוויל$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "“הלבבות של_המשפחה שלנו פועמים כאחד!”\n"
+	.string "”הלבבות של המשפחה שלנו פועמים כאחד!“\n"
 	.string "הבית של ווינסטרייט$"
 
 Route111_Text_RouteSign112:
 	.string "דרך 111\n"
-	.string "{LEFT_ARROW} דרך 112$"
+	.string "{LEFT_ARROW} דרך 211$"
 
 Route111_Text_RouteSign113:
 	.string "דרך 111\n"
-	.string "{LEFT_ARROW} דרך 113$"
+	.string "{LEFT_ARROW} דרך 311$"
 
 Route111_Text_OldLadysRestStopSign:
-	.string "תחנת מנוחה של_אישה_זקנה\n"
-	.string "“היכנס לנוח מ_העצמות העייפות שלך.”$"
+	.string "בית מנוחה של אישה זקנה\n"
+	.string "”היכנסו לנוח מהעצמות העייפות שלכם.“$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "טיפים למאמנים\p"
-	.string "אחד המדדים לעוצמה של_פוקימון\n"
-	.string "הוא SP. ATK. זה מייצג\l"
-	.string "“התקפה מיוחדת.”\p"
-	.string "באופן דומה, SP. DEF מייצג “הגנה\n"
-	.string "מיוחדת.”$"
+	.string "אחד המדדים לעוצמה של פוקימון\n"
+	.string "הוא התקפה מ. שזה מייצג\l"
+	.string "”התקפה מיוחדת.“\p"
+	.string "באופן דומה, הגנה מ. מייצג ”הגנה\n"
+	.string "מיוחדת.“$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "אמורה להיות מגדל עשוי חול\n"
+	.string "אמור להיות מגדל עשוי חול\n"
 	.string "איפשהו כאן.\p"
 	.string "אבל משום מה, ניתן לראות אותו\n"
 	.string "לפעמים, ולפעמים לא.\p"
-	.string "זו הסיבה שבגללה אני קורא לזה מגדל התעתועים.$"
+	.string "זו הסיבה שבגללה אני קורא לו מגדל התעתוע.$"
 
 Route111_Text_MirageTowerClearlyVisible:
 	.string "אני רואה אותו!\n"
@@ -687,7 +685,7 @@ Route111_Text_MirageTowerClearlyVisible:
 	.string "מצליח לאזור אומץ לזה…$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "וואו…\n"
+	.string "וואה…\n"
 	.string "זה היה מזעזע.\p"
 	.string "חול ירד בגושים בבת אחת.\n"
 	.string "פתאום.\p"
@@ -698,7 +696,7 @@ Route111_Text_MirageTowerHasntBeenSeenSince:
 	.string "מאז שדיברתי איתך, מגדל החול\n"
 	.string "לא נראה.\p"
 	.string "אולי זה באמת היה\n"
-	.string "מגדל התעתועים…$"
+	.string "מגדל התעתוע…$"
 
 Route111_Text_ClawFossilDisappeared:
 	.string "מאובן הטופר נעלם אל\n"
@@ -709,15 +707,15 @@ Route111_Text_RootFossilDisappeared:
 	.string "תוך החול…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "הו, לא!\p"
+	.string "או, לא!\p"
 	.string "הדוד שלי במוויל אמר לי לקחת\n"
-	.string "ריסוק סלע (ROCK SMASH) איתי אם אני הולך\l"
+	.string "ריסוק סלע איתי אם אני הולך\l"
 	.string "לדרך 111!\p"
 	.string "הדוד שלי? הוא גר ממול\n"
 	.string "לחנות האופניים במוויל.$"
 
 Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} כניסה לגבעת המאמנים\p"
-	.string "“טפסו לגבהים, אתם מאמנים\n"
-	.string "בעלי דם חם!”$"
+	.string "”טפסו לגבהים, אתם המאמנים\n"
+	.string "בעלי דם חם!“$"
 

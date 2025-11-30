@@ -487,13 +487,13 @@ BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
 	.string "הדברים לא הלכו בדרכי\n"
 	.string "בכלל.\p"
-	.string "אתה צריך לבדוק את הפוקימונים של_היריב\n"
+	.string "אתה צריך לבדוק את הפוקימונים של היריב\n"
 	.string "שלך במהלך הקרב כדי לראות אם\l"
 	.string "הם טובים.$"
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
 	.string "אתה יודע איך הצוות כאן נותן לך\n"
-	.string "כמה רמזים על_היריב הבא שלך?\p"
+	.string "כמה רמזים על היריב הבא שלך?\p"
 	.string "טוב, אני גבר בוגר, אבל אני מתקשה\n"
 	.string "להבין את הרמזים שלהם.$"
 
@@ -527,7 +527,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 	.string "אחרי כל קרב שאתה מנצח, אתה יכול\n"
-	.string "להחליף עבור אחד מהפוקימונים של_היריב\l"
+	.string "להחליף עבור אחד מהפוקימונים של היריב\l"
 	.string "המובס שלך.\p"
 	.string "אתה לא תוכל להחליף פוקימונים\n"
 	.string "עם המאמן ה-7 באירוע.$"
@@ -536,7 +536,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "יש שתי נקודות מפתח ש_צריך לשים לב\n"
 	.string "אליהן בעת החלפת פוקימונים.\p"
 	.string "ראשית, בעת החלפה, אתה לא יכול לבדוק\n"
-	.string "את הנתונים של_הפוקימון ש_אתה עומד\l"
+	.string "את הנתונים של הפוקימון ש_אתה עומד\l"
 	.string "לקבל.\p"
 	.string "שנית, הפוקימונים בצוות שלך\n"
 	.string "ממוקמים ברצף, בהתאם ל_סדר\l"
@@ -546,5 +546,5 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
 	.string "ברמה הפתוחה, הפוקימונים השכורים\n"
-	.string "והפוקימונים של_המאמנים היריבים\l"
+	.string "והפוקימונים של המאמנים היריבים\l"
 	.string "הם כולם רמה 001.$"

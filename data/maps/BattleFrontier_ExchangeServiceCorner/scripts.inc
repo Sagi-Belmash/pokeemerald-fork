@@ -604,7 +604,7 @@ BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
 	.string "עד הסוף כדי להשיג לך את זה, מותק!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "אם אני אצליח לשים יד על_הפריטים כאן,\n"
+	.string "אם אני אצליח לשים יד על הפריטים כאן,\n"
 	.string "הפוקימון שלי יהפוך לקשוח יותר.\p"
 	.string "בטח שכן!\n"
 	.string "בלי ספק!$"

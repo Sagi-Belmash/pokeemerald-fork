@@ -476,12 +476,12 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "מיי: {PLAYER}{KUN}!\n"
+	.string "מאי: {PLAYER}{KUN}!\n"
 	.string "איפה היית? חיפשתי אותך!\p"
 	.string "כמה חזק יותר נהיית?\n"
 	.string "תן לי לבדוק אותך!\p"
 	.string "מוכן עם הפוקימונים שלך?\n"
-	.string "כמובן שאתה מוכן! לך!$"
+	.string "כמובן שאתה מוכן! קדימה!$"
 
 Route119_Text_MayDefeat:
 	.string "אצ'ה!\n"
@@ -490,15 +490,15 @@ Route119_Text_MayDefeat:
 	.string "מתקשה באימונים שלך.$"
 
 Route119_Text_MayPresentForYou:
-	.string "מיי: אבל לא היה לי שום דבר\n"
+	.string "מאי: אבל לא היה לי שום דבר\n"
 	.string "לדאוג לגביו! תמשיך ככה!\p"
 	.string "והנה! יש לי מתנה בשבילך.$"
 
 Route119_Text_MayExplainFly:
-	.string "מיי: השתמש ב_מעוף (FLY), והפוקימון שלך\n"
+	.string "מאי: תשתמש בתעופה, והפוקימון שלך\n"
 	.string "ישא אותך באופן מיידי לכל עיר שבה\l"
 	.string "כבר ביקרת.\p"
-	.string "אבל, כדי להשתמש ב_מעוף (FLY), אתה צריך לקבל\n"
+	.string "אבל, כדי להשתמש בתעופה, אתה צריך לקבל\n"
 	.string "את תג המכון של פורטרי.\l"
 	.string "זה חשוב, אז אל תשכח.\p"
 	.string "כדאי לך לטוס הביתה ולבקר\n"
@@ -510,41 +510,41 @@ Route119_Text_MayExplainFly:
 Route119_Text_BrendanIntro:
 	.string "ברנדן: {PLAYER}! אז כאן\n"
 	.string "חיפשת פוקימונים?\p"
-	.string "תן לי לראות כמה טוב נהיית.\n"
+	.string "תני לי לראות כמה טובה נהיית.\n"
 	.string "אני אבחן אותך!\p"
 	.string "עכשיו!\n"
-	.string "זה קרב, אז הילחם!$"
+	.string "זה קרב, אז הילחמי!$"
 
 Route119_Text_BrendanDefeat:
 	.string "הממ…\n"
-	.string "נהיית די טוב.$"
+	.string "נהיית די טובה.$"
 
 Route119_Text_BrendanIllGiveYouThis:
-	.string "ברנדן: הייתי אומר שאתה מספיק טוב\n"
+	.string "ברנדן: הייתי אומר שאת מספיק טובה\n"
 	.string "כדי לחפש פוקימונים בכל מקום.\p"
 	.string "הנה, אני אתן לך את זה.\n"
-	.string "נסה את זה!$"
+	.string "נסי את זה!$"
 
 Route119_Text_BrendanExplainFly:
-	.string "ברנדן: השתמש ב_מעוף (FLY), והפוקימון\n"
-	.string "שלך נושא אותך באופן מיידי לכל עיר\l"
+	.string "ברנדן: השתמש בתעופה, והפוקימון\n"
+	.string "שלך יישא אותך באופן מיידי לכל עיר\l"
 	.string "שכבר ביקרת.\p"
-	.string "אבל אתה צריך את תג המכון של פורטרי\n"
+	.string "אבל את{EMIT_HEY} צריכה את תג המכון של פורטרי\n"
 	.string "כדי לעשות את זה.\p"
 	.string "בכל מקרה, אני צריך להמשיך הלאה.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "סקוט: האחהחחח!\n"
+	.string "סקוט: האהאהא!\n"
 	.string "כל הכבוד, {PLAYER}{KUN}!\p"
-	.string "בדיוק עברתי ליד מאמן שרכב\n"
+	.string "בדיוק חלפתי על פני מאמן שרכב\n"
 	.string "על אופניים.\p"
 	.string "בדיוק ניצחת את המאמן ההוא, נכון?\n"
 	.string "זה היה די ברור שעשית את זה.\p"
-	.string "הילד נראה ממש נסער עם\n"
+	.string "הילד{EMIT_HEY} נראה ממש נסער{EMIT_TAF} עם\n"
 	.string "פנים אדומות מכעס.\p"
 	.string "אני באמת נתקל בך לעתים קרובות.\n"
-	.string "אתה בדרך למכון פורטרי עכשיו?\p"
-	.string "אני מצפה שתצליח במכון.\n"
+	.string "את{EMIT_HEY} בדרך למכון פורטרי עכשיו?\p"
+	.string "אני מצפה שתצליח{ADD_YUD} במכון.\n"
 	.string "טוב, נתראה!$"
 
 
@@ -552,40 +552,40 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … …\n"
 	.string "… … … … … ביפ!\p"
 	.string "סקוט: היי, {PLAYER}{KUN}, זה אני!\p"
-	.string "בדיוק כפי שחשבתי, ניצחת ב\n"
-	.string "מכון פורטרי.\p"
+	.string "בדיוק כפי שחשבתי, ניצחת\n"
+	.string "במכון פורטרי.\p"
 	.string "הכוח שלך…\n"
-	.string "אולי אתה באמת המאמן\l"
+	.string "אולי את{EMIT_HEY} באמת המאמ{SWAP_NUN}{ADD_TAF}\l"
 	.string "שחיפשתי.\p"
-	.string "זכור, יש לך מעריץ בי.\n"
+	.string "זכ{EMIT_VAV}ר{ADD_YUD}, יש לך מעריץ.\n"
 	.string "אני אעודד מהצד.\l"
-	.string "תמשיך בעבודה הנהדרת!\p"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD} בעבודה הנהדרת!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … קליק!$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-	.string "אנחנו עומדים לשמור כאן.\p"
-	.string "היי, אתה! תתרחק ממכון מזג\n"
+	.string "אנחנו עומדים כאן על המשמר.\p"
+	.string "היי, את{EMIT_HEY}! תתרחק{ADD_YUD} ממכון מזג\n"
 	.string "האוויר. זה לא בטוח.$"
 
 Route119_Text_DontGoNearWeatherInstitute:
 	.string "תפקיד שמירה משעמם באופן מפתיע.\p"
-	.string "היי, אתה! בבקשה אל תתקרב ל\n"
-	.string "מכון מזג האוויר.$"
+	.string "היי, את{EMIT_HEY}! בבקשה אל תתקרב{ADD_YUD}\n"
+	.string "למכון מזג האוויר.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "חשבתי שאתה טס על ידי תפיסת\n"
+	.string "חשבתי שאת{EMIT_HEY} ע{SWAP_PEY}{ADD_HEY} על ידי תפיסת\n"
 	.string "להקה שלמה של פוקימוני ציפור, ואז\l"
-	.string "נאחז בהם איכשהו.\p"
-	.string "אבל מתברר שיש מהלך HM\n"
-	.string "שנקרא מעוף (FLY)!\p"
-	.string "הלוואי שהייתי יודע על_זה מזמן…$"
+	.string "נאחז{ADD_TAF} בהם איכשהו.\p"
+	.string "אבל מתברר שיש מהלך מ”נ\n"
+	.string "שנקרא תעופה!\p"
+	.string "הלוואי שהייתי יודע על זה מזמן…$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "טצ'…\n"
+	.string "אחח…\n"
 	.string "זה לא עובר…\p"
 	.string "הדשא הגבוה לוכד צמיגי אופניים.\n"
-	.string "אין מצב שאתה יכול לרכוב כאן.$"
+	.string "אין מצב שאת{EMIT_HEY} יכול{ADD_HEY} לרכוב כאן.$"
 
 Route119_Text_CanYourMonMakeSecretBase:
 	.string "האם הפוקימון שלך יכול להשתמש בכוח\n"
@@ -593,7 +593,7 @@ Route119_Text_CanYourMonMakeSecretBase:
 	.string "בסיס סודי?$"
 
 Route119_Text_RouteSignFortree:
-	.string "דרך 119\n"
+	.string "דרך 911\n"
 	.string "{RIGHT_ARROW} עיר פורטרי$"
 
 Route119_Text_WeatherInstitute:
@@ -602,8 +602,7 @@ Route119_Text_WeatherInstitute:
 Route119_Text_TrainerTipsDecoration:
 	.string "טיפים למאמנים\p"
 	.string "ניתן למקם עד שישה עשר פריטי\n"
-	.string "קישוט ורהיטים בבסיס סודי.\l"
-	.string "בבסיס סודי.\p"
-	.string "בחר את הפריטים האהובים עליך וצור\n"
-	.string "בסיס סודי משלך בדיוק כמו\l"
-	.string "שאתה רוצה.$"
+	.string "קישוט ורהיטים בבסיס סודי.\p"
+	.string "בחרו את הפריטים האהובים עלכם ותצרו\n"
+	.string "בסיס סודי משלכם בדיוק כמו\l"
+	.string "שאתם רוצים.$"

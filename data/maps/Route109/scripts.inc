@@ -558,7 +558,7 @@ Route109_Text_SeashoreHouseSign:
 	.string "המקום למאמנים לוהטים!”$"
 
 Route109_Text_TrainerTipsSign:
-	.string "עצות למאמנים\p"
+	.string "טיפים למאמנים\p"
 	.string "פוקימונים באותה רמה לא תמיד יהיו\n"
 	.string "עם נתונים זהים.\p"
 	.string "נאמר שפוקימון שגודל על ידי מאמנים\n"

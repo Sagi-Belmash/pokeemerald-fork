@@ -480,7 +480,7 @@ MtPyre_Summit_Text_Grunt4Defeat:
 	.string "הרבה, אנחנו יכולים לשקול את זה…$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
-	.string "יש לנו שילוב נהדר של_חברי\n"
+	.string "יש לנו שילוב נהדר של חברי\n"
 	.string "הצוות שלנו ושל המנהיג שלנו.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
@@ -544,7 +544,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "והשמיים…\p"
 	.string "זו נאמר זהותם של\n"
 	.string "הפוקימונים העל-קדומים…\p"
-	.string "באותו אופן של_בני אדם ופוקימונים\n"
+	.string "באותו אופן של בני אדם ופוקימונים\n"
 	.string "יש חיים, גם העולם שלנו,\l"
 	.string "חי…\p"
 	.string "הפוקימונים העל-קדומים לימדו\n"

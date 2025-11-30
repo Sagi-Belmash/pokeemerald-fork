@@ -381,7 +381,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "אנא שמור את המשחק.\p"
 	.string "אם לא תשמור, לא תוכל\n"
 	.string "להמשיך עם האתגר שלך.\p"
-	.string "אם תבצע את ההישג של_ניצחון על\n"
+	.string "אם תבצע את ההישג של ניצחון על\n"
 	.string "שבעה מאמנים ברצף,\l"
 	.string "אנו נעניק לך נקודות קרב.$"
 
@@ -439,7 +439,7 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "חדש.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-	.string "אנו מברכים אותך על_רצף\n"
+	.string "אנו מברכים אותך על רצף\n"
 	.string "הניצחונות המפואר שלך על שבעה מאמנים!$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
@@ -464,7 +464,7 @@ BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
 	.string "ולחזור בשביל הפרס שלך.$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
-	.string "תודה רבה על_השתתפותך!\p"
+	.string "תודה רבה על השתתפותך!\p"
 	.string "אנא המתן בזמן שאני שומר את המשחק.$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
@@ -488,13 +488,13 @@ BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
 	.string "ניצחתי בשיפוט!\p"
-	.string "פגיעה עקבית בפוקימון של_היריב\n"
+	.string "פגיעה עקבית בפוקימון של היריב\n"
 	.string "עבדה!$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
 	.string "הקרב שלנו הוכרז כתיקו.\p"
 	.string "כשנגמר הזמן, גם לפוקימון שלי וגם\n"
-	.string "לפוקימון של_היריב הייתה בערך אותה\l"
+	.string "לפוקימון של היריב הייתה בערך אותה\l"
 	.string "כמות חיים שנותרה.$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
@@ -522,7 +522,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "אם התוצאה לא מוכרעת לאחר\n"
 	.string "שלושה תורות, זה עובר לשיפוט.\p"
 	.string "השופט יבחר את המנצח\n"
-	.string "על_בסיס איך הפוקימונים נלחמו.\p"
+	.string "על בסיס איך הפוקימונים נלחמו.\p"
 	.string "כמו כן, פוקימון לא ניתן להחלפה\n"
 	.string "עד שתוצאת הקרב שלו מוכרעת.$"
 
@@ -530,8 +530,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "גורם השיפוט הראשון הוא "רוח".\n"
 	.string "הגורם הזה מעריך עד כמה התוקפניים\l"
 	.string "היו הלוחמים.\p"
-	.string "השיפוט מבוסס על_כמה פעמים\n"
-	.string "המאמנים הורו על_שימוש\l"
+	.string "השיפוט מבוסס על כמה פעמים\n"
+	.string "המאמנים הורו על שימוש\l"
 	.string "במהלכים התקפיים.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
@@ -554,7 +554,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "גורם השיפוט השלישי הוא גוף.\n"
-	.string "הגורם הזה מבוסס על_כמה נקודות חיים\l"
+	.string "הגורם הזה מבוסס על כמה נקודות חיים\l"
 	.string "נשארו בסוף הקרב.\p"
 	.string "הדירוג לוקח בחשבון כמה נקודות חיים\n"
 	.string "היו לפוקימון בתחילת הקרב,\l"

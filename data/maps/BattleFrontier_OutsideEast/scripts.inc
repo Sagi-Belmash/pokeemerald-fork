@@ -231,8 +231,6 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 	msgbox BattleFrontier_OutsideEast_Text_StickyMonWithLongTail, MSGBOX_NPC
 	end
 
-הנה התרגום לעברית של הדיאלוגים מהצד המזרחי החיצוני של גבול הקרב (Battle Frontier), ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
 	.string "זהו מגדל הקרב!\n"
 	.string "שמור על רצף הניצחונות בתור המאמן\l"
@@ -302,7 +300,7 @@ BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
 	.string "זיג!\n"
 	.string "אני מאמין בך, חבר קטן!\p"
-	.string "אני אכין ל_זיג הקטן שלי כל פינוק\n"
+	.string "אני אכין לזיג הקטן שלי כל פינוק\n"
 	.string "טעים שתאהב אם תנצח!$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
@@ -314,7 +312,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "הכובע שלך עקום!\n"
 	.string "הו, לא, אשפה על הקרקע!\l"
 	.string "אופס, עוד מעט ארוחת ערב!\p"
-	.string "אני לא יודע אם אני יכול לעמוד ב_מצב שבו אני רק\n"
+	.string "אני לא יודע אם אני יכול לעמוד במצב שבו אני רק\n"
 	.string "צופה בארמון הקרב…$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
@@ -401,7 +399,7 @@ BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 	.string "אוי, מותק, את כל כך נפלאה!\p"
 	.string "אוי, אני פשוט לא יכול לחכות יותר!\p"
-	.string "בוא נלך ל_חדר קרב מרובה\n"
+	.string "בוא נלך לחדר קרב מרובה\n"
 	.string "ממש עכשיו!\p"
 	.string "אם נהיה יחד בסלון הקרב,\n"
 	.string "כוח האהבה שלנו יתגבר על\l"

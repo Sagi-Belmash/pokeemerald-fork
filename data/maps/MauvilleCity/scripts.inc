@@ -499,7 +499,7 @@ MauvilleCity_Text_UncleCanYouBattleWally:
 	.string "דוד: {PLAYER}{KUN}, זה היה שמך?\n"
 	.string "מטעם וואלי, אני יכול לבקש ממך\l"
 	.string "להילחם איתו רק הפעם?\p"
-	.string "אני לא חושב שהוא יקשיב ל_שום\n"
+	.string "אני לא חושב שהוא יקשיב לשום\n"
 	.string "היגיון במצב שבו הוא נמצא עכשיו.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
@@ -536,7 +536,7 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
 
 MauvilleCity_Text_UncleVisitUsSometime:
 	.string "דוד: {PLAYER}{KUN}, זה פשוט הכה בי\n"
-	.string "שאתה בטח המאמן ש_שמר\l"
+	.string "שאתה בטח המאמן ששמר\l"
 	.string "על וואלי כשהוא תפס את הפוקימון\l"
 	.string "שלו.\p"
 	.string "למה שלא תבקר אותנו בורדנטרף\n"
@@ -573,12 +573,12 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "אני אעודד אותך!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
-	.string "וואטסון: הו, {PLAYER}{KUN}!\n"
+	.string "ווטסון: הו, {PLAYER}{KUN}!\n"
 	.string "אתה נראה מלא חיוניות!\l"
 	.string "זה דבר טוב, וואהההההה!\p"
 	.string "בסדר! החלטתי!\n"
 	.string "אני צריך טובה, {PLAYER}{KUN}!\p"
-	.string "בעיר מוויל יש אזור תת_קרקעי\n"
+	.string "בעיר מוויל יש אזור תת קרקעי\n"
 	.string "שנקרא מוויל חדשה.\p"
 	.string "{PLAYER}{KUN}, הייתי רוצה שתלך לשם ותכבה\n"
 	.string "את הגנרטור.\p"
@@ -588,7 +588,7 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "למוויל חדשה.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
-	.string "וואטסון: אל תדאג לגבי זה.\n"
+	.string "ווטסון: אל תדאג לגבי זה.\n"
 	.string "זה לא יהיה אתגר בשבילך.\p"
 	.string "הכניסה למוויל חדשה היא רק\n"
 	.string "שיט קצר מדרך 110.\p"
@@ -596,15 +596,15 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "וואהההההה!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "וואטסון: וואהההההה!\p"
+	.string "ווטסון: וואהההההה!\p"
 	.string "ידעתי את זה, {PLAYER}{KUN}! ידעתי שבחרתי\n"
 	.string "נכון כששאלתי אותך!\p"
-	.string "זו התודה שלי—TM שמכיל\n"
+	.string "זו התודה שלי--TM שמכיל\n"
 	.string "THUNDERBOLT!\p"
 	.string "קדימה, הרווחת את זה!$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
-	.string "וואטסון: וואהההההה!\p"
+	.string "ווטסון: וואהההההה!\p"
 	.string "זה משמח אותי עד אין קץ לראות\n"
 	.string "את הצעירים קמים ולוקחים אחריות!$"
 
@@ -635,7 +635,7 @@ MauvilleCity_Text_CitySign:
 
 MauvilleCity_Text_GymSign:
 	.string "מכון הפוקימונים של עיר מוויל\n"
-	.string "מנהיג: וואטסון\l"
+	.string "מנהיג: ווטסון\l"
 	.string "“האיש המשמח ומחשמל!”$"
 
 MauvilleCity_Text_BikeShopSign:
@@ -643,7 +643,7 @@ MauvilleCity_Text_BikeShopSign:
 	.string "נשמתך!”\l"
 	.string "האופניים של ריידל$"
 
-MauvilleCity_GameCornerSign:
+MauvilleCity_Text_GameCornerSign:
 	.string "“מקום המשחק לכולם!”\n"
 	.string "פינת המשחקים של מוויל$"
 

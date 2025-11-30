@@ -336,7 +336,7 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
 BattleFrontier_Lounge2_Text_MultiBattleAdvice::
 	.string "כל מיני מאמנים מתאספים\n"
 	.string "בסלון הקרב.\p"
-	.string "רק תחש{EMIT_VAV}ב{ADD_YUD}—את{EMIT_HEY} עשוי{ADD_HEY} להיתקל\n"
+	.string "רק תחש{EMIT_VAV}ב{ADD_YUD}--את{EMIT_HEY} עשוי{ADD_HEY} להיתקל\n"
 	.string "בחברים או עוקבים שלך!\l"
 	.string "כדאי לך להסתכל היטב!$"
 

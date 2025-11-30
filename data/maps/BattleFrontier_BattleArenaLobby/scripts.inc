@@ -527,7 +527,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "עד שתוצאת הקרב שלו מוכרעת.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string "גורם השיפוט הראשון הוא "רוח".\n"
+	.string "גורם השיפוט הראשון הוא רוח.\n"
 	.string "הגורם הזה מעריך עד כמה התוקפניים\l"
 	.string "היו הלוחמים.\p"
 	.string "השיפוט מבוסס על כמה פעמים\n"
@@ -535,7 +535,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "במהלכים התקפיים.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string "גורם השיפוט השני הוא "מיומנות".\n"
+	.string "גורם השיפוט השני הוא -מיומנות-.\n"
 	.string "הגורם הזה מעריך עד כמה יעיל\l"
 	.string "היה השימוש במהלכי פוקימונים.\p"
 	.string "אם מהלך הצליח בהצלחה,\n"
@@ -543,12 +543,12 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "אם מהלך נכשל, דירוג המיומנות\n"
 	.string "יורד.\p"
 	.string "אם זה היה מהלך התקפי, דירוג המיומנות\n"
-	.string "עולה אם המהלך היה "סופר אפקטיבי"\l"
-	.string "ויורד אם הוא היה "לא אפקטיבי במיוחד."\l"
-	.string "במיוחד."\p"
+	.string "עולה אם המהלך היה ”סופר אפקטיבי\l"
+	.string "ויורד אם הוא היה לא אפקטיבי במיוחד.“\l"
+	.string "במיוחד.\p"
 	.string "דירוג המיומנות לא יעלה עבור\n"
-	.string "מהלכים כמו PROTECT ו_DETECT.\p"
-	.string "אם היריב השתמש ב_PROTECT או ב\n"
+	.string "מהלכים כמו PROTECT וDETECT.\p"
+	.string "אם היריב השתמש בPROTECT או ב\n"
 	.string "DETECT, והפוקימון שלך לא פגע\l"
 	.string "במהלך, דירוג המיומנות שלו לא יירד.$"
 
@@ -563,7 +563,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "ניצחון שנחטף מטייקונית הזירה,\n"
 	.string "וניצחון גורף על שבעה מאמנים!\p"
-	.string "אנו מברכים אותך על_האתגר\n"
+	.string "אנו מברכים אותך עלהאתגר\n"
 	.string "המפואר ביותר שלך!$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:

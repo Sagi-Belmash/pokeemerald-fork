@@ -298,8 +298,6 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 	msgbox BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier, MSGBOX_NPC
 	end
 
-הנה התרגום לעברית של הדיאלוגים מהצד המערבי החיצוני של גבול הקרב (Battle Frontier), ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
 	.string "זוהי כיפת הקרב!\n"
 	.string "הדרך שלך לכוכב העל הבלתי מנוצח!$"
@@ -369,7 +367,7 @@ BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "זה לא שכל אחד יכול לבוא\n"
 	.string "לכאן, אתה יודע?\p"
-	.string "רק אותם מאמנים ש_הוכרו\n"
+	.string "רק אותם מאמנים שהוכרו\n"
 	.string "כקשוחים מובאים לכאן.\p"
 	.string "זו הסיבה שמאמנים רבים אפילו לא\n"
 	.string "יודעים על גבול הקרב.$"
@@ -429,7 +427,7 @@ BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 	.string "הו? אתה בדרך לאתגר\n"
 	.string "את כיפת הקרב?\p"
-	.string "אני מאחל לך את כל_המזל שבעולם.\n"
+	.string "אני מאחל לך את כלהמזל שבעולם.\n"
 	.string "ששנינו ננצח בדרכינו וניפגש\l"
 	.string "באתגרים.$"
 
@@ -514,7 +512,7 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "שמעתי שמועה שמישהו ראה\n"
 	.string "פוקימון עם זנב ארוך במיוחד\l"
 	.string "איפשהו בגבול הקרב.\p"
-	.string "הוא בטח מקסים. אני בטוח ב_זה…\p"
+	.string "הוא בטח מקסים. אני בטוח בזה…\p"
 	.string "הו, אתגרים יכולים לחכות. אני מרגיש מונע\n"
 	.string "למצוא את היצור המקסים!$"
 

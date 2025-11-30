@@ -333,7 +333,7 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "סקוט: נהדר לראות אותך כאן,\n"
 	.string "באמת שכן!\p"
 	.string "אני מקווה שתקדיש את זמנך ו\n"
-	.string "תחקור את כל_המקום.\p"
+	.string "תחקור את כלהמקום.\p"
 	.string "באופן טבעי, אני מקווה שגם תחווה\n"
 	.string "את המהות הטהורה של קרב.\p"
 	.string "גם המגורים שלי כאן, אז תרגיש\n"
@@ -359,7 +359,7 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "אירועים הנקראים טורנירי קרב נערכים\n"
 	.string "במתקן הזה.\p"
 	.string "טורנירי הקרב מוצעים ב\n"
-	.string "שני מסלולים—לקרבות יחידים וזוגות.$"
+	.string "שני מסלולים--לקרבות יחידים וזוגות.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "ארמון הקרב הוא הבניין האדום\n"
@@ -368,7 +368,7 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "לקרבות יחידים וזוגות.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
-	.string "זירת הקרב היא הבניין דמוי_הדוג'ו\n"
+	.string "זירת הקרב היא הבניין דמוי הדוג'ו\n"
 	.string "במרכז-ימין של גבול הקרב.\l"
 	.string "גבול הקרב.\p"
 	.string "אירוע שנקרא טורניר KO קבוע\n"
@@ -421,12 +421,12 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "כל האתגרים במתקנים של\n"
 	.string "גבול הקרב מגיעים בשני\l"
-	.string "מסלולים—רמה 50 ורמה פתוחה.$"
+	.string "מסלולים--רמה 50 ורמה פתוחה.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "מסלול רמה 50 פתוח לפוקימונים\n"
 	.string "עד וכולל רמה 50.\p"
-	.string "עם זאת, זכור ש_אף מאמן\n"
+	.string "עם זאת, זכור שאף מאמן\n"
 	.string "שתתמודד מולו לא יהיה לו פוקימון\l"
 	.string "מתחת לרמה 50.\p"
 	.string "המסלול הזה הוא רמת הכניסה ל\n"
@@ -479,7 +479,7 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "להביס מאמנים אחרים ברצף,\l"
 	.string "ועשויים להצטרך לנצח באירועים שוב ושוב.\p"
 	.string "זה בהחלט לא קל לזכות בסמלים.\n"
-	.string "אני מאחל לך את כל_המזל שבעולם!$"
+	.string "אני מאחל לך את כלהמזל שבעולם!$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "אפשר להקליט קרב אחד\n"

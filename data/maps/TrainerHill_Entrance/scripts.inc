@@ -303,7 +303,7 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 	.string "את המשחק שלך.$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-	.string "בוא{ADD-YUD} נראה…\n"
+	.string "בוא{ADD_YUD} נראה…\n"
 	.string "המאמנים שנמצאים כאן עכשיו הם…\p"
 	.string "עד קומה מס' {STR_VAR_1}.$"
 

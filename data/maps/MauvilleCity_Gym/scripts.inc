@@ -410,7 +410,7 @@ MauvilleCity_Gym_Text_WattsonPostRematch:
 	.string "בסדר?$"
 
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
-	.string "וואטסון: אה-הא! הנה את{EMIT_HEY} סוף סוף!\n"
+	.string "ווטסון: אה-הא! הנה את{EMIT_HEY} סוף סוף!\n"
 	.string "אני יודע מה את{EMIT_HEY} רוצה.\l"
 	.string "את{EMIT_HEY} רוצה להילחם בפוקימונים שלי!\p"
 	.string "וואהאהאהא!\p"

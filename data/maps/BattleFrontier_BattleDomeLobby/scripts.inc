@@ -429,10 +429,6 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	releaseall
 	end
 
-הבנתי. אני מסיר את כל סימני החיבור, ואקפיד על כללי עיצוב השורה (איסור על מילים בנות תו אחד בסוף שורה).
-
-להלן התרגום של הדיאלוגים מלובי כיפת הקרב (Battle Dome Lobby), ללא ניקוד וללא סימני חיבור:
-
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
 	.string "המקום שבו האסטרטגיות של מאמנים\n"
 	.string "מועמדות למבחן!\p"
@@ -449,7 +445,7 @@ BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 	.string "טורניר קרב יחידים\n"
-	.string "הוא בדיוק כפי שהשם מרמז—\l"
+	.string "הוא בדיוק כפי שהשם מרמז--\l"
 	.string "טורניר של קרבות יחידים.\p"
 	.string "כל המאמנים המשתתפים חייבים\n"
 	.string "להכניס שלושה פוקימונים כל אחד.\p"
@@ -557,7 +553,7 @@ BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "טורניר קרב זוגות\n"
-	.string "הוא בדיוק כפי שהשם מרמז—\l"
+	.string "הוא בדיוק כפי שהשם מרמז--\l"
 	.string "טורניר של קרבות זוגות.\p"
 	.string "כל המאמנים המשתתפים חייבים\n"
 	.string "להכניס שלושה פוקימונים כל אחד.\p"
@@ -641,8 +637,8 @@ BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
 	.string "בטורניר הקרב!$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "כהכרה באסטרטגיה שלך—\n"
-	.string "דבר יפה זה היה, גם כן—\l"
+	.string "כהכרה באסטרטגיה שלך--\n"
+	.string "דבר יפה זה היה, גם כן--\l"
 	.string "אנו מעניקים לך את נקודת/ות הקרב האלה!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
@@ -676,6 +672,6 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
 	.string "אם פוקימונים נלחמים מתעלפים באותו\n"
-	.string "זמן—נוקאאוט כפול—במשחק\l"
+	.string "זמן--נוקאאוט כפול-במשחק\l"
 	.string "טורניר, השופטים יעברו על הקרב\l"
 	.string "ויכריזו על המנצח.$"

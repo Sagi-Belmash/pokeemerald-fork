@@ -428,7 +428,7 @@ MossdeepCity_Gym_Text_BlakePostBattle:
 MossdeepCity_Gym_Text_HannahIntro:
 	.string "כאשר את{EMIT_HEY} מפסיד{ADD_HEY} לי, אל תהי{EMIT_HEY}{ADD_YUD}\n"
 	.string "קשה מדי עם עצמך.\p"
-	.string "זה לא שאת{EMIT_HEY} חלש{ADD_HEY}—אני פשוט\n"
+	.string "זה לא שאת{EMIT_HEY} חלש{ADD_HEY}--אני פשוט\n"
 	.string "חזקה מדי!$"
 
 MossdeepCity_Gym_Text_HannahDefeat:
@@ -437,7 +437,7 @@ MossdeepCity_Gym_Text_HannahDefeat:
 MossdeepCity_Gym_Text_HannahPostBattle:
 	.string "אני לא אהיה מדוכאת בגלל\n"
 	.string "ההפסד. אני רק צריכה להתאמן חזק יותר.\p"
-	.string "חשיבה חיובית—זו הנקודה החזקה\n"
+	.string "חשיבה חיובית--זו הנקודה החזקה\n"
 	.string "שלי!$"
 
 MossdeepCity_Gym_Text_SamanthaIntro:
@@ -570,17 +570,17 @@ MossdeepCity_Gym_Text_ReceivedMindBadge:
 	.string "מטייט וליזה.$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
-	.string "טייט: תג המוח משפר את התקפ"מ ואת הגנ"מ\n"
+	.string "טייט: תג המוח משפר את התקפמ ואת הגנמ\n"
 	.string "של פוקימונים.\p"
-	.string "ליזה: זה גם מאפשר לך להשתמש ב_מהלך המ"נ\n"
+	.string "ליזה: זה גם מאפשר לך להשתמש במהלך המ.נ\n"
 	.string "צלילה (DIVE) מחוץ לקרב.\p"
 	.string "טייט: את{EMIT_HEY} צריך לקחת גם את זה.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
 	.string "טייט: ה-TM04 הזה מכיל…\n"
 	.string "ליזה: רוגע נפשי (CALM MIND)!\p"
-	.string "טייט: זה מעלה התקפ"מ ו…\n"
-	.string "ליזה: זה מעלה הגנ"מ!\p"
+	.string "טייט: זה מעלה התקפמ ו…\n"
+	.string "ליזה: זה מעלה הגנמ!\p"
 	.string "טייט: זה מהלך שמושלם…\n"
 	.string "ליזה: לפוקימונים על-חושיים!\p"
 	.string "… … … … … …$"

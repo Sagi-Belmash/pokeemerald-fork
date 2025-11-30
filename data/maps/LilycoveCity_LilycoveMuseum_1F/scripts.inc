@@ -247,7 +247,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "לאומנויות היפות.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-	.string "מוזיאון האומנות הזה… ובכן, את{{EMIT_HEY} יכול{ADD_HEY}\n"
+	.string "מוזיאון האומנות הזה… ובכן, את{EMIT_HEY} יכול{ADD_HEY}\n"
 	.string "לראות בו ציורים פנטסטיים רבים.\p"
 	.string "והאוצר הוא אדם נפלא.\p"
 	.string "בקרב אומנים כמוני, המוזיאון הזה\n"
@@ -285,6 +285,6 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string "תיירותי אהוב.\p"
 	.string "זה נהדר עבור ליליקוב…\n"
 	.string "לא, נהדר עבור מחוז הואן!\p"
-	.string "זה מה ששמעתי—מאמן יחיד\n"
+	.string "זה מה ששמעתי--מאמן יחיד\n"
 	.string "השיג את כל הציורים למעלה.$"
 

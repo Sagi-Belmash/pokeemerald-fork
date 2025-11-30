@@ -559,34 +559,34 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_AlreadyInterviewed2::
 	end
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
-	.string "הו, וואו!\n"
+	.string "או, ואו!\n"
 	.string "זה {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-	.string "שמעתי את החדשות!\n"
-	.string "אתה ממש חזק, נכון?\p"
+	.string "אני שמעתי את החדשות!\n"
+	.string "את{EMIT_HEY} ממש חזק{ADD_HEY}, נכון?\p"
 	.string "אנחנו תמיד מתווכחים מי הוא המאמן\n"
 	.string "הכי חזק מכל המאמנים כאן.\p"
 	.string "אז כששמעתי עליך, החלטתי\n"
 	.string "להיות המעריץ שלך!\p"
-	.string "אני מקווה שתמשיך להילחם במאמנים\n"
+	.string "אני מקווה שתמשי{SWAP_CHAF}{ADD_YUD} להילחם במאמנים\n"
 	.string "קשוחים אחרים.\p"
 	.string "כך, נוכל לראות יותר\n"
 	.string "מהקרבות הלוהטים שלך.\p"
 	.string "זה יגרום לאחרים כאן לראות\n"
-	.string "בדיוק כמה אתה נהדר.\p"
-	.string "זכור, אני מעודד אותך,\n"
+	.string "בדיוק כמה את{EMIT_HEY} נהדר{ADD_TAF}.\p"
+	.string "זכ{EMIT_VAV}ר{ADD_YUD}, אני מעודד אותך,\n"
 	.string "{PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
 	.string "יו, {PLAYER}!\n"
-	.string "אתה זה שאנחנו רוצים שינצח!$"
+	.string "את{EMIT_HEY} זה שאנחנו רוצים ש{EMIT_YUD}{ADD_TAF}נצח!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
-	.string "האחרים, הם לא יודעים ש\n"
-	.string "אתה הטוב ביותר שבטובים!\p"
+	.string "האחרים, הם לא יודעים\n"
+	.string "שאת{EMIT_HEY} הטוב{ADD_HEY} ביותר שבטובים!\p"
 	.string "האם זה לא נכון, {PLAYER}?\n"
-	.string "הראה להם שיש לך אומץ!$"
+	.string "הרא{EMIT_HEY}{ADD_YUD} להם שיש לך אומץ!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
 	.string "אני שונא לומר את זה, אבל המאמן\n"
@@ -597,7 +597,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
 	.string "ארור זה… אני אומרת לאנשים\n"
-	.string "ש-{STR_VAR_1} הוא הטוב ביותר עכשיו…\p"
+	.string "ש{STR_VAR_1} הוא הטוב ביותר עכשיו…\p"
 	.string "אבל אף אחד לא רוצה להקשיב…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
@@ -605,23 +605,23 @@ LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
 	.string "חדש וקשוח.\p"
 	.string "המאמן הזה אמור להביס\n"
 	.string "אפילו מנהיגי מכונים.\p"
-	.string "האם אתה יודע משהו על המאמן\n"
+	.string "האם את{EMIT_HEY} יודע{ADD_TAF} משהו על המאמן\n"
 	.string "החדש הזה?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou:
-	.string "הו!\n"
+	.string "או!\n"
 	.string "{PLAYER}!\p"
-	.string "לך על זה!\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} על זה!\n"
 	.string "אני מעודד אותך!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan:
 	.string "אנחה…\n"
 	.string "בראולי…\p"
-	.string "הו, לא! חכה!\n"
+	.string "או, לא! חכ{EMIT_HEY}{ADD_YUD}!\n"
 	.string "זה לא נכון! לא, לא, לא!\p"
 	.string "אני המעריץ שלך לחלוטין!\p"
-	.string "אז גרמת לי להיות גאה!\n"
-	.string "לך על זה!$"
+	.string "אז תגרמי לי להיות גאה!\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
 	.string "אני לא יכול לשלוט בזה, אני יכול רק\n"
@@ -631,12 +631,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
 	.string "אף אחד לא מבין את הקסם של\n"
 	.string "בראולי…\p"
 	.string "לא אכפת לי!\p"
-	.string "גם אם אני היחיד, אני אמשיך\n"
+	.string "גם אם אני היחידי, אני אמשיך\n"
 	.string "לעודד את בראולי!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 	.string "לא משנה מה אנשים אומרים, המאמן\n"
-	.string "האהוב עליי הוא מנהיג מכון דיופורד\l"
+	.string "האהוב עליי הוא מנהיג מכון דופורד\l"
 	.string "בראולי!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
@@ -649,147 +649,147 @@ LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
 	.string "אפילו כשדברים נראו עגומים,\n"
 	.string "אבא שלך אף פעם לא ויתר.\p"
 	.string "אני יודע שזה נכון.\p"
-	.string "אתה אף פעם לא מוותר גם אם אתה מפסיד!\n"
-	.string "אז תמשיך להילחם!$"
+	.string "את{EMIT_HEY} אף פעם לא מוותר{ADD_TAF} גם אם את{EMIT_HEY} מפסיד{ADD_HEY}!\n"
+	.string "אז תמשי{SWAP_CHAF}{ADD_YUD} להילחם!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
 	.string "נורמן נלחם עם יותר כוח,\n"
-	.string "כריזמה, ומופעיות ממך.\p"
-	.string "למרות שאנשים אומרים ש\n"
-	.string "אתה חזק…\p"
+	.string "כריזמה, והופעה ממך.\p"
+	.string "למרות שאנשים אומרים\n"
+	.string "שאת{EMIT_HEY} חזק{ADD_HEY}…\p"
 	.string "יש לך עוד דרך ארוכה לעבור\n"
 	.string "בהשוואה לאבא שלך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
-	.string "אתה מתחיל לקבל את אותה\n"
+	.string "את{EMIT_HEY} מתחיל{ADD_HEY} לקבל את אותה\n"
 	.string "הילה של יראת כבוד שנורמן מקרין.\p"
 	.string "אבל יש משהו שונה בצורה מכרעת\n"
 	.string "בינך לבין נורמן.\p"
 	.string "אני לא יכול לומר לך מה זה.\n"
-	.string "תצטרך למצוא את זה בעצמך.$"
+	.string "תצטר{SWAP_CHAF}{ADD_YUD} למצוא את זה בעצמך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
 	.string "כולם כאן, כולנו מעריצים ענקיים\n"
 	.string "של קרבות פוקימונים.\p"
-	.string "אנחנו דנים ב_מי שאנחנו מחשיבים\n"
+	.string "אנחנו דנים במי שאנחנו מחשיבים\n"
 	.string "כמאמן החזק ביותר מכולם.\p"
-	.string "אם תהפוך למפורסם,\n"
+	.string "אם תהפ{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} למפורס{SWAP_MEM}{ADD_TAF},\n"
 	.string "אנחנו עשויים אפילו להפוך למעריצים שלך!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
-	.string "הו, וואווי! זה {PLAYER}!\n"
-	.string "אמיתי, גם כן!\p"
-	.string "בבקשה, לחץ את ידי, לחץ את ידי!$"
+	.string "או, וואווי! זה {PLAYER}!\n"
+	.string "על אמת, גם!\p"
+	.string "בבקשה, לח{SWAP_TZADIK}{ADD_YUD} את ידי, לח{SWAP_TZADIK}{ADD_YUD} את ידי!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou:
 	.string "אני תמיד אעודד אותך, {PLAYER}!\n"
 	.string "תמיד, תמיד!\p"
-	.string "אני לא רוצה לראות אותך מפסיד אף פעם,\n"
+	.string "אני לא רוצה לראות אותך מפסיד{ADD_HEY} אף פעם,\n"
 	.string "{PLAYER}.\p"
-	.string "כי אני יודע שאתה ממש,\n"
-	.string "ממש חזק, {PLAYER}!$"
+	.string "כי אני יודע שאת{EMIT_HEY} ממש,\n"
+	.string "ממש חזק{ADD_HEY}, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
-	.string "{STR_VAR_1} ממש קול…\p"
+	.string "{STR_VAR_1} ממש מגניב…\p"
 	.string "כולם חושבים ככה, נכון, נכון?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe:
-	.string "{STR_VAR_1} באמת קול, אתה לא\n"
-	.string "חושב כך?\p"
-	.string "גם אם אני היחיד, אני אמשיך\n"
+	.string "{STR_VAR_1} באמת מגניב, את{EMIT_HEY} לא\n"
+	.string "חושב{ADD_TAF} כך?\p"
+	.string "גם אם אני היחידי, אני אמשיך\n"
 	.string "לעודד את המאמן האהוב עליי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
 	.string "המאמן האהוב עליי הוא…\p"
-	.string "קול…\p"
+	.string "מגניב…\p"
 	.string "חזק…\p"
 	.string "וממש נחמד…\p"
 	.string "הלוואי שהיה מאמן כזה…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
-	.string "וואו! זה {PLAYER}!\n"
+	.string "וואה! זה {PLAYER}!\n"
 	.string "מטורף!\p"
 	.string "כשאגדל, אני רוצה להיות חזק\n"
 	.string "כמוך, {PLAYER}!$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
+LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou:
 	.string "גם אם אני היחיד…\p"
 	.string "אתה תמיד תהיה היחיד\n"
 	.string "שאני מעודד, {PLAYER}!\p"
 	.string "כי אני מאמין בך, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
-	.string "{STR_VAR_1} הוא כזה קול בצורה מטורפת…\n"
+	.string "{STR_VAR_1} הוא כזה מגניב בצורה מטורפת…\n"
 	.string "אני רוצה ללחוץ את ידו של הגיבור שלי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
-	.string "גם אם אני היחיד…\p"
+	.string "גם אם אני היחידי…\p"
 	.string "אני לעולם לא אפסיק להיות\n"
 	.string "המעריץ של {STR_VAR_1}!\p"
-	.string "כי שמעתי, {STR_VAR_1}\n"
+	.string "כי שמעתי ש{STR_VAR_1}\n"
 	.string "אף פעם לא מפסיד!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
 	.string "{PLAYER}!\n"
-	.string "אתה מדהים אחרי הכל!\p"
-	.string "מאז ש_שמתי את העיניים על יך,\n"
-	.string "ידעתי שאתה נהדר.\p"
+	.string "את{EMIT_HEY} מדהי{SWAP_MEM}{ADD_HEY} אחרי הכל!\p"
+	.string "מאז ששמתי את העיניים עליך,\n"
+	.string "ידעתי שאת{EMIT_HEY} נהדר{ADD_TAF}.\p"
 	.string "נראה שהעיניים שלי לא הטעו אותי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
 	.string "למי אכפת מהאחרים.\n"
 	.string "אני בפינה שלך!\p"
-	.string "אתה לא צריך לדאוג. פשוט צא\n"
-	.string "לשם ותילחם כרגיל.$"
+	.string "את{EMIT_HEY} לא צרי{SWAP_CHAF}{ADD_HEY} לדאוג. פשוט צא{ADD_YUD}\n"
+	.string "לשם ותילח{SWAP_MEM}{ADD_YUD} כרגיל.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
-	.string "אתה מאמן די הגון,\n"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_HEY} די הגו{SWAP_NUN}{ADD_HEY},\n"
 	.string "אני חושב.\p"
-	.string "אבל אני גם חושב ש_{STR_VAR_1}\n"
-	.string "הוא מספר אחת כרגע.\p"
+	.string "אבל אני גם חושב ש{STR_VAR_1}\n"
+	.string "הוא מספר אחד כרגע.\p"
 	.string "זו רק הדעה שלי.\n"
-	.string "אל תדאג לגבי זה יותר מדי.$"
+	.string "אל תדאג{ADD_YUD} לגבי זה יותר מדי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
-	.string "וואו, אתה באמת חזק.\n"
-	.string "אולי אפילו חזק יותר מ-{STR_VAR_1}.\p"
+	.string "ואו, את{EMIT_HEY} באמת חזק{ADD_HEY}.\n"
+	.string "אולי אפילו יותר חזק{ADD_HEY} מ{STR_VAR_1}.\p"
 	.string "אבל {STR_VAR_1} צריך אותי.\p"
 	.string "אם אני לא אעודד את {STR_VAR_1},\n"
 	.string "מי יעודד?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
 	.string "שינית את דעתי!\n"
-	.string "אתה חזק, נכון?\p"
-	.string "הייתי רוצה שתספר לי איך הצלחת\n"
-	.string "להפוך לכל כך חזק!$"
+	.string "את{EMIT_HEY} חזק{ADD_HEY}, נכון?\p"
+	.string "הייתי רוצה שתספר{ADD_YUD} לי איך הצלחת\n"
+	.string "להפוך לכל כך חזק{ADD_HEY}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
-	.string "ככל שהמצב קשה יותר, כך אתה נלחם\n"
-	.string "יותר מושך.\p"
+	.string "ככל שהמצב קשה יותר, כך את{EMIT_HEY} נלח{SWAP_MEM}{ADD_TAF}\n"
+	.string "בצורה מושכת יותר.\p"
 	.string "אני לא יכול לחכות לקרב הבא שלך!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
 	.string "בקרב המאמנים הלוהטים לאחרונה,\n"
 	.string "{STR_VAR_1} הוא הבולט.\p"
 	.string "הקשיחות הזו, היא פשוט לא נורמלית.\p"
-	.string "אתה בסדר, אבל אתה לא באותה\n"
+	.string "את{EMIT_HEY} בסדר, אבל את{EMIT_HEY} לא באותה\n"
 	.string "ליגה כמו {STR_VAR_1}.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
-	.string "אתה ממש פופולרי…\p"
-	.string "אתה חזק, ואתה אכפתי לפוקימונים.\n"
+	.string "את{EMIT_HEY} ממש פופולרי{ADD_TAF}…\p"
+	.string "את{EMIT_HEY} חזק{ADD_HEY}, ואכפת לך מפוקימונים.\n"
 	.string "אף אחד לא יכול לערער עליך.\p"
-	.string "אבל, אתה יודע, אני מאמין ב-{STR_VAR_1}.\p"
+	.string "אבל, את{EMIT_HEY} יודע{ADD_TAF}, אני מאמין ב{STR_VAR_1}.\p"
 	.string "{STR_VAR_1} הוא בהחלט חזק יותר!\n"
 	.string "אני בטוח!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
-	.string "אתה…\p"
+	.string "את{EMIT_HEY}…\p"
 	.string "מרשים!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
 	.string "הערך האמיתי שלך, זה בסדר אם רק\n"
-	.string "אני הכרתי ב_ו.\p"
+	.string "אני הכרתי בו.\p"
 	.string "אני בספק אם האחרים יבינו את הכוח\n"
 	.string "החבוי שפועם בפנים.$"
 
@@ -800,7 +800,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
 	.string "שלך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
-	.string "זה נכון שאתה חזק בצורה עצומה.\n"
+	.string "זה נכון שאת{EMIT_HEY} חזק{ADD_HEY} בצורה עצומה.\n"
 	.string "עצומה.\p"
 	.string "אבל!\n"
 	.string "אני יכול לומר…\p"

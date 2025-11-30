@@ -954,7 +954,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "יש לנו נוקאאוט כפול!\p"
 	.string "באירוע זה, חוקי טורניר הקרב\n"
 	.string "דורשים הכרעת שופט.\p"
-	.string "אנא המתן בזמן ש_השיפוט\n"
+	.string "אנא המתן בזמן שהשיפוט\n"
 	.string "מתבצע.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
@@ -1001,7 +1001,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 	.string "ניסיון האליפות הראשון!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "ניצחון כאן משמעותו ש_המאמן\n"
+	.string "ניצחון כאן משמעותו שהמאמן\n"
 	.string "הזה עולה לגמר!\p"
 	.string "$"
 
@@ -1050,7 +1050,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 	.string "הרגישו את הזוהר של אמן אמיתי!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "ועכשיו… המאמן שעומד ב_דרכו\n"
+	.string "ועכשיו… המאמן שעומד בדרכו\n"
 	.string "שוברת השיאים של {PLAYER}…\p"
 	.string "כן! האחד והיחיד!\n"
 	.string "נציב כיפת הקרב!\l"
@@ -1115,7 +1115,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "טאקר: אה…\n"
 	.string "שאגת ההרס של הקהל…\l"
-	.string "החום דמוי_הכבשן של ההתרגשות שלהם…\l"
+	.string "החום דמוי הכבשן של ההתרגשות שלהם…\l"
 	.string "זה מקום נפלא…\p"
 	.string "עבור הקהל, אני אלוף הכיפה…\n"
 	.string "אני מייצג את התקוות והחלומות שלהם…\l"

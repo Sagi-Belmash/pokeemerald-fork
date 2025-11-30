@@ -421,8 +421,6 @@ MtPyre_Summit_EventScript_Grunt4::
 	msgbox MtPyre_Summit_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
 
-הנה התרגום לעברית של הדיאלוגים מפסגת הר פייר (Mt. Pyre Summit), ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 MtPyre_Summit_Text_Grunt1Intro:
 	.string "לא! הבריונים האלה מצוות מגמה הגיעו\n"
 	.string "לכאן לפנינו!\p"
@@ -571,13 +569,13 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "פוקימוני הים הרימו גלים עצומים\n"
 	.string "וחצבו אוקיינוסים…\p"
 	.string "הדו-קרב העז שלהם השתולל ללא סוף.\p"
-	.string "העולם נבלע ב_שריפות\n"
+	.string "העולם נבלע בשריפות\n"
 	.string "עצומות ובסערות אכזריות.\p"
 	.string "ה-ORB הכחול וה-ORB האדום הביאו\n"
 	.string "קץ לאסון.\p"
 	.string "אור נשפך משני ה-ORBS ו\n"
 	.string "הרגיע את היריבים הזועמים.\p"
-	.string "הזוג, שהפך לצייתן, צלל עמוק ל_תוך\n"
+	.string "הזוג, שהפך לצייתן, צלל עמוק לתוך\n"
 	.string "הים שבו הם נעלמו\l"
 	.string "בסופו של דבר…$"
 
@@ -608,12 +606,12 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "פוקימוני הים הרימו גלים עצומים\n"
 	.string "וחצבו אוקיינוסים…\p"
 	.string "הדו-קרב העז שלהם השתולל ללא סוף.\p"
-	.string "העולם נבלע ב_שריפות\n"
+	.string "העולם נבלע בשריפות\n"
 	.string "עצומות ובסערות אכזריות.\p"
 	.string "זה היה הרגע שבו הפוקימון של\n"
 	.string "השמיים ירד מסערה.\p"
 	.string "הפוקימון, זוהר ירוק עז,\n"
 	.string "הרגיע את שני הפוקימונים הזועמים.\p"
 	.string "אז, לאחר שמילא את חובתו, הפוקימון\n"
-	.string "הירוק עף אל_השחקים הרחוקים…$"
+	.string "הירוק עף אלהשחקים הרחוקים…$"
 

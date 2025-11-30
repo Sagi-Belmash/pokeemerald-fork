@@ -564,7 +564,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
 	.string "אוי לי, אם רק יכולת לשמור על\n"
 	.string "רמה מסוימת של נימוס…\p"
 	.string "גאאאה, הנה!\n"
-	.string "מהר{ADD-YUD} עם היתר חזית הקרב הזה, את{EMIT_HEY}!$"
+	.string "מהר{ADD_YUD} עם היתר חזית הקרב הזה, את{EMIT_HEY}!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
 	.string "סמל הרוחות קיבל\n"

@@ -319,8 +319,6 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	releaseall
 	end
 
-הנה התרגום לעברית של הדיאלוגים מלובי בית החרושת לקרב (Battle Factory Lobby), ללא ניקוד, עם היפוך מספרים, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 	.string "המקום שבו האינטליגנציה של מאמנים\n"
 	.string "מועמדת למבחן!\p"
@@ -343,7 +341,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 	.string "אם תנצח, מותר לך להחליף\n"
 	.string "אחד מהפוקימונים השכורים שלך.\p"
 	.string "חזור על המחזור הזה של קרב ו\n"
-	.string "החלפה—אם תנצח 7 פעמים ב\l"
+	.string "החלפה--אם תנצח 7 פעמים ב\l"
 	.string "רצף, תרוויח נקודות קרב.\p"
 	.string "אם אתה רוצה להפסיק את האתגר\n"
 	.string "שלך, אנא שמור את המשחק.\p"
@@ -387,7 +385,7 @@ BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
-	.string "כהכרה ב_רצף 7 הניצחונות שלך,\n"
+	.string "כהכרה ברצף 7 הניצחונות שלך,\n"
 	.string "אנו מעניקים לך את נקודת/ות הקרב האלה.$"
 
 @ Unused
@@ -439,7 +437,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 	.string "אם תנצח, מותר לך להחליף\n"
 	.string "אחד מהפוקימונים השכורים שלך.\p"
 	.string "חזור על המחזור הזה של קרב ו\n"
-	.string "החלפה—אם תנצח 7 פעמים ב\l"
+	.string "החלפה--אם תנצח 7 פעמים ב\l"
 	.string "רצף, תרוויח נקודות קרב.\p"
 	.string "אם אתה רוצה להפסיק את האתגר\n"
 	.string "שלך, אנא שמור את המשחק.\p"
@@ -448,7 +446,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
 	.string "ברכות על שהבסת את\n"
-	.string "ראש בית_החרושת וניצחת\l"
+	.string "ראש המפעל וניצחת\l"
 	.string "7 משחקים ברצף!$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
@@ -463,7 +461,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
 	.string "אז אנא המתן.$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-	.string "האם תרצה להקליט את משחק בית_החרושת\n"
+	.string "האם תרצה להקליט את משחק המפעל\n"
 	.string "לקרב האחרון שלך על כרטיס גבול הקרב שלך?\l"
 	.string "כרטיס גבול הקרב שלך?$"
 
@@ -502,7 +500,7 @@ BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
 	.string "כאילו, אני ממש קשוח, אבל אני משתעמם\n"
 	.string "ממש בקלות, אז פשוט המשכתי להחליף\l"
 	.string "ולהילחם שוב ושוב.\p"
-	.string "בכל מקרה, כש_המשכתי להיכנס\n"
+	.string "בכל מקרה, כשהמשכתי להיכנס\n"
 	.string "לאירועי החלפת קרב, שמתי לב שהם\l"
 	.string "מגוונים את הפוקימונים השכורים.$"
 
@@ -533,13 +531,13 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 	.string "עם המאמן ה-7 באירוע.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
-	.string "יש שתי נקודות מפתח ש_צריך לשים לב\n"
+	.string "יש שתי נקודות מפתח שצריך לשים לב\n"
 	.string "אליהן בעת החלפת פוקימונים.\p"
 	.string "ראשית, בעת החלפה, אתה לא יכול לבדוק\n"
-	.string "את הנתונים של הפוקימון ש_אתה עומד\l"
+	.string "את הנתונים של הפוקימון שאתה עומד\l"
 	.string "לקבל.\p"
 	.string "שנית, הפוקימונים בצוות שלך\n"
-	.string "ממוקמים ברצף, בהתאם ל_סדר\l"
+	.string "ממוקמים ברצף, בהתאם לסדר\l"
 	.string "שבו שכרת אותם.\p"
 	.string "הרצף הזה נשאר ללא שינוי\n"
 	.string "גם כאשר מתבצעות החלפות.$"

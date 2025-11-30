@@ -830,7 +830,7 @@ Route110_Text_YouGotBikeFromRydel:
 	.string "ריידל, ריידל, ריידל, ריידל, ריידל…\n"
 	.string "השם הזה נמצא בכל מקום.\p"
 	.string "כדאי לך לרכוב עליהם בכל\n"
-	.string "המקום—זו פרסומת טובה!$"
+	.string "המקום--זו פרסומת טובה!$"
 
 Route110_Text_TwoRoads:
 	.string "שתי הדרכים, אחת למעלה, אחת למטה…\p"
@@ -913,7 +913,7 @@ Route110_Text_SlateportCitySign:
 	.string "{DOWN_ARROW} עיר סלייטפורט$"
 
 Route110_Text_CyclingRoadSign:
-	.string "כביש האופניים של חוף_הים$"
+	.string "כביש האופניים של חוף הים$"
 
 Route110_Text_AquaWasHere:
 	.string "“צוות אקווה היה כאן!”\p"
@@ -927,7 +927,7 @@ Route110_Text_Route103Sign:
 	.string "{LEFT_ARROW} דרך 103$"
 
 Route110_Text_SeasideParkingSign:
-	.string "חניית חוף_ים$"
+	.string "חניית חוף ים$"
 
 Route110_Text_MauvilleCitySign:
 	.string "דרך 110\n"

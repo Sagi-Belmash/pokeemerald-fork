@@ -434,8 +434,6 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord, MSGBOX_NPC
 	end
 
-הנה התרגום לעברית של הדיאלוגים מפינת שירות ההחלפה (Exchange Service Corner) בגבול הקרב, ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 	.string "שלום, זוהי פינת שירות ההחלפה.\p"
 	.string "אנו ממירים את נקודות הקרב שאספת\n"
@@ -507,63 +505,63 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "בחרת ב_חלבון (PROTEIN).\n"
+	.string "בחרת בחלבון (PROTEIN).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "בחרת ב_סידן (CALCIUM).\n"
+	.string "בחרת בסידן (CALCIUM).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "בחרת ב_ברזל (IRON).\n"
+	.string "בחרת בברזל (IRON).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "בחרת ב_אבץ (ZINC).\n"
+	.string "בחרת באבץ (ZINC).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "בחרת ב_פחמימות (CARBOS).\n"
+	.string "בחרת בפחמימות (CARBOS).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "בחרת ב_מעלה חיים (HP UP).\n"
+	.string "בחרת במעלה חיים (HP UP).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "בחרת באבקת_הארה (BRIGHTPOWDER).\n"
+	.string "בחרת באבקת הארה (BRIGHTPOWDER).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "בחרת בעשב_לבן (WHITE HERB).\n"
+	.string "בחרת בעשבלבן (WHITE HERB).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "בחרת בטופר_מהיר (QUICK CLAW).\n"
+	.string "בחרת בטופר מהיר (QUICK CLAW).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "בחרת בעשב_מנטלי (MENTAL HERB).\n"
+	.string "בחרת בעשבמנטלי (MENTAL HERB).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "בחרת ב_רצועת_הבחירה (CHOICE BAND).\n"
+	.string "בחרת ברצועת הבחירה (CHOICE BAND).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "בחרת באבן_מלך (KING'S ROCK).\n"
+	.string "בחרת באבן מלך (KING'S ROCK).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "בחרת ב_רצועת_הריכוז (FOCUS BAND).\n"
+	.string "בחרת ברצועת הריכוז (FOCUS BAND).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "בחרת ב_עדשת_הסקופ (SCOPE LENS).\n"
+	.string "בחרת בעדשת הסקופ (SCOPE LENS).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "בחרת ב_שאריות (LEFTOVERS).\n"
+	.string "בחרת בשאריות (LEFTOVERS).\n"
 	.string "האם זה נכון?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
@@ -703,7 +701,7 @@ BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
 	.string "פריט מוחזק המוציא פוקימונים\n"
-	.string "מ_מצב אהבה (infatuation).$"
+	.string "ממצב אהבה (infatuation).$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
 	.string "פריט מוחזק המטיל בוהק כדי\n"

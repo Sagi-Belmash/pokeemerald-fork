@@ -187,7 +187,7 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "משתמשת בפוקימונים מטיפוס אש.\p"
 	.string "התשוקה שלה לפוקימונים בוערת חזק\n"
 	.string "וחם יותר מהר געש.\p"
-	.string "אל תתקרב אליה יותר מדי—אתה תישרף!\n"
+	.string "אל תתקרב אליה יותר מדי--אתה תישרף!\n"
 	.string "השקע אותה במים ואז\l"
 	.string "לך על זה!$"
 
@@ -334,7 +334,7 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "עד רמה 50, אפילו אלה שאתה מקבל ב\l"
 	.string "החלפות מאנשים אחרים, יצייתו\l"
 	.string "לך לחלוטין.\p"
-	.string "וזה מאפשר לפוקימונים להשתמש ב_מהלך HM\n"
+	.string "וזה מאפשר לפוקימונים להשתמש במהלך HM\n"
 	.string "כוח (STRENGTH) מחוץ לקרב.\p"
 	.string "זוהי אות הערכה ממני.\n"
 	.string "אל תתבייש לקחת את זה!$"
@@ -343,7 +343,7 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 	.string "ה-TM50 הזה מכיל OVERHEAT.\p"
 	.string "המהלך הזה מטיל נזק רציני על\n"
 	.string "היריב.\p"
-	.string "אבל הוא גם מוריד בחדות את התקפ"מ\n"
+	.string "אבל הוא גם מוריד בחדות את התקפ.מ\n"
 	.string "של הפוקימון המשתמש בו. זה אולי לא\l"
 	.string "מתאים לקרבות ארוכים יותר.$"
 

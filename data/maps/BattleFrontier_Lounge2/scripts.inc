@@ -118,7 +118,7 @@ BattleFrontier_Lounge2_Text_FrontierManiacIntro::
 	.string "את{EMIT_HEY} יכול{ADD_HEY}לחשוב עליי בתור\n"
 	.string "משוגע על חזית הקרב.\p"
 	.string "רק לוודא, אבל את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF}, נכון?\n"
-	.string "אני אשמח לחלוק את_החדשות החמות ביותר\l"
+	.string "אני אשמח לחלוק את החדשות החמות ביותר\l"
 	.string "שאספתי על חזית הקרב.$"
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
@@ -168,7 +168,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
 @ TILL HERE 2
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
-	.string "אני בטוח שלא ידעת את_זה!\p"
+	.string "אני בטוח שלא ידעת את זה!\p"
 	.string "אחד מהמאמנים הבכירים האלה שסקוט\n"
 	.string "קורא להם ראשי החזית נמצא שם.\p"
 	.string "זהו מאמן ראוותני הנקרא\n"
@@ -238,7 +238,7 @@ BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
 	.string "ופוקימון אכזרי מסוג מים ומעופף.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
-	.string "אני בטוח שלא ידעת את_זה!\p"
+	.string "אני בטוח שלא ידעת את זה!\p"
 	.string "אחד מהמאמנים הבכירים האלה שסקוט\n"
 	.string "קורא להם ראשי החזית נמצאת שם.\p"
 	.string "זו מאמנת חמודה הנקראת\n"
@@ -263,7 +263,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "ופוקימון פטרייה מסוג עשב ולחימה.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
-	.string "אני בטוח שלא ידעת את_זה!\p"
+	.string "אני בטוח שלא ידעת את זה!\p"
 	.string "אחד מהמאמנים הבכירים האלה שסקוט\n"
 	.string "קורא להם ראשי החזית נמצא שם.\p"
 	.string "זהו מאמן זדוני הנקרא\n"
@@ -288,7 +288,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "ופוקימון זוהר הקוטב מסוג מים.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
-	.string "אני בטוח שלא ידעת את_זה!\p"
+	.string "אני בטוח שלא ידעת את זה!\p"
 	.string "אחד מהמאמנים הבכירים האלה שסקוט\n"
 	.string "קורא להם ראשי החזית נמצא שם.\p"
 	.string "זהו מאמן לוהט הנקרא\n"
@@ -297,7 +297,7 @@ BattleFrontier_Lounge2_Text_PyramidKingIsThere::
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 	.string "האם נלחמת במלך הפירמידה\n"
 	.string "לפניכן?\p"
-	.string "כשהוא בודק את_כוח היריב,\n"
+	.string "כשהוא בודק את כוח היריב,\n"
 	.string "הוא ככל הנראה משתמש בפוקימונים הבאים:\p"
 	.string "פוקימון פסגת אבן מסוג אבן,\n"
 	.string "פוקימון קרחון מסוג קרח,\l"

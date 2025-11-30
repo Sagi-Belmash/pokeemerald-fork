@@ -406,13 +406,13 @@ BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 	.string "יש! ניצחתי!\n"
-	.string "אני אקבל את_אתגר כידון הקרב!$"
+	.string "אני אקבל את אתגר כידון הקרב!$"
 
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
 	.string "הו, לא…\n"
 	.string "הפסדתי.\p"
 	.string "אני מניח שאני לא בר מזל היום.\n"
-	.string "אני אדחה את_אתגר כידון הקרב שלי\l"
+	.string "אני אדחה את אתגר כידון הקרב שלי\l"
 	.string "למחר.$"
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
@@ -447,7 +447,7 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 	.string "לא היה כאן כלום לפני זמן\n"
 	.string "לא רב כל כך.\p"
 	.string "אבל, עכשיו תראה את המקום הזה! מדהים!\n"
-	.string "אני אביא את_אמא שלי לראות את_זה.$"
+	.string "אני אביא את אמא שלי לראות את זה.$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
 	.string "סוף סוף הגעתי לגבול הקרב!\n"
@@ -490,7 +490,7 @@ BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
 	.string "הו, תשתקי!\n"
-	.string "תנמיכי את_הרעש הזה!\p"
+	.string "תנמיכי את הרעש הזה!\p"
 	.string "מעריצות מזדמנות צריכות להישאר\n"
 	.string "לעודד איזה מנהיג מכון!\p"
 	.string "אלוף הכיפה הוא שלי!\n"
@@ -507,7 +507,7 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "הם הובסו כל כך ביסודיות,\n"
 	.string "שהם התאהבו במאמן.\p"
 	.string "עכשיו הם רק מעריצים של המאמן.\n"
-	.string "הם הולכים לעודד את_האליל שלהם ב\l"
+	.string "הם הולכים לעודד את האליל שלהם ב\l"
 	.string "כיפת הקרב כל יום עכשיו.$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
@@ -516,5 +516,5 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "איפשהו בגבול הקרב.\p"
 	.string "הוא בטח מקסים. אני בטוח ב_זה…\p"
 	.string "הו, אתגרים יכולים לחכות. אני מרגיש מונע\n"
-	.string "למצוא את_היצור המקסים!$"
+	.string "למצוא את היצור המקסים!$"
 

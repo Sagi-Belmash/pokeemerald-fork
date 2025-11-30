@@ -332,7 +332,7 @@ BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "סקוט: נהדר לראות אותך כאן,\n"
 	.string "באמת שכן!\p"
-	.string "אני מקווה שתקדיש את_זמנך ו\n"
+	.string "אני מקווה שתקדיש את זמנך ו\n"
 	.string "תחקור את כל_המקום.\p"
 	.string "באופן טבעי, אני מקווה שגם תחווה\n"
 	.string "את המהות הטהורה של קרב.\p"
@@ -398,9 +398,9 @@ BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 	.string "אולם הדירוג ממוקם ליד\n"
 	.string "מגדל הקרב.\p"
-	.string "שם, אתה יכול לראות את_השיאים הפנטסטיים\n"
+	.string "שם, אתה יכול לראות את השיאים הפנטסטיים\n"
 	.string "ביותר שהושארו על ידי מאמנים ש\l"
-	.string "לקחו על עצמם את_האתגרים הרבים של\l"
+	.string "לקחו על עצמם את האתגרים הרבים של\l"
 	.string "גבול הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
@@ -490,7 +490,7 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "בגבול הקרב, לא כולל קרבות\l"
 	.string "בכידון הקרב או בפירמידת הקרב.\l"
 	.string "בפירמידת הקרב.\p"
-	.string "אתה יכול לבחור להקליט את_הקרב שלך\n"
+	.string "אתה יכול לבחור להקליט את הקרב שלך\n"
 	.string "בסוף קרב.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:

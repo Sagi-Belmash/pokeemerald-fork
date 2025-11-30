@@ -284,7 +284,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "מאי: עם המשקפי מגן האלה,\n"
-	.string "לא תהיה לך בעיה לעבור את_המדבר\l"
+	.string "לא תהיה לך בעיה לעבור את המדבר\l"
 	.string "ליד דרך 111.\p"
 	.string "אבל, ואו, {PLAYER}{KUN}…\n"
 	.string "אתגר מכונים…\p"

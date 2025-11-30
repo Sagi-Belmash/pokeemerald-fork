@@ -465,7 +465,7 @@ MtPyre_Summit_Text_Grunt3Defeat:
 MtPyre_Summit_Text_Grunt3PostBattle:
 	.string "הה, זה לא משנה!\n"
 	.string "קנינו לנו קצת זמן!\p"
-	.string "הבוס בטח חטף את_מה\n"
+	.string "הבוס בטח חטף את מה\n"
 	.string "שאחריו הוא רדף!$"
 
 MtPyre_Summit_Text_Grunt4Intro:
@@ -477,7 +477,7 @@ MtPyre_Summit_Text_Grunt4Intro:
 
 MtPyre_Summit_Text_Grunt4Defeat:
 	.string "אם אתה רוצה להצטרף לצוות אקווה כל כך\n"
-	.string "הרבה, אנחנו יכולים לשקול את_זה…$"
+	.string "הרבה, אנחנו יכולים לשקול את זה…$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "יש לנו שילוב נהדר של_חברי\n"
@@ -485,7 +485,7 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "ארצ'י: מקסי מצוות מגמה הקדים\n"
-	.string "אותנו, אבל גם אנחנו קיבלנו את_מה שרצינו.\p"
+	.string "אותנו, אבל גם אנחנו קיבלנו את מה שרצינו.\p"
 	.string "ה-ORB האדום שנשמר בהר פייר…\n"
 	.string "אני, ארצ'י, מחזיק בו עכשיו!\p"
 	.string "פופופו… עכשיו אנחנו יכולים להגשים\n"
@@ -506,11 +506,11 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "… … … … … …\p"
 	.string "אה, כן. האם צוות מגמה היה זה שבא\n"
 	.string "ולקח את ה-ORB הכחול ראשון?\p"
-	.string "טוב, בחיפזונם, הם השאירו את_זה\n"
+	.string "טוב, בחיפזונם, הם השאירו את זה\n"
 	.string "מאחור.\p"
 	.string "אני לא יכול לדמיין מה בדיוק זה\n"
 	.string "יכול להיות.\p"
-	.string "הייתי רוצה שתקבל את_זה.\n"
+	.string "הייתי רוצה שתקבל את זה.\n"
 	.string "אולי זה יהיה שימושי בדרך כלשהי.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
@@ -551,7 +551,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "אותנו את זה…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "הר פייר הוא המקום שבו אנחנו מרגיעים את_הרוחות\n"
+	.string "הר פייר הוא המקום שבו אנחנו מרגיעים את הרוחות\n"
 	.string "של פוקימונים שנפטרו…\p"
 	.string "זהו מקום גבוה שבו אפשר\n"
 	.string "לראות את כל הון…\p"
@@ -591,11 +591,11 @@ MtPyre_Summit_Text_MaxieSilence:
 	.string "… … … … … …$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
-	.string "זה התפקיד שלי להעביר את_האגדות\n"
+	.string "זה התפקיד שלי להעביר את האגדות\n"
 	.string "של הון לדורות הבאים.\p"
 	.string "והמשבר שהסתיים זה עתה ב\n"
 	.string "סוטופוליס כתב מחדש אגדה…\p"
-	.string "האם יש לך זמן לשמוע את_האגדה\n"
+	.string "האם יש לך זמן לשמוע את האגדה\n"
 	.string "החדשה של הון?$"
 
 MtPyre_Summit_Text_HoennTrioTale:
@@ -614,6 +614,6 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "השמיים ירד מסערה.\p"
 	.string "הפוקימון, זוהר ירוק עז,\n"
 	.string "הרגיע את שני הפוקימונים הזועמים.\p"
-	.string "אז, לאחר שמילא את_חובתו, הפוקימון\n"
+	.string "אז, לאחר שמילא את חובתו, הפוקימון\n"
 	.string "הירוק עף אל_השחקים הרחוקים…$"
 

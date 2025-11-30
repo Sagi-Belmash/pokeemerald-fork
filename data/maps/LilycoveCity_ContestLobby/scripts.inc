@@ -1003,7 +1003,7 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 	.string "מה את{EMIT_HEY} חושב{ADD_TAF}? אני בטוח\n"
 	.string "במה שעשיתי, אבל האם את{EMIT_HEY} אוהב{ADD_TAF} את זה?\p"
 	.string "עבודה ברמה כזו, היא לא תיראה\n"
-	.string "מוזר במוזיאון אמנות.\p"
+	.string "מוזר במוזיאון אומנות.\p"
 	.string "הא? מוזיאון אומנות באמת מחפש\n"
 	.string "ציורים?\p"
 	.string "את{EMIT_HEY} חושב{ADD_TAF} שאני צריך לקחת את זה לשם?$"
@@ -1036,7 +1036,7 @@ LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
 	.string "או… אם כן, אני מניח שפשוט אקח\n"
 	.string "את זה הביתה איתי…\p"
 	.string "אבל, את{EMIT_HEY} יודע{ADD_TAF}, הייתי רוצה לקחת\n"
-	.string "את זה למוזיאון אמנות… אוקיי?$"
+	.string "את זה למוזיאון אומנות… אוקיי?$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
 	.string "או, בסדר, זה המצב.\n"

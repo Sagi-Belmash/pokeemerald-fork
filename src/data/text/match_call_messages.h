@@ -249,7 +249,7 @@ const u8 gText_MatchCallPicnicker_Diana_Intro1[] = _("מה נמצא מעבר");
 const u8 gText_MatchCallPicnicker_Diana_Intro2[] = _("לגבעה ההיא?");
 
 const u8 gText_MatchCallTwins_AmyAndLiv_Strategy[] = _("אנחנו נלחמות יחד!");
-const u8 gText_MatchCallTwins_AmyAndLiv_Pokemon[] = _("אנחנו מתאמנות יחד!");
+const u8 gText_MatchCallTwins_AmyAndLiv_Pokemon[] = _("אנחנו מתאומנות יחד!");
 const u8 gText_MatchCallTwins_AmyAndLiv_Intro1[] = _("אנחנו אוהבות את אותם פוקימונים,");
 const u8 gText_MatchCallTwins_AmyAndLiv_Intro2[] = _("אבל קינוחים שונים.");
 

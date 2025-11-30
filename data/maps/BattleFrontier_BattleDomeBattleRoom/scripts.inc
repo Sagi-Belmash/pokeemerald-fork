@@ -987,12 +987,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
-	.string "האם ניתן להשיג את_ההישג של_אליפות\n"
+	.string "האם ניתן להשיג את ההישג של_אליפות\n"
 	.string "בניסיון הראשון?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-	.string "האם ניתן לנקום את_ההפסד של_המשחק\n"
+	.string "האם ניתן לנקום את ההפסד של_המשחק\n"
 	.string "הקודם?\p"
 	.string "$"
 
@@ -1015,7 +1015,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-	.string "האם מישהו יכול לקוות לנצח את_המאמן\n"
+	.string "האם מישהו יכול לקוות לנצח את המאמן\n"
 	.string "הזה?\p"
 	.string "$"
 
@@ -1047,7 +1047,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-	.string "הרגישו את_הזוהר של_אמן אמיתי!$"
+	.string "הרגישו את הזוהר של_אמן אמיתי!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 	.string "ועכשיו… המאמן שעומד ב_דרכו\n"
@@ -1055,7 +1055,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 	.string "כן! האחד והיחיד!\n"
 	.string "נציב כיפת הקרב!\l"
 	.string "אלוף הכיפה שלנו!\l"
-	.string "פנו את_הדרך לטאקר!$"
+	.string "פנו את הדרך לטאקר!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 	.string "צופים: טאקר! טאקר!\n"
@@ -1063,8 +1063,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "טאקר: אהההה!\p"
-	.string "אתה שומע את_זה? הקהל הזה!\n"
-	.string "כולם להוטים לראות את_הקרב שלנו!\p"
+	.string "אתה שומע את זה? הקהל הזה!\n"
+	.string "כולם להוטים לראות את הקרב שלנו!\p"
 	.string "אהההה!\p"
 	.string "אני בטוח שאתה רועד מרוב\n"
 	.string "מתח מלהגיע להילחם בי!\p"
@@ -1088,7 +1088,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
 	.string "טאקר: חוקים הם חוקים!\n"
-	.string "תן לי לראות את_כרטיס גבול הקרב שלך.$"
+	.string "תן לי לראות את כרטיס גבול הקרב שלך.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
 	.string "סמל הטקטיקה הוטבע על\n"
@@ -1100,7 +1100,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
 	.string "את אותה טעות בפעם הבאה…$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
-	.string "האם ניתן למתוח את_רצף הניצחונות?\n"
+	.string "האם ניתן למתוח את רצף הניצחונות?\n"
 	.string "הביטחון קיים!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
@@ -1118,20 +1118,20 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "החום דמוי_הכבשן של_ההתרגשות שלהם…\l"
 	.string "זה מקום נפלא…\p"
 	.string "עבור הקהל, אני אלוף הכיפה…\n"
-	.string "אני מייצג את_התקוות והחלומות שלהם…\l"
+	.string "אני מייצג את התקוות והחלומות שלהם…\l"
 	.string "אסור לי לעולם להתפוגג מהעין שלהם…\p"
 	.string "אני חייב לבעור!\n"
 	.string "בהיר יותר ומבריק יותר!\l"
-	.string "אני חייב להאיר את_כל מי שמתאסף כאן!$"
+	.string "אני חייב להאיר את כל מי שמתאסף כאן!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-	.string "אני אשחרר את_כל הכוח ש\n"
+	.string "אני אשחרר את כל הכוח ש\n"
 	.string "יש לי! כאן ועכשיו!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
 	.string "טאקר: אתה באמת פנטסטי!\p"
 	.string "מעולם לא! לא הפסדתי אפילו פעם אחת ב\n"
-	.string "הפעמים שבהן נאלצתי לשחרר את_הכוח שלי.\p"
+	.string "הפעמים שבהן נאלצתי לשחרר את הכוח שלי.\p"
 	.string "כן, ממש פנטסטי!\n"
 	.string "כרטיס גבול הקרב שלך, בבקשה?$"
 

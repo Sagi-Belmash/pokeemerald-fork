@@ -563,7 +563,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
 	.string "זה {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-	.string "שמעתי את_החדשות!\n"
+	.string "שמעתי את החדשות!\n"
 	.string "אתה ממש חזק, נכון?\p"
 	.string "אנחנו תמיד מתווכחים מי הוא המאמן\n"
 	.string "הכי חזק מכל המאמנים כאן.\p"
@@ -589,7 +589,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
 	.string "הראה להם שיש לך אומץ!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
-	.string "אני שונא לומר את_זה, אבל המאמן\n"
+	.string "אני שונא לומר את זה, אבל המאמן\n"
 	.string "שכולם מדברים עליו הוא\l"
 	.string "{STR_VAR_1}, אין שאלה לגבי זה!\p"
 	.string "הכוח של המאמן הזה…\n"
@@ -628,7 +628,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
 	.string "לחבב את בראולי…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
-	.string "אף אחד לא מבין את_הקסם של\n"
+	.string "אף אחד לא מבין את הקסם של\n"
 	.string "בראולי…\p"
 	.string "לא אכפת לי!\p"
 	.string "גם אם אני היחיד, אני אמשיך\n"
@@ -640,9 +640,9 @@ LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 	.string "בראולי!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
-	.string "עברת את_אבא שלך בכל\n"
+	.string "עברת את אבא שלך בכל\n"
 	.string "מובן!\p"
-	.string "אני אומר לך את_זה, אז אין שאלה\n"
+	.string "אני אומר לך את זה, אז אין שאלה\n"
 	.string "לגבי זה בכלל!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
@@ -661,12 +661,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
 	.string "בהשוואה לאבא שלך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
-	.string "אתה מתחיל לקבל את_אותה\n"
+	.string "אתה מתחיל לקבל את אותה\n"
 	.string "הילה של יראת כבוד שנורמן מקרין.\p"
 	.string "אבל יש משהו שונה בצורה מכרעת\n"
 	.string "בינך לבין נורמן.\p"
 	.string "אני לא יכול לומר לך מה זה.\n"
-	.string "תצטרך למצוא את_זה בעצמך.$"
+	.string "תצטרך למצוא את זה בעצמך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
 	.string "כולם כאן, כולנו מעריצים ענקיים\n"
@@ -679,7 +679,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
 	.string "הו, וואווי! זה {PLAYER}!\n"
 	.string "אמיתי, גם כן!\p"
-	.string "בבקשה, לחץ את_ידי, לחץ את_ידי!$"
+	.string "בבקשה, לחץ את ידי, לחץ את ידי!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou:
 	.string "אני תמיד אעודד אותך, {PLAYER}!\n"
@@ -720,7 +720,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
 	.string "{STR_VAR_1} הוא כזה קול בצורה מטורפת…\n"
-	.string "אני רוצה ללחוץ את_ידו של_הגיבור שלי.$"
+	.string "אני רוצה ללחוץ את ידו של_הגיבור שלי.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 	.string "גם אם אני היחיד…\p"
@@ -732,7 +732,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
 	.string "{PLAYER}!\n"
 	.string "אתה מדהים אחרי הכל!\p"
-	.string "מאז ש_שמתי את_העיניים על_יך,\n"
+	.string "מאז ש_שמתי את העיניים על_יך,\n"
 	.string "ידעתי שאתה נהדר.\p"
 	.string "נראה שהעיניים שלי לא הטעו אותי.$"
 
@@ -754,11 +754,11 @@ LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
 	.string "וואו, אתה באמת חזק.\n"
 	.string "אולי אפילו חזק יותר מ-{STR_VAR_1}.\p"
 	.string "אבל {STR_VAR_1} צריך אותי.\p"
-	.string "אם אני לא אעודד את_{STR_VAR_1},\n"
+	.string "אם אני לא אעודד את {STR_VAR_1},\n"
 	.string "מי יעודד?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
-	.string "שינית את_דעתי!\n"
+	.string "שינית את דעתי!\n"
 	.string "אתה חזק, נכון?\p"
 	.string "הייתי רוצה שתספר לי איך הצלחת\n"
 	.string "להפוך לכל כך חזק!$"
@@ -790,13 +790,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
 	.string "הערך האמיתי שלך, זה בסדר אם רק\n"
 	.string "אני הכרתי ב_ו.\p"
-	.string "אני בספק אם האחרים יבינו את_הכוח\n"
+	.string "אני בספק אם האחרים יבינו את הכוח\n"
 	.string "החבוי שפועם בפנים.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
 	.string "כן, אני רואה כוח בעיניים שלך.\p"
 	.string "אבל!\p"
-	.string "עוד לא מימשת את_הפוטנציאל\n"
+	.string "עוד לא מימשת את הפוטנציאל\n"
 	.string "שלך.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:

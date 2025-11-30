@@ -322,8 +322,8 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "שאני לא.\p"
 	.string "אני צריכה לעשות דברים בדרך הטבעית שלי. אם\n"
 	.string "אני לא עושה את זה, הפוקימונים שלי יתבלבלו.\p"
-	.string "תודה שלימדת אותי את_זה.\n"
-	.string "בגלל זה, מגיע לך את_זה.$"
+	.string "תודה שלימדת אותי את זה.\n"
+	.string "בגלל זה, מגיע לך את זה.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 	.string "{PLAYER} קיבל את תג החום\n"
@@ -337,13 +337,13 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "וזה מאפשר לפוקימונים להשתמש ב_מהלך HM\n"
 	.string "כוח (STRENGTH) מחוץ לקרב.\p"
 	.string "זוהי אות הערכה ממני.\n"
-	.string "אל תתבייש לקחת את_זה!$"
+	.string "אל תתבייש לקחת את זה!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 	.string "ה-TM50 הזה מכיל OVERHEAT.\p"
 	.string "המהלך הזה מטיל נזק רציני על\n"
 	.string "היריב.\p"
-	.string "אבל הוא גם מוריד בחדות את_התקפ"מ\n"
+	.string "אבל הוא גם מוריד בחדות את התקפ"מ\n"
 	.string "של הפוקימון המשתמש בו. זה אולי לא\l"
 	.string "מתאים לקרבות ארוכים יותר.$"
 

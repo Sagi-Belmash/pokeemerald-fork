@@ -773,7 +773,7 @@ Route110_Text_MayTakeThis:
 
 Route110_Text_MayExplainItemfinder:
 	.string "מיי: זה ITEMFINDER.\p"
-	.string "נסה את_זה. אם יש פריט שאינו\n"
+	.string "נסה את זה. אם יש פריט שאינו\n"
 	.string "גלוי, הוא משמיע צליל.\p"
 	.string "בסדר, {PLAYER}{KUN}, ניפגש שוב!\p"
 	.string "אני יודעת שזה קצת מטופש מצדי,\n"
@@ -795,7 +795,7 @@ Route110_Text_BrendanTakeThis:
 	.string "ברנדן: {PLAYER}, התאמנת\n"
 	.string "בלי ששמתי לב…\p"
 	.string "מספיק טוב!\n"
-	.string "קח את_זה.$"
+	.string "קח את זה.$"
 
 Route110_Text_BrendanExplainItemfinder:
 	.string "ברנדן: זה ITEMFINDER.\p"
@@ -811,12 +811,12 @@ Route110_Text_RideBikeAtFullSpeed:
 	.string "במלוא המהירות בכביש האופניים?$"
 
 Route110_Text_HairStreamsBehindMe:
-	.string "איך אתה אוהב את_הדרך שבה השיער\n"
+	.string "איך אתה אוהב את הדרך שבה השיער\n"
 	.string "שלי בצבע עורב מתנופף מאחוריי?\p"
-	.string "הארכתי את_השיער שלי רק בשביל זה.$"
+	.string "הארכתי את השיער שלי רק בשביל זה.$"
 
 Route110_Text_YouGotBikeFromRydel:
-	.string "הו, היי, קיבלת את_האופניים האלה מריידל!\p"
+	.string "הו, היי, קיבלת את האופניים האלה מריידל!\p"
 	.string "הו, זה ברור בצורה בולטת.\n"
 	.string "זה כתוב ממש על האופניים שלך…\p"
 	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\n"
@@ -842,7 +842,7 @@ Route110_Text_WalkOnTheLowRoad:
 	.string "הליכה נינוחה בדרך התחתונה.$"
 
 Route110_Text_BikeTechniques:
-	.string "לימוד טכניקות יהפוך את_רכיבת האופניים\n"
+	.string "לימוד טכניקות יהפוך את רכיבת האופניים\n"
 	.string "לכיפית עוד יותר.\p"
 	.string "יש כמה מקומות שאתה יכול\n"
 	.string "להגיע אליהם רק באמצעות טכניקת אופניים.$"
@@ -850,7 +850,7 @@ Route110_Text_BikeTechniques:
 Route110_Text_WhichShouldIChoose:
 	.string "במה עליי לבחור?\p"
 	.string "ללכת בקו ישר למוויל ב\n"
-	.string "כביש האופניים, או לקחת את_הדרך התחתונה\l"
+	.string "כביש האופניים, או לקחת את הדרך התחתונה\l"
 	.string "ולחפש פוקימונים?$"
 
 Route110_Text_CyclingChallengeResultSummary:
@@ -887,7 +887,7 @@ Route110_Text_ChallengeReactionWorst:
 	.string "אתה אולי לא מתאים לענייני\n"
 	.string "הרכיבה המצערים האלה.\p"
 	.string "כדאי לך לשקול ברצינות\n"
-	.string "להחזיר את_האופניים האלה לריידל.$"
+	.string "להחזיר את האופניים האלה לריידל.$"
 
 Route110_Text_RatedForNumberOfCollisions:
 	.string "זהו כביש האופניים.\p"
@@ -917,7 +917,7 @@ Route110_Text_CyclingRoadSign:
 
 Route110_Text_AquaWasHere:
 	.string "“צוות אקווה היה כאן!”\p"
-	.string "מישהו צבע את_זה על_השלט הזה,\n"
+	.string "מישהו צבע את זה על_השלט הזה,\n"
 	.string "אבל מישהו אחר צבע מעל.\p"
 	.string "“צוות מגמה שולט!” זה מה שזה\n"
 	.string "אומר עכשיו.$"
@@ -942,7 +942,7 @@ Route110_Text_TrainerTipsPrlzSleep:
 
 Route110_Text_TrainerTipsRegisterItems:
 	.string "טיפים למאמנים\p"
-	.string "ניתן לארגן מחדש את_הפריטים בתיק\n"
+	.string "ניתן לארגן מחדש את הפריטים בתיק\n"
 	.string "על ידי לחיצה על SELECT.$"
 
 Route110_Text_TrickHouseSign:
@@ -956,7 +956,7 @@ Route110_Text_BestRecord:
 
 Route110_Text_ThereIsNoRecord:
 	.string "השיא הטוב ביותר עד היום…\p"
-	.string "נראה שאף אחד לא לקח את_האתגר.\n"
+	.string "נראה שאף אחד לא לקח את האתגר.\n"
 	.string "אין שיא…$"
 
 Route110_Text_ImagineSeeingYouHere:
@@ -973,7 +973,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "טוב, אם כן, אני צריך לרשום אותך ב\n"
 	.string "פוקינאב שלי גם כן.\p"
 	.string "כך, גם כשאנחנו בנפרד,\n"
-	.string "אני יכול לדרג את_הפוקידע שלך בכל עת.\p"
+	.string "אני יכול לדרג את הפוקידע שלך בכל עת.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:

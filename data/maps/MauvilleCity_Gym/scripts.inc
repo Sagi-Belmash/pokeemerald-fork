@@ -361,7 +361,7 @@ MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 	.string "וזה גם יהפוך את הפוקימון שלך ל_קצת\n"
 	.string "יותר מהיר.\p"
 	.string "הממ…\n"
-	.string "אתה צריך לקחת גם את_זה!$"
+	.string "אתה צריך לקחת גם את זה!$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
 	.string "ה-TM34 הזה מכיל SHOCK WAVE.\p"
@@ -405,7 +405,7 @@ MauvilleCity_Gym_Text_WattsonPostRematch:
 	.string "וואטסון: אנחנו נצטרך לטעון את\n"
 	.string "הסוללות שלנו שוב.\p"
 	.string "כאשר נהיה טעונים במלואנו, אנחנו\n"
-	.string "נשמח לקבל את_האתגר שלך.\p"
+	.string "נשמח לקבל את האתגר שלך.\p"
 	.string "אז, תחזור לבקר שוב מתישהו,\n"
 	.string "בסדר?$"
 

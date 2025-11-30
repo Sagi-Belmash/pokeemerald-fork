@@ -1134,7 +1134,7 @@ MatchCall_PersonalizedText42::
 MatchCall_PersonalizedText43::
 	.string "זה {STR_VAR_1} כאן.\p"
 	.string "המשכתי בלימודים שלי\n"
-	.string "באמנות ההסתרה.\p"
+	.string "באומנות ההסתרה.\p"
 	.string "אבל הצלחתי יותר מדי.\n"
 	.string "אף אחד לא הצליח למצוא אותי.\l"
 	.string "ההצלחה שלי גורמת לי להיות בודד…\p"

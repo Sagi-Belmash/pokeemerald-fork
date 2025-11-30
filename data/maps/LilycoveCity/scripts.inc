@@ -618,7 +618,7 @@ LilycoveCity_Text_MissingPokemonCameBack:
     .string "הוא חזר מבלי ששמתי לב!$"
 
 LilycoveCity_Text_ImArtDealer:
-    .string "אני סוחר אמנות.\p"
+    .string "אני סוחר אומנות.\p"
     .string "אני קונה ומוכר אומנות יפה,\n"
     .string "במיוחד ציורים.\p"
     .string "שמעתי שבמוזיאון כאן יש\n"

@@ -224,14 +224,14 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
 	.string "עזבתי את הבית לבד במסע למצוא\n"
 	.string "מאמנים חזקים.\p"
 	.string "אף אחד לא יכול לדמיין כמה מאמץ\n"
-	.string "או זמן נדרש כדי להפוך את_זה למציאות.$"
+	.string "או זמן נדרש כדי להפוך את זה למציאות.$"
 
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
 	.string "אבל כל זה בעבר.\n"
 	.string "אין טעם להתעכב על זה!\p"
 	.string "כל מה שאני רוצה זה שתיהנה מקרב\n"
 	.string "ככל שתרצה כאן.\p"
-	.string "{PLAYER}{KUN}, אני רוצה שתקבל את_זה\n"
+	.string "{PLAYER}{KUN}, אני רוצה שתקבל את זה\n"
 	.string "כמזכרת על כל הזמן שדרכינו\l"
 	.string "הצטלבו במסעותינו.$"
 
@@ -240,7 +240,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 	.string "{STR_VAR_1} נקודת/ות קרב.$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-	.string "סקוט: אתה יכול לבדוק את_נקודות הקרב\n"
+	.string "סקוט: אתה יכול לבדוק את נקודות הקרב\n"
 	.string "שלך בכרטיס גבול הקרב שלך.\p"
 	.string "ככל שתצליח יותר כאן ב\n"
 	.string "גבול הקרב, כך תצבור יותר נקודות\l"
@@ -295,7 +295,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "אתה קשוח, בדיוק כפי שחשדתי!\p"
 	.string "בדרך כלל, לא הייתי עושה משהו\n"
 	.string "כזה, אבל זה זמן מיוחד!\p"
-	.string "אני רוצה שתקבל את_זה.\n"
+	.string "אני רוצה שתקבל את זה.\n"
 	.string "אני בטוח שאתה יכול להשתמש בזה כראוי.$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
@@ -309,9 +309,9 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 	.string "זה יותר ממדהים!\n"
 	.string "אתה מדהים, בדיוק כפי שחשדתי!\p"
 	.string "… … … … … …\p"
-	.string "{PLAYER}, אתה חייב לקבל את_זה!\p"
+	.string "{PLAYER}, אתה חייב לקבל את זה!\p"
 	.string "אני חושב שאתה תדע\n"
-	.string "להעריך את_שווי המתנה שלי!$"
+	.string "להעריך את שווי המתנה שלי!$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 	.string "אני חייב לומר שיש לי מתנה לזהות\n"

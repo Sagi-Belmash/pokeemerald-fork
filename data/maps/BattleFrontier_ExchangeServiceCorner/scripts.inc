@@ -438,7 +438,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 	.string "שלום, זוהי פינת שירות ההחלפה.\p"
-	.string "אנו ממירים את_נקודות הקרב שאספת\n"
+	.string "אנו ממירים את נקודות הקרב שאספת\n"
 	.string "בפרסים מקסימים.\p"
 	.string "אנא בחר פרס מתוך הרשימה הזו.$"
 
@@ -568,7 +568,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
 	.string "תודה!\n"
-	.string "נשלח את_זה למחשב (PC) שלך בבית.$"
+	.string "נשלח את זה למחשב (PC) שלך בבית.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
 	.string "הנה הפרס שלך!$"
@@ -583,7 +583,7 @@ BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
 	.string "אני כל כך מצטער…\n"
-	.string "אין לך מקום להחזיק את_זה…$"
+	.string "אין לך מקום להחזיק את זה…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
 	.string "תודה רבה.\p"
@@ -619,7 +619,7 @@ BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 	.string "האם ידעת?\p"
-	.string "אם אתה משפר את_השיא שלך באחד מ\n"
+	.string "אם אתה משפר את השיא שלך באחד מ\n"
 	.string "מתקני הקרב, הם מתחילים\l"
 	.string "לתת לך יותר ויותר נקודות קרב.$"
 

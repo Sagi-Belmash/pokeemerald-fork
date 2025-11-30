@@ -199,7 +199,7 @@ const u8 DecorDesc_GOLD_SHIELD[] = _(
 const u8 DecorDesc_GLASS_ORNAMENT[] = _(
     "העתק זכוכית של\n"
         "פסל מפורסם\n"
-        "במוזיאון האמנות.");
+        "במוזיאון האומנות.");
 
 const u8 DecorDesc_TV[] = _(
     "טלוויזיית צעצוע\n"

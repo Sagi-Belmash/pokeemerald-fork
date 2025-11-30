@@ -589,7 +589,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
 	.string "סגנון הקרב המועדף נראה\n"
-	.string "כמחליש את_היריב בהתחלה.$"
+	.string "כמחליש את היריב בהתחלה.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
 	.string "סגנון הקרב המועדף נראה\n"
@@ -615,11 +615,11 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
 	.string "בבקשה, דרך זו!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
-	.string "אני שומר את_הנתונים שלך.\n"
+	.string "אני שומר את הנתונים שלך.\n"
 	.string "אנא המתן.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-	.string "האם תרצה להקליט את_הקרב האחרון\n"
+	.string "האם תרצה להקליט את הקרב האחרון\n"
 	.string "שלך על כרטיס גבול הקרב שלך?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
@@ -635,7 +635,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "מצטער לשמור אותך ממתין!\p"
 	.string "יש לי הודעה מהבוס של_המתקן הזה,\n"
 	.string "ראש בית_החרושת.\p"
-	.string "הוא אומר, “אנחנו הולכים לעשות את_זה!\n"
+	.string "הוא אומר, “אנחנו הולכים לעשות את זה!\n"
 	.string "בוא לכאן מיד!”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:

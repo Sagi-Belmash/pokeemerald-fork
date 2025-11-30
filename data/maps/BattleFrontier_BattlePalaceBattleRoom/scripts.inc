@@ -482,7 +482,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
 	.string "נא להתאזר בסבלנות…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
-	.string "האם ברצונך להקליט את_הקרב האחרון\n"
+	.string "האם ברצונך להקליט את הקרב האחרון\n"
 	.string "שלך על היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:

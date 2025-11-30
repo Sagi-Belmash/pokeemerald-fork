@@ -353,12 +353,12 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "המקום שבו רוח הקרב של מאמנים\n"
 	.string "מועמדת למבחן!\p"
-	.string "אני מקדם את_פניך לזירת הקרב!\p"
+	.string "אני מקדם את פניך לזירת הקרב!\p"
 	.string "אני המדריך שלך לטורניר KO קבוע!$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 	.string "עכשיו, האם תרצה לקבל\n"
-	.string "את_אתגר זירת הקרב?$"
+	.string "את אתגר זירת הקרב?$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 	.string "אנו מצפים לאתגר שלך\n"
@@ -377,16 +377,16 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "להישאר בחוץ עד להכרעת הקרב.\p"
 	.string "אם הקרב נשאר ללא הכרעה לאחר\n"
 	.string "שלושה תורות, הוא עובר לשיפוט.\p"
-	.string "אם אתה מעוניין להפסיק את_האתגר שלך,\n"
+	.string "אם אתה מעוניין להפסיק את האתגר שלך,\n"
 	.string "אנא שמור את המשחק.\p"
 	.string "אם לא תשמור, לא תוכל\n"
 	.string "להמשיך עם האתגר שלך.\p"
-	.string "אם תבצע את_ההישג של_ניצחון על\n"
+	.string "אם תבצע את ההישג של_ניצחון על\n"
 	.string "שבעה מאמנים ברצף,\l"
 	.string "אנו נעניק לך נקודות קרב.$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
-	.string "לפני שאני מראה לך את_הדרך לזירת\n"
+	.string "לפני שאני מראה לך את הדרך לזירת\n"
 	.string "הקרב, אתה חייב לשמור. האם זה בסדר?$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
@@ -395,33 +395,33 @@ BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 	.string "באיזו תבחר?$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
-	.string "בסדר גמור, עכשיו בחר את_שלושת\n"
+	.string "בסדר גמור, עכשיו בחר את שלושת\n"
 	.string "הפוקימונים שלך, בבקשה.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "האתגר היקר שלי!\p"
-	.string "אין לך את_שלושת הפוקימונים\n"
+	.string "אין לך את שלושת הפוקימונים\n"
 	.string "הנדרשים לכניסה.\p"
 	.string "כדי לעמוד בתנאי, אתה חייב להביא שלושה\n"
 	.string "סוגים שונים של פוקימונים.\p"
-	.string "הם גם לא חייבים להחזיק את_אותם\n"
+	.string "הם גם לא חייבים להחזיק את אותם\n"
 	.string "סוגי פריטים.\p"
 	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
-	.string "כאשר תסיים את_ההכנות שלך,\n"
+	.string "כאשר תסיים את ההכנות שלך,\n"
 	.string "אנא חזור.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 	.string "האתגר היקר שלי!\p"
-	.string "אין לך את_שלושת הפוקימונים\n"
+	.string "אין לך את שלושת הפוקימונים\n"
 	.string "הנדרשים לכניסה.\p"
 	.string "כדי לעמוד בתנאי, אתה חייב להביא שלושה\n"
 	.string "סוגים שונים של פוקימונים.\p"
 	.string "שלושת הפוקימונים השונים\n"
 	.string "חייבים להיות כולם ברמה 50 או פחות.\p"
-	.string "הם גם לא חייבים להחזיק את_אותם\n"
+	.string "הם גם לא חייבים להחזיק את אותם\n"
 	.string "סוגי פריטים.\p"
 	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
-	.string "כאשר תסיים את_ההכנות שלך,\n"
+	.string "כאשר תסיים את ההכנות שלך,\n"
 	.string "אנא חזור.$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
@@ -448,12 +448,12 @@ BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-	.string "כדי לחגוג את_רצף 7 הניצחונות שלך,\n"
-	.string "אנו מעניקים לך את_הפרס הזה.$"
+	.string "כדי לחגוג את רצף 7 הניצחונות שלך,\n"
+	.string "אנו מעניקים לך את הפרס הזה.$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
-	.string "{PLAYER} קיבל את_הפרס\n"
+	.string "{PLAYER} קיבל את הפרס\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
@@ -473,12 +473,12 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 	.string "חיכינו לבואך.\p"
-	.string "לפני שאני מראה לך את_הדרך לזירת\n"
+	.string "לפני שאני מראה לך את הדרך לזירת\n"
 	.string "הקרב, עליי לשמור את המשחק.\l"
 	.string "אנא המתן.$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-	.string "האם עליי להקליט את_קרב זירת הקרב\n"
+	.string "האם עליי להקליט את קרב זירת הקרב\n"
 	.string "האחרון שלך בכרטיס גבול הקרב שלך?$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
@@ -502,7 +502,7 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "חשוב לחלוטין.\p"
 	.string "לדוגמה, אם לפוקימון הראשון שלך\n"
 	.string "יש חסרונות טיפוס מסוימים,\l"
-	.string "נסה להפוך את_הפוקימון השני שלך לאחד\l"
+	.string "נסה להפוך את הפוקימון השני שלך לאחד\l"
 	.string "עם מהלכים שהם סופר אפקטיביים\l"
 	.string "נגד הראשון.\p"
 	.string "אני חושב שזו תהיה דרך טובה\n"
@@ -521,7 +521,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "שלושה תורות.\p"
 	.string "אם התוצאה לא מוכרעת לאחר\n"
 	.string "שלושה תורות, זה עובר לשיפוט.\p"
-	.string "השופט יבחר את_המנצח\n"
+	.string "השופט יבחר את המנצח\n"
 	.string "על_בסיס איך הפוקימונים נלחמו.\p"
 	.string "כמו כן, פוקימון לא ניתן להחלפה\n"
 	.string "עד שתוצאת הקרב שלו מוכרעת.$"

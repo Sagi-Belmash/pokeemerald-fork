@@ -181,6 +181,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_Steven::
 	goto_if_set FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER, MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
 	setflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
 	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -261,6 +262,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
 	waitstate
 
 MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided, MSGBOX_DEFAULT
 	closemessage
 	delay 20
@@ -375,8 +377,8 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
 	.string "אם צוות מגמה ייקח את דלק הטילים,\n"
 	.string "אני לא אוכל לטוס לחלל!\p"
-	.string "אסור להם לחמוק עם\n"
-	.string "תעוזה כזו!$"
+	.string "אסור לתת להם להתחמק\n"
+	.string "מזעזוע כזה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 	.string "הלוואי שאנשים רגילים יוכלו לטוס\n"
@@ -384,20 +386,20 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
 	.string "צוות מגמה…\n"
-	.string "האם הם רוצים לטוס לחלל, גם?$"
+	.string "האם הם גם רוצים לטוס לחלל?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
 	.string "מה לא בסדר איתך?\p"
-	.string "אתה במיעוט שלושה לאחד,\n"
-	.string "אבל אתה עדיין רוצה להתמודד איתנו?$"
+	.string "את{EMIT_HEY} במיעוט שלושה לאחד,\n"
+	.string "אבל את{EMIT_HEY} עדיין רוצה להתמודד מולנו?$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
 	.string "תשובה טובה!\n"
 	.string "זה מה שאדם חכם יעשה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
-	.string "אתה הרפתקן פזיז, הא?\n"
-	.string "בסדר, אני אלך ראשון!$"
+	.string "את{EMIT_HEY} הרפתק{SWAP_NUN}{ADD_YUD}{ADD_TAF} פזיז{ADD_HEY}, הא?\n"
+	.string "אוקיי, אני אלך ראשון!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
 	.string "הפסדתי!\n"
@@ -412,15 +414,15 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
 	.string "אבל!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "אני בטוח שאתה רוצה לקחת הפסקה.\n"
-	.string "אבל אני לא מתכוון לתת לך לעשות את_זה!$"
+	.string "אני בטוח שאת{EMIT_HEY} רוצה לקחת הפסקה.\n"
+	.string "אבל אני לא מתכוון לתת לך לעשות את זה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 	.string "היינו צריכים לקחת הפסקה…\n"
 	.string "זה מה שהיינו צריכים לעשות…$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
-	.string "שלושתנו כאן, ותראה לאיזה בלגן\n"
+	.string "שלושתנו כאן, ותרא{EMIT_HEY}{ADD_YUD} לאיזה בלגן\n"
 	.string "מצער הכנסנו את עצמנו.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
@@ -432,11 +434,11 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
 	.string "בכלל?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
-	.string "ההההה!\p"
+	.string "היהיהי!\p"
 	.string "אנחנו באים עד לכאן כדי לקחת קצת\n"
 	.string "דלק, ושוב מפריעים לנו!\p"
-	.string "אם אתה הולך להתעסק גם בנו,\n"
-	.string "אנחנו נטפל גם בך באותו זמן!$"
+	.string "אם את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} להתעסק איתנו,\n"
+	.string "אנחנו נטפל גם בך באותו הזמן!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
 	.string "מקסי: תפנה את הדרך!\n"
@@ -449,10 +451,10 @@ MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "מקסי: פופופו… מכיוון שאתה כל כך\n"
-	.string "סקרן, מגיעה לך הסבר.\p"
+	.string "סקרן, מגיע לך הסבר.\p"
 	.string "אנחנו הולכים להשליך את כל\n"
-	.string "המטען להר צ'ימני!\p"
-	.string "עם גראודון שנעלם, אין לנו צורך\n"
+	.string "המטען להר הארובה!\p"
+	.string "עם {STR_VAR_1} שנעלם, אין לנו צורך\n"
 	.string "בפסולת האשפה הזו של הר!\p"
 	.string "אז נשתמש בכוח הדלק כדי לגרום\n"
 	.string "להר הגעש להתפרץ!\p"
@@ -460,13 +462,13 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
 	.string "סטיבן: {PLAYER}{KUN}!\n"
-	.string "אתה הולך לעזור לי?\p"
-	.string "בוא נצא לקרב יחד!\n"
-	.string "האם אתה מוכן?$"
+	.string "את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} לעזור לי?\p"
+	.string "בוא{ADD_YUD} נצא לקרב יחד!\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
-	.string "סטיבן: אם כן, מהר!\n"
-	.string "התכונן במהירות!$"
+	.string "סטיבן: אם כך, תמהר{ADD_YUD}!\n"
+	.string "התכונ{SWAP_NUN}{ADD_YUD} במהירות!$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
 	.string "כל מה שאני רוצה…\n"
@@ -476,9 +478,9 @@ MossdeepCity_SpaceCenter_Text_TabithaDefeat:
 	.string "אני עם המנהיג שלנו…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-	.string "מקסי: נכשלנו לגרום להר הגעש\n"
+	.string "מקסי: נכשלנו בלגרום להר הגעש\n"
 	.string "להתפרץ…\p"
-	.string "נכשלנו לשלוט בגראודון לאחר\n"
+	.string "נכשלנו בלשלוט ב{STR_VAR_1} לאחר\n"
 	.string "שהערנו אותו…\p"
 	.string "האם המטרה שלנו להרחיב את היבשה\n"
 	.string "מוטעית?\p"
@@ -501,7 +503,7 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "{PLAYER}{KUN}, תודה לך.\p"
 	.string "יש לי משהו לתת לך כתודה\n"
 	.string "על תמיכתך.\p"
-	.string "אנא בוא לבקר אותי בבית\n"
+	.string "אנא בוא{ADD_YUD} לבקר אותי בבית\n"
 	.string "אחרי זה.\p"
-	.string "אה, כן, אני לא גר בעיר ראסטבורו.\n"
+	.string "אה, כן, אני לא גר בעיר רסטבורו.\n"
 	.string "אני גר ממש כאן על האי הזה.$"

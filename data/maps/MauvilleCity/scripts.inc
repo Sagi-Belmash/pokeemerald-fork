@@ -592,7 +592,7 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "זה לא יהיה אתגר בשבילך.\p"
 	.string "הכניסה למוויל חדשה היא רק\n"
 	.string "שיט קצר מדרך 110.\p"
-	.string "זהו זה, אם כן, יש לך את_האמון שלי!\n"
+	.string "זהו זה, אם כן, יש לך את האמון שלי!\n"
 	.string "וואהההההה!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
@@ -651,7 +651,7 @@ MauvilleCity_Text_ExplainTV:
 	.string "היי, אתה צופה בטלוויזיה בכלל?\p"
 	.string "הם הוסיפו לאחרונה חבורה של תוכניות\n"
 	.string "חדשות ומגניבות.\p"
-	.string "טלוויזיה זה כל כך מגניב. ראיתי את_החברים\n"
+	.string "טלוויזיה זה כל כך מגניב. ראיתי את החברים\n"
 	.string "שלי בטלוויזיה פשוט פתאום.\p"
 	.string "ולפעמים, הם אפילו שמים אותך בטלוויזיה\n"
 	.string "בלי לומר לך.\p"

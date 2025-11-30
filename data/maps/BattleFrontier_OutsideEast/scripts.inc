@@ -265,7 +265,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
 	.string "הוא שונה מהאחרים.$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
-	.string "השאיפה הגדולה שלי היא לכבוש את_גבול\n"
+	.string "השאיפה הגדולה שלי היא לכבוש את גבול\n"
 	.string "הקרב ואת ליגת הפוקימונים.\l"
 	.string "ליגת הפוקימונים.\p"
 	.string "ואם החלום שלי יתגשם…\p"
@@ -288,7 +288,7 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness:
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
 	.string "לא ישנתי שבוע, אבל אז\n"
 	.string "הרכבתי את הצוות האולטימטיבי!\p"
-	.string "אני לא רואה את_עצמי מפסיד, בלי צחוק.\n"
+	.string "אני לא רואה את עצמי מפסיד, בלי צחוק.\n"
 	.string "אנחנו מסתערים על זירת הקרב!$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
@@ -355,12 +355,12 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
 	.string "הוא נראה ממש נחמד, עם זאת.$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
-	.string "אתה מכיר את_זה?\n"
+	.string "אתה מכיר את זה?\n"
 	.string "האגדה של פירמידת הקרב?\p"
 	.string "כאשר יגיע מאמן בטוח בעצמו\n"
 	.string "שיחפש את פסגת הזהב,\l"
 	.string "יופיע אדם יוצא דופן.\p"
-	.string "לא מכיר את_האגדה הזו?\n"
+	.string "לא מכיר את האגדה הזו?\n"
 	.string "טוב, כמובן שלא!\l"
 	.string "הרגע המצאתי אותה!\p"
 	.string "מה זה אמור להביע?\n"
@@ -385,14 +385,14 @@ BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
 	.string "כן!\n"
 	.string "סוף סוף יש לי מספיק נקודות קרב!\p"
-	.string "אני מניח שאני אחליף את_זה בעוד בובה\n"
+	.string "אני מניח שאני אחליף את זה בעוד בובה\n"
 	.string "קטיפתית ענקית!$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
 	.string "הו, כן, בסדר!\n"
 	.string "אז זה אולם הדירוג!\p"
 	.string "הייתי רוצה להיכנס להיסטוריה בתור\n"
-	.string "אלוף על ולרשום את_השם שלי\l"
+	.string "אלוף על ולרשום את השם שלי\l"
 	.string "כאן לדורות הבאים.$"
 
 BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
@@ -415,7 +415,7 @@ BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "אנשים רבים עם יכולות מיוחדות\n"
 	.string "הוזמנו, כך נראה.\p"
 	.string "האיש הזה סקוט…\p"
-	.string "אולי הוא בנה את_המקום הזה כדי לשרת\n"
+	.string "אולי הוא בנה את המקום הזה כדי לשרת\n"
 	.string "מטרה גדולה יותר…$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
@@ -432,7 +432,7 @@ BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "אני…\n"
-	.string "ראיתי את_זה!\p"
+	.string "ראיתי את זה!\p"
 	.string "היה פוקימון דביק כזה עם\n"
 	.string "זנב ארוך שם קדימה!\p"
 	.string "הוא התחבא מתחת לסלע, והוא\n"

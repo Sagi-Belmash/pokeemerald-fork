@@ -553,8 +553,8 @@ MossdeepCity_Gym_Text_TateAndLizaIntro:
 	.string "טייט: אנחנו תאומים!\n"
 	.string "ליזה: אנחנו תאומים!\p"
 	.string "טייט: אנחנו לא צריכים לדבר כי…\n"
-	.string "ליזה: כל אחת מאיתנו יכולה לדעת מה…\p"
-	.string "טייט: השנייה חושבת…\n"
+	.string "ליזה: כל אחד מאיתנו יכול לדעת מה…\p"
+	.string "טייט: השני חושב…\n"
 	.string "ליזה: הכל במוחנו!\p"
 	.string "טייט: השילוב הזה שלנו…\n"
 	.string "ליזה: את{EMIT_HEY} יכול לנצח אותו?$"
@@ -563,37 +563,37 @@ MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "טייט: מה?! השילוב שלנו…\n"
 	.string "ליזה: נופץ לרסיסים!\p"
 	.string "טייט: זה לא יכול להימנע. ניצחת…\n"
-	.string "ליזה: אז, כהכרה, קח את זה.$"
+	.string "ליזה: אז, כהכרה, קח{ADD_YUD} את זה.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
-	.string "{PLAYER} קיבל את תג המוח\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג התודעה\n"
 	.string "מטייט וליזה.$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
-	.string "טייט: תג המוח משפר את התקפמ ואת הגנמ\n"
-	.string "של פוקימונים.\p"
-	.string "ליזה: זה גם מאפשר לך להשתמש במהלך המ.נ\n"
-	.string "צלילה (DIVE) מחוץ לקרב.\p"
-	.string "טייט: את{EMIT_HEY} צריך לקחת גם את זה.$"
+	.string "טייט: תג התודעה משפר את ההתקפה מ.\n"
+	.string "ואת ההגנה מ. של פוקימונים.\p"
+	.string "ליזה: זה גם מאפשר לך להשתמש במהלך המ”נ\n"
+	.string "צלילה מחוץ לקרב.\p"
+	.string "טייט: את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לקחת גם את זה.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "טייט: ה-TM04 הזה מכיל…\n"
-	.string "ליזה: רוגע נפשי (CALM MIND)!\p"
-	.string "טייט: זה מעלה התקפמ ו…\n"
-	.string "ליזה: זה מעלה הגנמ!\p"
+	.string "טייט: המ”מ40 הזה מכיל…\n"
+	.string "ליזה: ראש שקט!\p"
+	.string "טייט: זה מעלה התקפה מ. ו…\n"
+	.string "ליזה: זה מעלה הגנה מ.!\p"
 	.string "טייט: זה מהלך שמושלם…\n"
-	.string "ליזה: לפוקימונים על-חושיים!\p"
+	.string "ליזה: לפוקימונים על חושיים!\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
-	.string "נרשמו מנהיגי המכון טייט וליזה\n"
-	.string "בפוקינאב.$"
+	.string "מנהיגי המכון טייט וליזה נרשמו\n"
+	.string "בפוקינווט.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
 	.string "טייט: נראה שהקשר בינך\n"
-	.string "ובין הפוקימון שלך חזק בהרבה מ\l"
-	.string "הקשר שיש לנו כתאומים.\p"
-	.string "ליזה: את{EMIT_HEY} תהפוך לחזק אפילו יותר!\n"
+	.string "לפוקימונים שלך חזק בהרבה\l"
+	.string "מהקשר שלנו כתאומים.\p"
+	.string "ליזה: את{EMIT_HEY} תהפ{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} לחזק{ADD_HEY} אפילו יותר!\n"
 	.string "נלחמנו בך, אז אנחנו יודעים.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
@@ -610,7 +610,7 @@ MossdeepCity_Gym_Text_GymStatue:
 
 MossdeepCity_Gym_Text_GymStatueCertified:
 	.string "מכון הפוקימונים של העיר מוסדיפ\p"
-	.string "המאמנים המוסמכים ליזה וטייט:\n"
+	.string "המאמנים המוסמכים בידי ליזה וטייט:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:

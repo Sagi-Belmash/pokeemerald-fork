@@ -312,7 +312,7 @@ SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
 	.string "לאשנב.$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-	.string "מר ברייני: ברוך הבא, {PLAYER}{KUN}!\p"
+	.string "מר ברייני: ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}, {PLAYER}{KUN}!\p"
 	.string "הם הפכו אותי לקפטן כבוד של\n"
 	.string "הא/ק גאות!\p"
 	.string "את{EMIT_HEY} יכול{ADD_HEY} לקרוא לי עכשיו קפטן ברייני!\p"

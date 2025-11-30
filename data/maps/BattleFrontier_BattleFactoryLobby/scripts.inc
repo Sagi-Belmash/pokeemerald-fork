@@ -322,7 +322,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 	.string "המקום שבו האינטליגנציה של מאמנים\n"
 	.string "מועמדת למבחן!\p"
-	.string "ברוך הבא לבית החרושת לקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למפעל הקרב!\p"
 	.string "אני המדריך שלך לטורניר החלפת\n"
 	.string "קרב יחידים.$"
 
@@ -418,7 +418,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 	.string "המקום שבו האינטליגנציה של מאמנים\n"
 	.string "מועמדת למבחן!\p"
-	.string "ברוך הבא לבית החרושת לקרב!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למפעל הקרב!\p"
 	.string "אני המדריך שלך לטורניר החלפת\n"
 	.string "קרב זוגות.$"
 

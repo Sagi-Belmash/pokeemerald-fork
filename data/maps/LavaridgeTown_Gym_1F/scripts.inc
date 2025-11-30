@@ -299,7 +299,7 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "הההההה.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "ברוך הבא… לא, חכה.\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}… לא, חכה.\p"
 	.string "מאמן עלוב, כמה טוב לראות\n"
 	.string "שהגעת לכאן!\p"
 	.string "הופקדתי על…\n"

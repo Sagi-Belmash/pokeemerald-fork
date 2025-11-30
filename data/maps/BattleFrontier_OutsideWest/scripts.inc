@@ -303,7 +303,7 @@ BattleFrontier_OutsideWest_Text_BattleDomeSign:
 	.string "הדרך שלך לכוכב העל הבלתי מנוצח!$"
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
-	.string "זהו בית החרושת לקרב!\n"
+	.string "זהו מפעל הקרב!\n"
 	.string "חפש את הפוקימונים הקשוחים ביותר!$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
@@ -385,7 +385,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "הוא אמר, “אני אשאיל לכם פוקימונים!”$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
-	.string "זה בית החרושת לקרב.\n"
+	.string "זה מפעל הקרב.\n"
 	.string "אתה יכול לשכור שם פוקימונים חזקים.\p"
 	.string "אבל זה גורם לי לתהות.\n"
 	.string "מי מגדל את הפוקימונים השכורים האלה?$"

@@ -1,5 +1,5 @@
 CableClub_Text_WelcomeWhichCableClubService:
-	.string "ברוך הבא למועדון הקישור של פוקימון.\n"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למועדון הקישור של פוקימון.\n"
 	.string "באיזה שירות תרצ{EMIT_HEY}{ADD_YUD} להשתמש?$"
 
 CableClub_Text_WhichService:

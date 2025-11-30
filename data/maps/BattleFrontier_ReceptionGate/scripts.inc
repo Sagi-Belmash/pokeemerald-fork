@@ -300,7 +300,7 @@ BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 	.string "קווי החזית של קרבות פוקימונים!\n"
-	.string "ברוך הבא לגבול הקרב!$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לגבול הקרב!$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 	.string "למבקר בפעם הראשונה, אנו מנפיקים\n"
@@ -375,7 +375,7 @@ BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 	.string "מתקיים בזירת הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
-	.string "בית החרושת לקרב הוא הבניין הגדול\n"
+	.string "מפעל הקרב הוא הבניין הגדול\n"
 	.string "שהכי קרוב אלינו.\p"
 	.string "אירוע שנקרא החלפת קרב\n"
 	.string "נערך שם.\p"

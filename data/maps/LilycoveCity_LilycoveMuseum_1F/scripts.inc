@@ -159,7 +159,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-	.string "ברוכים הבאים למוזיאון ליליקוב.\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למוזיאון ליליקוב.\p"
 	.string "אנא הקד{ADD_YUD}ש{ADD_YUD} זמן להנות מהאוסף\n"
 	.string "שלנו של יצירות אומנות פנטסטיות\l"
 	.string "המציגות פוקימונים.$"

@@ -257,41 +257,41 @@ MauvilleCity_Gym_EventScript_GymStatue::
 	end
 
 MauvilleCity_Gym_Text_GymGuideAdvice:
-	.string "היי, מה שלומך, {PLAYER}\n"
-	.string "בדרך להיות אלוף?\p"
-	.string "וואטסון, מנהיג מכון מוויל,\n"
-	.string "משתמש בפוקימונים מטיפוס חשמלי.\p"
+	.string "היי, איך הולך, {PLAYER}\n"
+	.string "אלו{SWAP_PEY}{ADD_HEY} שבדרך?\p"
+	.string "ווטסון, מנהיג מכון מוויל,\n"
+	.string "משתמש בפוקימונים מסוג חשמל.\p"
 	.string "אם תאתגר אותו עם פוקימונים\n"
-	.string "מטיפוס מים, הוא יחשמל אותם! בזזזט!\p"
-	.string "והוא התקין דלתות נשלטות מתג\n"
-	.string "בכל המכון שלו! אקסצנטרי!\p"
-	.string "היי, לך על זה!$"
+	.string "מסוג מים, הוא יחשמל אותם! בזזזט!\p"
+	.string "והוא התקין דלתות בשליטת מתג\n"
+	.string "בכל המכון שלו! יוצא דופן!\p"
+	.string "היי, ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory:
-	.string "וואו, אתה מחושמל!\n"
+	.string "וואה, את{EMIT_HEY} מחשמל{ADD_TAF}!\n"
 	.string "הפעלת את הדלת!$"
 
 MauvilleCity_Gym_Text_KirkIntro:
 	.string "הנשמה החשמלית שלי, היא תנפץ את\n"
-	.string "החלומות שלך כליל, וואו-יאהאה!$"
+	.string "החלומות שלך כליל, וואה-יאהאה!$"
 
 MauvilleCity_Gym_Text_KirkDefeat:
-	.string "זה היה מחובר לחשמל, מוגבר,\n"
-	.string "חשמלי יתר על המידה, בנאדם!$"
+	.string "זה היה מחשמל, מתוגבר,\n"
+	.string "קצר סוגר מעלים, בנאדם!$"
 
 MauvilleCity_Gym_Text_KirkPostBattle:
 	.string "פוקימון ורוק, הכל עניין של לב,\n"
-	.string "וואו-יאה!$"
+	.string "וואה-יאה!$"
 
 MauvilleCity_Gym_Text_ShawnIntro:
-	.string "התאמנתי אצל וואטסון!\n"
+	.string "התאמנתי אצל ווטסון!\n"
 	.string "אין סיכוי שאפסיד בקלות!$"
 
 MauvilleCity_Gym_Text_ShawnDefeat:
 	.string "מנותק וכבוי…$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle:
-	.string "וואטסון, מנהיג המכון שלנו, נמצא\n"
+	.string "ווטסון, מנהיג המכון שלנו, נמצא\n"
 	.string "בסביבה כבר הרבה, הרבה זמן.\p"
 	.string "הוא נלחם אפילו לפני שאבא שלך\n"
 	.string "נולד, הזקן הקשוח הזה.$"
@@ -304,19 +304,19 @@ MauvilleCity_Gym_Text_BenDefeat:
 	.string "זה לא כיף להפסיד…$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
-	.string "וואטסון אומר שהוא אוהב להציב\n"
+	.string "ווטסון אומר שהוא אוהב להציב\n"
 	.string "מלכודות קטנות עם מתגים.$"
 
 MauvilleCity_Gym_Text_VivianIntro:
 	.string "עם הקסם שלי ומהלכי הפוקימון שלי,\n"
-	.string "אתה תהיה בהלם!$"
+	.string "את{EMIT_HEY} תהי{EMIT_HEY}{ADD_YUD} בהלם!$"
 
 MauvilleCity_Gym_Text_VivianDefeat:
 	.string "אני בהלם מהכוח שלך!$"
 
 MauvilleCity_Gym_Text_VivianPostBattle:
 	.string "שמעתי שמוויל נוסדה\n"
-	.string "על ידי וואטסון.\p"
+	.string "על ידי ווטסון.\p"
 	.string "הוא היה מאמן הרבה לפני שאנחנו\n"
 	.string "הפכנו למאמנים.\l"
 	.string "הוא בטח יודע כל מיני דברים!$"
@@ -325,97 +325,97 @@ MauvilleCity_Gym_Text_AngeloIntro:
 	.string "אני אוהב דברים מבריקים!$"
 
 MauvilleCity_Gym_Text_AngeloDefeat:
-	.string "הו…\n"
+	.string "או…\n"
 	.string "העיניים שלי חרוכות…$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle:
-	.string "לוואטסון ממכון מוויל יש מצח\n"
+	.string "לווטסון ממכון מוויל יש מצח\n"
 	.string "מבריק. זה משמח אותי!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-	.string "ויתרתי על תוכניותיי להמיר\n"
-	.string "את העיר, כן.\p"
+	.string "אני ויתרתי על תוכניותיי להמיר\n"
+	.string "את העיר, אני.\p"
 	.string "ולכן, אני משקיע את זמני בבניית\n"
-	.string "מלכודות דלתות במכון שלי.\p"
-	.string "הו? מה אתה עושה כאן?\p"
-	.string "מה זה? אתה אומר שעברת\n"
+	.string "דלתות ממולכדות במכון שלי.\p"
+	.string "או? מה את{EMIT_HEY} עושה כאן?\p"
+	.string "מה זה? את{EMIT_HEY} אומר{ADD_TAF} שעברת\n"
 	.string "את כל הדלתות הממולכדות שלי?\p"
-	.string "וואאההההה!\n"
-	.string "זה משעשע!\p"
-	.string "אם כן, אני, וואטסון, מנהיג מכון\n"
+	.string "וואהאהאהאהא!\n"
+	.string "עכשיו, זה משעשע!\p"
+	.string "אם כן, אני, ווטסון, מנהיג מכון\n"
 	.string "מוויל, אחשמל אותך!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
-	.string "וואאההההה!\n"
+	.string "וואהאהאהאהא!\n"
 	.string "בסדר, הפסדתי!\p"
-	.string "גרמת לי להתרגשות!\n"
-	.string "קח את התג הזה!$"
+	.string "בסוף את{EMIT_HEY} גרמת לי להתרגשות!\n"
+	.string "קח{ADD_YUD} את התג הזה!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-	.string "{PLAYER} קיבל את תג הדינמו\n"
-	.string "מוואטסון.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג הדיינמו\n"
+	.string "מווטסון.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
-	.string "עם תג הדינמו, פוקימונים יכולים\n"
-	.string "להשתמש בריסוק סלע (ROCK SMASH) מחוץ לקרב.\p"
-	.string "וזה גם יהפוך את הפוקימון שלך ל_קצת\n"
+	.string "עם תג הדיינמו, פוקימונים יכולים\n"
+	.string "להשתמש בריסוק סלע מחוץ לקרב.\p"
+	.string "וזה גם יהפוך את הפוקימון שלך לקצת\n"
 	.string "יותר מהיר.\p"
 	.string "הממ…\n"
-	.string "אתה צריך לקחת גם את זה!$"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לקחת גם את זה!$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-	.string "ה-TM34 הזה מכיל SHOCK WAVE.\p"
+	.string "מ”מ43 הזה מכיל גל הלם.\p"
 	.string "זה מהלך אמין שלעולם לא\n"
-	.string "מחטיא! אתה יכול לסמוך עליו!\p"
+	.string "מחטיא! את{EMIT_HEY} יכול{ADD_HEY} לסמוך עליו!\p"
 	.string "… … … … … …$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
-	.string "נרשם מנהיג המכון וואטסון\n"
-	.string "בפוקינאב.$"
+	.string "מנהיג המכון ווטסון נרשם\n"
+	.string "בפוקינווט.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 	.string "אני מתמלא באופטימיות, כשאני רואה\n"
-	.string "מאמן צעיר ומבטיח כמוך!$"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} צעיר{ADD_HEY} ומבטיח{ADD_HEY} כמוך!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
-	.string "וואאההההה!\n"
-	.string "צא וחתור להישגים, צעיר!$"
+	.string "וואהאהאהא!\n"
+	.string "צא{ADD_YUD} והצל{ADD_YUD}ח{ADD_YUD}, צעיר{ADD_HEY}!$"
 
 MauvilleCity_Gym_Text_GymStatue:
 	.string "מכון הפוקימונים של עיר מוויל$"
 
 MauvilleCity_Gym_Text_GymStatueCertified:
-	.string "מכון הפוקימונים של עיר מוויל\p"
-	.string "המאמנים המאושרים של וואטסון:\n"
+	.string "מכון הפוקימונים של העיר מוויל\p"
+	.string "המאמנים המוסמכים בידי ווטסון:\n"
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:
-	.string "וואטסון: אה-הא! הנה אתה סוף סוף!\n"
-	.string "אני יודע מה אתה רוצה.\l"
-	.string "אתה רוצה להילחם בפוקימונים שלי!\p"
-	.string "וואאההההה!\p"
+	.string "ווטסון: אה-הא! הנה את{EMIT_HEY} סוף סוף!\n"
+	.string "אני יודע מה את{EMIT_HEY} רוצה.\l"
+	.string "את{EMIT_HEY} רוצה להילחם בפוקימונים שלי!\p"
+	.string "וואהאהאהא!\p"
 	.string "אני אגרום לניצוצות לעוף ממך!\n"
-	.string "אל תגיד שלא הזהרתי אותך!$"
+	.string "אל תגיד{ADD_YUD} שלא הזהרתי אותך!$"
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat:
 	.string "אוף…\n"
 	.string "הסוללות שלנו נגמרו…$"
 
 MauvilleCity_Gym_Text_WattsonPostRematch:
-	.string "וואטסון: אנחנו נצטרך לטעון את\n"
+	.string "ווטסון: אנחנו נצטרך לטעון את\n"
 	.string "הסוללות שלנו שוב.\p"
 	.string "כאשר נהיה טעונים במלואנו, אנחנו\n"
 	.string "נשמח לקבל את האתגר שלך.\p"
-	.string "אז, תחזור לבקר שוב מתישהו,\n"
+	.string "אז, תחז{EMIT_VAV}ר{ADD_YUD} לבקר שוב מתישהו,\n"
 	.string "בסדר?$"
 
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
-	.string "וואטסון: אה-הא! הנה אתה סוף סוף!\n"
-	.string "אני יודע מה אתה רוצה.\l"
-	.string "אתה רוצה להילחם בפוקימונים שלי!\p"
-	.string "וואאההההה!\p"
-	.string "אופס! חכה!\n"
+	.string "וואטסון: אה-הא! הנה את{EMIT_HEY} סוף סוף!\n"
+	.string "אני יודע מה את{EMIT_HEY} רוצה.\l"
+	.string "את{EMIT_HEY} רוצה להילחם בפוקימונים שלי!\p"
+	.string "וואהאהאהא!\p"
+	.string "אופס! חכ{EMIT_HEY}{ADD_YUD}!\n"
 	.string "יש לך רק פוקימון אחד איתך!\p"
-	.string "בוא לבקר אותי עם שניים או יותר\n"
+	.string "בוא{ADD_YUD} לבקר אותי עם שניים או יותר\n"
 	.string "פוקימונים, בסדר?$"
 

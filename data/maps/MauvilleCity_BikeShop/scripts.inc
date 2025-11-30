@@ -176,8 +176,8 @@ MauvilleCity_BikeShop_EventScript_ExitAcroHandbook::
 
 MauvilleCity_BikeShop_Text_RydelGreeting:
 	.string "טוב, טוב, מה יש לנו כאן?\n"
-	.string "לקוח מלא אנרגיה!\p"
-	.string "אני? אתה יכול לקרוא לי ריידל.\n"
+	.string "לקו{ADD_HEY} מלא{ADD_TAF} אנרגיה!\p"
+	.string "אני? את{EMIT_HEY} יכול{ADD_HEY} לקרוא לי ריידל.\n"
 	.string "אני הבעלים של חנות האופניים הזו.$"
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
@@ -191,63 +191,63 @@ MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
 	.string "באף אחד מהאופניים שלי.$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-	.string "ריידל: הממ, הממ… … … … …\p"
-	.string "אתה אומר שהגעת כל הדרך\n"
+	.string "ריידל: המ, המ… … … … …\p"
+	.string "את{EMIT_HEY} אומר{ADD_TAF} שהגעת כל הדרך\n"
 	.string "מליטלרוט?\p"
 	.string "אלוהים אדירים!\n"
 	.string "זה רחוק בצורה מגוחכת!\p"
-	.string "אם היו לך האופניים שלי, היית יכול\n"
-	.string "לנסוע לכל מקום בקלות תוך כדי שאתה מרגיש את\l"
+	.string "אם היו לך האופניים שלי, היית יכול{ADD_HEY}\n"
+	.string "לרכב לכל מקום בקלות תוך כדי שאת{EMIT_HEY} מרגיש את\l"
 	.string "הליטוף העדין של הרוח!\p"
 	.string "אני אגלה לך משהו!\n"
 	.string "אני אתן לך אופניים!\p"
-	.string "הו, חכה רגע!\p"
+	.string "או, חכ{EMIT_HEY}{ADD_YUD} רגע!\p"
 	.string "שכחתי לומר לך שיש\n"
 	.string "שני סוגי אופניים!\p"
 	.string "הם אופני מאך ואופני אקרו!\p"
 	.string "אופני המאך מיועדים לרוכבים שרוצים\n"
 	.string "להרגיש את הרוח עם גופם!\p"
-	.string "ואופני אקרו מיועדים לאלה ש\n"
-	.string "מעדיפים רכיבה טכנית!\p"
-	.string "אני אדם ממש מתוק, אז אתה יכול\n"
-	.string "לקבל את מה שאתה אוהב!\p"
-	.string "באיזה מהם תבחר?$"
+	.string "ואופני אקרו מיועדים לאלה\n"
+	.string "שמעדיפים רכיבה טכנית!\p"
+	.string "אני אדם ממש מתוק, אז את{EMIT_HEY} יכול{ADD_HEY}\n"
+	.string "לקבל את מה שאת{EMIT_HEY} אוהב{ADD_TAF}!\p"
+	.string "באיזה מהם תבחר{ADD_YUD}?$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
-	.string "{PLAYER} בחר באופני מאך.$"
+	.string "{PLAYER} בחר{ADD_HEY} באופני מאך.$"
 
 MauvilleCity_BikeShop_Text_ChoseAcroBike:
-	.string "{PLAYER} בחר באופני אקרו.$"
+	.string "{PLAYER} בחר{ADD_HEY} באופני אקרו.$"
 
 MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
 	.string "ריידל: אם יתחשק לך להחליף\n"
-	.string "אופניים, פשוט בוא לבקר אותי!$"
+	.string "אופניים, פשוט תבוא{ADD_YUD} לבקר אותי!$"
 
 MauvilleCity_BikeShop_Text_WantToSwitchBikes:
-	.string "ריידל: הו? חשבת על החלפת\n"
+	.string "ריידל: או? חשבת על להחליף\n"
 	.string "אופניים?$"
 
 MauvilleCity_BikeShop_Text_IllSwitchBikes:
 	.string "ריידל: בסדר, אין בעיה!\n"
-	.string "אחליף לך אופניים!$"
+	.string "אני אחליף לך את האופניים!$"
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
-	.string "{PLAYER} החליף את אופני המאך\n"
+	.string "{PLAYER} החלי{SWAP_PEY}{ADD_HEY} את אופני המאך\n"
 	.string "באופני אקרו.$"
 
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach:
-	.string "{PLAYER} החליף את אופני האקרו\n"
+	.string "{PLAYER} החלי{SWAP_PEY}{ADD_HEY} את אופני האקרו\n"
 	.string "באופני מאך.$"
 
 MauvilleCity_BikeShop_Text_HappyYouLikeIt:
 	.string "ריידל: טוב, טוב!\n"
-	.string "אני שמח שאתה אוהב את זה!$"
+	.string "אני שמח שאת{EMIT_HEY} אוהב{ADD_TAF} את זה!$"
 
 MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
-	.string "הו? מה קרה לאופניים האלה\n"
+	.string "או? מה קרה לאופניים האלה\n"
 	.string "שנתתי לך?\p"
-	.string "אה, הבנתי, אחסנת אותם באמצעות המחשב שלך.\p"
-	.string "טוב, הוצא אותם מאחסון המחשב,\n"
+	.string "או, הבנתי, את{EMIT_HEY} אחסנת אותם באמצעות המחשב שלך.\p"
+	.string "טוב, הוצ{ADD_YUD}א{ADD_YUD} אותם מאחסון המחשב,\n"
 	.string "ואשמח להחליף אותם!\p"
 	.string "מי ייתן והרוח תמיד תהיה בגבך\n"
 	.string "בהרפתקה שלך!$"
@@ -255,19 +255,19 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
 	.string "אני לומד על אופניים בזמן\n"
 	.string "שאני עובד כאן.\p"
-	.string "אם אתה צריך עצה איך לרכוב על\n"
+	.string "אם את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} עצה איך לרכב על\n"
 	.string "האופניים שלך, יש כמה חוברות הדרכה\l"
 	.string "מאחור.$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
 	.string "זו חוברת הדרכה על אופני המאך.\p"
-	.string "איזה עמוד אתה רוצה לקרוא?$"
+	.string "איזה עמוד את{EMIT_HEY} רוצה לקרוא?$"
 
 MauvilleCity_BikeShop_Text_HowToRideMachBike:
 	.string "האופניים נעים בכיוון שאליו\n"
 	.string "לוח הבקרה נלחץ.\p"
 	.string "הם יאיצו ברגע שהם יתחילו לנוע.\p"
-	.string "כדי לעצור, שחרר את לוח הבקרה.\n"
+	.string "כדי לעצור, שחררו את לוח הבקרה.\n"
 	.string "האופניים יאטו עד לעצירה.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 
@@ -276,44 +276,44 @@ MauvilleCity_BikeShop_Text_HowToTurnMachBike:
 	.string "לעצור במהירות רבה.\p"
 	.string "זה נהיה קצת מסובך לעבור\n"
 	.string "פינות.\p"
-	.string "שחרר את לוח הבקרה קצת\n"
-	.string "לפני הפינה והאט.\p"
+	.string "שחררו את לוח הבקרה קצת\n"
+	.string "לפני הפינה והאטו.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 
 MauvilleCity_BikeShop_Text_SandySlopes:
 	.string "יש מדרונות חוליים קטנים\n"
 	.string "ברחבי מחוז הון.\p"
 	.string "החול הרופף והמתפורר גורם\n"
-	.string "לאי-אפשרות לטפס כרגיל.\p"
-	.string "אבל אם יש לך אופני מאך, אתה יכול\n"
+	.string "לטיפוס רגיל להיות בלתי אפשרי.\p"
+	.string "אבל אם יש לכם אופני מאך, תוכלו\n"
 	.string "לטוס במעלה מדרון חולי.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 
 MauvilleCity_BikeShop_Text_AcroHandbookWhichPage:
 	.string "זו חוברת הדרכה על אופני האקרו.\p"
-	.string "איזה עמוד אתה רוצה לקרוא?$"
+	.string "איזה עמוד את{EMIT_HEY} רוצה לקרוא?$"
 
 MauvilleCity_BikeShop_Text_Wheelies:
-	.string "לחץ על כפתור B בזמן שאתה רוכב,\n"
+	.string "לחצו על כפתור B בזמן שאתם רוכבים,\n"
 	.string "והגלגל הקדמי מתרומם.\p"
-	.string "אתה יכול לטוס מסביב כשהגלגל\n"
+	.string "אתם יכולים לטוס מסביב כשהגלגל\n"
 	.string "הקדמי למעלה באמצעות לוח הבקרה.\p"
-	.string "הטכניקה הזו נקראת ווילי (גלגל קדמי באוויר).\p"
+	.string "הטכניקה הזו נקראת עמידת גלגל.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 
 MauvilleCity_BikeShop_Text_BunnyHops:
-	.string "אם תשמור על כפתור B לחוץ,\n"
-	.string "האופניים שלך יכולים לקפוץ במקום.\p"
-	.string "הטכניקה הזו נקראת קפיצת ארנב (באני הופ).\p"
-	.string "אתה יכול גם לרכוב תוך כדי קפיצה.\p"
+	.string "אם תמשיכו ללחוץ על כפתור B,\n"
+	.string "האופניים שלכם יכולים לקפוץ במקום.\p"
+	.string "הטכניקה הזו נקראת קפיצת ארנב.\p"
+	.string "אתם יכולים גם לרכוב תוך כדי קפיצה.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 
 MauvilleCity_BikeShop_Text_Jumps:
-	.string "לחץ על כפתור B ועל לוח הבקרה\n"
+	.string "לחצו על כפתור B ועל לוח הבקרה\n"
 	.string "במקביל כדי לקפוץ.\p"
-	.string "לחץ על לוח הבקרה לצד\n"
+	.string "לחצו על לוח הבקרה לצד\n"
 	.string "כדי לקפוץ הצידה.\p"
-	.string "לחץ לאחור כדי לגרום לאופניים\n"
+	.string "לחצו לאחור כדי לגרום לאופניים\n"
 	.string "להחליף כיוון תוך כדי קפיצה.\p"
 	.string "רוצה לקרוא עמוד אחר?$"
 

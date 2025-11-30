@@ -447,48 +447,46 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
 	face_down
 	step_end
 
-הנה התרגום לעברית של הדיאלוגים מחדר הטרום-קרב של בית החרושת לקרב (Battle Factory Pre-Battle Room), ללא ניקוד, וללא מילים בנות תו אחד בסוף שורה:
-
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
-	.string "קודם, אנחנו נחזיק את הפוקימונים\n"
+	.string "ראשית, אנחנו נחזיק את הפוקימונים\n"
 	.string "שלך לשמירה.\p"
-	.string "לאחר מכן תוכל לבחור מתוך\n"
+	.string "לאחר מכן תוכל{ADD_YUD} לבחור מתוך\n"
 	.string "מבחר הפוקימונים שלנו.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
 	.string "תודה שהשתתפת!\n"
-	.string "הרשה לנו להשיב את הפוקימונים שלך!$"
+	.string "הרש{EMIT_HEY}{ADD_YUD} לנו להשיב את הפוקימונים שלך!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
 	.string "המשחק השני הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent:
 	.string "המשחק השלישי הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent:
 	.string "המשחק הרביעי הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent:
 	.string "המשחק החמישי הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent:
 	.string "המשחק השישי הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
 	.string "לבסוף, המשחק השביעי הוא הבא!\n"
-	.string "האם אתה מוכן?$"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
-	.string "האם תרצה לשמור ולצאת\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לשמור ולצאת\n"
 	.string "מהמשחק?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-	.string "האם תרצה לפרוש מאתגר\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לפרוש מאתגר\n"
 	.string "החלפת הקרב שלך?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
@@ -496,76 +494,76 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
 	.string "לגבי היריב הבא שלך.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס נורמלי.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג רגיל.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס אש.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג אש.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס מים.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג מים.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס חשמלי.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג חשמל.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס עשב.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג עשב.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס קרח.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג קרח.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס לחימה.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג לחימה.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס רעל.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג רעל.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס אדמה.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג אדמה.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס מעופף.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג מעופף.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס על-חושי.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג על חושי.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס חרק.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג חרק.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס אבן.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג אבן.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס רוח.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג רוח.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס דרקון.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג דרקון.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס אפל.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג אופל.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-	.string "נראה שהמאמן מיומן ב\n"
-	.string "שימוש בטיפוס פלדה.$"
+	.string "נראה שהמאמן מיומן\n"
+	.string "בשימוש בסוג פלדה.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
 	.string "נראה שלמאמן אין העדפות\n"
-	.string "ברורות בכל הנוגע לטיפוס.$"
+	.string "ברורות בכל הנוגע לסוג.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
 	.string "סגנון הקרב המועדף נראה\n"
@@ -604,44 +602,44 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
 	.string "כחופשי ובלתי מרוסן.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
-	.string "לפני תחילת הקרב, האם תרצה\n"
+	.string "לפני תחילת הקרב, האם תרצ{EMIT_HEY}{ADD_YUD}\n"
 	.string "להחליף פוקימון?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
-	.string "תודה!\n"
+	.string "תודה לך!\n"
 	.string "החלפת הפוקימונים שלך הושלמה.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
-	.string "בבקשה, דרך זו!$"
+	.string "בבקשה, מכאן!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
 	.string "אני שומר את הנתונים שלך.\n"
-	.string "אנא המתן.$"
+	.string "נא להמתין.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-	.string "האם תרצה להקליט את הקרב האחרון\n"
-	.string "שלך על כרטיס גבול הקרב שלך?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להקליט את הקרב האחרון\n"
+	.string "שלך על היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
-	.string "סלח לי! סלח לי, בבקשה!\n"
+	.string "סלח{ADD_YUD} לי! סלח{ADD_YUD} לי, בבקשה!\n"
 	.string "האם אוכל לבקש ממך להמתין מספר רגעים?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
-	.string "…אה-הא? מה?! …וואו!\n"
+	.string "…אה-הא? מה?! …וואה!\n"
 	.string "הבנתי, אדוני! אעשה זאת!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-	.string "הו, אלוהים…\n"
-	.string "מצטער לשמור אותך ממתין!\p"
+	.string "אוי, לי…\n"
+	.string "מצטער שגרמתי לך לחכות!\p"
 	.string "יש לי הודעה מהבוס של המתקן הזה,\n"
-	.string "ראש בית_החרושת.\p"
-	.string "הוא אומר, “אנחנו הולכים לעשות את זה!\n"
-	.string "בוא לכאן מיד!”$"
+	.string "ראש המפעל.\p"
+	.string "הוא אומר, ”אנחנו הולכים לעשות את זה!\n"
+	.string "בוא{ADD_YUD} לכאן מיד!“$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-	.string "ראש בית_החרושת דורש אותך.\n"
-	.string "האם אתה מוכן להתמודד מולו?$"
+	.string "ראש המפעל דורש אותך.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY} להתמודד מולו?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 	.string "אני מצטער מאוד, אבל אני לא יכול לומר לך\n"
-	.string "שום דבר על ראש בית_החרושת.$"
+	.string "שום דבר על ראש המפעל.$"

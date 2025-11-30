@@ -2626,7 +2626,7 @@ Route118_Text_DaltonRegister:
 
 Route118_Text_DaltonRematchIntro:
 	.string "מנגינה מהפוקימונים שלי ואני…\n"
-	.string "תנו לה להגיע לנשמתך.$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לה להגיע לנשמתך.$"
 
 Route118_Text_DaltonRematchDefeat:
 	.string "לה-לללה…$"

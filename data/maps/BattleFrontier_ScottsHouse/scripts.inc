@@ -210,17 +210,17 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
-	.string "סקוט: ובכן, שלום וברוך הבא!\n"
-	.string "הההה… סליחה על המקום הצפוף.\p"
-	.string "בכל מקרה, {PLAYER}{KUN}, הרשה לי רשמית\n"
-	.string "לברך אותך לגבול הקרב.\p"
-	.string "זה החלום שלי שהתגשם.\n"
+	.string "סקוט: ובכן, שלום וברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}!\n"
+	.string "היהי… מצטער על המקום הצפוף.\p"
+	.string "בכל מקרה, {PLAYER}{KUN}, הרש{EMIT_HEY}{ADD_YUD} לי רשמית\n"
+	.string "לברך אותך לחזית הקרב.\p"
+	.string "זה החלום שלי שמתגשם.\n"
 	.string "לקח לי שנים על גבי שנים, אבל סוף\l"
 	.string "סוף נתתי צורה לחלום שלי.$"
 
 BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
-	.string "במחשבה שנייה, זה היה מסע ארוך\n"
-	.string "בצורה נוראית…\p"
+	.string "במחשבה שנייה, זה היה מסע נורא\n"
+	.string "ארוך…\p"
 	.string "עזבתי את הבית לבד במסע למצוא\n"
 	.string "מאמנים חזקים.\p"
 	.string "אף אחד לא יכול לדמיין כמה מאמץ\n"
@@ -229,30 +229,30 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
 	.string "אבל כל זה בעבר.\n"
 	.string "אין טעם להתעכב על זה!\p"
-	.string "כל מה שאני רוצה זה שתיהנה מקרב\n"
-	.string "ככל שתרצה כאן.\p"
-	.string "{PLAYER}{KUN}, אני רוצה שתקבל את זה\n"
+	.string "כל מה שאני רוצה זה שתהנ{EMIT_HEY}{ADD_YUD} מקרב\n"
+	.string "ככל שתרצ{EMIT_HEY}{ADD_YUD} כאן.\p"
+	.string "{PLAYER}{KUN}, אני רוצה שתקבל{ADD_YUD} את זה\n"
 	.string "כמזכרת על כל הזמן שדרכינו\l"
 	.string "הצטלבו במסעותינו.$"
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
-	.string "{PLAYER} קיבל\n"
-	.string "{STR_VAR_1} נקודת/ות קרב.$"
+	.string "{PLAYER} קיבל{ADD_HEY}\n"
+	.string "{STR_VAR_1} נקודתות קרב.$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-	.string "סקוט: אתה יכול לבדוק את נקודות הקרב\n"
-	.string "שלך בכרטיס גבול הקרב שלך.\p"
-	.string "ככל שתצליח יותר כאן ב\n"
-	.string "גבול הקרב, כך תצבור יותר נקודות\l"
+	.string "סקוט: את{EMIT_HEY} יכול{ADD_HEY} לבדוק את נקודות הקרב\n"
+	.string "שלך בהיתר חזית הקרב שלך.\p"
+	.string "ככל שתצליח{ADD_YUD} יותר כאן\n"
+	.string "בחזית הקרב, כך תצב{EMIT_VAV}ר{ADD_YUD} יותר נקודות\l"
 	.string "קרב.\p"
-	.string "השתמש בנקודות הקרב שלך כפי\n"
+	.string "תשתמש{ADD_YUD} בנקודות הקרב שלך כפי\n"
 	.string "שנראה לך, כמו להחליף אותן בפריטים.$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
 	.string "אני מצפה ממך לדברים גדולים!$"
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
-	.string "סקוט: כל מאמן הוא אינדיבידואל.\n"
+	.string "סקוט: כל מאמן הוא אישי.\n"
 	.string "לכולם יש חיים משלהם.\p"
 	.string "אבל כשהם בקרב,\n"
 	.string "זה לא משנה מי הם.\p"
@@ -264,53 +264,53 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 	.string "ומזמין אותם לכאן.$"
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
-	.string "סקוט: האם פגשת מישהו ממוחות\n"
-	.string "הגבול?\p"
+	.string "סקוט: האם פגשת מישהו מראשי\n"
+	.string "החזית?\p"
 	.string "או אפילו טוב יותר, האם השגת מהם\n"
 	.string "סמלים כלשהם?\p"
-	.string "אני בחרתי את מוחות הגבול\n"
+	.string "אני בחרתי את ראשי החזית\n"
 	.string "כמאמנים הקשוחים ביותר שיש.\p"
-	.string "אבל אני בטוח ש_כשתראה כמה אתה קשוח\n"
+	.string "אבל אני בטוח שכשתרא{EMIT_HEY}{ADD_YUD} כמה את{EMIT_HEY} קשוח{ADD_HEY}\n"
 	.string "זה יבהיל אפילו אותם!$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
-	.string "סקוט: אתה לא רק מתאמן לקרבות,\n"
+	.string "סקוט: את{EMIT_HEY} לא רק מתאמ{SWAP_NUN}{ADD_TAF} לקרבות,\n"
 	.string "נכון?\p"
-	.string "נדמה לי שאני זוכר שאתה עובד\n"
-	.string "גם על פוקידע.\p"
-	.string "טוב, נחש מה?\p"
-	.string "אתה עשוי להיתקל בפוקימונים פראיים\n"
-	.string "איפשהו בגבול הקרב…\l"
+	.string "נדמה לי שאני זוכר שאת{EMIT_HEY}גם עובד{ADD_TAF}\n"
+	.string "על הפוקידע.\p"
+	.string "טוב, נחש{ADD_YUD} מה?\p"
+	.string "את{EMIT_HEY} עשוי{ADD_YUD}{ADD_HEY} להיתקל בפוקימונים פראיים\n"
+	.string "איפשהו בחזית הקרב…\l"
 	.string "פופופו!$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
-	.string "סקוט: האם אתה נהנה מ_הדברים\n"
-	.string "בגבול הקרב?\p"
-	.string "…חכה שנייה…\n"
-	.string "הו!\p"
-	.string "כרטיס גבול הקרב שלך!\n"
-	.string "אספת את הסט המלא\l"
+	.string "סקוט: האם את{EMIT_HEY} נהנ{EMIT_HEY}{ADD_YUD}{ADD_TAF} מהדברים\n"
+	.string "בחזית הקרב?\p"
+	.string "…חכ{EMIT_HEY}{ADD_YUD} שנייה…\n"
+	.string "או!\p"
+	.string "היתר חזית הקרב שלך!\n"
+	.string "את{EMIT_HEY} אספת את הסט המלא\l"
 	.string "של סמלי כסף!\p"
 	.string "זה יותר ממרשים!\n"
-	.string "אתה קשוח, בדיוק כפי שחשדתי!\p"
+	.string "את{EMIT_HEY} קשוח{ADD_HEY}, בדיוק כפי שחשדתי!\p"
 	.string "בדרך כלל, לא הייתי עושה משהו\n"
 	.string "כזה, אבל זה זמן מיוחד!\p"
-	.string "אני רוצה שתקבל את זה.\n"
-	.string "אני בטוח שאתה יכול להשתמש בזה כראוי.$"
+	.string "אני רוצה שתקבל{ADD_YUD} את זה.\n"
+	.string "אני בטוח שאת{EMIT_HEY} יכול{ADD_HEY} להשתמש בזה כראוי.$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
-	.string "סקוט: אני מקווה שאתה נהנה מ\n"
-	.string "כל מה שיש בגבול הקרב.\p"
-	.string "…חכה שנייה…\n"
-	.string "הו, העיניים הלא מאמינות שלי!\p"
-	.string "כרטיס גבול הקרב שלך!\n"
-	.string "אספת את הסט המלא\l"
+	.string "סקוט: אני מקווה שאת{EMIT_HEY} נהנ{ADD_YUD}{ADD_TAF}\n"
+	.string "מכל מה שיש בחזית הקרב.\p"
+	.string "…חכ{EMIT_HEY}{ADD_YUD} שנייה…\n"
+	.string "או, העיניים הלא מאמינות שלי!\p"
+	.string "היתר חזית הקרב שלך!\n"
+	.string "את{EMIT_HEY} אספת את הסט המלא\l"
 	.string "של סמלי זהב!\p"
 	.string "זה יותר ממדהים!\n"
-	.string "אתה מדהים, בדיוק כפי שחשדתי!\p"
+	.string "את{EMIT_HEY} מדהי{SWAP_MEM}{ADD_HEY}, בדיוק כפי שחשדתי!\p"
 	.string "… … … … … …\p"
-	.string "{PLAYER}, אתה חייב לקבל את זה!\p"
-	.string "אני חושב שאתה תדע\n"
+	.string "{PLAYER}, את{EMIT_HEY} חייב{ADD_TAF} לקבל את זה!\p"
+	.string "אני חושב שאת{EMIT_HEY} תדע{ADD_YUD}\n"
 	.string "להעריך את שווי המתנה שלי!$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
@@ -320,28 +320,28 @@ BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 	.string "להביא אותך לכאן!$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
-	.string "נראה שכיס פירות יער (BERRY POCKET) שלך\n"
+	.string "נראה שכיס פירות יער שלך\n"
 	.string "מלא.$"
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
-	.string "סקוט: הו, שמעתי עליך!\n"
+	.string "סקוט: או, שמעתי עליך!\n"
 	.string "איך שלטת במגדל הקרב!\l"
-	.string "ניצחת למעלה מ-50 מאמנים ברצף?\p"
+	.string "ניצחת למעלה מ-05 מאמנים ברצף?\p"
 	.string "זה פנטסטי!\n"
-	.string "אני רוצה שתקבל את זה!$"
+	.string "אני רוצה שתקבל{ADD_YUD} את זה!$"
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
-	.string "סקוט: הו, אלוהים! שמעתי עליך!\n"
+	.string "סקוט: אוי, לי! שמעתי עליך!\n"
 	.string "איך הממת את מגדל הקרב!\l"
-	.string "ניצחת למעלה מ-100 מאמנים ברצף?\p"
+	.string "ניצחת למעלה מ-001 מאמנים ברצף?\p"
 	.string "זה מרהיב בצורה מגוחכת!\n"
-	.string "אתה חייב לקבל את זה!$"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} לקבל את זה!$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
-	.string "אני אצפה לשמוע דברים גדולים\n"
-	.string "אפילו יותר עליך עכשיו!$"
+	.string "אני אצפה עכשיו לשמוע אפילו דברים\n"
+	.string "גדולים יותר עליך!$"
 
 BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
 	.string "אופס, טוב, אם יש לך יותר מדי\n"
-	.string "דברים, תחזור בשביל זה מאוחר יותר.$"
+	.string "דברים, תחז{EMIT_VAV}ר{ADD_YUD} בשביל זה מאוחר יותר.$"
 

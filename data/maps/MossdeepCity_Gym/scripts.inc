@@ -610,7 +610,7 @@ MossdeepCity_Gym_Text_GymStatue:
 
 MossdeepCity_Gym_Text_GymStatueCertified:
 	.string "מכון הפוקימונים של העיר מוסדיפ\p"
-	.string "המאמנים המוסמכים בידי ליזה וטייט:\n"
+	.string "מאמנים מוסמכים בידי ליזה וטייט:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:

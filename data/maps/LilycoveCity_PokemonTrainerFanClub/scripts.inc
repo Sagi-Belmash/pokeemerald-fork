@@ -713,8 +713,8 @@ LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
 	.string "כמוך, {PLAYER}!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou:
-	.string "גם אם אני היחיד…\p"
-	.string "אתה תמיד תהיה היחיד\n"
+	.string "גם אם אני היחידי…\p"
+	.string "את{EMIT_HEY} תמיד תהי{EMIT_HEY}{ADD_YUD} היחיד{ADD_HEY}\n"
 	.string "שאני מעודד, {PLAYER}!\p"
 	.string "כי אני מאמין בך, {PLAYER}!$"
 

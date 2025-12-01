@@ -182,17 +182,17 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "היי, מה שלומך, {PLAYER}\n"
-	.string "בדרך להיות אלוף?\p"
-	.string "מנהיגת מכון לווארידג', פלאנרי,\n"
-	.string "משתמשת בפוקימונים מטיפוס אש.\p"
+	.string "אלו{SWAP_PEY}{ADD_HEY} שבדרך?\p"
+	.string "מנהיגת מכון לברידג', פלאנרי,\n"
+	.string "משתמשת בפוקימונים מסוג אש.\p"
 	.string "התשוקה שלה לפוקימונים בוערת חזק\n"
 	.string "וחם יותר מהר געש.\p"
-	.string "אל תתקרב אליה יותר מדי--אתה תישרף!\n"
-	.string "השקע אותה במים ואז\l"
-	.string "לך על זה!$"
+	.string "אל תתקרב{ADD_YUD} אליה יותר מדי--את{EMIT_HEY} תישר{SWAP_PEY}{ADD_YUD}!\n"
+	.string "השק{EMIT_HEY}{ADD_YUD} אותה במים ואז\l"
+	.string "ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
-	.string "וואו! זה היה קרב לוהט ושורף!$"
+	.string "יוו! זה היה קרב לוהט ושורף!$"
 
 LavaridgeTown_Gym_1F_Text_ColeIntro:
 	.string "אווואוואוואו!\n"
@@ -209,21 +209,21 @@ LavaridgeTown_Gym_1F_Text_ColePostBattle:
 
 LavaridgeTown_Gym_1F_Text_AxleIntro:
 	.string "אני מנסה להקל על הלחץ שלי.\n"
-	.string "אל תבוא ותלחיץ אותי!$"
+	.string "אל תבוא{ADD_YUD} ותלחי{SWAP_TZADIK}{ADD_YUD} אותי!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat:
 	.string "אני מקווה שפלאנרי תשרוף אותך טוב!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
-	.string "אההה… פיו…\p"
-	.string "אם אתה מבלה יותר מדי זמן קבור\n"
+	.string "האאאה… ווו…\p"
+	.string "אם את{EMIT_HEY} מבלה יותר מדי זמן קבור\n"
 	.string "בחול חם, זה מתיש אותך…$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
-	.string "אתה בטח מתעייף כבר.\n"
+	.string "את{EMIT_HEY} בטח מתעיי{SWAP_PEY}{ADD_TAF} כבר.\n"
 	.string "היית רוצה לנוח בחול החם,\l"
 	.string "נכון?\p"
-	.string "אבל אתה צריך לדעת ששמירה על\n"
+	.string "אבל את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לדעת ששמירה על\n"
 	.string "כוח הרצון שלך היא יכולת חשובה\l"
 	.string "לכל המאמנים.$"
 
@@ -233,39 +233,39 @@ LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "הכישרון שלך אמיתי…\n"
 	.string "אבל המנהיגה שלנו פלאנרי חזקה.\p"
-	.string "אם לא תיזהר, אתה תישרף\n"
+	.string "אם לא תיזהר{ADD_YUD}, את{EMIT_HEY} תישר{SWAP_PEY}{ADD_YUD}\n"
 	.string "ברצינות.$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
 	.string "האם הפוקימונים שלך יכולים לעמוד\n"
-	.string "בחום של 392 מעלות?$"
+	.string "בחום של 293 מעלות?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
 	.string "זה לא בער מספיק חזק…$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "הטמפרטורה של מאגמה היא\n"
-	.string "392 מעלות.\p"
+	.string "293 מעלות.\p"
 	.string "הפוקימונים שלך ניצחו אותי, אז הם אמורים\n"
-	.string "לשרוד בקלות במאגמה.$"
+	.string "לשרוד בקלות במגמה.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "הממ…\n"
-	.string "בסדר, אני אלחם איתך.$"
+	.string "אמ…\n"
+	.string "אוקיי, אני אלחם איתך.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
-	.string "הו, אבל אתה חזק מדי.$"
+	.string "או, אבל את{EMIT_HEY} חזק{ADD_HEY} מדי.$"
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
 	.string "אני הולכת להיות מאמנת יפה וחזקה\n"
 	.string "בדיוק כמו פלאנרי.$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
-	.string "קדימה, תתחיל!\n"
-	.string "בוא נלך לפני שהרגשות שלי מתקררים!$"
+	.string "קדימה, תתחיל{ADD_YUD}!\n"
+	.string "בוא{ADD_YUD} נתחיל לפני שהרגשות שלי מתקררים!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "כל כך חם, ובכל זאת הלב שלי נתפס\n"
+	.string "זה כל כך חם, ובכל זאת הלב שלי נתפס\n"
 	.string "על ידי קרח…$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
@@ -274,7 +274,7 @@ LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 	.string "מול המנהיגה שלנו.$"
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
-	.string "ראה איך הלהבות משתוללות בחוזקה?\n"
+	.string "רואה איך הלהבות משתוללות בחוזקה?\n"
 	.string "הן בוערות בציפייה לניצחון שלי!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
@@ -283,7 +283,7 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 	.string "טוב, אז מה? אני אומר אז מה?\n"
 	.string "אני יכול ללכת יחף על גחלים לוהטות!\p"
-	.string "…אל תחשוב אפילו לנסות את זה!$"
+	.string "…אל תחש{EMIT_VAV}ב{ADD_YUD} אפילו לנסות את זה!$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
 	.string "ככל שאני אוהב הרים,\n"
@@ -296,25 +296,25 @@ LavaridgeTown_Gym_B1F_Text_EliDefeat:
 LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "אני נשאר כאן כי הפכתי למעריץ\n"
 	.string "של הכוח של פלאנרי.\p"
-	.string "הההההה.$"
+	.string "היהיהיהי.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}… לא, חכה.\p"
-	.string "מאמן עלוב, כמה טוב לראות\n"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}… לא, חכ{EMIT_HEY}{ADD_YUD}.\p"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} עלוב{ADD_HEY}, כמה טוב לראות\n"
 	.string "שהגעת לכאן!\p"
 	.string "הופקדתי על…\n"
-	.string "לא, חכה.\p"
+	.string "לא, חכ{EMIT_HEY}{ADD_YUD}.\p"
 	.string "אני פלאנרי, ואני מנהיגת המכון\n"
 	.string "כאן!\p"
 	.string "אה…\n"
-	.string "אל תעז לזלזל בי, למרות\l"
+	.string "אל תעז{ADD_YUD} לזלזל בי, למרות\l"
 	.string "שאני מנהיגה רק זמן קצר!\p"
-	.string "עם כישורים שירשתי מסבי\n"
-	.string "רבא, אני א… אני אדגים את\l"
+	.string "עם כישורים שירשתי מסבא רבא\n"
+	.string "שלי, אני א… אני אדגים את\l"
 	.string "המהלכים הלוהטים שחישלנו על האדמה הזו!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-	.string "הו…\n"
+	.string "או…\n"
 	.string "אני מניחה שניסיתי יותר מדי…\p"
 	.string "אני… אני הפכתי למנהיגת מכון\n"
 	.string "רק לאחרונה.\p"
@@ -326,42 +326,42 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "בגלל זה, מגיע לך את זה.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-	.string "{PLAYER} קיבל את תג החום\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג החום\n"
 	.string "מפלאנרי.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-	.string "אם יש לך תג חום, כל הפוקימונים\n"
-	.string "עד רמה 50, אפילו אלה שאתה מקבל ב\l"
-	.string "החלפות מאנשים אחרים, יצייתו\l"
+	.string "אם יש לך את תג החום, כל הפוקימונים\n"
+	.string "עד רמה 05, אפילו אלה שקיבלת\l"
+	.string "בהחלפות מאנשים אחרים, יצייתו\l"
 	.string "לך לחלוטין.\p"
-	.string "וזה מאפשר לפוקימונים להשתמש במהלך HM\n"
-	.string "כוח (STRENGTH) מחוץ לקרב.\p"
+	.string "וזה מאפשר לפוקימונים להשתמש במהלך מ”נ\n"
+	.string "עוצמה מחוץ לקרב.\p"
 	.string "זוהי אות הערכה ממני.\n"
-	.string "אל תתבייש לקחת את זה!$"
+	.string "אל תתבייש{ADD_YUD} לקחת את זה!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
-	.string "ה-TM50 הזה מכיל OVERHEAT.\p"
+	.string "המ”מ05 הזה מכיל חימום יתר.\p"
 	.string "המהלך הזה מטיל נזק רציני על\n"
 	.string "היריב.\p"
-	.string "אבל הוא גם מוריד בחדות את התקפ.מ\n"
+	.string "אבל הוא גם מוריד בחדות את ההתקפה מ.\n"
 	.string "של הפוקימון המשתמש בו. זה אולי לא\l"
 	.string "מתאים לקרבות ארוכים יותר.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
-	.string "נרשמה מנהיגת המכון פלאנרי\n"
-	.string "בפוקינאב.$"
+	.string "מנהיגת המכון פלאנרי נרשמה\n"
+	.string "בפוקינווט.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "הכוח שלך מזכיר לי מישהו…\p"
-	.string "הו! אני יודעת! אתה נלחם כמו נורמן,\n"
+	.string "או! אני יודעת! את{EMIT_HEY} נלח{SWAP_MEM}{ADD_TAF} כמו נורמן,\n"
 	.string "מנהיג מכון פטלבורג.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
-	.string "מכון הפוקימונים של עיר לווארידג' $"
+	.string "מכון הפוקימונים של העיר לברידג'$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string "מכון הפוקימונים של עיר לווארידג'\p"
-	.string "המאמנים המאושרים של פלאנרי:\n"
+	.string "מכון הפוקימונים של העיר לברידג'\p"
+	.string "מאמנים מוסמכים בידי פלאנרי:\n"
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
@@ -370,19 +370,19 @@ LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 	.string "אני אוהבת פוקימונים.\n"
 	.string "אני אוהבת להילחם.\l"
 	.string "ו… אני אוהבת את המכון הזה!\p"
-	.string "בוא נחליף מהלכים לוהטים במיוחד\n"
+	.string "בוא{ADD_YUD} נחליף מהלכים לוהטים במיוחד\n"
 	.string "בקרב נוסף!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-	.string "פיו!\n"
+	.string "ווהו!\n"
 	.string "על סף התפרצות!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 	.string "פלאנרי: הפסדתי בקרב,\n"
 	.string "אבל אני מרוצה לחלוטין.\p"
-	.string "לא לעתים קרובות אני זוכה ליהנות מקרב\n"
+	.string "לא לעתים קרובות אני זוכה להנות מקרב\n"
 	.string "כל כך לוהט.\p"
-	.string "בוא נערוך קרב נוסף כזה\n"
+	.string "בוא{ADD_YUD} נערוך קרב נוסף כזה\n"
 	.string "מתישהו!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
@@ -391,9 +391,9 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "אני אוהבת פוקימונים.\n"
 	.string "אני אוהבת להילחם.\l"
 	.string "ו… אני אוהבת את המכון הזה!\p"
-	.string "בוא נחליף מהלכים לוהטים במיוחד\n"
+	.string "בוא{ADD_YUD} נחליף מהלכים לוהטים במיוחד\n"
 	.string "בקרב נוסף!\p"
-	.string "הו, חכה. האם יש לך רק פוקימון אחד\n"
+	.string "או, חכ{EMIT_HEY}{ADD_YUD}. האם יש לך רק פוקימון אחד\n"
 	.string "שיכול להילחם?\p"
-	.string "אני שונאת לומר את זה, אבל כשאתה בא\n"
-	.string "לראות אותי, תביא לפחות שני פוקימונים.$"
+	.string "אני שונאת לומר את זה, אבל כשאת{EMIT_HEY} בא{ADD_HEY}\n"
+	.string "לראות אותי, תביא{ADD_YUD} לפחות שני פוקימונים.$"

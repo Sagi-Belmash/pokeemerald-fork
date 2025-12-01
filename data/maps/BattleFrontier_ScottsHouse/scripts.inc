@@ -237,7 +237,7 @@ BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 	.string "{PLAYER} קיבל{ADD_HEY}\n"
-	.string "{STR_VAR_1} נקודתות קרב.$"
+	.string "{STR_VAR_1} נקודות קרב.$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
 	.string "סקוט: את{EMIT_HEY} יכול{ADD_HEY} לבדוק את נקודות הקרב\n"

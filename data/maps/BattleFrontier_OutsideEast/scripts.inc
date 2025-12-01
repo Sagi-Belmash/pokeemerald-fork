@@ -70,6 +70,7 @@ BattleFrontier_OutsideEast_EventScript_Zigzagoon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -233,12 +234,12 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
 	.string "זהו מגדל הקרב!\n"
-	.string "שמור על רצף הניצחונות בתור המאמן\l"
+	.string "לשמור על רצף הניצחונות בתור המאמן\l"
 	.string "הקשוח ביותר!$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
 	.string "זהו ארמון הקרב!\n"
-	.string "שמור את העיניים שלך על קרבות פוקימונים!$"
+	.string "לשמור את העיניים שלך על קרבות פוקימונים!$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
 	.string "זוהי זירת הקרב!\n"
@@ -246,28 +247,28 @@ BattleFrontier_OutsideEast_Text_BattleArenaSign:
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
 	.string "זוהי פירמידת הקרב!\n"
-	.string "התקדם דרך מסע הקרב!$"
+	.string "להתקדם דרך מסע הקרב!$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
-	.string "אולם הדירוג של גבול הקרב\n"
-	.string "כוון לשיאים חדשים!$"
+	.string "אולם הדירוג של חזית הקרב\n"
+	.string "לכוון לשיאים חדשים!$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
 	.string "פינת החלפת נקודות קרב\n"
-	.string "המר את נקודות הקרב שלך!$"
+	.string "להמיר את נקודות הקרב שלך!$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
-	.string "וואו!\n"
+	.string "ואו!\n"
 	.string "זה ענק!\p"
 	.string "מגדל הקרב מרגיש מיוחד.\n"
 	.string "הוא שונה מהאחרים.$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
-	.string "השאיפה הגדולה שלי היא לכבוש את גבול\n"
+	.string "השאיפה הגדולה שלי היא לכבוש את חזית\n"
 	.string "הקרב ואת ליגת הפוקימונים.\l"
 	.string "ליגת הפוקימונים.\p"
 	.string "ואם החלום שלי יתגשם…\p"
-	.string "אני… אני אשאל את מימי מהשכנות\n"
+	.string "אני… אני אשאל את מימי מהבית ליד\n"
 	.string "אם היא תרצה להיות חברה שלי!$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
@@ -281,7 +282,7 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness:
 	.string "כן… מה ראוי לי?\l"
 	.string "שום דבר מלבד פירמידת הקרב…\p"
 	.string "מה דעתך לשוטט בחושך\n"
-	.string "ובייאוש מוחלט ומוחלט?$"
+	.string "ובייאוש מוחלט לגמריי?$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
 	.string "לא ישנתי שבוע, אבל אז\n"
@@ -290,7 +291,7 @@ BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
 	.string "אנחנו מסתערים על זירת הקרב!$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
-	.string "האם סקוט הביא אותך לכאן, גם?\n"
+	.string "האם סקוט גם הביא אותך לכאן?\n"
 	.string "מה קורה עם הבחור הזה?\p"
 	.string "זה נשמע שהוא באמת יודע\n"
 	.string "לזהות מאמנים מוכשרים, אבל…\p"
@@ -301,16 +302,16 @@ BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
 	.string "זיג!\n"
 	.string "אני מאמין בך, חבר קטן!\p"
 	.string "אני אכין לזיג הקטן שלי כל פינוק\n"
-	.string "טעים שתאהב אם תנצח!$"
+	.string "טעים שיאהב אם תנצח!$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
-	.string "זיגזגון נראה ריקני…$"
+	.string "{STR_VAR_1} נראה ריקני…$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "אנשים קוראים לי חטטן,\n"
 	.string "אבל אני לא יכול לשלוט בזה.\p"
 	.string "הכובע שלך עקום!\n"
-	.string "הו, לא, אשפה על הקרקע!\l"
+	.string "או, לא, אשפה על הקרקע!\l"
 	.string "אופס, עוד מעט ארוחת ערב!\p"
 	.string "אני לא יודע אם אני יכול לעמוד במצב שבו אני רק\n"
 	.string "צופה בארמון הקרב…$"
@@ -341,9 +342,9 @@ BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
 	.string "זה לא היה קל להגיע לכאן,\n"
 	.string "אבל שמעתי על ילדה יפהפייה\l"
 	.string "בזירת הקרב.\p"
-	.string "במקום אותה, אתה יודע מה\n"
+	.string "במקומה, את{EMIT_HEY} יודע{ADD_TAF} מה\n"
 	.string "מצאתי?\p"
-	.string "אספסוף שלם של אמני לחימה מזיעים,\n"
+	.string "אספסוף שלם של אומני לחימה מזיעים,\n"
 	.string "מסריחים ופרימיטיביים!$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
@@ -353,32 +354,32 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
 	.string "הוא נראה ממש נחמד, עם זאת.$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
-	.string "אתה מכיר את זה?\n"
+	.string "את{EMIT_HEY} מכיר{ADD_HEY} את זה?\n"
 	.string "האגדה של פירמידת הקרב?\p"
 	.string "כאשר יגיע מאמן בטוח בעצמו\n"
 	.string "שיחפש את פסגת הזהב,\l"
 	.string "יופיע אדם יוצא דופן.\p"
-	.string "לא מכיר את האגדה הזו?\n"
+	.string "את{EMIT_HEY} לא מכיר{ADD_HEY} את האגדה הזו?\n"
 	.string "טוב, כמובן שלא!\l"
 	.string "הרגע המצאתי אותה!\p"
 	.string "מה זה אמור להביע?\n"
-	.string "את זה, ידידי, אני לא יכול לומר!$"
+	.string "את זה, ידיד{ADD_TAF}י, אני לא יכול לומר!$"
 
 BattleFrontier_OutsideEast_Text_GotWipedOut:
-	.string "בנאדם! אוי בנאדם!\n"
-	.string "מעולם לא הפסדתי אפילו פעם אחת לפני כן!\p"
-	.string "אבל הושמדתי בלי שום\n"
-	.string "חן מציל!\p"
+	.string "בנאדם! או בנאדם!\n"
+	.string "מעולם לא הפסדתי אפילו פעם אחת לפניכן!\p"
+	.string "אבל הושמדתי ללא\n"
+	.string "רחמים!\p"
 	.string "ואז אומרים לי שאין לי\n"
 	.string "כישרון?! בנאדם!$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
 	.string "הבחור הזה נתקל במאמן\n"
-	.string "קשוח בצורה נוראית בזמן שהוא היה באתגר\l"
+	.string "נורא קשוח בזמן שהוא היה באתגר\l"
 	.string "מגדל הקרב.\p"
-	.string "עכשיו תראה אותו…\p"
-	.string "אתה צריך להיות זהיר אם אתה אי פעם\n"
-	.string "תחליט ללכת למגדל הקרב.$"
+	.string "עכשיו תרא{EMIT_HEY}{ADD_YUD} אותו…\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להיות זהיר{ADD_HEY} אם את{EMIT_HEY} אי פעם\n"
+	.string "תחליט{ADD_YUD} ללכת למגדל הקרב.$"
 
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
 	.string "כן!\n"
@@ -387,7 +388,7 @@ BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
 	.string "קטיפתית ענקית!$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
-	.string "הו, כן, בסדר!\n"
+	.string "או, כן, אוקיי!\n"
 	.string "אז זה אולם הדירוג!\p"
 	.string "הייתי רוצה להיכנס להיסטוריה בתור\n"
 	.string "אלוף על ולרשום את השם שלי\l"
@@ -397,18 +398,18 @@ BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
 	.string "איתך לצידי, אני יכול לעשות כל דבר.$"
 
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
-	.string "אוי, מותק, את כל כך נפלאה!\p"
-	.string "אוי, אני פשוט לא יכול לחכות יותר!\p"
-	.string "בוא נלך לחדר קרב מרובה\n"
+	.string "אוו, מותק, אתה כל כך נפלא!\p"
+	.string "אוו, אני פשוט לא יכולה לחכות יותר!\p"
+	.string "בוא נלך לחדר קרב מרובה משתתפים\n"
 	.string "ממש עכשיו!\p"
 	.string "אם נהיה יחד בסלון הקרב,\n"
 	.string "כוח האהבה שלנו יתגבר על\l"
 	.string "כל מי שניפגוש.\p"
-	.string "וואו, לפנינו, מותק, הכל\n"
+	.string "וואי, לפנינו, מותק, הכל\n"
 	.string "ייפול כמו אבני דומינו!$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
-	.string "גבול הקרב אינו מיועד באופן בלעדי\n"
+	.string "חזית הקרב אינו מיועד באופן בלעדי\n"
 	.string "למאמנים קשוחים.\p"
 	.string "אנשים רבים עם יכולות מיוחדות\n"
 	.string "הוזמנו, כך נראה.\p"
@@ -417,13 +418,13 @@ BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "מטרה גדולה יותר…$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
-	.string "סלח לי, צעיר.\n"
+	.string "סלח{ADD_YUD} לי, צעיר{ADD_HEY}.\n"
 	.string "האם יש לך ראייה טובה?\p"
 	.string "יש עץ מוזר שעבר כאן, ולעיני\n"
 	.string "העייפות שלי הוא נראה מתנועע.$"
 
 BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
-	.string "סלח לי, צעיר.\n"
+	.string "סלח{ADD_YUD} לי, צעיר{ADD_HEY}.\n"
 	.string "האם יש לך זיכרון טוב?\p"
 	.string "יש לי הרגשה שפעם היה כאן\n"
 	.string "עץ מוזר שעבר.$"
@@ -432,6 +433,6 @@ BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "אני…\n"
 	.string "ראיתי את זה!\p"
 	.string "היה פוקימון דביק כזה עם\n"
-	.string "זנב ארוך שם קדימה!\p"
+	.string "זנב ארוך שם מקדימה!\p"
 	.string "הוא התחבא מתחת לסלע, והוא\n"
 	.string "המשיך לבהות בי!$"

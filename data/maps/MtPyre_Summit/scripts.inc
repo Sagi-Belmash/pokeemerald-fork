@@ -168,6 +168,8 @@ MtPyre_Summit_EventScript_OldLadyOrbsReturned::
 	end
 
 MtPyre_Summit_EventScript_OldLadyLegendariesAwake::
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
+	bufferspeciesname STR_VAR_2, SPECIES_KYOGRE
 	msgbox MtPyre_Summit_Text_GroudonKyogreAwakened, MSGBOX_DEFAULT
 	release
 	end
@@ -427,112 +429,112 @@ MtPyre_Summit_Text_Grunt1Intro:
 	.string "אנחנו לא יכולים לפגר מאחור!$"
 
 MtPyre_Summit_Text_Grunt1Defeat:
-	.string "חשבתי שאתה אחד מהמגמאים\n"
-	.string "שבמקרה חזר…$"
+	.string "חשבתי שאת{EMIT_HEY} מהמגמאים\n"
+	.string "שבמקרה חזר{ADD_HEY}…$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
-	.string "כן, אז אתה חזק…\n"
+	.string "כן, אז את{EMIT_HEY} חזק{ADD_HEY}…\n"
 	.string "אבל יש הרבה מאיתנו!$"
 
 MtPyre_Summit_Text_Grunt2Intro:
 	.string "הא!\n"
 	.string "חבל לך!\p"
-	.string "אם היית בא קודם, היית צריך\n"
+	.string "אם היית בא{ADD_HEY} קודם, היית צרי{SWAP_CHAF}{ADD_HEY}\n"
 	.string "להילחם רק בצוות מגמה החלשלוש.\p"
-	.string "אבל מכיוון שהגעת עכשיו, אתה צריך\n"
+	.string "אבל מכיוון שהגעת עכשיו, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
 	.string "להתמודד מולנו, הקשוחים!$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
-	.string "אורג… הייתי צריך לתת לך להתמודד\n"
+	.string "אוחח… הייתי צריך לתת לך להתמודד\n"
 	.string "מול צוות מגמה קודם…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
-	.string "אתה לא יודע כלום!\n"
-	.string "אז למה אתה מתעסק איתנו?$"
+	.string "את{EMIT_HEY} לא יודע{ADD_TAF} כלום!\n"
+	.string "אז למה את{EMIT_HEY} מתעסק{AFF_TAF} איתנו?$"
 
 MtPyre_Summit_Text_Grunt3Intro:
-	.string "אתה…\n"
-	.string "ראינו אותך בהר צ'ימני.\p"
-	.string "אתה לא שייך לאף אחד מהצוותות,\n"
-	.string "אז למה שתהיה כאן?$"
+	.string "את{EMIT_HEY}…\n"
+	.string "ראינו אותך בהר הארובה.\p"
+	.string "את{EMIT_HEY} לא שיי{SWAP_CHAF}{ADD_TAF} לאף אחד מהצוותים,\n"
+	.string "אז למה שתהי{EMIT_HEY}{ADD_YUD} כאן?$"
 
 MtPyre_Summit_Text_Grunt3Defeat:
-	.string "אם אתה הולך להתעסק עם מישהו,\n"
+	.string "אם את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} להתעסק עם מישהו,\n"
 	.string "שזה יהיה צוות מגמה…$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
-	.string "הה, זה לא משנה!\n"
+	.string "איח, זה לא משנה!\n"
 	.string "קנינו לנו קצת זמן!\p"
 	.string "הבוס בטח חטף את מה\n"
-	.string "שאחריו הוא רדף!$"
+	.string "שהוא רדף אחריו!$"
 
 MtPyre_Summit_Text_Grunt4Intro:
-	.string "הו, אני יודעת!\n"
+	.string "או, אני יודעת!\n"
 	.string "ניסית להצטרף לצוות מגמה,\l"
 	.string "אבל הם לא קיבלו אותך!\p"
-	.string "טוב, אל תחשוב שאנחנו ניתן לך\n"
+	.string "טוב, אל תחש{EMIT_VAV}ב{ADD_YUD} שאנחנו ניתן לך\n"
 	.string "להצטרף לצוות אקווה שלנו!$"
 
 MtPyre_Summit_Text_Grunt4Defeat:
-	.string "אם אתה רוצה להצטרף לצוות אקווה כל כך\n"
-	.string "הרבה, אנחנו יכולים לשקול את זה…$"
+	.string "אם את{EMIT_HEY} כל כך רוצה להצטרף לצוות אקווה,\n"
+	.string "אנחנו יכולים לשקול את זה…$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "יש לנו שילוב נהדר של חברי\n"
-	.string "הצוות שלנו ושל המנהיג שלנו.$"
+	.string "צוות שלנו והמנהיג שלנו.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "ארצ'י: מקסי מצוות מגמה הקדים\n"
 	.string "אותנו, אבל גם אנחנו קיבלנו את מה שרצינו.\p"
-	.string "ה-ORB האדום שנשמר בהר פייר…\n"
+	.string "הכדור האדום שנשמר בהר המוקד…\n"
 	.string "אני, ארצ'י, מחזיק בו עכשיו!\p"
 	.string "פופופו… עכשיו אנחנו יכולים להגשים\n"
 	.string "את מטרתנו הסופית!\p"
-	.string "בסדר, צוות!\n"
+	.string "אוקיי, צוות!\n"
 	.string "אנחנו מסתלקים!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
-	.string "הו, לא…\n"
+	.string "או, לא…\n"
 	.string "זה לא יכול לקרות…\p"
-	.string "לא רק ה-ORB הכחול, אלא אפילו\n"
-	.string "ה-ORB האדום נלקח…\p"
-	.string "ה-ORB הכחול וה-ORB האדום אסור\n"
-	.string "שייפרדו. הם שייכים יחד.\p"
+	.string "לא רק הכדור הכחול, אלא אפילו\n"
+	.string "הכדור האדום נלקח…\p"
+	.string "אסור שהכדור הכחול והכדור האדום\n"
+	.string "ייפרדו. הם שייכים יחד.\p"
 	.string "מה הגברים האלה מנסים לעשות עם\n"
-	.string "שני ה-ORBS?\p"
+	.string "שני הכדורים?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "אה, כן. האם צוות מגמה היה זה שבא\n"
-	.string "ולקח את ה-ORB הכחול ראשון?\p"
+	.string "או, כן. האם צוות מגמה היה זה שבא\n"
+	.string "ולקח את הכדור הכחול ראשון?\p"
 	.string "טוב, בחיפזונם, הם השאירו את זה\n"
 	.string "מאחור.\p"
 	.string "אני לא יכול לדמיין מה בדיוק זה\n"
 	.string "יכול להיות.\p"
-	.string "הייתי רוצה שתקבל את זה.\n"
+	.string "הייתי רוצה שתקבל{ADD_YUD} את זה.\n"
 	.string "אולי זה יהיה שימושי בדרך כלשהי.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
-	.string "ה-ORB הכחול וה-ORB האדום נלקחו על ידי\n"
+	.string "הכדור הכחול והכדור האדום נלקחו על ידי\n"
 	.string "הגברים המרושעים האלה…\p"
-	.string "הם אסור שייפרדו לעולם…\n"
-	.string "אני חושש שמשהו נורא יקרה…$"
+	.string "אסור שהם ייפרדו לעולם…\n"
+	.string "אני חושש שמשהו נוראי יקרה…$"
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
-	.string "הו, אלוהים אדירים…\p"
-	.string "אתה אומר שגם גראודון וגם קיוגר\n"
+	.string "או, אלוהים אדירים…\p"
+	.string "את{EMIT_HEY} אומר{ADD_TAF} שגם {STR_VAR_1} וגם {STR_VAR_2}\n"
 	.string "הועררו?\p"
-	.string "נאמר כי ה-ORB הכחול וה-ORB האדום\n"
+	.string "נאמר כי הכדור הכחול והכדור האדום\n"
 	.string "השקיטו את זעמם של שני\l"
 	.string "הפוקימונים…\p"
 	.string "נאמר גם שהבעלים האמיתי\n"
-	.string "של ה-ORBS עדיין קיים.\p"
-	.string "עם זאת, אף אחד לא יודע מי, או מה\n"
-	.string "בדיוק, שייך ל-ORBS.\p"
+	.string "של הכדורים עדיין קיים.\p"
+	.string "עם זאת, אף אחד לא יודע מי, או למה\n"
+	.string "בדיוק, שייך הכדורים.\p"
 	.string "זה יכול להיות אדם, או אולי\n"
 	.string "פוקימון, אבל אף אחד לא יודע.$"
 
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
-	.string "שני הגברים שלקחו את ה-ORBS חזרו\n"
+	.string "שני הגברים שלקחו את הכדורים שבו\n"
 	.string "להחזיר אותם בכוחות עצמם.\p"
 	.string "הגברים האלה…\n"
 	.string "אולי הם לא כל כך רעים אחרי הכל…$"
@@ -540,7 +542,7 @@ MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "התגלמות היבשה, הים,\n"
 	.string "והשמיים…\p"
-	.string "זו נאמר זהותם של\n"
+	.string "זה נאמר שהם זהותם של\n"
 	.string "הפוקימונים העל-קדומים…\p"
 	.string "באותו אופן של בני אדם ופוקימונים\n"
 	.string "יש חיים, גם העולם שלנו,\l"
@@ -549,18 +551,18 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "אותנו את זה…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "הר פייר הוא המקום שבו אנחנו מרגיעים את הרוחות\n"
+	.string "הר המוקד הוא המקום שבו אנחנו מרגיעים את הרוחות\n"
 	.string "של פוקימונים שנפטרו…\p"
 	.string "זהו מקום גבוה שבו אפשר\n"
-	.string "לראות את כל הון…\p"
+	.string "לראות את כל הואן…\p"
 	.string "רוחות הפוקימונים חסרות הגוף\n"
 	.string "בטח מוצאות נחמה כאן…\p"
-	.string "האם זו צירוף מקרים שאתה כאן…\p"
-	.string "האם תקשיב לסיפור שלי? סיפור המסופר\n"
-	.string "מזה זמן רב במחוז הון?$"
+	.string "האם זה צירוף מקרים שאת{EMIT_HEY} כאן…\p"
+	.string "האם תקשיב{ADD_YUD} לסיפור שלי? סיפור המסופר\n"
+	.string "מזה זמן רב במחוז הואן?$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
-	.string "זה קרה לפני זמן רב, רב…\p"
+	.string "זה קרה לפני הרבה, הרבה זמן…\p"
 	.string "העולם היה שרוי במאבק עז\n"
 	.string "בין פוקימוני היבשה\l"
 	.string "לבין פוקימוני הים…\p"
@@ -571,16 +573,16 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "הדו-קרב העז שלהם השתולל ללא סוף.\p"
 	.string "העולם נבלע בשריפות\n"
 	.string "עצומות ובסערות אכזריות.\p"
-	.string "ה-ORB הכחול וה-ORB האדום הביאו\n"
+	.string "הכדור הכחול והכדור האדום הביאו\n"
 	.string "קץ לאסון.\p"
-	.string "אור נשפך משני ה-ORBS ו\n"
-	.string "הרגיע את היריבים הזועמים.\p"
+	.string "אור נשפך משני הכדורים\n"
+	.string "והרגיע את היריבים הזועמים.\p"
 	.string "הזוג, שהפך לצייתן, צלל עמוק לתוך\n"
 	.string "הים שבו הם נעלמו\l"
 	.string "בסופו של דבר…$"
 
 MtPyre_Summit_Text_WellThatTooIsFine:
-	.string "אני רואה…\n"
+	.string "אני מבין…\n"
 	.string "טוב, גם זה בסדר…$"
 
 MtPyre_Summit_Text_MaxieSilence:
@@ -590,14 +592,14 @@ MtPyre_Summit_Text_MaxieSilence:
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "זה התפקיד שלי להעביר את האגדות\n"
-	.string "של הון לדורות הבאים.\p"
-	.string "והמשבר שהסתיים זה עתה ב\n"
-	.string "סוטופוליס כתב מחדש אגדה…\p"
+	.string "של הואן לדורות הבאים.\p"
+	.string "והמשבר שהסתיים זה עתה\n"
+	.string "בסוטופוליס כתב מחדש אגדה…\p"
 	.string "האם יש לך זמן לשמוע את האגדה\n"
-	.string "החדשה של הון?$"
+	.string "החדשה של הואן?$"
 
 MtPyre_Summit_Text_HoennTrioTale:
-	.string "זה קרה לפני זמן רב, רב…\p"
+	.string "זה קרה לפני הרבה, הרבה זמן…\p"
 	.string "העולם היה שרוי במאבק עז\n"
 	.string "בין פוקימוני היבשה\l"
 	.string "לבין פוקימוני הים…\p"
@@ -613,5 +615,5 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "הפוקימון, זוהר ירוק עז,\n"
 	.string "הרגיע את שני הפוקימונים הזועמים.\p"
 	.string "אז, לאחר שמילא את חובתו, הפוקימון\n"
-	.string "הירוק עף אלהשחקים הרחוקים…$"
+	.string "הירוק עף לשחקים הרחוקים…$"
 

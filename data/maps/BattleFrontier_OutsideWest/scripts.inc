@@ -162,6 +162,7 @@ BattleFrontier_OutsideWest_EventScript_CamperAlreadyFacingFactory::
 BattleFrontier_OutsideWest_EventScript_Girl::
 	lock
 	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_SEVIPER
 	message BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper
 	waitmessage
 	call_if_eq VAR_FACING, DIR_NORTH, BattleFrontier_OutsideWest_EventScript_GirlShudderNorth
@@ -304,11 +305,11 @@ BattleFrontier_OutsideWest_Text_BattleDomeSign:
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
 	.string "זהו מפעל הקרב!\n"
-	.string "חפש את הפוקימונים הקשוחים ביותר!$"
+	.string "חפשו את הפוקימונים הקשוחים ביותר!$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
-	.string "זהו כידון הקרב!\n"
-	.string "בחר אחד משלושה נתיבים!$"
+	.string "זהו נהר הקרב!\n"
+	.string "בחרו אחד משלושה נתיבים!$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 	.string "זהו מגדל הקרב.\p"
@@ -317,35 +318,35 @@ BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 	.string "בסגנון הדחה.$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
-	.string "שלום, אתה כאן בשביל המעבורת?\n"
-	.string "אפשר לראות את כרטיסך?$"
+	.string "שלום, את{EMIT_HEY} כאן בשביל המעבורת?\n"
+	.string "אפשר לראות את הכרטיס שלך?$"
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
-	.string "ל-{PLAYER} אין כרטיס…\p"
-	.string "אני מצטער מאוד.\p"
-	.string "אתה חייב שיהיה לך כרטיס כדי לעלות\n"
+	.string "ל{PLAYER} אין כרטיס…\p"
+	.string "אני מצטערת מאוד.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} שיהיה לך כרטיס כדי לעלות\n"
 	.string "למעבורת.$"
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
-	.string "{PLAYER} הציג את הכרטיס.\p"
-	.string "מושלם! זה כל מה שאתה צריך!\p"
-	.string "ולאן תרצה לנסוע?$"
+	.string "{PLAYER} הציג{ADD_HEY} את הכרטיס.\p"
+	.string "מושלם! זה כל מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}!\p"
+	.string "ולאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "עיר סלייטפורט, אם כן!$"
+	.string "עיר סלייטפורט, אם כך!$"
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
-	.string "עיר ליליקוב, אם כן!$"
+	.string "עיר ליליקוב, אם כך!$"
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
-	.string "אנא הפלג איתנו בפעם אחרת!$"
+	.string "אנא הפל{ADD_YUD}ג{ADD_YUD} איתנו בפעם אחרת!$"
 
 BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
-	.string "אנא עלה למעבורת והמתן ל\n"
-	.string "יציאה.$"
+	.string "אנא על{EMIT_HEY}{ADD_YUD} למעבורת והמת{ADD_YUD}{SWAP_NUN}{ADD_YUD}\n"
+	.string "להפלגה.$"
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
-	.string "אם כן, לאן תרצה לנסוע?$"
+	.string "אם כן, לאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
 	.string "אני הטוב מכל החברים שלי.\n"
@@ -355,7 +356,7 @@ BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
 	.string "אני רוצה ללכת למגדל הקרב,\n"
 	.string "אבל אני לא מוצא אותו למרות שיש לי\l"
-	.string "מפה של גבול הקרב.\p"
+	.string "מפה של חזית הקרב.\p"
 	.string "המקום הזה פשוט גדול מדי!$"
 
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
@@ -366,11 +367,11 @@ BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "זה לא שכל אחד יכול לבוא\n"
-	.string "לכאן, אתה יודע?\p"
+	.string "לכאן, את{EMIT_HEY} יודע{ADD_TAF}?\p"
 	.string "רק אותם מאמנים שהוכרו\n"
 	.string "כקשוחים מובאים לכאן.\p"
 	.string "זו הסיבה שמאמנים רבים אפילו לא\n"
-	.string "יודעים על גבול הקרב.$"
+	.string "יודעים על חזית הקרב.$"
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
 	.string "היי, אח…\p"
@@ -382,42 +383,42 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "אני בטוח שזה יהיה בסדר.\p"
 	.string "אני חושב…\p"
 	.string "אבל אתה זוכר את הבחור המפחיד הגדול ההוא?\n"
-	.string "הוא אמר, “אני אשאיל לכם פוקימונים!”$"
+	.string "הוא אמר, ”אני אשאיל לכם פוקימונים!“$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 	.string "זה מפעל הקרב.\n"
-	.string "אתה יכול לשכור שם פוקימונים חזקים.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לשכור שם פוקימונים חזקים.\p"
 	.string "אבל זה גורם לי לתהות.\n"
 	.string "מי מגדל את הפוקימונים השכורים האלה?$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-	.string "אני מפחד להיכנס לכידון הקרב\n"
-	.string "בגלל סבייפר…\p"
+	.string "אני מפחד להיכנס לנהר הקרב\n"
+	.string "בגלל {STR_VAR_1}…\p"
 	.string "א-אבל הגעתי עד לכאן, אז אני\n"
 	.string "אנסה לכבוש הכל!\l"
 	.string "…רעד…$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
-	.string "בוא נשחק אבן, נייר, ומספריים!\n"
-	.string "אחת, שתיים, שלוש!\p"
+	.string "בוא{ADD_YUD} נשחק אבן, נייר, ומספריים!\n"
+	.string "אחת, שתיים, ושלוש!\p"
 	.string "… … … … … …$"
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 	.string "יש! ניצחתי!\n"
-	.string "אני אקבל את אתגר כידון הקרב!$"
+	.string "אני אקבל את אתגר נהר הקרב!$"
 
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
-	.string "הו, לא…\n"
+	.string "או, לא…\n"
 	.string "הפסדתי.\p"
 	.string "אני מניח שאני לא בר מזל היום.\n"
-	.string "אני אדחה את אתגר כידון הקרב שלי\l"
+	.string "אני אדחה את אתגר נהר הקרב שלי\l"
 	.string "למחר.$"
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
-	.string "אני מאמין שאני האדם היחיד כאן ש,\n"
-	.string "מסיבה לא ידועה כלשהי, היה בוחר\l"
-	.string "בדיג על פני קרב.\p"
-	.string "הא? אתה לא יכול לתפוס שום דבר כאן?\n"
+	.string "אני מאמין שאני האדם היחידי כאן,\n"
+	.string "שמסיבה לא ידועה כלשהי, היה בוחר\l"
+	.string "בדייג על פני קרב.\p"
+	.string "הא? אי אפשר לתפוס שום דבר כאן?\n"
 	.string "זה מאכזב…$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
@@ -425,16 +426,16 @@ BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 	.string "לא משנה מה, עד שאשיג סמל.$"
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
-	.string "הו? אתה בדרך לאתגר\n"
-	.string "את כיפת הקרב?\p"
-	.string "אני מאחל לך את כלהמזל שבעולם.\n"
+	.string "או? את{EMIT_HEY} בדרך לאתגר\n"
+	.string "כיפת הקרב?\p"
+	.string "אני מאחל לך את כל המזל שבעולם.\n"
 	.string "ששנינו ננצח בדרכינו וניפגש\l"
 	.string "באתגרים.$"
 
 BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
 	.string "סבא, הנה!\n"
 	.string "כיפת הקרב כאן!\l"
-	.string "לך תביא להם, סבא!$"
+	.string "לך תשיג אותם, סבא!$"
 
 BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
 	.string "אה, אז זוהי זירת הקרב?\n"
@@ -444,12 +445,11 @@ BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
 BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 	.string "לא היה כאן כלום לפני זמן\n"
 	.string "לא רב כל כך.\p"
-	.string "אבל, עכשיו תראה את המקום הזה! מדהים!\n"
+	.string "אבל, עכשיו תרא{EMIT_HEY}{ADD_YUD} את המקום הזה! מדהים!\n"
 	.string "אני אביא את אמא שלי לראות את זה.$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
-	.string "סוף סוף הגעתי לגבול הקרב!\n"
-	.string "הקרב!\p"
+	.string "סוף סוף הגעתי לחזית הקרב!\p"
 	.string "אני בטוח שאמשוך תשומת לב עם\n"
 	.string "המראה והיכולת שלי!$"
 
@@ -462,12 +462,12 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "קראנץ', לעיסה…\p"
 	.string "לפני זמן מה, פגשתי בחורה מבוגרת\n"
-	.string "בכידון הקרב.\p"
+	.string "בנהר הקרב.\p"
 	.string "היו לה עיניים מפחידות\n"
 	.string "בצורה עוינת ממש.\p"
 	.string "קראנץ', לעיסה…\p"
-	.string "היא התמלאה זעם: “תפסיק כבר\n"
-	.string "לאכול!” ואז היא הרביצה לי.\p"
+	.string "היא התמלאה זעם: ”תפסיק כבר\n"
+	.string "לאכול!“ ואז היא הרביצה לי.\p"
 	.string "זו הייתה חוויה מפחידה\n"
 	.string "ומחרידה, בוודאות.\p"
 	.string "קראנץ', לעיסה…$"
@@ -479,7 +479,7 @@ BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
 	.string "העיניים שלנו נפגשו ועפו ניצוצות!$"
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
-	.string "מממממההההה?!\n"
+	.string "מהההההה?!\n"
 	.string "פחחח!\p"
 	.string "זה קרה רק בגלל\n"
 	.string "שבמקרה ישבתי לידך!\p"
@@ -487,12 +487,12 @@ BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
 	.string "כי העידוד שלי היה כל כך חזק!$"
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
-	.string "הו, תשתקי!\n"
-	.string "תנמיכי את הרעש הזה!\p"
-	.string "מעריצות מזדמנות צריכות להישאר\n"
+	.string "או, תשתקו!\n"
+	.string "תנמיכו את הרעש הזה!\p"
+	.string "מעריצים מזדמנים צריכים להישאר\n"
 	.string "לעודד איזה מנהיג מכון!\p"
 	.string "אלוף הכיפה הוא שלי!\n"
-	.string "האליל היחיד בשבילי!$"
+	.string "האליל היחידי בשבילי!$"
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "האנשים האלה שמתווכחים שם…\p"
@@ -505,14 +505,14 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "הם הובסו כל כך ביסודיות,\n"
 	.string "שהם התאהבו במאמן.\p"
 	.string "עכשיו הם רק מעריצים של המאמן.\n"
-	.string "הם הולכים לעודד את האליל שלהם ב\l"
-	.string "כיפת הקרב כל יום עכשיו.$"
+	.string "הם הולכים לעודד את האליל שלהם\l"
+	.string "בכיפת הקרב כל יום עכשיו.$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "שמעתי שמועה שמישהו ראה\n"
 	.string "פוקימון עם זנב ארוך במיוחד\l"
-	.string "איפשהו בגבול הקרב.\p"
+	.string "איפשהו בחזית הקרב.\p"
 	.string "הוא בטח מקסים. אני בטוח בזה…\p"
-	.string "הו, אתגרים יכולים לחכות. אני מרגיש מונע\n"
+	.string "או, אתגרים יכולים לחכות. אני מרגיש מונע\n"
 	.string "למצוא את היצור המקסים!$"
 

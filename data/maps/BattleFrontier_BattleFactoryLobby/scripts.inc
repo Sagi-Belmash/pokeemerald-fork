@@ -327,52 +327,52 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 	.string "קרב יחידים.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
-	.string "האם תרצה לקבל את אתגר\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לקחת חלק באתגר\n"
 	.string "החלפת קרב יחידים?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 	.string "טורניר החלפת קרב יחידים\n"
 	.string "הוא תחרות קרב יחיד המשתמשת\l"
 	.string "רק בפוקימונים שכורים.\p"
-	.string "קודם, תושאל לך שלושה\n"
+	.string "קודם, יושאל לך שלושה\n"
 	.string "פוקימונים במיוחד לאירוע הזה.\p"
 	.string "באמצעות הפוקימונים השכורים שסופקו,\n"
-	.string "אתה חייב לערוך קרב יחיד.\p"
-	.string "אם תנצח, מותר לך להחליף\n"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} לערוך קרב יחיד.\p"
+	.string "אם תנצח{ADD_YUD}, מותר לך להחליף\n"
 	.string "אחד מהפוקימונים השכורים שלך.\p"
-	.string "חזור על המחזור הזה של קרב ו\n"
-	.string "החלפה--אם תנצח 7 פעמים ב\l"
-	.string "רצף, תרוויח נקודות קרב.\p"
-	.string "אם אתה רוצה להפסיק את האתגר\n"
-	.string "שלך, אנא שמור את המשחק.\p"
-	.string "אם לא תשמור, תיפסל\n"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} על המחזור הזה של קרב\n"
+	.string "והחלפה--אם תנצח{ADD_YUD} שבע פעמים\l"
+	.string "ברצף, תרוויח{ADD_YUD} נקודות קרב.\p"
+	.string "אם את{EMIT_HEY} רוצה להפסיק את האתגר\n"
+	.string "שלך, אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD}, את{EMIT_HEY} תיפסל{ADD_YUD}\n"
 	.string "מהאתגר שלך.$"
 
 BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
 	.string "אנו מצפים לביקור הבא שלך.$"
 
 BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
-	.string "באיזו רמה תרצה להתחרות?\n"
+	.string "באיזו רמה תרצ{EMIT_HEY}{ADD_YUD} להתחרות?\n"
 	.string "רמה 05 או רמה פתוחה?$"
 
 BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
-	.string "לפני שאתה מתחיל את האתגר שלך,\n"
+	.string "לפני שאת{EMIT_HEY} מתחיל{ADD_HEY} את האתגר שלך,\n"
 	.string "אני צריך לשמור את המשחק. האם זה בסדר?$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
-	.string "בסדר, אני אחזיק את הפוקימונים שלך\n"
-	.string "לשמירה בזמן שאתה מתחרה.$"
+	.string "אוקיי, אני אחזיק את הפוקימונים שלך\n"
+	.string "לשמירה בזמן שאת{EMIT_HEY} מתחרה.$"
 
 BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
-	.string "בבקשה צעד בדרך זו.$"
+	.string "בבקשה מכאן.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
-	.string "תודה על שהשתתפת!\p"
+	.string "תודה שהשתתפת!\p"
 	.string "אני אחזיר את הפוקימונים האישיים שלך\n"
 	.string "בתמורה לפוקימונים השכורים שלנו.\p"
 	.string "עליי גם לשמור את תוצאות האירוע.\n"
-	.string "אנא המתן.$"
+	.string "נא להמתין.$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
@@ -380,19 +380,19 @@ BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
 	.string "בתמורה לפוקימונים השכורים שלנו.$"
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
-	.string "ברכות! ניצחת 7\n"
+	.string "ברכות! ניצחת שבע\n"
 	.string "קרבות החלפת קרב רצופים!$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
 	.string "כהכרה ברצף 7 הניצחונות שלך,\n"
-	.string "אנו מעניקים לך את נקודת/ות הקרב האלה.$"
+	.string "אנו מעניקים לך את נקודות הקרב האלה.$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
-	.string "הו, הו, הו!\p"
+	.string "או, או, או!\p"
 	.string "נקודות הקרב שלך הגיעו למקסימום.\p"
-	.string "אנא חזור לאחר שימוש\n"
+	.string "אנא חז{EMIT_VAV}ר{ADD_YUD} לאחר שימוש\n"
 	.string "בכמה נקודות קרב.$"
 
 BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
@@ -403,16 +403,16 @@ BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
 BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 	.string "אני מצטער לומר את זה, אבל לא\n"
 	.string "שמרת לפני שהפסקת לשחק בפעם האחרונה.\p"
-	.string "כתוצאה מכך, נפסלת\n"
+	.string "כתוצאה מכך, את{EMIT_HEY} נפסלת\n"
 	.string "מהאתגר שלך.$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
-	.string "נחזיר לך את הפוקימונים האישיים שלך.$"
+	.string "אנחנו נחזיר לך את הפוקימונים האישיים שלך.$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
-	.string "{PLAYER} קיבל את הפרס\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את הפרס\n"
 	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
@@ -423,59 +423,58 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 	.string "קרב זוגות.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
-	.string "האם תרצה לקבל את אתגר\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לקחת חלק באתגר\n"
 	.string "החלפת קרב זוגות?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 	.string "טורניר החלפת קרב זוגות\n"
 	.string "הוא תחרות קרב זוגות המשתמשת\l"
 	.string "רק בפוקימונים שכורים.\p"
-	.string "קודם, תושאל לך שלושה\n"
+	.string "קודם, יושאל לך שלושה\n"
 	.string "פוקימונים במיוחד לאירוע הזה.\p"
 	.string "באמצעות הפוקימונים השכורים שסופקו,\n"
-	.string "אתה חייב לערוך קרב זוגות.\p"
-	.string "אם תנצח, מותר לך להחליף\n"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} לערוך קרב זוגות.\p"
+	.string "אם תנצח{ADD_YUD}, מותר לך להחליף\n"
 	.string "אחד מהפוקימונים השכורים שלך.\p"
-	.string "חזור על המחזור הזה של קרב ו\n"
-	.string "החלפה--אם תנצח 7 פעמים ב\l"
-	.string "רצף, תרוויח נקודות קרב.\p"
-	.string "אם אתה רוצה להפסיק את האתגר\n"
-	.string "שלך, אנא שמור את המשחק.\p"
-	.string "אם לא תשמור לפני שאתה מפסיק,\n"
-	.string "תיפסל.$"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} על המחזור הזה של קרב ו\n"
+	.string "החלפה--אם תנצח{ADD_YUD} שבע פעמים ב\l"
+	.string "ברצף, תרוויח{ADD_YUD} נקודות קרב.\p"
+	.string "אם את{EMIT_HEY} רוצה להפסיק את האתגר\n"
+	.string "שלך, אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD} לפני שאת{EMIT_HEY} מפסיק{ADD_HEY},\n"
+	.string "את{EMIT_HEY} תיפסל{ADD_YUD}.$"
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
 	.string "ברכות על שהבסת את\n"
 	.string "ראש המפעל וניצחת\l"
-	.string "7 משחקים ברצף!$"
+	.string "שבעה קרבות ברצף!$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
 	.string "כהכרה בעושר הידע שלך\n"
 	.string "ובאינטליגנציה החדה, אנו מעניקים\l"
-	.string "לך את נקודת/ות הקרב האלה.$"
+	.string "לך את נקודות הקרב האלה.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
-	.string "הרשה לי להחליף את הפוקימונים שלך\n"
+	.string "הרש{EMIT_HEY}{ADD_YUD} לי להחליף את הפוקימונים שלך\n"
 	.string "בתמורה לפוקימונים השכורים שלנו.\p"
 	.string "אני צריך לשמור את נתוני הקרב,\n"
-	.string "אז אנא המתן.$"
+	.string "אז נא להמתין.$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-	.string "האם תרצה להקליט את משחק המפעל\n"
-	.string "לקרב האחרון שלך על כרטיס גבול הקרב שלך?\l"
-	.string "כרטיס גבול הקרב שלך?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להקליט את משחק המפעל\n"
+	.string "הקרב האחרון שלך על היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "היי!\n"
-	.string "אתה, שם!\p"
-	.string "האם אתה חושב שהאירועים כאן\n"
-	.string "קלים מכיוון שאינך צריך שיהיה\l"
-	.string "לך צוות פוקימונים מגודל?\p"
-	.string "לא הייתי בטוח לגבי ניצחון\n"
-	.string "כה קל.\p"
+	.string "את{EMIT_HEY}, שם!\p"
+	.string "האם את{EMIT_HEY} חושב{ADD_TAF} שהאירועים כאן\n"
+	.string "קלים מכיוון שאינך צרי{SWAP_CHAF}{ADD_HEY} שיהיה\l"
+	.string "לך צוות פוקימונים שגידלת?\p"
+	.string "אני לא הייתי כזה בטוח לגבי ניצחון\n"
+	.string "כזה קל.\p"
 	.string "אם אין לך ידע מעמיק\n"
 	.string "על פוקימונים ומהלכיהם,\l"
-	.string "יהיה קשה להמשיך ולנצח.$"
+	.string "זה יהיה קשוח להמשיך ולנצח.$"
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
 	.string "החלפתי לפוקימון חלש…\n"
@@ -485,12 +484,12 @@ BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
 	.string "הדברים לא הלכו בדרכי\n"
 	.string "בכלל.\p"
-	.string "אתה צריך לבדוק את הפוקימונים של היריב\n"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לבדוק את הפוקימונים של היריב\n"
 	.string "שלך במהלך הקרב כדי לראות אם\l"
 	.string "הם טובים.$"
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
-	.string "אתה יודע איך הצוות כאן נותן לך\n"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} איך הצוות כאן נותן לך\n"
 	.string "כמה רמזים על היריב הבא שלך?\p"
 	.string "טוב, אני גבר בוגר, אבל אני מתקשה\n"
 	.string "להבין את הרמזים שלהם.$"
@@ -508,37 +507,37 @@ BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
 	.string "חוקי החלפת הקרב רשומים.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
-	.string "איזו כותרת אתה רוצה לקרוא?$"
+	.string "איזו כותרת את{EMIT_HEY} רוצה לקרוא?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
-	.string "באירוע החלפת קרב, אתה יכול להשתמש\n"
+	.string "באירוע החלפת קרב, אתם יכולים להשתמש\n"
 	.string "רק בשלושה פוקימונים.\p"
-	.string "בין אם אתה שוכר או מחליף,\n"
-	.string "בצוות שלך לא יכולים להיות שניים או יותר\l"
+	.string "בין אם אתם שוכרים או מחליפים,\n"
+	.string "בצוות שלכם לא יכולים להיות שניים או יותר\l"
 	.string "מאותו פוקימון.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
-	.string "אתה יכול להחליף פוקימונים רק עם\n"
-	.string "המאמן שרק הרגע הבסת.\p"
-	.string "אתה יכול להחליף רק עבור אותם פוקימונים\n"
+	.string "אתם יכולים להחליף פוקימונים רק עם\n"
+	.string "המאמן שרק הרגע הבסתם.\p"
+	.string "אתם יכולים להחליף רק עבור אותם פוקימונים\n"
 	.string "שבהם השתמש המאמן המובס.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
-	.string "אחרי כל קרב שאתה מנצח, אתה יכול\n"
+	.string "אחרי כל קרב שאתם מנצחים, אתם יכולים\n"
 	.string "להחליף עבור אחד מהפוקימונים של היריב\l"
-	.string "המובס שלך.\p"
-	.string "אתה לא תוכל להחליף פוקימונים\n"
-	.string "עם המאמן ה-7 באירוע.$"
+	.string "המובס שלכם.\p"
+	.string "אתם לא תוכלו להחליף פוקימונים\n"
+	.string "עם המאמן השביעי באירוע.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "יש שתי נקודות מפתח שצריך לשים לב\n"
 	.string "אליהן בעת החלפת פוקימונים.\p"
-	.string "ראשית, בעת החלפה, אתה לא יכול לבדוק\n"
-	.string "את הנתונים של הפוקימון שאתה עומד\l"
+	.string "ראשית, בעת החלפה, אתם לא יכולים לבדוק\n"
+	.string "את הנתונים של הפוקימון שאתם עומדים\l"
 	.string "לקבל.\p"
-	.string "שנית, הפוקימונים בצוות שלך\n"
+	.string "שנית, הפוקימונים בצוות שכםך\n"
 	.string "ממוקמים ברצף, בהתאם לסדר\l"
-	.string "שבו שכרת אותם.\p"
+	.string "שבו שכרתם אותם.\p"
 	.string "הרצף הזה נשאר ללא שינוי\n"
 	.string "גם כאשר מתבצעות החלפות.$"
 

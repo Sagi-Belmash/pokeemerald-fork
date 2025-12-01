@@ -296,59 +296,59 @@ BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide::
 
 BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
 	.string "האם זו הפעם הראשונה שלך כאן?\n"
-	.string "אנא צעד בדרך זו!$"
+	.string "אנא צעד{ADD_YUD} מכאן!$"
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 	.string "קווי החזית של קרבות פוקימונים!\n"
-	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לגבול הקרב!$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לחזית הקרב!$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 	.string "למבקר בפעם הראשונה, אנו מנפיקים\n"
-	.string "את כרטיס גבול הקרב.\p"
+	.string "את היתר הקרב.\p"
 	.string "הוא מיועד לשימוש בכל המתקנים\n"
-	.string "שבגבול הקרב.\p"
-	.string "קח בבקשה!$"
+	.string "שבחזית הקרב.\p"
+	.string "הנה בשבילך!$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
-	.string "{PLAYER} קיבל את\n"
-	.string "כרטיס גבול הקרב.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את\n"
+	.string "היתר חזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-	.string "{PLAYER} הניח את כרטיס המאמן\n"
-	.string "בכרטיס גבול הקרב.$"
+	.string "{PLAYER} הניח{ADD_HEY} את כרטיס המאמן\n"
+	.string "בהיתר חזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
-	.string "אנו מקווים שתיהנה מכל מה שיש\n"
-	.string "לגבול הקרב להציע!$"
+	.string "אנו מקווים שתהנ{EMIT_HEY}{ADD_YUD} מכל מה שיש\n"
+	.string "לחזית הקרב להציע!$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 	.string "???: טוב, אם זה לא {PLAYER}{KUN}!\n"
 	.string "הגעת לכאן!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "מדריך: הו! מר סקוט, אדוני!\n"
+	.string "מדריך: או! מר סקוט, אדוני!\n"
 	.string "יום טוב לך, אדוני!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "סקוט: נהדר לראות אותך כאן,\n"
 	.string "באמת שכן!\p"
-	.string "אני מקווה שתקדיש את זמנך ו\n"
-	.string "תחקור את כלהמקום.\p"
-	.string "באופן טבעי, אני מקווה שגם תחווה\n"
+	.string "אני מקווה שתקדיש{ADD_YUD} את זמנך\n"
+	.string "ותחק{EMIT_VAV}ר{ADD_YUD} את כל המקום.\p"
+	.string "באופן טבעי, אני מקווה שגם תחוו{EMIT_HEY}{ADD_YUD}\n"
 	.string "את המהות הטהורה של קרב.\p"
-	.string "גם המגורים שלי כאן, אז תרגיש\n"
+	.string "גם המגורים שלי כאן, אז תרגיש{ADD_YUD}\n"
 	.string "חופשי לבקר אם יש לך זמן.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
 	.string "אני המדריך שלך למתקנים השונים\n"
-	.string "כאן בגבול הקרב.$"
+	.string "כאן בחזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
-	.string "על מה תרצה ללמוד?$"
+	.string "על מה תרצ{EMIT_HEY}{ADD_YUD} ללמוד?$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 	.string "זהו המגדל הענק הנחשב\n"
-	.string "לסמל של גבול הקרב.\p"
+	.string "לסמל של חזית הקרב.\p"
 	.string "יש ארבעה סוגים של חדרי קרב\n"
 	.string "במגדל לקרבות יחידים, זוגות, מרובים,\l"
 	.string "וקרבות מרובים מקושרים.$"
@@ -358,20 +358,19 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "שמעוצב כמו ביצה ענקית.\p"
 	.string "אירועים הנקראים טורנירי קרב נערכים\n"
 	.string "במתקן הזה.\p"
-	.string "טורנירי הקרב מוצעים ב\n"
-	.string "שני מסלולים--לקרבות יחידים וזוגות.$"
+	.string "טורנירי הקרב מוצעים\n"
+	.string "בשני מסלולים--לקרבות יחידים וזוגות.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "ארמון הקרב הוא הבניין האדום\n"
-	.string "שמימין לגבול הקרב.\p"
+	.string "שמימין לחזית הקרב.\p"
 	.string "יש שני סוגים של אולמות קרב\n"
 	.string "לקרבות יחידים וזוגות.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 	.string "זירת הקרב היא הבניין דמוי הדוג'ו\n"
-	.string "במרכז-ימין של גבול הקרב.\l"
-	.string "גבול הקרב.\p"
-	.string "אירוע שנקרא טורניר KO קבוע\n"
+	.string "במרכז-ימין של חזית הקרב.\p"
+	.string "אירוע שנקרא טורניר נוקאאוט קבוע\n"
 	.string "מתקיים בזירת הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
@@ -379,13 +378,13 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
 	.string "שהכי קרוב אלינו.\p"
 	.string "אירוע שנקרא החלפת קרב\n"
 	.string "נערך שם.\p"
-	.string "אירוע החלפת הקרב מוצע ב\n"
-	.string "שני מסלולים לקרבות יחידים וזוגות.$"
+	.string "אירוע החלפת הקרב מוצע\n"
+	.string "בשני מסלולים לקרבות יחידים וזוגות.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-	.string "כידון הקרב הוא הבניין שמעוצב\n"
+	.string "נהר הקרב הוא הבניין שמעוצב\n"
 	.string "כמו פוקימון במרכז-שמאל של\l"
-	.string "גבול הקרב.\p"
+	.string "חזית הקרב.\p"
 	.string "אירוע שנקרא בחירת קרב\n"
 	.string "נערך שם.$"
 
@@ -398,51 +397,51 @@ BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 	.string "אולם הדירוג ממוקם ליד\n"
 	.string "מגדל הקרב.\p"
-	.string "שם, אתה יכול לראות את השיאים הפנטסטיים\n"
-	.string "ביותר שהושארו על ידי מאמנים ש\l"
-	.string "לקחו על עצמם את האתגרים הרבים של\l"
-	.string "גבול הקרב.$"
+	.string "שם, את{EMIT_HEY} יכול{ADD_HEY} לראות את השיאים הפנטסטיים\n"
+	.string "ביותר שהושארו על ידי מאמנים\l"
+	.string "שלקחו על עצמם את האתגרים הרבים של\l"
+	.string "חזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 	.string "פינת שירות ההחלפה נמצאת ליד\n"
 	.string "מגדל הקרב.\p"
-	.string "את נקודות הקרב שהרווחת ב\n"
-	.string "גבול הקרב ניתן להמיר\l"
+	.string "את נקודות הקרב שהרווחת\n"
+	.string "בחזית הקרב ניתן להמיר\l"
 	.string "שם בפרסים מדהימים.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-	.string "אני המדריך שלך לחוקים הבסיסיים ש\n"
-	.string "משותפים לכל האתגרים המוצעים\l"
-	.string "על ידי המתקנים שבגבול הקרב.$"
+	.string "אני המדריך שלך לחוקים הבסיסיים\n"
+	.string "שמשותפים לכל האתגרים המוצעים\l"
+	.string "על ידי המתקנים שבחזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
-	.string "על מה תרצה ללמוד?$"
+	.string "על מה תרצ{EMIT_HEY}{ADD_YUD} ללמוד?$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "כל האתגרים במתקנים של\n"
-	.string "גבול הקרב מגיעים בשני\l"
-	.string "מסלולים--רמה 50 ורמה פתוחה.$"
+	.string "חזית הקרב מגיעים בשני\l"
+	.string "מסלולים--רמה 05 ורמה פתוחה.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-	.string "מסלול רמה 50 פתוח לפוקימונים\n"
-	.string "עד וכולל רמה 50.\p"
-	.string "עם זאת, זכור שאף מאמן\n"
+	.string "מסלול רמה 05 פתוח לפוקימונים\n"
+	.string "עד וכולל רמה 05.\p"
+	.string "עם זאת, זכ{EMIT_VAV}ר{ADD_YUD} שאף מאמן\n"
 	.string "שתתמודד מולו לא יהיה לו פוקימון\l"
-	.string "מתחת לרמה 50.\p"
-	.string "המסלול הזה הוא רמת הכניסה ל\n"
-	.string "קרבות בגבול הקרב.\p"
-	.string "כדי להתחיל, אנו מקווים שתאתגר\n"
+	.string "מתחת לרמה 05.\p"
+	.string "המסלול הזה הוא רמת הכניסה\n"
+	.string "לקרבות בחזית הקרב.\p"
+	.string "כדי להתחיל, אנו מקווים שתאתגר{ADD_YUD}\n"
 	.string "את המסלול הזה.$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
 	.string "מסלול רמה פתוחה לא מציב מגבלה\n"
-	.string "על רמות הפוקימונים שנכנסים ל\l"
-	.string "אתגרים.\p"
+	.string "על רמות הפוקימונים שנכנסים\l"
+	.string "לאתגרים.\p"
 	.string "רמות היריבים שלך יותאמו\n"
 	.string "כדי להתאים לרמות של\l"
 	.string "הפוקימונים שלך.\p"
-	.string "עם זאת, אף מאמן שתתמודד מולו לא\n"
-	.string "יהיה לו פוקימון מתחת לרמה 60.$"
+	.string "עם זאת, אף מאמן שתתמודד{ADD_YUD} מולו לא\n"
+	.string "יהיה לו פוקימון מתחת לרמה 06.$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "כמעט כל סוג של פוקימון יכול לקבל\n"
@@ -456,22 +455,22 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "מותרים.$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-	.string "כאשר נכנסים לאתגר במתקן של גבול\n"
+	.string "כאשר נכנסים לאתגר במתקן של חזית\n"
 	.string "הקרב, פוקימונים לא יכולים להחזיק\l"
 	.string "אותו סוג של פריט.\p"
-	.string "אנא ודא שכל הפוקימונים\n"
+	.string "אנא ודא{ADD_YUD} שכל הפוקימונים\n"
 	.string "שנכנסים לאתגר מחזיקים\l"
 	.string "פריטים שונים.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "אני המדריך שלך לכרטיס גבול הקרב.$"
+	.string "אני המדריך שלך להיתר חזית הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
-	.string "על מה תרצה ללמוד?$"
+	.string "על מה תרצ{EMIT_HEY}{ADD_YUD} ללמוד?$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
-	.string "יש שבעה מתקנים ב\n"
-	.string "גבול הקרב.\p"
+	.string "ישנם שבעה מתקנים\n"
+	.string "בחזית הקרב.\p"
 	.string "מאמנים שמקבלים הכרה על יכולותיהם\n"
 	.string "עשויים לקבל סמלים כפרס\l"
 	.string "מכל אחד מהמתקנים.\p"
@@ -479,25 +478,23 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "להביס מאמנים אחרים ברצף,\l"
 	.string "ועשויים להצטרך לנצח באירועים שוב ושוב.\p"
 	.string "זה בהחלט לא קל לזכות בסמלים.\n"
-	.string "אני מאחל לך את כלהמזל שבעולם!$"
+	.string "אני מאחל לך את כל המזל שבעולם!$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "אפשר להקליט קרב אחד\n"
-	.string "בכרטיס גבול הקרב שלך.\p"
-	.string "אתה יכול להקליט קרב שהיה לך עם\n"
+	.string "בכרטיס חזית הקרב שלך.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} להקליט קרב שהיה לך עם\n"
 	.string "חבר או חברים.\p"
-	.string "או שאתה יכול להקליט קרב שנערך\n"
-	.string "בגבול הקרב, לא כולל קרבות\l"
-	.string "בכידון הקרב או בפירמידת הקרב.\l"
-	.string "בפירמידת הקרב.\p"
-	.string "אתה יכול לבחור להקליט את הקרב שלך\n"
-	.string "בסוף קרב.$"
+	.string "או שאת{EMIT_HEY} יכול{ADD_HEY} להקליט קרב שנערך\n"
+	.string "בחזית הקרב, לא כולל קרבות\l"
+	.string "בנהר הקרב או בפירמידת הקרב.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לבחור להקליט את הקרב שלך\n"
+	.string "בסוף הקרב.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
-	.string "נקודות קרב הן פרסים שניתנים ל\n"
-	.string "מאמנים שנלחמו בצורה יוצאת דופן\l"
-	.string "בגבול הקרב.\p"
-	.string "אתה יכול להמיר את נקודות הקרב שלך\n"
-	.string "בפרסים בפינת שירות ההחלפה.\l"
-	.string "פינת שירות ההחלפה.$"
+	.string "נקודות קרב הן פרסים שניתנים\n"
+	.string "למאמנים שנלחמו בצורה יוצאת דופן\l"
+	.string "בחזית הקרב.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} להמיר את נקודות הקרב שלך\n"
+	.string "בפרסים בפינת שירות ההחלפה.$"
 

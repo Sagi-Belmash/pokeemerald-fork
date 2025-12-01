@@ -353,12 +353,12 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "המקום שבו רוח הקרב של מאמנים\n"
 	.string "מועמדת למבחן!\p"
-	.string "אני מקדם את פניך לזירת הקרב!\p"
-	.string "אני המדריך שלך לטורניר KO קבוע!$"
+	.string "אני מברך את פניך לזירת הקרב!\p"
+	.string "אני המדריך שלך לטורניר נוקאאוט קבוע!$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
-	.string "עכשיו, האם תרצה לקבל\n"
-	.string "את אתגר זירת הקרב?$"
+	.string "עכשיו, האם תרצ{EMIT_HEY} לקחת חלק\n"
+	.string "באתגר זירת הקרב?$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 	.string "אנו מצפים לאתגר שלך\n"
@@ -366,20 +366,20 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "בזירת הקרב, אנו עורכים\n"
-	.string "את טורניר KO קבוע.\p"
+	.string "את טורניר נוקאאוט קבוע.\p"
 	.string "כל המשתתפים נכנסים עם צוות של\n"
 	.string "שלושה פוקימונים.\p"
-	.string "שלושת הפוקימונים חייבים להיות מסודרים ב\n"
-	.string "סדר שבו הם יופיעו.\p"
+	.string "שלושת הפוקימונים חייבים להיות מסודרים\n"
+	.string "בסדר שבו הם הופיעו.\p"
 	.string "במהלך הקרב, הפוקימונים יופיעו\n"
 	.string "אחד בכל פעם בסדר שנקבע מראש.\p"
 	.string "ברגע שפוקימון נכנס לקרב, הוא חייב\n"
 	.string "להישאר בחוץ עד להכרעת הקרב.\p"
 	.string "אם הקרב נשאר ללא הכרעה לאחר\n"
 	.string "שלושה תורות, הוא עובר לשיפוט.\p"
-	.string "אם אתה מעוניין להפסיק את האתגר שלך,\n"
-	.string "אנא שמור את המשחק.\p"
-	.string "אם לא תשמור, לא תוכל\n"
+	.string "אם את{EMIT_HEY} מעוניי{SWAP_NUN}{ADD_TAF} להפסיק את האתגר שלך,\n"
+	.string "אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD}, לא תוכל{ADD_YUD}\n"
 	.string "להמשיך עם האתגר שלך.\p"
 	.string "אם תבצע את ההישג של ניצחון על\n"
 	.string "שבעה מאמנים ברצף,\l"
@@ -387,64 +387,63 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 	.string "לפני שאני מראה לך את הדרך לזירת\n"
-	.string "הקרב, אתה חייב לשמור. האם זה בסדר?$"
+	.string "הקרב, את{EMIT_HEY} חייב{ADD_TAF} לשמור. האם זה בסדר?$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 	.string "זירת הקרב מציעה שתי רמות\n"
-	.string "של אתגר, רמה 50 ורמה פתוחה.\l"
-	.string "באיזו תבחר?$"
+	.string "של אתגר, רמה 05 ורמה פתוחה.\l"
+	.string "באיזה תבחר{ADD_YUD}?$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
-	.string "בסדר גמור, עכשיו בחר את שלושת\n"
+	.string "בסדר גמור, עכשיו בחר{ADD_YUD} את שלושת\n"
 	.string "הפוקימונים שלך, בבקשה.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "האתגר היקר שלי!\p"
+	.string "מאתגר{ADD_TAF} יקר{ADD_HEY} שלי!\p"
 	.string "אין לך את שלושת הפוקימונים\n"
 	.string "הנדרשים לכניסה.\p"
-	.string "כדי לעמוד בתנאי, אתה חייב להביא שלושה\n"
+	.string "כדי לעמוד בתנאי, את{EMIT_HEY} חייב{ADD_TAF} להביא שלושה\n"
 	.string "סוגים שונים של פוקימונים.\p"
-	.string "הם גם לא חייבים להחזיק את אותם\n"
+	.string "הם גם חייבים לא להחזיק את אותם\n"
 	.string "סוגי פריטים.\p"
 	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
-	.string "כאשר תסיים את ההכנות שלך,\n"
-	.string "אנא חזור.$"
+	.string "כאשר תסיי{SWAP_MEM}{ADD_YUD} עם ההכנות שלך,\n"
+	.string "בבקשה תחז{EMIT_VAV}ר{ADD_YUD}.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-	.string "האתגר היקר שלי!\p"
+	.string "מאתגר{ADD_TAF} יקר{ADD_HEY} שלי!\p"
 	.string "אין לך את שלושת הפוקימונים\n"
 	.string "הנדרשים לכניסה.\p"
-	.string "כדי לעמוד בתנאי, אתה חייב להביא שלושה\n"
+	.string "כדי לעמוד בתנאי, את{EMIT_HEY} חייב{ADD_TAF} להביא שלושה\n"
 	.string "סוגים שונים של פוקימונים.\p"
 	.string "שלושת הפוקימונים השונים\n"
-	.string "חייבים להיות כולם ברמה 50 או פחות.\p"
-	.string "הם גם לא חייבים להחזיק את אותם\n"
+	.string "חייבים להיות כולם ברמה 05 או פחות.\p"
+	.string "הם גם חייבים לא להחזיק את אותם\n"
 	.string "סוגי פריטים.\p"
 	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
-	.string "כאשר תסיים את ההכנות שלך,\n"
-	.string "אנא חזור.$"
+	.string "כאשר תסיי{SWAP_MEM}{ADD_YUD} עם ההכנות שלך,\n"
+	.string "בבקשה תחז{EMIT_VAV}ר{ADD_YUD}.$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
-	.string "אני עכשיו אדריך אותך אל\n"
-	.string "זירת הקרב.$"
+	.string "אני עכשיו אדריך אותך\n"
+	.string "לזירת הקרב.$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
-	.string "האתגר היקר שלי!\p"
+	.string "מאתגר{ADD_TAF} יקר{ADD_HEY} שלי!\p"
 	.string "לא שמרת את המשחק לפני\n"
 	.string "שכיבית, נכון?\p"
-	.string "זה מצער, אבל זה גרם ל\n"
-	.string "פסילה שלך מהאתגר.\l"
-	.string "מהאתגר.\p"
-	.string "אתה יכול, כמובן, להתחיל עם אתגר\n"
-	.string "חדש.$"
+	.string "זה מצער, אבל זה גרם\n"
+	.string "לפסילה שלך מהאתגר.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY}, כמובן, להתחיל את האתגר\n"
+	.string "מחדש.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-	.string "אנו מברכים אותך על רצף\n"
-	.string "הניצחונות המפואר שלך על שבעה מאמנים!$"
+	.string "אנו מברכים אותך על רצף הניצחונות\n"
+	.string "המפואר שלך על שבעה מאמנים!$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 	.string "ההישג שלך יירשם.\n"
-	.string "אנא המתן בזמן שאני שומר את המשחק.$"
+	.string "נא להמתין בזמן שאני שומר את המשחק.$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
@@ -453,19 +452,19 @@ BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
-	.string "{PLAYER} קיבל את הפרס\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את הפרס\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
-	.string "הו?\n"
+	.string "או?\n"
 	.string "נראה שהתיק שלך מלא.\p"
 	.string "אני מפציר בך לפנות מקום\n"
 	.string "ולחזור בשביל הפרס שלך.$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
 	.string "תודה רבה על השתתפותך!\p"
-	.string "אנא המתן בזמן שאני שומר את המשחק.$"
+	.string "נא להמתין בזמן שאני שומר את המשחק.$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
 	.string "אנו מצפים לאתגר שלך\n"
@@ -475,11 +474,11 @@ BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 	.string "חיכינו לבואך.\p"
 	.string "לפני שאני מראה לך את הדרך לזירת\n"
 	.string "הקרב, עליי לשמור את המשחק.\l"
-	.string "אנא המתן.$"
+	.string "נא להמתין.$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
 	.string "האם עליי להקליט את קרב זירת הקרב\n"
-	.string "האחרון שלך בכרטיס גבול הקרב שלך?$"
+	.string "האחרון שלך בהיתר חזית הקרב שלך?$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "הפסדתי בהחלטת השופט…\p"
@@ -501,21 +500,21 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "בזירת הקרב, סדר הפוקימונים\n"
 	.string "חשוב לחלוטין.\p"
 	.string "לדוגמה, אם לפוקימון הראשון שלך\n"
-	.string "יש חסרונות טיפוס מסוימים,\l"
-	.string "נסה להפוך את הפוקימון השני שלך לאחד\l"
-	.string "עם מהלכים שהם סופר אפקטיביים\l"
+	.string "יש חסרונות סוג מסוימים,\l"
+	.string "נס{EMIT_HEY}{ADD_YUD} להפוך את הפוקימון השני שלך לאחד\l"
+	.string "עם מהלכים שהם סופר יעילים\l"
 	.string "נגד הראשון.\p"
 	.string "אני חושב שזו תהיה דרך טובה\n"
 	.string "ליצור צוות יעיל.$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-	.string "חוקי טורניר KO קבוע רשומים.$"
+	.string "חוקי טורניר נוקאאוט קבוע רשומים.$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
-	.string "איזו כותרת אתה רוצה לקרוא?$"
+	.string "איזה כותרת את{EMIT_HEY} רוצה לקרוא?$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-	.string "לטורניר KO קבוע יש חוקים מיוחדים,\n"
+	.string "לטורניר נוקאאוט קבוע יש חוקים מיוחדים,\n"
 	.string "בניגוד לקרבות רגילים.\p"
 	.string "ראשית, קרב אחד נמשך רק\n"
 	.string "שלושה תורות.\p"
@@ -523,37 +522,37 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "שלושה תורות, זה עובר לשיפוט.\p"
 	.string "השופט יבחר את המנצח\n"
 	.string "על בסיס איך הפוקימונים נלחמו.\p"
-	.string "כמו כן, פוקימון לא ניתן להחלפה\n"
+	.string "כמו כן, פוקימון לא ניתן להחליף\n"
 	.string "עד שתוצאת הקרב שלו מוכרעת.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string "גורם השיפוט הראשון הוא רוח.\n"
-	.string "הגורם הזה מעריך עד כמה התוקפניים\l"
+	.string "גורם השיפוט הראשון הוא ”תודעה.“.\n"
+	.string "הגורם הזה מעריך עד כמה תוקפניים\l"
 	.string "היו הלוחמים.\p"
 	.string "השיפוט מבוסס על כמה פעמים\n"
 	.string "המאמנים הורו על שימוש\l"
 	.string "במהלכים התקפיים.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string "גורם השיפוט השני הוא -מיומנות-.\n"
+	.string "גורם השיפוט השני הוא ”מיומנות“.\n"
 	.string "הגורם הזה מעריך עד כמה יעיל\l"
 	.string "היה השימוש במהלכי פוקימונים.\p"
-	.string "אם מהלך הצליח בהצלחה,\n"
+	.string "אם המהלך הצליח,\n"
 	.string "דירוג המיומנות עולה.\p"
-	.string "אם מהלך נכשל, דירוג המיומנות\n"
+	.string "אם המהלך נכשל, דירוג המיומנות\n"
 	.string "יורד.\p"
 	.string "אם זה היה מהלך התקפי, דירוג המיומנות\n"
-	.string "עולה אם המהלך היה ”סופר אפקטיבי\l"
-	.string "ויורד אם הוא היה לא אפקטיבי במיוחד.“\l"
+	.string "עולה אם המהלך היה ”סופר יעיל\l"
+	.string "ויורד אם הוא היה לא יעיל במיוחד.“\l"
 	.string "במיוחד.\p"
 	.string "דירוג המיומנות לא יעלה עבור\n"
-	.string "מהלכים כמו PROTECT וDETECT.\p"
-	.string "אם היריב השתמש בPROTECT או ב\n"
-	.string "DETECT, והפוקימון שלך לא פגע\l"
+	.string "מהלכים כמו הגנה וזיהוי.\p"
+	.string "אם היריב השתמש בהגנה או\n"
+	.string "בזיהוי, והפוקימון שלך לא פגע\l"
 	.string "במהלך, דירוג המיומנות שלו לא יירד.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-	.string "גורם השיפוט השלישי הוא גוף.\n"
+	.string "גורם השיפוט השלישי הוא ”גוף“.\n"
 	.string "הגורם הזה מבוסס על כמה נקודות חיים\l"
 	.string "נשארו בסוף הקרב.\p"
 	.string "הדירוג לוקח בחשבון כמה נקודות חיים\n"
@@ -561,12 +560,12 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "ומה נשאר בסופו.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-	.string "ניצחון שנחטף מטייקונית הזירה,\n"
+	.string "ניצחון שנחטף משליטת הזירה,\n"
 	.string "וניצחון גורף על שבעה מאמנים!\p"
-	.string "אנו מברכים אותך עלהאתגר\n"
+	.string "אנו מברכים אותך על האתגר\n"
 	.string "המפואר ביותר שלך!$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
 	.string "האתגר היקר שלי, כהכרה ברוחך\n"
-	.string "הבלתי נלאית, אנא קבל\l"
+	.string "הבלתי נלאית, אנא קבל{ADD_YUD}\l"
 	.string "את נקודות הקרב האלה.$"

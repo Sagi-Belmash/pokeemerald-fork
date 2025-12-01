@@ -924,15 +924,15 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
-	.string "{PLAYER} נכנס לכיפת הקרב!$"
+	.string "{PLAYER} נכנס{ADD_HEY} לכיפת הקרב!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
 	.string "קרב {STR_VAR_1}!\p"
 	.string "{PLAYER} נגד {STR_VAR_2}!\p"
-	.string "יהי הקרב התחלה!$"
+	.string "שיתחיל הקרב!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-	.string "{PLAYER} הוא המנצח!\n"
+	.string "{PLAYER} ה{EMIT_VAV}{ADD_YUD}א המנצח{ADD_TAF}!\n"
 	.string "ברכות!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
@@ -941,11 +941,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
 	.string "{PLAYER} הוא אלוף טורניר\n"
-	.string "הקרב ברמה 50!\p"
+	.string "הקרב ברמה 05!\p"
 	.string "ברכות!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
-	.string "{PLAYER} הוא אלוף טורניר\n"
+	.string "{PLAYER} ה{EMIT_VAV}{ADD_YUD}א אלו{SWAP_PEY}{ADD_TAF} טורניר\n"
 	.string "הקרב ברמה פתוחה!\p"
 	.string "ברכות!$"
 
@@ -954,22 +954,22 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "יש לנו נוקאאוט כפול!\p"
 	.string "באירוע זה, חוקי טורניר הקרב\n"
 	.string "דורשים הכרעת שופט.\p"
-	.string "אנא המתן בזמן שהשיפוט\n"
+	.string "נא להמתין בזמן שהשיפוט\n"
 	.string "מתבצע.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "השופטים הגיעו ל\n"
-	.string "החלטה!\p"
+	.string "השופטים הגיעו\n"
+	.string "להחלטה!\p"
 	.string "המנצח הוא…\n"
-	.string "הו, אלוהים אדירים!\l"
+	.string "או, אלוהים אדירים!\l"
 	.string "המנצח הוא {STR_VAR_1}!\l"
 	.string "ברכות!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "השופטים הגיעו ל\n"
-	.string "החלטה!\p"
+	.string "השופטים הגיעו\n"
+	.string "להחלטה!\p"
 	.string "המנצח הוא…\n"
-	.string "הו, אלוהים אדירים!\l"
+	.string "או, אלוהים אדירים!\l"
 	.string "המנצח הוא {PLAYER}!\l"
 	.string "ברכות!$"
 
@@ -997,8 +997,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-	.string "המאמן בוער בתשוקה ל\n"
-	.string "ניסיון האליפות הראשון!$"
+	.string "המאמן בוער בתשוקה\n"
+	.string "לניסיון האליפות הראשון!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
 	.string "ניצחון כאן משמעותו שהמאמן\n"
@@ -1006,8 +1006,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-	.string "האם החלום שהוחזק זמן רב ל\n"
-	.string "אליפות סוף סוף יתגשם?\p"
+	.string "האם החלום שהוחזק זמן רב\n"
+	.string "לאליפות סוף סוף יתגשם?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
@@ -1047,12 +1047,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-	.string "הרגישו את הזוהר של אמן אמיתי!$"
+	.string "הרגישו את הזוהר של מאסטר אמיתי!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "ועכשיו… המאמן שעומד בדרכו\n"
-	.string "שוברת השיאים של {PLAYER}…\p"
-	.string "כן! האחד והיחיד!\n"
+	.string "ועכשיו… המאמ{SWAP_NUN}{ADD_TAF} שעומד{ADD_TAF} בדרכו\n"
+	.string "שבירת השיאים של {PLAYER}…\p"
+	.string "כן! היחיד והיחידה!\n"
 	.string "נציב כיפת הקרב!\l"
 	.string "אלוף הכיפה שלנו!\l"
 	.string "פנו את הדרך לטאקר!$"
@@ -1062,24 +1062,24 @@ BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 	.string "טאקר! טאקר! טאקר!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
-	.string "טאקר: אהההה!\p"
-	.string "אתה שומע את זה? הקהל הזה!\n"
+	.string "טאקר: אהאהאה!\p"
+	.string "את{EMIT_HEY} שומע{ADD_TAF} את זה? הקהל הזה!\n"
 	.string "כולם להוטים לראות את הקרב שלנו!\p"
-	.string "אהההה!\p"
-	.string "אני בטוח שאתה רועד מרוב\n"
-	.string "מתח מלהגיע להילחם בי!\p"
-	.string "אבל אל תדאג לגבי שום דבר!\p"
+	.string "אהאהאה!\p"
+	.string "אני בטוח שאת{EMIT_HEY} רועד{ADD_TAF} מרוב\n"
+	.string "מתח מהמעמד להילחם מולי!\p"
+	.string "אבל אל תדאג{ADD_YUD} לשום דבר!\p"
 	.string "אני כוכב מס' 1 של כיפת הקרב!\n"
 	.string "אני, טאקר אלוף הכיפה, ארחץ אותך\l"
 	.string "בזוהר המבריק שלי!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
 	.string "האסטרטגיה שלך!\n"
-	.string "בוא נראה אותה!$"
+	.string "בוא{ADD_YUD} נראה אותה!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
 	.string "בלתי יאומן! זה מדהים!\n"
-	.string "המנצח הוא {PLAYER}!$"
+	.string "המנצח{ADD_TAF} ה{EMIT_VAV}{ADD_YUD}א {PLAYER}!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
 	.string "המנצח הוא טאקר!\n"
@@ -1088,11 +1088,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
 	.string "טאקר: חוקים הם חוקים!\n"
-	.string "תן לי לראות את כרטיס גבול הקרב שלך.$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות את היתר חזית הקרב שלך.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
 	.string "סמל הטקטיקה הוטבע על\n"
-	.string "כרטיס גבול הקרב!$"
+	.string "היתר חזית הקרב!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
 	.string "… … … … … …\p"
@@ -1125,50 +1125,50 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "אני חייב להאיר את כל מי שמתאסף כאן!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-	.string "אני אשחרר את כל הכוח ש\n"
-	.string "יש לי! כאן ועכשיו!$"
+	.string "אני אשחרר את כל הכוח\n"
+	.string "שיש לי! כאן ועכשיו!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-	.string "טאקר: אתה באמת פנטסטי!\p"
-	.string "מעולם לא! לא הפסדתי אפילו פעם אחת ב\n"
-	.string "הפעמים שבהן נאלצתי לשחרר את הכוח שלי.\p"
+	.string "טאקר: את{EMIT_HEY} באמת פנטסטי{ADD_TAF}!\p"
+	.string "מעולם לא! לא הפסדתי אפילו פעם אחת\n"
+	.string "בפעמים שבהן נאלצתי לשחרר את הכוח שלי.\p"
 	.string "כן, ממש פנטסטי!\n"
-	.string "כרטיס גבול הקרב שלך, בבקשה?$"
+	.string "היתר חזית הקרב שלך, בבקשה?$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
 	.string "סמל הטקטיקה קיבל\n"
 	.string "ברק זהוב!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
-	.string "אתה חזק, אבל מעל הכל,\n"
+	.string "את{EMIT_HEY} חזק{ADD_HEY}, אבל מעל הכל,\n"
 	.string "יש לך קסם ייחודי!\p"
-	.string "אני רואה בך פוטנציאל מובהק ל\n"
-	.string "כוכב על כמוני.\p"
-	.string "אני מאוד אצפה בקוצר רוח ל\n"
-	.string "המפגש הבא שלנו!$"
+	.string "אני רואה בך פוטנציאל מובהק\n"
+	.string "לכוכב על כמוני.\p"
+	.string "אני מאוד אצפה בקוצר רוח\n"
+	.string "למפגש הבא שלנו!$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
-	.string "{PLAYER} הוא אלוף טורניר\n"
-	.string "הקרב ברמה 50!\p"
+	.string "{PLAYER} ה{EMIT_VAV}{ADD_YUD}א אלו{SWAP_PEY}{ADD_TAF} טורניר\n"
+	.string "הקרב ברמה 05!\p"
 	.string "ברכות!$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
-	.string "{PLAYER} הוא אלוף טורניר\n"
+	.string "{PLAYER} ה{EMIT_VAV}{ADD_YUD}א אלו{SWAP_PEY}{ADD_TAF} טורניר\n"
 	.string "הקרב ברמה פתוחה!\p"
 	.string "ברכות!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	.string "קרב הגמר!\p"
 	.string "{PLAYER} נגד אלוף הכיפה, טאקר!\p"
-	.string "יהי הקרב התחלה!$"
+	.string "שהקרב יתחיל!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "השופטים הגיעו ל\n"
-	.string "החלטה!\p"
+	.string "השופטים הגיעו\n"
+	.string "להחלטה!\p"
 	.string "המנצח הוא…\n"
-	.string "הו, אלוהים אדירים!\l"
+	.string "או, אלוהים אדירים!\l"
 	.string "המנצח הוא אלוף הכיפה שלנו!\l"
 	.string "זה טאקר!\p"
 	.string "ברכות! ותודה לך!\n"

@@ -172,10 +172,10 @@ BattleFrontier_Lounge2_Text_DomeAceIsThere::
 	.string "אחד מהמאמנים הבכירים האלה שסקוט\n"
 	.string "קורא להם ראשי החזית נמצא שם.\p"
 	.string "זהו מאמן ראוותני הנקרא\n"
-	.string "אס הכיפה שמנהל את המקום.$"
+	.string "אלוף הכיפה שמנהל את המקום.$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
-	.string "האם נלחמת באס הכיפה?\p"
+	.string "האם נלחמת באלוף הכיפה?\p"
 	.string "כשהוא מקל ראש ביריב,\n"
 	.string "הוא משתמש בשלושת הפוקימונים האלה:\p"
 	.string "פוקימון דרקון מעופף,\n"
@@ -183,7 +183,7 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "ופוקימון להבה אש ומעופף.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-	.string "האם נלחמת באס הכיפה\n"
+	.string "האם נלחמת באלוף הכיפה\n"
 	.string "כשהוא רציני?\p"
 	.string "כשהוא מדגים את האסטרטגיה שלו,\n"
 	.string "הוא משתמש בשלושת הפוקימונים האלה:\p"

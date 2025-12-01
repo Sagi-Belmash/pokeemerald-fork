@@ -2905,12 +2905,11 @@ void FrontierGamblerSetWonOrLost(bool8 won)
 void UpdateBattlePointsWindow(void)
 {
     u8 string[32];
-    u32 x;
-    ConvertIntToDecimalStringN(string, gSaveBlock2Ptr->frontier.battlePoints, STR_CONV_MODE_RIGHT_ALIGN, 4);
+    ConvertIntToDecimalStringN(string, gSaveBlock2Ptr->frontier.battlePoints, STR_CONV_MODE_LEFT_ALIGN, 4);
     ReverseNumeric(string);
-    StringCopy(string, gText_BP);
-    x = GetStringRightAlignXOffset(FONT_NORMAL, string, 48);
-    AddTextPrinterParameterizedWithRTL(sBattlePointsWindowId, FONT_NORMAL, string, x, 1, 0, NULL, TRUE);
+    StringAppend(string, gText_BP);
+
+    AddTextPrinterParameterizedWithRTL(sBattlePointsWindowId, FONT_NORMAL, string, 0, 1, 0, NULL, TRUE);
 }
 
 void ShowBattlePointsWindow(void)

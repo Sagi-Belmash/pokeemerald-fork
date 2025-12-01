@@ -332,7 +332,7 @@ RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "בעלי משוגע על פוקימון כמו\n"
 	.string "הילד{EMIT_HEY} שלנו.\p"
 	.string "אם הוא לא במעבדה שלו, הוא כנראה\n"
-	.string "מפשפש בין שדות דשא .$"
+	.string "מפשפש בין שדות הדשא.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
 	.string "זה {RIVAL}!\p"

@@ -309,7 +309,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Accept::
 	.string "תודה!\n"
-	.string "אלך להירשם עכשיו.$"
+	.string "אני אלך להירשם עכשיו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Reject::
 	.string "באמת רציתי ליצור צוות תג\n"
@@ -329,7 +329,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Accept::
 	.string "תודה רבה!\n"
-	.string "אסיים את ההרשמה במהרה!$"
+	.string "אני אסיים את ההרשמה במהרה!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Reject::
 	.string "{PLAYER}, אני קיוויתי שאוכל\n"
@@ -401,7 +401,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Accept::
 	.string "תודה!\n"
-	.string "אלך להירשם מיד!$"
+	.string "אני אלך להירשם מיד!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Reject::
 	.string "{PLAYER}, קיוויתי שאוכל להצטרף\n"
@@ -429,8 +429,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Accept::
 	.string "באמת? אני לא מאמין!\n"
 	.string "אני לא מאמין שתאפשר{ADD_YUD} לי להצטרף!\l"
 	.string "אני… לא אאכזב אותך!\p"
-	.string "אממ… אם באמת בסדר, אלך להירשם\n"
-	.string "עתה!$"
+	.string "אממ… אם באמת בסדר, אני אלך להירשם\n"
+	.string "עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Reject::
 	.string "אה…\n"
@@ -452,9 +452,9 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon2Ask::
 	.string "רוצה שאתאחד איתך?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Accept::
-	.string "בסדר, אני שמח להצטרף!\n"
+	.string "אוקיי, אני שמח להצטרף!\n"
 	.string "אני מקווה שלא תבזבז את זה בשבילי!\l"
-	.string "אלך להירשם עכשיו.$"
+	.string "אני אלך עכשיו להירשם.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject::
 	.string "מה? למה דחית אותי?\n"
@@ -505,7 +505,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept::
 	.string "יאי, זה יהיה כיף!\n"
-	.string "אלך להירשם!$"
+	.string "אני אלך להירשם!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject::
 	.string "אה, שאת{EMIT_HEY} מרושע{ADD_TAF}!\n"
@@ -554,7 +554,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Accept::
 	.string "איי! אני… מתחרפן!\n"
 	.string "תודה רבה!\l"
-	.string "אלך להירשם מיד!$"
+	.string "אני אלך להירשם מיד!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject::
 	.string "וואאה! אין לך מעט רחמים?\n"
@@ -577,7 +577,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept::
 	.string "בסדר, מצוין!\n"
-	.string "אסיים את ההרשמה מהר!$"
+	.string "אני אסיים את ההרשמה מהר!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject::
 	.string "אווו!\n"
@@ -634,7 +634,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Accept::
 	.string "היי, היי, אני אוהב את הסגנון שלך!\n"
-	.string "אלך להגיש את ההרשמה!$"
+	.string "אני אלך להגיש את ההרשמה!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject::
 	.string "אה, היי, {PLAYER}, זה קר!\n"
@@ -662,7 +662,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept::
 	.string "יאאה! המזל איתי!\n"
 	.string "זה בהחלט משמח אותי!\p"
 	.string "לפני שנלך לקרב,\n"
-	.string "אלך להירשם מיד!$"
+	.string "אני אלך להירשם מיד!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject::
 	.string "את{EMIT_HEY} מסרב לי?\n"
@@ -716,7 +716,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Accept::
 	.string "או, אוי, תודה!\n"
 	.string "אני מתבייש, אבל אתן את הכי טוב!\p"
-	.string "אלך לסיים את ההרשמה.$"
+	.string "אני אלך לסיים את ההרשמה.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject::
 	.string "אה, בבקשה אל תגיד לא!\n"
@@ -741,7 +741,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Accept::
 	.string "את{EMIT_HEY} באמת תקבל אותי?\n"
 	.string "אחרת זה יהיה נורא.\p"
 	.string "אבל מאחר שאת{EMIT_HEY} הסכמת, זה בסדר.\n"
-	.string "אלך להירשם עבור שנינו.$"
+	.string "אני אלך להירשם עבור שנינו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject::
 	.string "הממ? למה תסרב?\n"
@@ -761,7 +761,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept::
 	.string "תודה!\n"
-	.string "אלך לבצע את ההרשמה!$"
+	.string "אני אלך לבצע את ההרשמה!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject::
 	.string "את{EMIT_HEY} לא רוצה להיות שותפי?\n"
@@ -781,7 +781,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept::
 	.string "יאיי!\n"
-	.string "אלך להירשם, בסדר?$"
+	.string "אני אלך להירשם, בסדר?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
 	.string "אוף! אילו היית יוצר צוות תג עם\n"
@@ -802,7 +802,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerAccept::
 	.string "יאהו!\n"
-	.string "אלך להירשם עכשיו.$"
+	.string "אני אלך להירשם עכשיו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject::
 	.string "הייתי שמח להילחם לצדך.$"
@@ -822,7 +822,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyAccept::
 	.string "נפלא!\n"
-	.string "אלך לסיים את ההרשמה עכשיו!$"
+	.string "אני אלך לסיים את ההרשמה עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject::
 	.string "איזו אכזבה!\p"
@@ -845,7 +845,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanAccept::
 	.string "טוב, טוב!\n"
 	.string "השאר זאת לי!\p"
-	.string "אלך להירשם עבור שנינו עכשיו.$"
+	.string "אני אלך להירשם עבור שנינו עכשיו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject::
 	.string "היינו מתאימים בדיוק גם…$"
@@ -886,7 +886,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFAccept::
 	.string "אוי, תודה!\n"
-	.string "אלך להירשם בדלפק.$"
+	.string "אני אלך להירשם בדלפק.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject::
 	.string "אנחנו יחד היינו חזקים בטוח!$"
@@ -906,7 +906,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept::
 	.string "תפסתי אותך!\p"
-	.string "אלך לבצע את ההרשמה\n"
+	.string "אני אלך לבצע את ההרשמה\n"
 	.string "בדלפק.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject::
@@ -925,7 +925,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask::
 	.string "ואחד {STR_VAR_2} שמשתמש\n"
 	.string "ב{STR_VAR_1}.\p"
 	.string "לא רע, מה דעתך?\n"
-	.string "האם תרצה ליצור צוות תג?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} ליצור צוות תג?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept::
 	.string "תודה רבה!\n"
@@ -951,7 +951,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept::
 	.string "מהלך חכם!\p"
-	.string "אסיים את תהליך ההרשמה\n"
+	.string "אני אסיים את תהליך ההרשמה\n"
 	.string "מהר!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject::
@@ -974,7 +974,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept::
 	.string "הייה!\n"
-	.string "אלך להירשם מיד!$"
+	.string "אני אלך להירשם מיד!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject::
 	.string "אני מבין… מקווה להזדמנות\n"
@@ -994,7 +994,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept::
 	.string "תודה!\n"
-	.string "אלך להירשם עבורנו עכשיו!$"
+	.string "אני אלך להירשם עבורנו עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject::
 	.string "אם היינו שותפים, היינו חזקים כל כך!$"
@@ -1014,7 +1014,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept::
 	.string "מודה לך…\n"
-	.string "אלך להירשם עבורנו…$"
+	.string "אני אלך להירשם עבורנו…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject::
 	.string "כל כך רציתי להצטרף אליך…$"
@@ -1034,7 +1034,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMAccept::
 	.string "תודה רבה!\p"
-	.string "אלך לטפל בהרשמה, חכה כאן!$"
+	.string "אני אלך לטפל בהרשמה, חכה כאן!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject::
 	.string "קיוויתי להיות שותפך…$"
@@ -1075,7 +1075,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMAccept::
 	.string "סבבה!\n"
-	.string "אלך להירשם במהירות!$"
+	.string "אני אלך להירשם במהירות!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject::
 	.string "באמת רציתי להילחם כשותף צוות תג שלך…$"
@@ -1094,7 +1094,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlAccept::
 	.string "אוי, תודה!\p"
-	.string "אלך להשלים את ההרשמה\n"
+	.string "אני אלך להשלים את ההרשמה\n"
 	.string "עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject::
@@ -1115,7 +1115,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept::
 	.string "תודה!\p"
-	.string "אלך להירשם עבורנו, ועכשיו!$"
+	.string "אני אלך להירשם עבורנו, ועכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject::
 	.string "אוף, זה חבל. היינו צוות תג הכי חזק!$"
@@ -1135,7 +1135,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept::
 	.string "בסדר!\p"
-	.string "אלך להירשם!\n"
+	.string "אני אלך להירשם!\n"
 	.string "נייחד יחד היותנו מצוינים!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
@@ -1157,7 +1157,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept::
 	.string "יאה-היי! נכון!\n"
-	.string "אלך לבצע את ההרשמה עכשיו!$"
+	.string "אני אלך לבצע את ההרשמה עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
 	.string "הפוקימונים שלי קשים כמו סלע!\n"
@@ -1173,12 +1173,12 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask::
 	.string "אחד {STR_VAR_1}-משתמש {STR_VAR_2}.\p"
-	.string "האם אוכל לבקש שתרצה להצטרף אלי\n"
+	.string "האם אוכל לבקש ממך להצטרף אלי\n"
 	.string "כשותף צוות תג?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept::
 	.string "אה, מודה על אמונתך.\n"
-	.string "אסיים את ההרשמה.$"
+	.string "אני אסיים את ההרשמה.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject::
 	.string "זה חבל מאוד…\p"
@@ -1219,11 +1219,11 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept::
 	.string "הממ!\n"
-	.string "אלך להירשם מיד!\l"
+	.string "אני אלך להירשם מיד!\l"
 	.string "בואו נעשה את המיטב!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
-	.string "אקווה שהבחירה שלך תהיה\n"
+	.string "אני אקווה שהבחירה שלך תהיה\n"
 	.string "נכונה…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro::
@@ -1237,7 +1237,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}--\n"
 	.string "אלה מה שיש לי.\p"
-	.string "האם לא תרצה להצטרף אלי?$"
+	.string "האם לא תרצ{EMIT_HEY}{ADD_YUD} להצטרף אלי?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept::
 	.string "טוב, טוב.\n"
@@ -1261,7 +1261,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept::
 	.string "בסדר, אתן את מיטב שלי!\n"
-	.string "אלך להירשם עכשיו, בסדר?$"
+	.string "אני אלך להירשם עכשיו, בסדר?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
 	.string "לא תמצא הרבה שותפים חזקים יותר ממני!$"
@@ -1320,7 +1320,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept::
 	.string "תודה רבה!\p"
-	.string "אלך להירשם בדלפק.\n"
+	.string "אני אלך להירשם בדלפק.\n"
 	.string "בואו לא מאכזבים זה את זה!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
@@ -1364,7 +1364,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept::
 	.string "לא ציפיתי לפחות מזה!\n"
-	.string "אלך להירשם עכשיו.$"
+	.string "אני אלך להירשם עכשיו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject::
 	.string "היינו עוברים דרך האויב! חבל!$"
@@ -1385,7 +1385,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept::
 	.string "אה, כן!\p"
 	.string "טוב, אל נבזבז זמן.\n"
-	.string "אלך להירשם עבורנו.$"
+	.string "אני אלך להירשם עבורנו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
 	.string "ובכן, זה מעציב.\n"
@@ -1421,12 +1421,12 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}!\p"
-	.string "איך תרצה ליצור צוות תג\n"
+	.string "איך תרצ{EMIT_HEY}{ADD_YUD} ליצור צוות תג\n"
 	.string "עם הקבוצה הקטנה שלי?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept::
 	.string "נהיה במיטבנו!\n"
-	.string "אסיים את ההרשמה במהירות!$"
+	.string "אני אסיים את ההרשמה במהירות!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject::
 	.string "מקווה שתבחר את הפוקימונים שלי\n"
@@ -1448,7 +1448,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept::
 	.string "מכובד על קבלתך.\n"
-	.string "אלך להירשם מיד.$"
+	.string "אני אלך להירשם מיד.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject::
 	.string "יהיה נפלא אם נוכל ליצור\n"
@@ -1469,7 +1469,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept::
 	.string "זו החלטה נכונה!\n"
-	.string "אלך למלא את טופס ההרשמה.$"
+	.string "אני אלך למלא את טופס ההרשמה.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
 	.string "הממ…\n"
@@ -1490,7 +1490,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept::
 	.string "מגניב!\n"
-	.string "אלך להירשם במהירות!$"
+	.string "אני אלך להירשם במהירות!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
 	.string "חשבתי שניצור\n"
@@ -1553,7 +1553,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept::
 	.string "בסדר!\n"
-	.string "אלך לבצע את ההרשמה.$"
+	.string "אני אלך לבצע את ההרשמה.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject::
 	.string "הבטחה שתשתף איתי פעולה\n"
@@ -1573,7 +1573,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept::
 	.string "כן!\n"
-	.string "אלך להירשם!$"
+	.string "אני אלך להירשם!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
 	.string "בפעם הבאה, בסדר?\n"
@@ -1589,12 +1589,12 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}.\p"
-	.string "האם תרצה להצטרף אלי\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להצטרף אלי\n"
 	.string "כשותף צוות תג?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept::
 	.string "או, תודה רבה!\n"
-	.string "אלך להירשם עכשיו.$"
+	.string "אני אלך להירשם עכשיו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject::
 	.string "יהיה נחמד אם אוכל להצטרף אליך\n"
@@ -1609,7 +1609,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask::
 	.string "אחד {STR_VAR_2} עם {STR_VAR_1}.\p"
-	.string "האם תרצה ליצור צוות תג\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} ליצור צוות תג\n"
 	.string "איתי?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept::
@@ -1635,7 +1635,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept::
 	.string "תודה.\n"
-	.string "אלך לטפל בהרשמה.$"
+	.string "אני אלך לטפל בהרשמה.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject::
 	.string "מקווה שתהיה הזדמנות נוספת\n"
@@ -1655,7 +1655,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept::
 	.string "אוי, תודה!\n"
-	.string "אלך להירשם בדלפק מיד!$"
+	.string "אני אלך להירשם בדלפק מיד!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject::
 	.string "בבקשה?\n"
@@ -1697,7 +1697,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept::
 	.string "תודה לך יקירי!\n"
-	.string "אלך להירשם עכשיו!$"
+	.string "אני אלך להירשם עכשיו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject::
 	.string "הפוקימונים החמודים שלי הם הכי טובים,\n"
@@ -1716,7 +1716,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept::
 	.string "מעולה!\n"
-	.string "אלך להירשם עבור שנינו.$"
+	.string "אני אלך להירשם עבור שנינו.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject::
 	.string "אם נפגש שוב, את{EMIT_HEY} חייב{ADD_TAF} לי\n"
@@ -1737,7 +1737,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::
 	.string "יוצא מן הכוח!\n"
-	.string "חכה שאסיים להירשם, בסדר?$"
+	.string "חכ{EMIT_HEY}{ADD_YUD} שאסיים להירשם, בסדר?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
 	.string "אני מצפה שתאפשר לי להצטרף\n"
@@ -1753,11 +1753,11 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask::
 	.string "עוד אחד {STR_VAR_2} שיודע להשתמש\n"
 	.string "ב{STR_VAR_1}. זו הצוות תגיות שלי.\p"
 	.string "מה דעתך?\n"
-	.string "ניצור צוות טוב, לדעתי.$"
+	.string "אנחנו ניצור צוות טוב, לדעתי.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept::
 	.string "אהבתי את התשובה!\n"
-	.string "אסיים את ההרשמה במהירות!$"
+	.string "אני אסיים את ההרשמה במהירות!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject::
 	.string "תתני לי הזדמנות נוספת ליצור\n"
@@ -1778,7 +1778,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept::
 	.string "תודה רבה!\n"
-	.string "אסיים את ההרשמה הזו!$"
+	.string "אני אסיים את ההרשמה הזו!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject::
 	.string "אם נפגש שוב, את{EMIT_HEY} חייב{ADD_TAF} להתחבר\n"

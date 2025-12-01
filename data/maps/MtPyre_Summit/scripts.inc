@@ -450,7 +450,7 @@ MtPyre_Summit_Text_Grunt2Defeat:
 
 MtPyre_Summit_Text_Grunt2PostBattle:
 	.string "את{EMIT_HEY} לא יודע{ADD_TAF} כלום!\n"
-	.string "אז למה את{EMIT_HEY} מתעסק{AFF_TAF} איתנו?$"
+	.string "אז למה את{EMIT_HEY} מתעסק{ADD_TAF} איתנו?$"
 
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "את{EMIT_HEY}…\n"

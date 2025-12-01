@@ -40,8 +40,8 @@ const u8 gText_MatchCallCooltrainer_Brooke_Intro2[] = _("לאלופת הפוקי
 
 const u8 gText_MatchCallCooltrainer_Wilton_Strategy[] = _("לערער את היריב.");
 const u8 gText_MatchCallCooltrainer_Wilton_Pokemon[] = _("הסוג לא משנה.");
-const u8 gText_MatchCallCooltrainer_Wilton_Intro1[] = _("אני תלמיד מצטיין ב");
-const u8 gText_MatchCallCooltrainer_Wilton_Intro2[] = _("בית הספר למאמנים.");
+const u8 gText_MatchCallCooltrainer_Wilton_Intro1[] = _("אני תלמיד מצטיין");
+const u8 gText_MatchCallCooltrainer_Wilton_Intro2[] = _("בבית הספר למאמנים.");
 
 const u8 gText_MatchCallHexManiac_Valerie_Strategy[] = _("סבל איטי ומתמשך.");
 const u8 gText_MatchCallHexManiac_Valerie_Pokemon[] = _("מפחיד לפגוש בלילה.");
@@ -65,8 +65,8 @@ const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("נראה שאני תמיד 
 
 const u8 gText_MatchCallRichBoy_Winston_Strategy[] = _("אסטרטגיה? מי צריך את זה?");
 const u8 gText_MatchCallRichBoy_Winston_Pokemon[] = _("בזבזתי עליהם הון!");
-const u8 gText_MatchCallRichBoy_Winston_Intro1[] = _("אני, בהיותי עשיר, ישן ב");
-const u8 gText_MatchCallRichBoy_Winston_Intro2[] = _("מיטת פוקימון מותאמת אישית.");
+const u8 gText_MatchCallRichBoy_Winston_Intro1[] = _("אני, בהיותי עשיר, ישן במיטת");
+const u8 gText_MatchCallRichBoy_Winston_Intro2[] = _("פוקימון מותאמת אישית.");
 
 const u8 gText_MatchCallPokeManiac_Steve_Strategy[] = _("להכריע עם כוח.");
 const u8 gText_MatchCallPokeManiac_Steve_Pokemon[] = _("לקח לילה שלם לתפוס.");
@@ -108,9 +108,9 @@ const u8 gText_MatchCallCamper_Ethan_Pokemon[] = _("אני אגדל כל פוק�
 const u8 gText_MatchCallCamper_Ethan_Intro1[] = _("פוקימונים שגדלים בטבע");
 const u8 gText_MatchCallCamper_Ethan_Intro2[] = _("גדלים חזקים!");
 
-const u8 gText_MatchCallOldCouple_JohnAndJay_Strategy[] = _("האהבה שלנו מאפשרת לנו לנצח.");
+const u8 gText_MatchCallOldCouple_JohnAndJay_Strategy[] = _("אהבתינו מאפשרת לנו לנצח.");
 const u8 gText_MatchCallOldCouple_JohnAndJay_Pokemon[] = _("הם אצלנו כבר שנים.");
-const u8 gText_MatchCallOldCouple_JohnAndJay_Intro1[] = _("נשואים 50 שנה, אנחנו");
+const u8 gText_MatchCallOldCouple_JohnAndJay_Intro1[] = _("נשואים 05 שנה, אנחנו");
 const u8 gText_MatchCallOldCouple_JohnAndJay_Intro2[] = _("מגדלים פוקימונים במסירות.");
 
 const u8 gText_MatchCallBugManiac_Jeffrey_Strategy[] = _("לתקוף בגלים!");
@@ -134,9 +134,9 @@ const u8 gText_MatchCallGentleman_Walter_Intro1[] = _("אנחנו נהנים מ�
 const u8 gText_MatchCallGentleman_Walter_Intro2[] = _("כל יום. הוא מיובא.");
 
 const u8 gText_MatchCallSchoolKid_Karen_Strategy[] = _("אני משתמשת בראש בקרב.");
-const u8 gText_MatchCallSchoolKid_Karen_Pokemon[] = _("אני אוהבת כל סוג של פוקימון!");
+const u8 gText_MatchCallSchoolKid_Karen_Pokemon[] = _("אני אוהבת כל סוג פוקימון!");
 const u8 gText_MatchCallSchoolKid_Karen_Intro1[] = _("אבא שלי נותן לי דמי");
-const u8 gText_MatchCallSchoolKid_Karen_Intro2[] = _("כיס אם אני מקבלת 100.");
+const u8 gText_MatchCallSchoolKid_Karen_Intro2[] = _("כיס אם אני מקבלת 001.");
 
 const u8 gText_MatchCallSchoolKid_Jerry_Strategy[] = _("הידע שלי שולט!");
 const u8 gText_MatchCallSchoolKid_Jerry_Pokemon[] = _("כל פוקימון חכם!");
@@ -213,15 +213,15 @@ const u8 gText_MatchCallTriathlete_Pablo_Pokemon[] = _("פוקימוני מים 
 const u8 gText_MatchCallTriathlete_Pablo_Intro1[] = _("לאמן פוקימונים זה טוב,");
 const u8 gText_MatchCallTriathlete_Pablo_Intro2[] = _("אבל אל תזניח את עצמך.");
 
-const u8 gText_MatchCallDragonTamer_Nicolas_Strategy[] = _("הכל קשור לכוח פוקימונים!");
+const u8 gText_MatchCallDragonTamer_Nicolas_Strategy[] = _("הכל קשור לכוח הפוקימונים!");
 const u8 gText_MatchCallDragonTamer_Nicolas_Pokemon[] = _("ראו את כוחם של דרקונים!");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro1[] = _("אני אהפוך לאגדי בתור");
 const u8 gText_MatchCallDragonTamer_Nicolas_Intro2[] = _("החזק ביותר יום אחד!");
 
 const u8 gText_MatchCallBirdKeeper_Robert_Strategy[] = _("אני אראה לך את הטכניקה!");
 const u8 gText_MatchCallBirdKeeper_Robert_Pokemon[] = _("ציפורים דואות באלגנטיות.");
-const u8 gText_MatchCallBirdKeeper_Robert_Intro1[] = _("פוקימוני הציפור שלי, העבירו את");
-const u8 gText_MatchCallBirdKeeper_Robert_Intro2[] = _("אהבתי לבחורה ההיא!");
+const u8 gText_MatchCallBirdKeeper_Robert_Intro1[] = _("פוקימוני הציפור שלי, העבירו");
+const u8 gText_MatchCallBirdKeeper_Robert_Intro2[] = _("את אהבתי לבחורה ההיא!");
 
 const u8 gText_MatchCallNinjaBoy_Lao_Strategy[] = _("אתה תסבול מרעל!");
 const u8 gText_MatchCallNinjaBoy_Lao_Pokemon[] = _("פוקימונים רעילים.");
@@ -235,7 +235,7 @@ const u8 gText_MatchCallBattleGirl_Cyndy_Intro2[] = _("אני אמשיך את ה
 
 const u8 gText_MatchCallParasolLady_Madeline_Strategy[] = _("קדימה, קדימה, פוקימונים!");
 const u8 gText_MatchCallParasolLady_Madeline_Pokemon[] = _("אני אגדל כל דבר.");
-const u8 gText_MatchCallParasolLady_Madeline_Intro1[] = _("קרני UV הן האויב");
+const u8 gText_MatchCallParasolLady_Madeline_Intro1[] = _("קרני VU הן האויב");
 const u8 gText_MatchCallParasolLady_Madeline_Intro2[] = _("של העור שלך. תתגונני.");
 
 const u8 gText_MatchCallSwimmer_Jenny_Strategy[] = _("בלי רחמים!");
@@ -250,7 +250,7 @@ const u8 gText_MatchCallPicnicker_Diana_Intro2[] = _("לגבעה ההיא?");
 
 const u8 gText_MatchCallTwins_AmyAndLiv_Strategy[] = _("אנחנו נלחמות יחד!");
 const u8 gText_MatchCallTwins_AmyAndLiv_Pokemon[] = _("אנחנו מתאומנות יחד!");
-const u8 gText_MatchCallTwins_AmyAndLiv_Intro1[] = _("אנחנו אוהבות את אותם פוקימונים,");
+const u8 gText_MatchCallTwins_AmyAndLiv_Intro1[] = _("אנחנו אוהבות אותם פוקימונים,");
 const u8 gText_MatchCallTwins_AmyAndLiv_Intro2[] = _("אבל קינוחים שונים.");
 
 const u8 gText_MatchCallSailor_Ernest_Strategy[] = _("אני כופה דברים בכוח!");
@@ -263,22 +263,22 @@ const u8 gText_MatchCallSailor_Cory_Pokemon[] = _("פוקימוני מים הם 
 const u8 gText_MatchCallSailor_Cory_Intro1[] = _("אם אתה רוצה לצעוק חזק,");
 const u8 gText_MatchCallSailor_Cory_Intro2[] = _("תשאף אוויר עם הבטן!");
 
-const u8 gText_MatchCallCollector_Edwin_Strategy[] = _("להגן על פוקימונים מפני פגיעה.");
+const u8 gText_MatchCallCollector_Edwin_Strategy[] = _("להגן על פוקימונים מפגיעה.");
 const u8 gText_MatchCallCollector_Edwin_Pokemon[] = _("אני אוהב פוקימונים נדירים.");
 const u8 gText_MatchCallCollector_Edwin_Intro1[] = _("אני רוצה לאסוף את כל");
 const u8 gText_MatchCallCollector_Edwin_Intro2[] = _("הפוקימונים הנדירים בעולם.");
 
 const u8 gText_MatchCallPkmnBreeder_Lydia_Strategy[] = _("אני סומכת על כוח.");
 const u8 gText_MatchCallPkmnBreeder_Lydia_Pokemon[] = _("פוקימונים הם הילדים שלי.");
-const u8 gText_MatchCallPkmnBreeder_Lydia_Intro1[] = _("צריך ידע");
-const u8 gText_MatchCallPkmnBreeder_Lydia_Intro2[] = _("ואהבה כדי לגדל פוקימונים.");
+const u8 gText_MatchCallPkmnBreeder_Lydia_Intro1[] = _("צריך ידע ואהבה");
+const u8 gText_MatchCallPkmnBreeder_Lydia_Intro2[] = _("כדי לגדל פוקימונים.");
 
 const u8 gText_MatchCallPkmnBreeder_Isaac_Strategy[] = _("התקפה חזיתית!");
 const u8 gText_MatchCallPkmnBreeder_Isaac_Pokemon[] = _("כל דבר. אני אגדל אותו.");
-const u8 gText_MatchCallPkmnBreeder_Isaac_Intro1[] = _("אני נותן להם {POKEBLOCK}S בשביל");
-const u8 gText_MatchCallPkmnBreeder_Isaac_Intro2[] = _("ללכת על תארי תחרויות.");
+const u8 gText_MatchCallPkmnBreeder_Isaac_Intro1[] = _("אני נותן להם פוקיגושים");
+const u8 gText_MatchCallPkmnBreeder_Isaac_Intro2[] = _("שילכו אחר תארי תחרויות.");
 
-const u8 gText_MatchCallPkmnBreeder_Gabrielle_Strategy[] = _("אני מגדלת פוקימונים בזהירות.");
+const u8 gText_MatchCallPkmnBreeder_Gabrielle_Strategy[] = _("אני מגדלת פוקימון בזהירות.");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Pokemon[] = _("פוקימונים שכיף לגדל.");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro1[] = _("התייחס לכל פוקימון");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro2[] = _("שאתה פוגש בכבוד.");
@@ -294,7 +294,7 @@ const u8 gText_MatchCallPkmnRanger_Jackson_Intro1[] = _("אלה שהורסים �
 const u8 gText_MatchCallPkmnRanger_Jackson_Intro2[] = _("לעולם לא יסלחו!");
 
 const u8 gText_MatchCallLass_Haley_Strategy[] = _("אני אראה לך קצת אומץ!");
-const u8 gText_MatchCallLass_Haley_Pokemon[] = _("פוקימונים חמודים הם האהובים עליי!");
+const u8 gText_MatchCallLass_Haley_Pokemon[] = _("פוקימון חמוד הם אהוביי!");
 const u8 gText_MatchCallLass_Haley_Intro1[] = _("אחרי קרב, אני תמיד");
 const u8 gText_MatchCallLass_Haley_Intro2[] = _("מתרחצת עם הפוקימונים שלי.");
 
@@ -343,9 +343,9 @@ const u8 gText_MatchCallPassionBurn_Flannery_Pokemon[] = _("לבעור מתשו�
 const u8 gText_MatchCallPassionBurn_Flannery_Intro1[] = _("לשטוף לחלוטין את העייפות");
 const u8 gText_MatchCallPassionBurn_Flannery_Intro2[] = _("היומיומית במעיינות חמים!");
 
-const u8 gText_MatchCallReliableOne_Dad_Strategy[] = _("אני מתאים את הסגנון בגמישות.");
+const u8 gText_MatchCallReliableOne_Dad_Strategy[] = _("אני מתאים את הסגנון.");
 const u8 gText_MatchCallReliableOne_Dad_Pokemon[] = _("גדלו בצורה מאוזנת.");
-const u8 gText_MatchCallReliableOne_Dad_Intro1[] = _("אני הולך 30 דקות");
+const u8 gText_MatchCallReliableOne_Dad_Intro1[] = _("אני הולך 03 דקות");
 const u8 gText_MatchCallReliableOne_Dad_Intro2[] = _("מהבית לכאן כל יום.");
 
 const u8 gText_MatchCallSkyTamer_Winona_Strategy[] = _("אני מנצלת את המהירות.");

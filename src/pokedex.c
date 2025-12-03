@@ -2188,6 +2188,7 @@ static void CreatePokedexList(u8 dexMode, u8 order)
 #define temp_isHoennDex vars[1]
 #define temp_dexNum     vars[2]
     s16 i;
+    const u16 *orderArray;
 
     sPokedexView->pokemonListCount = 0;
 
@@ -2248,16 +2249,22 @@ static void CreatePokedexList(u8 dexMode, u8 order)
         }
         break;
     case ORDER_ALPHABETICAL:
-        for (i = 0; i < NUM_SPECIES - 1; i++)
         {
-            temp_dexNum = gPokedexOrder_Alphabetical[i];
+            orderArray = (gSaveBlock2Ptr->optionsSpeciesNames == 1)
+                           ? gPokedexOrder_Alphabetical_Translit
+                           : gPokedexOrder_Alphabetical_Literal;
 
-            if (NationalToHoennOrder(temp_dexNum) <= temp_dexCount && GetSetPokedexFlag(temp_dexNum, FLAG_GET_SEEN))
+            for (i = 0; i < NUM_SPECIES - 1; i++)
             {
-                sPokedexView->pokedexList[sPokedexView->pokemonListCount].dexNum = temp_dexNum;
-                sPokedexView->pokedexList[sPokedexView->pokemonListCount].seen = TRUE;
-                sPokedexView->pokedexList[sPokedexView->pokemonListCount].owned = GetSetPokedexFlag(temp_dexNum, FLAG_GET_CAUGHT);
-                sPokedexView->pokemonListCount++;
+                temp_dexNum = orderArray[i];
+
+                if (NationalToHoennOrder(temp_dexNum) <= temp_dexCount && GetSetPokedexFlag(temp_dexNum, FLAG_GET_SEEN))
+                {
+                    sPokedexView->pokedexList[sPokedexView->pokemonListCount].dexNum = temp_dexNum;
+                    sPokedexView->pokedexList[sPokedexView->pokemonListCount].seen = TRUE;
+                    sPokedexView->pokedexList[sPokedexView->pokemonListCount].owned = GetSetPokedexFlag(temp_dexNum, FLAG_GET_CAUGHT);
+                    sPokedexView->pokemonListCount++;
+                }
             }
         }
         break;

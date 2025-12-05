@@ -36,23 +36,23 @@ MysticTicket_Obtained:
 	end
 
 sText_MysticTicketForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "תודה שהשתמשת במערכת\n"
+	.string "המתנה המסתורית.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} להיות {PLAYER}.\n"
+	.string "יש כאן כרטיס בשבילך.$"
 
 sText_MysticTicketUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "נראה שהוא מיועד לשימוש בנמל\n"
+	.string "עיר ליליקוב.\p"
+	.string "למה שלא תנס{EMIT_HEY}{ADD_YUD} ותרא{EMIT_HEY}{ADD_YUD}\n"
+	.string "על מה מדובר?$"
 
 sText_MysticTicketThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "תודה שהשתמשת במערכת\n"
+	.string "המתנה המסתורית.$"
 
 sText_MysticTicketBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "אוי, אני מצטער, {PLAYER}.\n"
+	.string "תיק חפצי המפתח שלך מלא.\p"
+	.string "אנא אחס{SWAP_NUN}{ADD_YUD} משהו במחשב שלך,\n"
+	.string "ואז חז{EMIT_VAV}ר{ADD_YUD} לקחת את זה.$"

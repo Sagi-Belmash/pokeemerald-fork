@@ -42,6 +42,7 @@ PacifidlogTown_House3_EventScript_NotRequestedMon::
 	end
 
 PacifidlogTown_House3_EventScript_TradeCompleted::
+	bufferspeciesname STR_VAR_3, SPECIES_BAGON
 	msgbox PacifidlogTown_House3_Text_ReallyWantedToGetBagon, MSGBOX_DEFAULT
 	release
 	end
@@ -51,39 +52,39 @@ PacifidlogTown_House3_EventScript_Girl::
 	end
 
 PacifidlogTown_House3_Text_WillingToTradeIt:
-	.string "Check out this {STR_VAR_2}!\p"
-	.string "It's the {STR_VAR_2} that I caught\n"
-	.string "yesterday to celebrate my birthday!\p"
-	.string "Oh, I can see that you want it!\n"
-	.string "After all, it's priceless!\p"
-	.string "I'll tell you what. I might be willing\n"
-	.string "to trade it for a {STR_VAR_1}.$"
+	.string "תרא{EMIT_HEY}{ADD_YUD} את {STR_VAR_2}!\p"
+	.string "זה ה{STR_VAR_2} שתפסתי\n"
+	.string "אתמול כדי לחגוג את היום הולדת שלך!\p"
+	.string "או, אני יכול לראות שאת{EMIT_HEY} רוצה אותו!\n"
+	.string "אחרי הכל, אין לו מחיר!\p"
+	.string "אני אגיד לך מה. אני אהיה מוכן\n"
+	.string "להחליף אותו עבור {STR_VAR_1}.$"
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou:
-	.string "Oh, so this is a {STR_VAR_1}?\p"
-	.string "It's sort of like a {STR_VAR_2},\n"
-	.string "and yet it's subtly different.\p"
-	.string "Thank you!$"
+	.string "או, אז זה {STR_VAR_1}?\p"
+	.string "זה קצת דומה ל{STR_VAR_2},\n"
+	.string "אך שונה מקצת.\p"
+	.string "תודה לך!$"
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon:
-	.string "No, no, no! I won't accept any\n"
-	.string "less than a real {STR_VAR_1}!$"
+	.string "לא, לא, לא! אני לא אסכים\n"
+	.string "לכלום פחות מ{STR_VAR_1}!$"
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything:
-	.string "Oh, so you're not going to go through\n"
-	.string "with this?\p"
-	.string "That's cool. I'm not desperate to make\n"
-	.string "a trade or anything.$"
+	.string "או, אז את{EMIT_HEY} לא הול{SWAP_CHAF}{ADD_TAF}\n"
+	.string "עם זה?\p"
+	.string "זה בסדר. אני לא נואש\n"
+	.string "להחלפה או משהו$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
-	.string "I know I could go looking for one\n"
-	.string "on my own, but…\p"
-	.string "But I really wanted to get a BAGON\n"
-	.string "that another TRAINER caught…$"
+	.string "אני יודע שאני יכול לחפש אחד\n"
+	.string "בעצמי, אבל…\p"
+	.string "אבל ממש רציתי לקבל {STR_VAR_3}\n"
+	.string "ממאמן אחר שתפס…$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
-	.string "Is that a POKéDEX?\p"
-	.string "Did you get to meet a lot of different\n"
-	.string "POKéMON?\p"
-	.string "I wish I was like you.$"
+	.string "האם זה פוקידע?\p"
+	.string "האם יצא לך לפגוש הרבה \n"
+	.string "פוקימונים שונים\p"
+	.string "הלוואי והייתי כמוך.$"
 

@@ -171,28 +171,28 @@ Route123_EventScript_RematchFernando::
 	end
 
 Route123_Text_LoveGrassMonsHaveAny:
-	.string "I love GRASS-type POKéMON!\p"
-	.string "Do you have any GRASS-type POKéMON?$"
+	.string "אני אוהבת פוקימון מסוג עשב!\p"
+	.string "יש לך פוקימון מסוג עשב כלשהו?$"
 
 Route123_Text_YouLikeGrassMonsTooHaveThis:
-	.string "Oh?\p"
-	.string "You like GRASS-type POKéMON, too,\n"
-	.string "don't you?\p"
-	.string "I'm so happy, you can have this!\n"
-	.string "It's a token of our friendship.$"
+	.string "או?\p"
+	.string "את{EMIT_HEY} גם אוהב{ADD_TAF} פוקימונים מסוג עשב,\n"
+	.string "לא כך?\p"
+	.string "אני כל כך שמחה, קח{ADD_YUD} את זה!\n"
+	.string "זה סמל לחברות שלנו.$"
 
 Route123_Text_CheckTreesWithMyGrassMon:
-	.string "I check trees with my GRASS-type\n"
-	.string "POKéMON. I'm like a tree doctor.$"
+	.string "אני בודקת עצים עם הפוקימון מסוג\n"
+	.string "עשב. אני כמו דוקטור לעצים.$"
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} ROUTE 123\n"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string "{RIGHT_ARROW} דרך 321\n"
+	.string "{LEFT_ARROW} דרך 811$"
 
 Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} MT. PYRE\n"
-	.string "“Forbidden to the faint of heart.”$"
+	.string "{UP_ARROW} הר המוקד\n"
+	.string "“אסור לבעלי לב חלש.”$"
 
 Route123_Text_BerryMastersHouse:
-	.string "BERRY MASTER'S HOUSE$"
+	.string "בית המאסטר פירות יער$"
 

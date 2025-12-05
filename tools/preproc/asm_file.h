@@ -46,6 +46,7 @@ public:
     std::string GetGlobalLabel();
     std::string ReadPath();
     int ReadString(unsigned char* s);
+    char32_t DecodeUtf8Codepoint(size_t &pos);
     int ReadBraille(unsigned char* s);
     bool IsAtEnd();
     void OutputLine();
@@ -73,6 +74,7 @@ private:
     void VerifyStringLength(int length);
     int SkipWhitespaceAndEol();
     int FindLastLineNumber(std::string& filename);
+    int ParseLineSkipInEnum(void);
     std::string ReadIdentifier();
     long ReadInteger(std::string filename, long line);
 };

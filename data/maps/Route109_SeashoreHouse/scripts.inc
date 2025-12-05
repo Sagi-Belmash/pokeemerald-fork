@@ -97,81 +97,81 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-	.string "I'm the owner of the SEASHORE HOUSE.\n"
-	.string "But you can call me MR. SEA!\p"
-	.string "What I love above all is to see hot\n"
-	.string "POKéMON battles.\p"
-	.string "Let me see that your heart burns hot!\p"
-	.string "If you can defeat all the TRAINERS\n"
-	.string "here, I'll reward your efforts.$"
+	.string "אני הבעלים של בית חוף הים.\n"
+	.string "אבל את{EMIT_HEY} יכול{ADD_HEY} לקרוא לי מר ים!\p"
+	.string "מה שאני אוהב מעל הכל זה לראות קרבות\n"
+	.string "פוקימון לוהטים.\p"
+	.string "הרא{EMIT_HEY}{ADD_YUD} לי שהלב שלך בוער!\p"
+	.string "אם תצליח{ADD_YUD} להביס את כל המאמנים\n"
+	.string "כאן, אתגמל אותך על מאמציך.$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
-	.string "Show me some hot matches!\p"
-	.string "I run this SEASHORE HOUSE just for\n"
-	.string "that reason alone!$"
+	.string "הרא{EMIT_HEY}{ADD_YUD} לי קרבות לוהטים!\p"
+	.string "אני מנהל את בית חוף הים הזה מהסיבה\n"
+	.string "הזאת בלבד!$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
-	.string "You're scorching hot!\n"
-	.string "Those battles blazed!\l"
-	.string "I'm more than just satisfied!\p"
-	.string "As thanks for showing me your hot\n"
-	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of SODA POP!$"
+	.string "את{EMIT_HEY} לוהט{ADD_TAF} למדי!\n"
+	.string "הקרבות האלה בערו!\l"
+	.string "אני יותר ממרוצה!\p"
+	.string "כתודה שהראית לי את הרצף\n"
+	.string "הלוהט הזה, אני רוצה שתקח{ADD_YUD} את זה.\p"
+	.string "זה חצי תריסר בקבוקי סודה פופ!$"
 
 Route109_SeashoreHouse_Text_BagFull:
-	.string "Oh, but hey, your BAG's jammed full.\n"
-	.string "I'll hang on to these for you.$"
+	.string "או, אבל היי, התיק שלך מלא לגמריי.\n"
+	.string "אני אשמור אותם לך בינתיים.$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
-	.string "Want to buy some SODA POP?\n"
-	.string "POKéMON love it!\p"
-	.string "Just ¥300 a bottle!\n"
-	.string "Buy some!$"
+	.string "רוצה לקנות סודה פופ?\n"
+	.string "פוקימונים אוהבים את זה!\p"
+	.string "רק 003¥ לבקבוק!\n"
+	.string "תקנ{EMIT_HEY}{ADD_YUD} כמה!$"
 
 Route109_SeashoreHouse_Text_HereYouGo:
-	.string "Here you go!$"
+	.string "הנה לך!$"
 
 Route109_SeashoreHouse_Text_NotEnoughMoney:
-	.string "You don't have the money.$"
+	.string "אין לך את הכסף.$"
 
 Route109_SeashoreHouse_Text_ThatsTooBad:
-	.string "No?\n"
-	.string "That's too bad.$"
+	.string "לא?\n"
+	.string "חבל מדי.$"
 
 Route109_SeashoreHouse_Text_DwayneIntro:
-	.string "If you're looking for a battle in the\n"
-	.string "SEASHORE HOUSE, you'll find no\l"
-	.string "hotter TRAINER than me, matey!$"
+	.string "אם את{EMIT_HEY} מחפש{ADD_TAF} קרב\n"
+	.string "בבית חוף הים, לא תמצא{ADD_YUD}\l"
+	.string "מאמן לוהט יותר ממני, חבר{ADD_HEY}!$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
-	.string "That was a hot battle!\n"
-	.string "I can accept that loss, matey!$"
+	.string "זה היה קרב לוהט!\n"
+	.string "אני יכול להכיל את ההפסד הזה, חבר{ADD_HEY}!$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-	.string "Whenever I'm in SLATEPORT, I enjoy\n"
-	.string "hot battles and ice-cold SODA POP!$"
+	.string "כשאני בסלייטפורט, אני נהנה\n"
+	.string "מקרבות לוהטים וסודה פופ קפוא כקרח!$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
-	.string "Boring battles aren't worth the effort.\p"
-	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and POKéMON!$"
+	.string "קרבות משעממים לא שווים את המאמץ.\p"
+	.string "קרבות לוהטים וסוערים הם מה שמחשל\n"
+	.string "מאמנים ופוקימונים!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
-	.string "That's hot!$"
+	.string "זה לוהט!$"
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
-	.string "Whew, I'm all thirsty.\n"
-	.string "Maybe I'll have a SODA POP.$"
+	.string "ווהו, אני צמאה לגמריי.\n"
+	.string "אולי אקח סודה פופ.$"
 
 Route109_SeashoreHouse_Text_SimonIntro:
-	.string "I'm going to show you how great\n"
-	.string "my POKéMON are, but don't cry!$"
+	.string "אני הולך להראות לך כמה הפוקימונים\n"
+	.string "שלי נהדרים, אבל אל תבכ{EMIT_HEY}{ADD_YUD}!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
-	.string "…I lost, but I won't cry…$"
+	.string "…הפסדתי, אבל אני לא אבכה…$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
-	.string "If one of my POKéMON knew the move\n"
-	.string "for carrying me across water on its\l"
-	.string "back, I could get rid of this inner tube.$"
+	.string "אם אחד הפוקימונים שלי היה יודע את\n"
+	.string "המתקפה לנשיאה מעל המים על\l"
+	.string "הגב שלו, הייתי יכול להיפטר מהאבוב הזה.$"
 

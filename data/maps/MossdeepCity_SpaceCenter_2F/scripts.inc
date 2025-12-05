@@ -181,6 +181,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_Steven::
 	goto_if_set FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER, MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
 	setflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
 	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -261,6 +262,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
 	waitstate
 
 MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided, MSGBOX_DEFAULT
 	closemessage
 	delay 20
@@ -357,151 +359,151 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
-	.string "MOSSDEEP has mainly sunny weather,\n"
-	.string "and its winds are stable.\p"
-	.string "It's an ideal location for launching\n"
-	.string "rockets.$"
+	.string "במוסדיפ יש בעיקר מזג אוויר שמשי,\n"
+	.string "והרוחות בה יציבות.\p"
+	.string "זהו מקום אידיאלי לשיגור\n"
+	.string "טילים.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-	.string "Why would TEAM MAGMA want to steal\n"
-	.string "our rocket fuel in the first place?$"
+	.string "למה שצוות מגמה ירצה לגנוב\n"
+	.string "את דלק הטילים שלנו מלכתחילה?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
-	.string "If only I was a little younger, I would\n"
-	.string "have liked being an astronaut…\p"
-	.string "No… It's not too late!\n"
-	.string "I can and will try!$"
+	.string "לו רק הייתי קצת צעיר יותר, הייתי\n"
+	.string "רוצה להיות אסטרונאוט…\p"
+	.string "לא… זה לא מאוחר מדי!\n"
+	.string "אני יכול ואני אנסה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If TEAM MAGMA takes the rocket fuel,\n"
-	.string "I won't be able to go to space!\p"
-	.string "They can't be allowed to get away\n"
-	.string "with such an outrage!$"
+	.string "אם צוות מגמה ייקח את דלק הטילים,\n"
+	.string "אני לא אוכל לטוס לחלל!\p"
+	.string "אסור לתת להם להתחמק\n"
+	.string "מזעזוע כזה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
-	.string "I wish ordinary people could go into\n"
-	.string "space one day…$"
+	.string "הלוואי שאנשים רגילים יוכלו לטוס\n"
+	.string "לחלל יום אחד…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-	.string "TEAM MAGMA…\n"
-	.string "Do they want to go to space, too?$"
+	.string "צוות מגמה…\n"
+	.string "האם הם גם רוצים לטוס לחלל?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
-	.string "What's wrong with you?\p"
-	.string "You're outnumbered three to one,\n"
-	.string "but you still want to take us on?$"
+	.string "מה לא בסדר איתך?\p"
+	.string "את{EMIT_HEY} במיעוט שלושה לאחד,\n"
+	.string "אבל את{EMIT_HEY} עדיין רוצה להתמודד מולנו?$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
-	.string "Good answer!\n"
-	.string "That's what a smart person'll do!$"
+	.string "תשובה טובה!\n"
+	.string "זה מה שאדם חכם יעשה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
-	.string "A reckless go-getter, are you?\n"
-	.string "Okay, I'll go first!$"
+	.string "את{EMIT_HEY} הרפתק{SWAP_NUN}{ADD_YUD}{ADD_TAF} פזיז{ADD_HEY}, הא?\n"
+	.string "אוקיי, אני אלך ראשון!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
-	.string "I lost!\n"
-	.string "But!$"
+	.string "הפסדתי!\n"
+	.string "אבל!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
-	.string "It's too soon to be relieved!\n"
-	.string "I'm up next!$"
+	.string "מוקדם מדי להירגע!\n"
+	.string "אני הבא בתור!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
-	.string "I lost, too!\n"
-	.string "But!$"
+	.string "גם אני הפסדתי!\n"
+	.string "אבל!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "I bet you want to take a break.\n"
-	.string "But I'm not about to let you do that!$"
+	.string "אני בטוח שאת{EMIT_HEY} רוצה לקחת הפסקה.\n"
+	.string "אבל אני לא מתכוון לתת לך לעשות את זה!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
-	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "היינו צריכים לקחת הפסקה…\n"
+	.string "זה מה שהיינו צריכים לעשות…$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
-	.string "Three of us here, and look at the sorry\n"
-	.string "mess we got ourselves into.$"
+	.string "שלושתנו כאן, ותרא{EMIT_HEY}{ADD_YUD} לאיזה בלגן\n"
+	.string "מצער הכנסנו את עצמנו.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
-	.string "We three losing like this…\n"
-	.string "We look worse than usual by triple!$"
+	.string "שלושתנו מפסידים ככה…\n"
+	.string "אנחנו נראים גרוע פי שלושה מהרגיל!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
-	.string "Are we being useful to our leader\n"
-	.string "at all?$"
+	.string "האם אנחנו מועילים למנהיג שלנו\n"
+	.string "בכלל?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
-	.string "Hehehe!\p"
-	.string "We come all the way here to get some\n"
-	.string "fuel, and we're interfered with again!\p"
-	.string "If you're going to mess with us too,\n"
-	.string "we'll take care of you at the same time!$"
+	.string "היהיהי!\p"
+	.string "אנחנו באים עד לכאן כדי לקחת קצת\n"
+	.string "דלק, ושוב מפריעים לנו!\p"
+	.string "אם את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} להתעסק איתנו,\n"
+	.string "אנחנו נטפל גם בך באותו הזמן!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
-	.string "MAXIE: Clear out of the way!\n"
-	.string "Don't you dare interfere!$"
+	.string "מקסי: תפנה את הדרך!\n"
+	.string "אל תעז להתערב!$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-	.string "STEVEN: TEAM MAGMA…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+	.string "סטיבן: צוות מגמה…\p"
+	.string "מה הטעם בגניבת דלק\n"
+	.string "טילים?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
-	.string "MAXIE: Fufufu… Since you're so\n"
-	.string "curious, you deserve an explanation.\p"
-	.string "We're going to jettison the entire\n"
-	.string "load into MT. CHIMNEY!\p"
-	.string "With GROUDON gone, we have no need\n"
-	.string "for that slag heap of a mountain!\p"
-	.string "So we'll use the fuel's power to make\n"
-	.string "the volcano erupt!\p"
-	.string "It will be savage!$"
+	.string "מקסי: פופופו… מכיוון שאתה כל כך\n"
+	.string "סקרן, מגיע לך הסבר.\p"
+	.string "אנחנו הולכים להשליך את כל\n"
+	.string "המטען להר הארובה!\p"
+	.string "עם {STR_VAR_1} שנעלם, אין לנו צורך\n"
+	.string "בפסולת האשפה הזו של הר!\p"
+	.string "אז נשתמש בכוח הדלק כדי לגרום\n"
+	.string "להר הגעש להתפרץ!\p"
+	.string "זה יהיה פראי!$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
-	.string "STEVEN: {PLAYER}{KUN}!\n"
-	.string "You're going to help me?\p"
-	.string "Let's go into battle together!\n"
-	.string "Are you ready?$"
+	.string "סטיבן: {PLAYER}{KUN}!\n"
+	.string "את{EMIT_HEY} הול{SWAP_CHAF}{ADD_TAF} לעזור לי?\p"
+	.string "בוא{ADD_YUD} נצא לקרב יחד!\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
-	.string "STEVEN: Then, hurry!\n"
-	.string "Get ready quickly!$"
+	.string "סטיבן: אם כך, תמהר{ADD_YUD}!\n"
+	.string "התכונ{SWAP_NUN}{ADD_YUD} במהירות!$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
-	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "כל מה שאני רוצה…\n"
+	.string "אני רק רוצה להרחיב את מסת היבשה…$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-	.string "I'm with our leader…$"
+	.string "אני עם המנהיג שלנו…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-	.string "MAXIE: We failed to make the volcano\n"
-	.string "erupt…\p"
-	.string "We failed to control GROUDON after\n"
-	.string "we had awoken it…\p"
-	.string "Is our goal to expand the land\n"
-	.string "misguided?\p"
+	.string "מקסי: נכשלנו בלגרום להר הגעש\n"
+	.string "להתפרץ…\p"
+	.string "נכשלנו בלשלוט ב{STR_VAR_1} לאחר\n"
+	.string "שהערנו אותו…\p"
+	.string "האם המטרה שלנו להרחיב את היבשה\n"
+	.string "מוטעית?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "If…\n"
-	.string "If we, TEAM MAGMA, are wrong…\l"
+	.string "אם…\n"
+	.string "אם אנחנו, צוות מגמה, טועים…\l"
 	.string "… … … … … …\p"
-	.string "Then might TEAM AQUA's goal to expand\n"
-	.string "the sea also be equally misguided?$"
+	.string "אז האם המטרה של צוות אקווה להרחיב\n"
+	.string "את הים גם יכולה להיות מוטעית באותה מידה?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
-	.string "MAXIE: All right…\n"
-	.string "We will give up on the fuel…\p"
-	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "מקסי: בסדר גמור…\n"
+	.string "אנחנו נוותר על הדלק…\p"
+	.string "נראה שיש עניינים חשובים יותר\n"
+	.string "שאני חייב לבחון…$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-	.string "STEVEN: Whew, that was too tense.\n"
-	.string "{PLAYER}{KUN}, thank you.\p"
-	.string "I have something to give you as\n"
-	.string "thanks for your support.\p"
-	.string "Please come see me at home\n"
-	.string "after this.\p"
-	.string "Oh, yes, I don't live in RUSTBORO CITY.\n"
-	.string "I live right here on this island.$"
+	.string "סטיבן: פיו, זה היה מתוח מדי.\n"
+	.string "{PLAYER}{KUN}, תודה לך.\p"
+	.string "יש לי משהו לתת לך כתודה\n"
+	.string "על תמיכתך.\p"
+	.string "אנא בוא{ADD_YUD} לבקר אותי בבית\n"
+	.string "אחרי זה.\p"
+	.string "אה, כן, אני לא גר בעיר רסטבורו.\n"
+	.string "אני גר ממש כאן על האי הזה.$"

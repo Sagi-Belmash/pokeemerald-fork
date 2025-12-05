@@ -285,164 +285,162 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	pokemartlistend
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS.\p"
-	.string "Unfortunately, we're still getting\n"
-	.string "things ready. Please come back later!$"
+	.string "זוהי גבעת המאמנים שבה\n"
+	.string "תוכל{ADD_YUD} להנות מקרבות תג עם מאמנים\l"
+	.string "רבים.\p"
+	.string "לרוע המזל, אנחנו עדיין\n"
+	.string "מתכוננים. אנא חז{EMIT_VAV}ר{ADD_YUD} מאוחר יותר!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-	.string "Welcome!\p"
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS!$"
+	.string "שלום!\p"
+	.string "זוהי גבעת המאמנים שבה\n"
+	.string "תוכל{ADD_YUD} להנות מקרבות תג עם מאמנים\l"
+	.string "רבים!$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-	.string "Is this your first visit here?\p"
-	.string "Before you enter, please save\n"
-	.string "your game.$"
+	.string "האם זה הביקור הראשון שלך כאן?\p"
+	.string "לפני שאת{EMIT_HEY} נכנס{ADD_TAF}, אנא שמ{EMIT_VAV}ר{ADD_YUD}\n"
+	.string "את המשחק שלך.$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "Up to floor no. {STR_VAR_1}.$"
+	.string "בוא{ADD_YUD} נראה…\n"
+	.string "המאמנים שנמצאים כאן עכשיו הם…\p"
+	.string "עד קומה מס' {STR_VAR_1}.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "There appear to be TRAINERS gathered\n"
-	.string "in every room.$"
+	.string "בוא{ADD_YUD} נראה…\n"
+	.string "המאמנים שנמצאים כאן עכשיו הם…\p"
+	.string "נראה שיש מאמנים שנאספו\n"
+	.string "בכל חדר.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-	.string "Would you like to challenge the\n"
-	.string "waiting TRAINERS?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לאתגר את\n"
+	.string "המאמנים הממתינים?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-	.string "I will time your progress.\n"
-	.string "Best of luck!\p"
-	.string "On your marks…\p"
-	.string "Get set…\p"
-	.string "Go!$"
+	.string "אני אתזמן את ההתקדמות שלך.\n"
+	.string "בהצלחה!\p"
+	.string "היכון…\p"
+	.string "הכן…\p"
+	.string "צא!$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
-	.string "Please do visit us again!$"
+	.string "אנא בקר{ADD_YUD} אותנו שוב!$"
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort:
-	.string "That was too bad.\p"
-	.string "I think you put in a tremendous\n"
-	.string "effort in your battling.\p"
-	.string "Please come back and try again!$"
+	.string "זה חבל.\p"
+	.string "אני חושב שהשקעת מאמץ\n"
+	.string "עצום בקרבות שלך.\p"
+	.string "אנא חז{EMIT_VAV}ר{ADD_YUD} ונס{EMIT_HEY}{ADD_YUD} שוב!$"
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
-	.string "I hope you give it your best.$"
+	.string "אני מקווה שתית{SWAP_NUN}{ADD_YUD} את המיטב שלך.$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-	.string "When the TRAINERS switch places,\n"
-	.string "the movement can be hectic.\p"
-	.string "To avoid the stampede, we moved\n"
-	.string "the reception counter here.\p"
-	.string "I'm sorry for the inconvenience.$"
+	.string "כאשר המאמנים מחליפים מקומות,\n"
+	.string "התנועה יכולה להיות קדחתנית.\p"
+	.string "כדי להימנע מההמולה, העברנו\n"
+	.string "את דלפק הקבלה לכאן.\p"
+	.string "אני מצטער על אי הנוחות.$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "תודה שהשתתפת!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Here at the TRAINER HILL, we conduct\n"
-	.string "an event called the Time Attack.\p"
-	.string "It is a race that measures how long\n"
-	.string "you take to reach our owner on\l"
-	.string "the rooftop from this counter.\p"
-	.string "The fastest times are posted on\n"
-	.string "the Time Board--try competing with\l"
-	.string "your friends.\p"
-	.string "In TRAINER battles along the way,\n"
-	.string "neither Exp. Points nor money will\l"
-	.string "be awarded.$"
+	.string "כאן בגבעת המאמנים, אנחנו עורכים\n"
+	.string "אירוע שנקרא מתקפת זמן.\p"
+	.string "זהו מירוץ המודד כמה זמן\n"
+	.string "לוקח לך להגיע לבעלים שלנו על\l"
+	.string "הגג מהדלפק הזה.\p"
+	.string "הזמנים המהירים ביותר מוצגים על\n"
+	.string "לוח הזמנים--נס{EMIT_HEY}{ADD_YUD} להתחרות עם\l"
+	.string "החברים שלך.\p"
+	.string "בקרבות מאמנים לאורך הדרך,\n"
+	.string "לא יוענקו נקודות ניסיון או כסף.$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one POKéMON with you.\p"
-	.string "You will need at least two POKéMON\n"
-	.string "to enter this event.$"
+	.string "או, אני מצטער, אבל נראה שיש לך\n"
+	.string "רק פוקימון אחד איתך.\p"
+	.string "תזדקק{ADD_YUD} לפחות לשני פוקימונים\n"
+	.string "כדי להיכנס לאירוע הזה.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
-	.string "Hm! Hm!\p"
-	.string "You finally came!\n"
-	.string "Yes, you have arrived!\p"
-	.string "Wait! Don't say it!\n"
-	.string "I know why you came all the way\l"
-	.string "here by yourself!\p"
-	.string "You wanted to see me, the owner\n"
-	.string "of the TRAINER HILL, because…\p"
-	.string "You want to form a tag team with me!\n"
-	.string "Wa-hoo!\p"
-	.string "…Uh?\n"
-	.string "That's not it?\p"
-	.string "Anyway, I watched you on your way up.\n"
-	.string "Marvelous battling! Bravo, indeed!$"
+	.string "המ! המ!\p"
+	.string "סוף סוף הגעת!\n"
+	.string "כן, הגעת!\p"
+	.string "חכ{EMIT_HEY}{ADD_YUD}! אל תגיד{ADD_YUD} את זה!\n"
+	.string "אני יודע למה הגעת עד הלום\l"
+	.string "לבדך!\p"
+	.string "רצית לראות אותי, את הבעלים\n"
+	.string "של גבעת המאמנים, כי…\p"
+	.string "את{EMIT_HEY} רוצה ליצור איתי צוות תג!\n"
+	.string "ווא-הווו!\p"
+	.string "…אה?\n"
+	.string "זה לא זה?\p"
+	.string "בכל מקרה, צפיתי בך בדרכך למעלה.\n"
+	.string "קרב מדהים! באמת בראבו!$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
-	.string "For a marvelous someone like you,\n"
-	.string "I have the most marvelous gift!$"
+	.string "למישהו מופלא כמוך,\n"
+	.string "יש לי את המתנה הכי מופלאה!$"
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
-	.string "Oh, no, full up with things!\n"
-	.string "You'll be back later for this!$"
+	.string "או, לא, מלא בדברים!\n"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} מאוחר יותר בשביל זה!$"
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
-	.string "Oh, hold on here! Did you possibly get\n"
-	.string "here marvelously quickly?\p"
-	.string "How splendid! You needn't have\n"
-	.string "hurried so to see me!\p"
-	.string "That is so delightful. I'll have the Time\n"
-	.string "Board at the reception updated!$"
+	.string "או, חכ{EMIT_HEY}{ADD_YUD} רגע! האם ייתכן שהגעת\n"
+	.string "לכאן במהירות מופלאה?\p"
+	.string "כמה נפלא! לא היית צרי{SWAP_CHAF}{ADD_HEY}\n"
+	.string "למהר כל כך כדי לראות אותי!\p"
+	.string "זה כל כך משמח. אני אעדכן את לוח\n"
+	.string "הזמנים בקבלה!$"
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
-	.string "But, oh…\n"
-	.string "You weren't very quick getting here.$"
+	.string "אבל, או…\n"
+	.string "לא היית מהיר{ADD_HEY} במיוחד בדרכך לכאן.$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
-	.string "Perhaps it would please me more if you\n"
-	.string "arrived zippier next time.\p"
-	.string "Then, I should be pleased to form\n"
-	.string "a tag team with you!\p"
-	.string "Until we meet again, amigo!$"
+	.string "אולי זה ישמח אותי יותר אם תגיע{ADD_YUD}\n"
+	.string "מהר יותר בפעם הבאה.\p"
+	.string "אז, אני אשמח להקים\n"
+	.string "איתך צוות תג!\p"
+	.string "עד שניפגש שוב, אמיגו!$"
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "I had the TRAINER HILL built for but\n"
-	.string "one reason and one only!\p"
-	.string "To find the most suitable partner\n"
-	.string "with whom I may form a tag team!$"
+	.string "בניתי את גבעת המאמנים רק\n"
+	.string "מסיבה אחת ויחידה!\p"
+	.string "כדי למצוא את השותף המתאים ביותר\n"
+	.string "איתו אוכל להקים צוות תג!$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
-	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.$"
+	.string "{STR_VAR_1} דקות. {STR_VAR_2}.{STR_VAR_3} שניות.$"
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
-	.string "Who knows what sort of TRAINERS\n"
-	.string "and POKéMON combos are ahead?\p"
-	.string "All I know is that I'll knock aside\n"
-	.string "anyone that stands in my way!$"
+	.string "מי יודע איזה סוג של מאמנים\n"
+	.string "ושילובי פוקימונים יש לפנינו?\p"
+	.string "כל מה שאני יודע זה שאני אפיל\n"
+	.string "כל מי שיעמוד בדרכי!$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-	.string "I heard tough TRAINERS come to this\n"
-	.string "TRAINER HILL from all over.\p"
-	.string "I can't wait to test the waters!\p"
-	.string "I'll knock aside anyone that stands\n"
-	.string "in my way!$"
+	.string "שמעתי שמאמנים קשוחים מגיעים לגבעת\n"
+	.string "המאמנים מכל רחבי העולם.\p"
+	.string "אני לא יכול לחכות לבדוק את המים!\p"
+	.string "אני אפיל כל מי שיעמוד בדרכי!$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
-	.string "Do you see the Time Board over there?\p"
-	.string "My friends and I are trying to see who\n"
-	.string "can reach the top in the least time.$"
+	.string "את{EMIT_HEY} רואה את לוח הזמנים שם?\p"
+	.string "החברים שלי ואני מנסים לראות מי\n"
+	.string "מצליח להגיע לפסגה בזמן הקצר ביותר.$"
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
-	.string "Do you know when they're opening\n"
-	.string "this place up?\p"
-	.string "I'm waiting here to be the first\n"
-	.string "challenger ever!$"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} מתי הם פותחים\n"
+	.string "את המקום הזה?\p"
+	.string "אני מחכה כאן כדי להיות המתמודד\n"
+	.string "הראשון אי פעם!$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
-	.string "Would you like to return to\n"
-	.string "the reception counter?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לחזור\n"
+	.string "לדלפק הקבלה?$"

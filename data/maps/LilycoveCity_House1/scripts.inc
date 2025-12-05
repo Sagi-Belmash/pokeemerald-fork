@@ -10,17 +10,18 @@ LilycoveCity_House1_EventScript_Kecleon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_KECLEON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_KECLEON
 	msgbox LilycoveCity_House1_Text_Kecleon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 LilycoveCity_House1_Text_PokemonPartnersNotTools:
-	.string "POKéMON are partners to people.\n"
-	.string "They aren't our tools.\p"
-	.string "Unfortunately, there are some people\n"
-	.string "who fail to understand that…$"
+    .string "פוקימונים הם שותפים של אנשים.\n"
+    .string "הם לא הכלים שלנו.\p"
+    .string "למרבה הצער, יש אנשים שלא\n"
+    .string "מבינים זאת…$"
 
 LilycoveCity_House1_Text_Kecleon:
-	.string "KECLEON: Ruroro?$"
+	.string "{STR_VAR_1}: רורורו?$"
 

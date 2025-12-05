@@ -532,7 +532,7 @@ static void CreateMonMarkingsMenuSprites(s16 x, s16 y, u16 baseTileTag, u16 base
 
     // Create cursor sprite
     template.callback = SpriteCB_Cursor;
-    spriteId = CreateSprite(&template, x + 12, 0, 0);
+    spriteId = CreateSprite(&template, x + 51 /*12*/, 0, 0);
     if (spriteId != MAX_SPRITES)
     {
         sMenu->cursorSprite = &gSprites[spriteId];

@@ -10,16 +10,14 @@ VerdanturfTown_House_EventScript_Woman2::
 	end
 
 VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
-	.string "Far away, deep in EVER GRANDE CITY,\n"
-	.string "is the POKéMON LEAGUE.\p"
-	.string "The TRAINERS who gather there are\n"
-	.string "all frighteningly well skilled.$"
+	.string "רחוק מכאן, עמוק בעיר אבר גרנדה,\n"
+	.string "נמצאת ליגת הפוקימון.\p"
+	.string "המאמנים שמתאספים שם הם כולם\n"
+	.string "מיומנים באופן מפחיד.$"
 
 VerdanturfTown_House_Text_DefeatEliteFourInARow:
-	.string "In the POKéMON LEAGUE, I think the\n"
-	.string "rules say that you have to battle the\l"
-	.string "ELITE FOUR all in a row.\p"
-	.string "If you lose to any of them, you have\n"
-	.string "to begin your challenge again from the\l"
-	.string "first one.$"
-
+	.string "בליגת הפוקימון, אני חושב\n"
+	.string "שהחוקים אומרים שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} להילחם ברצ\l"
+	.string "נגד הרביעיה העילית.\p"
+	.string "אם הפסדת לאחד מהם, את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}\n"
+	.string "להתחיל את האתגר שלך שוב מהראשון.$"

@@ -244,71 +244,71 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
 	return
 
 BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
-	.string "Hey, hey!\n"
-	.string "Get a move on!$"
+	.string "היי, היי!\n"
+	.string "תזדרז{ADD_YUD} כבר!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
-	.string "Hey, my name's NOLAND!\n"
-	.string "I'm basically in charge of this place,\l"
-	.string "which is why I'm the FACTORY HEAD!\p"
-	.string "I had a look at your Battle Swap data.\p"
-	.string "You seem to have the right idea,\n"
-	.string "but you're still square in your head!\p"
-	.string "Listen up, okay? Knowledge isn't only\n"
-	.string "about reading books or doing desk work.\p"
-	.string "Just doing that sort of thing…\n"
-	.string "It may as well be useless!\p"
-	.string "You have to experience things with\n"
-	.string "your heart and your body, understand?\p"
-	.string "I'll take you on under the same\n"
-	.string "conditions as you.\p"
-	.string "I'll be using rental POKéMON, too!$"
+	.string "היי, שמי נולנד!\n"
+	.string "אני בעצם אחראי על המקום הזה,\l"
+	.string "וזו הסיבה שאני ראש המפעל!\p"
+	.string "הצצתי בנתוני החלפת הקרב שלך.\p"
+	.string "נראה שיש לך את הרעיון הנכון,\n"
+	.string "אבל את{EMIT_HEY} עדיין מרובע{ADD_TAF} בראש!\p"
+	.string "תקשיב{ADD_YUD} טוב, בסדר? ידע זה לא רק\n"
+	.string "לקרוא ספרים או לעשות עבודת משרד.\p"
+	.string "רק לעשות דברים כאלה…\n"
+	.string "זה יכול להיות חסר תועלת באותה מידה!\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לחוות דברים עם\n"
+	.string "הלב ועם הגוף שלך, הבנת?\p"
+	.string "אני אקבל אותך באותם\n"
+	.string "תנאים כמו שלך.\p"
+	.string "גם אני אשתמש בפוקימונים שכורים!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
-	.string "Shake out every last bit of your\n"
-	.string "knowledge and bring it on!$"
+	.string "נער{ADD_YUD} החוצה כל פיסת ידע\n"
+	.string "ובוא{ADD_YUD} נראה אותך!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
-	.string "NOLAND: Smart going!\n"
-	.string "Let's see your FRONTIER PASS.$"
+	.string "נולנד: מהלך חכם!\n"
+	.string "בוא{ADD_YUD} נראה את היתר חזית הקרב שלך.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
-	.string "The Knowledge Symbol was embossed\n"
-	.string "on the FRONTIER PASS!$"
+	.string "סמל הידע הוטבע\n"
+	.string "על היתר חזית הקרב!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
-	.string "Heh…\n"
-	.string "You're a pretty bright spark…\p"
-	.string "Next time, I'll come after you hard.\n"
-	.string "No holds barred, understand?\p"
-	.string "You keep up your studies!$"
+	.string "הא…\n"
+	.string "את{EMIT_HEY} ניצוץ די מבריק…\p"
+	.string "בפעם הבאה, אני אבוא אליך חזק.\n"
+	.string "ללא מעצורים, הבנת?\p"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD} בלימודים שלך!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
-	.string "NOLAND: Hey, hey! How's it going?\n"
-	.string "You keeping up with your studies?\p"
-	.string "…Oh?\p"
-	.string "You've taken on a harder look than\n"
-	.string "the last time I saw you.\p"
-	.string "Now, this should be fun!\n"
-	.string "I'm getting excited, hey!$"
+	.string "נולנד: היי, היי! מה שלומך?\n"
+	.string "את{EMIT_HEY} ממשי{SWAP_CHAF}{ADD_HEY} בלימודים שלך?\p"
+	.string "…או?\p"
+	.string "קיבלת מראה קשוח יותר מאשר\n"
+	.string "בפעם האחרונה שראיתי אותך.\p"
+	.string "עכשיו, זה יהיה כיף!\n"
+	.string "אני מתחיל להתרגש, היי!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
-	.string "All right!\n"
-	.string "Bring it on!$"
+	.string "בסדר גמור!\n"
+	.string "בוא{ADD_YUD} נראה אותך$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
-	.string "NOLAND: What the…\n"
-	.string "You're getting out of my league!\p"
-	.string "Sheesh!\n"
-	.string "Let's see that FRONTIER PASS!$"
+	.string "נולנד: מה לעזאזל…\n"
+	.string "את{EMIT_HEY} מתחיל{ADD_HEY} להיות מעבר לליגה שלי!\p"
+	.string "אויש!\n"
+	.string "בוא{ADD_YUD} נראה את היתר חזית הקרב הזה!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
-	.string "The Knowledge Symbol took on\n"
-	.string "a golden shine!$"
+	.string "סמל הידע קיבל\n"
+	.string "ברק זהוב!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
-	.string "Pfft, man!\p"
-	.string "That's absolutely the last time\n"
-	.string "I lose to you!\p"
-	.string "We have to do this again, hey?$"
+	.string "פחחח, בנאדם!\p"
+	.string "זו בהחלט הפעם האחרונה\n"
+	.string "שאני מפסיד לך!\p"
+	.string "אנחנו חייבים לעשות את זה שוב, היי?$"
 

@@ -281,142 +281,353 @@ void AsmFile::VerifyStringLength(int length)
         RaiseError("mapped string longer than %d bytes", kMaxStringLength);
 }
 
+// int AsmFile::ReadBraille(unsigned char* s)
+// {
+//     static std::map<char/* char */, unsigned char> encoding =
+//     {
+//         { 'A', BRAILLE_CHAR_A },
+//         { 'B', BRAILLE_CHAR_B },
+//         { 'C', BRAILLE_CHAR_C },
+//         { 'D', BRAILLE_CHAR_D },
+//         { 'E', BRAILLE_CHAR_E },
+//         { 'F', BRAILLE_CHAR_F },
+//         { 'G', BRAILLE_CHAR_G },
+//         { 'H', BRAILLE_CHAR_H },
+//         { 'I', BRAILLE_CHAR_I },
+//         { 'J', BRAILLE_CHAR_J },
+//         { 'K', BRAILLE_CHAR_K },
+//         { 'L', BRAILLE_CHAR_L },
+//         { 'M', BRAILLE_CHAR_M },
+//         { 'N', BRAILLE_CHAR_N },
+//         { 'O', BRAILLE_CHAR_O },
+//         { 'P', BRAILLE_CHAR_P },
+//         { 'Q', BRAILLE_CHAR_Q },
+//         { 'R', BRAILLE_CHAR_R },
+//         { 'S', BRAILLE_CHAR_S },
+//         { 'T', BRAILLE_CHAR_T },
+//         { 'U', BRAILLE_CHAR_U },
+//         { 'V', BRAILLE_CHAR_V },
+//         { 'W', BRAILLE_CHAR_W },
+//         { 'X', BRAILLE_CHAR_X },
+//         { 'Y', BRAILLE_CHAR_Y },
+//         { 'Z', BRAILLE_CHAR_Z },
+//         { 'a', BRAILLE_CHAR_A },
+//         { 'b', BRAILLE_CHAR_B },
+//         { 'c', BRAILLE_CHAR_C },
+//         { 'd', BRAILLE_CHAR_D },
+//         { 'e', BRAILLE_CHAR_E },
+//         { 'f', BRAILLE_CHAR_F },
+//         { 'g', BRAILLE_CHAR_G },
+//         { 'h', BRAILLE_CHAR_H },
+//         { 'i', BRAILLE_CHAR_I },
+//         { 'j', BRAILLE_CHAR_J },
+//         { 'k', BRAILLE_CHAR_K },
+//         { 'l', BRAILLE_CHAR_L },
+//         { 'm', BRAILLE_CHAR_M },
+//         { 'n', BRAILLE_CHAR_N },
+//         { 'o', BRAILLE_CHAR_O },
+//         { 'p', BRAILLE_CHAR_P },
+//         { 'q', BRAILLE_CHAR_Q },
+//         { 'r', BRAILLE_CHAR_R },
+//         { 's', BRAILLE_CHAR_S },
+//         { 't', BRAILLE_CHAR_T },
+//         { 'u', BRAILLE_CHAR_U },
+//         { 'v', BRAILLE_CHAR_V },
+//         { 'w', BRAILLE_CHAR_W },
+//         { 'x', BRAILLE_CHAR_X },
+//         { 'y', BRAILLE_CHAR_Y },
+//         { 'z', BRAILLE_CHAR_Z },
+//         { '0', BRAILLE_CHAR_0 },
+//         { '1', BRAILLE_CHAR_1 },
+//         { '2', BRAILLE_CHAR_2 },
+//         { '3', BRAILLE_CHAR_3 },
+//         { '4', BRAILLE_CHAR_4 },
+//         { '5', BRAILLE_CHAR_5 },
+//         { '6', BRAILLE_CHAR_6 },
+//         { '7', BRAILLE_CHAR_7 },
+//         { '8', BRAILLE_CHAR_8 },
+//         { '9', BRAILLE_CHAR_9 },
+//         { ' ', BRAILLE_CHAR_SPACE },
+//         { ',', BRAILLE_CHAR_COMMA },
+//         { '.', BRAILLE_CHAR_PERIOD },
+//         { '?', BRAILLE_CHAR_QUESTION_MARK },
+//         { '!', BRAILLE_CHAR_EXCL_MARK },
+//         { ':', BRAILLE_CHAR_COLON },
+//         { ';', BRAILLE_CHAR_SEMICOLON },
+//         { '-', BRAILLE_CHAR_HYPHEN },
+//         { '/', BRAILLE_CHAR_SLASH },
+//         { '(', BRAILLE_CHAR_PAREN },
+//         { ')', BRAILLE_CHAR_PAREN },
+//         { '\'', BRAILLE_CHAR_APOSTROPHE },
+//         { '#', BRAILLE_CHAR_NUMBER },
+
+//         // hebrew letters with multiple verses will use the lower eng alternatives
+//         { U'א', BRAILLE_CHAR_A},
+//         { U'ב', BRAILLE_CHAR_B},
+//         // ב עם נק as V
+//         { U'ג', BRAILLE_CHAR_G},
+//         { U'ד', BRAILLE_CHAR_D},
+//         { U'ה', BRAILLE_CHAR_H},
+//         { U'ו', BRAILLE_CHAR_W}, 
+//         // ו as O
+//         // ו as U
+//         { U'ז', BRAILLE_CHAR_Z},
+//         { U'ח', BRAILLE_CHAR_X},
+//         { U'ט', BRAILLE_CHAR_T},
+//         { U'י', BRAILLE_CHAR_J},
+//         // אי Xy as I
+//         { U'כ', BRAILLE_CHAR_CHAF}, // Kaf
+//         // Kaf as K
+//         { U'ל', BRAILLE_CHAR_L},
+//         { U'מ', BRAILLE_CHAR_M},
+//         { U'נ', BRAILLE_CHAR_N},
+//         { U'ס', BRAILLE_CHAR_S},
+//         { U'ע', BRAILLE_CHAR_AYIN},
+//         { U'פ', BRAILLE_CHAR_P},
+//         // fey as F
+//         { U'צ', BRAILLE_CHAR_TZADIK},
+//         { U'ק', BRAILLE_CHAR_Q},
+//         { U'ר', BRAILLE_CHAR_R},
+//         { U'ש', BRAILLE_CHAR_SHIN},
+//         { U'ץ', BRAILLE_CHAR_SIN}, // used for Sin
+//         { U'ת', BRAILLE_CHAR_TAF},
+//         { '$', EOS },
+//     };
+
+//     SkipWhitespace();
+
+//     int length = 0;
+
+//     if (m_buffer[m_pos] != '"')
+//         RaiseError("expected braille string literal");
+
+//     m_pos++;
+
+//     bool inNumber = false;
+//     while (m_buffer[m_pos] != '"')
+//     {
+//         if (m_buffer[m_pos] == '\\' && m_buffer[m_pos + 1] == 'n')
+//         {
+//             VerifyStringLength(length);
+//             s[length++] = CHAR_NEWLINE;
+//             m_pos += 2;
+//         }
+//         else
+//         {
+//             char c = m_buffer[m_pos];
+
+//             if (encoding.count(c) == 0)
+//             {
+//                 if (IsAsciiPrintable(c))
+//                     RaiseError("character '%c' not valid in braille string", m_buffer[m_pos]);
+//                 else
+//                     RaiseError("character '\\x%02X' not valid in braille string", m_buffer[m_pos]);
+//             }
+
+//             if (!inNumber && c >= '0' && c <= '9' )
+//             {
+//                 // Output number indicator at start of a number
+//                 inNumber = true;
+//                 VerifyStringLength(length);
+//                 s[length++] = BRAILLE_CHAR_NUMBER;
+//             }
+//             else if (inNumber && encoding[c] == BRAILLE_CHAR_SPACE)
+//             {
+//                 // Number ends at a space.
+//                 // Non-number characters encountered before a space will simply be output as is.
+//                 inNumber = false;
+//             }
+
+//             VerifyStringLength(length);
+//             s[length++] = encoding[c];
+//             m_pos++;
+//         }
+//     }
+
+//     m_pos++; // Go past the right quote.
+
+//     ExpectEmptyRestOfLine();
+
+//     return length;
+// }
+#include <cstring>
+
+// ==========================================================
+// Decode a single UTF-8 codepoint from the buffer.
+// Member function: can call RaiseError
+// ==========================================================
+char32_t AsmFile::DecodeUtf8Codepoint(size_t &pos)
+{
+    size_t buf_len = strlen(m_buffer); // use size_t to match pos
+
+    if (pos >= buf_len)
+        RaiseError("utf8 decode out of range");
+
+    unsigned char b0 = m_buffer[pos];
+    char32_t cp = 0;
+
+    if (b0 <= 0x7F) {
+        cp = b0;
+        pos += 1;
+    }
+    else if ((b0 & 0xE0) == 0xC0) {
+        if (pos + 1 >= buf_len) RaiseError("invalid UTF-8");
+        unsigned char b1 = m_buffer[pos + 1];
+        if ((b1 & 0xC0) != 0x80) RaiseError("invalid UTF-8");
+        cp = ((b0 & 0x1F) << 6) | (b1 & 0x3F);
+        pos += 2;
+    }
+    else if ((b0 & 0xF0) == 0xE0) {
+        if (pos + 2 >= buf_len) RaiseError("invalid UTF-8");
+        unsigned char b1 = m_buffer[pos + 1];
+        unsigned char b2 = m_buffer[pos + 2];
+        if ((b1 & 0xC0) != 0x80 || (b2 & 0xC0) != 0x80) RaiseError("invalid UTF-8");
+        cp = ((b0 & 0x0F) << 12) | ((b1 & 0x3F) << 6) | (b2 & 0x3F);
+        pos += 3;
+    }
+    else if ((b0 & 0xF8) == 0xF0) {
+        if (pos + 3 >= buf_len) RaiseError("invalid UTF-8");
+        unsigned char b1 = m_buffer[pos + 1];
+        unsigned char b2 = m_buffer[pos + 2];
+        unsigned char b3 = m_buffer[pos + 3];
+        if ((b1 & 0xC0) != 0x80 || (b2 & 0xC0) != 0x80 || (b3 & 0xC0) != 0x80)
+            RaiseError("invalid UTF-8");
+        cp = ((b0 & 0x07) << 18) | ((b1 & 0x3F) << 12) | ((b2 & 0x3F) << 6) | (b3 & 0x3F);
+        pos += 4;
+    }
+    else {
+        RaiseError("invalid UTF-8 start byte");
+    }
+
+    return cp;
+}
+
+// ==========================================================
+// ReadBraille function: supports Hebrew + escapes + numbers
+// ==========================================================
 int AsmFile::ReadBraille(unsigned char* s)
 {
-    static std::map<char, unsigned char> encoding =
-    {
-        { 'A', BRAILLE_CHAR_A },
-        { 'B', BRAILLE_CHAR_B },
-        { 'C', BRAILLE_CHAR_C },
-        { 'D', BRAILLE_CHAR_D },
-        { 'E', BRAILLE_CHAR_E },
-        { 'F', BRAILLE_CHAR_F },
-        { 'G', BRAILLE_CHAR_G },
-        { 'H', BRAILLE_CHAR_H },
-        { 'I', BRAILLE_CHAR_I },
-        { 'J', BRAILLE_CHAR_J },
-        { 'K', BRAILLE_CHAR_K },
-        { 'L', BRAILLE_CHAR_L },
-        { 'M', BRAILLE_CHAR_M },
-        { 'N', BRAILLE_CHAR_N },
-        { 'O', BRAILLE_CHAR_O },
-        { 'P', BRAILLE_CHAR_P },
-        { 'Q', BRAILLE_CHAR_Q },
-        { 'R', BRAILLE_CHAR_R },
-        { 'S', BRAILLE_CHAR_S },
-        { 'T', BRAILLE_CHAR_T },
-        { 'U', BRAILLE_CHAR_U },
-        { 'V', BRAILLE_CHAR_V },
-        { 'W', BRAILLE_CHAR_W },
-        { 'X', BRAILLE_CHAR_X },
-        { 'Y', BRAILLE_CHAR_Y },
-        { 'Z', BRAILLE_CHAR_Z },
-        { 'a', BRAILLE_CHAR_A },
-        { 'b', BRAILLE_CHAR_B },
-        { 'c', BRAILLE_CHAR_C },
-        { 'd', BRAILLE_CHAR_D },
-        { 'e', BRAILLE_CHAR_E },
-        { 'f', BRAILLE_CHAR_F },
-        { 'g', BRAILLE_CHAR_G },
-        { 'h', BRAILLE_CHAR_H },
-        { 'i', BRAILLE_CHAR_I },
-        { 'j', BRAILLE_CHAR_J },
-        { 'k', BRAILLE_CHAR_K },
-        { 'l', BRAILLE_CHAR_L },
-        { 'm', BRAILLE_CHAR_M },
-        { 'n', BRAILLE_CHAR_N },
-        { 'o', BRAILLE_CHAR_O },
-        { 'p', BRAILLE_CHAR_P },
-        { 'q', BRAILLE_CHAR_Q },
-        { 'r', BRAILLE_CHAR_R },
-        { 's', BRAILLE_CHAR_S },
-        { 't', BRAILLE_CHAR_T },
-        { 'u', BRAILLE_CHAR_U },
-        { 'v', BRAILLE_CHAR_V },
-        { 'w', BRAILLE_CHAR_W },
-        { 'x', BRAILLE_CHAR_X },
-        { 'y', BRAILLE_CHAR_Y },
-        { 'z', BRAILLE_CHAR_Z },
-        { '0', BRAILLE_CHAR_0 },
-        { '1', BRAILLE_CHAR_1 },
-        { '2', BRAILLE_CHAR_2 },
-        { '3', BRAILLE_CHAR_3 },
-        { '4', BRAILLE_CHAR_4 },
-        { '5', BRAILLE_CHAR_5 },
-        { '6', BRAILLE_CHAR_6 },
-        { '7', BRAILLE_CHAR_7 },
-        { '8', BRAILLE_CHAR_8 },
-        { '9', BRAILLE_CHAR_9 },
-        { ' ', BRAILLE_CHAR_SPACE },
-        { ',', BRAILLE_CHAR_COMMA },
-        { '.', BRAILLE_CHAR_PERIOD },
-        { '?', BRAILLE_CHAR_QUESTION_MARK },
-        { '!', BRAILLE_CHAR_EXCL_MARK },
-        { ':', BRAILLE_CHAR_COLON },
-        { ';', BRAILLE_CHAR_SEMICOLON },
-        { '-', BRAILLE_CHAR_HYPHEN },
-        { '/', BRAILLE_CHAR_SLASH },
-        { '(', BRAILLE_CHAR_PAREN },
-        { ')', BRAILLE_CHAR_PAREN },
-        { '\'', BRAILLE_CHAR_APOSTROPHE },
-        { '#', BRAILLE_CHAR_NUMBER },
-        { '$', EOS },
-    };
-
     SkipWhitespace();
-
-    int length = 0;
 
     if (m_buffer[m_pos] != '"')
         RaiseError("expected braille string literal");
 
-    m_pos++;
-
+    m_pos++; // skip opening quote
+    int length = 0;
     bool inNumber = false;
-    while (m_buffer[m_pos] != '"')
-    {
-        if (m_buffer[m_pos] == '\\' && m_buffer[m_pos + 1] == 'n')
-        {
-            VerifyStringLength(length);
-            s[length++] = CHAR_NEWLINE;
-            m_pos += 2;
-        }
-        else
-        {
-            char c = m_buffer[m_pos];
 
-            if (encoding.count(c) == 0)
-            {
-                if (IsAsciiPrintable(c))
-                    RaiseError("character '%c' not valid in braille string", m_buffer[m_pos]);
-                else
-                    RaiseError("character '\\x%02X' not valid in braille string", m_buffer[m_pos]);
-            }
+    size_t buf_len = strlen(m_buffer);
 
-            if (!inNumber && c >= '0' && c <= '9' )
-            {
-                // Output number indicator at start of a number
-                inNumber = true;
+    while ((size_t)m_pos < buf_len && m_buffer[m_pos] != '"') {
+
+        // --- Escape handling ---
+        if (m_buffer[m_pos] == '\\') {
+            char next = m_buffer[m_pos + 1];
+            if (next == 'n') {
                 VerifyStringLength(length);
-                s[length++] = BRAILLE_CHAR_NUMBER;
+                s[length++] = CHAR_NEWLINE;
+                m_pos += 2;
+                continue;
+            } else {
+                RaiseError("unsupported escape sequence \\%c", next);
             }
-            else if (inNumber && encoding[c] == BRAILLE_CHAR_SPACE)
-            {
-                // Number ends at a space.
-                // Non-number characters encountered before a space will simply be output as is.
-                inNumber = false;
-            }
-
-            VerifyStringLength(length);
-            s[length++] = encoding[c];
-            m_pos++;
         }
+
+        // --- Decode UTF-8 codepoint ---
+        size_t start_pos = m_pos;
+        char32_t cp = DecodeUtf8Codepoint(start_pos); // member function
+        m_pos = start_pos;
+
+        unsigned char brailleChar = 0;
+
+        // --- Map Latin letters ---
+        switch (cp) {
+            case U'A': case U'a': brailleChar = BRAILLE_CHAR_A; break;
+            case U'B': case U'b': brailleChar = BRAILLE_CHAR_B; break;
+            case U'C': case U'c': brailleChar = BRAILLE_CHAR_C; break;
+            case U'D': case U'd': brailleChar = BRAILLE_CHAR_D; break;
+            case U'E': case U'e': brailleChar = BRAILLE_CHAR_E; break;
+            case U'F': case U'f': brailleChar = BRAILLE_CHAR_F; break;
+            case U'G': case U'g': brailleChar = BRAILLE_CHAR_G; break;
+            case U'H': case U'h': brailleChar = BRAILLE_CHAR_H; break;
+            case U'I': case U'i': brailleChar = BRAILLE_CHAR_I; break;
+            case U'J': case U'j': brailleChar = BRAILLE_CHAR_J; break;
+            case U'K': case U'k': brailleChar = BRAILLE_CHAR_K; break;
+            case U'L': case U'l': brailleChar = BRAILLE_CHAR_L; break;
+            case U'M': case U'm': brailleChar = BRAILLE_CHAR_M; break;
+            case U'N': case U'n': brailleChar = BRAILLE_CHAR_N; break;
+            case U'O': case U'o': brailleChar = BRAILLE_CHAR_O; break;
+            case U'P': case U'p': brailleChar = BRAILLE_CHAR_P; break;
+            case U'Q': case U'q': brailleChar = BRAILLE_CHAR_Q; break;
+            case U'R': case U'r': brailleChar = BRAILLE_CHAR_R; break;
+            case U'S': case U's': brailleChar = BRAILLE_CHAR_S; break;
+            case U'T': case U't': brailleChar = BRAILLE_CHAR_T; break;
+            case U'U': case U'u': brailleChar = BRAILLE_CHAR_U; break;
+            case U'V': case U'v': brailleChar = BRAILLE_CHAR_V; break;
+            case U'W': case U'w': brailleChar = BRAILLE_CHAR_W; break;
+            case U'X': case U'x': brailleChar = BRAILLE_CHAR_X; break;
+            case U'Y': case U'y': brailleChar = BRAILLE_CHAR_Y; break;
+            case U'Z': case U'z': brailleChar = BRAILLE_CHAR_Z; break;
+
+            // --- Hebrew letters ---
+            case U'א': brailleChar = BRAILLE_CHAR_A; break;
+            case U'ב': brailleChar = BRAILLE_CHAR_B; break;
+            case U'ג': brailleChar = BRAILLE_CHAR_G; break;
+            case U'ד': brailleChar = BRAILLE_CHAR_D; break;
+            case U'ה': brailleChar = BRAILLE_CHAR_H; break;
+            case U'ו': brailleChar = BRAILLE_CHAR_W; break;
+            case U'ז': brailleChar = BRAILLE_CHAR_Z; break;
+            case U'ח': brailleChar = BRAILLE_CHAR_X; break;
+            case U'ט': brailleChar = BRAILLE_CHAR_T; break;
+            case U'י': brailleChar = BRAILLE_CHAR_J; break;
+            case U'כ': brailleChar = BRAILLE_CHAR_CHAF; break;
+            case U'ל': brailleChar = BRAILLE_CHAR_L; break;
+            case U'מ': brailleChar = BRAILLE_CHAR_M; break;
+            case U'נ': brailleChar = BRAILLE_CHAR_N; break;
+            case U'ס': brailleChar = BRAILLE_CHAR_S; break;
+            case U'ע': brailleChar = BRAILLE_CHAR_AYIN; break;
+            case U'פ': brailleChar = BRAILLE_CHAR_P; break;
+            case U'צ': brailleChar = BRAILLE_CHAR_TZADIK; break;
+            case U'ק': brailleChar = BRAILLE_CHAR_Q; break;
+            case U'ר': brailleChar = BRAILLE_CHAR_R; break;
+            case U'ש': brailleChar = BRAILLE_CHAR_SHIN; break;
+            case U'ץ': brailleChar = BRAILLE_CHAR_SIN; break;  // keep this
+            case U'ת': brailleChar = BRAILLE_CHAR_TAF; break;
+
+            // --- Symbols ---
+            case U' ': brailleChar = BRAILLE_CHAR_SPACE; break;
+            case U',': brailleChar = BRAILLE_CHAR_COMMA; break;
+            case U'.': brailleChar = BRAILLE_CHAR_PERIOD; break;
+            case U'?': brailleChar = BRAILLE_CHAR_QUESTION_MARK; break;
+            case U'!': brailleChar = BRAILLE_CHAR_EXCL_MARK; break;
+            case U':': brailleChar = BRAILLE_CHAR_COLON; break;
+            case U';': brailleChar = BRAILLE_CHAR_SEMICOLON; break;
+            case U'-': brailleChar = BRAILLE_CHAR_HYPHEN; break;
+            case U'/': brailleChar = BRAILLE_CHAR_SLASH; break;
+            case U'(': case U')': brailleChar = BRAILLE_CHAR_PAREN; break;
+            case U'\'': brailleChar = BRAILLE_CHAR_APOSTROPHE; break;
+            case U'#': brailleChar = BRAILLE_CHAR_NUMBER; break;
+            case U'$': brailleChar = EOS; break;
+
+            default:
+                RaiseError("character U+%04X not valid in braille string", cp);
+        }
+
+        // --- Number indicator logic ---
+        if (!inNumber && cp >= U'0' && cp <= U'9') {
+            inNumber = true;
+            VerifyStringLength(length);
+            s[length++] = BRAILLE_CHAR_NUMBER;
+        } else if (inNumber && brailleChar == BRAILLE_CHAR_SPACE) {
+            inNumber = false;
+        }
+
+        VerifyStringLength(length);
+        s[length++] = brailleChar;
     }
 
-    m_pos++; // Go past the right quote.
-
+    m_pos++; // skip closing quote
     ExpectEmptyRestOfLine();
-
     return length;
 }
 
@@ -584,7 +795,11 @@ bool AsmFile::ParseEnum()
             RaiseError("%s:%ld: empty enum is invalid", headerFilename.c_str(), currentHeaderLine);
         }
 
-        if (m_buffer[m_pos] != ',')
+        if (m_buffer[m_pos] == '#')
+        {
+            currentHeaderLine = ParseLineSkipInEnum();
+        }
+        else if (m_buffer[m_pos] != ',')
         {
             currentHeaderLine += SkipWhitespaceAndEol();
             if (m_buffer[m_pos++] == '}' && m_buffer[m_pos++] == ';')
@@ -686,6 +901,50 @@ int AsmFile::SkipWhitespaceAndEol()
         m_pos++;
     }
     return newlines;
+}
+
+int AsmFile::ParseLineSkipInEnum(void)
+{
+    m_pos++;
+    while (m_buffer[m_pos] == ' ' || m_buffer[m_pos] == '\t')
+        m_pos++;
+
+     if (!IsAsciiDigit(m_buffer[m_pos]))
+        RaiseError("malformatted line indicator found inside `enum`, expected line number");
+
+    unsigned n = 0;
+    int digit = 0;
+    while ((digit = ConvertDigit(m_buffer[m_pos++], 10)) != -1)
+        n = 10 * n + digit;
+
+    while (m_buffer[m_pos] == ' ' || m_buffer[m_pos] == '\t')
+        m_pos++;
+
+    if (m_buffer[m_pos++] != '"')
+        RaiseError("malformatted line indicator found before `enum`, expected filename");
+
+    while (m_buffer[m_pos] != '"')
+    {
+        unsigned char c = m_buffer[m_pos++];
+
+        if (c == 0)
+        {
+            if (m_pos >= m_size)
+                RaiseError("unexpected EOF in line indicator");
+            else
+                RaiseError("unexpected null character in line indicator");
+        }
+
+        if (!IsAsciiPrintable(c))
+            RaiseError("unexpected character '\\x%02X' in line indicator", c);
+
+        if (c == '\\')
+        {
+            c = m_buffer[m_pos];
+            RaiseError("unexpected escape '\\%c' in line indicator", c);
+        }
+    }
+    return n - 1;
 }
 
 // returns the last line indicator and its corresponding file name without modifying the token index

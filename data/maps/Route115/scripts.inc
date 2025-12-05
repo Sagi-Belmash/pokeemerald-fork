@@ -53,6 +53,7 @@ Route115_EventScript_RematchTimothy::
 	end
 
 Route115_EventScript_Koichi::
+	bufferspeciesname STR_VAR_1, SPECIES_MACHOP
 	trainerbattle_single TRAINER_KOICHI, Route115_Text_KoichiIntro, Route115_Text_KoichiDefeat
 	msgbox Route115_Text_KoichiPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -131,7 +132,7 @@ Route115_EventScript_Marlene::
 
 Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "חקירת מערה זה לא כמו הליכה\n"
-	.string "בכביש.\p"
+	.string "בדרך.\p"
 	.string "לעולם אינך יודע{ADD_TAF} מתי פוקימון פראי\n"
 	.string "יופיע. מתח מלא.$"
 

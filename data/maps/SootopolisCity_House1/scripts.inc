@@ -23,21 +23,22 @@ SootopolisCity_House1_EventScript_Kecleon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_KECLEON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_KECLEON
 	msgbox SootopolisCity_House1_Text_Kecleon, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 SootopolisCity_House1_Text_DevelopedThisTM:
-	.string "For thirty years I've remained in\n"
-	.string "SOOTOPOLIS honing my skills.\p"
-	.string "I developed a shattering TM.\n"
-	.string "I bequeath it to you!$"
+    .string "שלושים שנה נשארתי בסוטופוליס\n"
+    .string "לשפר את כישוריי.\p"
+    .string "פיתחתי מ”מ מרסק.\n"
+    .string "אני מוסר אותו לך!$"
 
 SootopolisCity_House1_Text_ExplainBrickBreak:
-	.string "TM31 contains BRICK BREAK! It's a move\n"
-	.string "so horrible that I can't describe it.$"
+	.string "מ”מ13 מכיל שובר שורות! זה מהלך\n"
+    .string "איום כל כך שלא אוכל לתאר אותו.$"
 
 SootopolisCity_House1_Text_Kecleon:
-	.string "KECLEON: Puu puhyaah.$"
+	.string "{STR_VAR_1}: פוו פוהייאה.$"
 

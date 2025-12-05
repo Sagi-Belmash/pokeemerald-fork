@@ -121,6 +121,7 @@ LilycoveCity_DepartmentStore_1F_EventScript_LittleGirl::
 	end
 
 LilycoveCity_DepartmentStore_1F_EventScript_PokefanM::
+	bufferspeciesname STR_VAR_1, SPECIES_AZUMARILL
 	msgbox LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill, MSGBOX_NPC
 	end
 
@@ -129,6 +130,7 @@ LilycoveCity_DepartmentStore_1F_EventScript_Azumarill::
 	faceplayer
 	waitse
 	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_AZUMARILL
 	msgbox LilycoveCity_DepartmentStore_1F_Text_Azumarill, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -139,32 +141,32 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign::
 	end
 
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.$"
+	.string "ברוכים הבאים לחנות הכלבו של ליליקוב.$"
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
-	.string "Whenever I come to the DEPARTMENT\n"
-	.string "STORE, I always end up buying all sorts\l"
-	.string "of things because it's so fun.$"
+	.string "בכל פעם שאני מגיע לחנות\n"
+	.string "הכלבו, אני תמיד בסוף קונה כל מיני\l"
+	.string "דברים כי זה כל כך כיף.$"
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
-	.string "Today, my mom is going to buy me some\n"
-	.string "nice furniture.$"
+	.string "היום, אמא שלי קונה לי כמה\n"
+	.string "רהיטים יפים.$"
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
-	.string "I'm buying something for my AZUMARILL\n"
-	.string "as a reward for winning a CONTEST.$"
+	.string "אני קונה משהו ל{STR_VAR_1} שלי\n"
+	.string "כפרס על זכייה בתחרות.$"
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "AZUMARILL: Maririroo!$"
+	.string "{STR_VAR_1}: מרירירו!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
-	.string "1F: SERVICE COUNTER\n"
-	.string "    LOTTERY CORNER\p"
-	.string "2F: TRAINER'S ZONE\p"
-	.string "3F: BATTLE COLLECTION\p"
-	.string "4F: TM CORNER\p"
-	.string "5F: POKé DOLL FLOOR\p"
-	.string "ROOFTOP: ROOFTOP PLAZA$"
+	.string "F1: דלפק שירות\n"
+	.string "    פינת הגרלות\p"
+	.string "F2: אזור המאמנים\p"
+	.string "F3: אוסף הקרב\p"
+	.string "F4: פינת מ”מ\p"
+	.string "F5: קומת הבובות\p"
+	.string "גג: כיכר הגג$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:

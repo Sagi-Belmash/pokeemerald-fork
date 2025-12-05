@@ -65,23 +65,23 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
-	.string "That's good! Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!$"
+	.string "ברו{SWAP_NUN}{ADD_HEY} הבא{ADD_HEY}, מתמודד{ADD_TAF}!\n"
+	.string "אני סידני מרביעייה העלית.\p"
+	.string "אני אוהבת את המבט שאת{EMIT_HEY} נות{SWAP_NUN}{ADD_TAF} לי.\n"
+	.string "את{EMIT_HEY} כנראה תית{SWAP_NUN}{ADD_YUD} לי תחרות טובה.\l"
+	.string "זה נהדר! נראה ממש טוב!\p"
+	.string "טוב! את{EMIT_HEY} ואני, בוא{ADD_YUD} נהנה\n"
+	.string "מקרב שאפשר לקיים רק\l"
+	.string "כאן בליגת הפוקימונים!$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "נו, איך את{EMIT_HEY} אוהב{ADD_TAF} את זה? הפסדתי!\n"
+	.string "אה, היה כיף, אז זה לא משנה.$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "ובכן, תקשיב{ADD_YUD} למה שיש למפסיד הזה\n"
+	.string "לומר.\p"
+	.string "יש לך מה שצריך כדי להתקדם רחוק.\n"
+	.string "עכשיו, ל{SWAP_CHAF}{ADD_YUD} לחדר הבא ותהנ{EMIT_HEY}{ADD_YUD}\l"
+	.string "מהקרב הבא שלך!$"
 

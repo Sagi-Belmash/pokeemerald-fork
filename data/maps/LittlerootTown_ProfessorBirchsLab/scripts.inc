@@ -692,7 +692,7 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "עשית את זה בביטחון מרשים!\p"
 	.string "אני מניח שדם אביך זורם בעורקיך\n"
 	.string "אחרי הכל!\p"
-	.string "אה, כן.כאות תודה שהצלת אותי,\n"
+	.string "אה, כן. כאות תודה שהצלת אותי,\n"
 	.string "הייתי רוצה שיהיה לך את הפוקימון\l"
 	.string "שהשתמשת קודם.\p"
 	.string "{PLAYER} קיבל{ADD_HEY} את {STR_VAR_1}!$"
@@ -838,7 +838,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "פוקימונים, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "ברנדן: אני יצאתי בכל רחבי הואן\n"
+	.string "ברנדן: אני יצאתי לכל רחבי הואן\n"
 	.string "ובדקתי פוקימונים.\p"
 	.string "אתה יכול להודות לי על שקיבלת\n"
 	.string "את הפוקידע במצב לאומי.\p"

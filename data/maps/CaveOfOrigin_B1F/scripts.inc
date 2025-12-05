@@ -4,6 +4,9 @@ CaveOfOrigin_B1F_MapScripts::
 CaveOfOrigin_B1F_EventScript_Wallace::
 	lock
 	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_GROUDON
+	bufferspeciesname STR_VAR_2, SPECIES_KYOGRE
+	bufferspeciesname STR_VAR_3, SPECIES_RAYQUAZA
 	msgbox CaveOfOrigin_B1F_Text_WallaceStory, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_CAVE_OF_ORIGIN_WALLACE, Common_Movement_WalkInPlaceFasterUp
@@ -60,59 +63,59 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	end
 
 CaveOfOrigin_B1F_Text_WallaceStory:
-	.string "Ah, so you are {PLAYER}{KUN}?\n"
-	.string "I've heard tales of your exploits.\p"
-	.string "My name is WALLACE.\p"
-	.string "I was once the GYM LEADER of\n"
-	.string "SOOTOPOLIS, but something came up.\p"
-	.string "So now, I've entrusted my mentor JUAN\n"
-	.string "with the GYM's operation.\p"
+	.string "אה, אז את{EMIT_HEY} {PLAYER}{KUN}?\n"
+	.string "שמעתי סיפורים על מעשיך.\p"
+	.string "שמי וולאס.\p"
+	.string "הייתי פעם מנהיג מכון\n"
+	.string "בסוטופוליס, אבל משהו עלה.\p"
+	.string "אז עכשיו, הפקדתי את המנטור שלי חואן\n"
+	.string "על תפעול המכון.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "GROUDON and KYOGRE, the two POKéMON\n"
-	.string "wreaking havoc here, are considered\l"
-	.string "to be super-ancient POKéMON.\p"
-	.string "But there aren't just two super-\n"
-	.string "ancient POKéMON.\p"
-	.string "There is one more somewhere.\p"
-	.string "Somewhere, there is a super-\n"
-	.string "ancient POKéMON named RAYQUAZA.\p"
-	.string "It's said that it was RAYQUAZA that\n"
-	.string "becalmed the two combatants in\l"
-	.string "the distant past.\p"
-	.string "But even I have no clue as to\n"
-	.string "RAYQUAZA's whereabouts…$"
+	.string "{STR_VAR_1} ו{STR_VAR_2}, שני הפוקימונים\n"
+	.string "שזורעים כאן הרס, נחשבים\l"
+	.string "לפוקימונים על-קדומים.\p"
+	.string "אבל אין רק שני פוקימונים על-\n"
+	.string "קדומים.\p"
+	.string "יש עוד אחד איפשהו.\p"
+	.string "איפשהו, יש פוקימון על-\n"
+	.string "קדום בשם {STR_VAR_3}.\p"
+	.string "נאמר ש{STR_VAR_3} הוא זה\n"
+	.string "שהרגיע את שני הנלחמים\l"
+	.string "בעבר הרחוק.\p"
+	.string "אבל אפילו לי אין מושג לגבי\n"
+	.string "מקום הימצאו של {STR_VAR_3}…$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
-	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
-	.string "know where RAYQUAZA is now?\p"
-	.string "If you do, please tell me.$"
+	.string "וולאס: {PLAYER}{KUN}, האם את{EMIT_HEY} אולי\n"
+	.string "יודע{ADD_TAF} היכן {STR_VAR_3} נמצא עכשיו?\p"
+	.string "אם כן, בבקשה תגיד{ADD_YUD} לי.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
-	.string "WALLACE: The CAVE OF ORIGIN?\p"
-	.string "But that's right here!\n"
-	.string "I need you to do better than that!\p"
-	.string "Please, I need you to think about\n"
-	.string "where RAYQUAZA might be right now.$"
+	.string "וולאס: מערת המקור?\p"
+	.string "אבל זה ממש כאן!\n"
+	.string "אני צריך שתעש{EMIT_HEY}{ADD_YUD} עבודה טובה יותר מזה!\p"
+	.string "בבקשה, אני צריך שתחש{EMIT_VAV}ב{ADD_YUD} איפה\n"
+	.string "{STR_VAR_3} יכול להיות כרגע.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-	.string "WALLACE: MT. PYRE?\p"
-	.string "But when I met the old lady there\n"
-	.string "earlier, she made no mention of it.\p"
-	.string "I very much doubt that the old lady\n"
-	.string "would try to hide something from me…\p"
-	.string "{PLAYER}{KUN}, could you think about this\n"
-	.string "more carefully for me?$"
+	.string "וולאס: הר המוקד?\p"
+	.string "אבל כשפגשתי שם את האישה המבוגרת\n"
+	.string "מוקדם יותר, היא לא הזכירה אותו.\p"
+	.string "אני מאוד מפקפק בכך שהאישה המבוגרת\n"
+	.string "תנסה להסתיר ממני משהו…\p"
+	.string "{PLAYER}{KUN}, האם תוכל{ADD_YUD} לחשוב על זה\n"
+	.string "יותר בזהירות למעני?$"
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
-	.string "WALLACE: Huh? You don't remember?\n"
-	.string "Hmm… That's a problem…\p"
-	.string "Can't you remember somehow?$"
+	.string "וולאס: האא? את{EMIT_HEY} לא זוכר{ADD_TAF}?\n"
+	.string "הממ… זו בעיה…\p"
+	.string "את{EMIT_HEY} לא יכול{ADD_HEY} להיזכר איכשהו?$"
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
-	.string "WALLACE: The SKY PILLAR?\p"
-	.string "That's it!\n"
-	.string "It must be the SKY PILLAR!\p"
-	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
-	.string "We'll head to the SKY PILLAR right away!$"
+	.string "וולאס: עמוד השמיים?\p"
+	.string "זה זה!\n"
+	.string "זה בטח עמוד השמיים!\p"
+	.string "{PLAYER}{KUN}, אין רגע לבזבז!\n"
+	.string "נלך לעמוד השמיים מיד!$"
 

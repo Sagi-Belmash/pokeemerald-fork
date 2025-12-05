@@ -45,7 +45,7 @@ enum
 };
 
 #define KBROW_COUNT 4
-#define KBCOL_COUNT 8
+#define KBCOL_COUNT 9
 
 enum
 {
@@ -53,6 +53,7 @@ enum
     GFXTAG_OK_BUTTON,
     GFXTAG_PAGE_SWAP_FRAME,
     GFXTAG_PAGE_SWAP_BUTTON,
+    GFXTAG_PAGE_SWAP_HEB,
     GFXTAG_PAGE_SWAP_UPPER,
     GFXTAG_PAGE_SWAP_LOWER,
     GFXTAG_PAGE_SWAP_OTHERS,
@@ -66,6 +67,7 @@ enum
 enum
 {
     PALTAG_MENU, // Also the PC icon
+    PALTAG_PAGE_SWAP_HEB,
     PALTAG_PAGE_SWAP_UPPER,
     PALTAG_PAGE_SWAP_LOWER,
     PALTAG_PAGE_SWAP_OTHERS, // Also the input arrow/underscore
@@ -89,9 +91,10 @@ enum
 // This set is used for sNamingScreen->currentPage. It uses the order that the pages are cycled in
 enum
 {
-    KBPAGE_LETTERS_LOWER,
-    KBPAGE_LETTERS_UPPER,
     KBPAGE_SYMBOLS,
+    KBPAGE_LETTERS_HEB,
+    KBPAGE_LETTERS_UPPER,
+    KBPAGE_LETTERS_LOWER,
     KBPAGE_COUNT,
 };
 
@@ -99,6 +102,7 @@ enum
 enum
 {
     KEYBOARD_LETTERS_LOWER,
+    KEYBOARD_LETTERS_HEB,
     KEYBOARD_LETTERS_UPPER,
     KEYBOARD_SYMBOLS,
 };
@@ -106,6 +110,7 @@ enum
 // This set is used for getting the gfx/pal tags of the page's swap button
 enum
 {
+    PAGE_SWAP_HEB,
     PAGE_SWAP_UPPER,
     PAGE_SWAP_OTHERS,
     PAGE_SWAP_LOWER,
@@ -204,7 +209,7 @@ static const u8 *const sTransferredToPCMessages[] =
         gText_PkmnTransferredSomeonesPCBoxFull,
         gText_PkmnTransferredLanettesPCBoxFull};
 
-static const u8 sText_AlphabetUpperLower[] = _("ABCDEFGHIJKLMNOPQRSTUVWXYZאבגדהוזחטיכלמנסעפצקרשתךםןףץ!");
+static const u8 sText_AlphabetUpperLower[] = _("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzאבגדהוזחטיכךלמםנןסעפףצץקרשת!");
 
 static const struct BgTemplate sBgTemplates[] =
     {
@@ -244,11 +249,17 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // This handles what characters get inserted when a key is pressed
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
+    [KEYBOARD_LETTERS_HEB] = {
+        __(" והד גבא."),
+        __("לךכי טחז,"),
+        __("ףפעסןנםמ "),
+        __(" תשר קץצ "),
+    },
     [KEYBOARD_LETTERS_LOWER] = {
-        __("אבגדהו ."),
-        __("זחטיכל ,"),
-        __("מנסעפצק "),
-        __("רשתךםןףץ"),
+        __("abcdef ."),
+        __("ghijkl ,"),
+        __("mnopqrs "),
+        __("tuvwxyz "),
     },
     [KEYBOARD_LETTERS_UPPER] = {
         __("ABCDEF ."),
@@ -264,10 +275,12 @@ static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     }};
 
 static const u8 sPageColumnCounts[KBPAGE_COUNT] = {
-    [KEYBOARD_LETTERS_LOWER] = KBCOL_COUNT,
-    [KEYBOARD_LETTERS_UPPER] = KBCOL_COUNT,
+    [KEYBOARD_LETTERS_LOWER] = KBCOL_COUNT - 1,
+    [KEYBOARD_LETTERS_UPPER] = KBCOL_COUNT - 1,
+    [KEYBOARD_LETTERS_HEB] = KBCOL_COUNT,
     [KEYBOARD_SYMBOLS] = 6};
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
+    [KEYBOARD_LETTERS_HEB] = {0, 12, 24, 36, 56, 68, 80, 92, 123},
     [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_SYMBOLS] = {0, 22, 44, 66, 88, 110}};
@@ -432,8 +445,8 @@ static void NamingScreen_Init(void)
     sNamingScreen->bg2vOffset = 0;
     sNamingScreen->bg1Priority = BGCNT_PRIORITY(1);
     sNamingScreen->bg2Priority = BGCNT_PRIORITY(2);
-    sNamingScreen->bgToReveal = 1;
-    sNamingScreen->bgToHide = 0;
+    sNamingScreen->bgToReveal = 0;
+    sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
     sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 - 36/* 72 */; // was +6
@@ -546,21 +559,23 @@ static void Task_NamingScreen(u8 taskId)
 // Which gfx/pal to load for the swap page button
 static const u8 sPageToNextGfxId[KBPAGE_COUNT] =
     {
-        [KBPAGE_SYMBOLS] = PAGE_SWAP_LOWER,
-        [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_OTHERS,
-        [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_UPPER};
+        [KBPAGE_SYMBOLS] = PAGE_SWAP_HEB,
+        [KBPAGE_LETTERS_HEB] = PAGE_SWAP_UPPER,
+        [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_LOWER,
+        [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS};
 
 static const u8 sPageToNextKeyboardId[KBPAGE_COUNT] =
     {
-        [KBPAGE_SYMBOLS] = KEYBOARD_LETTERS_LOWER,
-        [KBPAGE_LETTERS_UPPER] = KEYBOARD_SYMBOLS,
-        [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_UPPER};
-
+    [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_HEB,
+    [KBPAGE_LETTERS_HEB]   = KEYBOARD_LETTERS_UPPER,
+    [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_LOWER,
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS};
 static const u8 sPageToKeyboardId[KBPAGE_COUNT] =
     {
-        [KBPAGE_SYMBOLS] = KEYBOARD_SYMBOLS,
-        [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_UPPER,
-        [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_LOWER};
+    [KBPAGE_SYMBOLS]       = KEYBOARD_SYMBOLS,
+    [KBPAGE_LETTERS_HEB]   = KEYBOARD_LETTERS_HEB,
+    [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_UPPER,
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_LOWER};
 
 static u8 PageToNextGfxId(u8 page)
 {
@@ -580,13 +595,13 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DrawBgTilemap(3, gNamingScreenBackground_Tilemap);
-    sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
+    sNamingScreen->currentPage = KBPAGE_LETTERS_HEB;
     DrawBgTilemap(2, gNamingScreenKeyboardUpper_Tilemap);
-    DrawBgTilemap(1, gNamingScreenKeyboardLower_Tilemap);
+    DrawBgTilemap(1, gNamingScreenKeyboardHeb_Tilemap);
     PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_UPPER);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_HEB);
     NamingScreen_Dummy(2, KEYBOARD_LETTERS_UPPER);
-    NamingScreen_Dummy(1, KEYBOARD_LETTERS_LOWER);
+    NamingScreen_Dummy(1, KEYBOARD_LETTERS_HEB);
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
@@ -1079,7 +1094,7 @@ static void CreateCursorSprite(void)
     gSprites[sNamingScreen->cursorSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
     gSprites[sNamingScreen->cursorSpriteId].sColorIncr = 1; // ? immediately overwritten
     gSprites[sNamingScreen->cursorSpriteId].sColorIncr = 2;
-    SetCursorPos(0, 0);
+    SetCursorPos(7, 0);
 }
 
 static void SetCursorPos(s16 x, s16 y)
@@ -1264,11 +1279,13 @@ static bool8 PageSwapSprite_SlideOn(struct Sprite *sprite)
 }
 
 static const u16 sPageSwapPalTags[] = {
+    [PAGE_SWAP_HEB]   = PALTAG_PAGE_SWAP_HEB,
     [PAGE_SWAP_UPPER] = PALTAG_PAGE_SWAP_UPPER,
     [PAGE_SWAP_OTHERS] = PALTAG_PAGE_SWAP_OTHERS,
     [PAGE_SWAP_LOWER] = PALTAG_PAGE_SWAP_LOWER};
 
 static const u16 sPageSwapGfxTags[] = {
+    [PAGE_SWAP_HEB] = GFXTAG_PAGE_SWAP_HEB,
     [PAGE_SWAP_UPPER] = GFXTAG_PAGE_SWAP_UPPER,
     [PAGE_SWAP_OTHERS] = GFXTAG_PAGE_SWAP_OTHERS,
     [PAGE_SWAP_LOWER] = GFXTAG_PAGE_SWAP_LOWER};
@@ -1898,24 +1915,27 @@ static void DrawTextEntry(void)
 
 struct TextColor // Needed because of alignment
 {
-    u8 colors[3][4];
+    u8 colors[4][4];
 };
 
 static const struct TextColor sTextColorStruct =
     {
         {{TEXT_DYNAMIC_COLOR_4, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY},
          {TEXT_DYNAMIC_COLOR_5, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY},
-         {TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY}}};
+         {TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY},
+         {TEXT_DYNAMIC_COLOR_3, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY}}};
 
 static const u8 sFillValues[KBPAGE_COUNT] =
     {
         [KEYBOARD_LETTERS_LOWER] = PIXEL_FILL(14),
+        [KEYBOARD_LETTERS_HEB]   = PIXEL_FILL(12),
         [KEYBOARD_LETTERS_UPPER] = PIXEL_FILL(13),
         [KEYBOARD_SYMBOLS] = PIXEL_FILL(15)};
 
 static const u8 *const sKeyboardTextColors[KBPAGE_COUNT] =
     {
         [KEYBOARD_LETTERS_LOWER] = sTextColorStruct.colors[1],
+        [KEYBOARD_LETTERS_HEB] = sTextColorStruct.colors[3],
         [KEYBOARD_LETTERS_UPPER] = sTextColorStruct.colors[0],
         [KEYBOARD_SYMBOLS] = sTextColorStruct.colors[2]};
 
@@ -1933,9 +1953,10 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
 static const u32 *const sNextKeyboardPageTilemaps[] =
     {
-        [KBPAGE_SYMBOLS] = gNamingScreenKeyboardLower_Tilemap,
-        [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardSymbols_Tilemap,  // lower
-        [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardUpper_Tilemap // symbols
+    [KBPAGE_SYMBOLS] = gNamingScreenKeyboardHeb_Tilemap,
+    [KBPAGE_LETTERS_HEB] = gNamingScreenKeyboardUpper_Tilemap,
+    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap, // lower
+    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap  // symbols
 };
 
 // There are always 2 keyboard pages drawn, the current page and the one that will shown next if the player swaps
@@ -1972,7 +1993,7 @@ static void PrintControls(void)
     const u8 color[3] = {TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY};
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_BANNER], PIXEL_FILL(15));
-    AddTextPrinterParameterized3WithRTL(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 10/* 2 */, 1, color, 0, gText_MoveOkBack, TRUE);
+    AddTextPrinterParameterized3WithRTL(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 2, 1, color, 0, gText_MoveOkBack, TRUE);
     PutWindowTilemap(sNamingScreen->windows[WIN_BANNER]);
     CopyWindowToVram(sNamingScreen->windows[WIN_BANNER], COPYWIN_FULL);
 }
@@ -2062,7 +2083,7 @@ static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
         .maxChars = PLAYER_NAME_LENGTH,
         .iconFunction = 1,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_LOWER,
+        .initialPage = KBPAGE_LETTERS_HEB,
         .unused = 35,
         .title = gText_YourName,
 };
@@ -2073,7 +2094,7 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
         .maxChars = BOX_NAME_LENGTH,
         .iconFunction = 2,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_LOWER,
+        .initialPage = KBPAGE_LETTERS_HEB,
         .unused = 19,
         .title = gText_BoxName,
 };
@@ -2084,7 +2105,7 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
         .maxChars = POKEMON_NAME_LENGTH,
         .iconFunction = 3,
         .addGenderIcon = TRUE,
-        .initialPage = KBPAGE_LETTERS_LOWER,
+        .initialPage = KBPAGE_LETTERS_HEB,
         .unused = 35,
         .title = gText_PkmnsNickname,
 };
@@ -2095,7 +2116,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
         .maxChars = WALDA_PHRASE_LENGTH,
         .iconFunction = 4,
         .addGenderIcon = FALSE,
-        .initialPage = KBPAGE_LETTERS_LOWER,
+        .initialPage = KBPAGE_LETTERS_HEB,
         .unused = 11,
         .title = gText_TellHimTheWords,
 };
@@ -2305,6 +2326,7 @@ static const struct SubspriteTable sSubspriteTable_PageSwapText[] =
     {
         {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
         {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
+        {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
         {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText}};
 
 static const struct SubspriteTable sSubspriteTable_Button[] =
@@ -2443,6 +2465,12 @@ static const struct SpriteTemplate sSpriteTemplate_PCIcon =
 
 static const u8 *const sNamingScreenKeyboardText[KBPAGE_COUNT][KBROW_COUNT] =
     {
+        [KEYBOARD_LETTERS_HEB] =
+            {
+                gText_NamingScreenKeyboard_aleph2vav,
+                gText_NamingScreenKeyboard_zain2lamed,
+                gText_NamingScreenKeyboard_mem2pey,
+                gText_NamingScreenKeyboard_tzadik2taf},
         [KEYBOARD_LETTERS_LOWER] =
             {
                 gText_NamingScreenKeyboard_abcdef,
@@ -2469,6 +2497,7 @@ static const struct SpriteSheet sSpriteSheets[] =
         {gNamingScreenOKButton_Gfx, 0x1E0, GFXTAG_OK_BUTTON},
         {gNamingScreenPageSwapFrame_Gfx, 0x280, GFXTAG_PAGE_SWAP_FRAME},
         {gNamingScreenPageSwapButton_Gfx, 0x100, GFXTAG_PAGE_SWAP_BUTTON},
+        {gNamingScreenPageSwapHeb_Gfx, 0x060, GFXTAG_PAGE_SWAP_HEB},
         {gNamingScreenPageSwapUpper_Gfx, 0x060, GFXTAG_PAGE_SWAP_UPPER},
         {gNamingScreenPageSwapLower_Gfx, 0x060, GFXTAG_PAGE_SWAP_LOWER},
         {gNamingScreenPageSwapOthers_Gfx, 0x060, GFXTAG_PAGE_SWAP_OTHERS},
@@ -2482,11 +2511,12 @@ static const struct SpriteSheet sSpriteSheets[] =
 static const struct SpritePalette sSpritePalettes[] =
     {
         {gNamingScreenMenu_Pal[0], PALTAG_MENU},
-        {gNamingScreenMenu_Pal[1], PALTAG_PAGE_SWAP_UPPER},
-        {gNamingScreenMenu_Pal[2], PALTAG_PAGE_SWAP_LOWER},
-        {gNamingScreenMenu_Pal[3], PALTAG_PAGE_SWAP_OTHERS},
-        {gNamingScreenMenu_Pal[4], PALTAG_PAGE_SWAP},
-        {gNamingScreenMenu_Pal[5], PALTAG_CURSOR},
-        {gNamingScreenMenu_Pal[4], PALTAG_BACK_BUTTON},
-        {gNamingScreenMenu_Pal[4], PALTAG_OK_BUTTON},
+        {gNamingScreenMenu_Pal[1], PALTAG_PAGE_SWAP_HEB},
+        {gNamingScreenMenu_Pal[2], PALTAG_PAGE_SWAP_UPPER},
+        {gNamingScreenMenu_Pal[3], PALTAG_PAGE_SWAP_LOWER},
+        {gNamingScreenMenu_Pal[4], PALTAG_PAGE_SWAP_OTHERS},
+        {gNamingScreenMenu_Pal[5], PALTAG_PAGE_SWAP},
+        {gNamingScreenMenu_Pal[6], PALTAG_CURSOR},
+        {gNamingScreenMenu_Pal[5], PALTAG_BACK_BUTTON},
+        {gNamingScreenMenu_Pal[5], PALTAG_OK_BUTTON},
         {}};

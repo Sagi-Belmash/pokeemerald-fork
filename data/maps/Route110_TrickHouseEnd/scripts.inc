@@ -248,109 +248,106 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 	step_end
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
-	.string "Aak!\n"
-	.string "You've made it to me?\l"
-	.string "Hmmm… You're sharp!$"
+	.string "אחח!\n"
+	.string "הגעת אליי?\l"
+	.string "המממ… את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
-	.string "It took me all night to plant all those\n"
-	.string "trees…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five, six places!$"
+	.string "לקח לי כל הלילה לשתול את כל\n"
+	.string "העצים האלה…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה בפער של\n"
+	.string "אחד, שניים, שלושה, ארבעה, חמישה, שישה מקומות!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
-	.string "It took me all night to make the maze…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five places!$"
+	.string "לקח לי כל הלילה להכין את המבוך…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה בפער של\n"
+	.string "אחד, שניים, שלושה, ארבעה, חמישה מקומות!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
-	.string "It took me all night to prepare\n"
-	.string "the wall panels…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four places!$"
+	.string "לקח לי כל הלילה להכין\n"
+	.string "את לוחות הקיר…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה בפער של\n"
+	.string "אחד, שניים, שלושה, ארבעה מקומות!$"
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
-	.string "It took me all night to shove in those\n"
-	.string "boulders…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three places!$"
+	.string "לקח לי כל הלילה לדחוף את\n"
+	.string "הסלעים האלה…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה בפער של\n"
+	.string "אחד, שניים, שלושה מקומות!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
-	.string "It took me all night to make MECHADOLLS\n"
-	.string "and another to think up the quiz…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two places!$"
+	.string "לקח לי כל הלילה להכין MECHADOLLS\n"
+	.string "ועוד לילה לחשוב על החידון…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה בפער של\n"
+	.string "אחד, שניים מקומות!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
-	.string "It took me all night to install\n"
-	.string "the doors…\p"
-	.string "You're almost my equal in greatness!$"
+	.string "לקח לי כל הלילה להתקין\n"
+	.string "את הדלתות…\p"
+	.string "את{EMIT_HEY} כמעט שווה לי בגדולה!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
-	.string "It took me all night setting up arrows…\p"
-	.string "You're my equal in greatness!$"
+	.string "לקח לי כל הלילה להציב חצים…\p"
+	.string "את{EMIT_HEY} שווה לי בגדולה!$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
-	.string "It took me all night polishing floors…\p"
-	.string "You're above me in greatness!\n"
-	.string "Possibly…$"
+	.string "לקח לי כל הלילה ללטש רצפות…\p"
+	.string "את{EMIT_HEY} מעליי בגדולה!\n"
+	.string "אולי…$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
-	.string "Wh-what should I do?\n"
-	.string "My fountain of ideas for tricks has\l"
-	.string "run dry…\p"
-	.string "Perhaps it is time I toured the country\n"
-	.string "on a quest to devise new tricks…$"
+	.string "מ-מה עליי לעשות?\n"
+	.string "מקור הרעיונות שלי לטריקים\l"
+	.string "נגמר…\p"
+	.string "אולי הגיע הזמן שאסייר בארץ\n"
+	.string "במסע כדי להמציא טריקים חדשים…$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
-	.string "I hate to admit defeat, but you have\n"
-	.string "bested me!\p"
-	.string "Still, you must have been reeled in by\n"
-	.string "my charisma for you to visit me again\l"
-	.string "and again. Yes, you must have!\p"
-	.string "But that has nothing to do with my\n"
-	.string "losing!\p"
-	.string "In recognition of the friendship\n"
-	.string "between you, the driven, and the genius\l"
-	.string "that is myself, I demand that you take\l"
-	.string "this keepsake!\p"
-	.string "Actually there are two--\n"
-	.string "a RED TENT and a BLUE TENT.\l"
-	.string "Which do you prefer?$"
+	.string "אני שונא להודות בתבוסה, אבל\n"
+	.string "הבסת אותי!\p"
+	.string "ובכל זאת, בטח נמשכת לכריזמה שלי\n"
+	.string "כדי לבקר אותי שוב ושוב. כן, בטח!\p"
+	.string "אבל לזה אין שום קשר\n"
+	.string "להפסד שלי!\p"
+	.string "כהוקרה לידידות שבינינו, את{EMIT_HEY}\n"
+	.string "הדחף שיש לך, לבין הגאון שזה אני, אני דורש\l"
+	.string "שתקח{ADD_YUD} את המזכרת הזו!\p"
+	.string "למעשה יש שניים--\n"
+	.string "אוהל אדום ואוהל כחול.\l"
+	.string "איזה מהם את{EMIT_HEY} מעדי{SWAP_PEY}{ADD_HEY}?$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
-	.string "What? No room in your PC?\n"
-	.string "What am I to make of that?\p"
-	.string "I wish I could say that, but I am much\n"
-	.string "too kind and caring, so come back later!$"
+	.string "מה? אין מקום במחשב שלך?\n"
+	.string "מה עליי לחשוב על זה?\p"
+	.string "הלוואי שיכולתי לומר את זה, אבל אני יותר מדי\n"
+	.string "אדיב ואכפתי, אז תחז{EMIT_VAV}ר{ADD_YUD} מאוחר יותר!$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
 	.string "… … … … … …\p"
-	.string "I am leaving on a journey of discovery.\n"
-	.string "A quest in search of new tricks.\p"
-	.string "I wish that you will one day visit and\n"
-	.string "entertain me again.\p"
-	.string "And now, farewell!$"
+	.string "אני יוצא למסע גילוי.\n"
+	.string "מסע בחיפוש אחר טריקים חדשים.\p"
+	.string "הלוואי שיום אחד תבקר{ADD_YUD} ותבדר{ADD_YUD}\n"
+	.string "אותי שוב.\p"
+	.string "ועכשיו, להתראות!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
-	.string "Fine!\n"
-	.string "You have earned this reward!$"
+	.string "בסדר!\n"
+	.string "הרווחת את הפרס הזה!$"
 
 Route110_TrickHouseEnd_Text_NoRoomForThis:
-	.string "What? Have you no room for this?\n"
-	.string "What manner of items do you carry?\p"
-	.string "But fine, since you've reached me,\n"
-	.string "your reward will be with me till later.$"
+	.string "מה? אין לך מקום לזה?\n"
+	.string "איזה סוג של פריטים את{EMIT_HEY} נושא{ADD_TAF}?\p"
+	.string "אבל בסדר, מכיוון שהגעת אליי,\n"
+	.string "הפרס שלך יישאר אצלי עד מאוחר יותר.$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
-	.string "Scrub that smug smirk from your face!\n"
-	.string "It's much too early to think you've won!\p"
-	.string "I'll make new tricks to stump you, I will.\n"
-	.string "You may mock me only when you're done.\p"
-	.string "Come back for the next exciting\n"
-	.string "installment!$"
+	.string "הס{ADD_YUD}ר{ADD_YUD} את החיוך היהיר הזה מהפנים שלך!\n"
+	.string "מוקדם מדי לחשוב שניצחת!\p"
+	.string "אני אמציא טריקים חדשים כדי להפיל אותך, כן.\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} ללעוג לי רק כשתסיי{SWAP_MEM}{ADD_YUD}.\p"
+	.string "תחז{EMIT_VAV}ר{ADD_YUD} לחלק המרגש הבא!$"
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
-	.string "Now, now! You're ignoring me now?\n"
-	.string "Now that, I consider heartbreaking!$"
+	.string "נו, נו! את{EMIT_HEY} מתעל{SWAP_MEM}{ADD_TAF} ממני עכשיו?\n"
+	.string "עכשיו את זה, אני מחשיב כשבירת לב!$"
 

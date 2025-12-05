@@ -57,46 +57,46 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
 	end
 
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
-	.string "You're the first TRAINER I've seen who\n"
-	.string "deploys POKéMON so masterfully.\p"
-	.string "But, I should tell you--my son is\n"
-	.string "stronger than you.\p"
-	.string "He even took the POKéMON LEAGUE\n"
-	.string "challenge, I'll have you know.$"
+	.string "את{EMIT_HEY} המאמ{SWAP_NUN}{ADD_TAF} הראשו{SWAP_NUN}{ADD_HEY} שראיתי\n"
+    .string "שמוציא{ADD_HEY} פוקימון במיומנות כזו.\p"
+    .string "אבל, עלי לומר לך--הבן שלי\n"
+    .string "חזק ממך.\p"
+    .string "הוא אפילו לקח על עצמו את\n"
+    .string "אתגר ליגת הפוקימון, שתדע{ADD_YUD}.$"
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
-	.string "We use this MACHO BRACE to more\n"
-	.string "effectively strengthen our POKéMON\l"
-	.string "in training.\p"
-	.string "Since you've beaten all of us here,\n"
-	.string "I don't know if you need it, but we\l"
-	.string "would like you to have our MACHO BRACE.$"
+	.string "אנחנו משתמשים בצמיד החוזק הזה כדי\n"
+	.string "לחזק את הפוקימונים שלנו\l"
+	.string "שלנו באימונים בצורה יעילה.\p"
+	.string "מכיוון שהבסת את כולנו כאן,\n"
+    .string "אני לא יודע{ADD_TAF} אם את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} את זה, אבל\l"
+    .string "אנחנו נשמח אם תקח{ADD_YUD} את צמיד החוזק שלנו.$"
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
-	.string "When it comes to POKéMON battles,\n"
-	.string "we tend to be pretty passionate.$"
+	.string "כשזה נוגע לקרבות פוקימון,\n"
+    .string "אנחנו נוטים להיות נלהבים למדי.$"
 
 Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
-	.string "Mommy is stronger than Daddy.\p"
-	.string "I'm stronger than Mommy.\p"
-	.string "And Grandma's stronger than me!\p"
-	.string "But my big brother is even stronger\n"
-	.string "than Grandma.$"
+	.string "אמא חזקה יותר מאבא.\p"
+    .string "אני חזק יותר מאמא.\p"
+    .string "וסבתא חזקה יותר ממני!\p"
+    .string "אבל אחי הגדול חזק אפילו יותר\n"
+    .string "מסבתא.$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
-	.string "There's no question that you're strong.\p"
-	.string "But if you were to battle my grandson,\n"
-	.string "you'd end up crying in frustration.\p"
-	.string "He's much stronger than any TRAINER\n"
-	.string "our family knows.\p"
-	.string "He must be challenging the POKéMON\n"
-	.string "LEAGUE CHAMPION by now.\p"
-	.string "Knowing my grandson, he could be the\n"
-	.string "CHAMPION already!$"
+	.string "אין ספק שאת{EMIT_HEY} חזק{ADD_HEY}.\p"
+    .string "אבל אם היית נלח{SWAP_MEM}{ADD_TAF} בנכד שלי,\n"
+    .string "היית גומר{ADD_TAF} בבכי מתסכול.\p"
+    .string "הוא הרבה יותר חזק מכל מאמן\n"
+    .string "שהמשפחה שלנו מכירה.\p"
+    .string "הוא בטח כבר מאתגר את אלוף\n"
+    .string "ליגת הפוקימון.\p"
+    .string "אם אני מכירה את הנכד שלי, הוא\n"
+    .string "אולי כבר האלוף!$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
-	.string "My grandson must be challenging the\n"
-	.string "POKéMON LEAGUE CHAMPION by now.\p"
-	.string "Knowing my grandson, he could be the\n"
-	.string "CHAMPION already!$"
+	.string "הנכד שלי בטח כבר מאתגר את\n"
+    .string "אלוף ליגת הפוקימון.\p"
+    .string "אם אני מכירה את הנכד שלי, הוא\n"
+    .string "אולי כבר האלוף!$"
 

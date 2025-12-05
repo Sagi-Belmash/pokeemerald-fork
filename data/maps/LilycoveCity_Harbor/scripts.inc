@@ -333,7 +333,7 @@ LilycoveCity_Harbor_EventScript_BoardFerryWithSailor::
 	call_if_eq VAR_FACING, DIR_NORTH, LilycoveCity_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
-	hideobjectat LOCALID_PLAYER, 0
+	hideplayer
 	setvar VAR_0x8004, LOCALID_LILYCOVE_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
@@ -393,7 +393,7 @@ LilycoveCity_Harbor_EventScript_BoardFerry::
 	call_if_eq VAR_FACING, DIR_NORTH, LilycoveCity_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
-	hideobjectat LOCALID_PLAYER, 0
+	hideplayer
 	setvar VAR_0x8004, LOCALID_LILYCOVE_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
@@ -537,51 +537,51 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 	step_end
 
 LilycoveCity_Harbor_Text_FerryUnavailable:
-	.string "I beg your pardon?\n"
-	.string "You're looking for a ship?\p"
-	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…$"
+	.string "סליחה?\n"
+	.string "את{EMIT_HEY} מחפש{ADD_TAF} ספינה?\p"
+	.string "אני מצטערת, שירות המעבורת אינו\n"
+	.string "זמין כעת…$"
 
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?$"
+	.string "שלום, הגעת לכאן בשביל המעבורת?\n"
+	.string "אפשר לראות את הכרטיס שלך?$"
 
 LilycoveCity_Harbor_Text_NoTicket:
-	.string "{PLAYER} doesn't have the TICKET…\p"
-	.string "I'm terribly sorry.\p"
-	.string "You must have a TICKET to board\n"
-	.string "the ferry.$"
+	.string "אין ל{PLAYER} את הכרטיס…\p"
+	.string "אני נורא מצטערת.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} להיות עם כרטיס כדי\n"
+	.string "לעלות על המעבורת.$"
 
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
-	.string "{PLAYER} flashed the TICKET.\p"
-	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "{PLAYER} הציג{ADD_HEY} את הכרטיס.\p"
+	.string "מושלם! זה כל מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}!\p"
+	.string "ולאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 LilycoveCity_Harbor_Text_SailAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "בבקשה תפליג{ADD_YUD} איתנו בפעם אחרת!$"
 
 LilycoveCity_Harbor_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "אז לעיר סלייטפורט!$"
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
-	.string "BATTLE FRONTIER it is, then!$"
+	.string "אז לחזית הקרב!$"
 
 LilycoveCity_Harbor_Text_PleaseBoard:
-	.string "Please board the ferry and wait for\n"
-	.string "departure.$"
+	.string "נא לעלות על המעבורת ולהמתין\n"
+	.string "ליציאה.$"
 
 LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
-	.string "Then, where would you like to go?$"
+	.string "אז, לאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
-	.string "Until they finish making the ferry,\n"
-	.string "we sailors have nothing to do…\p"
-	.string "I wish they'd get a move on, the folks\n"
-	.string "at the SHIPYARD in SLATEPORT.$"
+	.string "עד שהם יסיימו להכין את המעבורת,\n"
+	.string "לנו המלחים אין מה לעשות…\p"
+	.string "הלוואי שהם יזדרזו, האנשים\n"
+	.string "במספנה בסלייטפורט.$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
-	.string "The ferry S.S. TIDAL is finally in\n"
-	.string "operation.\p"
-	.string "The folks at the SHIPYARD in SLATEPORT\n"
-	.string "must've worked extra hard.\p"
-	.string "Well, it's my turn to get busy now!$"
+	.string "המעבורת א/ק גאות סוף סוף"
+	.string "בפעולה.\p"
+	.string "האנשים במספנה בסלייטפורט\n"
+	.string "עבדו קשה במיוחד.\p"
+	.string "ובכן, עכשיו תורי להיות עסוק!$"

@@ -80,40 +80,40 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-	.string "My name is STEVEN.\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
-	.string "Oh?\n"
-	.string "A LETTER for me?$"
+	.string "שמי סטיבן.\p"
+	.string "אני מתעניין באבנים נדירות,\n"
+	.string "ולכן אני מטייל ממקום למקום.\p"
+	.string "אה?\n"
+	.string "מכתב בשבילי?$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-	.string "STEVEN: Okay, thank you.\p"
-	.string "You went through all this trouble to\n"
-	.string "deliver that. I need to thank you.\p"
-	.string "Let me see…\n"
-	.string "I'll give you this TM.\p"
-	.string "It contains my favorite move,\n"
-	.string "STEEL WING.$"
+	.string "סטיבן: אוקיי, תודה לך.\p"
+	.string "עברת את כל הדרך הזו רק כדי למסור\n"
+	.string "לי את המכתב. אני חייב להודות לך.\p"
+	.string "בוא{ADD_YUD} נראה…\n"
+	.string "אני אתן לך את המ”מ הזה.\p"
+	.string "הוא מכיל את המהלך האהוב עליי,\n"
+	.string "כנפי פלדה.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-	.string "STEVEN: Your POKéMON appear quite\n"
-	.string "capable.\p"
-	.string "If you keep training, you could even\n"
-	.string "become the CHAMPION of the POKéMON\l"
-	.string "LEAGUE one day. That's what I think.\p"
-	.string "I know, since we've gotten to know each\n"
-	.string "other, let's register one another in\l"
-	.string "our POKéNAVS.\p"
+	.string "סטיבן: הפוקימונים שלך נראים\n"
+	.string "חזקים למדי.\p"
+	.string "אם תמשי{SWAP_CHAF}{ADD_YUD} להתאמן, אולי יום אחד\n"
+	.string "תוכל{ADD_YUD} להפוך לאלו{SWAP_PEY}{ADD_TAF} ליגת הפוקימונים.\l"
+	.string "זה מה שאני חושב.\p"
+	.string "אני יודע, מאחר ואנחנו כבר מכירים\n"
+	.string "זה את זה, בוא נרשום אחד את השני\l"
+	.string "בפוקינווט שלנו.\p"
 	.string "… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
-	.string "Registered STEVEN\n"
-	.string "in the POKéNAV.$"
+	.string "סטיבן נרשם\n"
+	.string "בפוקינווט.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-	.string "Now, I've got to hurry along.$"
+	.string "עכשיו,אני חייב למהר הלאה.$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
-	.string "Oh, your BAG is full…\n"
-	.string "That's too bad, then.$"
+	.string "או, התיק שלך מלא…\n"
+	.string "חבל למדי.$"
 

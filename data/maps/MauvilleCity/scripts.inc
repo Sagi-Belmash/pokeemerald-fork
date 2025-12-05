@@ -90,6 +90,7 @@ MauvilleCity_EventScript_Wally::
 	waitmovement 0
 	msgbox MauvilleCity_Text_WallyWantToChallengeGym, MSGBOX_DEFAULT
 	msgbox MauvilleCity_Text_UncleYourePushingIt, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_RALTS
 	msgbox MauvilleCity_Text_WallyWeCanBeatAnyone, MSGBOX_DEFAULT
 	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_FacePlayer
 	waitmovement 0
@@ -459,205 +460,205 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-	.string "UNCLE: It's because of POKéMON that\n"
-	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "דוד: זה בגלל פוקימונים שלילד\n"
+	.string "הזה יש יותר חיוניות, אני מניח…\l"
+	.string "אבל הוא נהיה קצת יותר מדי נמרץ…$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-	.string "WALLY: Aww, UNCLE, please?\p"
-	.string "I want to challenge this GYM and see\n"
-	.string "how much better I've become.\p"
-	.string "Please? May I, please?$"
+	.string "וולי: אוו, דוד, בבקשה?\p"
+	.string "אני רוצה לאתגר את המכון הזה ולראות\n"
+	.string "כמה השתפרתי.\p"
+	.string "בבקשה? מותר לי, בבקשה?$"
 
 MauvilleCity_Text_UncleYourePushingIt:
-	.string "UNCLE: Now hold on, WALLY.\p"
-	.string "Since you started living with POKéMON,\n"
-	.string "you have grown quite a lot stronger.\p"
-	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a GYM?$"
+	.string "דוד: עכשיו חכה, וולי.\p"
+	.string "מאז שהתחלת לחיות עם פוקימונים,\n"
+	.string "אתה באמת נהיית חזק יותר.\p"
+	.string "אבל אתה לא חושב שאתה מגזים\n"
+	.string "לאתגר מכון פתאום?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
-	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
-	.string "we can beat anyone!$"
+	.string "וולי: אני לא מגזים.\p"
+	.string "אם אחבר כוחות עם {STR_VAR_1},\n"
+	.string "אנחנו יכולים לנצח כל אחד!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "WALLY: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "{PLAYER}, I want you and my UNCLE to\n"
-	.string "understand that.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+	.string "וולי: או! היי, {PLAYER}!\p"
+	.string "נהייתי הרבה יותר חזק מאז\n"
+	.string "שנפגשנו.\p"
+	.string "{PLAYER}, אני רוצה שאת{EMIT_HEY} וגם הדוד שלי\n"
+	.string "תבינו את זה.\p"
+	.string "{PLAYER}, בבקשה, האם תילח{SWAP_MEM}{ADD_YUD}\n"
+	.string "איתי?$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-	.string "WALLY: Oh… If you won't battle me,\n"
-	.string "{PLAYER}, my UNCLE won't know that I've\l"
-	.string "become really strong.$"
+	.string "וולי: או… אם את{EMIT_HEY} לא נלח{SWAP_MEM}{ADD_TAF} מולי,\n"
+	.string "{PLAYER}, הדוד שלי לא יידע שנהייתי\l"
+	.string "ממש חזק.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-	.string "UNCLE: {PLAYER}{KUN}, was it?\n"
-	.string "On WALLY's behalf, can I ask you to\l"
-	.string "battle with him just this once?\p"
-	.string "I don't think he's going to listen to\n"
-	.string "any reason the way he is now.$"
+	.string "דוד: {PLAYER}{KUN}, נכון?\n"
+	.string "מטעם וולי, אני יכול לבקש ממך\l"
+	.string "להילחם איתו רק הפעם?\p"
+	.string "אני לא חושב שהוא יקשיב לשום\n"
+	.string "היגיון במצב שבו הוא נמצא עכשיו.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
-	.string "WALLY: {PLAYER}, please!\n"
-	.string "Battle with me, please.$"
+	.string "וולי: {PLAYER}, בבקשה!\n"
+	.string "הילח{SWAP_MEM}{ADD_YUD} מולי, בבקשה.$"
 
 MauvilleCity_Text_WallyHereICome:
-	.string "WALLY: {PLAYER}, thank you.\p"
-	.string "Okay… Here I come!$"
+	.string "וולי: {PLAYER}, תודה לך.\p"
+	.string "אוקיי… הנה אני בא!$"
 
 MauvilleCity_Text_WallyDefeat:
-	.string "WALLY: … … … … … … …\p"
+	.string "וולי: … … … … … … …\p"
 	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "הפסדתי…$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
-	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+	.string "וולי: דוד…\n"
+	.string "אני אחזור לורדנטרף…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
-	.string "It's not enough just to have POKéMON\n"
-	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+	.string "{PLAYER}, תודה לך.\n"
+	.string "להיות מאמן זה קשה, לא?\p"
+	.string "זה לא מספיק רק שיהיו לך פוקימונים\n"
+	.string "ושתגרום להם להילחם. זה לא מהות\l"
+	.string "העניין בלהיות מאמן אמיתי.$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-	.string "UNCLE: WALLY, there's no need to be so\n"
-	.string "down on yourself.\p"
-	.string "Why, what's keeping you from becoming\n"
-	.string "stronger and stronger?\p"
-	.string "Come on, let's go home.\n"
-	.string "Everyone's waiting for you.$"
+	.string "דוד: וולי, אין צורך שתהיה כל כך\n"
+	.string "מדוכא.\p"
+	.string "מה מונע ממך מלהיות\n"
+	.string "חזק יותר ויותר?\p"
+	.string "קדימה, בוא נלך הביתה.\n"
+	.string "כולם מחכים לך.$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
-	.string "an eye out for WALLY when he caught\l"
-	.string "his POKéMON.\p"
-	.string "Why don't you visit us in VERDANTURF\n"
-	.string "sometime?\l"
-	.string "I'm sure WALLY would enjoy it.$"
+	.string "דוד: {PLAYER}{KUN}, זה פשוט הכה בי\n"
+	.string "שאת{EMIT_HEY} בטח המאמ{SWAP_NUN}{ADD_TAF} ששמר{ADD_HEY}\l"
+	.string "על וולי כשהוא תפס את הפוקימון\l"
+	.string "שלו.\p"
+	.string "למה שלא תבקר{ADD_YUD} אותנו בורדנטרף\n"
+	.string "מתישהו?\l"
+	.string "אני בטוח שוולי ייהנה מזה.$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "WALLY: Oh, hello, {PLAYER}!\p"
-	.string "I just wanted to tell you that\n"
-	.string "my uncle bought me a POKéNAV!\p"
-	.string "Now I can get in touch with you\n"
-	.string "anytime, {PLAYER}!\p"
+	.string "… … … … … ביפ!\p"
+	.string "וולי: או, שלום, {PLAYER}!\p"
+	.string "רק רציתי לומר לך\n"
+	.string "שהדוד שלי קנה לי פוקינווט!\p"
+	.string "עכשיו אני יכול ליצור איתך קשר\n"
+	.string "בכל עת, {PLAYER}!\p"
 	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "… … … … … קליק!$"
 
 MauvilleCity_Text_RegisteredWally:
-	.string "Registered WALLY\n"
-	.string "in the POKéNAV.$"
+	.string "וולי נרשם\n"
+	.string "בפוקינווט.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-	.string "SCOTT: Hehe…\n"
-	.string "I was watching that match!\p"
-	.string "You're friends with that boy WALLY,\n"
-	.string "aren't you?\p"
-	.string "But you didn't hold anything back\n"
-	.string "and beat him impressively.\p"
-	.string "Yeah! That's what a real POKéMON\n"
-	.string "battle is all about!\p"
-	.string "I idolize TRAINERS like that!\p"
+	.string "סקוט: היהי…\n"
+	.string "צפיתי במשחק הזה!\p"
+	.string "את{EMIT_HEY} חבר{ADD_HEY} של הילד ההוא וולי,\n"
+	.string "נכון?\p"
+	.string "אבל לא התאפקת\n"
+	.string "וניצחת אותו בצורה מרשימה.\p"
+	.string "כן! זה מה שקרב פוקימונים אמיתי\n"
+	.string "הוא!\p"
+	.string "אני מעריץ מאמנים כאלה!\p"
 	.string "… … … … … …\n"
-	.string "I'll be cheering for you!$"
+	.string "אני אעודד אותך!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
-	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"
-	.string "You look like you have a lot of zip!\l"
-	.string "That's a good thing, wahahahaha!\p"
-	.string "Fine! I've decided!\n"
-	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "MAUVILLE CITY has an underground\n"
-	.string "sector called NEW MAUVILLE.\p"
-	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
-	.string "switch off the GENERATOR.\p"
-	.string "The GENERATOR has been running a bit\n"
-	.string "haywire. It's getting unsafe.\p"
-	.string "Here, this is the KEY to get into\n"
-	.string "NEW MAUVILLE.$"
+	.string "ווטסון: או, {PLAYER}{KUN}!\n"
+	.string "את{EMIT_HEY} נרא{EMIT_HEY}{ADD_YUD}{ADD_TAF} מלא{ADD_TAF} חיוניות!\l"
+	.string "זה דבר טוב, וואהאהאהאהא!\p"
+	.string "בסדר! החלטתי!\n"
+	.string "אני צריך טובה, {PLAYER}{KUN}!\p"
+	.string "בעיר מוויל יש אזור תת קרקעי\n"
+	.string "שנקרא מוויל החדשה.\p"
+	.string "{PLAYER}{KUN}, הייתי רוצה שתל{SWAP_CHAF}{ADD_YUD} לשם ותכב{EMIT_HEY}{ADD_YUD}\n"
+	.string "את הגנרטור.\p"
+	.string "הגנרטור פועל קצת\n"
+	.string "בצורה משובשת. זה נהיה לא בטוח.\p"
+	.string "הנה, זה המפתח כדי להיכנס\n"
+	.string "למוויל החדשה.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
-	.string "WATTSON: Don't you worry about it.\n"
-	.string "It won't be a challenge to you.\p"
-	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
-	.string "That's it, then, you have my trust!\n"
-	.string "Wahahahaha!$"
+	.string "ווטסון: אל תדאג{ADD_YUD} לגבי זה.\n"
+	.string "זה לא יהיה אתגר בשבילך.\p"
+	.string "הכניסה למוויל החדשה היא רק\n"
+	.string "שיט קצר מדרך 011.\p"
+	.string "זהו זה, אם כן, יש לך את האמון שלי!\n"
+	.string "וואהאהאהאהא!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
-	.string "This is my thanks--a TM containing\n"
-	.string "THUNDERBOLT!\p"
-	.string "Go on, you've earned it!$"
+	.string "ווטסון: וואהאהאהאהא!\p"
+	.string "ידעתי את זה, {PLAYER}{KUN}! ידעתי שבחרתי\n"
+	.string "נכון כששאלתי אותך!\p"
+	.string "זו התודה שלי--מ”מ שמכיל\n"
+	.string "מכת ברק!\p"
+	.string "קדימה, הרווחת את זה!$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "It pleases me to no end to see\n"
-	.string "the young step up and take charge!$"
+	.string "ווטסון: וואהאהאהאהא!\p"
+	.string "זה משמח אותי עד אין קץ לראות\n"
+	.string "את הצעירים קמים ולוקחים אחריות!$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-	.string "You know, it's cool to have POKéMON\n"
-	.string "battles and stuff…\p"
-	.string "But if your POKéMON gets hurt,\n"
-	.string "you have to nurse it back to health.$"
+	.string "את{EMIT_HEY} יודע{ADD_TAF}, זה מגניב לערוך קרבות\n"
+	.string "פוקימונים וכדומה…\p"
+	.string "אבל אם הפוקימון שלך נפצע,\n"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לטפל בו כדי שיחלים.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
-	.string "The roads of this town stretch north\n"
-	.string "and south, and east and west.\p"
-	.string "Because of that, we get all sorts of\n"
-	.string "people coming through.$"
+	.string "הדרכים של העיר הזו נמתחות צפונה\n"
+	.string "ודרומה, ומזרחה ומערבה.\p"
+	.string "בגלל זה, מגיעים אלינו כל מיני\n"
+	.string "אנשים שעוברים דרך.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Have you been to RYDEL'S CYCLES yet?\p"
-	.string "RYDEL, the owner, is a very generous\n"
-	.string "man.$"
+	.string "האם היית כבר בחנות האופניים של ריידל?\p"
+	.string "ריידל, הבעלים, הוא איש נדיב\n"
+	.string "מאוד.$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
-	.string "Even if you're riding a BIKE,\n"
-	.string "wild POKéMON could jump you.$"
+	.string "גם אם את{EMIT_HEY} רוכב{ADD_TAF} על אופניים,\n"
+	.string "פוקימונים פראיים יכולים לקפוץ עליך.$"
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
-	.string "“The bright and shiny city of fun!”$"
+	.string "העיר מוויל\n"
+	.string "”העיר הבהירה והמבריקה של הכיף!“$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY POKéMON GYM\n"
-	.string "LEADER: WATTSON\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "מכון הפוקימונים של העיר מוויל\n"
+	.string "מנהיג: ווטסון\l"
+	.string "”האיש המשמח ומחשמל!“$"
 
 MauvilleCity_Text_BikeShopSign:
-	.string "“Ride in gravel and shake up your\n"
-	.string "soul!”\l"
-	.string "RYDEL'S CYCLES$"
+	.string "”רכבו בחצץ וטלטלו את\n"
+	.string "נשמתכם!“\l"
+	.string "האופניים של ריידל$"
 
 MauvilleCity_Text_GameCornerSign:
-	.string "“The play spot for all!”\n"
-	.string "MAUVILLE GAME CORNER$"
+	.string "”מקום המשחק לכולם!“\n"
+	.string "פינת המשחקים של מוויל$"
 
 MauvilleCity_Text_ExplainTV:
-	.string "Hi, do you check out TV at all?\p"
-	.string "They've added a bunch of cool new\n"
-	.string "shows recently.\p"
-	.string "TV is so cool. I've seen my friends on\n"
-	.string "TV just out of the blue.\p"
-	.string "And, sometimes, they even put you on TV\n"
-	.string "without telling you.\p"
-	.string "I wish I would be on TV sometime.\p"
-	.string "That's why I think you should check\n"
-	.string "out TVs whenever you can.$"
+	.string "היי, את{EMIT_HEY} צופה בטלוויזיה בכלל?\p"
+	.string "הם הוסיפו לאחרונה חבורה של תוכניות\n"
+	.string "חדשות ומגניבות.\p"
+	.string "טלוויזיה זה כל כך מגניב. ראיתי את החברים\n"
+	.string "שלי בטלוויזיה פשוט פתאום.\p"
+	.string "ולפעמים, הם אפילו שמים אותך בטלוויזיה\n"
+	.string "בלי לומר לך.\p"
+	.string "הלוואי שאהיה בטלוויזיה מתישהו.\p"
+	.string "זו הסיבה שבגללה אני חושב שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לבדוק\n"
+	.string "טלוויזיות בכל הזדמנות.$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
-	.string "Hi, have you been checking out TVs?$"
+	.string "היי, האם צפית בטלוויזיות?$"

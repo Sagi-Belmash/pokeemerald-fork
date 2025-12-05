@@ -248,35 +248,26 @@ void DeactivateAllTextPrinters(void)
         sTextPrinters[printer].active = FALSE;
 }
 
-u16 AddTextPrinterParameterizedWithRTL(u8 windowId,u8 fontId,const u8 *str,s8 x,u8 y,u8 speed,void (*callback)(struct TextPrinterTemplate *, u16),bool8 rtlMode)
+
+u16 AddTextPrinterParameterizedWithRTL(u8 windowId, u8 fontId, const u8 *str, s8 x, u8 y, u8 speed, void (*callback)(struct TextPrinterTemplate *, u16), bool8 rtlMode)
 {
     struct TextPrinterTemplate printerTemplate;
-    s32 baseX;
-    u16 windowWidthPx = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    u16 windowPxWidth = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
 
     printerTemplate.currentChar = str;
     printerTemplate.windowId = windowId;
     printerTemplate.fontId = fontId;
+    printerTemplate.x = (rtlMode ? windowPxWidth - x : x);
     printerTemplate.y = y;
+    printerTemplate.currentX = printerTemplate.x;
+    printerTemplate.currentY = y;
     printerTemplate.letterSpacing = gFonts[fontId].letterSpacing;
     printerTemplate.lineSpacing = gFonts[fontId].lineSpacing;
     printerTemplate.unk = gFonts[fontId].unk;
     printerTemplate.fgColor = gFonts[fontId].fgColor;
     printerTemplate.bgColor = gFonts[fontId].bgColor;
     printerTemplate.shadowColor = gFonts[fontId].shadowColor;
-
-    // RTL: interpret x as right padding
-    if (rtlMode)
-        baseX = (s32)windowWidthPx - x;
-    else
-        baseX = (s32)x;
-
-    // don’t clamp: store full value
-    printerTemplate.x = baseX;
-    printerTemplate.currentX = baseX;
-    printerTemplate.currentY = y;
     printerTemplate.rtlMode = rtlMode;
-
     return AddTextPrinter(&printerTemplate, speed, callback);
 }
 
@@ -1132,14 +1123,20 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             currChar = *textPrinter->printerTemplate.currentChar++ | 0x100;
             break;
 
-        case CHAR_KEYPAD_ICON:
+        /* case CHAR_KEYPAD_ICON:
             currChar = *textPrinter->printerTemplate.currentChar++;
             gCurGlyph.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar,
                                              textPrinter->printerTemplate.currentX,
                                              textPrinter->printerTemplate.currentY);
             textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
                                                    ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
-                                                   : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
+                                                   : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing); */
+            case CHAR_KEYPAD_ICON:
+                currChar = *textPrinter->printerTemplate.currentChar++;
+                gCurGlyph.width = DrawKeypadIconRtlAware(textPrinter, currChar);
+                textPrinter->printerTemplate.currentX += textPrinter->printerTemplate.rtlMode
+                    ? -(gCurGlyph.width + textPrinter->printerTemplate.letterSpacing)
+                    : (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
             return RENDER_PRINT;
 
         case EOS:
@@ -1638,7 +1635,7 @@ u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str)
     return 1;
 }
 
-u8 DrawKeypadIcon(u8 windowId, u8 keypadIconId, u16 x, u16 y)
+/* u8 DrawKeypadIcon(u8 windowId, u8 keypadIconId, u16 x, u16 y)
 {
     BlitBitmapRectToWindow(
         windowId,
@@ -1652,6 +1649,28 @@ u8 DrawKeypadIcon(u8 windowId, u8 keypadIconId, u16 x, u16 y)
         sKeypadIcons[keypadIconId].width,
         sKeypadIcons[keypadIconId].height);
     return sKeypadIcons[keypadIconId].width;
+} */
+
+u8 DrawKeypadIconRtlAware(struct TextPrinter *textPrinter, u8 keypadIconId)
+{
+    u8 width = sKeypadIcons[keypadIconId].width;
+    u8 height = sKeypadIcons[keypadIconId].height;
+    u16 x = textPrinter->printerTemplate.currentX;
+    u16 y = textPrinter->printerTemplate.currentY;
+
+    if (textPrinter->printerTemplate.rtlMode)
+        x -= width;  // Shift left before drawing so icon appears correctly
+
+    BlitBitmapRectToWindow(
+        textPrinter->printerTemplate.windowId,
+        sKeypadIconTiles + (sKeypadIcons[keypadIconId].tileOffset * 0x20),
+        0, 0,
+        0x80, 0x80,
+        x, y,
+        width, height
+    );
+
+    return width;
 }
 
 u8 GetKeypadIconTileOffset(u8 keypadIconId)

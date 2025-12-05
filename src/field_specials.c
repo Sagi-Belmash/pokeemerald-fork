@@ -2,6 +2,7 @@
 #include "malloc.h"
 #include "battle.h"
 #include "battle_tower.h"
+#include "berry_crush.h"
 #include "cable_club.h"
 #include "data.h"
 #include "decoration.h"
@@ -181,6 +182,7 @@ static void DetermineCyclingRoadResults(u32 numFrames, u8 numBikeCollisions)
     if (numBikeCollisions < 100)
     {
         ConvertIntToDecimalStringN(gStringVar1, numBikeCollisions, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ReverseNumeric(gStringVar1);
         StringAppend(gStringVar1, gText_SpaceTimes);
     }
     else
@@ -199,6 +201,7 @@ static void DetermineCyclingRoadResults(u32 numFrames, u8 numBikeCollisions)
     {
         StringCopy(gStringVar2, gText_1MinutePlus);
     }
+    ReverseNumeric(gStringVar2);
 
     result = 0;
     if (numBikeCollisions == 0)
@@ -2902,10 +2905,11 @@ void FrontierGamblerSetWonOrLost(bool8 won)
 void UpdateBattlePointsWindow(void)
 {
     u8 string[32];
-    u32 x;
-    StringCopy(ConvertIntToDecimalStringN(string, gSaveBlock2Ptr->frontier.battlePoints, STR_CONV_MODE_RIGHT_ALIGN, 4), gText_BP);
-    x = GetStringRightAlignXOffset(FONT_NORMAL, string, 48);
-    AddTextPrinterParameterizedWithRTL(sBattlePointsWindowId, FONT_NORMAL, string, x, 1, 0, NULL, TRUE);
+    ConvertIntToDecimalStringN(string, gSaveBlock2Ptr->frontier.battlePoints, STR_CONV_MODE_LEFT_ALIGN, 4);
+    ReverseNumeric(string);
+    StringAppend(string, gText_BP);
+
+    AddTextPrinterParameterizedWithRTL(sBattlePointsWindowId, FONT_NORMAL, string, 0, 1, 0, NULL, TRUE);
 }
 
 void ShowBattlePointsWindow(void)
@@ -4267,4 +4271,9 @@ void SetPlayerGotFirstFans(void)
 u8 Script_TryGainNewFanFromCounter(void)
 {
     return TryGainNewFanFromCounter(gSpecialVar_0x8004);
+}
+
+void StartBerryCrushSolo(void)
+{
+    StartBerryCrush(CB2_LoadMap, TRUE);
 }

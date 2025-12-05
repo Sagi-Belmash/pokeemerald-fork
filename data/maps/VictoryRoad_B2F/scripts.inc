@@ -32,77 +32,77 @@ VictoryRoad_B2F_EventScript_Dianne::
 	end
 
 VictoryRoad_B2F_Text_VitoIntro:
-	.string "I trained together with my whole family,\n"
-	.string "every one of us!\l"
-	.string "I'm not losing to anyone!$"
+	.string "התאמנתי יחד עם כל המשפחה שלי,\n"
+	.string "כל אחד מאיתנו!\l"
+	.string "אני לא מפסיד לאף אחד!$"
 
 VictoryRoad_B2F_Text_VitoDefeat:
-	.string "Better than my family?!\n"
-	.string "Is that possible?!$"
+	.string "טוב יותר מהמשפחה שלי?!\n"
+	.string "האם זה אפשרי?!$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
-	.string "I was better than everyone in my\n"
-	.string "family. I've never lost before…\p"
-	.string "I've lost my confidence…\n"
-	.string "Maybe I'll go home…$"
+	.string "הייתי טוב יותר מכולם במשפחה\n"
+	.string "שלי. מעולם לא הפסדתי לפניכן…\p"
+	.string "איבדתי את הביטחון שלי…\n"
+	.string "אולי אלך הביתה…$"
 
 VictoryRoad_B2F_Text_OwenIntro:
-	.string "I'd heard that there was a tough\n"
-	.string "little kid around. Do they mean you?$"
+	.string "שמעתי שיש כאן איזה\n"
+	.string "ילד{ADD_HEY} קט{SWAP_NUN}{ADD_HEY} וקשוח{ADD_HEY}. האם הם מתכוונים אליך?$"
 
 VictoryRoad_B2F_Text_OwenDefeat:
-	.string "The little shrimp is tough!$"
+	.string "השרץ הקט{SWAP_NUN}{ADD_HEY} קשוח{ADD_HEY}!$"
 
 VictoryRoad_B2F_Text_OwenPostBattle:
-	.string "The rumors I heard, that tough little\n"
-	.string "kid is from PETALBURG CITY.$"
+	.string "השמועות ששמעתי, שהילד{ADD_HEY} הקט{SWAP_NUN}{ADD_HEY}\n"
+	.string "הקשוח{ADD_HEY} מהעיר פטלבורג.$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
-	.string "You must be getting a little tired.$"
+	.string "את{EMIT_HEY} בטח כבר קצת עיי{SWAP_PEY}{ADD_HEY}.$"
 
 VictoryRoad_B2F_Text_CarolineDefeat:
-	.string "No signs of tiring at all!$"
+	.string "אין שום סימני עייפות!$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle:
-	.string "VICTORY ROAD and the POKéMON LEAGUE\n"
-	.string "are long and grueling challenges.\l"
-	.string "Beware of fatigue!$"
+	.string "דרך הניצחון וליגת הפוקימון\n"
+	.string "הם אתגרים ארוכים ומתישים.\l"
+	.string "היזהר{ADD_YUD} מעייפות!$"
 
 VictoryRoad_B2F_Text_JulieIntro:
-	.string "You shouldn't get complacent just\n"
-	.string "because you have a lot of GYM BADGES.\p"
-	.string "There's always going to be someone\n"
-	.string "who's better than you!$"
+	.string "את{EMIT_HEY} לא צרי{SWAP_CHAF}{ADD_HEY} להיות שאנ{SWAP_NUN}{ADD_YUD}{ADD_TAF} רק\n"
+	.string "בגלל שיש לך הרבה תגי מכון.\p"
+	.string "תמיד יהיה מישהו\n"
+	.string "שטוב יותר ממך!$"
 
 VictoryRoad_B2F_Text_JulieDefeat:
-	.string "You're better than me!$"
+	.string "את{EMIT_HEY} טוב{ADD_HEY} יותר ממני!$"
 
 VictoryRoad_B2F_Text_JuliePostBattle:
-	.string "Gaze on your collected BADGES and\n"
-	.string "remember the TRAINERS you've faced.$"
+	.string "הב{ADD_YUD}ט{ADD_YUD} על התגים שאספת\n"
+	.string "וזכ{EMIT_VAV}ר{ADD_YUD} את המאמנים שאיתם התמודדת.$"
 
 VictoryRoad_B2F_Text_FelixIntro:
-	.string "I've come this far, but the tension's\n"
-	.string "giving me awful stomach pain…$"
+	.string "הגעתי עד כאן, אבל המתח\n"
+	.string "גורם לי לכאבי בטן נוראיים…$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
-	.string "Ooh…\n"
-	.string "It hurts…$"
+	.string "אוו…\n"
+	.string "זה כואב…$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
-	.string "I can't help getting all tense knowing\n"
-	.string "that I'm nearing the POKéMON LEAGUE.\p"
-	.string "It's all I can do to feign calm.$"
+	.string "אני לא יכול שלא להיות לחוץ כשאני יודע\n"
+	.string "שאני מתקרב לליגת הפוקימון.\p"
+	.string "כל מה שאני יכול לעשות זה להעמיד פני רגוע.$"
 
 VictoryRoad_B2F_Text_DianneIntro:
-	.string "The elite among the elite gather in\n"
-	.string "this cave.\p"
-	.string "How are you finding it?$"
+	.string "העלית שבין העלית מתאספת\n"
+	.string "במערה הזו.\p"
+	.string "איך את{EMIT_HEY} מוצא{ADD_TAF} את זה?$"
 
 VictoryRoad_B2F_Text_DianneDefeat:
-	.string "Not rattled in the least bit!$"
+	.string "לא נבהל אפילו במעט!$"
 
 VictoryRoad_B2F_Text_DiannePostBattle:
-	.string "You do have guts! I like that!\n"
-	.string "Keep it going!$"
+	.string "יש לך אומץ! אני אוהבת את זה!\n"
+	.string "תמשי{SWAP_CHAF}{ADD_YUD} כך!$"
 

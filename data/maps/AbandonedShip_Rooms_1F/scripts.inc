@@ -32,46 +32,46 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 	end
 
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
-	.string "Ships of this sort are rare, so I'm\n"
-	.string "taking a look around.\p"
-	.string "Hmhm…\n"
-	.string "There appear to be other cabins…$"
+	.string "ספינות מהסוג הזה הן נדירות, אז אני\n"
+	.string "מסתכל מסביב.\p"
+	.string "המממ…\n"
+	.string "נראה שיש עוד תאים…$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
-	.string "What on earth would compel you to\n"
-	.string "come here? You must be curious!$"
+	.string "מה בעולם גרם לך\n"
+	.string "לבוא לכאן? את{EMIT_HEY} בטח סקר{SWAP_NUN}{ADD_YUD}{ADD_TAF}!$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
-	.string "Not just curious, but also strong…$"
+	.string "לא רק סקר{SWAP_NUN}{ADD_YUD}{ADD_TAF}, אלא גם חזק{ADD_HEY}…$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
-	.string "The man next door…\p"
-	.string "He says he's just sightseeing,\n"
-	.string "but I don't know about that.$"
+	.string "האיש שבחדר הסמוך…\p"
+	.string "הוא אומר שהוא רק תייר,\n"
+	.string "אבל אני לא בטוחה בזה.$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
-	.string "You're such a tough TRAINER!\n"
-	.string "Let me register you as a memento!$"
+	.string "אתה מאמ{SWAP_NUN}{ADD_TAF} כל כך חזק{ADD_HEY}!\n"
+	.string "תני לי לרשום אותך בתור מזכרת!$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
-	.string "What on earth would compel you to\n"
-	.string "come back? You must really be curious!$"
+	.string "מה בעולם גרם לך\n"
+	.string "לחזור לכאן? את{EMIT_HEY} באמת חייב{ADD_TAF} להיות סקר{SWAP_NUN}{ADD_YUD}{ADD_TAF}!$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
-	.string "Aren't you too strong?$"
+	.string "את{EMIT_HEY} לא חזק{ADD_HEY} מדי?$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
-	.string "I'm sure that man's up to something!\n"
-	.string "He just acts so suspiciously!$"
+	.string "אני בטוחה שהאיש הזה זומם משהו!\n"
+	.string "הוא פשוט מתנהג בצורה כל כך חשודה!$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
-	.string "Waaah!\n"
-	.string "I've been found! …Huh?$"
+	.string "אאאההה!\n"
+	.string "מצאו אותי! …הא?$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
-	.string "Oh, you're not my mom.$"
+	.string "אה, את{EMIT_HEY} לא אמא שלי.$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
-	.string "I'm in trouble with my mom, so I ran.\n"
-	.string "Keep it a secret where I am!$"
+	.string "הסתבכתי עם אמא שלי, אז ברחתי.\n"
+	.string "תשמ{EMIT_VAV}ר{ADD_YUD} את זה בסוד איפה אני!$"
 

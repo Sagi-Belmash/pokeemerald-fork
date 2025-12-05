@@ -134,185 +134,185 @@ FortreeCity_Gym_EventScript_GymStatue::
 	end
 
 FortreeCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
-	.string "Okay, go for it!$"
+	.string "יו, מה שלומך, {PLAYER}\n"
+	.string "אלו{SWAP_PEY}{ADD_HEY} שבדרך?\p"
+	.string "מנהיגת מכון פורטרי, ווינונה, היא\n"
+	.string "אמנית בפוקימונים מסוג מעופף.\p"
+	.string "היא מחכה בחלק האחורי של המכון,\n"
+	.string "מאחורי הדלתות המסתובבות.\p"
+	.string "היא מחכה לאתגרים חדשים\n"
+	.string "שמנסים לפרוש כנפיים!\p"
+	.string "אוקיי, ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "עשית את זה!\n"
+	.string "השגת המראה!$"
 
 FortreeCity_Gym_Text_JaredIntro:
-	.string "Behold the elegant battle style of\n"
-	.string "BIRD POKéMON!$"
+	.string "תחז{EMIT_HEY}{ADD_YUD} בסגנון הקרב האלגנטי של\n"
+	.string "פוקימוני ציפור!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
-	.string "You…\n"
-	.string "You're strong…$"
+	.string "את{EMIT_HEY}…\n"
+	.string "את{EMIT_HEY} חזק{ADD_HEY}…$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
-	.string "A TRAINER has to be smart to keep\n"
-	.string "up with unexpected turns of events.\p"
-	.string "Do you have the smarts to get to\n"
-	.string "our LEADER?$"
+	.string "מאמן צריך להיות חכם כדי להתמודד\n"
+	.string "עם תפניות בלתי צפויות.\p"
+	.string "האם יש לך את החוכמה להגיע אל\n"
+	.string "המנהיגה שלנו?$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-	.string "The lovers of BIRD POKéMON aspire\n"
-	.string "to join this GYM.\p"
-	.string "As a member of the FORTREE GYM,\n"
-	.string "I'm not allowed to lose!$"
+	.string "אוהבי פוקימוני ציפור שואפים\n"
+	.string "להצטרף למכון הזה.\p"
+	.string "כחבר במכון פורטרי,\n"
+	.string "אסור לי להפסיד!$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
-	.string "It was too much of a load for me\n"
-	.string "to bear…$"
+	.string "זה היה עומס גדול מדי בשבילי\n"
+	.string "לשאת…$"
 
 FortreeCity_Gym_Text_EdwardoPostBattle:
-	.string "The world is huge, and there are\n"
-	.string "countless tough TRAINERS.\p"
-	.string "I'm going to keep training and make\n"
-	.string "myself even stronger.$"
+	.string "העולם ענק, ויש אינספור\n"
+	.string "מאמנים קשוחים.\p"
+	.string "אני הולך להמשיך להתאמן להפוך\n"
+	.string "את עצמי לחזק יותר.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
-	.string "LEADER, to deal with you!\p"
-	.string "I'm plenty good enough for you!$"
+	.string "אין צורך שווינונה, מנהיגת המכון\n"
+	.string "שלנו, תתמודד מולך!\p"
+	.string "אני מספיק טוב בשבילך!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
-	.string "I lost!$"
+	.string "ווינונה, אני…\n"
+	.string "הפסדתי!$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
-	.string "Blush…$"
+	.string "ווינונה חמודה והיא חזקה.\n"
+	.string "היא המנהיגה האולטימטיבית!\p"
+	.string "הסמקה…$"
 
 FortreeCity_Gym_Text_AshleyIntro:
-	.string "WINONA taught me personally!\n"
-	.string "You can't beat me easily!$"
+	.string "ווינונה לימדה אותי באופן אישי!\n"
+	.string "את{EMIT_HEY} לא יכול{ADD_HEY} לנצח אותי בקלות!$"
 
 FortreeCity_Gym_Text_AshleyDefeat:
-	.string "I was beaten…$"
+	.string "הובסתי…$"
 
 FortreeCity_Gym_Text_AshleyPostBattle:
-	.string "Thanks to WINONA, the people of\n"
-	.string "FORTREE can live without fear.$"
+	.string "בזכות ווינונה, תושבי\n"
+	.string "פורטרי יכולים לחיות ללא פחד.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-	.string "When WINONA takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "כאשר ווינונה נכנסת לקרב, פניה\n"
+	.string "זורחות בהחלטיות יפה…\p"
+	.string "אני לא נותן לך לחזות במראה\n"
+	.string "היפה הזה!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
-	.string "Urk!\n"
-	.string "I couldn't stop you.$"
+	.string "אוחח!\n"
+	.string "לא יכולתי לעצור אותך.$"
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
-	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "מוטב שתשי{SWAP_MEM}{ADD_YUD} לב!\n"
+	.string "אל תוסח{ADD_YUD} דעת מלבהות בווינונה\l"
+	.string "או שתיפול ארצה בערמה!$"
 
 FortreeCity_Gym_Text_DariusIntro:
-	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type POKéMON.\p"
-	.string "You do know that, right?$"
+	.string "מוטב שתדע{ADD_YUD} שיש כל מיני\n"
+	.string "סוגים של פוקימונים מעופפים.\p"
+	.string "את{EMIT_HEY} יודע{ADD_TAF} את זה, נכון?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
-	.string "You seem to know your stuff!$"
+	.string "נראה שאת{EMIT_HEY} מבי{SWAP_NUN}{ADD_HEY} עניין!$"
 
 FortreeCity_Gym_Text_DariusPostBattle:
-	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our LEADER\l"
-	.string "WINONA's POKéMON are all business.$"
+	.string "בטח, ניצחת אותי, זה בסדר.\n"
+	.string "אבל מוטב שתשי{SWAP_MEM}{ADD_YUD} לב! הפוקימונים של המנהיגה\l"
+	.string "שלנו ווינונה מאוד רציניים.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "אני ווינונה. אני המנהיגה של\n"
+	.string "מכון הפוקימונים של פורטרי.\p"
+	.string "הפכתי לאחת עם פוקימוני ציפור\n"
+	.string "וריחפתי בשחקים…\p"
+	.string "לא משנה כמה הקרב קשה, ניצחנו\n"
+	.string "באלגנטיות…\p"
+	.string "תחז{EMIT_HEY}{ADD_YUD} בכוריאוגרפיה האלגנטית\n"
+	.string "של פוקימוני ציפור ואני!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this GYM BADGE.$"
+	.string "מעולם לא ראיתי מאמ{SWAP_NUN}{ADD_TAF}\n"
+	.string "שמפקד{ADD_TAF} על פוקימונים בחן רב\l"
+	.string "יותר ממני…\p"
+	.string "כהכרה לגבורתך,\n"
+	.string "אני מעניקה לך את תג המכון הזה.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
-	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג הנוצה\n"
+	.string "מווינונה.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
-	.string "the HM move FLY outside of battle.\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+	.string "עם תג הנוצה, כל הפוקימונים עד\n"
+	.string "רמה 07, אפילו אלה שהתקבלו דרך\l"
+	.string "החלפות, יצייתו לכל פקודה שלך.\p"
+	.string "את{EMIT_HEY} תוכל{ADD_YUD} גם להשתמש במהלך המ”נ\n"
+	.string "תעופה מחוץ לקרב.\p"
+	.string "וזה…\n"
+	.string "זו מתנה ממני.$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-	.string "TM40 contains AERIAL ACE.\p"
-	.string "Its speed…\n"
-	.string "No POKéMON should be able to avoid it.\p"
+	.string "מ”מ04 מכיל אס אווירי.\p"
+	.string "המהירות שלו…\n"
+	.string "אף פוקימון לא אמור להיות מסוגל להימנע ממנו.\p"
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-	.string "Registered GYM LEADER WINONA\n"
-	.string "in the POKéNAV.$"
+	.string "מנהיגת המכון ווינונה נרשמה\n"
+	.string "בפוקינווט.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+	.string "למרות שנפלתי ממך, אני אשאר\n"
+	.string "מסורה לפוקימוני ציפור.$"
 
 FortreeCity_Gym_Text_GymStatue:
-	.string "FORTREE CITY POKéMON GYM$"
+	.string "מכון הפוקימונים של עיר פורטרי$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string "FORTREE CITY POKéMON GYM\p"
-	.string "WINONA'S CERTIFIED TRAINERS:\n"
+	.string "מכון הפוקימונים של עיר פורטרי\p"
+	.string "המאמנים המוסמכים בידי ווינונה:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "ווינונה: אנחנו בני האדם לעולם לא נוכל לברוח\n"
+	.string "מהמשיכה של כוח הכבידה על הקרקע.\p"
+	.string "אבל על ידי חתירה למצוינות,\n"
+	.string "יש לנו את הכוח להמריא!\p"
+	.string "את{EMIT_HEY} טיפסת לפסגה בתור האלו{SWAP_PEY}{ADD_HEY}\n"
+	.string "המכה{SWAP_NUN}{ADD_TAF}.\p"
+	.string "בבקשה, הרש{EMIT_HEY}{ADD_YUD} לי לראות את כוחך\n"
+	.string "בשיא המעוף!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
-	.string "I failed to reach your height again…$"
+	.string "נכשלתי להגיע לגובה שלך שוב…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "ווינונה: למרות שהפסדתי,\n"
+	.string "כנפי ליבי נשארות שלמות.\p"
+	.string "אני יכולה לקום ולהמריא שוב\n"
+	.string "ושוב.\p"
+	.string "אני משוכנעת בזה!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "POKéMON with you?\p"
-	.string "Please return with two POKéMON\n"
-	.string "at the very least.$"
+	.string "ווינונה: אנחנו בני האדם לעולם לא נוכל לברוח\n"
+	.string "מהמשיכה של כוח הכבידה על הקרקע.\p"
+	.string "אבל על ידי חתירה למצוינות,\n"
+	.string "יש לנו את הכוח להמריא!\p"
+	.string "את{EMIT_HEY} טיפסת לפסגה בתור האלו{SWAP_PEY}{ADD_HEY}\n"
+	.string "המכה{SWAP_NUN}{ADD_TAF}.\p"
+	.string "בבקשה, הרש{EMIT_HEY}{ADD_YUD} לי לראות את כוחך\n"
+	.string "בשיא המעוף!\p"
+	.string "או, לא… האם יש לך רק פוקימון\n"
+	.string "אחד איתך?\p"
+	.string "בבקשה חז{EMIT_VAV}ר{ADD_YUD} עם שני פוקימונים\n"
+	.string "לכל הפחות.$"

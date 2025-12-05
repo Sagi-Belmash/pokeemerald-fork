@@ -1,5 +1,5 @@
 CableClub_Text_WelcomeWhichCableClubService:
-	.string "ברוך הבא למועדון הקישור של פוקימון.\n"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למועדון הקישור של פוקימון.\n"
 	.string "באיזה שירות תרצ{EMIT_HEY}{ADD_YUD} להשתמש?$"
 
 CableClub_Text_WhichService:
@@ -226,13 +226,13 @@ CableClub_Text_PlayerIsWaiting:
 MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
 	.string "אני יכול להסביר לך את חוקי המשחק,\n"
 	.string "אם תרצ{EMIT_HEY}{ADD_YUD}.\p"
-	.string "איזה שמקח תרצ{EMIT_HEY}{ADD_YUD} שאסביר?$"
+	.string "איזה משחק תרצ{EMIT_HEY}{ADD_YUD} שאסביר?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "“קפיצת פוקימון”\p"
 	.string "גרום לפוקימון שלך לדלג מעל חבל השוט\n"
-	.string "גפן עם כפתור A.\p"
-	.string "רק פוקימון קטן מתחת ל-7.0מ או פחות\n"
+	.string "גפן עם הכפתור A.\p"
+	.string "רק פוקימונים קטנים מתחת ל-7.0מ\n"
 	.string "יכולים להשתתף.\p"
 	.string "פוקימון שיכול רק לשחות, לחפור,\n"
 	.string "או לעוף, אינו טוב בקפיצה.\p"
@@ -240,7 +240,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "דברים טובים קורים אם כולם קופצים בזמן.$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“בחירת פרי יער עם דודריו”\p"
+	.string "“קטיפת פרי יער עם דודריו”\p"
 	.string "של{EMIT_VAV}ט{ADD_YUD} בשלושת הראשים של דודריו\n"
 	.string "כדי לתפוס את הפירות יער הנופלים.\p"
 	.string "לח{SWAP_TZADIK}{ADD_YUD} ימינה, למעלה או שמאלה בכפתורי\n"
@@ -292,7 +292,7 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "זה כל מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לדעת.$"
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
-	.string "בחירת פרי יער עם דודריו הוא משחק שבו\n"
+	.string "קטיפת פרי יער עם דודריו הוא משחק שבו\n"
 	.string "יכולים להשתתף רק עם דודריו.$"
 
 MossdeepCity_GameCorner_1F_Text_RetryPlease:

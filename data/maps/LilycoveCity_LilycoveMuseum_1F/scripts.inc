@@ -159,133 +159,132 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-	.string "Welcome to LILYCOVE MUSEUM.\p"
-	.string "Please take the time to enjoy our\n"
-	.string "collection of fantastic artwork\l"
-	.string "featuring POKéMON.$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למוזיאון ליליקוב.\p"
+	.string "אנא הקד{ADD_YUD}ש{ADD_YUD} זמן להנות מהאוסף\n"
+	.string "שלנו של יצירות אומנות פנטסטיות\l"
+	.string "המציגות פוקימונים.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
-	.string "I'm the CURATOR of this MUSEUM of\n"
-	.string "fine arts.\p"
-	.string "It's heartening to see someone so\n"
-	.string "young as you in our MUSEUM.\p"
-	.string "Have you viewed our collection of\n"
-	.string "paintings already?$"
+	.string "אני האוצר של מוזיאון\n"
+	.string "האומנויות היפות הזה.\p"
+	.string "זה מחמם את הלב לראות מישהו כזה\n"
+	.string "צעיר כמוך במוזיאון שלנו.\p"
+	.string "האם כבר צפית באוסף\n"
+	.string "הציורים שלנו?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
-	.string "Ah, then let me not disturb you.\n"
-	.string "Please, do take your time.$"
+	.string "אה, אם כן, אז לא אפריע לך.\n"
+	.string "בבקשה, קח{ADD_YUD} את הזמן שלך.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
-	.string "Oh? I do believe that you seem to\n"
-	.string "be a POKéMON TRAINER.\p"
-	.string "Have you an interest in paintings,\n"
-	.string "too?$"
+	.string "או? אני מאמין שנראה שאת{EMIT_HEY}\n"
+	.string "מאמ{SWAP_NUN}{ADD_TAF} פוקימונים.\p"
+	.string "האם יש לך עניין גם בציורים?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
-	.string "I see…\p"
-	.string "I'm honored that you would visit\n"
-	.string "us in spite of that.$"
+	.string "אני מבין…\p"
+	.string "אני מרגיש כבוד שבאת לבקר\n"
+	.string "אותנו למרות זאת.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
-	.string "Ah, excellent!\n"
-	.string "You do like paintings!\p"
-	.string "Then, may I ask you to come with me?$"
+	.string "אה, מצוין!\n"
+	.string "את{EMIT_HEY} כן אוהב{ADD_TAF} ציורים!\p"
+	.string "אם כך, האם אוכל לבקש ממך לבוא איתי?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
-	.string "It's a very old painting.\n"
-	.string "The paint is peeling here and there.$"
+	.string "זהו ציור ישן מאוד.\n"
+	.string "הצבע מתקלף פה ושם.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
-	.string "It's an odd landscape with bizarre\n"
-	.string "and fantastic scenery.$"
+	.string "זהו נוף מוזר עם תפאורה\n"
+	.string "ביזארית ופנטסטית.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman:
-	.string "It's a painting of a beautiful, smiling\n"
-	.string "woman with a POKéMON on her lap.$"
+	.string "זהו ציור של אישה יפה, מחייכת\n"
+	.string "עם פוקימון על ברכיה.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
-	.string "It's a painting of a legendary POKéMON\n"
-	.string "from long ago.\p"
-	.string "The artist painted this from\n"
-	.string "imagination.$"
+	.string "זהו ציור של פוקימון אגדי\n"
+	.string "מלפני הרבה זמן.\p"
+	.string "האומן צייר את זה מתוך\n"
+	.string "דמיון.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
-	.string "It's a painting of GRASS POKéMON\n"
-	.string "swaying in a breeze.\p"
-	.string "They appear to be enjoying the wind's\n"
-	.string "gentle caress.$"
+	.string "זהו ציור של פוקימוני עשב\n"
+	.string "מתנדנדים ברוח.\p"
+	.string "נראה שהם נהנים מהליטוף\n"
+	.string "העדין של הרוח.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
-	.string "It's a delicious-looking painting\n"
-	.string "of BERRIES.\p"
-	.string "This painting could make you hungry!$"
+	.string "זהו ציור של פירות יער\n"
+	.string "שנראים טעימים.\p"
+	.string "הציור הזה יכול לגרום לך להיות רעב!$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
-	.string "It's a replica of a famous sculpture.\p"
-	.string "It depicts an ancient BIRD POKéMON.$"
+	.string "זה העתק של פסל מפורסם.\p"
+	.string "הוא מתאר פוקימון ציפור עתיק.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
-	.string "It's a big POKé BALL carved from\n"
-	.string "a black stone.\p"
-	.string "It was apparently used in festivals\n"
-	.string "in the olden days.$"
+	.string "זה פוכדור גדול מגולף מתוך\n"
+	.string "אבן שחורה.\p"
+	.string "ככל הנראה הוא שימש בפסטיבלים\n"
+	.string "בימים עברו.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
-	.string "It's a huge stone tablet inscribed\n"
-	.string "with POKéMON and dense text in the\l"
-	.string "small characters of an ancient,\l"
-	.string "unreadable language.$"
+	.string "זהו לוח אבן ענק החרוט\n"
+	.string "בפוקימונים ובטקסט צפוף באותיות\l"
+	.string "קטנות של שפה עתיקה,\l"
+	.string "בלתי קריאה.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
-	.string "Hmmm…\n"
-	.string "What works of great magnificence…$"
+	.string "המממ…\n"
+	.string "איזה יצירות בעלות פאר…$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
-	.string "Battling with POKéMON is fun,\n"
-	.string "I'll grant you that.\p"
-	.string "But one mustn't forget our love for\n"
-	.string "the fine arts.$"
+	.string "להילחם עם פוקימונים זה כיף,\n"
+	.string "אני מודה לך על כך.\p"
+	.string "אבל אסור לשכוח את האהבה שלנו\n"
+	.string "לאומנויות היפות.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-	.string "This ART MUSEUM… Well, you could\n"
-	.string "see many fantastic paintings.\p"
-	.string "And the CURATOR is a wonderful person.\p"
-	.string "Among artists like myself, this MUSEUM\n"
-	.string "is an inspiration.$"
+	.string "מוזיאון האומנות הזה… ובכן, את{EMIT_HEY} יכול{ADD_HEY}\n"
+	.string "לראות בו ציורים פנטסטיים רבים.\p"
+	.string "והאוצר הוא אדם נפלא.\p"
+	.string "בקרב אומנים כמוני, המוזיאון הזה\n"
+	.string "הוא השראה.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
-	.string "This lady is pretty!\n"
-	.string "She's like Mommy!$"
+	.string "הגברת הזו יפה!\n"
+	.string "היא כמו אמא!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
-	.string "This POKéMON is adorable!\n"
-	.string "Just like our little boy!$"
+	.string "הפוקימון הזה מקסים!\n"
+	.string "בדיוק כמו הבן הקטן שלנו!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
-	.string "I'd heard that this ART MUSEUM got\n"
-	.string "in some new paintings.\p"
-	.string "So, naturally I hurried over.\p"
-	.string "Are the new paintings up on\n"
-	.string "the second floor?$"
+	.string "שמעתי שמוזיאון האומנות הזה קיבל\n"
+	.string "כמה ציורים חדשים.\p"
+	.string "אז, באופן טבעי מיהרתי לכאן.\p"
+	.string "האם הציורים החדשים מוצגים\n"
+	.string "בקומה השנייה?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
-	.string "Lately, the CURATOR has been\n"
-	.string "unusually cheerful.\p"
-	.string "I bet something good happened for him.\n"
-	.string "Definitely.$"
+	.string "לאחרונה, האוצר היה\n"
+	.string "עליז במיוחד.\p"
+	.string "אני בטוח שמשהו טוב קרה לו.\n"
+	.string "בהחלט.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
-	.string "I aim to see many great paintings\n"
-	.string "here and learn from them.\p"
-	.string "I have this dream of one day having\n"
-	.string "my artwork exhibited here.$"
+	.string "אני שואף לראות הרבה ציורים נהדרים\n"
+	.string "כאן וללמוד מהם.\p"
+	.string "יש לי חלום שיום אחד היצירה\n"
+	.string "שלי תוצג כאן.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-	.string "The ART MUSEUM has become a favorite\n"
-	.string "tourist destination.\p"
-	.string "It's great for LILYCOVE…\n"
-	.string "No, great for the HOENN region!\p"
-	.string "This is what I've heard--a lone TRAINER\n"
-	.string "procured all the paintings upstairs.$"
+	.string "מוזיאון האומנות הפך ליעד\n"
+	.string "תיירותי אהוב.\p"
+	.string "זה נהדר עבור ליליקוב…\n"
+	.string "לא, נהדר עבור מחוז הואן!\p"
+	.string "זה מה ששמעתי--מאמן יחיד\n"
+	.string "השיג את כל הציורים למעלה.$"
 

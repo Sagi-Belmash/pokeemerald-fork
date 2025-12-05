@@ -251,87 +251,87 @@ SSTidalCorridor_Movement_SailorReturn:
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite:
-	.string "SCOTT: Well, hi, hi!\n"
+	.string "סקוט: ובכן, היי, היי!\n"
 	.string "{PLAYER}{KUN}, {PLAYER}{KUN}!\p"
-	.string "Something's come up, so I have to\n"
-	.string "disembark, but am I glad to see you!\p"
-	.string "Congratulations, LEAGUE CHAMPION!\p"
-	.string "There's a place I'd like to invite\n"
-	.string "someone like you.\p"
-	.string "It's the…\n"
-	.string "BATTLE FRONTIER!\p"
-	.string "What's the place like?\n"
-	.string "You'll understand when you see it!\p"
-	.string "I've spoken with the ship's CAPTAIN\n"
-	.string "about this.\p"
-	.string "The next time you take a ferry,\n"
-	.string "you should be able to sail to\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "Okay, {PLAYER}{KUN}, I'll be waiting for you\n"
-	.string "at the BATTLE FRONTIER!$"
+	.string "משהו קרה, אז אני צריך\n"
+	.string "לרדת מהאונייה, אבל אני שמח לראות אותך!\p"
+	.string "ברכותיי, אלו{SWAP_PEY}{ADD_TAF} הליגה!\p"
+	.string "יש מקום שאני רוצה להזמין\n"
+	.string "מישהו כמוך אליו.\p"
+	.string "זהו…\n"
+	.string "חזית הקרב!\p"
+	.string "איך המקום הזה?\n"
+	.string "את{EMIT_HEY}תבי{SWAP_NUN}{ADD_YUD} כשתרא{EMIT_HEY}{ADD_YUD} אותו!\p"
+	.string "דיברתי עם קפטן האונייה\n"
+	.string "על זה.\p"
+	.string "בפעם הבאה שתיקח{ADD_YUD} מעבורת,\n"
+	.string "את{EMIT_HEY} אמור{ADD_HEY} להיות מסוגל{ADD_TAF} לשוט\l"
+	.string "לחזית הקרב.\p"
+	.string "אוקיי, {PLAYER}{KUN}, אני אחכה לך\n"
+	.string "בחזית הקרב!$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
-	.string "This ferry is built to plow through\n"
-	.string "fast-running currents.\p"
-	.string "We hope you enjoy your voyage with us.\n"
-	.string "Feel free to explore the ship.$"
+	.string "המעבורת הזו בנויה כדי לחרוש\n"
+	.string "זרמים מהירים.\p"
+	.string "אנו מקווים שאת{EMIT_HEY} נהנ{EMIT_HEY}{ADD_YUD}{ADD_TAF} מהמסע שלך איתנו.\n"
+	.string "תרגיש{ADD_YUD} חופשי לחקור את האונייה.$"
 
 SSTidal_Text_HopeYouEnjoyVoyage:
-	.string "We hope you enjoy your voyage on\n"
-	.string "our ferry.$"
+	.string "אנחנו מקווים שאת{EMIT_HEY} נהנ{EMIT_HEY}{ADD_YUD}{ADD_TAF} מהמסע שלך על\n"
+	.string "המעבורת שלנו.$"
 
 SSTidal_Text_MadeLandInSlateport:
-	.string "We have made land in SLATEPORT CITY.\n"
-	.string "Thank you for sailing with us.$"
+	.string "עשינו עגינה בעיר סלייטפורט.\n"
+	.string "תודה שהפלגת איתנו.$"
 
 SSTidal_Text_MadeLandInLilycove:
-	.string "We have made land in LILYCOVE CITY.\n"
-	.string "Thank you for sailing with us.$"
+	.string "עשינו עגינה בעיר ליליקוב.\n"
+	.string "תודה שהפלגת איתנו.$"
 
 SSTidalCorridor_Text_CanRestInCabin2:
-	.string "It'll be some time before we make land,\n"
-	.string "I reckon.\p"
-	.string "You can rest up in your cabin if you'd\n"
-	.string "like. Your cabin's No. 2.\p"
-	.string "The bed in there is soft and plushy.\n"
-	.string "I can attest to how comfy it is!$"
+	.string "יעבור עוד זמן מה עד שנעגון,\n"
+	.string "אני מניח.\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לנוח בתא שלך אם את{EMIT_HEY} רוצה.\n"
+	.string "התא שלך הוא מס' 2.\p"
+	.string "המיטה שם רכה וקטיפתית.\n"
+	.string "אני יכול להעיד על כמה שהיא נוחה!$"
 
 SSTidalCorridor_Text_WeveArrived:
-	.string "We've arrived!$"
+	.string "הגענו!$"
 
 SSTidalCorridor_Text_VisitOtherCabins:
-	.string "Go visit other cabins.\n"
-	.string "TRAINERS bored of the boat trip will\l"
-	.string "be itching to battle.$"
+	.string "ל{SWAP_CHAF}{ADD_YUD} לבקר בתאים האחרים.\n"
+	.string "מאמנים שמשועממים מהשייט\l"
+	.string "יהיו להוטים לקרב.$"
 
 SSTidalCorridor_Text_EnjoyYourCruise:
-	.string "Enjoy your cruise!$"
+	.string "תהנ{EMIT_HEY}{ADD_YUD} מהשייט שלך!$"
 
 SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
-	.string "The horizon spreads beyond\n"
-	.string "the porthole.$"
+	.string "האופק מתפרש מעבר\n"
+	.string "לאשנב.$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-	.string "MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p"
-	.string "They made me honorary captain of\n"
-	.string "the S.S. TIDAL!\p"
-	.string "You can call me CAPTAIN BRINEY now!\p"
-	.string "You know, I retired once before,\n"
-	.string "but when I saw this majestic ship…\p"
-	.string "Let me just say, it stirred my sleeping\n"
-	.string "soul as a sailor!$"
+	.string "מר ברייני: ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY}, {PLAYER}{KUN}!\p"
+	.string "הם הפכו אותי לקפטן כבוד של\n"
+	.string "הא/ק גאות!\p"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} לקרוא לי עכשיו קפטן ברייני!\p"
+	.string "את{EMIT_HEY} יודע, פרשתי פעם אחת,\n"
+	.string "אבל כשראיתי את הספינה המלכותית הזו…\p"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי רק לומר, זה עורר את נשמתי\n"
+	.string "הישנה כמלח!$"
 
 SSTidalCorridor_Text_Peeko:
-	.string "PEEKO: Pihyo pihyohyo…$"
+	.string "פיקו: פיהיו פיהיהיו…$"
 
 SSTidalCorridor_Text_Cabin1:
-	.string "Cabin 1$"
+	.string "תא 1$"
 
 SSTidalCorridor_Text_Cabin2:
-	.string "Cabin 2$"
+	.string "תא 2$"
 
 SSTidalCorridor_Text_Cabin3:
-	.string "Cabin 3$"
+	.string "תא 3$"
 
 SSTidalCorridor_Text_Cabin4:
-	.string "Cabin 4$"
+	.string "תא 4$"

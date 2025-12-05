@@ -74,6 +74,7 @@ LilycoveCity_EventScript_RichBoy::
 LilycoveCity_EventScript_Sailor2::
 	lock
 	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_WAILMER
 	goto_if_set FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, LilycoveCity_EventScript_Sailor2AquaGone
 	msgbox LilycoveCity_Text_TeamAquaBeenTrainingWailmer, MSGBOX_DEFAULT
 	release
@@ -194,6 +195,7 @@ LilycoveCity_EventScript_MoveDeletersHouseSign::
 
 LilycoveCity_EventScript_WailmerTrainerGrunt::
 	lockall
+	bufferspeciesname STR_VAR_1, SPECIES_WAILMER
 	goto_if_set FLAG_MET_WAILMER_TRAINER, LilycoveCity_EventScript_MetWailmerTrainer
 	msgbox LilycoveCity_Text_WailmerLeapOutOfWater, MSGBOX_DEFAULT
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
@@ -410,349 +412,337 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-	.string "MAY: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, are you shopping, too?\p"
-	.string "I bought a whole bunch of DOLLS and\n"
-	.string "POSTERS.\p"
-	.string "Of course, I've also caught a lot of\n"
-	.string "POKéMON, and I'm raising them\l"
-	.string "properly, too.\p"
-	.string "Actually, I'm more worried if you're\n"
-	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
-	.string "I'll battle with you, so you can show\n"
-	.string "me your POKéMON, {PLAYER}{KUN}.$"
+    .string "מאי: או, היי?\n"
+    .string "{PLAYER}{KUN}, גם אתה עושה קניות?\p"
+    .string "קניתי המון בובות ופוסטרים.\p"
+    .string "כמובן, גם תפסתי הרבה פוקימונים,\n"
+    .string "ואני גם מגדלת אותם כמו שצריך.\p"
+    .string "למעשה, אני יותר מודאגת אם אתה\n"
+    .string "מגדל פוקימונים כמו שצריך, {PLAYER}{KUN}.\p"
+    .string "אני אערוך איתך קרב, כדי שתוכל להראות\n"
+    .string "לי את הפוקימונים שלך, {PLAYER}{KUN}.$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
-	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
-	.string "been raising your POKéMON?\p"
-	.string "That's not a very good showing as a\n"
-	.string "TRAINER…$"
+    .string "מאי: או, למה? {PLAYER}{KUN}, לא גידלת\n"
+    .string "את הפוקימונים שלך?\p"
+    .string "זה לא מראה טוב כל כך בתור מאמן…$"
 
 LilycoveCity_Text_MayBattleMe:
-	.string "MAY: Come on, battle with me, so I can\n"
-	.string "check out your POKéMON!$"
+    .string "מאי: נו, בוא נלחם, כדי שאוכל\n"
+    .string "לבדוק את הפוקימונים שלך!$"
 
 LilycoveCity_Text_MayWontBeBeaten:
-	.string "MAY: The POKéMON I raised won't be\n"
-	.string "beaten by your POKéMON, {PLAYER}{KUN}!$"
+    .string "מאי: הפוקימונים שגידלתי לא יובסו\n"
+    .string "על ידי הפוקימונים שלך, {PLAYER}{KUN}!$"
 
 LilycoveCity_Text_MayDefeat:
-	.string "… … … … … … … …\p"
-	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
-	.string "That battle helped you become this\n"
-	.string "strong, {PLAYER}{KUN}, didn't it?$"
+    .string "… … … … … … … …\p"
+    .string "אני זוכרת את הקרב שהיה לי איתך,\n"
+    .string "{PLAYER}{KUN}, בדרך 301.\p"
+    .string "הקרב הזה עזר לך להתחזק ככה, {PLAYER}{KUN},\n"
+    .string "נכון?$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
-	.string "MAY: I'm thinking of going back to\n"
-	.string "LITTLEROOT soon.\p"
-	.string "I've caught a decent group of POKéMON,\n"
-	.string "and my POKéDEX is coming along, so\l"
-	.string "I'm going home to show my dad.$"
+    .string "מאי: אני חושבת לחזור בקרוב לליטלרוט.\p"
+    .string "תפסתי קבוצה נחמדה של פוקימונים,\n"
+    .string "והפוקידע שלי מתקדם, אז\l"
+    .string "אני הולכת הביתה להראות לאבא שלי.$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Well, while you're collecting BADGES,\n"
-	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "POKéDEX. I'll complete it before you!\p"
-	.string "See you!$"
+    .string "{PLAYER}{KUN}, מה אתה הולך לעשות?\p"
+    .string "לאסוף את כל תגי המכון ולגשת לאתגר\n"
+    .string "ליגת הפוקימונים?\p"
+    .string "טוב, בזמן שאתה אוסף תגים, {PLAYER}{KUN},\n"
+    .string "אני הולכת לעבוד על הפוקידע שלי.\l"
+    .string "אני אשלים אותו לפניך!\p"
+    .string "להתראות!$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the POKéMON LEAGUE\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
-	.string "See you!$"
+    .string "{PLAYER}{KUN}, מה אתה הולך לעשות?\p"
+    .string "אתה ניגש לאתגר ליגת הפוקימונים?\p"
+    .string "או שאתה הולך להשלים את הפוקידע שלך?\p"
+    .string "אולי הפסדתי לך בקרב, אבל אני אסיים\n"
+    .string "את הפוקידע שלי לפניך!\p"
+    .string "להתראות!$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the BATTLE FRONTIER\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my POKéDEX before you!\p"
-	.string "See you!$"
+    .string "{PLAYER}{KUN}, מה אתה הולך לעשות?\p"
+    .string "אתה ניגש לאתגר חזית הקרב?\p"
+    .string "או שאתה הולך להשלים את הפוקידע שלך?\p"
+    .string "אולי הפסדתי לך בקרב, אבל אני אסיים\n"
+    .string "את הפוקידע שלי לפניך!\p"
+    .string "להתראות!$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
-	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
-	.string "I'm running an errand for my dad.\n"
-	.string "No, I'm not buying any DOLLS.\p"
-	.string "Anyways, it's been a while.\p"
-	.string "Want to have a battle to see who's been\n"
-	.string "raising POKéMON better?$"
+    .string "ברנדן: אה, היי, זה {PLAYER}.\p"
+    .string "אני עושה שליחות בשביל אבא שלי.\n"
+    .string "לא, אני לא קונה בובות.\p"
+    .string "בכל אופן, עבר זמה מה.\p"
+    .string "רוצה קרב כדי לראות מי אימן\n"
+    .string "את הפוקימונים שלו טוב יותר?$"
 
 LilycoveCity_Text_BrendanNoConfidence:
-	.string "BRENDAN: Oh, what's the matter?\n"
-	.string "Don't have the confidence?$"
+    .string "ברנדן: אה, מה קרה?\n"
+    .string "אין לך ביטחון?$"
 
 LilycoveCity_Text_BrendanBattleMe:
-	.string "BRENDAN: Want to battle to see who's\n"
-	.string "been raising POKéMON better?$"
+    .string "ברנדן: רוצה קרב כדי לראות מי אימן\n"
+    .string "את הפוקימונים שלו טוב יותר?$"
 
 LilycoveCity_Text_BrendanWontBeBeaten:
-	.string "BRENDAN: Aww, but you know I'm not\n"
-	.string "going to lose to no {PLAYER}.$"
+    .string "ברנדן: אוו, אבל את יודעת שאני לא\n"
+    .string "אפסיד לאף {PLAYER}.$"
 
 LilycoveCity_Text_BrendanDefeat:
-	.string "Humph…\n"
-	.string "You've done a lot of raising.\p"
-	.string "That stings a bit--I had a head start\n"
-	.string "on you as a TRAINER…$"
+    .string "המפ…\n"
+    .string "עשית הרבה אימונים.\p"
+    .string "זה קצת צורב--הייתה לי התחלה מוקדמת\n"
+    .string "עליך בתור מאמן…$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
-	.string "BRENDAN: I…\n"
-	.string "I plan on going home to LITTLEROOT.\p"
-	.string "You know I'm helping out my dad on his\n"
-	.string "POKéDEX. It's coming together pretty\l"
-	.string "decently, so I should go show him.$"
+    .string "ברנדן: אני…\n"
+    .string "אני מתכנן לחזור הביתה לליטלרוט.\p"
+    .string "את יודעת שאני עוזר לאבא שלי עם\n"
+    .string "הפוקידע שלו. זה מתקדם יפה,\l"
+    .string "אז אני צריך ללכת להראות לו.$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Maybe I'll do that, too…\p"
-	.string "Well, anyway, hang in there!$"
+    .string "{PLAYER}, מה את הולכת לעשות?\p"
+    .string "לאסוף את כל תגי המכון ולגשת לאתגר\n"
+    .string "ליגת הפוקימונים?\p"
+    .string "אולי אני אעשה את זה גם…\p"
+    .string "טוב, בכל אופן, תהיי חזקה!$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Since you're that strong, are you\n"
-	.string "taking the POKéMON LEAGUE challenge?\p"
-	.string "Heh, even me--if I trained my POKéMON\n"
-	.string "a bit more, I should be stronger than\l"
-	.string "you, {PLAYER}.\p"
-	.string "Well, anyway, hang in there!$"
+    .string "{PLAYER}, מה את הולכת לעשות?\p"
+    .string "מכיוון שאת כל כך חזקה, האם את ניגשת\n"
+    .string "לאתגר ליגת הפוקימונים?\p"
+    .string "הא, גם אני--אם אני אאמן את הפוקימונים\n"
+    .string "שלי קצת יותר, אני צריך להיות חזק יותר\l"
+    .string "ממך, {PLAYER}.\p"
+    .string "טוב, בכל אופן, תהיי חזקה!$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Are you taking the BATTLE FRONTIER\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "Since you're that strong, you should\n"
-	.string "consider the BATTLE FRONTIER.\p"
-	.string "Heh, if I train my POKéMON a bit more,\n"
-	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the BATTLE\n"
-	.string "FRONTIER.\p"
-	.string "Well, anyway, hang in there!$"
+    .string "{PLAYER}, מה את הולכת לעשות?\p"
+    .string "את ניגשת לאתגר חזית הקרב?\p"
+    .string "או שאת הולכת להשלים את הפוקידע שלך?\p"
+    .string "מכיוון שאת כל כך חזקה, כדאי לך\n"
+    .string "לשקול את חזית הקרב.\p"
+    .string "הא, אם אני אאמן את הפוקימונים שלי קצת\n"
+    .string "יותר, אני אתחזק יותר ממך, {PLAYER}.\p"
+    .string "אולי אני צריך ללכת לחזית הקרב.\p"
+    .string "טוב, בכל אופן, תהיי חזקה!$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
-	.string "Fufufu…\p"
-	.string "We moved more loot into our secret\n"
-	.string "HIDEOUT today…\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+    .string "פופופו…\p"
+    .string "היום העברנו עוד שלל למחבוא הסודי\n"
+    .string "שלנו…\p"
+    .string "מ-מי את{EMIT_HEY}?!\n"
+    .string "אני רק דיברתי לעצמי!$"
 
 LilycoveCity_Text_ChanceToDoBigThings:
-	.string "I'm just a GRUNT, so I don't know what\n"
-	.string "the BOSS is thinking…\p"
-	.string "But being on TEAM AQUA, I know I'll get\n"
-	.string "the chance to do big things!\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+    .string "אני רק עובד, אז אני לא יודע מה\n"
+    .string "הבוס חושב…\p"
+    .string "אבל להיות בצוות אקווה, אני יודע שאקבל\n"
+    .string "את ההזדמנות לעשות דברים גדולים!\p"
+    .string "מ-מי את{EMIT_HEY}?!\n"
+    .string "אני רק דיברתי לעצמי!$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-	.string "Hey, you!\p"
-	.string "Don't go near the cave in the cove!\p"
-	.string "Why? You don't need a reason why!\n"
-	.string "I'm an adult, so you just listen to me!$"
+    .string "היי, את{EMIT_HEY}!\p"
+    .string "אל תתקרב{ADD_YUD} למערה במפרץ!\p"
+    .string "למה? את{EMIT_HEY} לא צרי{SWAP_CHAF}{ADD_HEY} סיבה למה!\n"
+    .string "אני מבוגר, אז פשוט תקשיב{ADD_YUD} לי!$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
-	.string "If this whole wide world becomes ours,\n"
-	.string "TEAM AQUA's, it will be a happier\l"
-	.string "place for POKéMON, too.$"
+    .string "אם כל העולם הרחב הזה יהפוך להיות שלנו,\n"
+    .string "של צוות אקווה, זה יהיה מקום מאושר יותר\l"
+    .string "גם לפוקימונים.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! WAILMER!\n"
-	.string "Leap out of the water now!$"
+    .string "שם! {STR_VAR_1}!\n"
+    .string "קפוץ מהמים עכשיו!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
-	.string "Hunh? What do you want?\p"
-	.string "You're messing up our training,\n"
-	.string "so can you, like, get lost?$"
+    .string "הא? מה את{EMIT_HEY} רוצה?\p"
+    .string "את{EMIT_HEY} מפריע{ADD_HEY} לאימונים שלנו,\n"
+    .string "אז את{EMIT_HEY} יכול{ADD_HEY}, כאילו, ללכת לאיבוד?$"
 
 LilycoveCity_Text_ContestHallInTown:
-	.string "There's a POKéMON CONTEST HALL\n"
-	.string "right in this here town. \p"
-	.string "That means well-raised POKéMON will\n"
-	.string "come from all over the country.\p"
-	.string "My heart swells with excitement!$"
+    .string "יש אולם תחרויות פוקימונים\n"
+    .string "בדיוק בעיר הזו. \p"
+    .string "זה אומר שפוקימונים מאומנים היטב\n"
+    .string "יגיעו מכל רחבי המדינה.\p"
+    .string "ליבי מתמלא בהתרגשות!$"
 
 LilycoveCity_Text_StrangeCaveInCove:
-	.string "Have you seen that strange cave in\n"
-	.string "the cove at the edge of town?$"
+    .string "את{EMIT_HEY} ראית את המערה המוזרה הזו\n"
+    .string "במפרץ שבקצה העיר?$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
-	.string "I'm going to teach my POKéMON some new\n"
-	.string "moves for entering a CONTEST.\p"
-	.string "So, I'm going to see the MOVE DELETER\n"
-	.string "and make it forget HM moves.$"
+    .string "אני הולך ללמד את הפוקימון שלי כמה\n"
+    .string "מהלכים חדשים כדי להיכנס לתחרות.\p"
+    .string "אז, אני הולך לראות את מוחק המהלכים\n"
+    .string "ולגרום לו לשכוח מהלכי מ”נ.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The HOENN region is beautiful with\n"
-	.string "all its water and verdant nature.\p"
-	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare POKéMON that live\n"
-	.string "only in this area?$"
+    .string "באתי מקאנטו.\p"
+    .string "אזור הואן יפהפה עם כל\n"
+    .string "המים והטבע הירוק שלו.\p"
+    .string "האא? רגע אחד…\p"
+    .string "האם יתכנו פוקימונים נדירים שחיים\n"
+    .string "רק באזור הזה?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM AQUA's been training their\n"
-	.string "WAILMER in the cove.\p"
-	.string "We SAILORS can't get our boats out\n"
-	.string "to sea with them in the way!$"
+    .string "צוות אקווה מאמן את ה{STR_VAR_1} שלו\n"
+    .string "במפרץ.\p"
+    .string "אנחנו המלחים לא יכולים להוציא את\n"
+    .string "הסירות שלנו לים כשהם בדרך!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
-	.string "Ahoy, did you know?\p"
-	.string "Someone punted TEAM AQUA out of\n"
-	.string "the way for us!\p"
-	.string "That got the WAILMER out of the cove,\n"
-	.string "so we can get our boats out again.$"
+    .string "אהוי, ידעת?\p"
+    .string "מישהו הדף את צוות אקווה החוצה\n"
+    .string "מהדרך בשבילנו!\p"
+    .string "זה הוציא את ה{STR_VAR_1} מהמפרץ,\n"
+    .string "אז אנחנו יכולים להוציא את הסירות שלנו שוב.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
-	.string "I was taking a relaxing snooze at the\n"
-	.string "seaside inn to the sound of waves…\p"
-	.string "When someone stole my POKéMON!\p"
-	.string "Who's the abductor?\n"
-	.string "TEAM AQUA? Is it TEAM AQUA?$"
+    .string "תפסתי תנומה רגועה בפונדק שליד הים\n"
+    .string "לצלילי הגלים…\p"
+    .string "כשמישהו גנב לי את הפוקימון!\p"
+    .string "מי החוטף?\n"
+    .string "צוות אקווה? זה צוות אקווה?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
-	.string "My missing POKéMON…\n"
-	.string "It came back without me noticing!$"
+    .string "הפוקימון החסר שלי…\n"
+    .string "הוא חזר מבלי ששמתי לב!$"
 
 LilycoveCity_Text_ImArtDealer:
-	.string "I'm an ART DEALER.\p"
-	.string "I am a buyer and seller of fine art,\n"
-	.string "especially paintings.\p"
-	.string "I've heard that the MUSEUM here has\n"
-	.string "magnificent works on exhibit…$"
+    .string "אני סוחר אומנות.\p"
+    .string "אני קונה ומוכר אומנות יפה,\n"
+    .string "במיוחד ציורים.\p"
+    .string "שמעתי שבמוזיאון כאן יש\n"
+    .string "יצירות מפוארות בתערוכה…$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
-	.string "Even as we grow old and wrinkled,\n"
-	.string "the sea remains forever young with\l"
-	.string "the vivid brilliance of life…\p"
-	.string "Fwohoho fwohohohoho…$"
+    .string "גם כשאנחנו מזדקנים ומקבלים קמטים,\n"
+    .string "הים נשאר צעיר לנצח עם\l"
+    .string "הזוהר העז של החיים…\p"
+    .string "פוהוהו פוהוהוהוהו…$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
-	.string "It was sixty years ago that my husband\n"
-	.string "proposed to me here.\l"
-	.string "The sea remains as beautiful as ever.\p"
-	.string "Mufufufu mufufufufufu…$"
+    .string "זה היה לפני שישים שנה שבעלי\n"
+    .string "הציע לי נישואין כאן.\l"
+    .string "הים נשאר יפה כתמיד.\p"
+    .string "מופופופו מופופופופופו…$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
-	.string "Hm, you know of the peculiar cavern\n"
-	.string "in this cove?\p"
-	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
-	.string "along and made their renovations.\p"
-	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
-	.string "But what they do and what they say\n"
-	.string "don't match at all!$"
+    .string "המ, את{EMIT_HEY} יודע{ADD_TAF} על המערה המוזרה\n"
+    .string "במפרץ הזה?\p"
+    .string "זו היתה תצורה טבעית,\n"
+    .string "אבל אז החבר'ה האלה מצוות אקווה באו\l"
+    .string "ועשו את השיפוצים שלהם.\p"
+    .string "הם קוראים לעצמם\n"
+    .string "”צוות אקווה אוהב הטבע“!\p"
+    .string "אבל מה שהם עושים ומה שהם אומרים\n"
+    .string "לא תואם בכלל!$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
-	.string "That cave in the cove…\p"
-	.string "I didn't notice it right away,\n"
-	.string "but it's completely empty now.\p"
-	.string "That TEAM AQUA lot, they must\n"
-	.string "have gone away for good.$"
+    .string "המערה הזו במפרץ…\p"
+    .string "לא שמתי לב מיד,\n"
+    .string "אבל היא ריקה לחלוטין עכשיו.\p"
+    .string "החבר'ה האלה של צוות אקווה, הם בטח\n"
+    .string "הלכו משם לתמיד.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
-	.string "“Where the land ends and the\n"
-	.string "sea begins.”$"
+    .string "העיר ליליקוב\p"
+    .string "”המקום בו היבשה נגמרת\n"
+    .string "והים מתחיל.“$"
 
 LilycoveCity_Text_ContestHallSign:
-	.string "POKéMON CONTEST HALL\n"
-	.string "“The gathering place for TRAINERS!”$"
+    .string "אולם תחרויות פוקימונים\n"
+    .string "”מקום ההתכנסות של מאמנים!“$"
 
 LilycoveCity_Text_MotelSign:
-	.string "COVE LILY MOTEL\p"
-	.string "“Remember us as COVE LILY of\n"
-	.string "LILYCOVE.”$"
+    .string "מלונית שושנת המפרץ\p"
+    .string "”זכרו אותנו כשושנת המפרץ של\n"
+    .string "ליליקוב.“$"
 
 LilycoveCity_Text_MuseumSign:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“POKéMON Masterpiece Collection\n"
-	.string "on exhibit!”$"
+    .string "מוזיאון ליליקוב\p"
+    .string "”אוסף מופת של פוקימונים\n"
+    .string "בתערוכה!“$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“{PLAYER}'s POKéMON Collection\n"
-	.string "on exhibit!”$"
+    .string "מוזיאון ליליקוב\p"
+    .string "”אוסף הפוקימונים של {PLAYER}\n"
+    .string "בתערוכה!“$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in SLATEPORT CITY.\p"
-	.string "“Service is scheduled to begin\n"
-	.string "shortly.”$"
+    .string "נמל העיר ליליקוב\p"
+    .string "”מעבורת א/ק גאות נמצאת בבנייה\n"
+    .string "בעיר סלייטפורט.\p"
+    .string "”השירות מתוכנן להתחיל בקרוב.“$"
 
 LilycoveCity_Text_HarborSign:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. TIDAL.”$"
+    .string "נמל העיר ליליקוב\p"
+    .string "“תהנו משייט נעים על\n"
+    .string "מעבורת א/ק גאות.“$"
 
 LilycoveCity_Text_TrainerFanClubSign:
-	.string "POKéMON TRAINER FAN CLUB\p"
-	.string "The names of TRAINERS are scribbled\n"
-	.string "all over the sign…$"
+    .string "מועדון המעריצים של מאמני הפוקימונים\p"
+    .string "השמות של המאמנים משורבטים\n"
+    .string "על כל השלט…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
-	.string "LILYCOVE DEPARTMENT STORE\p"
-	.string "“Overflowing with great merchandise\n"
-	.string "and excitement!\p"
-	.string "“A great place to find that something\n"
-	.string "you need!”$"
+    .string "חנות הכלבו של ליליקוב\p"
+    .string "”מלא בסחורה נהדרת\n"
+    .string "ובהתרגשות!\p"
+    .string "”מקום נהדר למצוא את הדבר\n"
+    .string "שאתם צריכים!“$"
 
 LilycoveCity_Text_MoveDeletersHouseSign:
-	.string "MOVE DELETER'S HOUSE\p"
-	.string "“Unwanted POKéMON moves deleted.”$"
+    .string "הבית של מוחק המהלכים\p"
+    .string "“מהלכי פוקימונים לא רצויים נמחקים.“$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
-	.string "Do you know about the machine\n"
-	.string "BERRY BLENDER?$"
+    .string "את{EMIT_HEY} יודע{ADD_TAF} על המכונה\n"
+    .string "בלנדר פירות יער?$"
 
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
-	.string "People have to work together to get it\n"
-	.string "to spin faster.\p"
-	.string "The faster you can make it spin, the\n"
-	.string "better {POKEBLOCK}S you can get, I've heard.$"
+    .string "אנשים צריכים לעבוד יחד כדי לגרום לזה\n"
+    .string "להסתובב מהר יותר.\p"
+    .string "ככל שאת{EMIT_HEY} יכול{ADD_HEY} לגרום לזה להסתובב מהר יותר,\n"
+    .string "כך תקבל{ADD_YUD} פוקיגושים טובים יותר, שמעתי.$"
 
 LilycoveCity_Text_ExplainBerryBlender:
-	.string "It's used for making a kind of candy\n"
-	.string "called a {POKEBLOCK}.\p"
-	.string "If you give a good {POKEBLOCK} to a POKéMON,\n"
-	.string "its condition will improve by a lot.$"
+    .string "זה משמש להכנת סוג של ממתק\n"
+    .string "שנקרא פוקיגוש.\p"
+    .string "אם אתה נותן פוקיגוש טוב לפוקימון,\n"
+    .string "הכושר שלו ישתפר מאוד.$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
-	.string "I heard there's a tower somewhere out\n"
-	.string "on the sea routes.\p"
-	.string "It's called the SKY PILLAR, I hear.$"
+    .string "שמעתי שיש איזה מגדל איפשהו בחוץ\n"
+    .string "בנתיבי הים.\p"
+    .string "קוראים לזה עמוד השמיים, כך שמעתי.$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
-	.string "I saw this tall tower somewhere\n"
-	.string "around ROUTE 131.\p"
-	.string "Could that possibly be…?$"
+    .string "ראיתי את המגדל הגבוה הזה איפשהו\n"
+    .string "סביב דרך 131.\p"
+    .string "האם זה יכול להיות…?$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-	.string "We just arrived here on our\n"
-	.string "honeymoon vacation.\p"
-	.string "We happened to see a DRAGON-type\n"
-	.string "POKéMON flying way up in the sky.\p"
-	.string "Do cool POKéMON like that live in\n"
-	.string "the HOENN region?$"
+    .string "הרגע הגענו לכאן לחופשת\n"
+    .string "ירח הדבש שלנו.\p"
+    .string "במקרה ראינו פוקימון מסוג דרקון\n"
+    .string "עף גבוה בשמיים.\p"
+    .string "האם פוקימונים מגניבים כאלה חיים\n"
+    .string "באזור הואן?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
-	.string "On our honeymoon, we vowed to see as\n"
-	.string "many rare POKéMON as we can.\p"
-	.string "So we were delighted to see a rare\n"
-	.string "POKéMON as soon as we arrived.\p"
-	.string "I mean, we are totally happy!$"
+    .string "בירח הדבש שלנו, נשבענו לראות כמה\n"
+    .string "שיותר פוקימונים נדירים שאפשר.\p"
+    .string "אז שמחנו לראות פוקימון נדיר\n"
+    .string "ברגע שהגענו.\p"
+    .string "כלומר, אנחנו לגמרי מאושרים!$"
 

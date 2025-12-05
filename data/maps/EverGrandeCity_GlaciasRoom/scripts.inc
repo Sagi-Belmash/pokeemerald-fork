@@ -59,25 +59,25 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-	.string "Welcome, my name is GLACIA\n"
-	.string "of the ELITE FOUR.\p"
-	.string "I've traveled from afar to HOENN\n"
-	.string "so that I may hone my ice skills.\p"
-	.string "But all I have seen are challenges by\n"
-	.string "weak TRAINERS and their POKéMON.\p"
-	.string "What about you?\p"
-	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "שלום, שמי גלסיה\n"
+	.string "מהרביעייה העלית.\p"
+	.string "טיילתי מרחוק לאזור הואן\n"
+	.string "כדי לחדד את כישורי הקרח שלי.\p"
+	.string "אבל כל מה שראיתי הם אתגרים של\n"
+	.string "מאמנים חלשים והפוקימונים שלהם.\p"
+	.string "ומה איתך?\p"
+	.string "אשמח מאוד אם אוכל\n"
+	.string "להילחם איתך מכל הלב!$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
-	.string "You and your POKéMON…\n"
-	.string "How hot your spirits burn!\p"
-	.string "The all-consuming heat overwhelms.\p"
-	.string "It's no surprise that my icy skills\n"
-	.string "failed to harm you.$"
+	.string "את{EMIT_HEY} והפוקימונים שלך…\n"
+	.string "כמה רוחכם בוערת!\p"
+	.string "החום הסוחף משתלט.\p"
+	.string "אין זה פלא שיכולות הקרח שלי\n"
+	.string "לא הצליחו לפגוע בך.$"
 
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
-	.string "Advance to the next room.\p"
-	.string "And there, confirm the truly fearsome\n"
-	.string "side of the POKéMON LEAGUE.$"
+	.string "התקד{SWAP_MEM}{ADD_YUD} לחדר הבא.\p"
+	.string "ושם, תתמודד{ADD_YUD} עם הצד האימתני\n"
+	.string "של ליגת הפוקימונים.$"
 

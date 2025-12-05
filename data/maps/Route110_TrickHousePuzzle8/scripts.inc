@@ -28,44 +28,44 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 	end
 
 Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER I love.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים האהוב.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
-	.string "Not many TRAINERS have made it\n"
-	.string "this far.$"
+	.string "לא הרבה מאמנים הגיעו\n"
+	.string "עד לכאן.$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
-	.string "That must mean you're tough, too…$"
+	.string "זה אומר שגם את{EMIT_HEY} חזק{ADD_HEY}…$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+	.string "ניצחת את אלוף ליגת הפוקימונים?\n"
+	.string "זה כבר יותר מדי!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
-	.string "Consider yourself lucky to be\n"
-	.string "battling me!$"
+	.string "תחשיב{ADD_YUD} את{EMIT_HEY} עצמך בר{ADD_TAF} מזל שאת{EMIT_HEY}\n"
+	.string "נלח{SWAP_MEM}{ADD_TAF} מולי!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
-	.string "This isn't right!\n"
-	.string "I can't lose!$"
+	.string "זה לא הגיוני!\n"
+	.string "אני לא יכולה להפסיד!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
-	.string "It's a miracle that you beat me.\n"
-	.string "You can brag about it.$"
+	.string "זה נס שניצחת אותי.\n"
+	.string "את{EMIT_HEY} יכול{ADD_HEY} להשוויץ בזה.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+	.string "גם את{EMIT_HEY} נאבקת דרך אתגר\n"
+	.string "בית הטריקים.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
-	.string "I see…\n"
-	.string "You possess an extraordinary style.$"
+	.string "אני מבין…\n"
+	.string "יש לך סגנון יוצא דופן.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
-	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "לראות מישהו כמוך בטח ישמח\n"
+	.string "את מאסטר הטריקים.$"
 

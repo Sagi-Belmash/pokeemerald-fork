@@ -302,44 +302,44 @@ Route110_TrickHousePuzzle3_EventScript_Alan::
 	end
 
 Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is coveted.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים הוא נחשק.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle3_Text_JustinIntro:
-	.string "I keep coming back to this same place!$"
+	.string "אני ממשיך לחזור למקום הזה!$"
 
 Route110_TrickHousePuzzle3_Text_JustinDefeat:
-	.string "I'm already having trouble, and then\n"
-	.string "you have to beat me? It's not fair!$"
+	.string "כבר יש לי בעיה, ואז\n"
+	.string "את{EMIT_HEY} בא{ADD_HEY} להביס אותי? זה לא הוגן!$"
 
 Route110_TrickHousePuzzle3_Text_JustinPostBattle:
-	.string "It's full of doors here!\n"
-	.string "It's too small and dark in here! Help!$"
+	.string "זה מלא בדלתות כאן!\n"
+	.string "קטן וחשוך מדי כאן! עזרה!$"
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro:
-	.string "I don't know what's going on here.\n"
-	.string "I'm starting to feel sad…$"
+	.string "אני לא יודעת מה קורה כאן.\n"
+	.string "אני מתחילה להרגיש עצובה…$"
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat:
-	.string "You… You're awful!$"
+	.string "את{EMIT_HEY}… את{EMIT_HEY} נורא{ADD_YUD}{ADD_TAF}!$"
 
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
-	.string "I know I'm weak!\n"
-	.string "And, I have no sense of direction!$"
+	.string "אני יודע שאני חלשה!\n"
+	.string "ואין לי חוש כיוון!$"
 
 Route110_TrickHousePuzzle3_Text_AlanIntro:
-	.string "I don't get it. What would anyone want\n"
-	.string "with a house this bizarre?$"
+	.string "אני לא מבין את זה. מה מישהו ירצה לעשות\n"
+	.string "עם בית כזה מוזר?$"
 
 Route110_TrickHousePuzzle3_Text_AlanDefeat:
-	.string "I don't get it.\n"
-	.string "How did I lose?$"
+	.string "אני לא מבין את זה.\n"
+	.string "איך הפסדתי?$"
 
 Route110_TrickHousePuzzle3_Text_AlanPostBattle:
-	.string "I don't get it.\n"
-	.string "How many traps are in this house?\p"
-	.string "You may be the one to solve that.$"
+	.string "אני לא מבין את זה.\n"
+	.string "כמה מלכודות בבית הזה?\p"
+	.string "אולי תוכל{ADD_YUD} לפתור את זה.$"
 

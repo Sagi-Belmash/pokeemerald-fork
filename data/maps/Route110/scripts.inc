@@ -739,251 +739,251 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-	.string "TEAM AQUA's activities…\n"
-	.string "We can't talk about them yet.$"
+	.string "פעילויות צוות אקווה…\n"
+	.string "אנחנו לא יכולים לדבר עליהן עדיין.$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
-	.string "kick up a ruckus!$"
+	.string "אני רוצה ללכת לסלייטפורט\n"
+	.string "ולגרום למהומה!$"
 
 Route110_Text_MyFirstJobInAqua:
-	.string "This is my first job after joining\n"
-	.string "TEAM AQUA. It's a little scary.$"
+	.string "זו העבודה הראשונה שלי אחרי שהצטרפתי\n"
+	.string "לצוות אקווה. זה קצת מפחיד.$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "TEAM AQUA's actions should bring\n"
-	.string "smiles to people's faces!$"
+	.string "הפעולות של צוות אקווה אמורות להביא\n"
+	.string "חיוכים לפניהם של אנשים!$"
 
 Route110_Text_MayLetsBattle:
-	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "מאי: היי, {PLAYER}{KUN}, הרבה זמן לא ראיתי אותך!\p"
+	.string "בזמן שחיפשתי פוקימונים\n"
+	.string "אחרים, הפוקימון שלי התחזק יותר.\p"
+	.string "אז…\n"
+	.string "מה דעתך על קרב קטן?$"
 
 Route110_Text_MayDefeated:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "יאייקס!\n"
+	.string "אתה טוב יותר ממה שציפיתי!$"
 
 Route110_Text_MayTakeThis:
-	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
+	.string "מאי: {PLAYER}{KUN}, היית גם עסוק\n"
+	.string "באימונים, נכון?\p"
+	.string "אני חושבת שמגיע לך פרס!\n"
+	.string "זה ממני!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
-	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "מאי: זה מאתר פריט.\p"
+	.string "נסה את זה. אם יש פריט שאינו\n"
+	.string "גלוי, הוא משמיע צליל.\p"
+	.string "אוקיי, {PLAYER}{KUN}, בוא ניפגש שוב!\p"
+	.string "אני יודעת שזה קצת מטופש מצדי,\n"
+	.string "אבל אני חושבת שאתה צריך להתאמן חזק\l"
+	.string "יותר לפעם הבאה.$"
 
 Route110_Text_BrendanLetsBattle:
-	.string "BRENDAN: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+	.string "ברנדן: היי, {PLAYER}.\n"
+	.string "אז זה המקום שבו היית.\l"
+	.string "מה קורה?\p"
+	.string "האם גידלת את הפוקימונים שלך?\n"
+	.string "אני אבדוק אותך.$"
 
 Route110_Text_BrendanDefeated:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "הממ…\n"
+	.string "את די טובה.$"
 
 Route110_Text_BrendanTakeThis:
-	.string "BRENDAN: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take this.$"
+	.string "ברנדן: {PLAYER}, התאמנת\n"
+	.string "בלי ששמתי לב…\p"
+	.string "מספיק טוב!\n"
+	.string "קחי את זה.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
-	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.$"
+	.string "ברנדן: זה מאתר פריט.\p"
+	.string "תשתמשי בו כדי לחפש פריטים\n"
+	.string "שאינם גלויים.\p"
+	.string "אם הוא חש משהו, הוא משמיע\n"
+	.string "צליל.\p"
+	.string "בכל מקרה, אני יוצא לחפש פוקימונים\n"
+	.string "חדשים.$"
 
 Route110_Text_RideBikeAtFullSpeed:
-	.string "Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?$"
+	.string "האם זה לא יהיה נהדר לרכוב על אופניים\n"
+	.string "במלוא המהירות בשביל האופניים?$"
 
 Route110_Text_HairStreamsBehindMe:
-	.string "How do you like the way my raven-\n"
-	.string "colored hair streams behind me?\p"
-	.string "I grew my hair out just for that.$"
+	.string "איך את{EMIT_HEY} אוהב{ADD_TAF} את הדרך שבה השיער\n"
+	.string "שלי בצבע עורב מתנופף מאחוריי?\p"
+	.string "הארכתי את השיער שלי רק בשביל זה.$"
 
 Route110_Text_YouGotBikeFromRydel:
-	.string "Oh, hey, you got that BIKE from RYDEL!\p"
-	.string "Oh, it's glaringly obvious.\n"
-	.string "It says right on your bike…\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
-	.string "That name's everywhere.\p"
-	.string "You should ride it around all over\n"
-	.string "the place--it's good advertising!$"
+	.string "או, היי, קיבלת את האופניים האלה מריידל!\p"
+	.string "או, זה ברור לחלוטין.\n"
+	.string "זה כתוב ממש על האופניים שלך…\p"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\n"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\p"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\n"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\p"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\n"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\p"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\n"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל,\p"
+	.string "ריידל, ריידל, ריידל, ריידל, ריידל…\n"
+	.string "השם הזה נמצא בכל מקום.\p"
+	.string "כדאי לך לרכוב עליהם בכל\n"
+	.string "מקום--זו פרסומת טובה!$"
 
 Route110_Text_TwoRoads:
-	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and POKéMON.\n"
-	.string "Perhaps that is right and fair.$"
+	.string "שתי הדרכים, אחת למעלה, אחת למטה…\p"
+	.string "דרך לכל אחד מבני אדם ופוקימונים.\n"
+	.string "אולי זה הוגן ונכון.$"
 
 Route110_Text_WalkOnTheLowRoad:
-	.string "I don't have a BIKE, so I'll take\n"
-	.string "a leisurely walk on the low road.$"
+	.string "אין לי אופניים, אז אני אעשה\n"
+	.string "הליכה נינוחה בדרך התחתונה.$"
 
 Route110_Text_BikeTechniques:
-	.string "Learning techniques will make BIKE\n"
-	.string "riding even more fun.\p"
-	.string "There are some places that you can\n"
-	.string "reach only by using a BIKE technique.$"
+	.string "לימוד טכניקות יהפוך את רכיבת האופניים\n"
+	.string "לכיפית עוד יותר.\p"
+	.string "יש כמה מקומות שאת{EMIT_HEY} יכול{ADD_HEY}\n"
+	.string "להגיע אליהם רק באמצעות טכניקת אופניים.$"
 
 Route110_Text_WhichShouldIChoose:
-	.string "Which should I choose?\p"
-	.string "Make a beeline for MAUVILLE on\n"
-	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for POKéMON?$"
+	.string "במה עליי לבחור?\p"
+	.string "ללכת בקו ישר למוויל\n"
+	.string "בשביל האופניים, או לקחת את הדרך התחתונה\l"
+	.string "ולחפש פוקימונים?$"
 
 Route110_Text_CyclingChallengeResultSummary:
-	.string "Number of collisions:\n"
+	.string "מספר ההתנגשויות:\n"
 	.string "… … {STR_VAR_1}!\p"
-	.string "Total time:\n"
+	.string "זמן כולל:\n"
 	.string "… … {STR_VAR_2}!$"
 
 Route110_Text_ChallengeReactionBest:
-	.string "Bravo! Splendid showing!\p"
-	.string "Your love of cycling comes from deep\n"
-	.string "within your heart.\l"
-	.string "You've shaken me to my very soul!$"
+	.string "בראבו! הופעה נהדרת!\p"
+	.string "האהבה שלך לרכיבה על אופניים מגיעה\n"
+	.string "עמוק מתוך ליבך.\l"
+	.string "זעזעת אותי עד עמקי נשמתי!$"
 
 Route110_Text_ChallengeReactionGood:
-	.string "Your technique is remarkable.\p"
-	.string "I suggest you speed up a bit while\n"
-	.string "still avoiding collisions.$"
+	.string "הטכניקה שלך יוצאת דופן.\p"
+	.string "אני מציע שתאי{SWAP_TZADIK}{ADD_YUD} קצת\n"
+	.string "ועדיין תמנע{ADD_YUD} מהתנגשויות.$"
 
 Route110_Text_ChallengeReactionOk:
-	.string "I would consider you a work in\n"
-	.string "progress.\p"
-	.string "Still, I hope you don't forget the\n"
-	.string "sheer pleasure of cycling.$"
+	.string "הייתי מחשיב אותך כעבודה\n"
+	.string "בתהליך.\p"
+	.string "עם זאת, אני מקווה שלא תשכח{ADD_YUD} את\n"
+	.string "ההנאה הטהורה של רכיבה על אופניים.$"
 
 Route110_Text_ChallengeReactionBad:
-	.string "My word… Your cycling skills border\n"
-	.string "on terrifying.\p"
-	.string "Most certainly, you need much more\n"
-	.string "practice riding.$"
+	.string "אלוהים… כישורי הרכיבה שלך גובלים\n"
+	.string "במפחיד.\p"
+	.string "את{EMIT_HEY} בהחלט צרי{SWAP_CHAF}{ADD_HEY} הרבה יותר\n"
+	.string "אימון ברכיבה.$"
 
 Route110_Text_ChallengeReactionWorst:
-	.string "…I am aghast…\p"
-	.string "You're perhaps not cut out for this\n"
-	.string "unfortunate cycling business.\p"
-	.string "You ought to give serious thought to\n"
-	.string "returning that BIKE to RYDEL.$"
+	.string "…אני מזועזע…\p"
+	.string "את{EMIT_HEY} אולי לא מתאי{SWAP_MEM}{ADD_HEY} לענייני\n"
+	.string "הרכיבה המצערים האלה.\p"
+	.string "כדאי לך לשקול ברצינות\n"
+	.string "להחזיר את האופניים האלה לריידל.$"
 
 Route110_Text_RatedForNumberOfCollisions:
-	.string "This is CYCLING ROAD.\p"
-	.string "If you were to ride from MAUVILLE to\n"
-	.string "SLATEPORT on a MACH BIKE, you would\l"
-	.string "be rated for the number of collisions\l"
-	.string "and your total time.$"
+	.string "זהו שביל האופניים.\p"
+	.string "אם תרכב{ADD_YUD} ממוויל\n"
+	.string "לסלייטפורט על אופני מאך, את{EMIT_HEY} תקבל{ADD_YUD}\l"
+	.string "דירוג על מספר ההתנגשויות\l"
+	.string "והזמן הכולל שלך.$"
 
 Route110_Text_AlwaysAimHigher:
-	.string "Regardless of the results, I count on\n"
-	.string "seeing more challenges from you.\l"
-	.string "Always aim higher!$"
+	.string "בלי קשר לתוצאות, אני סומך על\n"
+	.string "שאראה ממך עוד אתגרים.\l"
+	.string "תמיד כוו{SWAP_NUN}{ADD_YUD} גבוה יותר!$"
 
 Route110_Text_AcroBikesDoNotQualify:
-	.string "On this CYCLING ROAD, those riding\n"
-	.string "MACH BIKES are rated for their number\l"
-	.string "of collisions and their total times.\p"
-	.string "ACRO BIKES do not qualify for rating.\n"
-	.string "They are easy to turn, so it's not fair.$"
+	.string "בשביל האופניים הזה, אלה שרוכבים על\n"
+	.string "אופני מאך מדורגים על מספר\l"
+	.string "ההתנגשויות שלהם והזמן הכולל.\p"
+	.string "אופני אקרו לא מתאימים לדירוג.\n"
+	.string "קל מדי לפנות איתם, אז זה לא הוגן.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
-	.string "{DOWN_ARROW} SLATEPORT CITY$"
+	.string "דרך 011\n"
+	.string "{DOWN_ARROW} עיר סלייטפורט$"
 
 Route110_Text_CyclingRoadSign:
-	.string "SEASIDE CYCLING ROAD$"
+	.string "שביל האופניים לצד חוף הים$"
 
 Route110_Text_AquaWasHere:
-	.string "“TEAM AQUA was here!”\p"
-	.string "Someone painted that onto this sign,\n"
-	.string "but then someone else painted over it.\p"
-	.string "“TEAM MAGMA rules!” is what it\n"
-	.string "says now.$"
+	.string "”צוות אקווה היה כאן!“\p"
+	.string "מישהו צבע את זה על השלט הזה,\n"
+	.string "אבל מישהו אחר צבע מעל.\p"
+	.string "”צוות מגמה שולט!“ זה מה\n"
+	.string "שכתוב עכשיו.$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "דרך 011\n"
+	.string "{LEFT_ARROW} דרך 301$"
 
 Route110_Text_SeasideParkingSign:
-	.string "SEASIDE PARKING$"
+	.string "חניית חוף הים$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE CITY$"
+	.string "דרך 011\n"
+	.string "{UP_ARROW} העיר מוויל$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-	.string "TRAINER TIPS\p"
-	.string "The foe can be made helpless by\n"
-	.string "paralyzing it or causing it to sleep.\p"
-	.string "It is an important technique for\n"
-	.string "POKéMON battles.$"
+	.string "טיפים למאמנים\p"
+	.string "ניתן לגרום ליריב להיות חסר אונים על ידי\n"
+	.string "שיתוק שלו או על ידי לגרום לו לישון.\p"
+	.string "זו טכניקה חשובה עבור\n"
+	.string "קרבות פוקימונים.$"
 
 Route110_Text_TrainerTipsRegisterItems:
-	.string "TRAINER TIPS\p"
-	.string "The items in the BAG can be reorganized\n"
-	.string "by pressing SELECT.$"
+	.string "טיפים למאמנים\p"
+	.string "ניתן לארגן מחדש את הפריטים בתיק\n"
+	.string "על ידי לחיצה על TCELES.$"
 
 Route110_Text_TrickHouseSign:
-	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "”שלושה צעדים {RIGHT_ARROW} ושני צעדים {UP_ARROW}\n"
+	.string "כדי להגיע לבית הטריקים המופלא.“$"
 
 Route110_Text_BestRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No. of collisions: {STR_VAR_1}\p"
-	.string "Elapsed time: {STR_VAR_2}$"
+	.string "השיא הטוב ביותר עד היום…\p"
+	.string "מס' התנגשויות: {STR_VAR_1}\p"
+	.string "זמן שעבר: {STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No one seems to have taken the\n"
-	.string "challenge. There is no record…$"
+	.string "השיא הטוב ביותר עד היום…\p"
+	.string "נראה שאף אחד לא לקח את האתגר.\n"
+	.string "אין שיא…$"
 
 Route110_Text_ImagineSeeingYouHere:
-	.string "פרופ. בירץ': Oh, {PLAYER}{KUN}!\n"
-	.string "Imagine seeing you here!\p"
-	.string "And where might my {RIVAL} be?$"
+	.string "פרופ. בירץ': או, {PLAYER}{KUN}!\n"
+	.string "תאר{ADD_YUD} לעצמך לראות אותך כאן!\p"
+	.string "ואיפה היריב שלי?$"
 
 Route110_Text_HeardYouInstallMatchCall:
-	.string "Oh, I see!\n"
-	.string "You two are running separately.\l"
-	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your POKéNAV\n"
-	.string "had the MATCH CALL system installed.\p"
-	.string "Well, then, I should register you in\n"
-	.string "my POKéNAV as well.\p"
-	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.\p"
+	.string "או, אני מבין!\n"
+	.string "שניכם רצים בנפרד.\l"
+	.string "טוב, זה בסדר.\p"
+	.string "אה, כן, שמעתי שבפוקינווט שלך\n"
+	.string "הותקנה מערכת שיחת הקרב.\p"
+	.string "טוב, אם כן, אני צריך לרשום אותך\n"
+	.string "בפוקינווט שלי גם כן.\p"
+	.string "כך, גם כשאנחנו בנפרד,\n"
+	.string "אני יכול לדרג את הפוקידע שלך בכל עת.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
-	.string "Registered PROF. BIRCH\n"
-	.string "in the POKéNAV.$"
+	.string "פרופ' בירץ' נרשם\n"
+	.string "בפוקינווט.$"
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "פרופ. בירץ': {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for my {RIVAL}.\n"
+	.string "אנא השג{ADD_YUD}ח{ADD_YUD} על היריב שלי.\n"
 	.string "… … … … … …\p"
-	.string "Well, I had better get going.\n"
-	.string "See you again, {PLAYER}{KUN}!$"
+	.string "טוב, מוטב שאמשיך בדרכי.\n"
+	.string "נתראה שוב, {PLAYER}{KUN}!$"
 

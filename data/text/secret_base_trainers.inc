@@ -1,286 +1,286 @@
 SecretBase_Text_Trainer0Intro:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Since you're already here, how would\n"
-	.string "you like to battle?$"
+	.string "כבר הכנת בסיס סודי?\p"
+	.string "טיילתי לכאן, לשם, לכל מקום לפני\n"
+	.string "שבחרתי את המקום הזה.\p"
+	.string "מכיוון שאת{EMIT_HEY} כבר פה, מה דעתך\n"
+	.string "על קרב?$"
 
 SecretBase_Text_Trainer0AcceptBattle:
-	.string "Okay!\n"
-	.string "Here we come!$"
+	.string "אוקיי!\n"
+	.string "הנה אנחנו באים!$"
 
 SecretBase_Text_Trainer0DeclineBattle:
-	.string "Hunh?\n"
-	.string "Oh, you can't now…$"
+	.string "הא?\n"
+	.string "או, את{EMIT_HEY} לא יכול{ADD_HEY} עכשיו…$"
 
 SecretBase_Text_Trainer0Defeated::
-	.string "Waaargh! You're too strong!\n"
-	.string "About me losing… Please keep it secret!$"
+.string "וואאאר! את{EMIT_HEY} חזק{ADD_HEY} מדי!\n"	  
+	.string "לגבי ההפסד שלי… בבקשה תשמ{EMIT_VAV}ר{ADD_YUD} את זה בסוד!$"
 
 SecretBase_Text_Trainer0PostBattle:
-	.string "What do you think of my SECRET BASE?\n"
-	.string "Come visit me again tomorrow.$"
+	.string "מה את{EMIT_HEY} חושב{ADD_TAF} על הבסיס הסודי שלי?\n"
+.string "בוא{ADD_YUD} לבקר אותי שוב מחר.$"    
 
 SecretBase_Text_Trainer0PreChampion:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Feel free to hang out!$"
+.string "כבר הכנת בסיס סודי?\p"	   
+	.string "טיילתי לכאן, לשם, לכל מקום לפני\n"
+	.string "שבחרתי את המקום הזה.\p"
+	.string "תרגיש{ADD_YUD} חופשי להסתובב!$"
 
 SecretBase_Text_Trainer5Intro:
-	.string "There're a lot of places where\n"
-	.string "you can make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?\p"
-	.string "Oh, would you like to have a battle?$"
+.string "יש הרבה מקומות שבהם\n"	   
+	.string "אפשר להכין בסיס סודי.\p"
+	.string "אבל אני אוהב את הנקודה הזו הכי הרבה.\n"
+	.string "את{EMIT_HEY} לא חושב{ADD_TAF} שזה נחמד?\p"
+	.string "או, תרצ{EMIT_HEY}{ADD_YUD} לערוך קרב?$"
 
 SecretBase_Text_Trainer5AcceptBattle:
-	.string "Okay, here goes!$"
+	.string "אוקיי, הנה זה בא!$"
 
 SecretBase_Text_Trainer5DeclineBattle:
-	.string "Oh…\n"
-	.string "You can't now, okay.$"
+	.string "או…\n"
+	.string "את{EMIT_HEY} לא יכול{ADD_HEY} עכשיו, אוקיי.$"
 
 SecretBase_Text_Trainer5Defeated::
-	.string "Hmmm… It's our loss…\n"
-	.string "But don't tell anyone!\l"
-	.string "It's a confidential secret!$"
+.string "המממ… זה ההפסד שלנו…\n"	
+	.string "אבל אל תספר{ADD_YUD} לאף אחד!\l"
+	.string "זה סוד חסוי!$"
 
 SecretBase_Text_Trainer5PostBattle:
-	.string "If you're in this area again,\n"
-	.string "I hope you'll visit me.$"
+.string "אם את{EMIT_HEY} שוב באזור הזה,\n"	  
+	.string "אני מקווה שתבקר{ADD_YUD} אותי.$"
 
 SecretBase_Text_Trainer5PreChampion:
-	.string "There're a lot of places where you can\n"
-	.string "make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?$"
+.string "יש הרבה מקומות שבהם אפשר\n"	
+	.string "להכין בסיס סודי.\p"
+	.string "אבל אני אוהב את הנקודה הזו הכי הרבה.\n"
+	.string "את{EMIT_HEY} לא חושב{ADD_TAF} שזה נחמד?$"
 
 SecretBase_Text_Trainer1Intro:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "Oh! Were you thinking about\n"
-	.string "taking this spot, too?\p"
-	.string "I'll tell you what, you can have this\n"
-	.string "spot if you can beat me.$"
+	.string "זוהי נקודה פופולרית.\n"
+	.string "היא תמיד תפוסה.\p"
+	.string "או! חשבת גם על\n"
+	.string "לתפוס את הנקודה הזו?\p"
+	.string "אני אגיד לך מה, את{EMIT_HEY} יכול{ADD_HEY} לקבל את\n"
+	.string "הנקודה אם תצליח{ADD_YUD} להביס אותי.$"
 
 SecretBase_Text_Trainer1AcceptBattle:
-	.string "Okay!\n"
-	.string "I'm going to defend my SECRET BASE!$"
+	.string "אוקיי!\n"
+	.string "אני הולך להגן על הבסיס הסודי שלי!$"
 
 SecretBase_Text_Trainer1DeclineBattle:
-	.string "Hunh? Is that right?\n"
-	.string "You're not interested in this spot?$"
+	.string "האא? אכן כך?\n"
+	.string "את{EMIT_HEY} לא מעוניי{SWAP_NUN}{ADD_TAF} בנקודה הזו?$"
 
 SecretBase_Text_Trainer1Defeated::
-	.string "I can't keep going!\n"
-	.string "I surrender!$"
+	.string "אני לא יכול להמשיך!\n"
+	.string "אני נכנע!$"
 
 SecretBase_Text_Trainer1PostBattle:
-	.string "Okay, when I move one day,\n"
-	.string "this place will be yours!$"
+	.string "אוקיי, כשאני אעבור יום אחד,\n"
+	.string "המקום הזה יהיה שלך!$"
 
 SecretBase_Text_Trainer1PreChampion:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "I waited a long time for it to open.\n"
-	.string "I finally got to use it!$"
+	.string "זוהי נקודה פופולרית.\n"
+	.string "היא תמיד תפוסה.\p"
+.string "חיכיתי הרבה זמן עד שהיא תתפנה.\n"	  
+	.string "סוף סוף זכיתי להשתמש בה!$"
 
 SecretBase_Text_Trainer6Intro:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.\p"
-	.string "Would you like to see how strong I am?$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למעבדת הפוקימון שלי.\p"
+.string "אני עורך מחקר על קרבות\n"	  
+	.string "בסודיות.\p"
+	.string "תרצ{EMIT_HEY}{ADD_YUD} לראות כמה אני חזק?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
-	.string "I'm going to go all out!$"
+	.string "אני הולך לתת את כל כולי!$"
 
 SecretBase_Text_Trainer6DeclineBattle:
-	.string "Oh.\n"
-	.string "Some other time, then!$"
+	.string "או.\n"
+	.string "אז בפעם אחרת!$"
 
 SecretBase_Text_Trainer6Defeated::
-	.string "Hmm… I've still got lots to learn.\n"
-	.string "I have to study some more.$"
+.string "הממ… עדיין יש לי הרבה ללמוד.\n"	
+	.string "אני חייב ללמוד עוד.$"
 
 SecretBase_Text_Trainer6PostBattle:
-	.string "Thanks for battling with me.\n"
-	.string "Please come back again tomorrow.$"
+	.string "תודה על הקרב מולי.\n"
+	.string "בבקשה תחז{EMIT_VAV}ר{ADD_YUD} שוב מחר.$"
 
 SecretBase_Text_Trainer6PreChampion:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.$"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} למעבדת הפוקימון שלי.\p"
+.string "אני עורך מחקר על קרבות\n"	  
+	.string "בסודיות.\p"
 
 SecretBase_Text_Trainer2Intro:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.\p"
-	.string "So, how would you like a battle?$"
+	.string "אחוזה גדולה זה נחמד, אבל אני אוהב יותר\n"
+	.string "מקום שכזה.\p"
+.string "אני אוהב את זה כי כל מיני אנשים\n"	   
+	.string "באים לבקר אותי.\p"
+	.string "אז, מה דעתך על קרב?$"
 
 SecretBase_Text_Trainer2AcceptBattle:
-	.string "That's the way!$"
+	.string "ככה צריך!$"
 
 SecretBase_Text_Trainer2DeclineBattle:
-	.string "When you're ready, give me a shout!$"
+	.string "כשאת{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}, תקרא{ADD_YUD} לי!$"
 
 SecretBase_Text_Trainer2Defeated::
-	.string "Aww! Done in!\n"
-	.string "But it's still fun to battle!$"
+	.string "אוו! נגמר!\n"
+	.string "אבל זה עדיין כיף להילחם!$"
 
 SecretBase_Text_Trainer2PostBattle:
-	.string "Well, anyway, I should go buy some\n"
-	.string "decorations and furniture.\p"
-	.string "I want my SECRET BASE to be a place\n"
-	.string "other people can enjoy.$"
+.string "טוב, בכל מקרה, אני צריך ללכת לקנות\n"	  
+	.string "קצת קישוטים וריהוט.\p"
+	.string "אני רוצה שהבסיס הסודי שלי יהיה מקום\n"
+	.string "שאנשים אחרים יכולים ליהנות ממנו.$"
 
 SecretBase_Text_Trainer2PreChampion:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.$"
+	.string "אחוזה גדולה זה נחמד, אבל אני אוהב יותר\n"
+	.string "מקום שכזה.\p"
+.string "אני אוהב את זה כי כל מיני אנשים\n"	   
+	.string "באים לבקר אותי.$"
 
 SecretBase_Text_Trainer7Intro:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.\p"
-	.string "If you would be so kind, will you battle\n"
-	.string "with my POKéMON?$"
+.string "אני פשוט מעריץ קניות של קישוטים\n"
+	.string "וריהוט.\p"
+	.string "אני גם אוהב לגדל פוקימונים בדיוק\n"
+	.string "באותה מידה.\p"
+	.string "אם תהי{EMIT_HEY}{ADD_YUD} כל כך אדיב{ADD_HEY}, תילח{SWAP_MEM}{ADD_YUD}\n"
+	.string "מול הפוקימונים שלי?$"
 
 SecretBase_Text_Trainer7AcceptBattle:
-	.string "Thank you.\n"
-	.string "Shall we begin?$"
+	.string "תודה לך.\n"
+	.string "נתחיל?$"
 
 SecretBase_Text_Trainer7DeclineBattle:
-	.string "Oh.\n"
-	.string "How disappointing…$"
+	.string "או.\n"
+	.string "כמה מאכזב…$"
 
 SecretBase_Text_Trainer7Defeated::
-	.string "I concede…$"
+	.string "אני נכנע…$"
 
 SecretBase_Text_Trainer7PostBattle:
-	.string "That was all in good fun!\n"
-	.string "I should go enjoy shopping now.$"
+	.string "זה הכל היה בכיף גדול!\n"
+	.string "אני צריך ללכת להנות מקניות עכשיו.$"
 
 SecretBase_Text_Trainer7PreChampion:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.$"
+.string "אני פשוט מעריץ קניות של קישוטים\n"	   
+	.string "וריהוט.\p"
+.string "אני גם אוהב לגדל פוקימונים בדיוק\n"	
+	.string "באותה מידה.$"
 
 SecretBase_Text_Trainer3Intro:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?\p"
-	.string "But since you found me, how about we\n"
-	.string "have a battle?$"
+.string "יש אנשים שמכינים את הבסיסים הסודיים שלהם\n"	
+	.string "במקומות קשים למציאה.\l"
+	.string "האם הם רוצים פשוט להסתתר?\p"
+	.string "אבל מכיוון שמצאת אותי, מה דעתך\n"
+	.string "שנערוך קרב?$"
 
 SecretBase_Text_Trainer3AcceptBattle:
-	.string "I'm not going down easily!$"
+.string "אני לא הולך להיכנע בקלות!$"	
 
 SecretBase_Text_Trainer3DeclineBattle:
-	.string "Oh… Are you maybe tired from searching\n"
-	.string "for this place?$"
+	.string "או… אולי את{EMIT_HEY} עיי{SWAP_PEY}{ADD_HEY} מלחפש\n"
+	.string "את המקום הזה?$"
 
 SecretBase_Text_Trainer3Defeated::
-	.string "I went down…$"
+	.string "נפלתי…$"
 
 SecretBase_Text_Trainer3PostBattle:
-	.string "Where's your SECRET BASE?\n"
-	.string "I should go visit you there.$"
+	.string "איפה הבסיס הסודי שלך?\n"
+	.string "אני צריך לבוא לבקר אותך שם.$"
 
 SecretBase_Text_Trainer3PreChampion:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?$"
+.string "יש אנשים שמכינים את הבסיסים הסודיים שלהם\n"	
+	.string "במקומות קשים למציאה.\l"
+	.string "האם הם רוצים פשוט להסתתר?$"
 
 SecretBase_Text_Trainer8Intro:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!\p"
-	.string "In the meantime, want to battle?$"
+.string "אנשים אמרו לי שאפשר להשיג\n"
+	.string "קישוטים בכמה דרכים.\p"
+	.string "אנחנו צריכים לערוך מרוץ כדי לראות מי יכול\n"
+	.string "להשיג קישוטים וריהוט יפים יותר!\p"
+	.string "בינתיים, רוצה קרב?$"
 
 SecretBase_Text_Trainer8AcceptBattle:
-	.string "This is my SECRET BASE.\n"
-	.string "I can't lose!$"
+.string "זה הבסיס הסודי שלי.\n"	   
+	.string "אני לא יכול להפסיד!$"
 
 SecretBase_Text_Trainer8DeclineBattle:
-	.string "I'll battle with you anytime.$"
+	.string "אני אלחם מולך בכל עת.$"
 
 SecretBase_Text_Trainer8Defeated::
-	.string "Huh?\n"
-	.string "Did I just lose?$"
+	.string "הא?\n"
+	.string "האם הרגע הפסדתי?$"
 
 SecretBase_Text_Trainer8PostBattle:
-	.string "I won't lose at collecting decorations.\n"
-	.string "Come visit again!$"
+	.string "אני לא אפסיד באיסוף קישוטים.\n"
+	.string "בוא{ADD_YUD} לבקר שוב!$"
 
 SecretBase_Text_Trainer8PreChampion:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!$"
+.string "אנשים אמרו לי שאפשר להשיג\n"	 
+	.string "קישוטים בכמה דרכים.\p"
+	.string "אנחנו צריכים לערוך מרוץ כדי לראות מי יכול\n"
+	.string "להשיג קישוטים וריהוט יפים יותר!$"
 
 SecretBase_Text_Trainer4Intro:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "That's what I do.\n"
-	.string "Want to battle with me?$"
+.string "מצאתי נקודה שאהבתי, ועיצבתי אותה\n"	
+	.string "עם הקישוטים האהובים עלי.\p"
+	.string "אני מגדל את הפוקימון האהוב עלי ומתחזק\n"
+	.string "איתו.\p"
+	.string "זה מה שאני עושה.\n"
+	.string "רוצה להילחם איתי?$"
 
 SecretBase_Text_Trainer4AcceptBattle:
-	.string "Show me what you're made of!$"
+.string "הרא{EMIT_HEY}{ADD_YUD} לי ממה את{EMIT_HEY} עשוי{ADD_HEY}!$"	
 
 SecretBase_Text_Trainer4DeclineBattle:
-	.string "I guess there are times when you're not\n"
-	.string "into it.$"
+.string "אני מניח שיש זמנים שבהם את{EMIT_HEY} לא\n"    
+	.string "בעניין.$"
 
 SecretBase_Text_Trainer4Defeated::
-	.string "I know exactly what you're made of now.$"
+.string "אני יודע בדיוק ממה את{EMIT_HEY} עשוי{ADD_HEY} עכשיו.$"	   
 
 SecretBase_Text_Trainer4PostBattle:
-	.string "We can both become stronger.\n"
-	.string "Let's keep at it!$"
+.string "שנינו יכולים להתחזק.\n"	
+	.string "בוא{ADD_YUD} נמשיך בזה!$"
 
 SecretBase_Text_Trainer4PreChampion:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "Every day is a great day.$"
+.string "מצאתי נקודה שאהבתי, ועיצבתי אותה\n"	
+	.string "עם הקישוטים האהובים עלי.\p"
+	.string "אני מגדל את הפוקימון האהוב עלי ומתחזק\n"
+	.string "איתו.\p"
+	.string "כל יום הוא יום נהדר.$"
 
 SecretBase_Text_Trainer9Intro:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?\p"
-	.string "Want to see my taste in battling?$"
+.string "אפשר ללמוד הרבה על הטעם\n"	   
+	.string "והחוש של אנשים לפי סוגי\l"
+	.string "הקישוטים שיש להם, ואיך הם\l"
+	.string "מציגים אותם.\p"
+	.string "מה את{EMIT_HEY} חושב{ADD_TAF} על הטעם שלי?\n"
+	.string "את{EMIT_HEY} חסר{ADD_TAF} מילים?\p"
+	.string "רוצה לראות את הטעם שלי בקרבות?"
 
 SecretBase_Text_Trainer9AcceptBattle:
-	.string "There's no holding back!$"
+	.string "אין התאפקות!$"
 
 SecretBase_Text_Trainer9DeclineBattle:
-	.string "I'll be happy to demonstrate my style\n"
-	.string "anytime.$"
+.string "אשמח להדגים את הסגנון שלי\n"	 
+	.string "בכל עת.$"
 
 SecretBase_Text_Trainer9Defeated::
-	.string "You're supremely talented!\n"
-	.string "Your power seems to be limitless…$"
+.string "את{EMIT_HEY} מוכשר{ADD_TAF} בצורה יוצאת דופן!\n"	
+	.string "הכוח שלך נראה בלתי מוגבל…$"
 
 SecretBase_Text_Trainer9PostBattle:
-	.string "What did you think of my style?\n"
-	.string "I'll keep on polishing it!$"
+.string "מה חשבת על הסגנון שלי?\n"	  
+	.string "אני אמשיך לשפשף אותו!$"
 
 SecretBase_Text_Trainer9PreChampion:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?$"
+.string "אפשר ללמוד הרבה על הטעם\n"	   
+	.string "והחוש של אנשים לפי סוגי\l"
+	.string "הקישוטים שיש להם, ואיך הם\l"
+	.string "מציגים אותם.\p"
+	.string "מה את{EMIT_HEY} חושב{ADD_TAF} על הטעם שלי?\n"
+	.string "את{EMIT_HEY} חסר{ADD_TAF} מילים?$"

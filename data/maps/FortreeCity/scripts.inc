@@ -88,69 +88,69 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-	.string "No one believes me, but I saw this\n"
-	.string "gigantic POKéMON in the sky.\p"
-	.string "It seemed to squirm as it flew toward\n"
-	.string "ROUTE 131.\p"
-	.string "By the way… Sniff…\n"
-	.string "Um… You, uh…smell singed.\p"
-	.string "Were you at a volcano or something?$"
+	.string "אף אחד לא מאמין לי, אבל ראיתי פוקימון\n"
+	.string "ענקי בשמיים.\p"
+	.string "הוא נראה מתפתל בזמן שהוא עף לכיוון\n"
+	.string "דרך 131.\p"
+	.string "דרך אגב… רחרוח…\n"
+	.string "אמ… את{EMIT_HEY}, אה… מריח{ADD_HEY} שרו{SWAP_PEY}{ADD_HEY}.\p"
+	.string "היית בהר געש או משהו?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
-	.string "but something's blocking the way.\p"
-	.string "After all the bother I went through\n"
-	.string "training on ROUTE 120…$"
+	.string "אני רוצה ללכת למכון הפוקימונים,\n"
+	.string "אבל משהו חוסם את הדרך.\p"
+	.string "אחרי כל הטרחה שעברתי\n"
+	.string "באימונים בדרך 021…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "הבאתי איתי את הפוקימונים שהם מקור\n"
+	.string "גאוותי ושמחתי. הפעם, אני אנצח את וינונה.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
-	.string "trees grow by drinking that water…\p"
-	.string "Our FORTREE CITY exists because\n"
-	.string "there's both water and soil.$"
+	.string "האדמה סופגת מי גשמים,\n"
+	.string "והעצים גדלים על ידי שתיית המים האלה…\p"
+	.string "העיר פורטרי שלנו קיימת כי יש\n"
+	.string "גם מים וגם אדמה.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "The CITY consists of homes built on\n"
-	.string "trees.\p"
-	.string "Perhaps because of that lifestyle,\n"
-	.string "everyone is healthy and lively.\p"
-	.string "Why, even myself--I feel as if I've\n"
-	.string "grown thirty years younger.$"
+	.string "העיר מורכבת מבתים שנבנו על\n"
+	.string "עצים.\p"
+	.string "אולי בגלל אורח החיים הזה,\n"
+	.string "כולם בריאים ותוססים.\p"
+	.string "וכן, אפילו אני--אני מרגיש כאילו\n"
+	.string "התבגרתי שלושים שנה צעיר יותר.$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
-	.string "Living on top of trees is okay.\p"
-	.string "But sometimes BUG POKéMON come in\n"
-	.string "through windows.\l"
-	.string "It can be really startling.$"
+	.string "לחיות על צמרות העצים זה בסדר.\p"
+	.string "אבל לפעמים פוקימוני חרק נכנסים\n"
+	.string "דרך החלונות.\l"
+	.string "זה יכול להיות ממש מבהיל.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are POKéMON that evolve when\n"
-	.string "you trade them! That's what I heard.$"
+	.string "יש פוקימונים שמתפתחים כשאת{EMIT_HEY}\n"
+	.string "מחלי{SWAP_PEY}{ADD_HEY} אותם! זה מה ששמעתי.$"
 
 FortreeCity_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "משהו בלתי נראה חוסם את הדרך.$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "משהו בלתי נראה חוסם את הדרך.\p"
+	.string "רוצה להשתמש בעדשת דבון?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON fled!$"
+	.string "{PLAYER} השתמש{ADD_HEY} בעדשת דבון.\p"
+	.string "פוקימון בלתי נראה הפך לגלוי\n"
+	.string "לחלוטין!\p"
+	.string "הפוקימון המבוהל נמלט!$"
 
 FortreeCity_Text_CitySign:
-	.string "FORTREE CITY\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string "העיר פורטרי\n"
+	.string "”עיר צמרות העצים שמשתעשעת עם\l"
+	.string "הטבע.“$"
 
 FortreeCity_Text_GymSign:
-	.string "FORTREE CITY POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
-	.string "“The bird user taking flight into\n"
-	.string "the world.”$"
+	.string "מכון הפוקימונים של העיר פורטרי\n"
+	.string "מנהיגה: וינונה\p"
+	.string "”משתמשת הציפורים הממריאה אל\n"
+	.string "העולם.“$"
 

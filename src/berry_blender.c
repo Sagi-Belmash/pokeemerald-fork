@@ -282,14 +282,14 @@ static const u8 *const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = sText_Miss
 };
 
-static const u8 sText_PressAToStart[] = _("Press the A Button to start.");
-static const u8 sText_PleaseWaitAWhile[] = _("Please wait a while.");
-static const u8 sText_CommunicationStandby[] = _("Communication standby…");
-static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another BERRY?");
-static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIES for\nblending in the BERRY BLENDER.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
-static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
+static const u8 sText_PressAToStart[] = _("נא ללחוץ על הכפתור A כדי להתחיל.");
+static const u8 sText_PleaseWaitAWhile[] = _("נא לחכות קצת.");
+static const u8 sText_CommunicationStandby[] = _("תקשורת בהמתנה…");
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("האם תרצ{EMIT_HEY}{ADD_YUD} לערבב עוד פרי יער?");
+static const u8 sText_RunOutOfBerriesForBlending[] = _("נגמר לך הפירות יער \nלערבוב במערבל הפירות יער.\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("הקופסת פוקיגוש שלך מלא.\p");
+static const u8 sText_HasNoBerriesToPut[] = _(" חסר פירות יער לשים\nבמערבל הפירות יער.");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("עם קופסת פוקיגוש מלא.\p");
 static const u8 sText_BlendingResults[] = _("תוצאות של ערבוב");
 static const u8 sText_BerryUsed[] = _("פרי יער ששומש");
 static const u8 sText_SpaceBerry[] = _(" פרי יער");
@@ -303,7 +303,7 @@ static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Space[] = _(" ");
 static const u8 sText_Ranking[] = _("דירוג");
 static const u8 sText_TheLevelIs[] = _("הרמה היא ");
-static const u8 sText_TheFeelIs[] = _(", והריגוש הוא ");
+static const u8 sText_TheFeelIs[] = _(", והרגש הוא ");
 static const u8 sText_Dot2[] = _(".");
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -1061,6 +1061,7 @@ void DoBerryBlending(void)
 static void CB2_LoadBerryBlender(void)
 {
     s32 i;
+    bool32 isSolo = gSpecialVar_0x8004;
 
     switch (sBerryBlender->mainState)
     {
@@ -1130,7 +1131,7 @@ static void CB2_LoadBerryBlender(void)
             UnsetBgTilemapBuffer(2);
             UnsetBgTilemapBuffer(1);
             SetVBlankCallback(NULL);
-            ChooseBerryForMachine(StartBlender);
+            ChooseBerryForMachine(StartBlender, isSolo);
 
             sBerryBlender->mainState = 0;
         }
@@ -1636,6 +1637,14 @@ static void CB2_StartBlenderLocal(void)
     switch (sBerryBlender->mainState)
     {
     case 0:
+        if (gSpecialVar_ItemId == ITEM_NONE)
+        {
+            sBerryBlender->playAgainState = PLAY_AGAIN_NO;
+            SetMainCallback2(CB2_CheckPlayAgainLocal);
+            sBerryBlender->gameEndState = 0;
+            sBerryBlender->mainState = 0;
+            break;
+        }
         SetWirelessCommType0();
         InitBlenderBgs();
         SetPlayerBerryData(0, gSpecialVar_ItemId);

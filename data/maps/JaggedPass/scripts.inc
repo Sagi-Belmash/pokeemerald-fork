@@ -146,121 +146,119 @@ JaggedPass_EventScript_Autumn::
 	trainerbattle_single TRAINER_AUTUMN, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat
 	msgbox JaggedPass_Text_AutumnPostBattle, MSGBOX_AUTOCLOSE
 	end
-
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
-	.string "Now this is what I've always wanted\n"
-	.string "in a mountain.\p"
-	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "מעבר משונן בהר הארובה…\p"
+	.string "זה בדיוק מה שתמיד רציתי\n"
+	.string "בהר.\p"
+	.string "הקפיצות מהמשונן הזה…\n"
+	.string "זה מטלטל את הנשמה שלי!$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Losing left me bitter!$"
+	.string "ההפסד הותיר אותי ממורמר!$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Yes, I did lose at POKéMON…\p"
-	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!$"
+	.string "כן, הפסדתי בפוקימון…\p"
+	.string "אבל, כשזה מגיע לאהבת\n"
+	.string "ההרים, ניצחתי אותך!$"
 
 JaggedPass_Text_DianaIntro:
-	.string "This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.$"
+	.string "המקום הזה אינו טיול רגוע.\n"
+	.string "הוא לא מתאים לפיקניק.$"
 
 JaggedPass_Text_DianaDefeat:
-	.string "Ohhh, no!\n"
-	.string "The ground is too bumpy…$"
+	.string "אווו, לא!\n"
+	.string "הקרקע יותר מדי קפצנית…$"
 
 JaggedPass_Text_DianaPostBattle:
-	.string "Did you know?\p"
-	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "האם ידעת?\p"
+	.string "יש אנשים שרוכבים בחוכמה על\n"
+	.string "האופניים שלהם במעבר הקופצני והנוראי הזה.$"
 
 JaggedPass_Text_DianaRegister:
-	.string "Will you ever be back in this area?\n"
-	.string "If you do return, I'd like a rematch.$"
+	.string "האם אי פעם תחז{EMIT_VAV}ר{ADD_YUD} לאזור הזה?\n"
+	.string "אם תחז{EMIT_VAV}ר{ADD_YUD}, אני ארצה קרב חוזר.$"
 
 JaggedPass_Text_DianaRematchIntro:
-	.string "Picnics are fun wherever you go.\n"
-	.string "Just like POKéMON!$"
+	.string "פיקניקים זה כיף לא משנה לאן אתה הולך.\n"
+	.string "בדיוק כמו פוקימונים!$"
 
 JaggedPass_Text_DianaRematchDefeat:
-	.string "I only lost because the ground is\n"
-	.string "too bumpy!$"
+	.string "הפסדתי רק בגלל שהקרקע\n"
+	.string "יותר מדי קופצנית!$"
 
 JaggedPass_Text_DianaPostRematch:
-	.string "I'll forget about losing and just\n"
-	.string "enjoy this bumpy hike.$"
+	.string "אני אשכח מההפסד ופשוט\n"
+	.string "אהנה מהטיול הקופצני הזה.$"
 
 JaggedPass_Text_EthanIntro:
-	.string "JAGGED PASS is hard to walk on.\n"
-	.string "It's a good place for training.$"
+	.string "קשה ללכת במעבר משונן.\n"
+	.string "זה מקום טוב לאימונים.$"
 
 JaggedPass_Text_EthanDefeat:
-	.string "It was all over while we were still\n"
-	.string "trying to find a good footing…$"
+	.string "הכל נגמר עוד בזמן שניסינו\n"
+	.string "למצוא אחיזת רגל טובה…$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "If I had an ACRO BIKE, I'd be able to\n"
-	.string "jump ledges.$"
+	.string "אם היו לי אופני אקרו, הייתי יכול\n"
+	.string "לקפוץ מעבר לקצוות.$"
 
 JaggedPass_Text_EthanRegister:
-	.string "When I get more used to this bumpiness,\n"
-	.string "I'll be sure to win!\p"
-	.string "Can you register me in your POKéNAV?$"
+	.string "כשאני אתרגל יותר לקופצניות הזאת,\n"
+	.string "אני בטוח אנצח!\p"
+	.string "תוכל{ADD_YUD} לרשום אותי בפוקינווט שלך?$"
 
 JaggedPass_Text_EthanRematchIntro:
-	.string "I got used to this bumpiness.\n"
-	.string "I sing while I climb now.$"
+	.string "אני התרגלתי לקופצניות הזאת.\n"
+	.string "אני שר בזמן שאני מטפס עכשיו.$"
 
 JaggedPass_Text_EthanRematchDefeat:
-	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
+	.string "זה עדיין לא קל להילחם על\n"
+	.string "הקרקע הקופצנית הזאת…$"
 
 JaggedPass_Text_EthanPostRematch:
-	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "אני צריך להשיג אופני אקרו מרידל\n"
+	.string "בעיר מוויל…$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Wah!\n"
-	.string "What are you doing here?\p"
-	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+	.string "וואה!\n"
+	.string "מה את{EMIT_HEY} עושה כאן?\p"
+	.string "מה אני עושה במקום כזה?\p"
+	.string "מה אכפת לך?$"
 
 JaggedPass_Text_GruntDefeat:
-	.string "Urrrgh…\p"
-	.string "I should've ducked into our HIDEOUT\n"
-	.string "right away…$"
+	.string "אוחחח…\p"
+	.string "הייתי צריך לברוח למחבוא שלנו\n"
+	.string "מיד…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "אוקיי, או-קיי!\n"
+	.string "אני מודה בזה--את{EMIT_HEY} חזק{ADD_HEY}!\p"
+	.string "אל תדאג{ADD_YUD} לי.\n"
+	.string "ל{SWAP_CHAF}{ADD_YUD} לאן שאת{EMIT_HEY} רוצה!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-	.string "Oh! This boulder is shaking in response\n"
-	.string "to the MAGMA EMBLEM!$"
+	.string "או! הסלע הזה רועד בתגובה\n"
+	.string "לסמל מגמה!$"
 
 JaggedPass_Text_JulioIntro:
-	.string "Aiyeeh! It's awfully scary to shoot\n"
-	.string "down the mountain in one go!$"
+	.string "אייי! זה נורא מפחיד לדהור\n"
+	.string "במורד ההר בבת אחת!$"
 
 JaggedPass_Text_JulioDefeat:
-	.string "I feel like I'm falling apart…$"
+	.string "אני מרגיש שאני מתפרק…$"
 
 JaggedPass_Text_JulioPostBattle:
-	.string "My bicycle bounced around so much,\n"
-	.string "my rear end's sore…$"
+	.string "האופניים שלי קפצו כל כך הרבה,\n"
+	.string "הישבן שלי כואב…$"
 
 JaggedPass_Text_AutumnIntro:
-	.string "I climb this hill every day.\n"
-	.string "I have confidence in my strength!$"
+	.string "אני מטפסת על הגבעה הזו כל יום.\n"
+	.string "יש לי ביטחון בכוח שלי!$"
 
 JaggedPass_Text_AutumnDefeat:
-	.string "Hmm…\n"
-	.string "What went wrong?$"
+	.string "הממ…\n"
+	.string "מה השתבש?$"
 
 JaggedPass_Text_AutumnPostBattle:
-	.string "What is that odd rock protrusion\n"
-	.string "a little up the hill from here?$"
-
+	.string "מהי בליטת הסלע המוזרה ההיא\n"
+	.string "קצת במעלי הגבעה מכאן?$"

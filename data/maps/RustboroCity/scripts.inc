@@ -1217,7 +1217,7 @@ RustboroCity_Text_BrendanMrBrineyHint:
 	.string "מר ברייני היה פעם ימאי דגול.$"
 
 RustboroCity_Text_TunnelNearingCompletion:
-	.string "“המנהרה לחסיכון בזמן\n"
+	.string "“המנהרה לחיסכון בזמן\n"
 	.string "קרובה להשלמה!”\p"
 	.string "…זה מה שכתוב בשלט, אבל\n"
 	.string "מישהו צייר ”X“ גדול\l"

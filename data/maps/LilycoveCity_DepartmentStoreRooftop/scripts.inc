@@ -185,35 +185,35 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_ExitVendingMachine::
 	end
 
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
-	.string "Don't they have set dates for their\n"
-	.string "clear-out sales?\p"
-	.string "I watch TV, but they never show any\n"
-	.string "commercials.$"
+	.string "האם אין להם תאריכים קבועים למכירות\n"
+	.string "פינוי מלאי?\p"
+	.string "אני צופה בטלוויזיה, אך הם אף פעם לא\n"
+	.string "מראים פרסומות.$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
-	.string "Yes! I've been waiting a long time for\n"
-	.string "this clear-out sale.\p"
-	.string "They have items that you can only get\n"
-	.string "here. I'm going to load up, that I am!$"
+	.string "כן! חיכיתי המון זמן למכירת\n"
+	.string "פינוי מלאי הזו.\p"
+	.string "יש להם פריטים שאפשר למצוא רק כאן.\n"
+	.string "אני הולך להצטייד עד הסוף!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
-	.string "Ohh… I'm bone-dry thirsty!$"
+	.string "אוו… אני ממש צמא!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
-	.string "It's a VENDING MACHINE.\n"
-	.string "Which drink would you like?$"
+	.string "זוהי מכונת שתייה.\n"
+	.string "איזה משקה תרצ{EMIT_HEY}{ADD_YUD}?$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
-	.string "Clang!\p"
-	.string "A can of {STR_VAR_1} dropped down.$"
+	.string "קלנג!\p"
+	.string "פחית של {STR_VAR_1} נחתה.$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
-	.string "Clang!\p"
-	.string "Score! An extra can of {STR_VAR_1}\n"
-	.string "dropped down!$"
+	.string "קלנג!\p"
+	.string "איזה מזל! פחית נוספת של {STR_VAR_1}\n"
+	.string "נחתה!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
-	.string "Not enough money…$"
+	.string "אין מספיק כסף…$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
-	.string "Decided against buying a drink.$"
+	.string "החליט{ADD_HEY} שלא לקנות משקה.$"

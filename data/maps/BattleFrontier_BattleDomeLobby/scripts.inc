@@ -430,249 +430,247 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the SINGLE BATTLE\n"
-	.string "Tournament.$"
+	.string "המקום שבו האסטרטגיות של מאמנים\n"
+	.string "מועמדות למבחן!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לכיפת הקרב!\p"
+	.string "אני המדריך שלך לטורניר\n"
+	.string "קרב יחידים.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the SINGLE BATTLE Tournament?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לאתגר\n"
+	.string "את טורניר קרב יחידים?$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-	.string "We hope to see you again.$"
+	.string "אנו מקווים לראות אותך שוב.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-	.string "The SINGLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of SINGLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The other two POKéMON can battle\n"
-	.string "one at a time.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "טורניר קרב יחידים\n"
+	.string "הוא בדיוק כפי שהשם מרמז--\l"
+	.string "טורניר של קרבות יחידים.\p"
+	.string "כל המאמנים המשתתפים חייבים\n"
+	.string "להכניס שלושה פוקימונים כל אחד.\p"
+	.string "בכל קרב, אחד משלושת\n"
+	.string "הפוקימונים חייב להישמר ברזרבה.\p"
+	.string "שני הפוקימונים הנותרים יכולים להילחם\n"
+	.string "אחד בכל פעם.\p"
+	.string "בחר{ADD_YUD} את שני הפוקימונים הנלחמים לאחר\n"
+	.string "בחינת השלישייה של היריב.\p"
+	.string "את{EMIT_HEY} מנצח{ADD_TAF} בטורניר על ידי הבסת\n"
+	.string "ארבעה מאמנים.\p"
+	.string "נקודות קרב מוענקות\n"
+	.string "למנצח הטורניר.\p"
+	.string "אם את{EMIT_HEY} רוצה להפסיק את הטורניר\n"
+	.string "שלך, אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD} לפני שאת{EMIT_HEY} מפסיק{ADD_HEY},\n"
+	.string "את{EMIT_HEY} תיפסל{ADD_YUD}.$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "לפני שאני מראה לך את הדרך לכיפת\n"
+	.string "הקרב, עליי לשמור את הנתונים. האם זה בסדר?$"
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode:
-	.string "The tournament offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "הטורניר מציע שתי רמות\n"
+	.string "של אתגר, רמה 05 ורמה פתוחה.\l"
+	.string "באיזו תבחר{ADD_YUD}?$"
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
-	.string "Now select the three POKéMON that\n"
-	.string "you wish to enter, please.$"
+	.string "עכשיו בחר{ADD_YUD} את שלושת הפוקימונים\n"
+	.string "שאת{EMIT_HEY} רוצה להכניס, בבקשה.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "Also, the POKéMON must be holding\n"
-	.string "different kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "סלח{ADD_YUD} לי!\p"
+	.string "אין לך שלושה פוקימונים מתאימים.\p"
+	.string "כמו כן, הפוקימונים חייבים להחזיק\n"
+	.string "סוגים שונים של פריטים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "אנא בוא{ADD_YUD} לבקר אותי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "סלח{ADD_YUD} לי!\p"
+	.string "אין לך שלושה פוקימונים מתאימים.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} שיהיו לך שלושה פוקימונים שונים\n"
+	.string "ברמה 05 או פחות כדי להיכנס.\p"
+	.string "הם גם חייבים להחזיק סוגים שונים\n"
+	.string "של פריטים.\p"
+	.string "ביצים{STR_VAR_1} אינן מתאימות.\p"
+	.string "אנא בוא{ADD_YUD} לבקר אותי כשתהי{EMIT_HEY}{ADD_YUD} מוכ{SWAP_NUN}{ADD_HEY}.$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
-	.string "I will now show you to\n"
-	.string "the BATTLE DOME.$"
+	.string "אני עכשיו אראה לך את הדרך\n"
+	.string "לכיפת הקרב.$"
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "סלח{ADD_YUD} לי!\p"
+	.string "את{EMIT_HEY} לא שמרת לפני שהפסקת את האתגר\n"
+	.string "שלך בפעם האחרונה.\p"
+	.string "בגלל זה, האתגר שלך עד כה\n"
+	.string "נפסל. מצטער!$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
-	.string "Congratulations for winning\n"
-	.string "your Battle Tournament!$"
+	.string "ברכות על ניצחונך\n"
+	.string "בטורניר הקרב שלך!$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
-	.string "Here is your prize for your Battle\n"
-	.string "Tournament victory.$"
+	.string "הנה הפרס שלך על ניצחונך בטורניר\n"
+	.string "הקרב.$"
 
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} קיבל{ADD_HEY} את הפרס\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-	.string "Oh, your BAG appears to be full.\p"
-	.string "Please make room in your BAG, then come\n"
-	.string "see me.$"
+	.string "או, נראה שהתיק שלך מלא.\p"
+	.string "אנא פנ{EMIT_HEY}{ADD_YUD} מקום בתיק שלך, ואז בוא{ADD_YUD}\n"
+	.string "לבקר אותי.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "תודה לך ששיחקת!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "השיא שלך יישמר.\n"
+	.string "נא להמתין.$"
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!$"
+	.string "חיכינו לך!$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "לפני שאני מראה לך את הדרך לכיפת\n"
+	.string "הקרב, עליי לשמור את הנתונים. האם זה בסדר?$"
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the DOUBLE BATTLE\n"
-	.string "Tournament.$"
+	.string "המקום שבו האסטרטגיות של מאמנים\n"
+	.string "מועמדות למבחן!\p"
+	.string "ברו{SWAP_CHAF}{ADD_HEY} הבא{ADD_HEY} לכיפת הקרב!\p"
+	.string "אני המדריך שלך לטורניר\n"
+	.string "קרב זוגות.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the DOUBLE BATTLE Tournament?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לאתגר\n"
+	.string "את טורניר קרב הזוגות?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-	.string "The DOUBLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of DOUBLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The remaining two POKéMON must take\n"
-	.string "part in a DOUBLE BATTLE.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "טורניר קרב הזוגות\n"
+	.string "הוא בדיוק כפי שהשם מרמז--\l"
+	.string "טורניר של קרבות זוגות.\p"
+	.string "כל המאמנים המשתתפים חייבים\n"
+	.string "להכניס שלושה פוקימונים כל אחד.\p"
+	.string "בכל קרב, אחד משלושת\n"
+	.string "הפוקימונים חייב להישמר ברזרבה.\p"
+	.string "שני הפוקימונים הנותרים חייבים לקחת\n"
+	.string "חלק בקרב הזוגות.\p"
+	.string "בחר{ADD_YUD} את שני הפוקימונים הנלחמים לאחר\n"
+	.string "בחינת השלישייה של היריב.\p"
+	.string "את{EMIT_HEY} מנצח{ADD_TAF} בטורניר על ידי הבסת\n"
+	.string "ארבעה מאמנים.\p"
+	.string "נקודות קרב מוענקות\n"
+	.string "למנצח הטורניר.\p"
+	.string "אם את{EMIT_HEY} רוצה להפסיק את הטורניר\n"
+	.string "שלך, אנא שמ{EMIT_VAV}ר{ADD_YUD} את המשחק.\p"
+	.string "אם לא תשמ{EMIT_VAV}ר{ADD_YUD} לפני שאת{EMIT_HEY} מפסיק{ADD_HEY},\n"
+	.string "את{EMIT_HEY} תיפסל{ADD_YUD}.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 SINGLE BATTLE Tournament.$"
+	.string "אלה תוצאות הטורניר האחרון בקרב יחידים\n"
+	.string "ברמה 05.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 DOUBLE BATTLE Tournament.$"
+	.string "אלה תוצאות הטורניר האחרון בקרב זוגות\n"
+	.string "ברמה 05.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level SINGLE BATTLE Tournament.$"
+	.string "אלה תוצאות הטורניר האחרון בקרב יחידים\n"
+	.string "ברמה פתוחה.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level DOUBLE BATTLE Tournament.$"
+	.string "אלה תוצאות הטורניר האחרון בקרב זוגות\n"
+	.string "ברמה פתוחה.$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
-	.string "Did you see it?\n"
-	.string "The last Battle Tournament?\p"
-	.string "The winner, {STR_VAR_1}, was seriously\n"
-	.string "tough.\p"
-	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "האם ראית את זה?\n"
+	.string "טורניר הקרב האחרון?\p"
+	.string "המנצח, {STR_VAR_1}, היה קשוח\n"
+	.string "בצורה רצינית.\p"
+	.string "כדאי לך לבדוק את התוצאות\n"
+	.string "במסך שלצד המחשב.$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
-	.string "The BATTLE FRONTIER…\n"
-	.string "I've long dreamed about a place like it.$"
+	.string "חזית הקרב…\n"
+	.string "חלמתי זמן רב על מקום כזה.$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
-	.string "The BATTLE DOME\n"
-	.string "Become the Unbeatable Superstar!$"
+	.string "כיפת הקרב\n"
+	.string "להפוך לכוכב העל הבלתי מנוצח!$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
-	.string "The ??????\n"
-	.string "Under Construction!$"
+	.string "ה-??????\n"
+	.string "בבנייה!$"
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
-	.string "When a TRAINER chains tournament\n"
-	.string "wins at the BATTLE DOME, he or she\l"
-	.string "gains a reputation as a star.\p"
-	.string "Tough TRAINERS are drawn by that\n"
-	.string "reputation to the BATTLE DOME.\p"
-	.string "A true superstar is a TRAINER who\n"
-	.string "can keep winning tournaments.$"
+	.string "כאשר מאמן משלים רצף ניצחונות\n"
+	.string "בטורניר בכיפת הקרב, הוא או היא\l"
+	.string "צוברים מוניטין ככוכב.\p"
+	.string "מאמנים קשוחים נמשכים על ידי המוניטין\n"
+	.string "הזה לכיפת הקרב.\p"
+	.string "כוכב על אמיתי הוא מאמן\n"
+	.string "שיכול להמשיך לנצח בטורנירים.$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-	.string "I ran into one of the tournament\n"
-	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "אני נתקלתי באחד מהמועמדים המועדפים\n"
+	.string "בסיבוב הראשון ממש.\p"
+	.string "כמובן שהובסתי…$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
-	.string "I would've won if I'd kept this POKéMON\n"
-	.string "held in reserve.\p"
-	.string "You need to check your opponent's\n"
-	.string "POKéMON carefully before choosing\l"
-	.string "your battling POKéMON.$"
+	.string "הייתי מנצח אם הייתי שומר את הפוקימון\n"
+	.string "הזה ברזרבה.\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לבדוק את הפוקימונים של היריב\n"
+	.string "שלך בזהירות לפני שאת{EMIT_HEY} בוחר{ADD_TAF}\l"
+	.string "את הפוקימונים הנלחמים שלך.$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-	.string "Congratulations!\p"
-	.string "You defeated the DOME ACE and won\n"
-	.string "the Battle Tournament!$"
+	.string "ברכות!\p"
+	.string "את{EMIT_HEY} הבסת את אלוף הכיפה טאקר וניצחת\n"
+	.string "בטורניר הקרב!$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "In recognition of your strategy--\n"
-	.string "a thing of beauty it was, too--\l"
-	.string "we award you these Battle Point(s)!$"
+	.string "כהכרה באסטרטגיה שלך--\n"
+	.string "גם זה היה דבר יפה--\l"
+	.string "אנו מעניקים לך את נקודות הקרב האלה!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-	.string "Would you like to record your\n"
-	.string "last BATTLE DOME match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להקליט את קרב כיפת\n"
+	.string "הקרב האחרון שלך על היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-	.string "The Battle Tournament rules\n"
-	.string "are listed.$"
+	.string "חוקי טורניר הקרב\n"
+	.string "רשומים.$"
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "איזו כותרת את{EMIT_HEY} רוצה לקרוא?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
-	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of POKéMON\l"
-	.string "held by TRAINERS.\p"
-	.string "The matchups avoid having tough\n"
-	.string "TRAINERS face each other right away.$"
+	.string "התאמות הטורניר נערכות\n"
+	.string "על בסיס הקשיחות של פוקימונים\l"
+	.string "המוחזקים על ידי מאמנים.\p"
+	.string "ההתאמות נמנעות מלשים מאמנים\n"
+	.string "קשוחים להתמודד זה מול זה מיד.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
-	.string "The tournament chart, or as we call it,\n"
-	.string "the “Tree,” is available for viewing\l"
-	.string "in the Waiting Room from any guide.\p"
-	.string "The Tournament Tree will provide\n"
-	.string "several kinds of data.\p"
-	.string "The data on view includes the previous\n"
-	.string "tournament's results, the POKéMON held\l"
-	.string "by TRAINERS, and the battle styles of\l"
-	.string "TRAINERS.$"
+	.string "טבלת הטורניר, או כפי שאנו קוראים לזה,\n"
+	.string "”העץ,“ זמינה לצפייה\l"
+	.string "בחדר ההמתנה מכל מדריך.\p"
+	.string "עץ הטורניר יספק\n"
+	.string "כמה סוגי נתונים.\p"
+	.string "הנתונים שמוצגים כוללים את תוצאות הטורניר\n"
+	.string "הקודם, הפוקימונים המוחזקים על ידי מאמנים,\l"
+	.string "וסגנונות הקרב של המאמנים.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-	.string "If battling POKéMON faint at the same\n"
-	.string "time--a double KO--in a tournament\l"
-	.string "match, the REFEREES will review\l"
-	.string "the match and declare the winner.$"
+	.string "אם פוקימונים נלחמים מתעלפים באותו\n"
+	.string "זמן--נוקאאוט כפול--במשחק\l"
+	.string "טורניר, השופטים יעברו על הקרב\l"
+	.string "ויכריזו על המנצח.$"

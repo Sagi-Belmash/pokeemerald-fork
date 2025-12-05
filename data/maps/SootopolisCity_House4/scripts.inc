@@ -14,26 +14,27 @@ SootopolisCity_House4_EventScript_Azumarill::
 	faceplayer
 	waitse
 	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_AZUMARILL
 	msgbox SootopolisCity_House4_Text_Azumarill, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
-	.string "Listen up, and I'll tell you something\n"
-	.string "good.\p"
-	.string "There's supposed to be an ancient\n"
-	.string "ruin in the sea around here.\p"
-	.string "There could be treasures just waiting\n"
-	.string "to be discovered down there.$"
+	.string "תקשיב{ADD_YUD}, ואני אספר לך משהו\n"
+	.string "טוב.\p"
+	.string "אומרים שיש חורבה עתיקה\n"
+	.string "בים שבסביבה.\p"
+	.string "יכול להיות שיש שם אוצרות\n"
+	.string "שממש מחכים להתגלות.$"
 
 SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
-	.string "Ancient treasures…\p"
-	.string "It would be nice if they existed, but\n"
-	.string "even if they didn't, it would be so\l"
-	.string "beautiful to take an underwater\l"
-	.string "stroll with my POKéMON.$"
+	.string "אוצרות עתיקים…\p"
+	.string "זה היה יפה אם הם היו קיימים, אבל\n"
+	.string "גם אם לא, זה היה כל כך\l"
+	.string "יפה לקחת טיול תת ימי עם\l"
+	.string "הפוקימון שלי.$"
 
 SootopolisCity_House4_Text_Azumarill:
-	.string "AZUMARILL: Marurii.$"
+	.string "{STR_VAR_1}: מארוריי.$"
 

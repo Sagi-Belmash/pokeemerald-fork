@@ -57,6 +57,7 @@ Route113_EventScript_Dillon::
 	end
 
 Route113_EventScript_Madeline::
+	bufferspeciesname STR_VAR_1, SPECIES_NUMEL
 	trainerbattle_single TRAINER_MADELINE_1, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat, Route113_EventScript_RegisterMadeline
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route113_EventScript_RematchMadeline
@@ -134,33 +135,33 @@ Route113_EventScript_Wyatt::
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass:
-	.string "Wahahaha! Today's technology is a\n"
-	.string "wondrous thing!\p"
-	.string "Take this volcanic ash here.\n"
-	.string "It can be fashioned into glass.$"
+	.string "ואהאהאהא! הטכנולוגיה של היום היא\n"
+	.string "דבר מדהים!\p"
+	.string "קח{ADD_YUD} את האפשר הגעשי הזה כאן.\n"
+	.string "אפשר להפוך אותו לזכוכית.$"
 
 Route113_Text_FunWalkingThroughAsh:
-	.string "It's fun walking through the volcano's\n"
-	.string "ashes on the ground and grass.\p"
-	.string "You can see where you walked--it's\n"
-	.string "really neat!$"
+	.string "זה כיף ללכת על האפר הגעשי\n"
+	.string "שעל האדמה והדשא.\p"
+	.string "אפשר לראות איפה דרכת--זה\n"
+	.string "ממש מגניב!$"
 
 Route113_Text_RouteSign111:
-	.string "ROUTE 113\n"
-	.string "{RIGHT_ARROW} ROUTE 111$"
+	.string "דרך 311\n"
+	.string "{RIGHT_ARROW} דרך 111$"
 
 Route113_Text_RouteSignFallarbor:
-	.string "ROUTE 113\n"
-	.string "{LEFT_ARROW} FALLARBOR TOWN$"
+	.string "דרך 311\n"
+	.string "{LEFT_ARROW} עיירת פולרבר$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "TRAINER TIPS\p"
-	.string "You may register one of the KEY ITEMS\n"
-	.string "in your BAG as SELECT.\p"
-	.string "Simply press SELECT to use\n"
-	.string "the registered item conveniently.$"
+	.string "טיפים למאמנים\p"
+	.string "אפשר לרשום אחד מפריטי המפתח\n"
+	.string "שבתיק לשימוש עם TCELES.\p"
+	.string "פשוט לחצו TCELES כדי להשתמש\n"
+	.string "בפריט הרשום בנוחות.$"
 
 Route113_Text_GlassWorkshopSign:
-	.string "GLASS WORKSHOP\n"
-	.string "“Turning Volcanic Ash into Glass Items”$"
+	.string "סדנת זכוכית\n"
+	.string "”הפיכת אפר געשי לזכוכית“$"
 

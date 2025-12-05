@@ -1,6 +1,15 @@
 enum
 {
     PAGE_TITLE,
+    //Hebrew Credits
+    PAGE_HEBREW_VERSION,
+    PAGE_LEAD_PROGRAMMER_2,
+    PAGE_TRANSLATOR_2,
+    PAGE_GRAPHIC_DESIGNERS_4,
+    PAGE_PROGRAMMERS_6,
+    PAGE_HEBREW_NAMES,
+    PAGE_SPECIAL_THANKS_6,
+    // Rest of Credits
     PAGE_DIRECTOR,
     PAGE_ART_DIRECTOR,
     PAGE_WORLD_DIRECTOR,
@@ -57,12 +66,6 @@ enum
     PAGE_EXECUTIVE_DIRECTOR,
     PAGE_EXECUTIVE_PRODUCERS_1,
     PAGE_EXECUTIVE_PRODUCERS_2,
-    PAGE_HEBREW_VERSION,
-    PAGE_PROGRAMMERS_6,
-    PAGE_TRANSLATOR_2,
-    PAGE_GRAPHIC_DESIGNERS_4,
-    PAGE_HEBREW_NAMES,
-    PAGE_SPECIAL_THANKS_6,
     PAGE_COUNT
 };
 
@@ -107,131 +110,132 @@ static const u8 sCreditsText_SupportProgrammers[]             = _("מתכנתי 
 static const u8 sCreditsText_Artwork[]                        = _("איורים");
 static const u8 sCreditsText_LeadProgrammer[]                 = _("מתכנת מוביל");
 static const u8 sCreditsText_LeadGraphicArtist[]              = _("אמן גרפי מוביל");
-static const u8 sCreditsText_SatoshiTajiri[]                  = _("IRIJAT IHSOTAS");
-static const u8 sCreditsText_JunichiMasuda[]                  = _("ADSUM IHCINUJ");
-static const u8 sCreditsText_KenSugimori[]                    = _("IROMIGUS NEK");
-static const u8 sCreditsText_ShigekiMorimoto[]                = _("OTOMIROM IKEGIHS");
-static const u8 sCreditsText_TetsuyaWatanabe[]                = _("EBANATAW AYUSET");
-static const u8 sCreditsText_HisashiSogabe[]                  = _("EBAGOS IHSASIH");
-static const u8 sCreditsText_SosukeTamada[]                   = _("ADAMAT EKUSOS");
-static const u8 sCreditsText_AkitoMori[]                      = _("IROM OTIKA");
-static const u8 sCreditsText_KeitaKagaya[]                    = _("AYAGAK ATIEK");
-static const u8 sCreditsText_YoshinoriMatsuda[]               = _("ADSUTAM IRINISHOY");
-static const u8 sCreditsText_HiroyukiNakamura[]               = _("ARUMAKAN IKUYORIH");
-static const u8 sCreditsText_MasaoTaya[]                      = _("AYAT OASAM");
-static const u8 sCreditsText_SatoshiNohara[]                  = _("ARAHON IHSOTAS");
-static const u8 sCreditsText_TomomichiOhta[]                  = _("ATHO IHCIMOMOT");
-static const u8 sCreditsText_MiyukiIwasawa[]                  = _("AWASAWI IKUYIM");
-static const u8 sCreditsText_TakenoriOhta[]                   = _("ATHO IRONEKAT");
-static const u8 sCreditsText_HironobuYoshida[]                = _("ADIHSOY UBANORIH");
-static const u8 sCreditsText_MotofumiFujiwara[]               = _("ARAWIJUF IMUFOTOM");
-static const u8 sCreditsText_SatoshiOhta[]                    = _("ATHO IHSOTAS");
-static const u8 sCreditsText_AsukaIwashita[]                  = _("ATIHSWI AKUSA");
-static const u8 sCreditsText_AimiTomita[]                     = _("ATIMOT IMIA");
-static const u8 sCreditsText_TakaoUnno[]                      = _("ONNU OAKAT");
-static const u8 sCreditsText_KanakoEo[]                       = _("OE OKANAK");
-static const u8 sCreditsText_JunOkutani[]                     = _("INATUKO NUJ");
-static const u8 sCreditsText_AtsukoNishida[]                  = _("ADIHSIN OKSUTA");
-static const u8 sCreditsText_MuneoSaito[]                     = _("OTIAS OENUM");
-static const u8 sCreditsText_RenaYoshikawa[]                  = _("AWAKIHSOY ANER");
-static const u8 sCreditsText_GoIchinose[]                     = _("ESONIHCI OG");
-static const u8 sCreditsText_MorikazuAoki[]                   = _("IKOA UZAKIROM");
-static const u8 sCreditsText_KojiNishino[]                    = _("ONIHSIN IJOK");
-static const u8 sCreditsText_KenjiMatsushima[]                = _("AMIHSUTSAM IJNEK");
-static const u8 sCreditsText_TetsujiOhta[]                    = _("ATHO IJUSTET");
-static const u8 sCreditsText_HitomiSato[]                     = _("OTAS IMOTIH");
-static const u8 sCreditsText_TakeshiKawachimaru[]             = _("URAMIHC A WAK IHS EKAT");
-static const u8 sCreditsText_TeruyukiShimoyamada[]            = _("ADAMAYOMIHS IKUYURET");
-static const u8 sCreditsText_ShigeruOhmori[]                  = _("IROMHO UREGIHS");
-static const u8 sCreditsText_TadashiTakahashi[]               = _("IHS AHAKAT IHS ADAT");
-static const u8 sCreditsText_ToshinobuMatsumiya[]             = _("AYIMUSTAM UBONIHSOT");
-static const u8 sCreditsText_AkihitoTomisawa[]                = _("AWASIMOT OTIHIKA");
-static const u8 sCreditsText_HirokiEnomoto[]                  = _("OTOMONE IKORIH");
-static const u8 sCreditsText_KazuyukiTerada[]                 = _("ADARET IKUYUZAK");
-static const u8 sCreditsText_YuriSakurai[]                    = _("IARUKAS IRUY");
-static const u8 sCreditsText_HiromiSagawa[]                   = _("AWAGAS IMORIH");
-static const u8 sCreditsText_KenjiTominaga[]                  = _("AGINIMOT IJNEK");
-static const u8 sCreditsText_YoshioTajiri[]                   = _("IRIJAT OIHSOY");
-static const u8 sCreditsText_TeikoSasaki[]                    = _("IKASAS OKIET");
-static const u8 sCreditsText_SachikoHamano[]                  = _("ONAMAH OKIHCAS");
-static const u8 sCreditsText_ChieMatsumiya[]                  = _("AYIMUTSAM EIHC");
-static const u8 sCreditsText_AkikoShinozaki[]                 = _("IKAZONIHS OKIKA");
-static const u8 sCreditsText_AstukoFujii[]                    = _("IIJUF OKUTSA");
-static const u8 sCreditsText_NozomuSaito[]                    = _("OTIAS UMUZON");
-static const u8 sCreditsText_KenkichiToyama[]                 = _("AMAYOT IHCIKNEK");
-static const u8 sCreditsText_SuguruNakatsui[]                 = _("IUSTAKAN URUGUS");
-static const u8 sCreditsText_YumiFunasaka[]                   = _("AKASANUF IMUY");
-static const u8 sCreditsText_NaokoYanase[]                    = _("ESANAY OKAON");
-static const u8 sCreditsText_NCLSuperMarioClub[]              = _("BULC OIRAM REPUS LCN");
-static const u8 sCreditsText_AtsushiTada[]                    = _("ADAT IHSUTSA");
-static const u8 sCreditsText_TakahiroOhnishi[]                = _("IHSINHO ORIHAKAT");
-static const u8 sCreditsText_NorihideOkamura[]                = _("ARUMAKO EDIHIRON");
-static const u8 sCreditsText_HiroNakamura[]                   = _("ARUMAKAN ORIH");
-static const u8 sCreditsText_HiroyukiUesugi[]                 = _("IGUSEU IKUYORIH");
-static const u8 sCreditsText_TerukiMurakawa[]                 = _("AWAKARUM IKURET");
-static const u8 sCreditsText_AkiraKinashi[]                   = _("IHSANIK ARIKA");
-static const u8 sCreditsText_MichikoTakizawa[]                = _("AWZIKAT OKIHCIM");
-static const u8 sCreditsText_MakikoTakada[]                   = _("ADAKAT OKIKAM");
-static const u8 sCreditsText_TakanaoKondo[]                   = _("ODNOK OANA KAT");
-static const u8 sCreditsText_AiMashima[]                      = _("AMIH SAM IA");
-static const u8 sCreditsText_GakujiNomoto[]                   = _("OTOMON IJUKAG");
-static const u8 sCreditsText_TakehiroIzushi[]                 = _("IHSUZI ORIHEKAT");
-static const u8 sCreditsText_HitoshiYamagami[]                = _("IMAGAMAY IHSOTIH");
-static const u8 sCreditsText_KyokoWatanabe[]                  = _("EBANATAW OKOYK");
-static const u8 sCreditsText_TakaoNakano[]                    = _("ONAKAN OAKAT");
-static const u8 sCreditsText_HiroyukiJinnai[]                 = _("IANNIJ IKUYORIH");
-static const u8 sCreditsText_HiroakiTsuru[]                   = _("URUST IKAROH");
-static const u8 sCreditsText_TsunekazIshihara[]               = _("ARAHIHSI ZAKENUT");
-static const u8 sCreditsText_SatoruIwata[]                    = _("ATAWI URATOS");
-static const u8 sCreditsText_KazuyaSuyama[]                   = _("AMAYUS AYUZAK");
-static const u8 sCreditsText_SatoshiMitsuhara[]               = _("ARAHUSTIM IHSOTAS");
-static const u8 sCreditsText_JapanBrailleLibrary[]            = _("YRAR BIL EL LIA RB NAPAJ");
-static const u8 sCreditsText_TomotakaKomura[]                 = _("ARUMOK AKATOMOT");
-static const u8 sCreditsText_MikikoOhhashi[]                  = _("ISHHAO OKIKIM");
-static const u8 sCreditsText_DaisukeHoshino[]                 = _("ONIHSOH EKUSIAD");
-static const u8 sCreditsText_KenjiroIto[]                     = _("OTI ORIJNEK");
-static const u8 sCreditsText_RuiKawaguchi[]                   = _("IHCUGAWAK IUR");
-static const u8 sCreditsText_ShunsukeKohori[]                 = _("IROHOK EKUSNUHS");
-static const u8 sCreditsText_SachikoNakamichi[]               = _("IHCIMAKAN OKIHCAS");
-static const u8 sCreditsText_FujikoNomura[]                   = _("ARUMON OKIJUF");
-static const u8 sCreditsText_KazukiYoshihara[]                = _("ARAHIHSOY IKUZAK");
-static const u8 sCreditsText_RetsujiNomoto[]                  = _("OTOMON IJTSER");
-static const u8 sCreditsText_AzusaTajima[]                    = _("AMIJAT ASUZA");
-static const u8 sCreditsText_ShusakuEgami[]                   = _("IMAGEA UKASUHS");
+static const u8 sCreditsText_SatoshiTajiri[]                  = _("irijaT ihsotaS");
+static const u8 sCreditsText_JunichiMasuda[]                  = _("adusaM ihcinuJ");
+static const u8 sCreditsText_KenSugimori[]                    = _("iromiguS neK");
+static const u8 sCreditsText_ShigekiMorimoto[]                = _("otomiroM ikegihS");
+static const u8 sCreditsText_TetsuyaWatanabe[]                = _("ebanataW ayusteT");
+static const u8 sCreditsText_HisashiSogabe[]                  = _("ebagoS ihsasiH");
+static const u8 sCreditsText_SosukeTamada[]                   = _("adamaT ekusoS");
+static const u8 sCreditsText_AkitoMori[]                      = _("iroM otikA");
+static const u8 sCreditsText_KeitaKagaya[]                    = _("ayagaK atieK");
+static const u8 sCreditsText_YoshinoriMatsuda[]               = _("adustaM ironihsoY");
+static const u8 sCreditsText_HiroyukiNakamura[]               = _("arumakaN ikuyoriH");
+static const u8 sCreditsText_MasaoTaya[]                      = _("ayaT oasaM");
+static const u8 sCreditsText_SatoshiNohara[]                  = _("arahoN ihsotaS");
+static const u8 sCreditsText_TomomichiOhta[]                  = _("athO ihcimomoT");
+static const u8 sCreditsText_MiyukiIwasawa[]                  = _("awasawI ikuyiM");
+static const u8 sCreditsText_TakenoriOhta[]                   = _("athO ironekaT");
+static const u8 sCreditsText_HironobuYoshida[]                = _("adihsoY ubonoriH");
+static const u8 sCreditsText_MotofumiFujiwara[]               = _("arawijuF imufotoM");
+static const u8 sCreditsText_SatoshiOhta[]                    = _("athO ihsotaS");
+static const u8 sCreditsText_AsukaIwashita[]                  = _("atihsawI akusA");
+static const u8 sCreditsText_AimiTomita[]                     = _("atimoT imiA");
+static const u8 sCreditsText_TakaoUnno[]                      = _("onnU oakaT");
+static const u8 sCreditsText_KanakoEo[]                       = _("oE okanaK");
+static const u8 sCreditsText_JunOkutani[]                     = _("inatukO nuJ");
+static const u8 sCreditsText_AtsukoNishida[]                  = _("adihsiN okustA");
+static const u8 sCreditsText_MuneoSaito[]                     = _("otiaS oenuM");
+static const u8 sCreditsText_RenaYoshikawa[]                  = _("awakihsoY aneR");
+static const u8 sCreditsText_GoIchinose[]                     = _("esonihcI oG");
+static const u8 sCreditsText_MorikazuAoki[]                   = _("ikoA uzakiroM");
+static const u8 sCreditsText_KojiNishino[]                    = _("onihsiN ijoK");
+static const u8 sCreditsText_KenjiMatsushima[]                = _("amihsustaM ijneK");
+static const u8 sCreditsText_TetsujiOhta[]                    = _("athO ijusteT");
+static const u8 sCreditsText_HitomiSato[]                     = _("otaS imotiH");
+static const u8 sCreditsText_TakeshiKawachimaru[]             = _("uramihcawaK ihsekaT");
+static const u8 sCreditsText_TeruyukiShimoyamada[]            = _("adamayomihS ikuyureT");
+static const u8 sCreditsText_ShigeruOhmori[]                  = _("iromhO uregihS");
+static const u8 sCreditsText_TadashiTakahashi[]               = _("ihsahakaT ihsadaT");
+static const u8 sCreditsText_ToshinobuMatsumiya[]             = _("ayimustaM ubonihsoT");
+static const u8 sCreditsText_AkihitoTomisawa[]                = _("awasimoT otihikA");
+static const u8 sCreditsText_HirokiEnomoto[]                  = _("otomonE ikoriH");
+static const u8 sCreditsText_KazuyukiTerada[]                 = _("adareT ikuyuzaK");
+static const u8 sCreditsText_YuriSakurai[]                    = _("iarukaS iruY");
+static const u8 sCreditsText_HiromiSagawa[]                   = _("awagaS imoriH");
+static const u8 sCreditsText_KenjiTominaga[]                  = _("aganimoT ijneK");
+static const u8 sCreditsText_YoshioTajiri[]                   = _("irijaT oihsoY");
+static const u8 sCreditsText_TeikoSasaki[]                    = _("ikasaS okieT");
+static const u8 sCreditsText_SachikoHamano[]                  = _("onamaH okihcaS");
+static const u8 sCreditsText_ChieMatsumiya[]                  = _("ayimustaM eihC");
+static const u8 sCreditsText_AkikoShinozaki[]                 = _("ikazonihS okikA");
+static const u8 sCreditsText_AstukoFujii[]                    = _("iijuF okutsA");
+static const u8 sCreditsText_NozomuSaito[]                    = _("otiaS umozoN");
+static const u8 sCreditsText_KenkichiToyama[]                 = _("amayoT ihcikneK");
+static const u8 sCreditsText_SuguruNakatsui[]                 = _("iustakaN uruguS");
+static const u8 sCreditsText_YumiFunasaka[]                   = _("akasanuF imuY");
+static const u8 sCreditsText_NaokoYanase[]                    = _("esanaY okoaN");
+static const u8 sCreditsText_NCLSuperMarioClub[]              = _("bulC oiraM repuS LCN");
+static const u8 sCreditsText_AtsushiTada[]                    = _("adaT ihsustA");
+static const u8 sCreditsText_TakahiroOhnishi[]                = _("ihsinhO orihakaT");
+static const u8 sCreditsText_NorihideOkamura[]                = _("arumakO edihiroN");
+static const u8 sCreditsText_HiroNakamura[]                   = _("arumakaN oriH");
+static const u8 sCreditsText_HiroyukiUesugi[]                 = _("iguseU ikuyoriH");
+static const u8 sCreditsText_TerukiMurakawa[]                 = _("awakaruM ikureT");
+static const u8 sCreditsText_AkiraKinashi[]                   = _("ihsaniK arikA");
+static const u8 sCreditsText_MichikoTakizawa[]                = _("awazikaT okihciM");
+static const u8 sCreditsText_MakikoTakada[]                   = _("adakaT okikaM");
+static const u8 sCreditsText_TakanaoKondo[]                   = _("odnoK oanakaT");
+static const u8 sCreditsText_AiMashima[]                      = _("amihsaM iA");
+static const u8 sCreditsText_GakujiNomoto[]                   = _("otomoN ijukaG");
+static const u8 sCreditsText_TakehiroIzushi[]                 = _("ihsuzI orihekaT");
+static const u8 sCreditsText_HitoshiYamagami[]                = _("imagamaY ihsotiH");
+static const u8 sCreditsText_KyokoWatanabe[]                  = _("ebanataW okoyK");
+static const u8 sCreditsText_TakaoNakano[]                    = _("onakaN oakaT");
+static const u8 sCreditsText_HiroyukiJinnai[]                 = _("ianniJ ikuyoriH");
+static const u8 sCreditsText_HiroakiTsuru[]                   = _("urusT ikaoriH");
+static const u8 sCreditsText_TsunekazIshihara[]               = _("arahihsI zakenusT");
+static const u8 sCreditsText_SatoruIwata[]                    = _("atawI urotaS");
+static const u8 sCreditsText_KazuyaSuyama[]                   = _("amayuS ayuzaK");
+static const u8 sCreditsText_SatoshiMitsuhara[]               = _("arahustiM ihsotaS");
+static const u8 sCreditsText_JapanBrailleLibrary[]            = _("yrarbiL elliarB napaJ");
+static const u8 sCreditsText_TomotakaKomura[]                 = _("arumoK akatomoT");
+static const u8 sCreditsText_MikikoOhhashi[]                  = _("ihsahhO okikiM");
+static const u8 sCreditsText_DaisukeHoshino[]                 = _("onihsoH ekusiaD");
+static const u8 sCreditsText_KenjiroIto[]                     = _("otI orijneK");
+static const u8 sCreditsText_RuiKawaguchi[]                   = _("ihcugawaK iuR");
+static const u8 sCreditsText_ShunsukeKohori[]                 = _("irohoK ekusnuhS");
+static const u8 sCreditsText_SachikoNakamichi[]               = _("ihcimakaN okihcaS");
+static const u8 sCreditsText_FujikoNomura[]                   = _("arumoN okijuF");
+static const u8 sCreditsText_KazukiYoshihara[]                = _("arahihsoY ikuzaK");
+static const u8 sCreditsText_RetsujiNomoto[]                  = _("otomoN ijusteR");
+static const u8 sCreditsText_AzusaTajima[]                    = _("amijaT asuzA");
+static const u8 sCreditsText_ShusakuEgami[]                   = _("imagE ukasuhS");
 static const u8 sCreditsText_PackageAndManual[]               = _("איור אריזה ומדריך");
 static const u8 sCreditsText_EnglishVersion[]                 = _("מתאמי גרסת האנגלית");
 static const u8 sCreditsText_Translator[]                     = _("מתרגם");
 static const u8 sCreditsText_TextEditor[]                     = _("עורך טקסט");
 static const u8 sCreditsText_NCLCoordinator[]                 = _("מתאם LCN");
 static const u8 sCreditsText_GraphicDesigner[]                = _("מעצב גרפי");
-static const u8 sCreditsText_NOAProductTesting[]              = _("AON בדיקות מוצר");
-static const u8 sCreditsText_HideyukiNakajima[]               = _("AMIJAKAN IKUYEDIH");
-static const u8 sCreditsText_HidenoriSaeki[]                  = _("IEKEAS IRONEDIH");
-static const u8 sCreditsText_YokoWatanabe[]                   = _("EBANATAW OKOY");
-static const u8 sCreditsText_SakaeKimura[]                    = _("ARUMIK EAKAS");
-static const u8 sCreditsText_ChiakiShinkai[]                  = _("IAKNIHS IKAIHC");
-static const u8 sCreditsText_SethMcMahill[]                   = _("LLIHCM HCTES");
-static const u8 sCreditsText_NobOgasawara[]                   = _("ARAWASAGO BON");
-static const u8 sCreditsText_TeresaLillygren[]                = _("NERGYLLIL ASERET");
-static const u8 sCreditsText_KimikoNakamichi[]                = _("IHCIMAKAN OKIMIK");
-static const u8 sCreditsText_SouichiYamamoto[]                = _("OTOMAMAY IHCIUOS");
-static const u8 sCreditsText_YuichiroIto[]                    = _("OTI ORIHCIUY");
-static const u8 sCreditsText_ThomasHertzog[]                  = _("GOZTREH SAMOHT");
-static const u8 sCreditsText_MikaKurosawa[]                   = _("AWASORUK AKIM");
-static const u8 sCreditsText_NationalFederationBlind[]        = _("הפדרציה הלאומית לעיוורים");
-static const u8 sCreditsText_PatriciaAMaurer[]                = _("RERUAM .A AICIRTAP");
-static const u8 sCreditsText_EuropeanBlindUnion[]             = _("NOINU DNILB NAEPUORE");
-static const u8 sCreditsText_AustralianBrailleAuthority[]     = _("YTIRUHTUA ELLIARB NAILARTSUA");
-static const u8 sCreditsText_RoyalNewZealandFederationBlind[] = _("פדרציה מלכותית בניו זילנד לעיוורים");
-static const u8 sCreditsText_MotoyasuTojima[]                 = _("AMIJOT USAYOTOM");
-static const u8 sCreditsText_NicolaPrattBarlow[]              = _("WOLRAB TTARP ALONIC");
-static const u8 sCreditsText_ShellieDow[]                     = _("WOD EILLEHS");
-static const u8 sCreditsText_ErikJohnson[]                    = _("NOSNHOJ KIRE");
+static const u8 sCreditsText_NOAProductTesting[]              = _("gnitseT tcudorP AON");
+static const u8 sCreditsText_HideyukiNakajima[]               = _("amijakaN ikuyediH");
+static const u8 sCreditsText_HidenoriSaeki[]                  = _("ikeaS ironediH");
+static const u8 sCreditsText_YokoWatanabe[]                   = _("ebanataW okoY");
+static const u8 sCreditsText_SakaeKimura[]                    = _("arumiK eakaS");
+static const u8 sCreditsText_ChiakiShinkai[]                  = _("iaknihS ikaihC");
+static const u8 sCreditsText_SethMcMahill[]                   = _("llihaMcM hteS");
+static const u8 sCreditsText_NobOgasawara[]                   = _("arawasagO boN");
+static const u8 sCreditsText_TeresaLillygren[]                = _("nergylliL asereT");
+static const u8 sCreditsText_KimikoNakamichi[]                = _("ihcimakaN okimiK");
+static const u8 sCreditsText_SouichiYamamoto[]                = _("otomamaY ihciuoS");
+static const u8 sCreditsText_YuichiroIto[]                    = _("otI orihciuY");
+static const u8 sCreditsText_ThomasHertzog[]                  = _("goztreH samohT");
+static const u8 sCreditsText_MikaKurosawa[]                   = _("awasoruK akiM");
+static const u8 sCreditsText_NationalFederationBlind[]        = _("dnilB eht fo noitaredeF lanoitaN");
+static const u8 sCreditsText_PatriciaAMaurer[]                = _("reruaM .A aicirtaP");
+static const u8 sCreditsText_EuropeanBlindUnion[]             = _("noinU dnilB naeporuE");
+static const u8 sCreditsText_AustralianBrailleAuthority[]     = _("ytirohtuA elliarB nailartsuA");
+static const u8 sCreditsText_RoyalNewZealandFederationBlind[] = _("dnilB eht rof noitaredeF dnalaeZ weN layoR");
+static const u8 sCreditsText_MotoyasuTojima[]                 = _("amijoT usayotoM");
+static const u8 sCreditsText_NicolaPrattBarlow[]              = _("wolraB-ttarP alociN");
+static const u8 sCreditsText_ShellieDow[]                     = _("woD eillehS");
+static const u8 sCreditsText_ErikJohnson[]                    = _("nosnhoJ kirE");
 
-static const u8 sCreditsText_Translators[]                     = _("מתרגמים");
 static const u8 sCreditsText_HebrewVersion[]                  = _("מתאם גרסת העברית");
 static const u8 sCreditsText_ShaharBerenson[]                 = _("שחר ברנסון");
 static const u8 sCreditsText_SagiBelmash[]                    = _("שגיא בלמש");
+static const u8 sCreditsText_NogaShakked[]                    = _("נגה שקד");
+static const u8 sCreditsText_LiorHalphon[]                    = _("ליאור חלפון");
 static const u8 sCreditsText_HebrewNames[]                    = _("עברות שמות הפוקימון");
 static const u8 sCreditsText_MSElboim[]                       = _("מ. ש. אלבוים");
 static const u8 sCreditsText_MayaKatz[]                       = _("מאיה כץ");
@@ -399,10 +403,11 @@ static const struct CreditsEntry sCreditsEntry_ErikJohnson                      
 static const struct CreditsEntry sCreditsEntry_HebrewVersion                    = { 0, TRUE, sCreditsText_HebrewVersion};
 static const struct CreditsEntry sCreditsEntry_ShaharBerenson                   = { 0, FALSE, sCreditsText_ShaharBerenson};
 static const struct CreditsEntry sCreditsEntry_SagiBelmash                      = { 0, FALSE, sCreditsText_SagiBelmash};
+static const struct CreditsEntry sCreditsEntry_LiorHalfon                       = { 0, FALSE, sCreditsText_LiorHalphon};
+static const struct CreditsEntry sCreditsEntry_NogaShakked                      = { 0, FALSE, sCreditsText_NogaShakked};
 static const struct CreditsEntry sCreditsEntry_HebrewNames                      = { 0, TRUE, sCreditsText_HebrewNames};
 static const struct CreditsEntry sCreditsEntry_MSElboim                         = { 0, FALSE, sCreditsText_MSElboim};
 static const struct CreditsEntry sCreditsEntry_MayaKatz                         = { 0, FALSE, sCreditsText_MayaKatz};
-static const struct CreditsEntry sCreditsEntry_Translators                      = { 0, FALSE, sCreditsText_Translators};
 
 #define _ &sCreditsEntry_EmptyString
 static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][ENTRIES_PER_PAGE] =
@@ -413,6 +418,55 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         &sCreditsEntry_Credits,
         _,
         _
+    },
+    [PAGE_HEBREW_VERSION] = {
+        _,
+        &sCreditsEntry_HebrewVersion,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+    [PAGE_LEAD_PROGRAMMER_2] = {
+        _,
+        &sCreditsEntry_LeadProgrammer,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+        [PAGE_TRANSLATOR_2] = {
+        _,
+        &sCreditsEntry_Translator,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+        [PAGE_GRAPHIC_DESIGNERS_4] = {
+        _,
+        &sCreditsEntry_GraphicDesigners,
+        &sCreditsEntry_ShaharBerenson,
+        _,
+        _,
+    },
+    [PAGE_PROGRAMMERS_6] = {
+        &sCreditsEntry_Programmers,
+        &sCreditsEntry_ShaharBerenson,
+        &sCreditsEntry_SagiBelmash,
+        &sCreditsEntry_LiorHalfon,
+        &sCreditsEntry_NogaShakked,
+    },
+    [PAGE_HEBREW_NAMES] = {
+        _,
+        &sCreditsEntry_HebrewNames,
+        &sCreditsEntry_MSElboim,
+        _,
+        _,
+    },
+    [PAGE_SPECIAL_THANKS_6] = {
+        _,
+        &sCreditsEntry_SpecialThanks,
+        &sCreditsEntry_MayaKatz,
+        _,
+        _,
     },
     [PAGE_DIRECTOR] = {
         _,
@@ -803,48 +857,6 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         _,
         &sCreditsEntry_ExecProducers,
         &sCreditsEntry_TsunekazIshihara,
-        _,
-        _,
-    },
-    [PAGE_HEBREW_VERSION] = {
-        _,
-        &sCreditsEntry_HebrewVersion,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_PROGRAMMERS_6] = {
-        _,
-        &sCreditsEntry_Programmers,
-        &sCreditsEntry_ShaharBerenson,
-        &sCreditsEntry_SagiBelmash,
-        _,
-    },
-    [PAGE_TRANSLATOR_2] = {
-        _,
-        &sCreditsEntry_Translator,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_GRAPHIC_DESIGNERS_4] = {
-        _,
-        &sCreditsEntry_GraphicDesigners,
-        &sCreditsEntry_ShaharBerenson,
-        _,
-        _,
-    },
-    [PAGE_HEBREW_NAMES] = {
-        _,
-        &sCreditsEntry_HebrewNames,
-        &sCreditsEntry_MSElboim,
-        _,
-        _,
-    },
-    [PAGE_SPECIAL_THANKS_6] = {
-        _,
-        &sCreditsEntry_SpecialThanks,
-        &sCreditsEntry_MayaKatz,
         _,
         _,
     },

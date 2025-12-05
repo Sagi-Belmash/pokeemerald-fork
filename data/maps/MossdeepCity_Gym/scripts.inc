@@ -365,284 +365,284 @@ MossdeepCity_Gym_EventScript_RedFloorSwitch::
 	end
 
 MossdeepCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going, CHAMPION-bound\n"
-	.string "{PLAYER}?\p"
-	.string "The GYM LEADERS here use\n"
-	.string "PSYCHIC-type POKéMON.\p"
-	.string "If you go up against them with\n"
-	.string "FIGHTING- or POISON-type POKéMON,\l"
-	.string "they'll inflict horrible damage!\p"
-	.string "Plus, they'll come at you with\n"
-	.string "outstanding combination attacks.\p"
-	.string "If you want to win, you'll need to show\n"
-	.string "them how tight you are with your\l"
-	.string "POKéMON. Go for it!$"
+	.string "יו, מה שלומך, {PLAYER}\n"
+	.string "אלו{SWAP_PEY}{ADD_HEY} שבדרך?\p"
+	.string "מנהיגי המכון כאן משתמשים\n"
+	.string "בפוקימונים מסוג על חושי.\p"
+	.string "אם את{EMIT_HEY} הולך נגדם עם\n"
+	.string "פוקימונים מסוג לחימה או רעל,\l"
+	.string "הם יגרמו לנזק נוראי!\p"
+	.string "בנוסף, הם יתקפו אותך עם\n"
+	.string "התקפות משולבות מדהימות.\p"
+	.string "אם את{EMIT_HEY} רוצה לנצח, תצטר{SWAP_CHAF}{ADD_YUD} להראות\n"
+	.string "להם כמה את{EMIT_HEY} מחובר{ADD_TAF} לפוקימון\l"
+	.string "שלך. ל{SWAP_CHAF}{ADD_YUD} על זה!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
-	.string "Wow, you're astounding!\n"
-	.string "You're one great TRAINER!$"
+	.string "ואו, את{EMIT_HEY} מדהי{SWAP_MEM}{ADD_HEY}!\n"
+	.string "את{EMIT_HEY} מאמ{SWAP_NUN}{ADD_TAF} נהדר{ADD_TAF}!$"
 
 MossdeepCity_Gym_Text_PrestonIntro:
-	.string "Battles hinge on the strength of your\n"
-	.string "spirit! The weak-spirited will never win!$"
+	.string "קרבות תלויים בכוח של הרוח\n"
+	.string "שלך! חלשי הרוח לעולם לא ינצחו!$"
 
 MossdeepCity_Gym_Text_PrestonDefeat:
-	.string "I lost!\n"
-	.string "I must temper my spirit again!$"
+	.string "הפסדתי!\n"
+	.string "אני חייב לחשל את רוחי שוב!$"
 
 MossdeepCity_Gym_Text_PrestonPostBattle:
-	.string "The indecisive lose.\n"
-	.string "That's my warning to you.$"
+	.string "ההססנים מפסידים.\n"
+	.string "זו האזהרה שלי לך.$"
 
 MossdeepCity_Gym_Text_VirgilIntro:
-	.string "Let me see your talent!$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות את הכישרון שלך!$"
 
 MossdeepCity_Gym_Text_VirgilDefeat:
-	.string "You possess spectacular talent!$"
+	.string "יש לך כישרון מרהיב!$"
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
-	.string "If there are prodigies in the world,\n"
-	.string "then our GYM LEADERS are them!\p"
-	.string "However, you may be even more talented\n"
-	.string "than them…$"
+	.string "אם יש בעולם ילדי פלא,\n"
+	.string "אז מנהיגי המכון שלנו הם כאלה!\p"
+	.string "עם זאת, את{EMIT_HEY} עשוי{ADD_HEY} להיות מוכשר{ADD_TAF}\n"
+	.string "יותר מהם אפילו…$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
-	.string "Fufufufu… Watch me levitate a POKé\n"
-	.string "BALL telekinetically!\p"
-	.string "Wrooooooooaaaar!\n"
+	.string "פופופופו… תראה אותי מרחף\n"
+	.string "פוכדור בכוח טלקינטי!\p"
+	.string "וורוואאאאאאאר!\n"
 	.string "… … … … … … …\p"
-	.string "Sometimes, I'm out of sync…$"
+	.string "לפעמים, אני לא מסונכרן…$"
 
 MossdeepCity_Gym_Text_BlakeDefeat:
-	.string "My POKéMON battling skills are out\n"
-	.string "of sync, too!$"
+	.string "כישורי קרב הפוקימון שלי גם\n"
+	.string "לא מסונכרנים!$"
 
 MossdeepCity_Gym_Text_BlakePostBattle:
-	.string "A POKé BALL was too heavy to lift\n"
-	.string "psychically. But this dust bunny…\p"
-	.string "Whoooooooooooooooh!\n"
+	.string "פוכדור היה כבד מדי להרמה\n"
+	.string "באמצעות כוח על חושי. אבל כדור המוך הזה…\p"
+	.string "ווווווווווווווווו!\n"
 	.string "… … … … … …\p"
-	.string "No, I'm not cheating!\n"
-	.string "I didn't blow on it! Honestly!$"
+	.string "לא, אני לא מרמה!\n"
+	.string "לא נשפתי עליו! באמת!$"
 
 MossdeepCity_Gym_Text_HannahIntro:
-	.string "When you lose to me, don't be too hard\n"
-	.string "on yourself.\p"
-	.string "It's not that you're weak--I'm just\n"
-	.string "too strong!$"
+	.string "כאשר את{EMIT_HEY} מפסיד{ADD_HEY} לי, אל תהי{EMIT_HEY}{ADD_YUD}\n"
+	.string "קשה מדי עם עצמך.\p"
+	.string "זה לא שאת{EMIT_HEY} חלש{ADD_HEY}--אני פשוט\n"
+	.string "חזקה מדי!$"
 
 MossdeepCity_Gym_Text_HannahDefeat:
-	.string "You're just too strong!$"
+	.string "את{EMIT_HEY} פשוט חזק{ADD_HEY} מדי!$"
 
 MossdeepCity_Gym_Text_HannahPostBattle:
-	.string "I'm not going to get down on myself for\n"
-	.string "losing. I just need to train harder.\p"
-	.string "Positive thinking--that's my strong\n"
-	.string "point!$"
+	.string "אני לא אהיה מדוכאת בגלל\n"
+	.string "ההפסד. אני רק צריכה להתאמן חזק יותר.\p"
+	.string "חשיבה חיובית--זו הנקודה החזקה\n"
+	.string "שלי!$"
 
 MossdeepCity_Gym_Text_SamanthaIntro:
-	.string "I see it…\n"
-	.string "I see your future…\p"
-	.string "If you can beat me, I will tell you\n"
-	.string "your future!$"
+	.string "אני רואה את זה…\n"
+	.string "אני רואה את העתיד שלך…\p"
+	.string "אם את{EMIT_HEY} יכול{ADD_HEY} לנצח אותי, אני אגיד לך\n"
+	.string "את העתיד שלך!$"
 
 MossdeepCity_Gym_Text_SamanthaDefeat:
-	.string "I surrender!$"
+	.string "אני נכנעת!$"
 
 MossdeepCity_Gym_Text_SamanthaPostBattle:
-	.string "You will wage a terrifically intense\n"
-	.string "battle with our GYM LEADERS…\p"
-	.string "The result…\n"
-	.string "You won't hear it from me!$"
+	.string "את{EMIT_HEY} תנהל{ADD_YUD} קרב עוצמתי בצורה מחרידה\n"
+	.string "עם מנהיגי המכון שלנו…\p"
+	.string "התוצאה…\n"
+	.string "את{EMIT_HEY} לא תשמע{ADD_YUD} אותה ממני!$"
 
 MossdeepCity_Gym_Text_MauraIntro:
-	.string "The roads you have traveled…\n"
-	.string "What you have experienced…\p"
-	.string "Come at me with everything you've\n"
-	.string "learned!$"
+	.string "הדרכים שבהן טיילת…\n"
+	.string "מה שחווית…\p"
+	.string "בוא{ADD_YUD} אליי עם כל מה\n"
+	.string "שלמדת!$"
 
 MossdeepCity_Gym_Text_MauraDefeat:
-	.string "You've traveled a path of greatness!$"
+	.string "טיילת בשביל של גדולה!$"
 
 MossdeepCity_Gym_Text_MauraPostBattle:
-	.string "A bright future awaits those who have\n"
-	.string "worked diligently.\p"
-	.string "For those who lazed idly, there is\n"
-	.string "only despair at the end.\p"
-	.string "What goes around comes around…$"
+	.string "עתיד מזהיר מחכה לאלה שעבדו\n"
+	.string "במרץ.\p"
+	.string "לאלה שהתעצלו, יש רק\n"
+	.string "ייאוש בסוף.\p"
+	.string "מה שזורעים קוצרים…$"
 
 MossdeepCity_Gym_Text_SylviaIntro:
-	.string "Even at the risk of life, I will win\n"
-	.string "this battle!$"
+	.string "אפילו בסיכון החיים, אני אנצח\n"
+	.string "בקרב הזה!$"
 
 MossdeepCity_Gym_Text_SylviaDefeat:
-	.string "What you do…\n"
-	.string "It horrifies me…$"
+	.string "מה שאת{EMIT_HEY} עושה…\n"
+	.string "זה מחריד אותי…$"
 
 MossdeepCity_Gym_Text_SylviaPostBattle:
-	.string "How dare you beat me…\p"
-	.string "It won't be my fault if something\n"
-	.string "horrible befalls you…$"
+	.string "איך את{EMIT_HEY} מעז{ADD_HEY} לנצח אותי…\p"
+	.string "זו לא תהיה אשמתי אם משהו\n"
+	.string "נוראי יקרה לך…$"
 
 MossdeepCity_Gym_Text_NateIntro:
-	.string "Hohoho.\p"
-	.string "You need me to show you how tenacious\n"
-	.string "the PSYCHIC type can be.$"
+	.string "הוהוהו.\p"
+	.string "את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} שאראה לך כמה עקשן\n"
+	.string "יכול להיות הסוג העל חושי.$"
 
 MossdeepCity_Gym_Text_NateDefeat:
-	.string "Oh! My, my!\n"
-	.string "Your battle style is fantastic!$"
+	.string "אוי לי, אוי לי!\n"
+	.string "סגנון הקרב שלך פנטסטי!$"
 
 MossdeepCity_Gym_Text_NatePostBattle:
-	.string "I… I don't let defeat rattle m-me,\n"
-	.string "however b-badly.$"
+	.string "אני… אני לא נותן להפסד לבלבל אותי,\n"
+	.string "לא משנה כמה גרוע.$"
 
 MossdeepCity_Gym_Text_KathleenIntro:
-	.string "Let me show you a perfectly awful,\n"
-	.string "horrifying time!$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי להראות לך זמן נוראי לחלוטין,\n"
+	.string "מחריד!$"
 
 MossdeepCity_Gym_Text_KathleenDefeat:
-	.string "N-nooooo!$"
+	.string "ל-לאאאא!$"
 
 MossdeepCity_Gym_Text_KathleenPostBattle:
-	.string "Your vitality is contagious!\n"
-	.string "Get away from me quickly!$"
+	.string "החיוניות שלך מדבקת!\n"
+	.string "תתרחק{ADD_YUD} ממני מהר!$"
 
 MossdeepCity_Gym_Text_CliffordIntro:
-	.string "I may be past my prime, but I suggest\n"
-	.string "you not patronize me.$"
+	.string "אני אולי עברתי את שיאי, אבל אני מציע\n"
+	.string "שלא תתנשא{ADD_YUD} עליי.$"
 
 MossdeepCity_Gym_Text_CliffordDefeat:
-	.string "Ah, you overflow with the power\n"
-	.string "of youth!$"
+	.string "אה, את{EMIT_HEY} גדוש{ADD_HEY} בכוח\n"
+	.string "של הנעורים!$"
 
 MossdeepCity_Gym_Text_CliffordPostBattle:
-	.string "It seems that I could not overcome\n"
-	.string "your youthful energy.$"
+	.string "זה נראה שלא יכולתי להתגבר\n"
+	.string "על האנרגיה הצעירה שלך.$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
-	.string "You're not getting through to the end!\n"
-	.string "Not if I can help it!$"
+	.string "את{EMIT_HEY} לא מגיע{ADD_HEY} עד הסוף!\n"
+	.string "לא אם אני יכול לעזור לזה!$"
 
 MossdeepCity_Gym_Text_MaceyDefeat:
-	.string "How could you be so ludicrously\n"
-	.string "strong?$"
+	.string "איך את{EMIT_HEY} יכול{ADD_HEY} להיות כל כך חזק{ADD_HEY}\n"
+	.string "בצורה מגוחכת?$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
-	.string "The way you battle is somehow brutal!$"
+	.string "המפ! את{EMIT_HEY} אולי חזק{ADD_HEY}, אבל את{EMIT_HEY} לא\n"
+	.string "מתאי{SWAP_MEM}{ADD_HEY} לסוג העל חושי!\p"
+	.string "הדרך שבה את{EMIT_HEY} נלח{SWAP_MEM}{ADD_TAF} היא איכשהו אכזרית!$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
-	.string "Wroooar! Have a taste of my super\n"
-	.string "POKéMON hard-battling power!$"
+	.string "וורוואאר! תטע{SWAP_MEM}{ADD_YUD} את הכוח הקשוח של הפוקימון\n"
+	.string "העל שלי בקרבות!$"
 
 MossdeepCity_Gym_Text_NicholasDefeat:
-	.string "Oh!\n"
-	.string "Done in!$"
+	.string "או!\n"
+	.string "גמור!$"
 
 MossdeepCity_Gym_Text_NicholasPostBattle:
-	.string "All right! I think I'll develop a special\n"
-	.string "invincible POKéMON power next.$"
+	.string "בסדר! אני חושב שאפתח כוח פוקימון\n"
+	.string "בלתי מנוצח ומיוחד בפעם הבאה.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-	.string "TATE: Hehehe… Were you surprised?\p"
-	.string "LIZA: Fufufu… Were you surprised?\p"
-	.string "TATE: That there are two GYM LEADERS?\n"
-	.string "LIZA: That there are two GYM LEADERS?\p"
-	.string "TATE: We're twins!\n"
-	.string "LIZA: We're twins!\p"
-	.string "TATE: We don't need to talk because…\n"
-	.string "LIZA: We can each determine what…\p"
-	.string "TATE: The other is thinking…\n"
-	.string "LIZA: All in our minds!\p"
-	.string "TATE: This combination of ours…\n"
-	.string "LIZA: Can you beat it?$"
+	.string "טייט: היהיהי… הופתעת?\p"
+	.string "ליזה: פופופו… הופתעת?\p"
+	.string "טייט: שיש שני מנהיגי מכון?\n"
+	.string "ליזה: שיש שני מנהיגי מכון?\p"
+	.string "טייט: אנחנו תאומים!\n"
+	.string "ליזה: אנחנו תאומים!\p"
+	.string "טייט: אנחנו לא צריכים לדבר כי…\n"
+	.string "ליזה: כל אחד מאיתנו יכול לדעת מה…\p"
+	.string "טייט: השני חושב…\n"
+	.string "ליזה: הכל במוחנו!\p"
+	.string "טייט: השילוב הזה שלנו…\n"
+	.string "ליזה: את{EMIT_HEY} יכול לנצח אותו?$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
-	.string "TATE: What?! Our combination…\n"
-	.string "LIZA: Was shattered!\p"
-	.string "TATE: It can't be helped. You've won…\n"
-	.string "LIZA: So, in recognition, take this.$"
+	.string "טייט: מה?! השילוב שלנו…\n"
+	.string "ליזה: נופץ לרסיסים!\p"
+	.string "טייט: זה לא יכול להימנע. ניצחת…\n"
+	.string "ליזה: אז, כהכרה, קח{ADD_YUD} את זה.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
-	.string "{PLAYER} received the MIND BADGE\n"
-	.string "from TATE and LIZA.$"
+	.string "{PLAYER} קיבל{ADD_HEY} את תג התודעה\n"
+	.string "מטייט וליזה.$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
-	.string "TATE: The MIND BADGE enhances the\n"
-	.string "SP. ATK and SP. DEF of POKéMON.\p"
-	.string "LIZA: It also lets you use the HM move\n"
-	.string "DIVE outside of battle.\p"
-	.string "TATE: You should also take this, too.$"
+	.string "טייט: תג התודעה משפר את ההתקפה מ.\n"
+	.string "ואת ההגנה מ. של פוקימונים.\p"
+	.string "ליזה: זה גם מאפשר לך להשתמש במהלך המ”נ\n"
+	.string "צלילה מחוץ לקרב.\p"
+	.string "טייט: את{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY} לקחת גם את זה.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "TATE: That TM04 contains…\n"
-	.string "LIZA: CALM MIND!\p"
-	.string "TATE: It raises SP. ATK and…\n"
-	.string "LIZA: It raises SP. DEF!\p"
-	.string "TATE: It's a move that's perfect…\n"
-	.string "LIZA: For PSYCHIC POKéMON!\p"
+	.string "טייט: המ”מ40 הזה מכיל…\n"
+	.string "ליזה: ראש שקט!\p"
+	.string "טייט: זה מעלה התקפה מ. ו…\n"
+	.string "ליזה: זה מעלה הגנה מ.!\p"
+	.string "טייט: זה מהלך שמושלם…\n"
+	.string "ליזה: לפוקימונים על חושיים!\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
-	.string "Registered GYM LEADERS TATE & LIZA\n"
-	.string "in the POKéNAV.$"
+	.string "מנהיגי המכון טייט וליזה נרשמו\n"
+	.string "בפוקינווט.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
-	.string "TATE: Looks like the bond between you\n"
-	.string "and your POKéMON is far stronger than\l"
-	.string "the bond that we share as twins.\p"
-	.string "LIZA: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "טייט: נראה שהקשר בינך\n"
+	.string "לפוקימונים שלך חזק בהרבה\l"
+	.string "מהקשר שלנו כתאומים.\p"
+	.string "ליזה: את{EMIT_HEY} תהפ{EMIT_VAV}{SWAP_CHAF}{ADD_YUD} לחזק{ADD_HEY} אפילו יותר!\n"
+	.string "נלחמנו בך, אז אנחנו יודעים.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
-	.string "TATE: Hehehe… Were you surprised?\p"
-	.string "LIZA: That there are two GYM LEADERS?\p"
-	.string "TATE: Oops, you have only one…\n"
-	.string "LIZA: POKéMON that can battle.\p"
-	.string "TATE: We can't battle that way!\p"
-	.string "LIZA: If you want to challenge us,\n"
-	.string "bring some more POKéMON.$"
+	.string "טייט: היהיהי… הופתעת?\p"
+	.string "ליזה: שיש שני מנהיגי מכון?\p"
+	.string "טייט: אופס, יש לך רק פוקימון…\n"
+	.string "ליזה: אחד שיכול להילחם.\p"
+	.string "טייט: אנחנו לא יכולים להילחם בצורה כזו!\p"
+	.string "ליזה: אם את{EMIT_HEY} רוצה לאתגר אותנו,\n"
+	.string "תביא{ADD_YUD} עוד פוקימונים.$"
 
 MossdeepCity_Gym_Text_GymStatue:
-	.string "MOSSDEEP CITY POKéMON GYM$"
+	.string "מכון הפוקימונים של העיר מוסדיפ$"
 
 MossdeepCity_Gym_Text_GymStatueCertified:
-	.string "MOSSDEEP CITY POKéMON GYM\p"
-	.string "LIZA AND TATE'S CERTIFIED TRAINERS:\n"
+	.string "מכון הפוקימונים של העיר מוסדיפ\p"
+	.string "מאמנים מוסמכים בידי ליזה וטייט:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
-	.string "TATE: POKéMON…\n"
-	.string "LIZA: POKéMON…\p"
-	.string "TATE: By changing the party's mix…\n"
-	.string "LIZA: The battle style changes.\p"
-	.string "TATE: But me…\n"
-	.string "LIZA: But me…\p"
-	.string "TATE: I'll always be with LIZA!\n"
-	.string "LIZA: I'll always be with TATE!\p"
-	.string "TATE: Our combination…\n"
-	.string "LIZA: We'll show you again and again!$"
+	.string "טייט: פוקימונים…\n"
+	.string "ליזה: פוקימונים…\p"
+	.string "טייט: על ידי שינוי הרכב הקבוצה…\n"
+	.string "ליזה: סגנון הקרב משתנה.\p"
+	.string "טייט: אבל אני…\n"
+	.string "ליזה: אבל אני…\p"
+	.string "טייט: אני תמיד אהיה עם ליזה!\n"
+	.string "ליזה: אני תמיד אהיה עם טייט!\p"
+	.string "טייט: השילוב שלנו…\n"
+	.string "ליזה: אנחנו נראה לך שוב ושוב!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
-	.string "TATE: You and your POKéMON…\n"
-	.string "LIZA: It's as if you were siblings!$"
+	.string "טייט: את{EMIT_HEY} והפוקימונים שלך…\n"
+	.string "ליזה: זה כאילו הייתם אחים!$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
-	.string "TATE: You can knock us down,\n"
-	.string "but we'll never stay down!\p"
-	.string "LIZA: Because the two of us,\n"
-	.string "we always support each other!$"
+	.string "טייט: את{EMIT_HEY} יכול{ADD_HEY} להפיל אותנו,\n"
+	.string "אבל אנחנו אף פעם לא נישאר למטה!\p"
+	.string "ליזה: כי שנינו,\n"
+	.string "אנחנו תמיד תומכים אחת בשני!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
-	.string "TATE: You're back again…\n"
-	.string "LIZA: You're back again…\p"
-	.string "TATE: To give us a rematch.\n"
-	.string "LIZA: To give us a rematch.\p"
-	.string "TATE: But…\n"
-	.string "LIZA: For our match…\p"
-	.string "TATE: You brought just one POKéMON!\n"
-	.string "LIZA: You brought just one POKéMON!\p"
-	.string "TATE: We need you to bring at least…\n"
-	.string "LIZA: Two POKéMON when you come back.$"
+	.string "טייט: חזרת שוב…\n"
+	.string "ליזה: חזרת שוב…\p"
+	.string "טייט: כדי לתת לנו קרב חוזר.\n"
+	.string "ליזה: כדי לתת לנו קרב חוזר.\p"
+	.string "טייט: אבל…\n"
+	.string "ליזה: לקרב שלנו…\p"
+	.string "טייט: הבאת רק פוקימון אחד!\n"
+	.string "ליזה: הבאת רק פוקימון אחד!\p"
+	.string "טייט: אנחנו צריכים שתביא{ADD_YUD} לפחות…\n"
+	.string "ליזה: שני פוקימונים כשתחז{EMIT_VAV}ר{ADD_YUD}.$"

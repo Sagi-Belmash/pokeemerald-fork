@@ -28,42 +28,42 @@ MtPyre_6F_EventScript_Cedric::
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "When I'm here…\n"
-	.string "A curious power flows into me…$"
+	.string "כשאני כאן…\n"
+	.string "זורם אליי כוח מוזר…$"
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "The power is ebbing away…$"
+	.string "הכוח הולך ודועך…$"
 
 MtPyre_6F_Text_ValeriePostBattle:
-	.string "Perhaps the power is from the spirits\n"
-	.string "of POKéMON in fitful sleep here…$"
+	.string "אולי הכוח מגיע מהרוחות\n"
+	.string "של פוקימונים בשינה סוערת כאן…$"
 
 MtPyre_6F_Text_ValerieRegister:
-	.string "Fufufu… I lost the match, but…\n"
-	.string "I have this little ability…\p"
-	.string "Without ever laying my hands on\n"
-	.string "your POKéNAV… Hiyah!$"
+	.string "פופופו… הפסדתי בקרב, אבל…\n"
+	.string "יש לי יכולת קטנה כזו…\p"
+	.string "מבלי שאניח את ידיי על\n"
+	.string "הפוקידע שלך… הייאה!$"
 
 MtPyre_6F_Text_ValerieRematchIntro:
-	.string "Behind you…\n"
-	.string "What is it…$"
+	.string "מאחוריך…\n"
+	.string "מה זה…$"
 
 MtPyre_6F_Text_ValerieRematchDefeat:
-	.string "Something faded away…$"
+	.string "משהו נעלם…$"
 
 MtPyre_6F_Text_ValeriePostRematch:
-	.string "The POKéMON at rest here…\n"
-	.string "Sometimes, they play…$"
+	.string "הפוקימונים נחים כאן…\n"
+	.string "לפעמים, הם משחקים…$"
 
 MtPyre_6F_Text_CedricIntro:
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "האם איבדת את הדרך?\n"
+	.string "אל תפחד{ADD_YUD} כי אני כאן!$"
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Weren't you lost?$"
+	.string "לא היית אבוד?$"
 
 MtPyre_6F_Text_CedricPostBattle:
-	.string "I had this feeling that a lost TRAINER\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "הייתה לי הרגשה שמאמ{SWAP_NUN}{ADD_TAF} אבוד{ADD_HEY}\n"
+	.string "{EMIT_YUD}{ADD_TAF}היה בפאניקה ויהיה קל להביס אות{EMIT_VAV}{ADD_HEY}.\p"
+	.string "זה מלוכלך ולא אנסה זאת שוב…$"
 

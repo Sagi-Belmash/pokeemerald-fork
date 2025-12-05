@@ -40,25 +40,25 @@ LavaridgeTown_HerbShop_EventScript_ExplainCharcoal::
 	end
 
 LavaridgeTown_HerbShop_Text_WelcomeToHerbShop:
-	.string "Welcome to the HERB SHOP, home of\n"
-	.string "effective and inexpensive medicine!$"
+	.string "ברוכים הבאים לחנות העשבים, ביתם של\n"
+	.string "תרופות יעילות וזולות!$"
 
 LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine:
-	.string "You've come to look at herbal medicine\n"
-	.string "in LAVARIDGE?\p"
-	.string "That's rather commendable.\p"
-	.string "I like you! Take this!$"
+	.string "את{EMIT_HEY} באת להסתכל על תרופות צמחיות\n"
+	.string "בלברידג'?\p"
+	.string "זה בהחלט נשמע משובח.\p"
+	.string "אני מחבב אותך! קח{ADD_YUD} את זה!$"
 
 LavaridgeTown_HerbShop_Text_ExplainCharcoal:
-	.string "That CHARCOAL I gave you, it's used\n"
-	.string "for making herbal medicine.\p"
-	.string "It also does wonders when held by\n"
-	.string "a POKéMON.\p"
-	.string "It intensifies the power of FIRE-type\n"
-	.string "moves.$"
+	.string "הפחם שנתתי לך משמש\n"
+	.string "לייצור תרופות צמחיות.\p"
+	.string "הוא גם עושה נפלאות כאשר מוחזק על ידי\n"
+	.string "פוקימון.\p"
+	.string "הוא מעלה את עוצמתם של מהלכים מסוג אש\n"
+	.string "במידה ניכרת.$"
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:
-	.string "Herbal medicine works impressively well.\n"
-	.string "But your POKéMON will dislike you for it.\l"
-	.string "It must be horribly bitter!$"
+	.string "תרופות צמחיות עובדות בצורה מרשימה.\n"
+	.string "אבל הפוקימון שלך ישנא אותך בגללן.\l"
+	.string "הן בטח מרות בצורה איומה!$"
 

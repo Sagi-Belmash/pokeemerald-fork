@@ -290,91 +290,89 @@ Route113_GlassWorkshop_EventScript_TryGiveItemAgain::
 Route113_GlassWorkshop_EventScript_NinjaBoy::
 	msgbox Route113_GlassWorkshop_Text_FunToBlowGlassFlute, MSGBOX_NPC
 	end
-
 Route113_GlassWorkshop_Text_GoCollectAshWithThis:
-	.string "This area is covered in volcanic ash,\n"
-	.string "huff-puff!\p"
-	.string "I'm specially gifted, huff-puff.\p"
-	.string "I make glass out of volcanic ash\n"
-	.string "and make items, huff-puff.\p"
-	.string "Go collect ashes with this, huff-puff.$"
+	.string "האזור הזה מכוסה באפר געשי,\n"
+	.string "האף-פאף!\p"
+	.string "אני מחונן במיוחד, האף-פאף.\p"
+	.string "אני מכין זכוכית מאפר געשי\n"
+	.string "ומייצר פריטים, האף-פאף.\p"
+	.string "ל{SWAP_CHAF}{ADD_YUD} אס{EMIT_VAV}{SWAP_PEY}{ADD_YUD} אפר עם זה, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_ExplainSootSack:
-	.string "Just take that SOOT SACK and walk\n"
-	.string "through piles of ash, huff-puff.\p"
-	.string "And it will fill up with the volcanic ash,\n"
-	.string "huff-puff.\p"
-	.string "Once you think you've collected a good\n"
-	.string "amount, come see me, huff-puff.$"
+	.string "פשוט קח{ADD_YUD} את שק הפיח הזה ול{SWAP_CHAF}{ADD_YUD}\n"
+	.string "דרך ערימות של אפר, האף-פאף.\p"
+	.string "וזה יתמלא באפר געשי,\n"
+	.string "האף-פאף.\p"
+	.string "ברגע שאת{EMIT_HEY} חושב{ADD_TAF} שאספת כמות\n"
+	.string "טובה, בוא{ADD_YUD} לבקר אותי, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_LetsSeeCollectedAshes:
-	.string "Have you collected ashes, huff-puff?\n"
-	.string "Let me see, huff-puff.$"
+	.string "האם אספת אפר, האף-פאף?\n"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshNeedX:
-	.string "Hmmm…\n"
-	.string "There's not enough ash here, huff-puff.\l"
-	.string "I can't make glass with this, huff-puff.\p"
-	.string "Let's see… {STR_VAR_1} is the number of steps\n"
-	.string "you'll need to walk for me to make you\l"
-	.string "a BLUE FLUTE, huff-puff.$"
+	.string "המממ…\n"
+	.string "אין מספיק אפר כאן, האף-פאף.\l"
+	.string "אני לא יכול לייצר זכוכית עם זה, האף-פאף.\p"
+	.string "בוא{ADD_YUD} נראה… {STR_VAR_1} זה מספר הצעדים\n"
+	.string "שתצטר{SWAP_CHAF}{ADD_YUD} ללכת כדי שאוכל להכין לך\l"
+	.string "חליל כחול, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike:
-	.string "Oh!\n"
-	.string "You've got a lot of ashes, huff-puff!\p"
-	.string "I'll make you a glass item, huff-puff!\n"
-	.string "Which one would you like, huff-puff?$"
+	.string "או!\n"
+	.string "יש לך הרבה אפר, האף-פאף!\p"
+	.string "אני אכין לך פריט זכוכית, האף-פאף!\n"
+	.string "איזה מהם תרצ{EMIT_HEY}{ADD_YUD}, האף-פאף?$"
 
 Route113_GlassWorkshop_Text_IsThatTheItemForYou:
-	.string "A {STR_VAR_1}, huff-puff?\n"
-	.string "Is that the one for you, huff-puff?$"
+	.string "פריט {STR_VAR_1}, האף-פאף?\n"
+	.string "האם זה הפריט בשבילך, האף-פאף?$"
 
 Route113_GlassWorkshop_Text_WhichWouldYouLike:
-	.string "Which one would you like, huff-puff?$"
+	.string "איזה מהם תרצ{EMIT_HEY}{ADD_YUD}, האף-פאף?$"
 
 Route113_GlassWorkshop_Text_IllMakeItemForYou:
-	.string "A {STR_VAR_1} it is, then, huff-puff!\p"
-	.string "Okay! I'll make it for you, huff-puff.\n"
-	.string "Just wait a little while, huff-puff.$"
+	.string "פריט {STR_VAR_1}, אם כך, האף-פאף!\p"
+	.string "בסדר! אני אכין אותו בשבילך, האף-פאף.\n"
+	.string "רק חכ{EMIT_HEY}{ADD_YUD} קצת, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem:
-	.string "A {STR_VAR_1}, huff-puff?\p"
-	.string "There's not enough ash here to make\n"
-	.string "that, though, huff-puff.\p"
-	.string "Let's see… {STR_VAR_2} is the number of steps\n"
-	.string "you'll need to walk through volcanic ash\l"
-	.string "for me to make that item, huff-puff.\p"
-	.string "Which item would you rather have me\n"
-	.string "make instead, huff-puff?$"
+	.string "פריט {STR_VAR_1}, האף-פאף?\p"
+	.string "אין מספיק אפר כאן כדי להכין\n"
+	.string "את זה, האף-פאף.\p"
+	.string "בוא{ADD_YUD} נראה… {STR_VAR_2} זה מספר הצעדים\n"
+	.string "שתצטר{SWAP_CHAF}{ADD_YUD} ללכת דרך אפר געשי\l"
+	.string "כדי שאכין לך את הפריט הזה, האף-פאף.\p"
+	.string "איזה פריט אחר תרצ{EMIT_HEY}{ADD_YUD} שאכין\n"
+	.string "במקום, האף-פאף?$"
 
 Route113_GlassWorkshop_Text_AllThatAshButDontWantAnything:
-	.string "You've collected all that ash, but you\n"
-	.string "don't want anything, huff-puff?$"
+	.string "אספת את כל האפר הזה, אבל את{EMIT_HEY}\n"
+	.string "לא רוצה כלום, האף-פאף?$"
 
 Route113_GlassWorkshop_Text_IveFinishedGlassItem:
-	.string "Ah, I've finished your {STR_VAR_1}.\n"
-	.string "Take it, huff-puff.$"
+	.string "אה, סיימתי את ה{STR_VAR_1} שלך.\n"
+	.string "קח{ADD_YUD} אותו, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_NoRoomInBag:
-	.string "Oh?\n"
-	.string "You've no room in your BAG, huff-puff.\p"
-	.string "I'll hold on to it, so come back later,\n"
-	.string "huff-puff.$"
+	.string "או?\n"
+	.string "אין לך מקום בתיק שלך, האף-פאף.\p"
+	.string "אני אשמור עליו, אז תחז{EMIT_VAV}ר{ADD_YUD} מאוחר יותר,\n"
+	.string "האף-פאף.$"
 
 Route113_GlassWorkshop_Text_NoRoomInPC:
-	.string "Oh?\n"
-	.string "You've no room in your PC, huff-puff?\p"
-	.string "I'll hold on to it, so come back later,\n"
-	.string "huff-puff.$"
+	.string "או?\n"
+	.string "אין לך מקום במחשב שלך, האף-פאף?\p"
+	.string "אני אשמור עליו, אז תחז{EMIT_VAV}ר{ADD_YUD} מאוחר יותר,\n"
+	.string "האף-פאף.$"
 
 Route113_GlassWorkshop_Text_HaventGotYourSootSack:
-	.string "Hah? You haven't got your SOOT SACK\n"
-	.string "with you, huff-puff.\p"
-	.string "You have to keep it with you to collect\n"
-	.string "volcanic ash, huff-puff.$"
+	.string "הא? שק הפיח שלך לא\n"
+	.string "איתך, האף-פאף.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} לשמור אותו איתך כדי לאסוף\n"
+	.string "אפר געשי, האף-פאף.$"
 
 Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
-	.string "It's fun to blow a glass flute while\n"
-	.string "my boss is talking.\p"
-	.string "Huff-huff! Puff-puff!$"
-
+	.string "זה כיף לנשוף בחליל זכוכית בזמן\n"
+	.string "שהבוס שלי מדבר.\p"
+	.string "האף-האף! פאף-פאף!$"

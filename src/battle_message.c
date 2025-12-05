@@ -64,7 +64,7 @@ static const u8 sText_TryToLearnMove1[] = _("{B_BUFF1} מנסה\nללמוד {B_B
 static const u8 sText_TryToLearnMove2[] = _("אבל, {B_BUFF1} לא יכול{B_MON_ADD_HEY} ללמוד\nיותר מארבעה מהלכים.\p");
 static const u8 sText_TryToLearnMove3[] = _("למחוק מהלך כדי לפנות\nמקום ל{B_BUFF2}?");
 static const u8 sText_PkmnForgotMove[] = _("{B_BUFF1} שכח{B_MON_ADD_HEY}\n{B_BUFF2}.\p");
-static const u8 sText_StopLearningMove[] = _("{PAUSE 32} הפסיק{B_MON_ADD_HEY} ללמוד\n{B_BUFF2}?");
+static const u8 sText_StopLearningMove[] = _("{PAUSE 32}הפסיק{B_MON_ADD_HEY} ללמוד\n{B_BUFF2}?");
 static const u8 sText_DidNotLearnMove[] = _("{B_BUFF1} לא למד{B_MON_ADD_HEY}\n{B_BUFF2}.\p");
 static const u8 sText_UseNextPkmn[] = _("להשתמש בפוקימון הבא?");
 static const u8 sText_AttackMissed[] = _("ההתקפה של {B_ATK_NAME_WITH_PREFIX}\nהוחמצה!");
@@ -384,7 +384,7 @@ static const u8 sText_WildPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME} פראי ה
 static const u8 sText_LegendaryPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME} פראי הופיע!\p");
 static const u8 sText_WildPkmnAppearedPause[] = _("{B_OPPONENT_MON1_NAME} פראי הופיע!{PAUSE 127}");
 static const u8 sText_TwoWildPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME} ו{B_OPPONENT_MON2_NAME}\nפראיים הופיעו!\p");
-static const u8 sText_Trainer1WantsToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nרוצה קרבe!\p");
+static const u8 sText_Trainer1WantsToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nרוצה קרב!\p");
 static const u8 sText_LinkTrainerWantsToBattle[] = _("{B_LINK_OPPONENT1_NAME}\nרוצה קרב!");
 static const u8 sText_TwoLinkTrainersWantToBattle[] = _("{B_LINK_OPPONENT1_NAME} ו{B_LINK_OPPONENT2_NAME}\nרוצים קרב!");
 static const u8 sText_Trainer1SentOutPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} הוציא\nהחוצה את {B_OPPONENT_MON1_NAME}!");
@@ -445,11 +445,11 @@ const u8 *const gStatNamesTable[NUM_BATTLE_STATS] =
     [STAT_EVASION] = sText_Evasiveness,
 };
 
-static const u8 sText_PokeblockWasTooSpicy[] = _("was too spicy!");
-static const u8 sText_PokeblockWasTooDry[] = _("was too dry!");
-static const u8 sText_PokeblockWasTooSweet[] = _("was too sweet!");
-static const u8 sText_PokeblockWasTooBitter[] = _("was too bitter!");
-static const u8 sText_PokeblockWasTooSour[] = _("was too sour!");
+static const u8 sText_PokeblockWasTooSpicy[] = _("היה חריף מדי!");
+static const u8 sText_PokeblockWasTooDry[] = _("היה יבש מדי!");
+static const u8 sText_PokeblockWasTooSweet[] = _("היה מתוק מדי!");
+static const u8 sText_PokeblockWasTooBitter[] = _("היה מריר מדי!");
+static const u8 sText_PokeblockWasTooSour[] = _("היה חמוץ מדי!");
 
 const u8 *const gPokeblockWasTooXStringTable[FLAVOR_COUNT] =
 {
@@ -460,45 +460,45 @@ const u8 *const gPokeblockWasTooXStringTable[FLAVOR_COUNT] =
     [FLAVOR_SOUR]   = sText_PokeblockWasTooSour
 };
 
-static const u8 sText_PlayerUsedItem[] = _("{B_PLAYER_NAME} used\n{B_LAST_ITEM}!");
-static const u8 sText_WallyUsedItem[] = _("WALLY used\n{B_LAST_ITEM}!");
-static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!");
-static const u8 sText_TrainerBlockedBall[] = _("The TRAINER blocked the BALL!");
-static const u8 sText_DontBeAThief[] = _("Don't be a thief!");
-static const u8 sText_ItDodgedBall[] = _("It dodged the thrown BALL!\nThis POKéMON can't be caught!");
-static const u8 sText_YouMissedPkmn[] = _("You missed the POKéMON!");
-static const u8 sText_PkmnBrokeFree[] = _("Oh, no!\nThe POKéMON broke free!");
-static const u8 sText_ItAppearedCaught[] = _("Aww!\nIt appeared to be caught!");
-static const u8 sText_AarghAlmostHadIt[] = _("Aargh!\nAlmost had it!");
-static const u8 sText_ShootSoClose[] = _("Shoot!\nIt was so close, too!");
-static const u8 sText_GotchaPkmnCaughtPlayer[] = _("Gotcha!\n{B_OPPONENT_MON1_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p");
-static const u8 sText_GotchaPkmnCaughtWally[] = _("Gotcha!\n{B_OPPONENT_MON1_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");
-static const u8 sText_GiveNicknameCaptured[] = _("Give a nickname to the\ncaptured {B_OPPONENT_MON1_NAME}?");
-static const u8 sText_PkmnSentToPC[] = _("{B_OPPONENT_MON1_NAME} was sent to\n{B_PC_CREATOR_NAME} PC.");
-static const u8 sText_Someones[] = _("someone's");
-static const u8 sText_Lanettes[] = _("LANETTE's");
-static const u8 sText_PkmnDataAddedToDex[] = _("{B_OPPONENT_MON1_NAME}'s data was\nadded to the POKéDEX.\p");
-static const u8 sText_ItIsRaining[] = _("It is raining.");
-static const u8 sText_SandstormIsRaging[] = _("A sandstorm is raging.");
-static const u8 sText_BoxIsFull[] = _("The BOX is full!\nYou can't catch any more!\p");
-static const u8 sText_EnigmaBerry[] = _("ENIGMA BERRY");
-static const u8 sText_BerrySuffix[] = _(" BERRY");
-static const u8 sText_PkmnsItemCuredParalysis[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured paralysis!");
-static const u8 sText_PkmnsItemCuredPoison[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured poison!");
-static const u8 sText_PkmnsItemHealedBurn[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nhealed its burn!");
-static const u8 sText_PkmnsItemDefrostedIt[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ndefrosted it!");
-static const u8 sText_PkmnsItemWokeIt[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nwoke it from its sleep!");
-static const u8 sText_PkmnsItemSnappedOut[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nsnapped it out of confusion!");
-static const u8 sText_PkmnsItemCuredProblem[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\ncured its {B_BUFF1} problem!");
-static const u8 sText_PkmnsItemNormalizedStatus[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nnormalized its status!");
-static const u8 sText_PkmnsItemRestoredHealth[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored health!");
-static const u8 sText_PkmnsItemRestoredPP[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored {B_BUFF1}'s PP!");
-static const u8 sText_PkmnsItemRestoredStatus[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its status!");
-static const u8 sText_PkmnsItemRestoredHPALittle[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its HP a little!");
-static const u8 sText_ItemAllowsOnlyYMove[] = _("{B_LAST_ITEM} allows the\nuse of only {B_CURRENT_MOVE}!\p");
-static const u8 sText_PkmnHungOnWithX[] = _("{B_DEF_NAME_WITH_PREFIX} hung on\nusing its {B_LAST_ITEM}!");
+static const u8 sText_PlayerUsedItem[] = _("{B_PLAYER_NAME} השתמש\nב{B_LAST_ITEM}!");
+static const u8 sText_WallyUsedItem[] = _("וולי השתמש\nב{B_LAST_ITEM}!");
+static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nהשתמש ב{B_LAST_ITEM}!");
+static const u8 sText_TrainerBlockedBall[] = _("המאמן חסם את הכדור!");
+static const u8 sText_DontBeAThief[] = _("אל תהיה גנב!");
+static const u8 sText_ItDodgedBall[] = _("הוא התחמק מהכדור שנזרק!\nאת הפוקימון הזה אי אפשר לתפוס!");
+static const u8 sText_YouMissedPkmn[] = _("החמצת את הפוקימון!");
+static const u8 sText_PkmnBrokeFree[] = _("אוי, לא!\nהפוקימון השתחרר!");
+static const u8 sText_ItAppearedCaught[] = _("אוו!\nנראה שנתפס!");
+static const u8 sText_AarghAlmostHadIt[] = _("אאא!\nכמעט הצליח!");
+static const u8 sText_ShootSoClose[] = _("אוף!\nזה גם היה כל כך קרוב!");
+static const u8 sText_GotchaPkmnCaughtPlayer[] = _("תפיסה!\n{B_OPPONENT_MON1_NAME} נתפס!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p");
+static const u8 sText_GotchaPkmnCaughtWally[] = _("תפיסה!\n{B_OPPONENT_MON1_NAME} נתפס!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");
+static const u8 sText_GiveNicknameCaptured[] = _("לתת כינוי\nל{B_OPPONENT_MON1_NAME} שנתפס?");
+static const u8 sText_PkmnSentToPC[] = _("{B_OPPONENT_MON1_NAME} נשלח\nלמחשב {B_PC_CREATOR_NAME}.");
+static const u8 sText_Someones[] = _("של מישהו");
+static const u8 sText_Lanettes[] = _("של לאנט");
+static const u8 sText_PkmnDataAddedToDex[] = _("המידע על{B_OPPONENT_MON1_NAME}\nהתווסף לפוקידע.\p");
+static const u8 sText_ItIsRaining[] = _("יורד גשם.");
+static const u8 sText_SandstormIsRaging[] = _("סופת חול משתוללת.");
+static const u8 sText_BoxIsFull[] = _("הקופסה מלאה!\nלא ניתן לתפוס יותר!\p");
+static const u8 sText_EnigmaBerry[] = _("פרי תמוה");
+static const u8 sText_BerrySuffix[] = _("פרי "); // now prefix
+static const u8 sText_PkmnsItemCuredParalysis[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא שיתוק!");
+static const u8 sText_PkmnsItemCuredPoison[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא רעל!");
+static const u8 sText_PkmnsItemHealedBurn[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא את כוויתו!");
+static const u8 sText_PkmnsItemDefrostedIt[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nהפשיר אותו!");
+static const u8 sText_PkmnsItemWokeIt[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nהעיר אותו משינה!");
+static const u8 sText_PkmnsItemSnappedOut[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nהוציא מהבלבול!");
+static const u8 sText_PkmnsItemCuredProblem[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא את בעיית ה{B_BUFF1}!");
+static const u8 sText_PkmnsItemNormalizedStatus[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nנרמל את מצבו!");
+static const u8 sText_PkmnsItemRestoredHealth[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nהחזיר בריאות!");
+static const u8 sText_PkmnsItemRestoredPP[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nהחזיר נכ של{B_BUFF1}!");
+static const u8 sText_PkmnsItemRestoredStatus[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא את מצבו!");
+static const u8 sText_PkmnsItemRestoredHPALittle[] = _("ה{B_LAST_ITEM} של {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nריפא נח בקצת!");
+static const u8 sText_ItemAllowsOnlyYMove[] = _("{B_LAST_ITEM} מרשה רק את\nהשימוש של {B_CURRENT_MOVE}!\p");
+static const u8 sText_PkmnHungOnWithX[] = _("{B_DEF_NAME_WITH_PREFIX} נשאר\nבעזרת {B_LAST_ITEM}!");
 const u8 gText_EmptyString3[] = _("");
-static const u8 sText_YouThrowABallNowRight[] = _("You throw a BALL now, right?\nI… I'll do my best!");
+static const u8 sText_YouThrowABallNowRight[] = _("עכשיו לזרוק כדור, נכון?\nא… אני אעשה כמיטב יכולתי!");
 
 // early declaration of strings
 static const u8 sText_PkmnIncapableOfPower[];
@@ -1376,17 +1376,17 @@ const u8 gText_Mind[] = _("תודעה");
 const u8 gText_Skill[] = _("כישרון");
 const u8 gText_Body[] = _("גוף");
 const u8 gText_Judgment[] = _("{B_BUFF1}{CLEAR 13}שיפוט{CLEAR 13}{B_BUFF2}");
-static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} הוציא/ה\nהחוצה {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא/ה\nהחוצה {B_OPPONENT_MON2_NAME}!");
-static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא/ה\nהחוצה {B_BUFF1}!");
+static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} הוציא\nהחוצה {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא\nהחוצה {B_OPPONENT_MON2_NAME}!");
+static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME} הוציא\nהחוצה {B_BUFF1}!");
 static const u8 sText_TwoTrainersWantToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nו{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lרוצים קרב!\p");
 static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_CLASS} {B_PARTNER_NAME} הוציא\nהחוצה {B_PLAYER_MON2_NAME}!\lקדימה, {B_PLAYER_MON1_NAME}!");
 static const u8 sText_TwoInGameTrainersDefeated[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nו{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lהובסו!\p");
 static const u8 sText_Trainer2LoseText[] = _("{B_TRAINER2_LOSE_TEXT}");
-static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX} נראה/ית לא מסוגל/ת\nלהשתמש בשום כוח!");
+static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX} נראה לא מסוגל\nלהשתמש בשום כוח!");
 static const u8 sText_GlintAppearsInEye[] = _("ניצוץ מופיע בעיני\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
-static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} נכנס/ת\nלעמדה!");
-static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} התחיל/ה לנהום עמוקות!");
-static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} להוט/ה לעוד!");
+static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} נכנס\nלעמדה!");
+static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} התחיל לנהום עמוקות!");
+static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} להוט לעוד!");
 
 const u16 gBattlePalaceFlavorTextTable[] =
 {
@@ -2561,8 +2561,8 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                             if ((gBattleScripting.multiplayerId != 0 && (gPotentialItemEffectBattler & BIT_SIDE))
                                 || (gBattleScripting.multiplayerId == 0 && !(gPotentialItemEffectBattler & BIT_SIDE)))
                             {
-                                StringCopy(text, gEnigmaBerries[gPotentialItemEffectBattler].name);
-                                StringAppend(text, sText_BerrySuffix);
+                                StringCopy(text, sText_BerrySuffix);
+                                StringAppend(text, gEnigmaBerries[gPotentialItemEffectBattler].name);
                                 toCpy = text;
                             }
                             else
@@ -2574,8 +2574,8 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                         {
                             if (gLinkPlayers[gBattleScripting.multiplayerId].id == gPotentialItemEffectBattler)
                             {
-                                StringCopy(text, gEnigmaBerries[gPotentialItemEffectBattler].name);
-                                StringAppend(text, sText_BerrySuffix);
+                                StringCopy(text, sText_BerrySuffix);
+                                StringAppend(text, gEnigmaBerries[gPotentialItemEffectBattler].name);
                                 toCpy = text;
                             }
                             else
@@ -2942,8 +2942,8 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
                 {
                     if (gLinkPlayers[gBattleScripting.multiplayerId].id == gPotentialItemEffectBattler)
                     {
-                        StringCopy(dst, gEnigmaBerries[gPotentialItemEffectBattler].name);
-                        StringAppend(dst, sText_BerrySuffix);
+                        StringCopy(dst, sText_BerrySuffix);
+                        StringAppend(dst, gEnigmaBerries[gPotentialItemEffectBattler].name);
                     }
                     else
                     {

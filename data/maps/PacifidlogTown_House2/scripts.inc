@@ -73,6 +73,7 @@ PacifidlogTown_House2_EventScript_HappyAzurill::
 	faceplayer
 	waitse
 	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_2, SPECIES_AZURILL
 	msgbox PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT
 	waitmoncry
 	msgbox PacifidlogTown_House2_Text_VeryFriendlyWithTrainer, MSGBOX_DEFAULT
@@ -84,6 +85,7 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	faceplayer
 	waitse
 	playmoncry SPECIES_AZURILL, CRY_MODE_ENCOUNTER
+	bufferspeciesname STR_VAR_2, SPECIES_AZURILL
 	msgbox PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT
 	waitmoncry
 	msgbox PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch, MSGBOX_DEFAULT
@@ -91,57 +93,56 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	end
 
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
-	.string "Er-hem!\p"
-	.string "I am the POKéMON FAN CLUB's most\n"
-	.string "important person, the CHAIRMAN's\l"
-	.string "younger brother.\p"
-	.string "I'm here enjoying my vacation with\n"
-	.string "POKéMON, yes, indeed.$"
+	.string "אר-אהם!\p"
+	.string "אני האדם הכי חשוב במועדון המעריצים\n"
+	.string "של פוקימון, האח הקטן של יושב הראש.\p"
+	.string "אני כאן נהנה מהחופשה שלי עם\n"
+	.string "פוקימון, כן, בהחלט.$"
 
 PacifidlogTown_House2_Text_AhYourPokemon:
-	.string "Ah!\n"
-	.string "Your POKéMON…$"
+	.string "אה!\n"
+	.string "הפוקימון שלך…$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
-	.string "It clearly likes you very much.\p"
-	.string "A POKéMON that adoring and adorable\n"
-	.string "deserves a TM like this, no?$"
+	.string "ברור שהוא מחבב אותך מאוד.\p"
+	.string "פוקימון שמתוק ומקסים\n"
+	.string "ראוי למ”מ כמו זה, לא?$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
+	.string "הממ…\n"
+	.string "זה לא רע, אבל זה גם לא טוב.\p"
+	.string "את{EMIT_HEY}, כמאמ{SWAP_NUN}{ADD_TAF}, צרי{SWAP_CHAF}{ADD_HEY} לתת\n"
+	.string "קצת יותר מאמץ.$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
-	.string "It has a vicious look to it.\p"
-	.string "A frightening POKéMON like that\n"
-	.string "deserves a TM like this.$"
+	.string "יש לו מבט מרושע.\p"
+	.string "פוקימון מפחיד שכזה\n"
+	.string "ראוי למ”מ שכזה.$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
-	.string "If a POKéMON likes you a lot, RETURN's\n"
-	.string "power is enhanced.\p"
-	.string "If it doesn't like you, FRUSTRATION's\n"
-	.string "power goes up.$"
+	.string "אם פוקימון מחבב אותך מאוד, כוחו\n"
+	.string "של חזרה מוגבר.\p"
+	.string "אם הוא לא מחבב אותך, כוחו\n"
+	.string "של תסכול מוגבר.$"
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays:
-	.string "Oh, yes. In about {STR_VAR_1} or so days,\n"
-	.string "I should be getting a good TM or two.\p"
-	.string "You should come see me then.\n"
-	.string "I'll give you a TM that's suitable for\l"
-	.string "your POKéMON.$"
+	.string "או, כן. בעוד כ{STR_VAR_1} או כך ימים,\n"
+	.string "אני אמור לקבל מ”מ טוב או שניים.\p"
+	.string "תבוא{ADD_YUD} לבקר אותי זה.\n"
+	.string "אני אתן לך מ”מ שמתאים\l"
+	.string "לפוקימון שלך$"
 
 PacifidlogTown_House2_Text_Rurii:
-	.string "AZURILL: Rurii.$"
+	.string "{STR_VAR_2}: רוריי.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-	.string "It appears to be very friendly with the\n"
-	.string "TRAINER.$"
+	.string "נראה שהוא מאוד ידידותי כלפי\n"
+	.string "המאמן.$"
 
 PacifidlogTown_House2_Text_Rururi:
-	.string "AZURILL: Rururi!$"
+	.string "{STR_VAR_2}: רורורי!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-	.string "It doesn't appear to like the TRAINER\n"
-	.string "very much.$"
+	.string "נראה שהוא לא מחבב את המאמן\n"
+	.string "יותר מדי.$"
 

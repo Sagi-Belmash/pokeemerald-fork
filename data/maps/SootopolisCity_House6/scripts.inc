@@ -32,22 +32,22 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll::
 	end
 
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
-	.string "Hello! You're our first guest in\n"
-	.string "a good while.\p"
-	.string "You've brightened up my day, so I'll\n"
-	.string "give you a big WAILMER DOLL.$"
+	.string "שלום! את{EMIT_HEY} האורח{ADD_TAF} הראשו{SWAP_NUN}{ADD_HEY} שלנו\n"
+	.string "מזה זמן רב.\p"
+	.string "הבאת אור ליום שלי, אז אני\n"
+	.string "אתן לך בובת ויילמר ענקית!$"
 
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
-	.string "Take good care of it!$"
+	.string "תשמ{EMIT_VAV}ר{ADD_YUD} עליה היטב!$"
 
 SootopolisCity_House6_Text_IllHoldItForYou:
-	.string "Oh, you want it, but not right now?\n"
-	.string "Okay, then I'll hold it for you.$"
+	.string "או, את{EMIT_HEY} רוצה את זה אבל לא עכשיו?\n"
+	.string "אוקיי, אז אני אשמור אותה בשבילך.$"
 
 SootopolisCity_House6_Text_DontWantThisDoll:
-	.string "Are you sure?\n"
-	.string "You don't want this DOLL?$"
+	.string "את{EMIT_HEY} בטוח{ADD_HEY}?\n"
+	.string "את{EMIT_HEY} לא רוצה את הבובה הזו?$"
 
 SootopolisCity_House6_Text_LovePlushDolls:
-	.string "I love plush DOLLS!$"
+	.string "אני אוהבת בובות רכות!$"
 

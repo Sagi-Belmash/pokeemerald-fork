@@ -69,65 +69,64 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
-	.string "The BOSS got interested in\n"
-	.string "the research they have going here,\l"
-	.string "so he sent us out.\p"
-	.string "You quit meddling!$"
+	.string "הבוס התעניין במחקר\n"
+	.string "שמתקיים כאן, לכן הוא שלח אותנו.\p"
+	.string "תפסיק{ADD_YUD} להתערב!$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
-	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "זה ארור…\n"
+	.string "ארור על ידי ילד{ADD_HEY}…$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
-	.string "Our BOSS knows everything.\p"
-	.string "But I'm just a GRUNT. What would I know\n"
-	.string "about what he's thinking?$"
+	.string "הבוס שלנו יודע הכל.\p"
+	.string "אבל אני רק עובד פשוט. מה אני אדע\n"
+	.string "על מה שהוא חושב?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro:
-	.string "Huh?\n"
-	.string "What's a kid doing here?$"
+	.string "האא?\n"
+	.string "מה ילד{ADD_HEY} עושה כאן?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
-	.string "Huh?\n"
-	.string "I lost?!$"
+	.string "האא?\n"
+	.string "הפסדתי?!$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
-	.string "Oh, no…\n"
-	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "או, לא…\n"
+	.string "אקבל על הראש על שהפסדתי לילד{ADD_HEY}…\p"
+	.string "אולי עדיף שאלך לנמנם במיטה…$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string "בזמן שישנתי, כולם עלו\n"
+	.string "למעלה!$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "וואו, את{EMIT_HEY} ממש חזק{ADD_HEY}!\p"
+	.string "הלוואי שיכולתי להיות מאמן פוקימונים\n"
+	.string "כמוך!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string "הפרופסור אוהב גשם.\n"
+	.string "זו עובדה.\p"
+	.string "אבל אם ימשיך לרדת גשם, אנשים יהיו\n"
+	.string "בצרה. זו עובדה נוספת.\p"
+	.string "ולכן, הפרופסור חוקר\n"
+	.string "אם אפשר להשתמש בגשם לטובה.$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "בקומה 2 של המכון,\n"
+	.string "אנחנו חוקרים את דפוסי מזג האוויר על\l"
+	.string "פני מחוז הואן.\p"
+	.string "שמנו לב לאחרונה למקרים זמניים\n"
+	.string "מבודדים של בצורות\l"
+	.string "וגשם כבד…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "שלום!\n"
+	.string "ניצלנו בזכות מעשיך!\p"
+	.string "מה שאני לא מבין זה מה לעזאזל\n"
+	.string "צוות אקווה תכננו.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "יש כאן מיטה…\n"
+	.string "בוא{ADD_YUD} נקח מנוחה.$"
 

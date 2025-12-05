@@ -71,6 +71,7 @@ MossdeepCity_StevensHouse_Movement_StevenReturn:
 
 MossdeepCity_StevensHouse_EventScript_BeldumPokeball::
 	lockall
+	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
 	msgbox MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MossdeepCity_StevensHouse_EventScript_LeaveBeldum
 	goto MossdeepCity_StevensHouse_EventScript_GiveBeldum
@@ -137,6 +138,7 @@ MossdeepCity_StevensHouse_EventScript_Steven::
 
 MossdeepCity_StevensHouse_EventScript_Letter::
 	lockall
+	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
 	msgbox MossdeepCity_StevensHouse_Text_LetterFromSteven, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -148,67 +150,67 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "סטיבן: {PLAYER}{KUN}…\p"
+	.string "כפי שאת{EMIT_HEY} רואה, אין כאן הרבה,\n"
+	.string "אבל זה הבית שלי.\p"
+	.string "תודה על כל מה שעשית.\p"
+	.string "זה אות ההערכה שלי.\n"
+	.string "זוהי המכונה הנסתרת צלילה.\p"
+	.string "אין צורך להתבייש--הרווחת\n"
+	.string "את המ”נ הזה.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "STEVEN: While you're using SURF, you\n"
-	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
-	.string "like it. You'll drop to the seafloor.\p"
-	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "סטיבן: בזמן שאת{EMIT_HEY} משתמש{ADD_TAF} בגלישה, את{EMIT_HEY}\n"
+	.string "צרי{SWAP_CHAF}{ADD_HEY} לשים לב לכתמי מים כהים.\p"
+	.string "השתמש{ADD_YUD} בצלילה אם את{EMIT_HEY} מגיע{ADD_HEY} למים עמוקים\n"
+	.string "כאלה. את{EMIT_HEY} תשקע{ADD_YUD} לקרקעית הים.\p"
+	.string "כשאת{EMIT_HEY} רוצה לחזור למעלה, השתמש{ADD_YUD}\n"
+	.string "שוב בצלילה.\p"
+	.string "עם זאת, בחלק מהמקומות לא תהיה לך\n"
+	.string "האפשרות לעלות אל פני המים.$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "STEVEN: Apparently, there's an\n"
-	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "סטיבן: ככל הנראה, ישנה\n"
+	.string "מערה תת-ימית בין\l"
+	.string "מוסדיפ לסוטופוליס.\p"
+	.string "את{EMIT_HEY} יודע{ADD_TAF}, זו שקפטן סטרן\n"
+	.string "מצא בצוללת שלו.$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
-	.string "{PLAYER} checked the POKé BALL.\p"
-	.string "It contained the POKéMON\n"
-	.string "BELDUM.\p"
-	.string "Take the POKé BALL?$"
+	.string "{PLAYER} בדק{ADD_HEY} את הפוכדור.\p"
+	.string "הוא הכיל את הפוקימון\n"
+	.string "{STR_VAR_1}.\p"
+	.string "לקחת את הפוכדור?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{PLAYER} קיבל{ADD_HEY} {STR_VAR_2}.$"
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
-	.string "There is no space for another POKéMON.$"
+	.string "אין מקום לפוקימון נוסף.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
-	.string "{PLAYER} left the POKé BALL where\n"
-	.string "it was.$"
+	.string "{PLAYER} השאיר{ADD_HEY} את הפוכדור\n"
+	.string "במקום בו היה.$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-	.string "It's a letter.\p"
+	.string "זה מכתב.\p"
 	.string "… … … … … …\p"
-	.string "To {PLAYER}{KUN}…\p"
-	.string "I've decided to do a little soul-\n"
-	.string "searching and train on the road.\p"
-	.string "I don't plan to return home for some\n"
-	.string "time.\p"
-	.string "I have a favor to ask of you.\p"
-	.string "I want you to take the POKé BALL on\n"
-	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
-	.string "POKéMON.\p"
-	.string "I'm counting on you.\p"
-	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "ל{PLAYER}{KUN}…\p"
+	.string "החלטתי לעשות חיפוש נשמה קטן\n"
+	.string "ולהתאמן בדרך.\p"
+	.string "אני לא מתכנן לחזור הביתה למשך\n"
+	.string "זמן מה.\p"
+	.string "יש לי טובה לבקש ממך.\p"
+	.string "אני רוצה שתיקח{ADD_YUD} את הפוכדור\n"
+	.string "שעל השולחן.\p"
+	.string "בתוכו יש {STR_VAR_1}, הפוקימון\n"
+	.string "האהוב עליי.\p"
+	.string "אני סומך עליך.\p"
+	.string "שדרכינו יצטלבו יום אחד.\p"
+	.string "סטיבן סטון$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "זהו אוסף של סלעים ואבנים נדירות\n"
+	.string "שאסף סטיבן.$"
 

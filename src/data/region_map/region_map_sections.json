@@ -450,7 +450,7 @@
     },
     {
       "id": "MAPSEC_MT_CHIMNEY",
-      "name": "הר ארובה",
+      "name": "הר הארובה",
       "x": 6,
       "y": 2,
       "width": 1,
@@ -538,7 +538,7 @@
     },
     {
       "id": "MAPSEC_SHOAL_CAVE",
-      "name": "מערת שרטון",
+      "name": "מערת השרטון",
       "x": 24,
       "y": 4,
       "width": 1,
@@ -678,7 +678,7 @@
     },
     {
       "id": "MAPSEC_SKY_PILLAR",
-      "name": "עמוד שמיים",
+      "name": "עמוד השמיים",
       "x": 19,
       "y": 10,
       "width": 1,
@@ -853,7 +853,7 @@
     },
     {
       "id": "MAPSEC_S_S_ANNE",
-      "name": "ס.ס. אנה"
+      "name": "א/ק אנה"
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH",

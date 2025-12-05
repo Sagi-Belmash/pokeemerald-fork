@@ -58,20 +58,20 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 	end
 
 MirageTower_4F_Text_TakeRootFossil:
-	.string "You found the ROOT FOSSIL.\p"
-	.string "If this FOSSIL is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the ROOT FOSSIL anyway?$"
+	.string "את{EMIT_HEY} מצא{ADD_TAF} את מאובן השורש.\p"
+	.string "אם המאובן הזה יילקח, הקרקע\n"
+	.string "סביבו עלולה להתפורר…\p"
+	.string "לקחת את מאובן השורש בכל זאת?$"
 
 MirageTower_4F_Text_LeftRootFossilAlone:
-	.string "{PLAYER} left the ROOT FOSSIL alone.$"
+	.string "{PLAYER} השאיר{ADD_HEY} את מאובן השורש לבד.$"
 
 MirageTower_4F_Text_TakeClawFossil:
-	.string "You found the CLAW FOSSIL.\p"
-	.string "If this FOSSIL is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the CLAW FOSSIL anyway?$"
+	.string "את{EMIT_HEY} מצא{ADD_TAF} את מאובן הטפר.\p"
+	.string "אם המאובן הזה יילקח, הקרקע\n"
+	.string "סביבו עלולה להתפורר…\p"
+	.string "לקחת את מאובן הטפר בכל זאת?$"
 
 MirageTower_4F_Text_LeaveClawFossilAlone:
-	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+	.string "{PLAYER} השאיר{ADD_HEY} את מאובן הטפר לבד.$"
 

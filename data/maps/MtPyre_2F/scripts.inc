@@ -10,6 +10,7 @@ MtPyre_2F_SetHoleWarp:
 	end
 
 MtPyre_2F_EventScript_Woman::
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox MtPyre_2F_Text_MemoriesOfSkitty, MSGBOX_NPC
 	end
 
@@ -43,93 +44,92 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string "זיכרונות על {STR_VAR_1} המתוק שלי…\n"
+	.string "העיניים שלי עולות על גדותיהן כשאני חושב עליו.$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-	.string "Ooch, ouch… There are holes in the\n"
-	.string "ground here and there.\p"
-	.string "I didn't notice and took a tumble from\n"
-	.string "the floor above.$"
+	.string "אוץ', אאוץ'… יש כאן ושם חורים\n"
+	.string "בקרקע.\p"
+	.string "לא שמתי לב ונפלתי מהקומה שמעל.$"
 
 MtPyre_2F_Text_MarkIntro:
-	.string "Hey! Are you searching for POKéMON?\n"
-	.string "You came along after me! You're rude!$"
+	.string "היי! את{EMIT_HEY} מחפש{ADD_TAF} פוקימונים?\n"
+	.string "הגעת אחריי! זה לא מנומס!$"
 
 MtPyre_2F_Text_MarkDefeat:
-	.string "Ayieeeeh!\n"
-	.string "I'm sorry, forgive me, please!$"
+	.string "איייי!\n"
+	.string "אני מצטער, סלח{ADD_YUD} לי בבקשה!$"
 
 MtPyre_2F_Text_MarkPostBattle:
-	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare POKéMON.$"
+	.string "אנשים לא באים לכאן לעתים קרובות, אז\n"
+	.string "חשבתי שיהיו כאן פוקימונים נדירים.$"
 
 MtPyre_2F_Text_LukeIntro:
-	.string "LUKE: We're here on a dare.\p"
-	.string "Heheh, if I show her how cool I am,\n"
-	.string "she'll fall for me. I know it!\p"
-	.string "I know! I'll cream you and show her\n"
-	.string "how cool I am!$"
+	.string "לוק: אנחנו כאן במסגרת אתגר.\p"
+	.string "היהיה, אם אראה לה כמה אני מגניב,\n"
+	.string "היא תתאהב בי. אני יודע את זה!\p"
+	.string "אני יודע! אני ארסק אותך ואראה לה\n"
+	.string "כמה אני מגניב!$"
 
 MtPyre_2F_Text_LukeDefeat:
-	.string "LUKE: Whoopsie!$"
+	.string "לוק: וופסי!$"
 
 MtPyre_2F_Text_LukePostBattle:
-	.string "LUKE: Well, we lost but that's okay!\n"
-	.string "I'm right here by your side.\l"
-	.string "We'll make it through this dare!$"
+	.string "לוק: טוב, הפסדנו אבל זה בסדר!\n"
+	.string "אני ממש כאן לידך.\l"
+	.string "אנחנו נעבור את התיגר הזה!$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more POKéMON.\p"
-	.string "If you don't, I won't be able to show\n"
-	.string "off to my girl how cool I am!$"
+	.string "לוק: אם את{EMIT_HEY} רוצה להתמודד מולי,\n"
+	.string "תביא{ADD_YUD} עוד פוקימונים.\p"
+	.string "אם לא, אני לא אוכל להשוויץ בפני\n"
+	.string "החברה שלי כמה אני מגניב!$"
 
 MtPyre_2F_Text_DezIntro:
-	.string "DEZ: I came here on a dare with my\n"
-	.string "boyfriend.\p"
-	.string "It's really scary, but I'm with my\n"
-	.string "boyfriend. It's okay.\p"
-	.string "I know! I'll get my boyfriend to look\n"
-	.string "cool by beating you!$"
+	.string "דז: באתי לכאן במסגרת תיגר עם\n"
+	.string "החבר שלי.\p"
+	.string "זה ממש מפחיד, אבל אני עם החבר\n"
+	.string "שלי. זה בסדר.\p"
+	.string "אני יודעת! אני אגרום לחבר שלי להיראות\n"
+	.string "מגניב על ידי כך שאביס אותך!$"
 
 MtPyre_2F_Text_DezDefeat:
-	.string "DEZ: Waaaah! I'm scared!$"
+	.string "דז: ואאאאה! אני מפחדת!$"
 
 MtPyre_2F_Text_DezPostBattle:
-	.string "DEZ: We're lovey-dovey, so we don't\n"
-	.string "care if we lose!$"
+	.string "דז: אנחנו מאוהבים, אז לא אכפת לנו\n"
+	.string "אם נפסיד!$"
 
 MtPyre_2F_Text_DezNotEnoughMons:
-	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two POKéMON.\p"
-	.string "My boyfriend's strong.\n"
-	.string "Just one POKéMON won't do at all.$"
+	.string "דז: אם את{EMIT_HEY} רוצה לאתגר אותנו, את{EMIT_HEY}\n"
+	.string "צרי{SWAP_CHAF}{ADD_HEY} להביא לפחות שני פוקימונים.\p"
+	.string "החבר שלי חזק.\n"
+	.string "רק פוקימון אחד לא יספיק בכלל.$"
 
 MtPyre_2F_Text_LeahIntro:
-	.string "You are an unfamiliar sight…\n"
-	.string "Depart before anything befalls you!$"
+	.string "את{EMIT_HEY} מראה לא מוכר…\n"
+	.string "עז{EMIT_VAV}ב{ADD_YUD} לפני שיקרה לך משהו!$"
 
 MtPyre_2F_Text_LeahDefeat:
-	.string "Hmm…\n"
-	.string "You're durable.$"
+	.string "הממ…\n"
+	.string "את{EMIT_HEY} עמיד{ADD_HEY}.$"
 
 MtPyre_2F_Text_LeahPostBattle:
-	.string "Our family has been TRAINERS here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "המשפחה שלנו הם מאמנים כאן\n"
+	.string "מאז ימי סבתא-רבתא שלי…\p"
+	.string "זו חובתי להגן על\n"
+	.string "ההר הזה…$"
 
 MtPyre_2F_Text_ZanderIntro:
-	.string "Kiyaaaaah!\n"
-	.string "I'm terrified!$"
+	.string "קייאאאהה!\n"
+	.string "אני מבוהל!$"
 
 MtPyre_2F_Text_ZanderDefeat:
-	.string "Nooooooo!\n"
-	.string "I lost my wits!$"
+	.string "לאאאאא!\n"
+	.string "איבדתי את העשתונות!$"
 
 MtPyre_2F_Text_ZanderPostBattle:
-	.string "I get freaked out every time I see\n"
-	.string "anything move…\p"
-	.string "I shouldn't have come here to train…$"
+	.string "אני נבהל בכל פעם שאני רואה\n"
+	.string "משהו זז…\p"
+	.string "לא הייתי צריך לבוא לכאן להתאמן…$"
 

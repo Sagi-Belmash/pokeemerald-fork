@@ -305,6 +305,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll5Activate::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz1::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_ODDISH
+	bufferspeciesname STR_VAR_2, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_3, SPECIES_TAILLOW
 	multichoice 0, 0, MULTI_MECHADOLL1_Q1, TRUE
 	switch VAR_RESULT
 	case 2, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -313,6 +316,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz1::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_AZURILL
+	bufferspeciesname STR_VAR_2, SPECIES_LOTAD
+	bufferspeciesname STR_VAR_3, SPECIES_WINGULL
 	multichoice 0, 0, MULTI_MECHADOLL1_Q2, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -321,6 +327,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_DUSTOX
+	bufferspeciesname STR_VAR_2, SPECIES_ZUBAT
+	bufferspeciesname STR_VAR_3, SPECIES_NINCADA
 	multichoice 0, 0, MULTI_MECHADOLL1_Q3, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -329,6 +338,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz1::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_RALTS
+	bufferspeciesname STR_VAR_2, SPECIES_ZIGZAGOON
+	bufferspeciesname STR_VAR_3, SPECIES_SLAKOTH
 	multichoice 0, 0, MULTI_MECHADOLL2_Q1, TRUE
 	switch VAR_RESULT
 	case 1, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -337,6 +349,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz1::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz2::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_2, SPECIES_SHROOMISH
+	bufferspeciesname STR_VAR_3, SPECIES_ZIGZAGOON
 	multichoice 0, 0, MULTI_MECHADOLL2_Q2, TRUE
 	switch VAR_RESULT
 	case 2, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -345,6 +360,9 @@ Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz2::
 
 Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz3::
 	msgbox Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3, MSGBOX_DEFAULT
+	bufferspeciesname STR_VAR_1, SPECIES_POOCHYENA
+	bufferspeciesname STR_VAR_2, SPECIES_ZUBAT
+	bufferspeciesname STR_VAR_3, SPECIES_CARVANHA
 	multichoice 0, 0, MULTI_MECHADOLL2_Q3, TRUE
 	switch VAR_RESULT
 	case 0, Route110_TrickHousePuzzle5_EventScript_CorrectAnswer
@@ -896,127 +914,127 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is a genius.”\n"
+	.string "{PLAYER} כתב{ADD_HEY} את הקוד הסודי\n"
+	.string "על הדלת.\p"
+	.string "”מאסטר הטריקים הוא גאון.“\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "המנעול נפתח בלחיצה!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 1 AM I!\p"
-	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
-	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "קליקטי-קלאק…\n"
+	.string "מכאדול 1 אני!\p"
+	.string "אם תענה נכון על החידונים,\n"
+	.string "אז תלך למכאדול 5.\l"
+	.string "אז תוכל לקבל את הקוד הסודי.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "חידון מכאדול 1.\p"
+	.string "אחד מהפוקימונים האלה לא נמצא\n"
+	.string "בדרך 011. איזה מהם?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "חידון מכאדול 1.\p"
+	.string "אחד מהפוקימונים האלה הוא לא\n"
+	.string "מסוג מים. איזה מהם?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "חידון מכאדול 1.\p"
+	.string "אחד מהפוקימונים האלה לא משתמש\n"
+	.string "בהתעלקות. איזה מהם?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
-	.string "GO THROUGH. PLEASE.$"
+	.string "ברכות. צדקת.\n"
+	.string "התקדם. בבקשה.$"
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
-	.string "BZZZT. DISAPPOINTMENT.\n"
-	.string "ERROR.$"
+	.string "בזזזט. אכזבה.\n"
+	.string "שגיאה.$"
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
-	.string "CLICKETY-CLACK!$"
+	.string "וואהאהאהאהא! וואהאהאהאהא!\n"
+	.string "קליקטי-קלאק!$"
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+	.string "לאתגר הבא שלך אנחנו מחכים.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 2 AM I!\p"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
-	.string "IS SET TOO LOW.$"
+	.string "קליקטי-קלאק…\n"
+	.string "מכאדול 2 אני!\p"
+	.string "רמת הקושי של מכאדול 1\n"
+	.string "מוגדרת נמוך מדי.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "חידון מכאדול 2.\p"
+	.string "איזה מהפוקימונים האלה וולי\n"
+	.string "השאיל מאבא שלך?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "חידון מכאדול 2.\p"
+	.string "איזה מהפוקימונים האלה רדף אחרי\n"
+	.string "פרופ. בירץ'?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "חידון מכאדול 2.\p"
+	.string "איזה מהפוקימונים האלה צוות אקווה\n"
+	.string "השתמש ביער פטלבורג?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 3 AM I!\p"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "קליקטי-קלאק…\n"
+	.string "מכאדול 3 אני!\p"
+	.string "ענייני כסף הם המיקוד היחיד שלי.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "חידון מכאדול 3.\p"
+	.string "מה עולה יותר?\n"
+	.string "שלושה מכתבי נמל או ריפוי כויה אחד?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "חידון מכאדול 3.\p"
+	.string "למכור כדור רב אחד ולקנות\n"
+	.string "שיקוי אחד. כמה כסף נשאר?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "חידון מכאדול 3.\p"
+	.string "האם דוחה אחד וסודה פופ עולים\n"
+	.string "יותר משיקוי רב אחד?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 4 THAT IS ME!\p"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+	.string "קליקטי-קלאק…\n"
+	.string "מכאדול 4 אני!\p"
+	.string "החידון שלי הוא מושא יופי.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In SEASHORE HOUSE, were there more men\n"
-	.string "or women?$"
+	.string "חידון מכאדול 4.\p"
+	.string "בבית חוף הים, היו יותר גברים\n"
+	.string "או נשים?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "חידון מכאדול 4.\p"
+	.string "בעיירת לברידג', היו יותר זקנים\n"
+	.string "או זקנות?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In the TRAINER'S SCHOOL, how many\n"
-	.string "girl students were there?$"
+	.string "חידון מכאדול 4.\p"
+	.string "בבית הספר למאמנים, כמה סטודנטיות\n"
+	.string "היו שם?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 5 AM I!\p"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
-	.string "ACHIEVEMENT AM I.$"
+	.string "קליקטי-קלאק…\n"
+	.string "מכאדול 5 אני!\p"
+	.string "הישג הטוב והגאה ביותר של\n"
+	.string "המאסטר אני.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
-	.string "how many POKéMON were there?$"
+	.string "חידון מכאדול 5.\p"
+	.string "במועדון מעריצי פוקימון בסלייטפורט,\n"
+	.string "כמה פוקימונים היו שם?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
-	.string "tree houses were there?$"
+	.string "חידון מכאדול 5.\p"
+	.string "בעיר פורטרי, כמה\n"
+	.string "בתי עץ היו שם?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "On the CYCLING ROAD, how many\n"
-	.string "TRIATHLETES were there?$"
+	.string "חידון מכאדול 5.\p"
+	.string "על שביל האופניים, כמה\n"
+	.string "טריאתלטים היו שם?$"

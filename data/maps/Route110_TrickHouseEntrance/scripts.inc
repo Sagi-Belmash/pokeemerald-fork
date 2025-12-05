@@ -695,130 +695,130 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-	.string "You're being watched…$"
+	.string "את{EMIT_HEY} נמצא{ADD_TAF} במעקב…$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "מתחת לשולחן הזה? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "מאחורי העץ הזה? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "בתוך השידה הזו? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "מעבר לחלון הזה? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "בתוך האדנית הזו? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "בתוך הארון הזה? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "מאחורי החלון הזה? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!$"
+	.string "הא? גררר…\p"
+	.string "איך ידעת שהסתרתי את עצמי\n"
+	.string "מתחת לכרית הזו? את{EMIT_HEY} חד{ADD_HEY}!$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
-	.string "Behold!\p"
-	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of HOENN!\l"
-	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "תסתכל{ADD_YUD}!\p"
+	.string "כי אני התעלומה החיה הגדולה ביותר\n"
+	.string "של אדם בכל הואן!\l"
+	.string "הם קוראים לי…\p"
+	.string "מאסטר הטריקים!\n"
+	.string "וואהאהאהא! שמח לפגוש אותך!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
-	.string "You, you've come to challenge\n"
-	.string "my TRICK HOUSE, haven't you?\p"
-	.string "That's why you're here, isn't it?\n"
-	.string "Yes, it is!\p"
-	.string "Consider your challenge accepted!\p"
-	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "את{EMIT_HEY}, באת לאתגר\n"
+	.string "את בית הטריקים שלי, נכון?\p"
+	.string "זו הסיבה שבגללה את{EMIT_HEY} כאן, לא?\n"
+	.string "כן, זו הסיבה!\p"
+	.string "האתגר שלך מתקבל!\p"
+	.string "היכנס{ADD_YUD} דרך המגילה שם,\n"
+	.string "ות{SWAP_NUN}{ADD_YUD} לאתגר שלך להתחיל!\p"
+	.string "אני אחכה מאחור!$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
-	.string "It's a scroll.$"
+	.string "זו מגילה.$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
-	.string "There is a big hole behind the scroll!\p"
-	.string "Want to go in?$"
+	.string "יש חור גדול מאחורי המגילה!\p"
+	.string "רוצה להיכנס?$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-	.string "There is a note affixed to the scroll…\p"
-	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. TRICK MASTER”$"
+	.string "יש פתק מודבק על המגילה…\p"
+	.string "”אני יוצא למסע.\n"
+	.string "אל תחפשו אותי. מאסטר הטריקים“$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
-	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!$"
+	.string "לפעם הבאה, אני אשתמש בטריק הזה,\n"
+	.string "ובמזימה ההיא, ובערמומיות ההיא…\p"
+	.string "מופופופו… אם מותר לי לומר, זה\n"
+	.string "קשה בצורה מבריקה, אפילו בשבילי!$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
-	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
-	.string "challenges!\p"
-	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!$"
+	.string "הא? מה?!\n"
+	.string "או, זה את{EMIT_HEY}!\p"
+	.string "אני בעיצומו של תכנון אתגרים\n"
+	.string "ערמומיים חדשים!\p"
+	.string "זה לא יותר מדי לבקש קצת\n"
+	.string "זמן נוסף כדי לחשוב, נכון?\l"
+	.string "את{EMIT_HEY} לא תמנע{ADD_YUD} ממני את זה?\l"
+	.string "חז{EMIT_VAV}ר{ADD_YUD} בעוד זמן קצר!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
-	.string "Ah, it's you! You're here to accept the\n"
-	.string "reward from before, isn't that right?\l"
-	.string "Yes, right I am!\p"
-	.string "Here!\n"
-	.string "I'll give it to you now!$"
+	.string "אה, זה את{EMIT_HEY}! את{EMIT_HEY} כאן כדי לקבל את\n"
+	.string "הפרס מלפניכן, נכון?\l"
+	.string "כן, צדקתי!\p"
+	.string "הנה!\n"
+	.string "אני אתן לך את זה עכשיו!$"
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
-	.string "Hah?\n"
-	.string "Did you not come to claim your reward?$"
+	.string "הא?\n"
+	.string "האם לא באת לקחת את הפרס שלך?$"
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
-	.string "MECHADOLL 5 I AM!\n"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
-	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?$"
+	.string "מכאדול 5 אני!\n"
+	.string "אם הפרס לא נלקח על ידך,\l"
+	.string "אז אחרי מאסטר הטריקים לא תוכל{ADD_YUD} לעקוב.\p"
+	.string "אוהל אדום או אוהל כחול,\n"
+	.string "מה תעדי{SWAP_PEY}{ADD_YUD}?$"
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
-	.string "THEN FAREWELL.$"
+	.string "להתראות, אם כך.$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.$"
+	.string "מצב המחשב שלך: מלא שוב.\n"
+	.string "רע{ADD_HEY}, את{EMIT_HEY}.$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
-	.string "{PLAYER} found a scroll.$"
+	.string "{PLAYER} מצא{ADD_HEY} מגילה.$"
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
-	.string "{PLAYER} memorized the secret code\n"
-	.string "written on the scroll.$"
+	.string "{PLAYER} שינ{SWAP_NUN}{ADD_HEY} את הקוד הסודי\n"
+	.string "שכתוב על המגילה.$"
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
-	.string "A secret code is written on it.$"
+	.string "קוד סודי כתוב על זה.$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
-	.string "on it: “Write the secret code here.”$"
+	.string "הדלת נעולה.\p"
+	.string "…בבדיקה מקרוב, כתוב\n"
+	.string "על זה: ”כתוב את הקוד הסודי כאן.“$"

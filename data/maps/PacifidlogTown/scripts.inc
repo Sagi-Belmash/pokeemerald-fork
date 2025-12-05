@@ -28,27 +28,27 @@ PacifidlogTown_EventScript_TownSign::
 	end
 
 PacifidlogTown_Text_FastRunningCurrent:
-	.string "The sea between PACIFIDLOG and\n"
-	.string "SLATEPORT has a fast-running tide.\p"
-	.string "If you decide to SURF, you could end\n"
-	.string "up swept away somewhere else.$"
+	.string "הים בין פסיפידלוג לסלייטפורט\n"
+	.string "הוא בעל זרם מהיר.\p"
+	.string "אם תחליט{ADD_YUD} להשתמש בגלישה, את{EMIT_HEY} עלול{ADD_YUD} לסיים\n"
+	.string "להיסחף למקום אחר.$"
 
 PacifidlogTown_Text_NeatHousesOnWater:
-	.string "See, isn't it neat?\n"
-	.string "These houses are on water!\p"
-	.string "I was born here!$"
+	.string "רואה, זה לא נחמד?\n"
+	.string "הבתים האלה על המים!\p"
+	.string "נולדתי כאן!$"
 
 PacifidlogTown_Text_SkyPillarTooScary:
-	.string "The SKY PILLAR?\p"
-	.string "…Oh, you must mean that tall, tall\n"
-	.string "tower a little further out.\p"
-	.string "If you asked me, I wouldn't climb it.\n"
-	.string "It's too scary to get up that high.\p"
-	.string "Life at sea level in PACIFIDLOG,\n"
-	.string "that suits me fine.$"
+	.string "עמוד השמיים?\p"
+	.string "…או, את{EMIT_HEY} בטח מתכוו{SWAP_NUN}{ADD_TAF} למגדל, tall\n"
+	.string "הגבוה-גבוה ההוא קצת יותר רחוק.\p"
+	.string "אם שאלת אותי, לא הייתי מטפס עליו.\n"
+	.string "זה מפחיד מדי לטפס לכזה גובה.\p"
+	.string "החיים בגובה פני הים בפסיפידלוג,\n"
+	.string "זה מתאים לי בול.$"
 
 PacifidlogTown_Text_TownSign:
-	.string "PACIFIDLOG TOWN\p"
-	.string "“Where the morning sun smiles upon\n"
-	.string "the waters.”$"
+	.string "עיירת פסיפידלוג\p"
+	.string "”היכן ששמש הבוקר מחייכת אל\n"
+	.string "המים.“$"
 

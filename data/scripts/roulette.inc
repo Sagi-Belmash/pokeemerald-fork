@@ -22,46 +22,45 @@ Roulette_EventScript_Play::
 	special PlayRoulette
 	waitstate
 	end
-
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "The minimum wager at this table\n"
-	.string "is {STR_VAR_1}. Do you want to play?$"
+	.string "ההימור המינימלי בשולחן הזה הוא {STR_VAR_1}.\n"
+	.string "רוצה לשחק?$"
 
 Roulette_Text_NotEnoughCoins::
-	.string "You don't have enough COINS.$"
+	.string "אין לך מספיק מטבעות.$"
 
 Roulette_Text_SpecialRateTable::
-	.string "Special rate table right now!$"
+	.string "שולחן בתעריף מיוחד עכשיו!$"
 
 Roulette_Text_ControlsInstruction::
-	.string "Place your wager with the + Control\n"
-	.string "Pad, then press the A Button.$"
+	.string "מק{SWAP_MEM}{ADD_YUD} את סכום ההימור בעזרת + משטח\n"
+	.string "הבקרה, ואז לח{SWAP_TZADIK}{ADD_YUD} על הכפתור A.$"
 
 Roulette_Text_ItsAHit::
-	.string "It's a hit!$"
+	.string "פגיעה!$"
 
 Roulette_Text_Jackpot::
-	.string "Jackpot!$"
+	.string "הפרס הגדול!$"
 
 Roulette_Text_NothingDoing::
-	.string "Nothing doing!$"
+	.string "לא קרה כלום!$"
 
 Roulette_Text_YouveWonXCoins::
-	.string "You've won {STR_VAR_1} COINS!$"
+	.string "הרווחת {STR_VAR_1} מטבעות!$"
 
 Roulette_Text_NoCoinsLeft::
-	.string "No COINS left…$"
+	.string "לא נשארו לך מטבעות…$"
 
 Roulette_Text_KeepPlaying::
-	.string "Keep playing?$"
+	.string "להמשיך לשחק?$"
 
 Roulette_Text_BoardWillBeCleared::
-	.string "The ROULETTE board will be cleared.$"
+	.string "לוח הרולטה יימחק.$"
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::
-	.string "You don't have a COIN CASE.$"
+	.string "אין לך ארנק מטבעות.$"
 
 Roulette_Text_CoinCaseIsFull::
-	.string "Your COIN CASE is full!\n"
-	.string "Coins can be exchanged for prizes.$"
+	.string "ארנק המטבעות שלך מלא!\n"
+	.string "אפשר להחליף מטבעות בפרסים.$"

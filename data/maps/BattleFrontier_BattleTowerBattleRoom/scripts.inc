@@ -434,130 +434,129 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "We will restore your POKéMON to\n"
-	.string "full health.$"
+	.string "אנחנו נשיב את הפוקימונים שלך\n"
+	.string "לבריאות מלאה.$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "You will be facing opponent no. {STR_VAR_1}.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' {STR_VAR_1}.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "You will be facing opponent no. 2.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 2.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "You will be facing opponent no. 3.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 3.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
-	.string "You will be facing opponent no. 4.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 4.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
-	.string "You will be facing opponent no. 5.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 5.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
-	.string "You will be facing opponent no. 6.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 6.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
-	.string "You will be facing opponent no. 7.\n"
-	.string "Are you ready?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול יריב מס' 7.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Record your battle on your\n"
-	.string "FRONTIER PASS?$"
+	.string "להקליט את הקרב שלך על\n"
+	.string "היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "{PLAYER}'s battle was recorded\n"
-	.string "on the FRONTIER PASS.$"
+	.string "הקרב של {PLAYER} הוקלט\n"
+	.string "על היתר חזית הקרב.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לשמור\n"
+	.string "ולצאת מהמשחק?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
-	.string "Saving your battle data.\n"
-	.string "Please wait.$"
+	.string "שומר את נתוני הקרב שלך.\n"
+	.string "נא להמתין.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your BATTLE\n"
-	.string "ROOM challenge?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לבטל את אתגר\n"
+	.string "חדר הקרב שלך?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
+	.string "אירעה שגיאה כלשהי.\n"
+	.string "השיא שלך לא יכול היה להישמר.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-	.string "Excuse me, but…\p"
-	.string "Our leader, the SALON MAIDEN, is on\n"
-	.string "her way here in hopes of battling you.\p"
-	.string "She should be arriving very shortly.$"
+	.string "סלח{ADD_YUD} לי, אבל…\p"
+	.string "המנהיגה שלנו, עלמת הסלון, בדרכה\n"
+	.string "לכאן בתקווה להילחם בך.\p"
+	.string "היא אמורה להגיע ממש בקרוב.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "You will be facing the SALON MAIDEN.\n"
-	.string "Are you prepared?$"
+	.string "את{EMIT_HEY} תתמודד{ADD_YUD} מול עלמת הסלון.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
-	.string "Greetings…\n"
-	.string "My name is ANABEL.\p"
-	.string "I am the SALON MAIDEN, and I am in\n"
-	.string "charge of running the BATTLE TOWER…\p"
-	.string "I have heard several rumors\n"
-	.string "about you…\p"
-	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
-	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
+	.string "ברכות…\n"
+	.string "שמי אנאבל.\p"
+	.string "אני עלמת הסלון, ואני אחראית\n"
+	.string "על ניהול מגדל הקרב…\p"
+	.string "שמעתי עליך כמה שמועות…\p"
+	.string "בכל הכנות, מה ששמעתי לא\n"
+	.string "נשמע מושך בשום צורה…\p"
+	.string "הסיבה שבגללה באתי לראות אותך…\n"
+	.string "ובכן, יש רק סיבה אחת…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Let me see your talent in\n"
-	.string "its entirety…$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות את הכישרון שלך\n"
+	.string "במלואו…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
-	.string "ANABEL: Fufufu, nicely done…\p"
-	.string "Your FRONTIER PASS, please…\n"
-	.string "Your talent shall be recognized.$"
+	.string "אנאבל: פופופו, יפה מאוד…\p"
+	.string "היתר חזית הקרב שלך, בבקשה…\n"
+	.string "הכישרון שלך יוכר.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
-	.string "The Ability Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "סמל היכולת הוטבע על\n"
+	.string "כרטיס גבול הקרב!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "… … … … … …\p"
-	.string "You have confidence in your POKéMON\n"
-	.string "battling talent, don't you?\p"
-	.string "I urge you to keep battling and\n"
-	.string "keep on winning.\p"
-	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
+	.string "יש לך ביטחון בכישרון הקרב\n"
+	.string "של הפוקימונים שלך, נכון?\p"
+	.string "אני מפצירה בך להמשיך להילחם\n"
+	.string "ולהמשיך לנצח.\p"
+	.string "אני אחכה לך.\n"
+	.string "עד הפעם הבאה שניפגש…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-	.string "ANABEL: You really did come back to\n"
-	.string "see me…\p"
+	.string "אנאבל: באמת חזרת\n"
+	.string "לראות אותי…\p"
 	.string "… … … … … …\p"
-	.string "You've won straight matches to see me…\n"
-	.string "I won't have to hold back against you…\p"
-	.string "It's been too long now…\p"
-	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
+	.string "ניצחת בקרבות רצופים כדי להגיע אליי…\n"
+	.string "אני לא אצטרך להתאפק מולך…\p"
+	.string "עבר יותר מדי זמן…\p"
+	.string "יותר מדי זמן מאז שיכולתי להילחם\n"
+	.string "בלי לחשוב על שום דבר…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
-	.string "Let's begin, shall we?$"
+	.string "בוא{ADD_YUD} נתחיל, הא?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
-	.string "ANABEL: Fufu, congratulations…\n"
-	.string "Your FRONTIER PASS, please…$"
+	.string "אנאבל: פופו, ברכותיי…\n"
+	.string "היתר חזית הקרב שלך, בבקשה…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
-	.string "The Ability Symbol took on\n"
-	.string "a golden shine!$"
+	.string "סמל היכולת קיבל\n"
+	.string "ברק זהוב!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-	.string "That was fun…\p"
-	.string "I have never had a POKéMON battle\n"
-	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
+	.string "זה היה כיף…\p"
+	.string "מעולם לא חוויתי קרב פוקימונים\n"
+	.string "כל כך מהנה לפני כן…\p"
+	.string "הלוואי שיכולתי להילחם איתך שוב…$"
 

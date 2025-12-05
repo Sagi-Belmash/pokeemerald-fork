@@ -443,134 +443,134 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-	.string "Excellent…\n"
-	.string "Let me restore your POKéMON.$"
+	.string "מצוין…\n"
+	.string "הרש{EMIT_HEY}{ADD_YUD} לי להשיב את הפוקימונים שלך.$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
-	.string "The 2nd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב השני הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent:
-	.string "The 3rd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב השלישי הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent:
-	.string "The 4th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב הרביעי הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent:
-	.string "The 5th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב החמישי הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent:
-	.string "The 6th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב השישי הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
-	.string "The 7th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "היריב השביעי הוא הבא.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} לשמור ולצאת\n"
+	.string "מהמשחק?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
-	.string "Do you wish to quit your challenge?$"
+	.string "האם ברצונך לפרוש מהאתגר שלך?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-	.string "Saving the data.\n"
-	.string "Have patience…$"
+	.string "שומר את הנתונים.\n"
+	.string "נא להתאזר בסבלנות…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
-	.string "Do you wish to record your latest\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "האם ברצונך להקליט את הקרב האחרון\n"
+	.string "שלך על היתר חזית הקרב שלך?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-	.string "And now…\p"
-	.string "By winning consistently, you have\n"
-	.string "earned the privilege of challenging\l"
-	.string "our master, the PALACE MAVEN…$"
+	.string "ועכשיו…\p"
+	.string "על ידי ניצחון עקבי, הרווחת\n"
+	.string "את הזכות לאתגר את המאסטר שלנו,\l"
+	.string "אדון הארמון…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
-	.string "I shall send for the PALACE MAVEN.\n"
-	.string "Are you ready?$"
+	.string "אני אשלח לכאן את אדון הארמון.\n"
+	.string "האם את{EMIT_HEY} מוכ{SWAP_NUN}{ADD_HEY}?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
-	.string "Let great fanfare announce the arrival\n"
-	.string "of the PALACE MAVEN, SPENSER!$"
+	.string "תרועת חצוצרות תודיע על בואו\n"
+	.string "של אדון הארמון, ספנסר!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
-	.string "SPENSER: My physical being is with\n"
-	.string "POKéMON always!\p"
-	.string "My heart beats as one with\n"
-	.string "POKéMON always!\p"
-	.string "Young one of a TRAINER!\n"
-	.string "Do you believe in your POKéMON?\p"
-	.string "Can you believe them through\n"
-	.string "and through?\p"
-	.string "If your bonds of trust are frail,\n"
-	.string "you will never beat my brethren!$"
+	.string "ספנסר: הווייתי הפיזית היא עם\n"
+	.string "הפוקימונים תמיד!\p"
+	.string "ליבי פועם כאחד עם\n"
+	.string "הפוקימונים תמיד!\p"
+	.string "צעיר{ADD_HEY} המאמנים!\n"
+	.string "האם את{EMIT_HEY} מאמי{SWAP_NUN}{ADD_HEY} בפוקימונים שלך?\p"
+	.string "האם את{EMIT_HEY} יכול{ADD_HEY} להאמין בהם לגמרי\n"
+	.string "לחלוטין?\p"
+	.string "אם קשרי האמון שלכם רעועים,\n"
+	.string "את{EMIT_HEY} לעולם לא תנצח{ADD_YUD} את אחיי!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
-	.string "The bond you share with your POKéMON!\n"
-	.string "Prove it to me here!$"
+	.string "הקשר שאת{EMIT_HEY} חולק{ADD_TAF} עם הפוקימונים שלך!\n"
+	.string "הוכ{ADD_YUD}ח{ADD_YUD} לי את זה כאן!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Hah, you never fell for my bluster!\n"
-	.string "Sorry for trying that stunt!\p"
-	.string "Here!\n"
-	.string "Bring me the thing!$"
+	.string "ספנסר: גוואהאהא!\p"
+	.string "הא, מעולם לא נפלת לבלבול שלי!\n"
+	.string "סליחה שניסיתי את התרגיל הזה!\p"
+	.string "הנה!\n"
+	.string "הב{ADD_YUD}א{ADD_YUD} לי את הדבר!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-	.string "My, my, if only you could maintain that\n"
-	.string "facade of distinguished authority…\p"
-	.string "Here!\n"
-	.string "Let's see your FRONTIER PASS!$"
+	.string "אוי לי, אם רק יכולת לשמור על\n"
+	.string "החזות הזו של סמכות מכובדת…\p"
+	.string "הנה!\n"
+	.string "בוא{ADD_YUD} נראה את היתר חזית הקרב שלך!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
-	.string "The Spirits Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "סמל הרוחות הוטבע על\n"
+	.string "היתר חזית הקרב!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
-	.string "SPENSER: Your POKéMON's eyes are \n"
-	.string "truly clear and unclouded.\p"
-	.string "I will eagerly await the next\n"
-	.string "opportunity to see you.$"
+	.string "ספנסר: עיני הפוקימונים שלך באמת \n"
+	.string "צלולות וטהורות.\p"
+	.string "אני אחכה בקוצר רוח להזדמנות\n"
+	.string "הבאה לראות אותך.$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
-	.string "SPENSER: Gwahahah!\n"
-	.string "You've battled your way up again?\p"
-	.string "You must have developed a truly\n"
-	.string "formidable bond with your POKéMON.\p"
-	.string "So be it!\p"
-	.string "This time, I won't bluster or hold back.\n"
-	.string "This time, there's no fooling around.\p"
-	.string "Ready now?\n"
-	.string "Prepare to lose!$"
+	.string "ספנסר: גוואהאהא!\n"
+	.string "נלחמת את דרכך למעלה שוב?\p"
+	.string "את{EMIT_HEY} בטח פיתחת קשר חזק באמת\n"
+	.string "עם הפוקימונים שלך.\p"
+	.string "כך יהיה!\p"
+	.string "הפעם, אני לא אבלבל ולא אתאפק.\n"
+	.string "הפעם, אין משחקים.\p"
+	.string "מוכ{SWAP_NUN}{ADD_HEY} עכשיו?\n"
+	.string "התכונ{SWAP_NUN}{ADD_YUD} להפסיד!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
-	.string "… … …Kaaah!$"
+	.string "… … …קאאאה!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
-	.string "SPENSER: Well, that was some display!\n"
-	.string "Even fully unleashed, my brethren\l"
-	.string "could not overpower you.\p"
-	.string "Your team spirit is truly admirable!\p"
-	.string "Here!\n"
-	.string "Bring me that thing, will you?$"
+	.string "ספנסר: ובכן, זו הייתה הופעה מדהימה!\n"
+	.string "אפילו משוחררים לגמרי, אחיי לא\l"
+	.string "יכלו לגבור עליך.\p"
+	.string "רוח הצוות שלך באמת ראויה להערצה!\p"
+	.string "הנה!\n"
+	.string "הב{ADD_YUD}א{ADD_YUD} לי את הדבר ההוא, בבקשה?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-	.string "My, my, if only you could maintain\n"
-	.string "a certain level of decorum…\p"
-	.string "Gaaah, here!\n"
-	.string "Hurry with that FRONTIER PASS, you!$"
+	.string "אוי לי, אם רק יכולת לשמור על\n"
+	.string "רמה מסוימת של נימוס…\p"
+	.string "גאאאה, הנה!\n"
+	.string "מהר{ADD_YUD} עם היתר חזית הקרב הזה, את{EMIT_HEY}!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
-	.string "The Spirits Symbol took on\n"
-	.string "a golden shine!$"
+	.string "סמל הרוחות קיבל\n"
+	.string "ברק זהוב!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Come see me time and again!\n"
-	.string "My brethren and I will be waiting!$"
+	.string "ספנסר: גוואהאהא!\p"
+	.string "בוא{ADD_YUD} לראות אותי שוב ושוב!\n"
+	.string "אחיי ואני נחכה!$"

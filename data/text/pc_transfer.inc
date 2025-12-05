@@ -1,32 +1,32 @@
 gText_PkmnTransferredSomeonesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "SOMEONE'S PC.\p"
-	.string "It was placed in \n"
-	.string "קופסה “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2} הועבר למחשב\n"
+	.string "של מישהו.\p"
+	.string "הוא הונח\n"
+	.string "בקופסה ”{STR_VAR_1}.“$"
 
 gText_PkmnTransferredLanettesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "LANETTE'S PC.\p"
-	.string "It was placed in \n"
-	.string "קופסה “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2} הועבר למחשב\n"
+	.string "של לאנט.\p"
+	.string "הוא הונח\n"
+	.string "בקופסה ”{STR_VAR_1}.“$"
 
 gText_PkmnTransferredSomeonesPCBoxFull::
-	.string "קופסה “{STR_VAR_3}” on\n"
-	.string "SOMEONE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "קופסה “{STR_VAR_1}.”$"
+	.string "הקופסה ”{STR_VAR_3}“ במחשב\n"
+	.string "של מישהו מלאה.\p"
+	.string "{STR_VAR_2} הועבר\n"
+	.string "לקופסה ”{STR_VAR_1}.“$"
 
 gText_PkmnTransferredLanettesPCBoxFull::
-	.string "קופסה “{STR_VAR_3}” on\n"
-	.string "LANETTE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "קופסה “{STR_VAR_1}.”$"
+	.string "הקופסה ”{STR_VAR_3}“ במחשב\n"
+	.string "של לאנט מלאה.\p"
+	.string "{STR_VAR_2} הועבר\n"
+	.string "לקופסה ”{STR_VAR_1}.“$"
 
 gText_NoMoreRoomForPokemon::
-	.string "There's no more room for POKéMON!\p"
-	.string "The POKéMON BOXES are full and\n"
-	.string "can't accept any more!$"
+	.string "אין יותר מקום לפוקימון!\p"
+	.string "קופסאות הפוקימון מלאות ולא\n"
+	.string "יכולות לקבל עוד!$"
 
 gText_NicknameThisPokemon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "האם ברצונך לתת כינוי\n"
+	.string "ל{STR_VAR_1} הזה?$"

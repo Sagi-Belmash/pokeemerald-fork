@@ -227,6 +227,7 @@ SlateportCity_PokemonFanClub_EventScript_Skitty::
 	faceplayer
 	waitse
 	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_SKITTY
 	msgbox SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -237,6 +238,7 @@ SlateportCity_PokemonFanClub_EventScript_Zigzagoon::
 	faceplayer
 	waitse
 	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_ZIGZAGOON
 	msgbox SlateportCity_PokemonFanClub_Text_Zigzagoon, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -247,154 +249,155 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	faceplayer
 	waitse
 	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_AZUMARILL
 	msgbox SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman:
-	.string "Er-hem! I am the CHAIRMAN of the\n"
-	.string "POKéMON FAN CLUB!\p"
-	.string "Being the CHAIRMAN, I am naturally\n"
-	.string "the most important!\p"
-	.string "No one can best me when it comes\n"
-	.string "to raising POKéMON. No one!\p"
-	.string "Well, let me tell you about\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "They're events where one can show off\n"
-	.string "POKéMON for the world to see!\p"
-	.string "However, they're held in far-off towns,\n"
-	.string "so I cannot participate often enough.\p"
-	.string "That is why we gather here to show\n"
-	.string "off our POKéMON, and have others\l"
-	.string "show us theirs.$"
+	.string "אר-אם! אני היושב ראש של מועדון\n"
+	.string "המעריצים של פוקימון!\p"
+	.string "בתור היושב ראש, אני מטבעי\n"
+	.string "הכי חשוב!\p"
+	.string "אף אחד לא יכול להתעלות עליי כשזה\n"
+	.string "נוגע לגידול פוקימון. אף אחד!\p"
+	.string "ובכן, הרש{EMIT_HEY}{ADD_YUD}לי לספר לך על\n"
+	.string "תחרויות פוקימון.\p"
+    .string "אלו אירועים שבהם אפשר להציג\n"
+    .string "פוקימונים לעיני כל העולם!\p"
+    .string "עם זאת, הן מתקיימות בערים רחוקות,\n"
+	.string "אז אני לא יכול להשתתף לעיתים קרובות.\p"
+    .string "לכן אנחנו מתכנסים כאן כדי להציג\n"
+    .string "את הפוקימונים שלנו, ולאפשר לאחרים\l"
+    .string "להראות לנו את שלהם.$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
-	.string "The POKéMON of a TRAINER who has\n"
-	.string "entered a POKéMON CONTEST…\l"
-	.string "That, I would like to see.$"
+    .string "הפוקימון של מאמן שהשתתף\n"
+    .string "בתחרות פוקימונים…\l"
+    .string "אותו הייתי רוצה לראות.$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
-	.string "Er-hem! I see you've participated in\n"
-	.string "a POKéMON CONTEST!\p"
-	.string "Please! Allow me to examine how you\n"
-	.string "have raised your POKéMON.\p"
-	.string "It delights me no end to see POKéMON\n"
-	.string "raised by other TRAINERS.\p"
-	.string "The happy expressions of POKéMON\n"
-	.string "raised with proper care…\p"
-	.string "The kindly eyes of the TRAINER that\n"
-	.string "nurtured and raised the POKéMON…\p"
-	.string "The very thought fills my heart to\n"
-	.string "overwhelming with joy.\p"
-	.string "Oh! I do beg your pardon!\n"
-	.string "Forgive me for prattling on so!\p"
-	.string "Please! Allow me to examine how much\n"
-	.string "your POKéMON has grown!$"
+	.string "אר-אם! אני רואה שהשתתפת\n"
+	.string "בתחרות פוקימון!\p"
+    .string "בבקשה! הרש{EMIT_HEY}{ADD_YUD} לי לבדוק איך גידלת\n"
+    .string "את הפוקימון שלך.\p"
+    .string "זה משמח אותי לראות פוקימונים\n"
+    .string "שגודלו על ידי מאמנים אחרים.\p"
+    .string "ההבעות השמחות של פוקימונים\n"
+    .string "שגודלו עם טיפוח נכון…\p"
+    .string "עיניו הטובות של המאמן שטיפח\n"
+    .string "וגידל את הפוקימון…\p"
+    .string "המחשבה הזו לבדה ממלאת את לבי\n"
+    .string "בשמחה עצומה.\p"
+    .string "או! אני ממש מצטער!\n"
+    .string "סלח{ADD_YUD} לי על הפטפוט!\p"
+    .string "בבקשה! הרש{EMIT_HEY}{ADD_YUD} לי לבדוק כמה\n"
+    .string "הפוקימון שלך גדל!$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
-	.string "How is your POKéMON growing?\n"
-	.string "Allow me to examine it.$"
+	.string "איך הפוקימון שלך גדל?\n"
+	.string "הרש{EMIT_HEY}{ADD_YUD} לי לבדוק.$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
-	.string "Hm, hm…\n"
-	.string "I see…$"
+	.string "המ, המ…\n"
+	.string "אני מבין…$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
-	.string "Hmmm… It's not bad, but it's not\n"
-	.string "good, either…\p"
-	.string "You, the TRAINER, must put more\n"
-	.string "effort into raising this POKéMON!\p"
-	.string "For instance, may I suggest that\n"
-	.string "you give it more {POKEBLOCK}S?$"
+	.string "הממ… זה לא רע, אבל זה גם לא\n"
+    .string "טוב…\p"
+	.string "את{EMIT_HEY}, המאמ{SWAP_NUN}{ADD_TAF}, צרי{SWAP_CHAF}{ADD_HEY} להשקיע יותר"
+	.string "מאמץ בגידול הפוקימון הזה!\p"
+	.string "למשל, אוכל להציע שתת{SWAP_NUN}{ADD_YUD}\n"
+	.string "לו יותר פוקיגושים?$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-	.string "Oh, my…\p"
-	.string "Your POKéMON is growing quite well,\n"
-	.string "so you deserve a reward.\p"
-	.string "Unfortunately, you have no space for\n"
-	.string "this in your BAG.$"
+	.string "אוי, לי…\p"
+    .string "הפוקימון שלך גדל היטב,\n"
+    .string "ולכן מגיע לך פרס.\p"
+    .string "למרבה הצער, אין לך מקום לזה\n"
+    .string "בתיק שלך.$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
-	.string "Your {STR_VAR_1}, it is growing in\n"
-	.string "a most impressive manner!\l"
-	.string "It is one fine specimen!\p"
-	.string "But! If you were to give it this,\n"
-	.string "it would grow even better! Indeed!$"
+	.string "ה{STR_VAR_1} שלך גדל בצורה\n"
+	.string "מרשימה ביותר!\l"
+	.string "הוא דוגמה מצויינת!\p"
+	.string "אבל! אם היית נות{SWAP_NUN}{ADD_TAF} לו את זה,\n"
+	.string "הוא יגדל אפילו יותר טוב! בהחלט!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
-	.string "Let a POKéMON hold that RED SCARF.\p"
-	.string "Everyone will recognize the coolness\n"
-	.string "of that POKéMON!$"
+    .string "ת{SWAP_NUN}{ADD_YUD} לפוקימון להחזיק את הצעיף האדום הזה.\p"
+    .string "כולם יבחינו בקוליות של\n"
+    .string "אותו פוקימון!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
-	.string "Let a POKéMON hold that BLUE SCARF.\p"
-	.string "Its beauty will be accentuated much\n"
-	.string "more than now!$"
+    .string "ת{SWAP_NUN}{ADD_YUD} לפוקימון להחזיק את הצעיף הכחול הזה.\p"
+    .string "היופי שלו יודגש אפילו יותר\n"
+    .string "מאשר עכשיו!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
-	.string "Let a POKéMON hold that PINK SCARF.\p"
-	.string "It will draw out the cuteness of\n"
-	.string "the POKéMON some more!$"
+    .string "ת{SWAP_NUN}{ADD_YUD} לפוקימון להחזיק את הצעיף הורוד הזה.\p"
+    .string "זה ידגיש עוד יותר את\n"
+    .string "החמידות של הפוקימון!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
-	.string "Let a POKéMON hold that GREEN SCARF.\p"
-	.string "That will enhance the\n"
-	.string "smartness of POKéMON!$"
+    .string "ת{SWAP_NUN}{ADD_YUD} לפוקימון להחזיק את הצעיף הירוק הזה.\p"
+    .string "זה ישפר את החוכמה\n"
+    .string "של הפוקימון!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
-	.string "Let a POKéMON hold that YELLOW SCARF.\p"
-	.string "It will bolster your POKéMON's\n"
-	.string "toughness so much more!$"
+    .string "ת{SWAP_NUN}{ADD_YUD} לפוקימון להחזיק את הצעיף הצהוב הזה.\p"
+    .string "זה יחזק את קשיחותו\n"
+    .string "של הפוקימון!$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
-	.string "I'm sorry, but I've nothing else to\n"
-	.string "give you! None at all!\p"
-	.string "After all, you're blessed with the gift\n"
-	.string "of raising POKéMON without resorting\l"
-	.string "to any items!$"
+    .string "אני מתנצל, אבל אין לי יותר\n"
+    .string "דברים לתת לך! בכלל לא!\p"
+    .string "אחרי הכל, התברכת ביכולת\n"
+    .string "לגדל פוקימונים בלי להזדקק\l"
+    .string "לשום פריט!$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
-	.string "I love seeing POKéMON that love\n"
-	.string "their TRAINERS.\p"
-	.string "POKéMON are very sensitive to\n"
-	.string "the feelings of their TRAINERS.\p"
-	.string "If you treat your POKéMON with love\n"
-	.string "and care, they'll love you back.\p"
-	.string "When your POKéMON grow to love you,\n"
-	.string "please come show me.$"
+    .string "אני אוהב לראות פוקימונים שאוהבים\n"
+    .string "את המאמנים שלהם.\p"
+    .string "פוקימונים רגישים מאוד\n"
+    .string "לרגשות של המאמנים שלהם.\p"
+    .string "אם תטפל{ADD_YUD} בפוקימון שלך באהבה\n"
+    .string "ובדאגה, הוא יאהב אותך בחזרה.\p"
+    .string "כשהפוקימון שלך יאהב אותך,\n"
+    .string "בוא{ADD_YUD} להראות לי.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-	.string "Your POKéMON really adores you.\p"
-	.string "For you, a most compassionate\n"
-	.string "TRAINER, a gift from the FAN CLUB!$"
+    .string "הפוקימון שלך ממש מעריץ אותך.\p"
+    .string "עבורך, מאמ{SWAP_NUN}{ADD_TAF} רחו{SWAP_MEM}{ADD_HEY} במיוחד,\n"
+    .string "מתנה ממועדון המעריצים!$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
-	.string "POKéMON are very sensitive to\n"
-	.string "the feelings of their TRAINERS.\p"
-	.string "If you treat your POKéMON with love\n"
-	.string "and care, they'll love you back.$"
+    .string "פוקימונים רגישים מאוד\n"
+    .string "לרגשות של המאמנים שלהם.\p"
+    .string "אם תטפל{ADD_YUD} בפוקימונים באהבה\n"
+    .string "ובדאגה, הם יאהבו אותך בחזרה.$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
-	.string "If you keep letting a POKéMON faint\n"
-	.string "in battle, it'll come to resent it.\p"
-	.string "Soon, it will become less trusting\n"
-	.string "of the TRAINER.\p"
-	.string "In other words, it certainly won't\n"
-	.string "like you very much.$"
+    .string "אם תמשי{SWAP_CHAF}{ADD_YUD} לתת לפוקימון להתעלף\n"
+    .string "בקרב, הוא יתחיל לשנוא את זה.\p"
+    .string "בקרוב, הוא יפסיק לסמוך\n"
+    .string "על המאמן.\p"
+    .string "במילים אחרות, הוא בהחלט לא\n"
+    .string "יאהב אותך במיוחד.$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
-	.string "Do POKéMON enjoy having items used\n"
-	.string "on them?\p"
-	.string "Mine acted really happy when I gave\n"
-	.string "it some PROTEIN.$"
+	.string "האם פוקימונים נהנים כשמשתמשים\n"
+	.string "עליהם פריטים?\p"
+    .string "שלי נראה ממש שמח כשנתתי לו\n"
+    .string "קצת חלבון.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-	.string "SKITTY: Fffnyaaaah…$"
+	.string "{STR_VAR_1}: פפפניאאאאה…$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-	.string "ZIGZAGOON: Kyuuu…$"
+	.string "{STR_VAR_1}: קיווו…$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
-	.string "AZUMARILL: Marimari?$"
+	.string "{STR_VAR_1}: מארימארי?$"
 

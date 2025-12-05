@@ -991,6 +991,7 @@ Route104_EventScript_Mia::
 
 Route104_EventScript_Darian::
 	trainerbattle_single TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
+	bufferspeciesname STR_VAR_1, SPECIES_MAGIKARP
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -1072,9 +1073,9 @@ Route104_Text_TrainerTipsDoubleBattles:
 	.string "שמאתגרים אחרים לקרבות פוקימון\l"
 	.string "של 2 על 2, שנקראים קרבות כפולים.\p"
 	.string "בקרב כפול, המאמן חייב לשלוח שני\n"
-	.string "פוקימון, את זה שמשמאל ברשימה,\l"
+	.string "פוקימונים, את זה שמשמאל ברשימה,\l"
 	.string "ואת זה שבראשה.\l"
-	.string "שימו לב לסדר הפוקימון שלך.$"
+	.string "לשים לב לסדר הפוקימון שלך.$"
 
 Route104_Text_MayWeShouldRegister:
 	.string "מאי: היי, {PLAYER}{KUN}!\p"

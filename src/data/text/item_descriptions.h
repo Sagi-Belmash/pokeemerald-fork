@@ -249,23 +249,23 @@ static const u8 sHPUpDesc[] = _(
 
 static const u8 sProteinDesc[] = _(
     "מעלה את בסיס\n"
-    "ההתקפה של\n"
+    "נתון ההתקפה של\n"
     "פוקימון אחד.");
 
 static const u8 sIronDesc[] = _(
     "מעלה את בסיס\n"
-    "ההגנה של\n"
+    "נתון ההגנה של\n"
     "פוקימון אחד.");
 
 static const u8 sCarbosDesc[] = _(
     "מעלה את בסיס\n"
-    "המהירות של\n"
+    "נתון המהירות של\n"
     "פוקימון אחד.");
 
 static const u8 sCalciumDesc[] = _(
     "מעלה את בסיס\n"
-    "ההתקפה מ. של\n"
-    "פוקימון אחד.");
+    "נתון ההתקפה מ.\n"
+    "של פוקימון אחד.");
 
 static const u8 sRareCandyDesc[] = _(
     "מעלה את הרמה\n"
@@ -277,8 +277,8 @@ static const u8 sPPUpDesc[] = _(
 
 static const u8 sZincDesc[] = _(
     "מעל את בסיס\n"
-    "ההגנה מ. של\n"
-    "פוקימון אחד.");
+    "נתון ההגנה מ.\n"
+    "של פוקימון אחד.");
 
 static const u8 sPPMaxDesc[] = _(
     "מעלה את הנכ של\n"
@@ -731,7 +731,7 @@ static const u8 sMentalHerbDesc[] = _(
     "מהתאהבות.");
 
 static const u8 sChoiceBandDesc[] = _(
-    "מגדיל את עוצמת\n"
+    "מגביר את כוח\n"
     "המהלך, אך מאפשר\n"
     "רק את המהלך הזה.");
 
@@ -782,8 +782,8 @@ static const u8 sEverstoneDesc[] = _(
 
 static const u8 sFocusBandDesc[] = _(
     "פריט להחזקה\n"
-    "שמדי פעם\n"
-    "מונע התעלפות.");
+    "שלעיתים מונע\n"
+    "התעלפות.");
 
 static const u8 sLuckyEggDesc[] = _(
     "פריט להחזקה\n"
@@ -793,7 +793,7 @@ static const u8 sLuckyEggDesc[] = _(
 static const u8 sScopeLensDesc[] = _(
     "פריט להחזקה\n"
     "שמשפר את\n"
-    "יחס מכה קריטית.");
+    "יחס המכה קריטית.");
 
 static const u8 sMetalCoatDesc[] = _(
     "פריט להחזקה\n"
@@ -1019,7 +1019,7 @@ static const u8 sAcroBikeDesc[] = _(
     "ועמידת גלגל.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "נרתיק להחזקת\n"
+    "קופסה להחזקת\n"
     "פוקיגושים שהוכנו\n"
     "מבלנדר פירות יער.");
 

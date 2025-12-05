@@ -20,17 +20,16 @@ PacifidlogTown_House5_EventScript_Gentleman::
 	end
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
-	.string "I can't see MIRAGE ISLAND today…$"
+	.string "אני לא יכול לראות את אי התעתוע היום…$"
 
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday:
-	.string "Oh! Oh my!\n"
-	.string "I can see MIRAGE ISLAND today!$"
+	.string "או! אוי לי!\n"
+	.string "אני יכול לראות את אי התעתוע היום!$"
 
 PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
-	.string "MIRAGE ISLAND…\p"
-	.string "It must become visible and invisible\n"
-	.string "depending on the weather conditions\l"
-	.string "that make mirages appear.\p"
-	.string "Or is it really appearing and\n"
-	.string "disappearing?$"
+	.string "אי התעתוע…\p"
+	.string "זה בטח מתגלה ומסתתר\n"
+	.string "בהתאם לתנאי מזג האוויר\l"
+	.string "שגורם לחזיונות להופיע.\p"
+	.string "או שזה באמת מופיע ונעלם?$"
 

@@ -46,16 +46,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+    .string "העץ הזה נראה ניתן\n"
+    .string "לחיתוך!\p"
+    .string "האם תרצ{EMIT_HEY}{ADD_YUD} לחתוך אותו?$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1} השתמש ב{STR_VAR_2}!$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+    .string "העץ הזה נראה ניתן\n"
+    .string "לחיתוך!$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -114,12 +114,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "האבן הזאת נראית שבירה.\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להשתמש בריסוק אבן?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "זאת אבן מחוספסת, אבל פוקימון\n"
+	.string "יכול לשבור אותה.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -165,22 +165,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "זה סלע גדול, אבל פוקימון\n"
+	.string "יכול לדחוף אותו הצידה.\p"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להשתמש בעוצמה?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1} השתמש{ADD_HEY} בעוצמה!\p"
+	.string "העוצמה של {STR_VAR_1}אפשרה להזיז\n"
+	.string "סלעים בסביבה!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "זה סלע גדול, אבל פוקימון\n"
+	.string "יכול לדחוף אותו הצידה.$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "עוצמה מאפשרת להזיז\n"
+	.string "סלעים בסביבה.$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -205,15 +205,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+    .string "קיר מים מתנפץ למטה עם\n"
+    .string "שאגה עזה.$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "זה מפל מים גדול.\n"
+	.string "האם תרצ{EMIT_HEY}{ADD_YUD} להשתמש במפל מים?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} השתמש{ADD_HEY} במפל מים.$"
 
 EventScript_UseDive::
 	lockall
@@ -263,27 +263,27 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "הים עמוק כאן. פוקימון\n"
+	.string "יוכל אולי לצלול.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "הים עמוק כאן.\n"
+	.string "רוצה להשתמש בצלילה?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} השתמש בצלילה.$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "אור מסתנן מלמעלה.\n"
+	.string "פוקימון יוכל אולי לעלות.$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "אור מסתנן מלמעלה.\n"
+	.string "רוצה להשתמש בצלילה?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "נראה שאין פה כלום…$"

@@ -1,5 +1,5 @@
 gText_Birch_Welcome::
-	.string "הי! סליחה על ההמתנה!\p"
+	.string "היי! סליחה על ההמתנה!\p"
 	.string "ברוכים הבאים לעולם הפוקימון!\p"
 	.string "שמי הוא בירץ'.\p"
 	.string "אבל כולם קוראים לי הפרופסור\n"
@@ -29,10 +29,10 @@ gText_Birch_MainSpeech::
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "והנך?$"
+	.string "ומה איתך?$"
 
 gText_Birch_BoyOrGirl::
-	.string "הנך בן?\n"
+	.string "בן?\n"
 	.string "או בת?$"
 
 gText_Birch_WhatsYourName::
@@ -40,12 +40,12 @@ gText_Birch_WhatsYourName::
 	.string "מה שמך?$"
 
 gText_Birch_SoItsPlayer::
-	.string "אז הנך {PLAYER}{KUN}?$"
+	.string "אז את{EMIT_HEY} {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "אה, אוקיי!\p"
 	.string "את{EMIT_HEY} {PLAYER}{KUN} שמגיע{ADD_HEY}\n"
-	.string "לעיר מולדי ליטלרוט.\l"
+	.string "לעיר מולדתי ליטלרוט.\l"
 	.string "הבנתי!\p"
 	.string "$"
 

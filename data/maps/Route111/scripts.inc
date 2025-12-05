@@ -558,6 +558,7 @@ Route111_EventScript_Bryan::
 
 Route111_EventScript_Branden::
 	trainerbattle_single TRAINER_BRANDEN, Route111_Text_BrandenIntro, Route111_Text_BrandenDefeat
+	bufferspeciesname STR_VAR_1, SPECIES_SANDSHREW
 	msgbox Route111_Text_BrandenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -566,156 +567,155 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_BattleOurFamily:
-	.string "Hello! I take it you're a traveler.\p"
-	.string "How's this? What do you say to taking\n"
-	.string "on our family of four in a series of\l"
-	.string "POKéMON battles?$"
+	.string "שלום! אני מניח שאת{EMIT_HEY} מטייל{ADD_TAF}.\p"
+	.string "מה דעתך? מה את{EMIT_HEY} אומר על הסכמת\n"
+	.string "אתגר נגד המשפחה שלנו, ארבעה מאיתנו, בסדרת\l"
+	.string "קרבות פוקימונים?$"
 
 Route111_Text_IsThatSo:
-	.string "Is that so?\n"
-	.string "Drop in, if you change your mind!$"
+	.string "אכן כך?\n"
+	.string "בוא{ADD_YUD} לבקר, אם תשנ{EMIT_HEY}{ADD_YUD} את דעתך!$"
 
 Route111_Text_VictorIntro:
-	.string "That's the spirit! I like you!$"
+	.string "זה הרוח! אני מחבב אותך!$"
 
 Route111_Text_VictorDefeat:
-	.string "Aiyah!\n"
-	.string "You're a lot tougher than I expected!$"
+	.string "איייה!\n"
+	.string "את{EMIT_HEY} הרבה יותר קשוח{ADD_HEY} ממה שציפיתי!$"
 
 Route111_Text_VictorPostBattle:
-	.string "Hey, all!\n"
-	.string "I've found a pretty strong TRAINER!$"
+	.string "היי, כולם!\n"
+	.string "מצאתי מאמ{SWAP_NUN}{ADD_TAF} די חזק{ADD_HEY}!$"
 
 Route111_Text_VictoriaIntro:
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the TRAINER to beat\n"
-	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string "או, אלוהים! את{EMIT_HEY} לא צעיר{ADD_HEY}?\p"
+	.string "את{EMIT_HEY} בטח מאמ{SWAP_NUN}{ADD_TAF} לא רע{ADD_HEY} אם ניצחת\n"
+	.string "את בעלי, עם זאת.\p"
+	.string "עכשיו תורי להילחם!$"
 
 Route111_Text_VictoriaDefeat:
-	.string "Oh, gosh!\n"
-	.string "I can't get over how strong you are!$"
+	.string "או, אלוהים!\n"
+	.string "אני לא מצליחה להתגבר על כמה שאת{EMIT_HEY} חזק{ADD_HEY}!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "There's a strong TRAINER here!\n"
-	.string "This one's really strong!$"
+	.string "יש כאן מאמ{SWAP_NUN}{ADD_TAF} חזק{ADD_HEY}!\n"
+	.string "ה{EMIT_VAV}{ADD_YUD}א ממש חזק{ADD_HEY}!$"
 
 Route111_Text_ViviIntro:
-	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
-	.string "Really! Honestly!$"
+	.string "את{EMIT_HEY} חזק{ADD_HEY} יותר מאמא? ואו!\p"
+	.string "אבל אני גם חזקה!\n"
+	.string "באמת! בכנות!$"
 
 Route111_Text_ViviDefeat:
-	.string "Huh? Did I just lose?$"
+	.string "הא? האם הפסדתי עכשיו?$"
 
 Route111_Text_ViviPostBattle:
-	.string "This stinks…\p"
-	.string "…Snivel… Grandma!$"
+	.string "זה מבאס…\p"
+	.string "…בכי… סבתא!$"
 
 Route111_Text_VickyIntro:
-	.string "How dare you make my granddaughter\n"
-	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
-	.string "Prepare to lose!$"
+	.string "איך את{EMIT_HEY} מעז{ADD_HEY} לגרום לנכדה שלי\n"
+	.string "לבכות!\p"
+	.string "בגלל זה, אני הולכת להרביץ לך!\n"
+	.string "התכונ{SWAP_NUN}{ADD_YUD} להפסד!$"
 
 Route111_Text_VickyDefeat:
-	.string "Kwah! You are strong…\n"
-	.string "My granddaughter was right…$"
+	.string "קוואה! את{EMIT_HEY} חזק{ADD_HEY}…\n"
+	.string "הנכדה שלי צדקה…$"
 
 Route111_Text_VickyPostBattle:
-	.string "If you're not in any hurry,\n"
-	.string "visit with us awhile.$"
+	.string "אם את{EMIT_HEY} לא ממהר{ADD_TAF},\n"
+	.string "תבקר{ADD_YUD} אצלנו קצת.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "If you don't raise your POKéMON some\n"
-	.string "more, it could be tough to keep winning\l"
-	.string "up through the ranks.\p"
-	.string "I've heard the POKéMON LEAGUE's\n"
-	.string "ELITE FOUR are far stronger than\l"
-	.string "any GYM LEADER.$"
+	.string "אם לא תגדל{ADD_YUD} את הפוקימונים שלך קצת\n"
+	.string "יותר, זה יכול להיות קשה להמשיך\l"
+	.string "ולנצח ברמות הגבוהות.\p"
+	.string "שמעתי שהרביעייה העלית של ליגת הפוקימונים\n"
+	.string "חזקה בהרבה מכל מנהיג מכון.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "I challenged the WINSTRATE family,\n"
-	.string "but four matches in a row is tough\l"
-	.string "going… They destroyed me.$"
+	.string "אני אתגרתי את משפחת ווינסטרייט,\n"
+	.string "אבל ארבעה קרבות ברציפות זה קשה\l"
+	.string "מדי… הם השמידו אותי.$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
-	.string "{DOWN_ARROW} MAUVILLE CITY$"
+	.string "דרך 111\n"
+	.string "{DOWN_ARROW} עיר מוויל$"
 
 Route111_Text_WinstrateHouseSign:
-	.string "“Our family's hearts beat as one!”\n"
-	.string "THE WINSTRATE'S HOUSE$"
+	.string "”הלבבות של המשפחה שלנו פועמים כאחד!“\n"
+	.string "הבית של ווינסטרייט$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 112$"
+	.string "דרך 111\n"
+	.string "{LEFT_ARROW} דרך 211$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 113$"
+	.string "דרך 111\n"
+	.string "{LEFT_ARROW} דרך 311$"
 
 Route111_Text_OldLadysRestStopSign:
-	.string "OLD LADY'S REST STOP\n"
-	.string "“Come in and rest your tired bones.”$"
+	.string "בית מנוחה של אישה זקנה\n"
+	.string "”היכנסו לנוח מהעצמות העייפות שלכם.“$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a POKéMON's\n"
-	.string "powerfulness is SP. ATK. It stands for\l"
-	.string "“SPECIAL ATTACK.”\p"
-	.string "Likewise, SP. DEF stands for “SPECIAL\n"
-	.string "DEFENSE.”$"
+	.string "טיפים למאמנים\p"
+	.string "אחד המדדים לעוצמה של פוקימון\n"
+	.string "הוא התקפה מ. שזה מייצג\l"
+	.string "”התקפה מיוחדת.“\p"
+	.string "באופן דומה, הגנה מ. מייצג ”הגנה\n"
+	.string "מיוחדת.“$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "There should be a tower made of sand\n"
-	.string "around here somewhere.\p"
-	.string "But for some reason, it can be seen\n"
-	.string "sometimes, and sometimes not.\p"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string "אמור להיות מגדל עשוי חול\n"
+	.string "איפשהו כאן.\p"
+	.string "אבל משום מה, ניתן לראות אותו\n"
+	.string "לפעמים, ולפעמים לא.\p"
+	.string "זו הסיבה שבגללה אני קורא לו מגדל התעתוע.$"
 
 Route111_Text_MirageTowerClearlyVisible:
-	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
-	.string "is clearly visible!\p"
-	.string "But it looks so fragile…\n"
-	.string "It could crumble away anytime…\p"
-	.string "I want to go inside it, but I can't\n"
-	.string "get my courage up for it…$"
+	.string "אני רואה אותו!\n"
+	.string "מגדל החול!\p"
+	.string "מגדל החול שהם כינו תעתוע\n"
+	.string "נראה בבירור!\p"
+	.string "אבל הוא נראה כל כך שביר…\n"
+	.string "הוא יכול להתפורר בכל רגע…\p"
+	.string "אני רוצה להיכנס לתוכו, אבל אני לא\n"
+	.string "מצליח לאזור אומץ לזה…$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "Whoa…\n"
-	.string "That was shocking.\p"
-	.string "Sand rained down in chunks all of\n"
-	.string "a sudden.\p"
-	.string "What was it like inside?\n"
-	.string "Were there sandy ghosts and such?$"
+	.string "וואה…\n"
+	.string "זה היה מזעזע.\p"
+	.string "חול ירד בגושים בבת אחת.\n"
+	.string "פתאום.\p"
+	.string "איך זה היה בפנים?\n"
+	.string "האם היו שם רוחות רפאים חוליות וכדומה?$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "Since I spoke to you, the tower of sand\n"
-	.string "hasn't been seen.\p"
-	.string "Perhaps it really was\n"
-	.string "the MIRAGE TOWER…$"
+	.string "מאז שדיברתי איתך, מגדל החול\n"
+	.string "לא נראה.\p"
+	.string "אולי זה באמת היה\n"
+	.string "מגדל התעתוע…$"
 
 Route111_Text_ClawFossilDisappeared:
-	.string "The CLAW FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "מאובן הטופר נעלם אל\n"
+	.string "תוך החול…$"
 
 Route111_Text_RootFossilDisappeared:
-	.string "The ROOT FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "מאובן השורש נעלם אל\n"
+	.string "תוך החול…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "Oh, no!\p"
-	.string "My uncle in MAUVILLE told me to take\n"
-	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
-	.string "My uncle? He lives across from\n"
-	.string "the bike shop in MAUVILLE.$"
+	.string "או, לא!\p"
+	.string "הדוד שלי במוויל אמר לי לקחת\n"
+	.string "ריסוק סלע איתי אם אני הולך\l"
+	.string "לדרך 111!\p"
+	.string "הדוד שלי? הוא גר ממול\n"
+	.string "לחנות האופניים במוויל.$"
 
 Route111_Text_TrainerHillSign:
-	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”$"
+	.string "{RIGHT_ARROW} כניסה לגבעת המאמנים\p"
+	.string "”טפסו לגבהים, אתם המאמנים\n"
+	.string "בעלי דם חם!“$"
 

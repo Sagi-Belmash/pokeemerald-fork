@@ -164,7 +164,7 @@ static const u8 sTheEnd_LetterMap_D[] =
     1, 0x86, 0x87,
 };
 
-// ף ו ס ה  (הסוף) — each entry is a 5x3 map (row-major)
+// ף ו ס ה  (הסוף) -- each entry is a 5x3 map (row-major)
 static const u8 sTheEnd_LetterMap_PeiSofit[] = // ף (final Pe)
 {
     1, 1, 1,

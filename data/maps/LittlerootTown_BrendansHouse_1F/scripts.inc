@@ -292,7 +292,7 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "של המעבר וניקיון אחרי.\l"
 	.string "זה כזה נוח!\p"
 	.string "{PLAYER}, החדר שלך למעלה.\n"
-	.string "לך תבד{EMIT_VAV}ק{ADD_HEY} אותו, מתוק{ADD_HEY}!\p"
+	.string "ל{SWAP_CHAF}{ADD_YUD} תבד{EMIT_VAV}ק{ADD_YUD} אותו, מתוק{ADD_HEY}!\p"
 	.string "אבא שלך קנה לך שעון חדש לציון\n"
 	.string "המעבר שלנו לפה.\l"
 	.string "אל תשכח{ADD_YUD} לכוון אותו!$"

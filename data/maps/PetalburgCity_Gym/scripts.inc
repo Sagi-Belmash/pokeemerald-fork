@@ -1513,16 +1513,16 @@ PetalburgCity_Gym_Text_EnterOHKORoom:
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
 	.string "”חדר מנהיג המכון.“\p"
-	.string "“רא{EMIT_HEY}{ADD_YUD} בעצמך אילו פוקימונים מחכים לך!”\n"
+	.string "לראות בעצמך אילו פוקימונים מחכים לך!”\n"
 	.string "כתוב על השלט.\p"
 	.string "האם להיכנס?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "מכון הפוקימונים של עיר פטלבורג$"
+	.string "מכון הפוקימון בעיר פטלבורג$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "מכון הפוקימונים של עיר פטלבורג\p"
-	.string "מאמנים מוסמכים על ידי נורמן:\n"
+	.string "מכון הפוקימון בעיר פטלבורג\p"
+	.string "מאמנים מוסמכים בידי נורמן:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:

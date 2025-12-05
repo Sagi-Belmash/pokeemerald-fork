@@ -228,7 +228,7 @@ SlateportCity_Harbor_EventScript_BoardFerry::
 	call_if_eq VAR_FACING, DIR_NORTH, SlateportCity_Harbor_EventScript_BoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, SlateportCity_Harbor_EventScript_BoardFerryEast
 	delay 30
-	hideobjectat LOCALID_PLAYER, 0
+	hideplayer
 	setvar VAR_0x8004, LOCALID_SLATEPORT_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
@@ -381,160 +381,157 @@ SlateportCity_Harbor_EventScript_TradedScanner::
 	end
 
 SlateportCity_Harbor_Text_FerryServiceUnavailable:
-	.string "I beg your pardon?\n"
-	.string "You're looking for a ship?\p"
-	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…$"
+	.string "סליחה?\n"
+	.string "את{EMIT_HEY} מחפש{ADD_TAF} ספינה?\p"
+	.string "אני מצטערת, שירות המעבורת אינו\n"
+	.string "זמין כעת…$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?$"
+	.string "שלום, את{EMIT_HEY} כאן בשביל המעבורת?\n"
+	.string "אפשר לראות את הכרטיס שלך?$"
 
 SlateportCity_Harbor_Text_YouMustHaveTicket:
-	.string "{PLAYER} doesn't have the TICKET…\p"
-	.string "I'm terribly sorry.\p"
-	.string "You must have a TICKET to board\n"
-	.string "the ferry.$"
+	.string "ל{PLAYER} אין כרטיס…\p"
+	.string "אני מצטערת מאוד.\p"
+	.string "את{EMIT_HEY} חייב{ADD_TAF} כרטיס כדי לעלות\n"
+	.string "על המעבורת.$"
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
-	.string "{PLAYER} flashed the TICKET.\p"
-	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "{PLAYER} הציג{ADD_HEY} את הכרטיס.\p"
+	.string "מושלם! זה כל מה שאת{EMIT_HEY} צרי{SWAP_CHAF}{ADD_HEY}!\p"
+	.string "ולאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 SlateportCity_Harbor_Text_SailAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "בבקשה תפליג{ADD_YUD} איתנו בפעם אחרת!$"
 
 SlateportCity_Harbor_Text_LilycoveItIs:
-	.string "LILYCOVE CITY it is, then!$"
+	.string "אז לעיר ליליקוב, אם כך!$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
-	.string "BATTLE FRONTIER it is, then!$"
+	.string "אז לחזית הקרב, אם כך!$"
 
 SlateportCity_Harbor_Text_PleaseBoardFerry:
-	.string "Please board the ferry and wait for\n"
-	.string "departure.$"
+	.string "נא לעלות על המעבורת ולהמתין\n"
+	.string "לציאה.$"
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
-	.string "Then, where would you like to go?$"
+	.string "אז, לאן תרצ{EMIT_HEY}{ADD_YUD} להגיע?$"
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
-	.string "A journey to the bottom of the sea…\n"
-	.string "I wonder what it'd be like?\p"
-	.string "I'd love to go deep underwater like\n"
-	.string "that someday.$"
+	.string "מסע לקרקעית הים…\n"
+	.string "אני תוהה איך זה היה מרגיש?\p"
+	.string "הייתי שמח לצלול עמוק מתחת למים\n"
+	.string "ככה יום אחד.$"
 
 SlateportCity_Harbor_Text_AbnormalWeather:
-	.string "For a ship to sail safely, we need to\n"
-	.string "know about the weather!\p"
-	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
-	.string "He was saying abnormal weather has\n"
-	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
-	.string "and ask around!$"
+	.string "כדי שספינה תפליג בבטחה, אנחנו צריכים\n"
+	.string "לדעת את מצב מזג האוויר!\p"
+	.string "אגב מזג אוויר, שמעתי משהו מבחור\n"
+	.string "ממכון למזג האוויר.\p"
+	.string "הוא סיפר שמזג אוויר חריג דווח\n"
+	.string "בכל רחבי האזור!\p"
+	.string "כדאי לך לבקר במכון מזג האוויר\n"
+	.string "ולשאול מסביב!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
-	.string "I wanted to go with CAPT. STERN on\n"
-	.string "the ocean floor exploration.\p"
-	.string "But the sub's too small for me.\p"
-	.string "If I squeezed in, there wouldn't be\n"
-	.string "any room for the CAPTAIN…$"
+	.string "רציתי להצטרף לקפטן סטרן בחקר\n"
+	.string "קרקעית האוקיינוס.\p"
+	.string "אבל הצוללת קטנה מדי בשבילי.\p"
+	.string "אם הייתי נדחס פנימה, לא היה נשאר\n"
+	.string "מקום בכלל לקפטן…$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
-	.string "CAPT. STERN: Those thugs…\p"
-	.string "They're the same lot who tried to rob\n"
-	.string "the DEVON GOODS at the MUSEUM.$"
+	.string "קפטן סטרן: הבריונים האלה…\p"
+	.string "אלו אותם טיפוסים שניסו לגנוב\n"
+	.string "את סחורת דבון במוזיאון.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-	.string "ARCHIE: Oh?\n"
-	.string "Not you again…\p"
-	.string "You are tenacious to track us here,\n"
-	.string "that much I will give you.\p"
-	.string "But now…\n"
-	.string "No one can stop us! No one!\p"
-	.string "Or, will you follow us back to our\n"
-	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
+	.string "ארצ'י: או?\n"
+	.string "לא את{EMIT_HEY} שוב…\p"
+	.string "את{EMIT_HEY} עקש{SWAP_NUN}{ADD_YUD}{ADD_TAF} לעקוב אחרינו עד כאן,\n"
+	.string "זה אני מוכן להעריך לך.\p"
+	.string "אבל עכשיו…\n"
+	.string "אף אחד לא יוכל לעצור אותנו! אף אחד!\p"
+	.string "או שתעק{EMIT_VAV}ב{ADD_YUD} אחרינו חזרה למחבוא\n"
+	.string "שלנו בעיר ליליקוב?\p"
+	.string "פואהאהאהאהא…$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
-	.string "CAPT. STERN: Why…\p"
-	.string "Why would TEAM AQUA steal my\n"
-	.string "SUBMARINE EXPLORER 1?\p"
-	.string "They can't be after the slumbering\n"
-	.string "POKéMON at the bottom of the sea…\p"
-	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
+	.string "קפטן סטרן: למה…\p"
+	.string "למה שצוות אקווה יגנוב את הצוללת\n"
+	.string "חוקרת 1 שלי?\p"
+	.string "הם בטח לא אחרי הפוקימונים\n"
+	.string "הרדומים בתחתית הים…\p"
+	.string "אבל גם אם הייתי מנסה לרדוף אחריהם,\n"
+	.string "אין לי סיכוי מולם…$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
-	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
-	.string "Okay… So TEAM AQUA left before you\n"
-	.string "could stop them…\p"
-	.string "Oh, no, don't blame yourself.\n"
-	.string "You're not responsible for this.\p"
-	.string "Trying to catch a submarine…\n"
-	.string "It's impossible for most people.\p"
-	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
-	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
-	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "קפטן סטרן: או, {PLAYER}{KUN}…\p"
+	.string "אוקיי… אז צוות אקווה עזב לפני\n"
+	.string "שהצלחת לעצור אותם…\p"
+	.string "או, לא, אל תאשי{SWAP_MEM}{ADD_YUD} את עצמך.\n"
+	.string "את{EMIT_HEY} לא אחראי{ADD_TAF} לזה.\p"
+	.string "לנסות לתפוס צוללת…\n"
+	.string "זה בלתי אפשרי לרוב האנשים.\p"
+	.string "צריך פוקימון שיודע איך לצלול…\p"
+	.string "אולי אם תל{SWAP_CHAF}{ADD_YUD} לעיר מוסדיפ…\p"
+	.string "הרבה צוללנים גרים שם, אז מישהו\n"
+	.string "עלול ללמד אותך…$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
-	.string "CAPT. STERN: Trying to catch a\n"
-	.string "submarine… It's impossible.\p"
-	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
-	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
-	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
+	.string "קפטן סטרן: לנסות לתפוס\n"
+	.string "צוללת… זה בלתי אפשרי.\p"
+	.string "את{EMIT_HEY} תצטר{SWAP_CHAF}{ADD_YUD} פוקימון שיודע\n"
+	.string "לצלול…\p"
+	.string "אולי אם תל{SWAP_CHAF}{ADD_YUD} לעיר מוסדיפ…\p"
+	.string "הרבה צוללנים חיים שם, אז\n"
+	.string "מישהו אולי ילמד אותך…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-	.string "CAPT. STERN: Oh, yes.\n"
-	.string "MR. BRINEY came to our SHIPYARD.\p"
-	.string "It won't be long now before we finish\n"
-	.string "making the ferry!$"
+	.string "קפטן סטרן: או, כן.\n"
+	.string "מר ברייני הגיע למספנה שלנו.\p"
+	.string "זה לא ייקח עוד הרבה זמן עד שנסיים\n"
+	.string "לבנות את המעבורת!$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-	.string "CAPT. STERN: {PLAYER}{KUN}!\p"
-	.string "We finally finished making the ferry\n"
-	.string "S.S. TIDAL!\p"
-	.string "We couldn't have done it without\n"
-	.string "your friend MR. BRINEY.\p"
-	.string "Please go for a short cruise on it!$"
+	.string "קפטן סטרן: {PLAYER}{KUN}!\p"
+	.string "סוף סוף סיימנו לבנות את המעבורת\n"
+	.string "ס.ס גאות!\p"
+	.string "לא היינו מצליחים בלי העזרה של\n"
+	.string "החבר שלך, מר ברייני.\p"
+	.string "בבקשה תצא{ADD_YUD} להפלגה קצרה עליה!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-	.string "CAPT. STERN: Oh?\n"
-	.string "{PLAYER}{KUN}, that item you have…\p"
-	.string "That's a SCANNER! That would sure\n"
-	.string "help us on our explorations.\p"
-	.string "{PLAYER}{KUN}, would you trade your\n"
-	.string "SCANNER for something?\p"
-	.string "Like, say, a DEEPSEATOOTH or\n"
-	.string "a DEEPSEASCALE that I have?$"
+	.string "קפטן סטרן: או?\n"
+	.string "{PLAYER}{KUN}, הפריט הזה שיש לך…\p"
+	.string "זה הסורק! זה בטוח יעזור\n"
+	.string "לנו בחקירות שלנו.\p"
+	.string "{PLAYER}{KUN}, האם תרצ{EMIT_HEY}{ADD_YUD} להחליף את\n"
+	.string "הסורק שלך עבור משהו?\p"
+	.string "כמו, למשל, שן מצולות\n"
+	.string "או קשקש מצולות שיש לי?$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
-	.string "CAPT. STERN: Are you certain?\n"
-	.string "It's useless to you, {PLAYER}{KUN}…\p"
-	.string "Well, okay, then. If you want to trade\n"
-	.string "your SCANNER, let me know.$"
+	.string "קפטן סטרן: את{EMIT_HEY} בטוח{ADD_HEY}?\n"
+	.string "זה חסר תועלת בשבילך, {PLAYER}{KUN}…\p"
+	.string "ובכן, בסדר, אז. אם תרצ{EMIT_HEY}{ADD_YUD} להחליף את\n"
+	.string "הסורק שלך, תודיע{ADD_YUD} לי.$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEATOOTH?$"
+	.string "קפטן סטרן: אז את{EMIT_HEY} תחלי{SWAP_PEY}{ADD_YUD} אותו עבורSo you'll trade it for\n"
+	.string "השן מצולות שלי?$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEASCALE?$"
+	.string "קפטן סטרן: אז את{EMIT_HEY} תחלי{SWAP_PEY}{ADD_YUD} אותו עבורSo you'll trade it for\n"
+	.string "הקשקש מצולות שלי?$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-	.string "CAPT. STERN: Which one do you want?$"
+	.string "קפטן סטרן: איזה אחד אתה רוצה?$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-	.string "{PLAYER} handed the SCANNER to\n"
-	.string "CAPT. STERN.$"
+	.string "{PLAYER} מסר{ADD_HEY} את הסורק\n"
+	.string "לקפטן סטרן.$"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
-	.string "This will help our research a lot!$"
+	.string "קפטן סטרן: תודה, {PLAYER}{KUN}!\n"
+	.string "זה יעזור המון למחקר שלנו!$"

@@ -57,48 +57,49 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	faceplayer
 	waitse
 	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	bufferspeciesname STR_VAR_1, SPECIES_PIKACHU
 	msgbox VerdanturfTown_FriendshipRatersHouse_Text_Pikachu, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
-	.string "Let me see your POKéMON.\n"
-	.string "I'll check to see how much it likes you.\p"
-	.string "Oh.\n"
-	.string "Your POKéMON…$"
+	.string "ת{SWAP_NUN}{ADD_YUD} לי לראות את הפוקימון שלך.\n"
+	.string "אני אבדוק כמה הוא אוהב אותך.\p"
+	.string "או.\n"
+	.string "הפוקימון שלך…$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
-	.string "It adores you.\n"
-	.string "It can't possibly love you any more.\l"
-	.string "I even feel happy seeing it.$"
+	.string "הוא מעריץ אותך.\n"
+	.string "הוא לא יכול לאהוב אותך יותר.\l"
+	.string "אני אפילו שמחה לראות את זה.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy:
-	.string "It seems to be very happy.\n"
-	.string "It obviously likes you a whole lot.$"
+	.string "נראה שהוא שמח מאוד.\n"
+	.string "הוא בבירור מחבב אותך מאוד.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot:
-	.string "It likes you quite a lot.\n"
-	.string "It seems to want to be babied a little.$"
+	.string "הוא מחבב אותך די הרבה.\n"
+	.string "נראה שהוא רוצה להתפנק קצת.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
-	.string "It's getting used to you.\n"
-	.string "It seems to believe in you.$"
+	.string "הוא מתרגל אליך.\n"
+	.string "נראה שהוא מאמין בך.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
-	.string "It's not very used to you yet.\n"
-	.string "It neither loves nor hates you.$"
+	.string "הוא עדיין לא התרגל אליך כל כך.\n"
+	.string "הוא לא אוהב או שונא אותך.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
-	.string "It's very wary.\n"
-	.string "It has scary viciousness in its eyes.\l"
-	.string "It doesn't like you much at all.$"
+	.string "הוא מאוד חשדן.\n"
+	.string "יש לו רשעות מפחידה בעיניים.\l"
+	.string "הוא לא מחבב אותך בכלל.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
-	.string "This is a little hard for me to say…\p"
-	.string "Your POKéMON simply detests you.\n"
-	.string "Doesn't that make you uncomfortable?$"
+	.string "קצת קשה לי לומר את זה…\p"
+	.string "הפוקימון שלך מתעב אותך.\n"
+	.string "האם זה לא גורם לך לחוסר נוחות?$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
-	.string "PIKACHU: Pika pika!$"
+	.string "{STR_VAR_1}: פיקא פיקא!$"
 

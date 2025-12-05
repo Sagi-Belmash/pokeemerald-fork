@@ -1,26 +1,26 @@
 SecretBase_Text_TreeCanBeClimbed:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "אם כמה גפנים ירדו, אפשר יהיה\n"
+	.string "לטפס על העץ.$"
 
 SecretBase_Text_TreeUseSecretPower:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the SECRET POWER?$"
+	.string "אם כמה גפנים ירדו, אפשר יהיה\n"
+	.string "לטפס על העץ.\p"
+	.string "להשתמש בכוח סודי?$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "גפן עבה ירד למטה!$"
 
 SecretBase_Text_ClumpOfGrass:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "אם גוש העשב יוזז,\n"
+	.string "אולי יהיה אפשר להיכנס.$"
 
 SecretBase_Text_ClumpUseSecretPower:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the SECRET POWER?$"
+	.string "אם גוש העשב יוזז,\n"
+	.string "אולי יהיה אפשר להיכנס.\p"
+	.string "להשתמש בכוח סודי?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "התגלתה כניסה קטנה!$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -672,66 +672,65 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "כל הקישוטים והרהיטים בבסיס\n"
+	.string "הסודי שלך יוחזרו למחשב.\p"
+	.string "האם זה בסדר?$ "
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE?$"
+	.string "רוצה לרשום את\n"
+	.string "הבסיס סודי של {STR_VAR_1}?$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "המידע הזה כבר רשום.\n"
+	.string "רוצה למחוק אותו?$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "עד ל-01 מיקומים ניתן לרשום.\p"
+	.string "מחק{ADD_YUD} מיקום אם ברצונך\n"
+	.string "לרשום מיקום אחר.$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "Registration completed.$"
+	.string "רישום הושלם.$"
 
 SecretBase_Text_DataUnregistered:
-	.string "Data has been unregistered.$"
+	.string "מידע בוטל מרישום.$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} העל{ADD_TAF}ה את המחשב.$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
-	.string "What would you like to do?$"
+	.string "מה תרצ{EMIT_HEY}{ADD_YUD} לעשות?$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
+	.string "ברגע שרשום, בסיס סודי לא ייעלם\n"
+	.string "אלא אם המאמן האחר מעביר אותו\l"
+	.string "למקום אחר.\p"
+	.string "אם בסיס סודי נמחק מהרישומים,\n"
+	.string "אחר עשוי לתפוס את מקומו.\p"
+	.string "ניתן לרשום עד עשרה מיקומי\n"
+	.string "בסיס סודי.$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
+	.string "מגן של {STR_VAR_2} המציין נצחון\n"
+	.string "{STR_VAR_1} פעמים ברצף במגדל הקרב.$"
 
 SecretBase_Text_ToyTV:
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "טלויזית צעצוע מציאותית. אפשר בקלות\n"
+	.string "לטעות ולחשוב שהיא אמיתית.$"
 
 SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "טלוויזיית צעצוע בצורת סידוט.\n"
+	.string "נראה שהיא מוכנה להתגלגל לבד…$"
 
 SecretBase_Text_SkittyTV:
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
+	.string "טלוויזיית צעצוע בצורת סקיטי.\n"
+	.string "נראה שהיא מוכנה לטייל לבד…$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
+	.string "אפשר ליצור רק בסיס סודי אחד.\p"
+	.string "להעביר את הבסיס הסודי\n"
+	.string "שליד {STR_VAR_1}?$ "
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "המעבר הושלם.\p"
+	.string "רוצה להשתמש בכוח סודי?$"

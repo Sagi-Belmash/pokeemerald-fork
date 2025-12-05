@@ -410,7 +410,7 @@ void BufferMatchCallNameAndDesc(struct PokenavMatchCallEntry *matchCallEntry, u8
     }
     else
     {
-        MatchCall_GetNameAndDesc(matchCallEntry->headerId, &className, &trainerName);
+        MatchCall_GetNameAndDesc(matchCallEntry->headerId, &trainerName, &className);
     }
 
     if (className && trainerName)

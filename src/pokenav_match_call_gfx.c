@@ -933,7 +933,7 @@ static void TryDrawRematchPokeballIcon(u16 windowId, u32 rematchId, u32 tileOffs
 {
     u8 bg = GetWindowAttribute(windowId, WINDOW_BG);
     u16 *tilemap = GetBgTilemapBuffer(bg);
-    tilemap += tileOffset * 64 + 0x1D;
+    tilemap += tileOffset * 64 + 0x0D;
     if (ShouldDrawRematchPokeballIcon(rematchId))
     {
         tilemap[0] = POKEBALL_ICON_TOP;

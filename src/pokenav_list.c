@@ -51,7 +51,7 @@ struct PokenavListSub
     u32 bgMoveType;
     PokenavListBufferItemFunc bufferItemFunc;
     void (*iconDrawFunc)(u16, u32, u32);
-    struct Sprite *rightArrow;
+    struct Sprite *leftArrow;
     struct Sprite *upArrow;
     struct Sprite *downArrow;
     u8 itemTextBuffer[64];
@@ -71,7 +71,7 @@ static bool32 CopyPokenavListMenuTemplate(struct PokenavListSub *, const struct 
 static void InitPokenavListWindowState(struct PokenavListWindowState *, struct PokenavListTemplate *);
 static void SpriteCB_UpArrow(struct Sprite *);
 static void SpriteCB_DownArrow(struct Sprite *);
-static void SpriteCB_RightArrow(struct Sprite *);
+static void SpriteCB_LeftArrow(struct Sprite *);
 static void ToggleListArrows(struct PokenavListSub *, bool32);
 static void DestroyListArrows(struct PokenavListSub *);
 static void CreateListArrowSprites(struct PokenavListWindowState *, struct PokenavListSub *);
@@ -783,7 +783,7 @@ static const struct SpritePalette sListArrowPalettes[] =
     {}
 };
 
-static const struct OamData sOamData_RightArrow =
+static const struct OamData sOamData_LeftArrow =
 {
     .y = 0,
     .affineMode = ST_OAM_AFFINE_OFF,
@@ -797,15 +797,15 @@ static const struct OamData sOamData_RightArrow =
     .paletteNum = 0
 };
 
-static const struct SpriteTemplate sSpriteTemplate_RightArrow =
+static const struct SpriteTemplate sSpriteTemplate_LeftArrow =
 {
     .tileTag = GFXTAG_ARROW,
     .paletteTag = PALTAG_ARROW,
-    .oam = &sOamData_RightArrow,
+    .oam = &sOamData_LeftArrow,
     .anims = gDummySpriteAnimTable,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_RightArrow
+    .callback = SpriteCB_LeftArrow
 };
 
 static const struct OamData sOamData_UpDownArrow =
@@ -849,8 +849,8 @@ static void CreateListArrowSprites(struct PokenavListWindowState *windowState, s
     u32 spriteId;
     s16 x;
 
-    spriteId = CreateSprite(&sSpriteTemplate_RightArrow, list->listWindow.x * 8 + 3, (list->listWindow.y + 1) * 8, 7);
-    list->rightArrow = &gSprites[spriteId];
+    spriteId = CreateSprite(&sSpriteTemplate_LeftArrow, list->listWindow.x * 8 + 128, (list->listWindow.y + 1) * 8, 7);
+    list->leftArrow = &gSprites[spriteId];
 
     x = list->listWindow.x * 8 + (list->listWindow.width - 1) * 4;
     spriteId = CreateSprite(&sSpriteTemplate_UpDownArrow, x, list->listWindow.y * 8 + windowState->entriesOnscreen * 16, 7);
@@ -866,7 +866,7 @@ static void CreateListArrowSprites(struct PokenavListWindowState *windowState, s
 
 static void DestroyListArrows(struct PokenavListSub *list)
 {
-    DestroySprite(list->rightArrow);
+    DestroySprite(list->leftArrow);
     DestroySprite(list->upArrow);
     DestroySprite(list->downArrow);
     FreeSpriteTilesByTag(GFXTAG_ARROW);
@@ -877,22 +877,22 @@ static void ToggleListArrows(struct PokenavListSub *list, bool32 invisible)
 {
     if (invisible)
     {
-        list->rightArrow->callback = SpriteCallbackDummy;
+        list->leftArrow->callback = SpriteCallbackDummy;
         list->upArrow->callback = SpriteCallbackDummy;
         list->downArrow->callback = SpriteCallbackDummy;
     }
     else
     {
-        list->rightArrow->callback = SpriteCB_RightArrow;
+        list->leftArrow->callback = SpriteCB_LeftArrow;
         list->upArrow->callback = SpriteCB_UpArrow;
         list->downArrow->callback = SpriteCB_DownArrow;
     }
-    list->rightArrow->invisible = invisible;
+    list->leftArrow->invisible = invisible;
     list->upArrow->invisible = invisible;
     list->downArrow->invisible = invisible;
 }
 
-static void SpriteCB_RightArrow(struct Sprite *sprite)
+static void SpriteCB_LeftArrow(struct Sprite *sprite)
 {
     struct PokenavList *list = GetSubstructPtr(POKENAV_SUBSTRUCT_LIST);
     sprite->y2 = list->windowState.selectedIndexOffset << 4;
@@ -1004,7 +1004,7 @@ static bool32 CopyPokenavListMenuTemplate(struct PokenavListSub *dest, const str
         return FALSE;
 
     dest->listWindow.unkA = 0;
-    dest->rightArrow = NULL;
+    dest->leftArrow = NULL;
     dest->upArrow = NULL;
     dest->downArrow = NULL;
     return 1;
